@@ -1,0 +1,527 @@
+[
+  {
+    "paper_id": "https://openalex.org/W2518638964",
+    "paper_title": "Understanding Subtitles by Character-Level Sequence-to-Sequence Learning",
+    "assumption": "Recurrent neural networks are necessary for sequence processing",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2518638964",
+    "paper_title": "Understanding Subtitles by Character-Level Sequence-to-Sequence Learning",
+    "assumption": "End-to-end learning is essential for effective sequence-to-sequence models",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2518638964",
+    "paper_title": "Understanding Subtitles by Character-Level Sequence-to-Sequence Learning",
+    "assumption": "Character-level processing is required to handle unknown or rare words",
+    "confidence": 0.8,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2518638964",
+    "paper_title": "Understanding Subtitles by Character-Level Sequence-to-Sequence Learning",
+    "assumption": "Alignment models are necessary for effective translation in sequence-to-sequence tasks",
+    "confidence": 0.75,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2518638964",
+    "paper_title": "Understanding Subtitles by Character-Level Sequence-to-Sequence Learning",
+    "assumption": "Attention mechanisms are essential for improving sequence-to-sequence model performance",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2327501763",
+    "paper_title": "Listen, attend and spell: A neural network for large vocabulary conversational speech recognition",
+    "assumption": "End-to-end training is essential for modern speech recognition systems",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2327501763",
+    "paper_title": "Listen, attend and spell: A neural network for large vocabulary conversational speech recognition",
+    "assumption": "Recurrent neural networks are necessary for processing sequential acoustic data",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2327501763",
+    "paper_title": "Listen, attend and spell: A neural network for large vocabulary conversational speech recognition",
+    "assumption": "Attention mechanisms are required for effective sequence-to-sequence transduction",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2327501763",
+    "paper_title": "Listen, attend and spell: A neural network for large vocabulary conversational speech recognition",
+    "assumption": "Character-level transcription is essential for direct speech-to-text systems",
+    "confidence": 0.75,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2327501763",
+    "paper_title": "Listen, attend and spell: A neural network for large vocabulary conversational speech recognition",
+    "assumption": "Language model rescoring is necessary for improving speech recognition accuracy",
+    "confidence": 0.7,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2267186426",
+    "paper_title": "Long Short-Term Memory-Networks for Machine Reading",
+    "assumption": "Recurrence is necessary for processing sequential data.",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2267186426",
+    "paper_title": "Long Short-Term Memory-Networks for Machine Reading",
+    "assumption": "Memory mechanisms are essential for handling long-range dependencies in sequences.",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2267186426",
+    "paper_title": "Long Short-Term Memory-Networks for Machine Reading",
+    "assumption": "Attention mechanisms are required for enhancing model focus on relevant parts of the input.",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2267186426",
+    "paper_title": "Long Short-Term Memory-Networks for Machine Reading",
+    "assumption": "Incremental processing is necessary for simulating human-like reading comprehension.",
+    "confidence": 0.75,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2267186426",
+    "paper_title": "Long Short-Term Memory-Networks for Machine Reading",
+    "assumption": "Neural networks require structured input to effectively perform reasoning tasks.",
+    "confidence": 0.7,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963974889",
+    "paper_title": "Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling",
+    "assumption": "Attention mechanisms are essential for improving sequence-to-sequence tasks",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963974889",
+    "paper_title": "Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling",
+    "assumption": "Joint modeling is necessary for optimizing related tasks simultaneously",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963974889",
+    "paper_title": "Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling",
+    "assumption": "Recurrent neural networks are required for processing sequential data",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963974889",
+    "paper_title": "Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling",
+    "assumption": "Explicit alignment is necessary for tasks involving slot filling",
+    "confidence": 0.75,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963974889",
+    "paper_title": "Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling",
+    "assumption": "State-of-the-art performance is measured by benchmark datasets like ATIS",
+    "confidence": 0.7,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2513263213",
+    "paper_title": "Attention-based Multimodal Neural Machine Translation",
+    "assumption": "Attention mechanisms are essential for effective sequence-to-sequence learning",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2513263213",
+    "paper_title": "Attention-based Multimodal Neural Machine Translation",
+    "assumption": "Multimodal integration is necessary for improving translation tasks involving multiple modalities",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2513263213",
+    "paper_title": "Attention-based Multimodal Neural Machine Translation",
+    "assumption": "LSTM networks are required for handling sequential data in neural machine translation",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2513263213",
+    "paper_title": "Attention-based Multimodal Neural Machine Translation",
+    "assumption": "Combining visual and textual features is essential for enhancing translation accuracy in multimodal tasks",
+    "confidence": 0.75,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2513263213",
+    "paper_title": "Attention-based Multimodal Neural Machine Translation",
+    "assumption": "Parallel processing of sequences is necessary for efficient neural machine translation",
+    "confidence": 0.7,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2252272516",
+    "paper_title": "Montreal Neural Machine Translation Systems for WMT’15",
+    "assumption": "Recurrent neural networks are necessary for sequence-to-sequence tasks",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2252272516",
+    "paper_title": "Montreal Neural Machine Translation Systems for WMT’15",
+    "assumption": "Attention mechanisms are essential for improving neural machine translation",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2252272516",
+    "paper_title": "Montreal Neural Machine Translation Systems for WMT’15",
+    "assumption": "Large vocabularies are required for effective neural machine translation",
+    "confidence": 0.8,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2252272516",
+    "paper_title": "Montreal Neural Machine Translation Systems for WMT’15",
+    "assumption": "Unknown word replacement is necessary for handling out-of-vocabulary words in translation",
+    "confidence": 0.7,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2252272516",
+    "paper_title": "Montreal Neural Machine Translation Systems for WMT’15",
+    "assumption": "Human evaluation is essential for assessing the quality of machine translation systems",
+    "confidence": 0.8,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2516310076",
+    "paper_title": "LSTM, GRU, Highway and a Bit of Attention: An Empirical Overview for Language Modeling in Speech Recognition",
+    "assumption": "Recurrence is necessary for processing sequential data in language modeling",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2516310076",
+    "paper_title": "LSTM, GRU, Highway and a Bit of Attention: An Empirical Overview for Language Modeling in Speech Recognition",
+    "assumption": "Gated mechanisms are essential for controlling information flow in neural networks",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2516310076",
+    "paper_title": "LSTM, GRU, Highway and a Bit of Attention: An Empirical Overview for Language Modeling in Speech Recognition",
+    "assumption": "Deep structures are required for improving model performance in language tasks",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2516310076",
+    "paper_title": "LSTM, GRU, Highway and a Bit of Attention: An Empirical Overview for Language Modeling in Speech Recognition",
+    "assumption": "Interpolation with count models is necessary for enhancing recognition accuracy",
+    "confidence": 0.75,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2516310076",
+    "paper_title": "LSTM, GRU, Highway and a Bit of Attention: An Empirical Overview for Language Modeling in Speech Recognition",
+    "assumption": "Attention mechanisms are essential for learning contextual word relationships",
+    "confidence": 0.7,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2514445058",
+    "paper_title": "Knowledge-Based Semantic Embedding for Machine Translation",
+    "assumption": "Recurrence is necessary for sequence processing in machine translation",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2514445058",
+    "paper_title": "Knowledge-Based Semantic Embedding for Machine Translation",
+    "assumption": "Semantic embedding is essential for capturing meaning in machine translation",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2514445058",
+    "paper_title": "Knowledge-Based Semantic Embedding for Machine Translation",
+    "assumption": "Knowledge bases are required for enhancing semantic understanding in translation models",
+    "confidence": 0.8,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2514445058",
+    "paper_title": "Knowledge-Based Semantic Embedding for Machine Translation",
+    "assumption": "Sequence-to-sequence frameworks are essential for modern machine translation",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2514445058",
+    "paper_title": "Knowledge-Based Semantic Embedding for Machine Translation",
+    "assumption": "Preserving internal meaning is necessary for accurate translation",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2554720547",
+    "paper_title": "Sentiment classification using Comprehensive Attention Recurrent models",
+    "assumption": "Recurrence is necessary for processing sequential data",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2554720547",
+    "paper_title": "Sentiment classification using Comprehensive Attention Recurrent models",
+    "assumption": "Bidirectional processing is essential for accessing both past and future context in sequences",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2554720547",
+    "paper_title": "Sentiment classification using Comprehensive Attention Recurrent models",
+    "assumption": "Capturing local context requires convolutional layers",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2554720547",
+    "paper_title": "Sentiment classification using Comprehensive Attention Recurrent models",
+    "assumption": "End-to-end training is necessary for model effectiveness",
+    "confidence": 0.75,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2554720547",
+    "paper_title": "Sentiment classification using Comprehensive Attention Recurrent models",
+    "assumption": "LSTM and GRU are required for enhancing standard RNN performance",
+    "confidence": 0.7,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W581956982",
+    "paper_title": "An Empirical Exploration of Recurrent Network Architectures",
+    "assumption": "Recurrence is necessary for modeling sequential data",
+    "confidence": 1.0,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W581956982",
+    "paper_title": "An Empirical Exploration of Recurrent Network Architectures",
+    "assumption": "Specialized gating mechanisms are essential for effective recurrent network training",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W581956982",
+    "paper_title": "An Empirical Exploration of Recurrent Network Architectures",
+    "assumption": "Architecture search is required to identify optimal recurrent network designs",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W581956982",
+    "paper_title": "An Empirical Exploration of Recurrent Network Architectures",
+    "assumption": "LSTM and GRU are foundational architectures for sequence modeling",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W581956982",
+    "paper_title": "An Empirical Exploration of Recurrent Network Architectures",
+    "assumption": "Bias initialization can significantly impact RNN performance",
+    "confidence": 0.7,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2139501017",
+    "paper_title": "Sequence to Sequence -- Video to Text",
+    "assumption": "Recurrent neural networks are necessary for modeling sequences in video-to-text tasks",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2139501017",
+    "paper_title": "Sequence to Sequence -- Video to Text",
+    "assumption": "Temporal structure learning is essential for video description generation",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2139501017",
+    "paper_title": "Sequence to Sequence -- Video to Text",
+    "assumption": "End-to-end training is required for effective sequence-to-sequence video description models",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2139501017",
+    "paper_title": "Sequence to Sequence -- Video to Text",
+    "assumption": "Video-sentence pair data is essential for training video captioning models",
+    "confidence": 0.8,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2139501017",
+    "paper_title": "Sequence to Sequence -- Video to Text",
+    "assumption": "State-of-the-art performance in video captioning requires learning both visual and language models",
+    "confidence": 0.75,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2507756961",
+    "paper_title": "Pointer networks",
+    "assumption": "Neural attention is necessary for handling variable size output dictionaries",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2507756961",
+    "paper_title": "Pointer networks",
+    "assumption": "Learning conditional probabilities of output sequences requires neural architectures",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2507756961",
+    "paper_title": "Pointer networks",
+    "assumption": "Sequence-to-sequence models require fixed output dictionary sizes",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2507756961",
+    "paper_title": "Pointer networks",
+    "assumption": "Generalization to variable input lengths is essential for solving combinatorial optimization problems",
+    "confidence": 0.75,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2507756961",
+    "paper_title": "Pointer networks",
+    "assumption": "Training examples alone are sufficient for learning approximate solutions to geometric problems",
+    "confidence": 0.7,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2508865106",
+    "paper_title": "Siamese Recurrent Architectures for Learning Sentence Similarity",
+    "assumption": "Recurrence is necessary for processing sequential data",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2508865106",
+    "paper_title": "Siamese Recurrent Architectures for Learning Sentence Similarity",
+    "assumption": "Word embeddings are essential for capturing semantic meaning",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2508865106",
+    "paper_title": "Siamese Recurrent Architectures for Learning Sentence Similarity",
+    "assumption": "Fixed-size vector representations are required for encoding sentences",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2508865106",
+    "paper_title": "Siamese Recurrent Architectures for Learning Sentence Similarity",
+    "assumption": "Semantic similarity tasks require labeled data",
+    "confidence": 0.8,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2508865106",
+    "paper_title": "Siamese Recurrent Architectures for Learning Sentence Similarity",
+    "assumption": "Structured vector spaces are necessary for reflecting semantic relationships",
+    "confidence": 0.75,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2467173223",
+    "paper_title": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks",
+    "assumption": "Recurrence is necessary for processing sequential data in neural networks.",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2467173223",
+    "paper_title": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks",
+    "assumption": "Attention mechanisms are essential for focusing on relevant parts of the input during sequence generation.",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2467173223",
+    "paper_title": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks",
+    "assumption": "End-to-end training is required for effective learning of complex neural network models.",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2467173223",
+    "paper_title": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks",
+    "assumption": "Large datasets are essential for training high-performance neural network models.",
+    "confidence": 0.75,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2467173223",
+    "paper_title": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks",
+    "assumption": "Learned features are necessary for effective model performance, as opposed to hand-crafted features.",
+    "confidence": 0.7,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963266340",
+    "paper_title": "A theoretically grounded application of dropout in recurrent neural networks",
+    "assumption": "Recurrent connections are essential for modeling sequential data",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963266340",
+    "paper_title": "A theoretically grounded application of dropout in recurrent neural networks",
+    "assumption": "Dropout is necessary to prevent overfitting in neural networks",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963266340",
+    "paper_title": "A theoretically grounded application of dropout in recurrent neural networks",
+    "assumption": "Bayesian inference is required for a principled understanding of uncertainty in neural networks",
+    "confidence": 0.7,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963266340",
+    "paper_title": "A theoretically grounded application of dropout in recurrent neural networks",
+    "assumption": "Variational inference is essential for approximating Bayesian models in deep learning",
+    "confidence": 0.7,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963266340",
+    "paper_title": "A theoretically grounded application of dropout in recurrent neural networks",
+    "assumption": "LSTM and GRU architectures are necessary for handling long-range dependencies in sequences",
+    "confidence": 0.8,
+    "category": "architectural"
+  }
+]

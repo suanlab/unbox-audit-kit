@@ -1,0 +1,292 @@
+{
+  "ran_at": "2026-03-18T20:05:13.320203+00:00",
+  "freeze_file": ".sisyphus/evidence/protocol_ablation_freeze.json",
+  "conditions": {
+    "A": {
+      "label": "Baseline",
+      "prompt_type": "paper_specific",
+      "corpus_type": "temporal_only",
+      "avg_recall_at_10": 0.0,
+      "categories": {
+        "transformer": {
+          "soft_rank": 76.0,
+          "soft_recall_at_10": 0.0,
+          "best_similarity": 0.5232
+        },
+        "diffusion": {
+          "soft_rank": 52.0,
+          "soft_recall_at_10": 0.0,
+          "best_similarity": 0.6507
+        },
+        "vit": {
+          "soft_rank": 76.0,
+          "soft_recall_at_10": 0.0,
+          "best_similarity": 0.5581
+        }
+      }
+    },
+    "B": {
+      "label": "Prompt-only",
+      "prompt_type": "field_wide",
+      "corpus_type": "temporal_only",
+      "avg_recall_at_10": 1.0,
+      "categories": {
+        "transformer": {
+          "soft_rank": 1.0,
+          "soft_recall_at_10": 1.0,
+          "best_similarity": 0.7987
+        },
+        "diffusion": {
+          "soft_rank": 1.0,
+          "soft_recall_at_10": 1.0,
+          "best_similarity": 0.8171
+        },
+        "vit": {
+          "soft_rank": 1.0,
+          "soft_recall_at_10": 1.0,
+          "best_similarity": 0.756
+        }
+      }
+    },
+    "C": {
+      "label": "Corpus-only",
+      "prompt_type": "paper_specific",
+      "corpus_type": "curated_representative",
+      "avg_recall_at_10": 0.0,
+      "categories": {
+        "transformer": {
+          "soft_rank": 76.0,
+          "soft_recall_at_10": 0.0,
+          "best_similarity": 0.5286
+        },
+        "diffusion": {
+          "soft_rank": 76.0,
+          "soft_recall_at_10": 0.0,
+          "best_similarity": 0.5902
+        },
+        "vit": {
+          "soft_rank": 76.0,
+          "soft_recall_at_10": 0.0,
+          "best_similarity": 0.5671
+        }
+      }
+    },
+    "D": {
+      "label": "Full (Unbox)",
+      "prompt_type": "field_wide",
+      "corpus_type": "curated_representative",
+      "avg_recall_at_10": 0.667,
+      "categories": {
+        "transformer": {
+          "soft_rank": 31.0,
+          "soft_recall_at_10": 0.0,
+          "best_similarity": 0.7987
+        },
+        "diffusion": {
+          "soft_rank": 1.0,
+          "soft_recall_at_10": 1.0,
+          "best_similarity": 0.8171
+        },
+        "vit": {
+          "soft_rank": 1.0,
+          "soft_recall_at_10": 1.0,
+          "best_similarity": 0.7125
+        }
+      }
+    }
+  },
+  "raw_results": [
+    {
+      "condition": "A",
+      "label": "Baseline",
+      "category": "transformer",
+      "prompt_type": "paper_specific",
+      "corpus_type": "temporal_only",
+      "num_papers": 15,
+      "num_unique_assumptions": 75,
+      "best_similarity": 0.5232,
+      "metrics": {
+        "soft_rank": 76.0,
+        "soft_recall_at_5": 0.0,
+        "soft_recall_at_10": 0.0,
+        "soft_recall_at_20": 0.0
+      }
+    },
+    {
+      "condition": "A",
+      "label": "Baseline",
+      "category": "diffusion",
+      "prompt_type": "paper_specific",
+      "corpus_type": "temporal_only",
+      "num_papers": 15,
+      "num_unique_assumptions": 75,
+      "best_similarity": 0.6507,
+      "metrics": {
+        "soft_rank": 52.0,
+        "soft_recall_at_5": 0.0,
+        "soft_recall_at_10": 0.0,
+        "soft_recall_at_20": 0.0
+      }
+    },
+    {
+      "condition": "A",
+      "label": "Baseline",
+      "category": "vit",
+      "prompt_type": "paper_specific",
+      "corpus_type": "temporal_only",
+      "num_papers": 15,
+      "num_unique_assumptions": 75,
+      "best_similarity": 0.5581,
+      "metrics": {
+        "soft_rank": 76.0,
+        "soft_recall_at_5": 0.0,
+        "soft_recall_at_10": 0.0,
+        "soft_recall_at_20": 0.0
+      }
+    },
+    {
+      "condition": "B",
+      "label": "Prompt-only",
+      "category": "transformer",
+      "prompt_type": "field_wide",
+      "corpus_type": "temporal_only",
+      "num_papers": 15,
+      "num_unique_assumptions": 75,
+      "best_similarity": 0.7987,
+      "metrics": {
+        "soft_rank": 1.0,
+        "soft_recall_at_5": 1.0,
+        "soft_recall_at_10": 1.0,
+        "soft_recall_at_20": 1.0
+      }
+    },
+    {
+      "condition": "B",
+      "label": "Prompt-only",
+      "category": "diffusion",
+      "prompt_type": "field_wide",
+      "corpus_type": "temporal_only",
+      "num_papers": 15,
+      "num_unique_assumptions": 73,
+      "best_similarity": 0.8171,
+      "metrics": {
+        "soft_rank": 1.0,
+        "soft_recall_at_5": 1.0,
+        "soft_recall_at_10": 1.0,
+        "soft_recall_at_20": 1.0
+      }
+    },
+    {
+      "condition": "B",
+      "label": "Prompt-only",
+      "category": "vit",
+      "prompt_type": "field_wide",
+      "corpus_type": "temporal_only",
+      "num_papers": 15,
+      "num_unique_assumptions": 73,
+      "best_similarity": 0.756,
+      "metrics": {
+        "soft_rank": 1.0,
+        "soft_recall_at_5": 1.0,
+        "soft_recall_at_10": 1.0,
+        "soft_recall_at_20": 1.0
+      }
+    },
+    {
+      "condition": "C",
+      "label": "Corpus-only",
+      "category": "transformer",
+      "prompt_type": "paper_specific",
+      "corpus_type": "curated_representative",
+      "num_papers": 15,
+      "num_unique_assumptions": 75,
+      "best_similarity": 0.5286,
+      "metrics": {
+        "soft_rank": 76.0,
+        "soft_recall_at_5": 0.0,
+        "soft_recall_at_10": 0.0,
+        "soft_recall_at_20": 0.0
+      }
+    },
+    {
+      "condition": "C",
+      "label": "Corpus-only",
+      "category": "diffusion",
+      "prompt_type": "paper_specific",
+      "corpus_type": "curated_representative",
+      "num_papers": 15,
+      "num_unique_assumptions": 75,
+      "best_similarity": 0.5902,
+      "metrics": {
+        "soft_rank": 76.0,
+        "soft_recall_at_5": 0.0,
+        "soft_recall_at_10": 0.0,
+        "soft_recall_at_20": 0.0
+      }
+    },
+    {
+      "condition": "C",
+      "label": "Corpus-only",
+      "category": "vit",
+      "prompt_type": "paper_specific",
+      "corpus_type": "curated_representative",
+      "num_papers": 15,
+      "num_unique_assumptions": 75,
+      "best_similarity": 0.5671,
+      "metrics": {
+        "soft_rank": 76.0,
+        "soft_recall_at_5": 0.0,
+        "soft_recall_at_10": 0.0,
+        "soft_recall_at_20": 0.0
+      }
+    },
+    {
+      "condition": "D",
+      "label": "Full (Unbox)",
+      "category": "transformer",
+      "prompt_type": "field_wide",
+      "corpus_type": "curated_representative",
+      "num_papers": 15,
+      "num_unique_assumptions": 75,
+      "best_similarity": 0.7987,
+      "metrics": {
+        "soft_rank": 31.0,
+        "soft_recall_at_5": 0.0,
+        "soft_recall_at_10": 0.0,
+        "soft_recall_at_20": 0.0
+      }
+    },
+    {
+      "condition": "D",
+      "label": "Full (Unbox)",
+      "category": "diffusion",
+      "prompt_type": "field_wide",
+      "corpus_type": "curated_representative",
+      "num_papers": 15,
+      "num_unique_assumptions": 71,
+      "best_similarity": 0.8171,
+      "metrics": {
+        "soft_rank": 1.0,
+        "soft_recall_at_5": 1.0,
+        "soft_recall_at_10": 1.0,
+        "soft_recall_at_20": 1.0
+      }
+    },
+    {
+      "condition": "D",
+      "label": "Full (Unbox)",
+      "category": "vit",
+      "prompt_type": "field_wide",
+      "corpus_type": "curated_representative",
+      "num_papers": 15,
+      "num_unique_assumptions": 74,
+      "best_similarity": 0.7125,
+      "metrics": {
+        "soft_rank": 1.0,
+        "soft_recall_at_5": 1.0,
+        "soft_recall_at_10": 1.0,
+        "soft_recall_at_20": 1.0
+      }
+    }
+  ]
+}

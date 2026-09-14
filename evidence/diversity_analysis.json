@@ -1,0 +1,115 @@
+{
+  "jaccard_overlap": {
+    "transformer": {
+      "jaccard_similarity": 0.0256,
+      "scam_count": 20,
+      "unbox_count": 20,
+      "intersection_size": 1,
+      "union_size": 39
+    },
+    "diffusion": {
+      "jaccard_similarity": 0.0,
+      "scam_count": 20,
+      "unbox_count": 20,
+      "intersection_size": 0,
+      "union_size": 40
+    },
+    "icl": {
+      "jaccard_similarity": 0.0,
+      "scam_count": 20,
+      "unbox_count": 20,
+      "intersection_size": 0,
+      "union_size": 40
+    },
+    "vit": {
+      "jaccard_similarity": 0.0,
+      "scam_count": 20,
+      "unbox_count": 20,
+      "intersection_size": 0,
+      "union_size": 40
+    },
+    "average": 0.0064
+  },
+  "lexical_diversity": {
+    "scam": {
+      "total_assumptions": 80,
+      "unique_unigrams": 294,
+      "unique_bigrams": 525,
+      "total_unigram_tokens": 915,
+      "total_bigram_tokens": 835,
+      "type_token_ratio_unigrams": 0.3213,
+      "type_token_ratio_bigrams": 0.6287
+    },
+    "unbox": {
+      "total_assumptions": 80,
+      "unique_unigrams": 222,
+      "unique_bigrams": 376,
+      "total_unigram_tokens": 846,
+      "total_bigram_tokens": 766,
+      "type_token_ratio_unigrams": 0.2624,
+      "type_token_ratio_bigrams": 0.4909
+    },
+    "comparison": {
+      "more_diverse_unigrams": "scam",
+      "more_diverse_bigrams": "scam",
+      "unigram_ratio": 0.7551,
+      "bigram_ratio": 0.7162
+    }
+  },
+  "category_distribution": {
+    "scam": {
+      "note": "SCAM assumptions are plain strings without category labels"
+    },
+    "unbox": {
+      "total_items": 80,
+      "transformation_distribution": {
+        "negate": 80
+      },
+      "note": "No explicit taxonomy category labels found in top_breakable_assumptions. Transformation distribution available instead."
+    }
+  },
+  "assumption_quality": {
+    "transformer": {
+      "num_papers": 60,
+      "max_assumptions_per_paper": 5,
+      "raw_extraction_upper_bound": 300,
+      "num_unique_assumptions": 65,
+      "num_ranked_hypotheses": 200,
+      "redundancy_rate": 0.7833,
+      "dedup_ratio": 0.2167
+    },
+    "diffusion": {
+      "num_papers": 60,
+      "max_assumptions_per_paper": 5,
+      "raw_extraction_upper_bound": 300,
+      "num_unique_assumptions": 56,
+      "num_ranked_hypotheses": 200,
+      "redundancy_rate": 0.8133,
+      "dedup_ratio": 0.1867
+    },
+    "icl": {
+      "num_papers": 60,
+      "max_assumptions_per_paper": 5,
+      "raw_extraction_upper_bound": 300,
+      "num_unique_assumptions": 65,
+      "num_ranked_hypotheses": 200,
+      "redundancy_rate": 0.7833,
+      "dedup_ratio": 0.2167
+    },
+    "vit": {
+      "num_papers": 60,
+      "max_assumptions_per_paper": 5,
+      "raw_extraction_upper_bound": 300,
+      "num_unique_assumptions": 66,
+      "num_ranked_hypotheses": 200,
+      "redundancy_rate": 0.78,
+      "dedup_ratio": 0.22
+    },
+    "average": {
+      "avg_redundancy_rate": 0.79,
+      "avg_unique_assumptions": 63.0,
+      "total_unique_assumptions": 252,
+      "total_raw_upper_bound": 1200
+    }
+  }
+}

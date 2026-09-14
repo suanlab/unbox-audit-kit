@@ -1,0 +1,527 @@
+[
+  {
+    "paper_id": "https://openalex.org/W2794026873",
+    "paper_title": "Compressed residual-VGG16 CNN model for big data places image recognition",
+    "assumption": "Convolutional neural networks are essential for image recognition tasks",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2794026873",
+    "paper_title": "Compressed residual-VGG16 CNN model for big data places image recognition",
+    "assumption": "Residual learning is necessary for faster convergence and better generalization in deep networks",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2794026873",
+    "paper_title": "Compressed residual-VGG16 CNN model for big data places image recognition",
+    "assumption": "Model compression is required for deploying deep learning models in resource-constrained environments",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2794026873",
+    "paper_title": "Compressed residual-VGG16 CNN model for big data places image recognition",
+    "assumption": "Large-scale datasets are essential for achieving high recognition accuracy in image classification",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2794026873",
+    "paper_title": "Compressed residual-VGG16 CNN model for big data places image recognition",
+    "assumption": "Maintaining recognition accuracy is necessary when compressing deep learning models",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963299740",
+    "paper_title": "Deeply Supervised Salient Object Detection with Short Connections",
+    "assumption": "Convolutional Neural Networks (CNNs) are essential for saliency detection",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963299740",
+    "paper_title": "Deeply Supervised Salient Object Detection with Short Connections",
+    "assumption": "Fully Convolutional Networks (FCNs) are necessary for semantic segmentation tasks",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963299740",
+    "paper_title": "Deeply Supervised Salient Object Detection with Short Connections",
+    "assumption": "Multi-scale feature maps are required for effective segment detection",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963299740",
+    "paper_title": "Deeply Supervised Salient Object Detection with Short Connections",
+    "assumption": "Deep supervision is essential for improving edge and boundary detection",
+    "confidence": 0.75,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963299740",
+    "paper_title": "Deeply Supervised Salient Object Detection with Short Connections",
+    "assumption": "Skip-layer structures are necessary for enhancing feature learning in CNNs",
+    "confidence": 0.7,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2569272946",
+    "paper_title": "Deeply Supervised Salient Object Detection with Short Connections",
+    "assumption": "Convolutional Neural Networks (CNNs) are essential for salient object detection",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2569272946",
+    "paper_title": "Deeply Supervised Salient Object Detection with Short Connections",
+    "assumption": "Fully Convolutional Networks (FCNs) are necessary for semantic segmentation and salient object detection",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2569272946",
+    "paper_title": "Deeply Supervised Salient Object Detection with Short Connections",
+    "assumption": "Multi-scale feature extraction is required for effective salient object detection",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2569272946",
+    "paper_title": "Deeply Supervised Salient Object Detection with Short Connections",
+    "assumption": "Deep supervision is necessary for improving edge and boundary detection",
+    "confidence": 0.75,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2569272946",
+    "paper_title": "Deeply Supervised Salient Object Detection with Short Connections",
+    "assumption": "Skip-layer structures are essential for enhancing feature representations in neural networks",
+    "confidence": 0.7,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2601564443",
+    "paper_title": "Deformable Convolutional Networks",
+    "assumption": "Convolutional layers are essential for visual feature extraction in neural networks",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2601564443",
+    "paper_title": "Deformable Convolutional Networks",
+    "assumption": "End-to-end training is necessary for optimizing neural network performance",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2601564443",
+    "paper_title": "Deformable Convolutional Networks",
+    "assumption": "Spatial invariance is required for effective image recognition",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2601564443",
+    "paper_title": "Deformable Convolutional Networks",
+    "assumption": "Standard back-propagation is essential for training deep neural networks",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2601564443",
+    "paper_title": "Deformable Convolutional Networks",
+    "assumption": "Data augmentation is necessary for improving model generalization in computer vision",
+    "confidence": 0.8,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2979750740",
+    "paper_title": "Dynamic Graph CNN for Learning on Point Clouds",
+    "assumption": "Convolutional neural networks are essential for processing point clouds in high-level tasks.",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2979750740",
+    "paper_title": "Dynamic Graph CNN for Learning on Point Clouds",
+    "assumption": "Local neighborhood information is necessary for learning meaningful features from point clouds.",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2979750740",
+    "paper_title": "Dynamic Graph CNN for Learning on Point Clouds",
+    "assumption": "Dynamic graph construction is required to capture the geometric relationships in point clouds.",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2979750740",
+    "paper_title": "Dynamic Graph CNN for Learning on Point Clouds",
+    "assumption": "Differentiability is essential for neural network modules to be integrated into existing architectures.",
+    "confidence": 0.75,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2979750740",
+    "paper_title": "Dynamic Graph CNN for Learning on Point Clouds",
+    "assumption": "Incorporating topology is necessary to enrich the representation power of point clouds.",
+    "confidence": 0.7,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2996290406",
+    "paper_title": "UNet++: Redesigning Skip Connections to Exploit Multiscale Features in Image Segmentation",
+    "assumption": "Convolutional architectures are essential for image segmentation tasks",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2996290406",
+    "paper_title": "UNet++: Redesigning Skip Connections to Exploit Multiscale Features in Image Segmentation",
+    "assumption": "Skip connections are necessary for effective feature fusion in encoder-decoder architectures",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2996290406",
+    "paper_title": "UNet++: Redesigning Skip Connections to Exploit Multiscale Features in Image Segmentation",
+    "assumption": "Deep supervision is required to improve learning in deep neural networks",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2996290406",
+    "paper_title": "UNet++: Redesigning Skip Connections to Exploit Multiscale Features in Image Segmentation",
+    "assumption": "Multiscale feature aggregation is necessary for accurate image segmentation",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2996290406",
+    "paper_title": "UNet++: Redesigning Skip Connections to Exploit Multiscale Features in Image Segmentation",
+    "assumption": "Medical image segmentation requires specialized network architectures",
+    "confidence": 0.75,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2563705555",
+    "paper_title": "RefineNet: Multi-path Refinement Networks for High-Resolution Semantic Segmentation",
+    "assumption": "Deep convolutional neural networks are essential for semantic segmentation",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2563705555",
+    "paper_title": "RefineNet: Multi-path Refinement Networks for High-Resolution Semantic Segmentation",
+    "assumption": "High-level semantic features are necessary for accurate semantic segmentation",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2563705555",
+    "paper_title": "RefineNet: Multi-path Refinement Networks for High-Resolution Semantic Segmentation",
+    "assumption": "Residual connections are required for effective end-to-end training of deep networks",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2563705555",
+    "paper_title": "RefineNet: Multi-path Refinement Networks for High-Resolution Semantic Segmentation",
+    "assumption": "Pooling operations are necessary for capturing spatial hierarchies in CNNs",
+    "confidence": 0.75,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2563705555",
+    "paper_title": "RefineNet: Multi-path Refinement Networks for High-Resolution Semantic Segmentation",
+    "assumption": "High-resolution prediction requires the integration of fine-grained features",
+    "confidence": 0.7,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2558460151",
+    "paper_title": "Geometric Deep Learning on Graphs and Manifolds Using Mixture Model CNNs",
+    "assumption": "Convolutional architectures are essential for learning spatial hierarchies in data",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2558460151",
+    "paper_title": "Geometric Deep Learning on Graphs and Manifolds Using Mixture Model CNNs",
+    "assumption": "Generalizing deep learning to non-Euclidean domains is necessary for handling graph and manifold data",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2558460151",
+    "paper_title": "Geometric Deep Learning on Graphs and Manifolds Using Mixture Model CNNs",
+    "assumption": "Local, stationary, and compositional feature learning is required for effective analysis of non-Euclidean data",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2558460151",
+    "paper_title": "Geometric Deep Learning on Graphs and Manifolds Using Mixture Model CNNs",
+    "assumption": "State-of-the-art performance in image analysis tasks requires convolutional neural networks",
+    "confidence": 0.75,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2558460151",
+    "paper_title": "Geometric Deep Learning on Graphs and Manifolds Using Mixture Model CNNs",
+    "assumption": "Deep learning methods need to be adapted to handle non-Euclidean structured data for broader applicability",
+    "confidence": 0.7,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2753403518",
+    "paper_title": "A Robust Deep-Learning-Based Detector for Real-Time Tomato Plant Diseases and Pests Recognition",
+    "assumption": "Deep learning is necessary for accurate object detection and recognition in complex scenarios",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2753403518",
+    "paper_title": "A Robust Deep-Learning-Based Detector for Real-Time Tomato Plant Diseases and Pests Recognition",
+    "assumption": "Convolutional neural networks are essential for processing image data",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2753403518",
+    "paper_title": "A Robust Deep-Learning-Based Detector for Real-Time Tomato Plant Diseases and Pests Recognition",
+    "assumption": "Large labeled datasets are required for training effective deep learning models",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2753403518",
+    "paper_title": "A Robust Deep-Learning-Based Detector for Real-Time Tomato Plant Diseases and Pests Recognition",
+    "assumption": "Data augmentation is necessary to improve model robustness and accuracy",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2753403518",
+    "paper_title": "A Robust Deep-Learning-Based Detector for Real-Time Tomato Plant Diseases and Pests Recognition",
+    "assumption": "End-to-end training is essential for optimizing deep learning systems for specific tasks",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2560622558",
+    "paper_title": "Richer Convolutional Features for Edge Detection",
+    "assumption": "Convolutional neural networks are essential for feature extraction in computer vision tasks.",
+    "confidence": 1.0,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2560622558",
+    "paper_title": "Richer Convolutional Features for Edge Detection",
+    "assumption": "Multiscale feature extraction is necessary for handling variations in scale and aspect ratio in images.",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2560622558",
+    "paper_title": "Richer Convolutional Features for Edge Detection",
+    "assumption": "Deep learning models require large labeled datasets for effective training.",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2560622558",
+    "paper_title": "Richer Convolutional Features for Edge Detection",
+    "assumption": "Backpropagation is necessary for training deep neural networks.",
+    "confidence": 1.0,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2560622558",
+    "paper_title": "Richer Convolutional Features for Edge Detection",
+    "assumption": "State-of-the-art performance is measured by benchmark datasets and metrics such as F-measure.",
+    "confidence": 0.95,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2897772777",
+    "paper_title": "Detection of Power Line Insulator Defects Using Aerial Images Analyzed With Convolutional Neural Networks",
+    "assumption": "Convolutional neural networks are essential for image-based defect detection",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2897772777",
+    "paper_title": "Detection of Power Line Insulator Defects Using Aerial Images Analyzed With Convolutional Neural Networks",
+    "assumption": "Data augmentation is necessary for improving model performance in scenarios with limited data",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2897772777",
+    "paper_title": "Detection of Power Line Insulator Defects Using Aerial Images Analyzed With Convolutional Neural Networks",
+    "assumption": "Region proposal networks are required for effective object localization in images",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2897772777",
+    "paper_title": "Detection of Power Line Insulator Defects Using Aerial Images Analyzed With Convolutional Neural Networks",
+    "assumption": "Deep learning models outperform traditional methods in complex image analysis tasks",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2897772777",
+    "paper_title": "Detection of Power Line Insulator Defects Using Aerial Images Analyzed With Convolutional Neural Networks",
+    "assumption": "Standard datasets are necessary for benchmarking defect detection methods",
+    "confidence": 0.75,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2783000019",
+    "paper_title": "Inverted Residuals and Linear Bottlenecks: Mobile Networks for Classification, Detection and Segmentation",
+    "assumption": "Lightweight architectures are essential for mobile applications",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2783000019",
+    "paper_title": "Inverted Residuals and Linear Bottlenecks: Mobile Networks for Classification, Detection and Segmentation",
+    "assumption": "Depthwise separable convolutions are necessary for efficient model design",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2783000019",
+    "paper_title": "Inverted Residuals and Linear Bottlenecks: Mobile Networks for Classification, Detection and Segmentation",
+    "assumption": "Residual connections are required for deep network training",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2783000019",
+    "paper_title": "Inverted Residuals and Linear Bottlenecks: Mobile Networks for Classification, Detection and Segmentation",
+    "assumption": "Model performance should be evaluated on multiple tasks and benchmarks",
+    "confidence": 0.8,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2783000019",
+    "paper_title": "Inverted Residuals and Linear Bottlenecks: Mobile Networks for Classification, Detection and Segmentation",
+    "assumption": "Reducing the number of parameters is essential for mobile network efficiency",
+    "confidence": 0.75,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2592160412",
+    "paper_title": "Skin Lesion Analysis towards Melanoma Detection Using Deep Learning Network",
+    "assumption": "Deep learning is essential for accurate image-based melanoma detection",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2592160412",
+    "paper_title": "Skin Lesion Analysis towards Melanoma Detection Using Deep Learning Network",
+    "assumption": "Convolutional neural networks are necessary for visual feature extraction in medical imaging",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2592160412",
+    "paper_title": "Skin Lesion Analysis towards Melanoma Detection Using Deep Learning Network",
+    "assumption": "Large annotated datasets are required for training effective deep learning models in medical image analysis",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2592160412",
+    "paper_title": "Skin Lesion Analysis towards Melanoma Detection Using Deep Learning Network",
+    "assumption": "Segmentation is essential for accurate classification of skin lesions",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2592160412",
+    "paper_title": "Skin Lesion Analysis towards Melanoma Detection Using Deep Learning Network",
+    "assumption": "High accuracy in lesion classification is necessary for clinical applicability",
+    "confidence": 0.8,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2914959431",
+    "paper_title": "Attention Residual Learning for Skin Lesion Classification",
+    "assumption": "Deep convolutional neural networks are essential for image classification tasks",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2914959431",
+    "paper_title": "Attention Residual Learning for Skin Lesion Classification",
+    "assumption": "Attention mechanisms are necessary for improving model focus on semantically meaningful parts of an image",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2914959431",
+    "paper_title": "Attention Residual Learning for Skin Lesion Classification",
+    "assumption": "Residual learning is required for improving discriminative representation in deep networks",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2914959431",
+    "paper_title": "Attention Residual Learning for Skin Lesion Classification",
+    "assumption": "Large labeled datasets are essential for training effective image classification models",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2914959431",
+    "paper_title": "Attention Residual Learning for Skin Lesion Classification",
+    "assumption": "Global average pooling is necessary for reducing the dimensionality of feature maps before classification",
+    "confidence": 0.7,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963319519",
+    "paper_title": "Graph-Based Global Reasoning Networks",
+    "assumption": "Convolutional operations are necessary for modeling local relations in images and videos.",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963319519",
+    "paper_title": "Graph-Based Global Reasoning Networks",
+    "assumption": "Global reasoning is essential for capturing relations between distant regions in visual data.",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963319519",
+    "paper_title": "Graph-Based Global Reasoning Networks",
+    "assumption": "End-to-end trainability is required for integrating new modules into existing neural network architectures.",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963319519",
+    "paper_title": "Graph-Based Global Reasoning Networks",
+    "assumption": "Graph-based methods are necessary for efficient relational reasoning in interaction spaces.",
+    "confidence": 0.75,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963319519",
+    "paper_title": "Graph-Based Global Reasoning Networks",
+    "assumption": "Enhancing CNNs with additional modules can improve performance on a wide range of tasks.",
+    "confidence": 0.7,
+    "category": "architectural"
+  }
+]

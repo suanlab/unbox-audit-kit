@@ -1,0 +1,12 @@
+{
+  "condition": "with_corpus",
+  "key": "vit",
+  "seed": 42,
+  "num_unique": 150,
+  "conf_rank": null,
+  "best_sim": 0.6479,
+  "r_at_5": 0,
+  "r_at_10": 0,
+  "r_at_20": 0,
+  "elapsed_s": 69.7
+}

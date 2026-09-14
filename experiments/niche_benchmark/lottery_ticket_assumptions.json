@@ -1,0 +1,908 @@
+{
+  "paradigm": "lottery_ticket",
+  "name": "Lottery Ticket Hypothesis",
+  "num_papers": 15,
+  "num_raw": 150,
+  "num_unique": 149,
+  "ground_truth": "Dense networks are necessary before pruning can work",
+  "aliases": [
+    "pruning requires training a full dense network first",
+    "sparse subnetworks cannot be trained from scratch"
+  ],
+  "assumptions": [
+    {
+      "assumption": "Transfer learning is essential for improving model performance when labeled data is limited.",
+      "confidence": 0.95,
+      "category": "training",
+      "source_paper": "Transfer Learning with Deep Convolutional Neural Network for SAR Target Classification with Limited Labeled Data"
+    },
+    {
+      "assumption": "Deep Convolutional Neural Networks are essential for achieving high accuracy in complex image classification tasks.",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Very Deep Convolutional Neural Networks for Complex Land Cover Mapping Using Multispectral Remote Sensing Imagery"
+    },
+    {
+      "assumption": "Model compression is necessary for deploying deep neural networks on resource-constrained devices.",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "CLIP-Q: Deep Network Compression Learning by In-parallel Pruning-Quantization"
+    },
+    {
+      "assumption": "Compression techniques are essential for deploying deep neural networks on resource-constrained hardware.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "EIE"
+    },
+    {
+      "assumption": "Reducing memory access is necessary for improving energy efficiency in neural network inference.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "EIE"
+    },
+    {
+      "assumption": "Sparse representations are essential for improving performance and energy efficiency in neural network accelerators.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "SCNN"
+    },
+    {
+      "assumption": "Efficient dataflow architectures are required for optimizing data movement and computation in neural network accelerators.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "SCNN"
+    },
+    {
+      "assumption": "Energy efficiency is required for deploying CNNs on mobile and resource-constrained platforms.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "SCNN"
+    },
+    {
+      "assumption": "High performance is essential for the practical deployment of CNNs in real-time applications.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "SCNN"
+    },
+    {
+      "assumption": "Sparse representations are essential for reducing computational and memory demands in neural networks.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Cambricon-S: Addressing Irregularity in Sparse Neural Networks through A Cooperative Software/Hardware Approach"
+    },
+    {
+      "assumption": "Hardware accelerators are necessary for efficiently executing neural networks, especially those with sparse architectures.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Cambricon-S: Addressing Irregularity in Sparse Neural Networks through A Cooperative Software/Hardware Approach"
+    },
+    {
+      "assumption": "Performance and energy efficiency are essential metrics for evaluating the effectiveness of neural network accelerators.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "Cambricon-S: Addressing Irregularity in Sparse Neural Networks through A Cooperative Software/Hardware Approach"
+    },
+    {
+      "assumption": "High performance and energy efficiency are essential for deploying CNNs in mobile platforms.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "SCNN"
+    },
+    {
+      "assumption": "Structured sparsity is essential for efficient deployment of deep learning models on resource-constrained devices.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Structured Pruning of Deep Convolutional Neural Networks"
+    },
+    {
+      "assumption": "Pruning is necessary for reducing the computational complexity of deep neural networks.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Structured Pruning of Deep Convolutional Neural Networks"
+    },
+    {
+      "assumption": "Deep neural networks require large amounts of computational resources for training and inference.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "ThiNet: A Filter Level Pruning Method for Deep Neural Network Compression"
+    },
+    {
+      "assumption": "Model compression is essential for deploying deep neural networks on resource-constrained devices.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "ThiNet: A Filter Level Pruning Method for Deep Neural Network Compression"
+    },
+    {
+      "assumption": "Maintaining model accuracy is essential when applying compression techniques to neural networks.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "ThiNet: A Filter Level Pruning Method for Deep Neural Network Compression"
+    },
+    {
+      "assumption": "Sparsity is essential for efficient deployment of large-scale deep neural networks on hardware platforms.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "SNrram: An Efficient Sparse Neural Network Computation Architecture Based on Resistive Random-Access Memory"
+    },
+    {
+      "assumption": "Efficient hardware architectures are required for the practical deployment of deep neural networks.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "SNrram: An Efficient Sparse Neural Network Computation Architecture Based on Resistive Random-Access Memory"
+    },
+    {
+      "assumption": "Experimental validation is essential for demonstrating the efficiency of new neural network architectures.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "SNrram: An Efficient Sparse Neural Network Computation Architecture Based on Resistive Random-Access Memory"
+    },
+    {
+      "assumption": "Deep learning benchmarks are required for evaluating the performance of neural network architectures.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "SNrram: An Efficient Sparse Neural Network Computation Architecture Based on Resistive Random-Access Memory"
+    },
+    {
+      "assumption": "Sparsity is essential for efficient deployment of deep neural networks on hardware platforms.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "SNrram"
+    },
+    {
+      "assumption": "Efficient hardware architectures are required for the practical deployment of large-scale neural networks.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "SNrram"
+    },
+    {
+      "assumption": "Reducing power consumption is necessary for the efficient operation of neural network hardware.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "SNrram"
+    },
+    {
+      "assumption": "Experimental validation is essential for demonstrating the effectiveness of new neural network architectures.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "SNrram"
+    },
+    {
+      "assumption": "Large-scale deep neural networks are necessary for achieving state-of-the-art performance in complex tasks.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "C <scp>ir</scp> CNN"
+    },
+    {
+      "assumption": "Maintaining accuracy is essential when optimizing deep neural networks for performance and efficiency.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "C <scp>ir</scp> CNN"
+    },
+    {
+      "assumption": "Incremental learning is necessary for neural networks to efficiently learn new tasks without forgetting previous ones.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Measuring Catastrophic Forgetting in Neural Networks"
+    },
+    {
+      "assumption": "Mitigating catastrophic forgetting is essential for the practical deployment of neural networks in dynamic environments.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Measuring Catastrophic Forgetting in Neural Networks"
+    },
+    {
+      "assumption": "Deep neural networks are necessary for achieving state-of-the-art accuracy in visual recognition tasks.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Deep Neural Network Compression by In-Parallel Pruning-Quantization"
+    },
+    {
+      "assumption": "Network compression is essential for deploying deep neural networks on resource-constrained systems.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Deep Neural Network Compression by In-Parallel Pruning-Quantization"
+    },
+    {
+      "assumption": "Deep convolutional neural networks are necessary for effective image feature extraction.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Transfer Learning with Deep Convolutional Neural Network for SAR Target Classification with Limited Labeled Data"
+    },
+    {
+      "assumption": "Large-scale annotated datasets are required for training deep learning models effectively.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Transfer Learning with Deep Convolutional Neural Network for SAR Target Classification with Limited Labeled Data"
+    },
+    {
+      "assumption": "Multispectral data is necessary for accurate land cover mapping in remote sensing.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Very Deep Convolutional Neural Networks for Complex Land Cover Mapping Using Multispectral Remote Sensing Imagery"
+    },
+    {
+      "assumption": "Evaluation of model performance using accuracy metrics is required to validate classification effectiveness.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "Very Deep Convolutional Neural Networks for Complex Land Cover Mapping Using Multispectral Remote Sensing Imagery"
+    },
+    {
+      "assumption": "Continuous distributed representations are essential for capturing the semantic meaning of biological sequences.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Continuous Distributed Representation of Biological Sequences for Deep Proteomics and Genomics"
+    },
+    {
+      "assumption": "Deep learning models are necessary for effective feature extraction in proteomics and genomics.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Continuous Distributed Representation of Biological Sequences for Deep Proteomics and Genomics"
+    },
+    {
+      "assumption": "Pruning and quantization are essential techniques for reducing the size and computational requirements of deep neural networks.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "CLIP-Q: Deep Network Compression Learning by In-parallel Pruning-Quantization"
+    },
+    {
+      "assumption": "Maintaining accuracy while compressing models is required for practical deployment of deep learning systems.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "CLIP-Q: Deep Network Compression Learning by In-parallel Pruning-Quantization"
+    },
+    {
+      "assumption": "Network pruning is necessary for reducing computational complexity and enhancing efficiency in CNNs.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "SCNN"
+    },
+    {
+      "assumption": "Compressed encoding of weights and activations is essential for minimizing storage and data transfer requirements in CNNs.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "SCNN"
+    },
+    {
+      "assumption": "Maintaining sparsity in neural networks is essential for achieving significant improvements in computational efficiency.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "SCNN"
+    },
+    {
+      "assumption": "Cooperative software/hardware approaches are required to fully leverage the benefits of sparsity in neural networks.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Cambricon-S: Addressing Irregularity in Sparse Neural Networks through A Cooperative Software/Hardware Approach"
+    },
+    {
+      "assumption": "Addressing irregularity in sparse neural networks is essential for achieving optimal performance and energy efficiency.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Cambricon-S: Addressing Irregularity in Sparse Neural Networks through A Cooperative Software/Hardware Approach"
+    },
+    {
+      "assumption": "State-of-the-art performance is required for neural network models to be considered successful in their applications.",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "Cambricon-S: Addressing Irregularity in Sparse Neural Networks through A Cooperative Software/Hardware Approach"
+    },
+    {
+      "assumption": "Exploiting sparsity in neural networks is necessary for improving computational efficiency.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "SCNN"
+    },
+    {
+      "assumption": "Pruning and compression are necessary for leveraging sparsity in deep neural networks.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "SNrram: An Efficient Sparse Neural Network Computation Architecture Based on Resistive Random-Access Memory"
+    },
+    {
+      "assumption": "Resource utilization optimization is necessary for improving performance and power efficiency in neural network accelerators.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "SNrram: An Efficient Sparse Neural Network Computation Architecture Based on Resistive Random-Access Memory"
+    },
+    {
+      "assumption": "Hardware-specific optimizations are necessary for achieving significant improvements in power consumption and speed.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "SNrram: An Efficient Sparse Neural Network Computation Architecture Based on Resistive Random-Access Memory"
+    },
+    {
+      "assumption": "Resource utilization is essential for the performance of neural network accelerators.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "SNrram"
+    },
+    {
+      "assumption": "Speedup is required for the effective deployment of neural networks on hardware accelerators.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "SNrram"
+    },
+    {
+      "assumption": "Handling both weights and activation sparsity is required for maximizing efficiency in neural network computations.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "SNrram"
+    },
+    {
+      "assumption": "Model size is essential for determining the performance, scalability, and energy efficiency of deep neural networks.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "C <scp>ir</scp> CNN"
+    },
+    {
+      "assumption": "Reducing computational complexity is necessary for improving the performance of deep neural networks.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "C <scp>ir</scp> CNN"
+    },
+    {
+      "assumption": "Comparative evaluation of different methods is required to understand their effectiveness in mitigating catastrophic forgetting.",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "Measuring Catastrophic Forgetting in Neural Networks"
+    },
+    {
+      "assumption": "Benchmarks and metrics are necessary for the standardized evaluation of catastrophic forgetting mitigation techniques.",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "Measuring Catastrophic Forgetting in Neural Networks"
+    },
+    {
+      "assumption": "Pre-trained models are essential for leveraging knowledge from related tasks.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Transfer Learning with Deep Convolutional Neural Network for SAR Target Classification with Limited Labeled Data"
+    },
+    {
+      "assumption": "Full-training of deep learning models is required to achieve optimal performance in classification tasks.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Very Deep Convolutional Neural Networks for Complex Land Cover Mapping Using Multispectral Remote Sensing Imagery"
+    },
+    {
+      "assumption": "State-of-the-art deep learning architectures are necessary for handling the complexity of remote sensing data.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Very Deep Convolutional Neural Networks for Complex Land Cover Mapping Using Multispectral Remote Sensing Imagery"
+    },
+    {
+      "assumption": "The use of well-established deep learning models is necessary to ensure reproducibility and comparability of results.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Very Deep Convolutional Neural Networks for Complex Land Cover Mapping Using Multispectral Remote Sensing Imagery"
+    },
+    {
+      "assumption": "Large datasets are required for training accurate models in bioinformatics.",
+      "confidence": 0.85,
+      "category": "data",
+      "source_paper": "Continuous Distributed Representation of Biological Sequences for Deep Proteomics and Genomics"
+    },
+    {
+      "assumption": "Pre-trained models are essential for improving performance in various bioinformatics applications.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Continuous Distributed Representation of Biological Sequences for Deep Proteomics and Genomics"
+    },
+    {
+      "assumption": "Joint optimization of multiple compression techniques is necessary to achieve better compression rates without sacrificing performance.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "CLIP-Q: Deep Network Compression Learning by In-parallel Pruning-Quantization"
+    },
+    {
+      "assumption": "Fine-tuning is essential for recovering accuracy after applying compression techniques to neural networks.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "CLIP-Q: Deep Network Compression Learning by In-parallel Pruning-Quantization"
+    },
+    {
+      "assumption": "Sparse representations are required for efficient computation in neural network accelerators.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "EIE"
+    },
+    {
+      "assumption": "Weight sharing is essential for reducing the memory footprint of neural networks.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "EIE"
+    },
+    {
+      "assumption": "On-chip memory (e.g., SRAM) is necessary for achieving high energy efficiency in neural network accelerators.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "EIE"
+    },
+    {
+      "assumption": "Custom hardware is required to achieve significant performance improvements over general-purpose processors for neural network inference.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "EIE"
+    },
+    {
+      "assumption": "ReLU activations are necessary for introducing sparsity in neural network computations.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "SCNN"
+    },
+    {
+      "assumption": "Multiplier arrays are necessary for efficient computation of neural network operations.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "SCNN"
+    },
+    {
+      "assumption": "Product accumulation is required for the effective execution of neural network computations.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "SCNN"
+    },
+    {
+      "assumption": "Pruning techniques are necessary for reducing the complexity and improving the efficiency of neural networks.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Cambricon-S: Addressing Irregularity in Sparse Neural Networks through A Cooperative Software/Hardware Approach"
+    },
+    {
+      "assumption": "Quantization is essential for reducing the size of neural network models and improving computational efficiency.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Cambricon-S: Addressing Irregularity in Sparse Neural Networks through A Cooperative Software/Hardware Approach"
+    },
+    {
+      "assumption": "Network pruning is required to achieve sparsity in neural networks.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "SCNN"
+    },
+    {
+      "assumption": "Compressed encoding of sparse data is essential for reducing data transfer and storage requirements.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "SCNN"
+    },
+    {
+      "assumption": "Retraining is required after pruning to recover the performance of the neural network.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Structured Pruning of Deep Convolutional Neural Networks"
+    },
+    {
+      "assumption": "The importance of network connections must be evaluated to effectively prune a neural network.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Structured Pruning of Deep Convolutional Neural Networks"
+    },
+    {
+      "assumption": "Pruning is a necessary technique for reducing the size and computational cost of deep neural networks.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "ThiNet: A Filter Level Pruning Method for Deep Neural Network Compression"
+    },
+    {
+      "assumption": "Filter-level pruning is a valid approach for reducing the complexity of convolutional neural networks.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "ThiNet: A Filter Level Pruning Method for Deep Neural Network Compression"
+    },
+    {
+      "assumption": "Benchmark datasets like ILSVRC-12 are required for evaluating the performance of compression methods.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "ThiNet: A Filter Level Pruning Method for Deep Neural Network Compression"
+    },
+    {
+      "assumption": "A small drop in accuracy is acceptable if it results in significant reductions in model size and computational cost.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "ThiNet: A Filter Level Pruning Method for Deep Neural Network Compression"
+    },
+    {
+      "assumption": "RRAM crossbar-based architectures are essential for advancing the study of network sparsity.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "SNrram: An Efficient Sparse Neural Network Computation Architecture Based on Resistive Random-Access Memory"
+    },
+    {
+      "assumption": "Eliminating zero-value multiplications is required for better resource utilization in sparse neural network architectures.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "SNrram: An Efficient Sparse Neural Network Computation Architecture Based on Resistive Random-Access Memory"
+    },
+    {
+      "assumption": "The study of network sparsity is essential for the development of efficient neural network computation architectures.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "SNrram: An Efficient Sparse Neural Network Computation Architecture Based on Resistive Random-Access Memory"
+    },
+    {
+      "assumption": "RRAM crossbar-based architectures require specialized methods to handle network sparsity.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "SNrram"
+    },
+    {
+      "assumption": "State-of-the-art benchmarks are necessary for evaluating the performance of neural network accelerators.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "SNrram"
+    },
+    {
+      "assumption": "Energy efficiency is required for the practical deployment of deep neural networks, especially in resource-constrained environments.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "C <scp>ir</scp> CNN"
+    },
+    {
+      "assumption": "Mathematical rigor is necessary for ensuring the effectiveness of compression techniques in deep neural networks.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "C <scp>ir</scp> CNN"
+    },
+    {
+      "assumption": "Fast multiplication techniques, such as FFT, are necessary for reducing the computational complexity of deep neural networks.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "C <scp>ir</scp> CNN"
+    },
+    {
+      "assumption": "Real-world data is essential for evaluating the performance of neural networks in mitigating catastrophic forgetting.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Measuring Catastrophic Forgetting in Neural Networks"
+    },
+    {
+      "assumption": "Regularization, ensembling, rehearsal, dual-memory, and sparse-coding are necessary mechanisms to explore for mitigating catastrophic forgetting.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Measuring Catastrophic Forgetting in Neural Networks"
+    },
+    {
+      "assumption": "Pruning and quantization are required techniques for reducing the size and computational demands of neural networks.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Deep Neural Network Compression by In-Parallel Pruning-Quantization"
+    },
+    {
+      "assumption": "Fine-tuning is necessary to recover performance after network compression techniques like pruning and quantization.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Deep Neural Network Compression by In-Parallel Pruning-Quantization"
+    },
+    {
+      "assumption": "Efficient utilization of computational resources is essential for the practical deployment of neural networks.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Deep Neural Network Compression by In-Parallel Pruning-Quantization"
+    },
+    {
+      "assumption": "Synthetic Aperture Radar (SAR) data requires specialized processing techniques distinct from optical imagery.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Transfer Learning with Deep Convolutional Neural Network for SAR Target Classification with Limited Labeled Data"
+    },
+    {
+      "assumption": "Hierarchical feature learning is necessary for capturing complex patterns in image data.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Transfer Learning with Deep Convolutional Neural Network for SAR Target Classification with Limited Labeled Data"
+    },
+    {
+      "assumption": "Comparative evaluation with traditional machine learning methods is essential to demonstrate the superiority of deep learning approaches.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Very Deep Convolutional Neural Networks for Complex Land Cover Mapping Using Multispectral Remote Sensing Imagery"
+    },
+    {
+      "assumption": "High-resolution imagery is required for effective classification in remote sensing applications.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Very Deep Convolutional Neural Networks for Complex Land Cover Mapping Using Multispectral Remote Sensing Imagery"
+    },
+    {
+      "assumption": "High-dimensional vector representations are necessary for encoding complex biological information.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Continuous Distributed Representation of Biological Sequences for Deep Proteomics and Genomics"
+    },
+    {
+      "assumption": "Classification accuracy is a primary metric for evaluating model performance in bioinformatics.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Continuous Distributed Representation of Biological Sequences for Deep Proteomics and Genomics"
+    },
+    {
+      "assumption": "Artificial neural networks are required for modeling complex relationships in biological data.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Continuous Distributed Representation of Biological Sequences for Deep Proteomics and Genomics"
+    },
+    {
+      "assumption": "The complementary nature of different compression techniques is required to maximize the efficiency of model compression.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "CLIP-Q: Deep Network Compression Learning by In-parallel Pruning-Quantization"
+    },
+    {
+      "assumption": "Large-scale datasets like ImageNet are necessary for evaluating the effectiveness of model compression techniques.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "CLIP-Q: Deep Network Compression Learning by In-parallel Pruning-Quantization"
+    },
+    {
+      "assumption": "Efficient indexing is required to manage the irregularity introduced by sparsity in neural networks.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "Cambricon-S: Addressing Irregularity in Sparse Neural Networks through A Cooperative Software/Hardware Approach"
+    },
+    {
+      "assumption": "Efficient dataflow architectures are necessary for maximizing the reuse of weights and activations.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "SCNN"
+    },
+    {
+      "assumption": "Weight pruning is a required technique for compressing deep neural networks, despite its drawbacks.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "C <scp>ir</scp> CNN"
+    },
+    {
+      "assumption": "Testing on multiple hardware platforms is required to demonstrate the performance and energy efficiency of deep neural network architectures.",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "C <scp>ir</scp> CNN"
+    },
+    {
+      "assumption": "Understanding the variability of mechanism performance based on data type and training paradigm is required for effective application.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "Measuring Catastrophic Forgetting in Neural Networks"
+    },
+    {
+      "assumption": "Incremental training paradigms are essential for testing the adaptability of neural networks to new tasks.",
+      "confidence": 0.75,
+      "category": "training",
+      "source_paper": "Measuring Catastrophic Forgetting in Neural Networks"
+    },
+    {
+      "assumption": "Reconstruction pathways are essential for enhancing feature learning in unsupervised settings.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "Transfer Learning with Deep Convolutional Neural Network for SAR Target Classification with Limited Labeled Data"
+    },
+    {
+      "assumption": "Integration of different architectural modules (e.g., Inception and ResNet) is essential for improving model performance.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "Very Deep Convolutional Neural Networks for Complex Land Cover Mapping Using Multispectral Remote Sensing Imagery"
+    },
+    {
+      "assumption": "Sequence data alone is sufficient for predicting structural and functional properties of proteins.",
+      "confidence": 0.75,
+      "category": "data",
+      "source_paper": "Continuous Distributed Representation of Biological Sequences for Deep Proteomics and Genomics"
+    },
+    {
+      "assumption": "State-of-the-art accuracy on visual recognition tasks is essential for validating the success of compression methods.",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "CLIP-Q: Deep Network Compression Learning by In-parallel Pruning-Quantization"
+    },
+    {
+      "assumption": "Deep neural networks inherently contain redundancy that can be exploited through compression techniques.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "CLIP-Q: Deep Network Compression Learning by In-parallel Pruning-Quantization"
+    },
+    {
+      "assumption": "Efficient handling of zero activations is necessary for optimizing neural network performance.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "EIE"
+    },
+    {
+      "assumption": "Energy efficiency is a critical metric for evaluating the performance of neural network accelerators.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "EIE"
+    },
+    {
+      "assumption": "Throughput is an essential metric for assessing the performance of neural network hardware.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "EIE"
+    },
+    {
+      "assumption": "Local convergence properties are necessary for optimizing the pruning and quantization processes in neural networks.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Cambricon-S: Addressing Irregularity in Sparse Neural Networks through A Cooperative Software/Hardware Approach"
+    },
+    {
+      "assumption": "ReLU is a standard activation function that commonly results in zero-valued activations.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "SCNN"
+    },
+    {
+      "assumption": "Multiplier arrays are required for efficient computation in CNN accelerators.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "SCNN"
+    },
+    {
+      "assumption": "Parallel computation is essential for handling the computational demands of deep learning models.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Structured Pruning of Deep Convolutional Neural Networks"
+    },
+    {
+      "assumption": "Reducing memory access is necessary for improving the efficiency of deep learning models in real-time applications.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Structured Pruning of Deep Convolutional Neural Networks"
+    },
+    {
+      "assumption": "The structure of the original network is essential for compatibility with existing deep learning libraries.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "ThiNet: A Filter Level Pruning Method for Deep Neural Network Compression"
+    },
+    {
+      "assumption": "Statistical information from layers is necessary for effective pruning decisions.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "ThiNet: A Filter Level Pruning Method for Deep Neural Network Compression"
+    },
+    {
+      "assumption": "Generalization ability is essential for the practical deployment of compressed models.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "ThiNet: A Filter Level Pruning Method for Deep Neural Network Compression"
+    },
+    {
+      "assumption": "Universal inference engines are essential for the adaptability of deep neural networks across various hardware and software platforms.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "C <scp>ir</scp> CNN"
+    },
+    {
+      "assumption": "The catastrophic forgetting problem is a fundamental challenge that is not yet solved in neural network research.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Measuring Catastrophic Forgetting in Neural Networks"
+    },
+    {
+      "assumption": "Small-scale problems like MNIST are insufficient for evaluating the effectiveness of catastrophic forgetting mitigation techniques.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Measuring Catastrophic Forgetting in Neural Networks"
+    },
+    {
+      "assumption": "State-of-the-art network architectures are required to be both deep and densely connected to achieve high accuracy.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Deep Neural Network Compression by In-Parallel Pruning-Quantization"
+    },
+    {
+      "assumption": "Compression techniques must be compatible with a variety of network architectures to be broadly applicable.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Deep Neural Network Compression by In-Parallel Pruning-Quantization"
+    },
+    {
+      "assumption": "Evaluation on benchmark datasets like ImageNet is necessary to validate the effectiveness of network compression methods.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Deep Neural Network Compression by In-Parallel Pruning-Quantization"
+    },
+    {
+      "assumption": "Feedback mechanisms are required to improve model robustness and performance.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Transfer Learning with Deep Convolutional Neural Network for SAR Target Classification with Limited Labeled Data"
+    },
+    {
+      "assumption": "Reconstruction loss is necessary for improving the quality of learned representations.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Transfer Learning with Deep Convolutional Neural Network for SAR Target Classification with Limited Labeled Data"
+    },
+    {
+      "assumption": "Theoretical understanding of deep learning architectures is necessary to guide the selection of models for specific tasks.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Very Deep Convolutional Neural Networks for Complex Land Cover Mapping Using Multispectral Remote Sensing Imagery"
+    },
+    {
+      "assumption": "Support vector machines are a valid method for classification tasks in bioinformatics.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Continuous Distributed Representation of Biological Sequences for Deep Proteomics and Genomics"
+    },
+    {
+      "assumption": "Generalization from training data to unseen data is essential for model applicability in real-world bioinformatics tasks.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Continuous Distributed Representation of Biological Sequences for Deep Proteomics and Genomics"
+    },
+    {
+      "assumption": "The scalability of compression methods to different architectures is required for their general applicability.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "CLIP-Q: Deep Network Compression Learning by In-parallel Pruning-Quantization"
+    },
+    {
+      "assumption": "Product accumulation is essential for the operation of neural network accelerators.",
+      "confidence": 0.65,
+      "category": "architectural",
+      "source_paper": "SCNN"
+    },
+    {
+      "assumption": "Comparative performance metrics are necessary for evaluating improvements in neural network architectures.",
+      "confidence": 0.65,
+      "category": "evaluation",
+      "source_paper": "SCNN"
+    },
+    {
+      "assumption": "Evaluation on scarce labeled data is essential for validating the effectiveness of transfer learning approaches.",
+      "confidence": 0.65,
+      "category": "evaluation",
+      "source_paper": "Transfer Learning with Deep Convolutional Neural Network for SAR Target Classification with Limited Labeled Data"
+    },
+    {
+      "assumption": "Area efficiency is necessary for evaluating the practicality of deploying neural network accelerators.",
+      "confidence": 0.6,
+      "category": "evaluation",
+      "source_paper": "EIE"
+    },
+    {
+      "assumption": "Energy efficiency improvements are critical for the practical deployment of neural network accelerators.",
+      "confidence": 0.6,
+      "category": "architectural",
+      "source_paper": "SCNN"
+    },
+    {
+      "assumption": "Matrix product implementation is required for efficient convolution operations in neural networks.",
+      "confidence": 0.6,
+      "category": "architectural",
+      "source_paper": "Structured Pruning of Deep Convolutional Neural Networks"
+    },
+    {
+      "assumption": "Evaluating misclassification rates is necessary for assessing the impact of pruning on model performance.",
+      "confidence": 0.6,
+      "category": "evaluation",
+      "source_paper": "Structured Pruning of Deep Convolutional Neural Networks"
+    },
+    {
+      "assumption": "Combining different pruning granularities is essential for achieving significant reductions in model size with minimal accuracy loss.",
+      "confidence": 0.6,
+      "category": "architectural",
+      "source_paper": "Structured Pruning of Deep Convolutional Neural Networks"
+    },
+    {
+      "assumption": "Complementary techniques in network design and compression are required to achieve optimal performance.",
+      "confidence": 0.6,
+      "category": "architectural",
+      "source_paper": "Deep Neural Network Compression by In-Parallel Pruning-Quantization"
+    },
+    {
+      "assumption": "Generalization of compression techniques beyond convolutional networks is essential for their applicability to diverse tasks.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Deep Neural Network Compression by In-Parallel Pruning-Quantization"
+    },
+    {
+      "assumption": "Hardware-based systems require structured sparsity for optimal performance.",
+      "confidence": 0.5,
+      "category": "architectural",
+      "source_paper": "Structured Pruning of Deep Convolutional Neural Networks"
+    }
+  ]
+}

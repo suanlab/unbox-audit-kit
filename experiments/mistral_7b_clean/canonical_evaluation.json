@@ -1,0 +1,255 @@
+{
+  "evaluator": "canonical_evaluator.py",
+  "ranking_method": "confidence_order (NOT similarity-reranked)",
+  "threshold": 0.65,
+  "embedding_model": "text-embedding-3-small",
+  "input_dir": "experiments/mistral_7b_clean",
+  "label": "mistral_7b",
+  "aggregate": {
+    "total": 4,
+    "r_at_5": 0,
+    "r_at_10": 0
+  },
+  "results": [
+    {
+      "conf_rank": null,
+      "best_sim": 0.6096,
+      "r_at_5": 0.0,
+      "r_at_10": 0.0,
+      "r_at_20": 0.0,
+      "top_matches": [
+        {
+          "conf_position": 1,
+          "assumption": "Deep neural networks are necessary for large vocabulary conversational speech recognition.",
+          "similarity": 0.2977
+        },
+        {
+          "conf_position": 2,
+          "assumption": "Recurrent Neural Networks (RNNs) or variants thereof are necessary for sequence-to-sequence tasks such as joint intent detection and slot filling.",
+          "similarity": 0.5557
+        },
+        {
+          "conf_position": 3,
+          "assumption": "Attention mechanisms are essential for improving the performance of RNNs in sequence-to-sequence tasks.",
+          "similarity": 0.3853
+        },
+        {
+          "conf_position": 4,
+          "assumption": "Training data is necessary for supervised learning tasks like joint intent detection and slot filling.",
+          "similarity": 0.3659
+        },
+        {
+          "conf_position": 5,
+          "assumption": "Error metrics such as intent detection error rate and slot filling F1 score are essential for evaluating the performance of models in tasks like joint intent detection and slot filling.",
+          "similarity": 0.237
+        },
+        {
+          "conf_position": 6,
+          "assumption": "Recurrent Neural Networks (RNNs) are necessary for modeling sequential data.",
+          "similarity": 0.6096
+        },
+        {
+          "conf_position": 7,
+          "assumption": "Neural networks are necessary for learning the conditional probability of an output sequence with variable-sized, discrete tokens.",
+          "similarity": 0.4032
+        },
+        {
+          "conf_position": 8,
+          "assumption": "Recurrent neural networks (RNNs) are necessary for many recent developments in deep learning.",
+          "similarity": 0.4873
+        },
+        {
+          "conf_position": 9,
+          "assumption": "Overfitting is a major difficulty with RNNs.",
+          "similarity": 0.3577
+        },
+        {
+          "conf_position": 10,
+          "assumption": "Dropout is a common technique to mitigate overfitting in deep learning.",
+          "similarity": 0.242
+        }
+      ],
+      "paradigm": "transformer"
+    },
+    {
+      "conf_rank": null,
+      "best_sim": 0.5884,
+      "r_at_5": 0.0,
+      "r_at_10": 0.0,
+      "r_at_20": 0.0,
+      "top_matches": [
+        {
+          "conf_position": 1,
+          "assumption": "A deep learning model, specifically a Generative Adversarial Network (GAN), is necessary for video virtual try-on systems.",
+          "similarity": 0.4998
+        },
+        {
+          "conf_position": 2,
+          "assumption": "Spatiotemporal consistency is essential for video virtual try-on systems.",
+          "similarity": 0.302
+        },
+        {
+          "conf_position": 3,
+          "assumption": "A dataset is required for training and evaluating video virtual try-on systems.",
+          "similarity": 0.314
+        },
+        {
+          "conf_position": 4,
+          "assumption": "Deep neural networks, such as Generative Adversarial Networks (GANs), are necessary for conditional image synthesis.",
+          "similarity": 0.5884
+        },
+        {
+          "conf_position": 5,
+          "assumption": "Backpropagation is essential for training deep neural networks.",
+          "similarity": 0.3684
+        },
+        {
+          "conf_position": 6,
+          "assumption": "Deep learning models, such as Conditional Generative Adversarial Networks (GANs), are necessary for high-resolution image synthesis and semantic manipulation.",
+          "similarity": 0.533
+        },
+        {
+          "conf_position": 7,
+          "assumption": "A deep learning model is necessary for text-to-image synthesis.",
+          "similarity": 0.4404
+        },
+        {
+          "conf_position": 8,
+          "assumption": "Deep neural networks, including generative adversarial networks (GANs), are necessary for conditional image synthesis.",
+          "similarity": 0.5794
+        },
+        {
+          "conf_position": 9,
+          "assumption": "Maximizing the diversity of generated outputs is essential for conditional image synthesis tasks.",
+          "similarity": 0.5702
+        },
+        {
+          "conf_position": 10,
+          "assumption": "The mode collapse issue is a significant challenge in conditional generative adversarial networks (cGANs).",
+          "similarity": 0.4586
+        }
+      ],
+      "paradigm": "diffusion"
+    },
+    {
+      "conf_rank": null,
+      "best_sim": 0.5001,
+      "r_at_5": 0.0,
+      "r_at_10": 0.0,
+      "r_at_20": 0.0,
+      "top_matches": [
+        {
+          "conf_position": 1,
+          "assumption": "Pretraining is necessary for the development of effective sentence encoders for natural language understanding.",
+          "similarity": 0.3096
+        },
+        {
+          "conf_position": 2,
+          "assumption": "Pretrained deep contextual representations are necessary for advancing the state-of-the-art on various commonsense NLP tasks.",
+          "similarity": 0.2732
+        },
+        {
+          "conf_position": 3,
+          "assumption": "Improving performance on downstream commonsense reasoning tasks requires fine-tuning pretrained models.",
+          "similarity": 0.5001
+        },
+        {
+          "conf_position": 4,
+          "assumption": "Evaluation of commonsense NLP models should be based on commonsense reasoning tasks.",
+          "similarity": 0.2812
+        },
+        {
+          "conf_position": 5,
+          "assumption": "Pretrained language models, such as BERT, are necessary for end-to-end Aspect-based Sentiment Analysis (E2E-ABSA).",
+          "similarity": 0.2749
+        },
+        {
+          "conf_position": 6,
+          "assumption": "Pretraining is necessary for facilitating a wide range of downstream applications.",
+          "similarity": 0.3328
+        },
+        {
+          "conf_position": 7,
+          "assumption": "Distributional knowledge is essential for unsupervised pretraining models.",
+          "similarity": 0.3027
+        },
+        {
+          "conf_position": 8,
+          "assumption": "Pretraining on large corpora of unlabeled text is necessary for strong performance in natural language processing tasks.",
+          "similarity": 0.3039
+        },
+        {
+          "conf_position": 9,
+          "assumption": "Pre-trained language models like BERT are necessary for conversational machine comprehension.",
+          "similarity": 0.2854
+        },
+        {
+          "conf_position": 10,
+          "assumption": "Understanding multi-turn dialogue context is essential for conversational machine comprehension.",
+          "similarity": 0.2598
+        }
+      ],
+      "paradigm": "icl"
+    },
+    {
+      "conf_rank": null,
+      "best_sim": 0.6251,
+      "r_at_5": 0.0,
+      "r_at_10": 0.0,
+      "r_at_20": 0.0,
+      "top_matches": [
+        {
+          "conf_position": 1,
+          "assumption": "Deep learning and convolutional neural networks are necessary for image classification, segmentation, and object detection.",
+          "similarity": 0.5514
+        },
+        {
+          "conf_position": 2,
+          "assumption": "Reducing model size and training time is essential for improving the efficiency of deep learning models.",
+          "similarity": 0.3485
+        },
+        {
+          "conf_position": 3,
+          "assumption": "Residual learning is essential for faster convergence, better generalization, and solving the issue of degradation in deep learning models.",
+          "similarity": 0.3831
+        },
+        {
+          "conf_position": 4,
+          "assumption": "Large-scale datasets are essential for training and evaluating deep learning models.",
+          "similarity": 0.3262
+        },
+        {
+          "conf_position": 5,
+          "assumption": "Recognition accuracy is essential for evaluating the performance of image recognition models.",
+          "similarity": 0.4091
+        },
+        {
+          "conf_position": 6,
+          "assumption": "Convolutional Neural Networks (CNNs) are necessary for saliency detection.",
+          "similarity": 0.5489
+        },
+        {
+          "conf_position": 7,
+          "assumption": "Fully Convolutional Neural Networks (FCNs) are required for semantic segmentation and saliency detection.",
+          "similarity": 0.4926
+        },
+        {
+          "conf_position": 8,
+          "assumption": "State-of-the-art results on benchmarks are essential for evaluating saliency detection methods.",
+          "similarity": 0.3458
+        },
+        {
+          "conf_position": 9,
+          "assumption": "Efficiency, effectiveness, and simplicity are essential for saliency detection algorithms.",
+          "similarity": 0.3353
+        },
+        {
+          "conf_position": 10,
+          "assumption": "Saliency detection is a problem that can be significantly improved upon.",
+          "similarity": 0.3756
+        }
+      ],
+      "paradigm": "vit"
+    }
+  ]
+}

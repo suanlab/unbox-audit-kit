@@ -1,0 +1,57 @@
+{
+  "checks": {
+    "transformer": {
+      "file_exists": true,
+      "paper_count": 60,
+      "count_ok": true,
+      "max_year": 2016,
+      "year_ok": true,
+      "leakage_count": 0,
+      "leakage_ok": true,
+      "abstract_ratio": 1.0,
+      "abstract_ratio_ok": true,
+      "passed": true
+    },
+    "diffusion": {
+      "file_exists": true,
+      "paper_count": 60,
+      "count_ok": true,
+      "max_year": 2019,
+      "year_ok": true,
+      "leakage_count": 0,
+      "leakage_ok": true,
+      "abstract_ratio": 1.0,
+      "abstract_ratio_ok": true,
+      "passed": true
+    },
+    "icl": {
+      "file_exists": true,
+      "paper_count": 60,
+      "count_ok": true,
+      "max_year": 2019,
+      "year_ok": true,
+      "leakage_count": 0,
+      "leakage_ok": true,
+      "abstract_ratio": 1.0,
+      "abstract_ratio_ok": true,
+      "passed": true
+    },
+    "vit": {
+      "file_exists": true,
+      "paper_count": 60,
+      "count_ok": true,
+      "max_year": 2019,
+      "year_ok": true,
+      "leakage_count": 0,
+      "leakage_ok": true,
+      "abstract_ratio": 1.0,
+      "abstract_ratio_ok": true,
+      "passed": true
+    }
+  },
+  "all_passed": true,
+  "thresholds": {
+    "min_count": 50,
+    "min_abstract_ratio": 0.7
+  }
+}

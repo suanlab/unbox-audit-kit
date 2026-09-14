@@ -1,0 +1,903 @@
+{
+  "paradigm": "batchnorm",
+  "num_papers": 15,
+  "num_raw_assumptions": 150,
+  "num_unique_assumptions": 149,
+  "ground_truth": "Network training requires careful weight initialization and low learning rates",
+  "assumptions": [
+    {
+      "assumption": "Gradient-based optimization is essential for training deep neural networks.",
+      "confidence": 1.0,
+      "category": "training",
+      "source_paper": "Revisiting Natural Gradient for Deep Networks"
+    },
+    {
+      "assumption": "Regularization is essential for preventing overfitting in deep neural networks.",
+      "confidence": 1.0,
+      "category": "training",
+      "source_paper": "Adaptive dropout for training deep neural networks"
+    },
+    {
+      "assumption": "Back-propagation is required for computing gradients in deep neural networks.",
+      "confidence": 1.0,
+      "category": "training",
+      "source_paper": "Adaptive dropout for training deep neural networks"
+    },
+    {
+      "assumption": "Recurrent neural networks are necessary for modeling temporal sequences in speech recognition.",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Long short-term memory recurrent neural network architectures for large scale acoustic modeling"
+    },
+    {
+      "assumption": "Scalability is essential for training large deep networks.",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Large Scale Distributed Deep Networks"
+    },
+    {
+      "assumption": "Distributed computing is necessary for handling large-scale deep learning tasks.",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Large Scale Distributed Deep Networks"
+    },
+    {
+      "assumption": "Proper initialization is essential for training deep neural networks effectively.",
+      "confidence": 0.95,
+      "category": "training",
+      "source_paper": "Random Walks: Training Very Deep Nonlinear Feed-Forward Networks with Smart Initialization."
+    },
+    {
+      "assumption": "Deep neural networks are essential for modeling complex patterns in speech recognition tasks.",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Sequence-discriminative training of deep neural networks"
+    },
+    {
+      "assumption": "Evaluation on benchmark datasets is necessary for validating the performance of neural network models.",
+      "confidence": 0.95,
+      "category": "evaluation",
+      "source_paper": "Adaptive dropout for training deep neural networks"
+    },
+    {
+      "assumption": "Empirical evaluation is required to validate the effectiveness of optimization algorithms.",
+      "confidence": 0.95,
+      "category": "evaluation",
+      "source_paper": "Revisiting Natural Gradient for Deep Networks"
+    },
+    {
+      "assumption": "GPU acceleration is essential for handling the computational demands of training deep neural networks.",
+      "confidence": 0.95,
+      "category": "training",
+      "source_paper": "Distributed learning of multilingual DNN feature extractors using GPUs"
+    },
+    {
+      "assumption": "Stochastic gradient descent (SGD) is essential for optimizing deep neural networks.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Mean-normalized stochastic gradient for large-scale deep learning"
+    },
+    {
+      "assumption": "Empirical evaluation is required to demonstrate the effectiveness of new optimization algorithms.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "Mean-normalized stochastic gradient for large-scale deep learning"
+    },
+    {
+      "assumption": "Deep architectures are necessary for capturing complex hierarchical representations.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Exact solutions to the nonlinear dynamics of learning in deep linear neural networks"
+    },
+    {
+      "assumption": "Handling long-range dependencies is essential for effective acoustic modeling.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Long short-term memory recurrent neural network architectures for large scale acoustic modeling"
+    },
+    {
+      "assumption": "Asynchronous optimization methods are required for efficient distributed training.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Large Scale Distributed Deep Networks"
+    },
+    {
+      "assumption": "Large models are necessary for achieving state-of-the-art performance on complex tasks.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Large Scale Distributed Deep Networks"
+    },
+    {
+      "assumption": "High computational power is essential for training deep networks with billions of parameters.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Large Scale Distributed Deep Networks"
+    },
+    {
+      "assumption": "Stochastic gradient descent (SGD) is essential for training deep neural networks.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Improving training time of deep neural networkwith asynchronous averaged stochastic gradient descent"
+    },
+    {
+      "assumption": "Deep neural networks are essential for modeling complex transformations in parametric TTS synthesis.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "On the training aspects of Deep Neural Network (DNN) for parametric TTS synthesis"
+    },
+    {
+      "assumption": "Deep neural networks are necessary for large vocabulary speech recognition.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "An empirical study of learning rates in deep neural networks for speech recognition"
+    },
+    {
+      "assumption": "Minibatch stochastic gradient descent is essential for training deep neural networks.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "An empirical study of learning rates in deep neural networks for speech recognition"
+    },
+    {
+      "assumption": "Word error rate is a required metric for evaluating speech recognition systems.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "An empirical study of learning rates in deep neural networks for speech recognition"
+    },
+    {
+      "assumption": "Stacking multiple layers is essential for creating deep learning architectures.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Expected energy-based restricted Boltzmann machine for\u00a0classification"
+    },
+    {
+      "assumption": "Stochastic gradient descent is necessary for training neural networks effectively.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Expected energy-based restricted Boltzmann machine for\u00a0classification"
+    },
+    {
+      "assumption": "Mitigating the vanishing gradient problem is necessary for training very deep networks.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Random Walks: Training Very Deep Nonlinear Feed-Forward Networks with Smart Initialization."
+    },
+    {
+      "assumption": "Sequence-discriminative training is necessary for improving the performance of deep neural networks in speech recognition.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Sequence-discriminative training of deep neural networks"
+    },
+    {
+      "assumption": "Large-scale datasets are required for training effective speech recognition models.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Sequence-discriminative training of deep neural networks"
+    },
+    {
+      "assumption": "Stochastic gradient descent is necessary for training deep neural networks effectively.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Adaptive dropout for training deep neural networks"
+    },
+    {
+      "assumption": "Deep neural networks require large datasets for effective training.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Adaptive dropout for training deep neural networks"
+    },
+    {
+      "assumption": "A well-defined benchmark dataset is essential for evaluating neural network training algorithms.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "A Comparison of BA, GA, PSO, BP and LM for Training Feed forward Neural Networks in e-Learning Context"
+    },
+    {
+      "assumption": "Comparative analysis of algorithms is necessary for understanding their relative performance.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "A Comparison of BA, GA, PSO, BP and LM for Training Feed forward Neural Networks in e-Learning Context"
+    },
+    {
+      "assumption": "Second-order optimization methods are necessary for improving convergence in deep learning.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Revisiting Natural Gradient for Deep Networks"
+    },
+    {
+      "assumption": "Benchmarking against stochastic gradient descent is necessary for evaluating new optimization algorithms.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "Revisiting Natural Gradient for Deep Networks"
+    },
+    {
+      "assumption": "Distributed computing is essential for training large-scale deep neural networks efficiently.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Distributed learning of multilingual DNN feature extractors using GPUs"
+    },
+    {
+      "assumption": "Deep neural networks are required for effective feature extraction in complex tasks like acoustic modeling.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Distributed learning of multilingual DNN feature extractors using GPUs"
+    },
+    {
+      "assumption": "Stochastic gradient descent is required for training deep neural networks effectively.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Distributed learning of multilingual DNN feature extractors using GPUs"
+    },
+    {
+      "assumption": "Evaluation of model performance is essential to ensure that distributed training does not degrade model accuracy.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "Distributed learning of multilingual DNN feature extractors using GPUs"
+    },
+    {
+      "assumption": "Supervised learning is essential for achieving high performance in visual object recognition models.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation"
+    },
+    {
+      "assumption": "Initial conditions of weights are crucial for the convergence and performance of deep networks.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Exact solutions to the nonlinear dynamics of learning in deep linear neural networks"
+    },
+    {
+      "assumption": "Distributed training is required for scaling models to large datasets.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Long short-term memory recurrent neural network architectures for large scale acoustic modeling"
+    },
+    {
+      "assumption": "Gradient-based optimization is required for training deep learning models.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Large Scale Distributed Deep Networks"
+    },
+    {
+      "assumption": "Handling large datasets is necessary for training effective deep learning models.",
+      "confidence": 0.85,
+      "category": "data",
+      "source_paper": "Large Scale Distributed Deep Networks"
+    },
+    {
+      "assumption": "Parallelization is essential for reducing training time in large-scale deep learning.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Large Scale Distributed Deep Networks"
+    },
+    {
+      "assumption": "Distributed training algorithms are necessary for scaling deep neural network training to large datasets.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Improving training time of deep neural networkwith asynchronous averaged stochastic gradient descent"
+    },
+    {
+      "assumption": "Large datasets are necessary for training effective deep neural networks in TTS synthesis.",
+      "confidence": 0.85,
+      "category": "data",
+      "source_paper": "On the training aspects of Deep Neural Network (DNN) for parametric TTS synthesis"
+    },
+    {
+      "assumption": "Learning rate scheduling is required for effective training of deep neural networks.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "An empirical study of learning rates in deep neural networks for speech recognition"
+    },
+    {
+      "assumption": "Restricted Boltzmann Machines are essential for feature extraction or initialization in neural networks.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Expected energy-based restricted Boltzmann machine for\u00a0classification"
+    },
+    {
+      "assumption": "Competitive performance with standard classifiers is essential for validating new machine learning methods.",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "Expected energy-based restricted Boltzmann machine for\u00a0classification"
+    },
+    {
+      "assumption": "Layer width is essential for controlling the variance of gradients in deep networks.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Random Walks: Training Very Deep Nonlinear Feed-Forward Networks with Smart Initialization."
+    },
+    {
+      "assumption": "Evaluation of speech recognition models is essential using word error rate as a primary metric.",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "Sequence-discriminative training of deep neural networks"
+    },
+    {
+      "assumption": "The architecture of a neural network is essential for its performance on specific tasks.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Adaptive dropout for training deep neural networks"
+    },
+    {
+      "assumption": "Incorporating curvature information is required for effective optimization in deep networks.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Revisiting Natural Gradient for Deep Networks"
+    },
+    {
+      "assumption": "Multilingual data is necessary for developing robust cross-language acoustic models.",
+      "confidence": 0.85,
+      "category": "data",
+      "source_paper": "Distributed learning of multilingual DNN feature extractors using GPUs"
+    },
+    {
+      "assumption": "Scalability is necessary for applying deep learning models to multilingual and large-scale datasets.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Distributed learning of multilingual DNN feature extractors using GPUs"
+    },
+    {
+      "assumption": "Cross-language generalization is necessary for multilingual acoustic modeling.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Distributed learning of multilingual DNN feature extractors using GPUs"
+    },
+    {
+      "assumption": "Deep convolutional neural networks are necessary for modeling complex visual representations.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation"
+    },
+    {
+      "assumption": "Large labeled datasets are required for training effective supervised models.",
+      "confidence": 0.85,
+      "category": "data",
+      "source_paper": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation"
+    },
+    {
+      "assumption": "Convergence proofs are necessary for validating optimization algorithms in a convex setting.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Mean-normalized stochastic gradient for large-scale deep learning"
+    },
+    {
+      "assumption": "Reducing model size is essential for improving computational efficiency without sacrificing performance.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Mean-normalized stochastic gradient for large-scale deep learning"
+    },
+    {
+      "assumption": "Recognition error rate is a necessary metric for evaluating the performance of deep learning models.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Mean-normalized stochastic gradient for large-scale deep learning"
+    },
+    {
+      "assumption": "Theoretical analysis of learning dynamics is required to understand and improve deep learning models.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Exact solutions to the nonlinear dynamics of learning in deep linear neural networks"
+    },
+    {
+      "assumption": "Nonlinear learning dynamics are inherent even in deep linear networks.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Exact solutions to the nonlinear dynamics of learning in deep linear neural networks"
+    },
+    {
+      "assumption": "Asynchronous stochastic gradient descent is necessary for efficient distributed training.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Long short-term memory recurrent neural network architectures for large scale acoustic modeling"
+    },
+    {
+      "assumption": "Deep architectures are essential for achieving state-of-the-art performance in speech recognition.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Long short-term memory recurrent neural network architectures for large scale acoustic modeling"
+    },
+    {
+      "assumption": "State-of-the-art performance is required to validate the effectiveness of new training methods.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Large Scale Distributed Deep Networks"
+    },
+    {
+      "assumption": "Distributed optimization frameworks are necessary for implementing scalable machine learning algorithms.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Large Scale Distributed Deep Networks"
+    },
+    {
+      "assumption": "Reducing training time is essential for the practical application of deep neural networks.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Improving training time of deep neural networkwith asynchronous averaged stochastic gradient descent"
+    },
+    {
+      "assumption": "Deep neural networks are required for achieving superior performance over traditional models like Gaussian mixture models in tasks such as speech recognition.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Improving training time of deep neural networkwith asynchronous averaged stochastic gradient descent"
+    },
+    {
+      "assumption": "Layer-wise pre-training is required to achieve better initialization and effective training of deep neural networks.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "On the training aspects of Deep Neural Network (DNN) for parametric TTS synthesis"
+    },
+    {
+      "assumption": "Deep neural networks are required to exploit feature correlations without relying on restricted probability distributions.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "On the training aspects of Deep Neural Network (DNN) for parametric TTS synthesis"
+    },
+    {
+      "assumption": "Higher frame accuracies are necessary for improved speech recognition performance.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "An empirical study of learning rates in deep neural networks for speech recognition"
+    },
+    {
+      "assumption": "Careful choice of hyperparameters is required for optimal performance of deep learning models.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "An empirical study of learning rates in deep neural networks for speech recognition"
+    },
+    {
+      "assumption": "Using a mean-squared error objective is required for optimizing classification tasks in neural networks.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Expected energy-based restricted Boltzmann machine for\u00a0classification"
+    },
+    {
+      "assumption": "The MNIST dataset is necessary for validating classification performance in machine learning models.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Expected energy-based restricted Boltzmann machine for\u00a0classification"
+    },
+    {
+      "assumption": "Deep learning architectures require validation on multiple datasets to demonstrate robustness.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Expected energy-based restricted Boltzmann machine for\u00a0classification"
+    },
+    {
+      "assumption": "Random matrix multiplication is required for understanding gradient behavior in deep networks.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Random Walks: Training Very Deep Nonlinear Feed-Forward Networks with Smart Initialization."
+    },
+    {
+      "assumption": "The use of open-source toolkits like Kaldi is necessary for reproducibility and community validation of speech recognition research.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Sequence-discriminative training of deep neural networks"
+    },
+    {
+      "assumption": "Cross-entropy training is required as a baseline before applying sequence-discriminative criteria.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Sequence-discriminative training of deep neural networks"
+    },
+    {
+      "assumption": "Dropout is necessary for improving the generalization of deep neural networks.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Adaptive dropout for training deep neural networks"
+    },
+    {
+      "assumption": "Feature learning methods are essential for improving the performance of neural networks on classification tasks.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Adaptive dropout for training deep neural networks"
+    },
+    {
+      "assumption": "Metaheuristic algorithms are required for optimizing complex neural network training tasks.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "A Comparison of BA, GA, PSO, BP and LM for Training Feed forward Neural Networks in e-Learning Context"
+    },
+    {
+      "assumption": "Gradient descent methods are essential for training feedforward neural networks.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "A Comparison of BA, GA, PSO, BP and LM for Training Feed forward Neural Networks in e-Learning Context"
+    },
+    {
+      "assumption": "Population-based algorithms are necessary for exploring the solution space in neural network training.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "A Comparison of BA, GA, PSO, BP and LM for Training Feed forward Neural Networks in e-Learning Context"
+    },
+    {
+      "assumption": "The quality of the solution is essential for evaluating the effectiveness of neural network training algorithms.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "A Comparison of BA, GA, PSO, BP and LM for Training Feed forward Neural Networks in e-Learning Context"
+    },
+    {
+      "assumption": "Time performance is required for assessing the efficiency of neural network training algorithms.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "A Comparison of BA, GA, PSO, BP and LM for Training Feed forward Neural Networks in e-Learning Context"
+    },
+    {
+      "assumption": "The manifold structure of parameter space is essential for understanding optimization in deep learning.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Revisiting Natural Gradient for Deep Networks"
+    },
+    {
+      "assumption": "Theoretical connections between optimization methods are necessary for advancing understanding in the field.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Revisiting Natural Gradient for Deep Networks"
+    },
+    {
+      "assumption": "Robustness to the ordering of the training set is necessary for the reliability of optimization algorithms.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Revisiting Natural Gradient for Deep Networks"
+    },
+    {
+      "assumption": "Model averaging is necessary for maintaining performance in distributed training environments.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Distributed learning of multilingual DNN feature extractors using GPUs"
+    },
+    {
+      "assumption": "Time-synchronous updates are required to ensure consistency in distributed training frameworks.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Distributed learning of multilingual DNN feature extractors using GPUs"
+    },
+    {
+      "assumption": "Representational similarity to biological systems is necessary for validating computational models of vision.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation"
+    },
+    {
+      "assumption": "Categorical clustering in representational space is essential for explaining IT cortical representation.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation"
+    },
+    {
+      "assumption": "Unsupervised pretraining is beneficial for initializing deep networks to improve learning speed.",
+      "confidence": 0.75,
+      "category": "training",
+      "source_paper": "Exact solutions to the nonlinear dynamics of learning in deep linear neural networks"
+    },
+    {
+      "assumption": "The depth of a network influences learning dynamics and convergence behavior.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "Exact solutions to the nonlinear dynamics of learning in deep linear neural networks"
+    },
+    {
+      "assumption": "Model parameter efficiency is required for practical deployment of large-scale models.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "Long short-term memory recurrent neural network architectures for large scale acoustic modeling"
+    },
+    {
+      "assumption": "Fast convergence of training algorithms is necessary for efficient deep neural network training.",
+      "confidence": 0.75,
+      "category": "training",
+      "source_paper": "Improving training time of deep neural networkwith asynchronous averaged stochastic gradient descent"
+    },
+    {
+      "assumption": "Objective and subjective measures are essential for evaluating the performance of TTS systems.",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "On the training aspects of Deep Neural Network (DNN) for parametric TTS synthesis"
+    },
+    {
+      "assumption": "Convergence speed is essential for evaluating the efficiency of training algorithms.",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "An empirical study of learning rates in deep neural networks for speech recognition"
+    },
+    {
+      "assumption": "Connecting class nodes to hidden layers is required to improve classification performance.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "Expected energy-based restricted Boltzmann machine for\u00a0classification"
+    },
+    {
+      "assumption": "Theoretical analysis is necessary for understanding the behavior of deep learning models.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "Random Walks: Training Very Deep Nonlinear Feed-Forward Networks with Smart Initialization."
+    },
+    {
+      "assumption": "Regenerating lattices during training is necessary for optimizing sequence-discriminative criteria.",
+      "confidence": 0.75,
+      "category": "training",
+      "source_paper": "Sequence-discriminative training of deep neural networks"
+    },
+    {
+      "assumption": "Joint training of auxiliary networks with the main network is necessary for certain regularization techniques.",
+      "confidence": 0.75,
+      "category": "training",
+      "source_paper": "Adaptive dropout for training deep neural networks"
+    },
+    {
+      "assumption": "Unlabeled data is essential for improving generalization in deep learning models.",
+      "confidence": 0.75,
+      "category": "data",
+      "source_paper": "Revisiting Natural Gradient for Deep Networks"
+    },
+    {
+      "assumption": "Linear combinations of features are necessary for enhancing model performance in distinguishing between categories.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation"
+    },
+    {
+      "assumption": "Comparing representational dissimilarity matrices (RDMs) is required for assessing model similarity to biological data.",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation"
+    },
+    {
+      "assumption": "Second-order optimization methods are required for potentially faster convergence compared to first-order methods.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Mean-normalized stochastic gradient for large-scale deep learning"
+    },
+    {
+      "assumption": "Feature normalization is necessary for effective optimization in deep learning.",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "Mean-normalized stochastic gradient for large-scale deep learning"
+    },
+    {
+      "assumption": "Factorized model structures are essential for reducing overfitting and improving training efficiency.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Mean-normalized stochastic gradient for large-scale deep learning"
+    },
+    {
+      "assumption": "Training models from scratch is essential for validating the effectiveness of new model structures and optimization techniques.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Mean-normalized stochastic gradient for large-scale deep learning"
+    },
+    {
+      "assumption": "Exact solutions to learning dynamics provide valuable insights into the behavior of deep networks.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Exact solutions to the nonlinear dynamics of learning in deep linear neural networks"
+    },
+    {
+      "assumption": "Faithful gradient propagation is necessary for effective training of deep networks.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Exact solutions to the nonlinear dynamics of learning in deep linear neural networks"
+    },
+    {
+      "assumption": "Comparative evaluation against deep feedforward neural networks is necessary to demonstrate advancements in acoustic modeling.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Long short-term memory recurrent neural network architectures for large scale acoustic modeling"
+    },
+    {
+      "assumption": "Speech recognition systems require architectures that can outperform traditional deep neural networks.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Long short-term memory recurrent neural network architectures for large scale acoustic modeling"
+    },
+    {
+      "assumption": "Asynchronous training methods are essential for improving the efficiency of distributed training algorithms.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Improving training time of deep neural networkwith asynchronous averaged stochastic gradient descent"
+    },
+    {
+      "assumption": "Multiple passes over the training data are typically required for effective deep neural network training.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Improving training time of deep neural networkwith asynchronous averaged stochastic gradient descent"
+    },
+    {
+      "assumption": "Deep neural networks require large datasets to achieve optimal performance.",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "Improving training time of deep neural networkwith asynchronous averaged stochastic gradient descent"
+    },
+    {
+      "assumption": "State boundary information is necessary for training deep neural networks to improve synthesized speech quality.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "On the training aspects of Deep Neural Network (DNN) for parametric TTS synthesis"
+    },
+    {
+      "assumption": "Activation functions in hidden layers are essential for determining the convergence speed of deep neural networks.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "On the training aspects of Deep Neural Network (DNN) for parametric TTS synthesis"
+    },
+    {
+      "assumption": "Deep neural networks are required to outperform conventional models like HMM in TTS synthesis.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "On the training aspects of Deep Neural Network (DNN) for parametric TTS synthesis"
+    },
+    {
+      "assumption": "Per-parameter learning rate variation is necessary for optimizing deep learning models.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "An empirical study of learning rates in deep neural networks for speech recognition"
+    },
+    {
+      "assumption": "Binary input nodes are necessary for achieving high performance in certain input domains.",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "Expected energy-based restricted Boltzmann machine for\u00a0classification"
+    },
+    {
+      "assumption": "Free-energy based function approximation is essential for reinforcement learning applications.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Expected energy-based restricted Boltzmann machine for\u00a0classification"
+    },
+    {
+      "assumption": "Stochastic gradient descent is essential for optimizing deep learning models.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Random Walks: Training Very Deep Nonlinear Feed-Forward Networks with Smart Initialization."
+    },
+    {
+      "assumption": "Comparative analysis of different sequence-discriminative criteria is essential for understanding their impact on model performance.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Sequence-discriminative training of deep neural networks"
+    },
+    {
+      "assumption": "Removing disjoint frames in gradient computation is required for effective sequence-discriminative training.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Sequence-discriminative training of deep neural networks"
+    },
+    {
+      "assumption": "Iterative training procedures are necessary for refining model performance in sequence-discriminative training.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Sequence-discriminative training of deep neural networks"
+    },
+    {
+      "assumption": "Binary belief networks can be used to model uncertainty in neural network parameters.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Adaptive dropout for training deep neural networks"
+    },
+    {
+      "assumption": "Supervised learning is necessary for training feedforward neural networks in practical applications.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "A Comparison of BA, GA, PSO, BP and LM for Training Feed forward Neural Networks in e-Learning Context"
+    },
+    {
+      "assumption": "Standard datasets are required for fostering reproducibility and comparability in neural network research.",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "A Comparison of BA, GA, PSO, BP and LM for Training Feed forward Neural Networks in e-Learning Context"
+    },
+    {
+      "assumption": "The use of diverse algorithms is essential for robust neural network training research.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "A Comparison of BA, GA, PSO, BP and LM for Training Feed forward Neural Networks in e-Learning Context"
+    },
+    {
+      "assumption": "Truncated Newton methods are essential for efficiently inverting large matrices in optimization.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Revisiting Natural Gradient for Deep Networks"
+    },
+    {
+      "assumption": "Behaviorally important categorical divisions must be emphasized in computational models to explain IT representation.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation"
+    },
+    {
+      "assumption": "Neuroscientific models are necessary benchmarks for evaluating computational object-recognition models.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation"
+    },
+    {
+      "assumption": "High categorization performance is required for a model to be considered successful in explaining IT representation.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation"
+    },
+    {
+      "assumption": "Operating in the 'edge of chaos' regime is essential for maintaining effective learning in deep networks.",
+      "confidence": 0.65,
+      "category": "theoretical",
+      "source_paper": "Exact solutions to the nonlinear dynamics of learning in deep linear neural networks"
+    },
+    {
+      "assumption": "Linear recurrent projection layers are essential for enhancing the performance of LSTM networks.",
+      "confidence": 0.65,
+      "category": "architectural",
+      "source_paper": "Long short-term memory recurrent neural network architectures for large scale acoustic modeling"
+    },
+    {
+      "assumption": "Convergence speed is a critical factor in evaluating the effectiveness of neural network architectures.",
+      "confidence": 0.65,
+      "category": "evaluation",
+      "source_paper": "Long short-term memory recurrent neural network architectures for large scale acoustic modeling"
+    },
+    {
+      "assumption": "Evaluation of deep neural networks on real-world tasks, such as speech recognition, is necessary to demonstrate their effectiveness.",
+      "confidence": 0.65,
+      "category": "evaluation",
+      "source_paper": "Improving training time of deep neural networkwith asynchronous averaged stochastic gradient descent"
+    },
+    {
+      "assumption": "Mapping input text features to output acoustic features is essential for TTS synthesis.",
+      "confidence": 0.65,
+      "category": "theoretical",
+      "source_paper": "On the training aspects of Deep Neural Network (DNN) for parametric TTS synthesis"
+    },
+    {
+      "assumption": "Empirical studies are essential for understanding the effectiveness of learning rate schemes.",
+      "confidence": 0.65,
+      "category": "theoretical",
+      "source_paper": "An empirical study of learning rates in deep neural networks for speech recognition"
+    },
+    {
+      "assumption": "Scaling of matrices is required for unbiased gradient propagation in deep networks.",
+      "confidence": 0.65,
+      "category": "theoretical",
+      "source_paper": "Random Walks: Training Very Deep Nonlinear Feed-Forward Networks with Smart Initialization."
+    },
+    {
+      "assumption": "Improving learning rate strategies is necessary for enhancing the performance of optimization algorithms.",
+      "confidence": 0.6,
+      "category": "training",
+      "source_paper": "Mean-normalized stochastic gradient for large-scale deep learning"
+    },
+    {
+      "assumption": "Averaged stochastic gradient descent (ASGD) is a viable alternative to traditional SGD for certain training scenarios.",
+      "confidence": 0.6,
+      "category": "training",
+      "source_paper": "Improving training time of deep neural networkwith asynchronous averaged stochastic gradient descent"
+    },
+    {
+      "assumption": "Prosody improvement is necessary for enhancing the naturalness of synthesized speech.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "On the training aspects of Deep Neural Network (DNN) for parametric TTS synthesis"
+    },
+    {
+      "assumption": "Decoupling long-term learning rate scheduling from per-parameter variation is necessary for improved learning rate schemes.",
+      "confidence": 0.6,
+      "category": "training",
+      "source_paper": "An empirical study of learning rates in deep neural networks for speech recognition"
+    },
+    {
+      "assumption": "Experimental validation is necessary to support theoretical claims in machine learning.",
+      "confidence": 0.6,
+      "category": "evaluation",
+      "source_paper": "Random Walks: Training Very Deep Nonlinear Feed-Forward Networks with Smart Initialization."
+    },
+    {
+      "assumption": "Feed-forward networks are a fundamental architecture for deep learning research.",
+      "confidence": 0.55,
+      "category": "architectural",
+      "source_paper": "Random Walks: Training Very Deep Nonlinear Feed-Forward Networks with Smart Initialization."
+    },
+    {
+      "assumption": "The use of benchmark datasets like MNIST and TIMIT is essential for evaluating deep learning models.",
+      "confidence": 0.5,
+      "category": "evaluation",
+      "source_paper": "Random Walks: Training Very Deep Nonlinear Feed-Forward Networks with Smart Initialization."
+    }
+  ]
+}

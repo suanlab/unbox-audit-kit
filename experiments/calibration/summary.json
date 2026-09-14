@@ -1,0 +1,275 @@
+{
+  "transformer": {
+    "num_assumptions": 149,
+    "confidence_stats": {
+      "mean": 0.808,
+      "max": 1.0,
+      "min": 0.6,
+      "median": 0.8
+    },
+    "top_10_confidences": [
+      1.0,
+      0.95,
+      0.95,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9
+    ],
+    "position_confidence_monotonic": true
+  },
+  "diffusion": {
+    "num_assumptions": 149,
+    "confidence_stats": {
+      "mean": 0.808,
+      "max": 1.0,
+      "min": 0.5,
+      "median": 0.8
+    },
+    "top_10_confidences": [
+      1.0,
+      1.0,
+      0.95,
+      0.95,
+      0.95,
+      0.95,
+      0.95,
+      0.9,
+      0.9,
+      0.9
+    ],
+    "position_confidence_monotonic": true
+  },
+  "icl": {
+    "num_assumptions": 147,
+    "confidence_stats": {
+      "mean": 0.814,
+      "max": 1.0,
+      "min": 0.5,
+      "median": 0.8
+    },
+    "top_10_confidences": [
+      1.0,
+      1.0,
+      1.0,
+      0.95,
+      0.95,
+      0.95,
+      0.95,
+      0.95,
+      0.95,
+      0.95
+    ],
+    "position_confidence_monotonic": true
+  },
+  "vit": {
+    "num_assumptions": 150,
+    "confidence_stats": {
+      "mean": 0.807,
+      "max": 1.0,
+      "min": 0.6,
+      "median": 0.8
+    },
+    "top_10_confidences": [
+      1.0,
+      1.0,
+      0.95,
+      0.95,
+      0.95,
+      0.95,
+      0.95,
+      0.95,
+      0.95,
+      0.95
+    ],
+    "position_confidence_monotonic": true
+  },
+  "gan": {
+    "num_assumptions": 150,
+    "confidence_stats": {
+      "mean": 0.805,
+      "max": 0.95,
+      "min": 0.45,
+      "median": 0.8
+    },
+    "top_10_confidences": [
+      0.95,
+      0.95,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9
+    ],
+    "position_confidence_monotonic": true
+  },
+  "batchnorm": {
+    "num_assumptions": 149,
+    "confidence_stats": {
+      "mean": 0.796,
+      "max": 1.0,
+      "min": 0.5,
+      "median": 0.8
+    },
+    "top_10_confidences": [
+      1.0,
+      1.0,
+      1.0,
+      0.95,
+      0.95,
+      0.95,
+      0.95,
+      0.95,
+      0.95,
+      0.95
+    ],
+    "position_confidence_monotonic": true
+  },
+  "resnet": {
+    "num_assumptions": 150,
+    "confidence_stats": {
+      "mean": 0.813,
+      "max": 1.0,
+      "min": 0.6,
+      "median": 0.8
+    },
+    "top_10_confidences": [
+      1.0,
+      1.0,
+      1.0,
+      0.95,
+      0.95,
+      0.95,
+      0.95,
+      0.95,
+      0.95,
+      0.95
+    ],
+    "position_confidence_monotonic": true
+  },
+  "word2vec": {
+    "num_assumptions": 150,
+    "confidence_stats": {
+      "mean": 0.766,
+      "max": 1.0,
+      "min": 0.45,
+      "median": 0.8
+    },
+    "top_10_confidences": [
+      1.0,
+      1.0,
+      0.95,
+      0.95,
+      0.95,
+      0.95,
+      0.9,
+      0.9,
+      0.9,
+      0.9
+    ],
+    "position_confidence_monotonic": true
+  },
+  "dropout": {
+    "num_assumptions": 150,
+    "confidence_stats": {
+      "mean": 0.792,
+      "max": 0.95,
+      "min": 0.6,
+      "median": 0.8
+    },
+    "top_10_confidences": [
+      0.95,
+      0.95,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9
+    ],
+    "position_confidence_monotonic": true
+  },
+  "bert": {
+    "num_assumptions": 150,
+    "confidence_stats": {
+      "mean": 0.784,
+      "max": 1.0,
+      "min": 0.5,
+      "median": 0.8
+    },
+    "top_10_confidences": [
+      1.0,
+      0.95,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9
+    ],
+    "position_confidence_monotonic": true
+  },
+  "hit_confidence_analysis": [
+    {
+      "paradigm": "transformer",
+      "rank": 1,
+      "confidence_at_rank": 1.0,
+      "top_confidence": 1.0,
+      "best_sim": 0.674
+    },
+    {
+      "paradigm": "diffusion",
+      "rank": 2,
+      "confidence_at_rank": 1.0,
+      "top_confidence": 1.0,
+      "best_sim": 0.759
+    },
+    {
+      "paradigm": "icl",
+      "rank": 3,
+      "confidence_at_rank": 1.0,
+      "top_confidence": 1.0,
+      "best_sim": 0.702
+    },
+    {
+      "paradigm": "vit",
+      "rank": 5,
+      "confidence_at_rank": 0.95,
+      "top_confidence": 1.0,
+      "best_sim": 0.676
+    },
+    {
+      "paradigm": "batchnorm",
+      "rank": 7,
+      "confidence_at_rank": 0.95,
+      "top_confidence": 1.0,
+      "best_sim": 0.727
+    },
+    {
+      "paradigm": "gan",
+      "rank": 10,
+      "confidence_at_rank": 0.9,
+      "top_confidence": 0.95,
+      "best_sim": 0.657
+    }
+  ],
+  "summary": {
+    "avg_confidence_at_hit_rank": 0.967,
+    "avg_top_confidence": 0.992,
+    "confidence_gap_top_to_hit": 0.025
+  },
+  "monotonicity": {
+    "monotonic_paradigms": "10/10",
+    "interpretation": "Confidence-ordered lists are monotonic if confidences never increase with position."
+  }
+}

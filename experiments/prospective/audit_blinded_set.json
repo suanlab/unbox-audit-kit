@@ -1,0 +1,154 @@
+{
+  "version": "v1",
+  "created_at": "2026-03-18",
+  "num_hypotheses": 12,
+  "instructions": "Rate each hypothesis independently on novelty, feasibility, impact, clarity (1-10). Do not research the hypothesis before rating. Each system identifier has been removed.",
+  "hypotheses": [
+    {
+      "id": "H01",
+      "paradigm": "rlhf_alignment",
+      "original_assumption": "Human preference labels are necessary for aligning language models",
+      "hypothesis": "Language models could be aligned using purely synthetic feedback from rule-based systems without any human preference data",
+      "rationale": "If clear rules can capture most alignment requirements, the expensive and potentially biased human labeling process could be bypassed entirely."
+    },
+    {
+      "id": "H02",
+      "paradigm": "scaling_laws",
+      "original_assumption": "Scaling model parameters and data jointly is the primary path to capability improvement",
+      "hypothesis": "Optimal capability improvement requires deliberate parameter-data imbalance, with periodic phases of extreme data scaling followed by parameter compression and distillation",
+      "rationale": "This cyclical approach could lead to more efficient knowledge encoding and better generalization. It challenges the assumption of smooth, balanced scaling and could unlock new training paradigms that achieve better performance per unit of compute."
+    },
+    {
+      "id": "H03",
+      "paradigm": "scaling_laws",
+      "original_assumption": "Power-law scaling relationships are fundamental rather than artifact of current architectures",
+      "hypothesis": "Power-law scaling is an artifact of transformer limitations, and alternative architectures exhibit exponential or logarithmic scaling relationships that could dramatically alter optimal compute allocation",
+      "rationale": "If true, this would invalidate current scaling law extrapolations and suggest that architectural innovation could yield orders-of-magnitude efficiency gains. It would fundamentally reshape how we think about the future of AI development and compute requirements."
+    },
+    {
+      "id": "H04",
+      "paradigm": "scaling_laws",
+      "original_assumption": "Scaling model parameters and data jointly is the primary path to capability improvement",
+      "hypothesis": "Capability improvement is primarily a function of training data quality rather than scale, and carefully curated small datasets outperform large unfiltered ones at equivalent compute",
+      "rationale": "Current scaling assumptions may conflate data quantity with data quality. Better data curation could yield comparable capabilities at a fraction of the compute cost."
+    },
+    {
+      "id": "H05",
+      "paradigm": "attention_mechanism",
+      "original_assumption": "Self-attention over all token pairs is necessary for capturing long-range dependencies",
+      "hypothesis": "Sparse attention patterns that only attend to nearby tokens and a small number of global tokens can capture all necessary long-range dependencies at much lower cost",
+      "rationale": "Full attention may be computationally wasteful. Sparse patterns like those in Longformer suggest that selective attention might be sufficient for most dependencies."
+    },
+    {
+      "id": "H06",
+      "paradigm": "autoregressive_llm",
+      "original_assumption": "Next-token prediction is the optimal training objective for language understanding",
+      "hypothesis": "Training language models to predict full sentence completions or paragraph-level summaries rather than individual tokens could lead to better language understanding",
+      "rationale": "Token-level prediction may focus models too narrowly on local context. Higher-level prediction tasks might encourage the development of broader semantic understanding."
+    },
+    {
+      "id": "H07",
+      "paradigm": "autoregressive_llm",
+      "original_assumption": "Autoregressive generation is necessary for coherent long-form text",
+      "hypothesis": "Non-autoregressive models that generate all tokens in parallel with iterative refinement can produce more coherent long-form text than left-to-right generation",
+      "rationale": "Autoregressive generation forces local decisions without global planning. Parallel generation with multiple refinement passes could allow more globally coherent document planning."
+    },
+    {
+      "id": "H08",
+      "paradigm": "attention_mechanism",
+      "original_assumption": "Quadratic attention complexity is an acceptable cost for sequence modeling quality",
+      "hypothesis": "Constant-time attention mechanisms can achieve superior sequence modeling quality compared to quadratic attention by leveraging fixed-size compressed representations",
+      "rationale": "This radically challenges the attention scaling paradigm by proposing that compressing sequences into fixed-size representations before attention could actually improve generalization. It suggests that the quadratic cost isn't just expensive but actively harmful to learning."
+    },
+    {
+      "id": "H09",
+      "paradigm": "rlhf_alignment",
+      "original_assumption": "Human preference labels are necessary for aligning language models",
+      "hypothesis": "Language models can achieve superior alignment through self-supervised constitutional learning, where models iteratively refine their own behavior against fixed constitutional principles without any human preference data",
+      "rationale": "This would eliminate the bottleneck of human labeling and potential biases in human preferences, while enabling models to discover more consistent and principled alignment strategies. Constitutional AI shows early promise, but this pushes toward complete human-preference independence."
+    },
+    {
+      "id": "H10",
+      "paradigm": "attention_mechanism",
+      "original_assumption": "Attention patterns learned from data are superior to structured or fixed connectivity",
+      "hypothesis": "Randomly initialized and frozen attention patterns can match or exceed the performance of learned attention when combined with appropriate architectural modifications",
+      "rationale": "This extreme position suggests that the power of transformers comes not from learning attention patterns but from other aspects of the architecture. If true, it would fundamentally change our understanding of what makes these models effective and could lead to much simpler, more efficient designs."
+    },
+    {
+      "id": "H11",
+      "paradigm": "rlhf_alignment",
+      "original_assumption": "RLHF-style training is necessary to make language models safe and helpful",
+      "hypothesis": "RLHF-style training actually reduces long-term safety by creating deceptive alignment, and truly safe AI requires adversarial training where models are rewarded for honestly revealing their limitations and potential misalignments",
+      "rationale": "RLHF might teach models to appear aligned while hiding concerning capabilities or reasoning. Adversarial honesty training could create genuinely transparent and trustworthy AI systems by incentivizing self-disclosure of problems."
+    },
+    {
+      "id": "H12",
+      "paradigm": "rlhf_alignment",
+      "original_assumption": "RLHF-style training is necessary to make language models safe and helpful",
+      "hypothesis": "Simple supervised fine-tuning on high-quality human-written demonstrations is sufficient for safety and helpfulness without requiring the RL optimization loop",
+      "rationale": "The RL training in RLHF may introduce instability and reward hacking. Direct behavioral cloning from carefully selected human outputs could achieve similar or better alignment results."
+    }
+  ],
+  "_unblinding_key": {
+    "H01": {
+      "system": "scam",
+      "transformation": "negate",
+      "original_paradigm": "rlhf_alignment"
+    },
+    "H02": {
+      "system": "unbox",
+      "transformation": "invert",
+      "original_paradigm": "scaling_laws"
+    },
+    "H03": {
+      "system": "unbox",
+      "transformation": "negate",
+      "original_paradigm": "scaling_laws"
+    },
+    "H04": {
+      "system": "scam",
+      "transformation": "negate",
+      "original_paradigm": "scaling_laws"
+    },
+    "H05": {
+      "system": "scam",
+      "transformation": "negate",
+      "original_paradigm": "attention_mechanism"
+    },
+    "H06": {
+      "system": "scam",
+      "transformation": "negate",
+      "original_paradigm": "autoregressive_llm"
+    },
+    "H07": {
+      "system": "scam",
+      "transformation": "negate",
+      "original_paradigm": "autoregressive_llm"
+    },
+    "H08": {
+      "system": "unbox",
+      "transformation": "negate",
+      "original_paradigm": "attention_mechanism"
+    },
+    "H09": {
+      "system": "unbox",
+      "transformation": "negate",
+      "original_paradigm": "rlhf_alignment"
+    },
+    "H10": {
+      "system": "unbox",
+      "transformation": "invert",
+      "original_paradigm": "attention_mechanism"
+    },
+    "H11": {
+      "system": "unbox",
+      "transformation": "invert",
+      "original_paradigm": "rlhf_alignment"
+    },
+    "H12": {
+      "system": "scam",
+      "transformation": "relax",
+      "original_paradigm": "rlhf_alignment"
+    }
+  }
+}

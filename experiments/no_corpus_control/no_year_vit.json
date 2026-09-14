@@ -1,0 +1,393 @@
+{
+  "condition": "no_year",
+  "paradigm": "vit",
+  "field_name": "visual recognition",
+  "ground_truth": "convolutional layers are necessary for vision",
+  "num_calls": 15,
+  "num_raw_assumptions": 150,
+  "num_unique_assumptions": 58,
+  "assumptions": [
+    {
+      "assumption": "Large labeled datasets are essential for training effective visual recognition models",
+      "confidence": 0.95,
+      "category": "data",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Deep neural networks are necessary for achieving state-of-the-art performance in visual recognition",
+      "confidence": 0.9,
+      "category": "architectural",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Data augmentation is required to improve the generalization of visual recognition models",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Transfer learning is essential for leveraging pre-trained models to improve visual recognition tasks",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Convolutional layers are necessary for capturing spatial hierarchies in image data",
+      "confidence": 0.95,
+      "category": "architectural",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Benchmark datasets are required for evaluating and comparing visual recognition models",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "call_idx": 0
+    },
+    {
+      "assumption": "End-to-end training is essential for optimizing visual recognition models",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Feature extraction is necessary for reducing the dimensionality of image data",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "call_idx": 0
+    },
+    {
+      "assumption": "High computational resources are required for training large-scale visual recognition models",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Cross-validation is essential for assessing the robustness of visual recognition models",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Transfer learning is required for improving model performance when labeled data is scarce",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Convolutional layers are essential for capturing spatial hierarchies in image data",
+      "confidence": 0.9,
+      "category": "architectural",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Benchmark datasets are necessary for evaluating and comparing visual recognition models",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "call_idx": 1
+    },
+    {
+      "assumption": "End-to-end training is required for optimizing visual recognition models effectively",
+      "confidence": 0.8,
+      "category": "training",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Data augmentation is essential for improving the generalization of visual recognition models",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Model interpretability is essential for understanding and trusting visual recognition systems",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Supervised learning is required for training accurate visual recognition systems",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 2
+    },
+    {
+      "assumption": "High computational power is essential for training deep learning models in visual recognition",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 2
+    },
+    {
+      "assumption": "Transfer learning is necessary for improving model performance when data is limited",
+      "confidence": 0.88,
+      "category": "training",
+      "call_idx": 2
+    },
+    {
+      "assumption": "Convolutional neural networks are essential for processing image data in visual recognition tasks",
+      "confidence": 0.92,
+      "category": "architectural",
+      "call_idx": 2
+    },
+    {
+      "assumption": "Data augmentation is necessary for improving the generalization of visual recognition models",
+      "confidence": 0.87,
+      "category": "training",
+      "call_idx": 2
+    },
+    {
+      "assumption": "Feature extraction is required for effective visual recognition",
+      "confidence": 0.89,
+      "category": "theoretical",
+      "call_idx": 2
+    },
+    {
+      "assumption": "Transfer learning is essential for leveraging pre-trained models to improve performance on new visual recognition tasks",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 3
+    },
+    {
+      "assumption": "Convolutional layers are necessary for capturing spatial hierarchies in visual data",
+      "confidence": 0.95,
+      "category": "architectural",
+      "call_idx": 3
+    },
+    {
+      "assumption": "Feature extraction is necessary for reducing the dimensionality of visual data",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "call_idx": 3
+    },
+    {
+      "assumption": "Large labeled datasets are essential for training effective visual recognition models.",
+      "confidence": 0.95,
+      "category": "data",
+      "call_idx": 4
+    },
+    {
+      "assumption": "Deep neural networks are necessary for achieving state-of-the-art performance in visual recognition tasks.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "call_idx": 4
+    },
+    {
+      "assumption": "Supervised learning is required for training accurate visual recognition systems.",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 4
+    },
+    {
+      "assumption": "High computational power is essential for training deep learning models in visual recognition.",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 4
+    },
+    {
+      "assumption": "Convolutional neural networks are necessary for processing image data effectively.",
+      "confidence": 0.95,
+      "category": "architectural",
+      "call_idx": 4
+    },
+    {
+      "assumption": "Benchmark datasets are essential for evaluating the performance of visual recognition models.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "call_idx": 4
+    },
+    {
+      "assumption": "Transfer learning is required for improving model performance when labeled data is scarce.",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 4
+    },
+    {
+      "assumption": "Feature extraction is necessary for reducing the dimensionality of image data.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "call_idx": 4
+    },
+    {
+      "assumption": "End-to-end training is essential for optimizing visual recognition models.",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 4
+    },
+    {
+      "assumption": "Data augmentation is required for improving the generalization of visual recognition models.",
+      "confidence": 0.9,
+      "category": "data",
+      "call_idx": 4
+    },
+    {
+      "assumption": "High computational power is essential for training complex visual recognition models",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 5
+    },
+    {
+      "assumption": "Transfer learning is necessary for improving model performance on limited data",
+      "confidence": 0.8,
+      "category": "training",
+      "call_idx": 5
+    },
+    {
+      "assumption": "Convolutional neural networks are essential for processing visual data",
+      "confidence": 0.95,
+      "category": "architectural",
+      "call_idx": 5
+    },
+    {
+      "assumption": "Benchmark datasets are required for evaluating visual recognition models",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "call_idx": 5
+    },
+    {
+      "assumption": "Data augmentation is necessary for enhancing model generalization in visual recognition",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 5
+    },
+    {
+      "assumption": "End-to-end training is essential for optimizing visual recognition systems",
+      "confidence": 0.8,
+      "category": "training",
+      "call_idx": 5
+    },
+    {
+      "assumption": "Convolutional neural networks are necessary for processing image data effectively",
+      "confidence": 0.95,
+      "category": "architectural",
+      "call_idx": 7
+    },
+    {
+      "assumption": "Benchmark datasets are essential for evaluating the performance of visual recognition models",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "call_idx": 7
+    },
+    {
+      "assumption": "Quantitative metrics are required for assessing the accuracy of visual recognition systems",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "call_idx": 7
+    },
+    {
+      "assumption": "Feature extraction is necessary for reducing the dimensionality of image data in visual recognition",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "call_idx": 9
+    },
+    {
+      "assumption": "Regularization techniques are required to prevent overfitting in visual recognition models",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 9
+    },
+    {
+      "assumption": "High computational resources are essential for training large-scale visual recognition models",
+      "confidence": 0.9,
+      "category": "architectural",
+      "call_idx": 9
+    },
+    {
+      "assumption": "Benchmark datasets are required for evaluating the performance of visual recognition models",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "call_idx": 10
+    },
+    {
+      "assumption": "Transfer learning is essential for improving model performance when labeled data is scarce",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 10
+    },
+    {
+      "assumption": "End-to-end training is required for optimizing visual recognition models",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 10
+    },
+    {
+      "assumption": "Quantitative metrics are essential for assessing the accuracy and robustness of visual recognition systems",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "call_idx": 10
+    },
+    {
+      "assumption": "Regularization techniques are essential for preventing overfitting in visual recognition models",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "call_idx": 11
+    },
+    {
+      "assumption": "Transfer learning is necessary for improving model performance when labeled data is scarce",
+      "confidence": 0.88,
+      "category": "training",
+      "call_idx": 12
+    },
+    {
+      "assumption": "Feature extraction is necessary for transforming raw image data into a usable format for models",
+      "confidence": 0.89,
+      "category": "theoretical",
+      "call_idx": 12
+    },
+    {
+      "assumption": "Data augmentation is required for improving the generalization of visual recognition models",
+      "confidence": 0.86,
+      "category": "training",
+      "call_idx": 12
+    },
+    {
+      "assumption": "High computational resources are essential for training complex visual recognition models",
+      "confidence": 0.91,
+      "category": "architectural",
+      "call_idx": 12
+    },
+    {
+      "assumption": "Quantitative metrics are required for assessing the performance of visual recognition systems",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "call_idx": 13
+    },
+    {
+      "assumption": "Feature extraction is necessary for effective visual recognition",
+      "confidence": 0.87,
+      "category": "theoretical",
+      "call_idx": 14
+    }
+  ],
+  "metrics": {
+    "num_unique_assumptions": 58,
+    "best_similarity": 0.7739,
+    "best_matching_assumption": "Convolutional layers are necessary for capturing spatial hierarchies in visual data",
+    "soft_rank": 5,
+    "soft_recall_at_5": 1.0,
+    "soft_recall_at_10": 1.0,
+    "soft_recall_at_20": 1.0,
+    "top_5_assumptions": [
+      {
+        "assumption": "Convolutional layers are necessary for capturing spatial hierarchies in visual data",
+        "similarity": 0.7739
+      },
+      {
+        "assumption": "Convolutional layers are necessary for capturing spatial hierarchies in image data",
+        "similarity": 0.7484
+      },
+      {
+        "assumption": "Convolutional neural networks are essential for processing visual data",
+        "similarity": 0.7348
+      },
+      {
+        "assumption": "Convolutional layers are essential for capturing spatial hierarchies in image data",
+        "similarity": 0.7272
+      },
+      {
+        "assumption": "Convolutional neural networks are necessary for processing image data effectively",
+        "similarity": 0.7149
+      }
+    ],
+    "paradigm": "vit",
+    "field_name": "visual recognition",
+    "num_raw_assumptions": 150
+  }
+}

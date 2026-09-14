@@ -1,0 +1,909 @@
+{
+  "paradigm": "word2vec",
+  "num_papers": 15,
+  "num_raw_assumptions": 150,
+  "num_unique_assumptions": 150,
+  "ground_truth": "Word meaning requires symbolic or hand-crafted feature representations",
+  "assumptions": [
+    {
+      "assumption": "Distributional similarity is necessary for estimating meaning similarity.",
+      "confidence": 1.0,
+      "category": "theoretical",
+      "source_paper": "The Distributional Hypothesis"
+    },
+    {
+      "assumption": "Word embeddings are essential for capturing semantic information in NLP tasks.",
+      "confidence": 1.0,
+      "category": "theoretical",
+      "source_paper": "Improving Word Representations via Global Context and Multiple Word Prototypes"
+    },
+    {
+      "assumption": "Words that occur in similar contexts are required to have similar meanings.",
+      "confidence": 0.95,
+      "category": "theoretical",
+      "source_paper": "The Distributional Hypothesis"
+    },
+    {
+      "assumption": "Vector space representations are essential for capturing word meaning in distributional semantics.",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Vector Space Models of Word Meaning and Phrase Meaning: A Survey"
+    },
+    {
+      "assumption": "The distributional hypothesis is necessary for predicting semantic similarity between words.",
+      "confidence": 0.95,
+      "category": "theoretical",
+      "source_paper": "Vector Space Models of Word Meaning and Phrase Meaning: A Survey"
+    },
+    {
+      "assumption": "Word co-occurrence statistics are essential for semantic representation.",
+      "confidence": 0.95,
+      "category": "theoretical",
+      "source_paper": "Distributional semantics in linguistic and cognitive research"
+    },
+    {
+      "assumption": "A large corpus of text data is essential for capturing meaningful distributional patterns.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "The Distributional Hypothesis"
+    },
+    {
+      "assumption": "Contextual co-occurrence is necessary for building distributional profiles of words.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "The Distributional Hypothesis"
+    },
+    {
+      "assumption": "High-dimensional spaces are required for representing the contexts of words in vector space models.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Vector Space Models of Word Meaning and Phrase Meaning: A Survey"
+    },
+    {
+      "assumption": "Linear algebra operations are essential for manipulating vector space models to derive semantic relationships.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Vector Space Models of Word Meaning and Phrase Meaning: A Survey"
+    },
+    {
+      "assumption": "Embodied cognition is essential for understanding language comprehension.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Flexibility in embodied lexical\u2010semantic representations"
+    },
+    {
+      "assumption": "Perceptual systems are necessary for grounding language concepts.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Flexibility in embodied lexical\u2010semantic representations"
+    },
+    {
+      "assumption": "A low-dimensional representation is necessary for capturing the essential semantic components of language.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Principal Semantic Components of Language and the Measurement of Meaning"
+    },
+    {
+      "assumption": "Semantic maps are essential for understanding and quantifying word meaning.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Principal Semantic Components of Language and the Measurement of Meaning"
+    },
+    {
+      "assumption": "Incorporating context is necessary for improving the quality of word representations.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Improving Word Representations via Global Context and Multiple Word Prototypes"
+    },
+    {
+      "assumption": "Handling polysemy is required for accurate word representation in NLP models.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Improving Word Representations via Global Context and Multiple Word Prototypes"
+    },
+    {
+      "assumption": "Text corpora are necessary for extracting semantic information.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Distributional semantics in linguistic and cognitive research"
+    },
+    {
+      "assumption": "Statistical distribution of words in context is required to characterize semantic behavior.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Distributional semantics in linguistic and cognitive research"
+    },
+    {
+      "assumption": "Distributional similarity is essential for understanding lexical semantics.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Directional distributional similarity for lexical inference"
+    },
+    {
+      "assumption": "Parallel corpora are essential for training effective statistical machine translation models.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Improved statistical machine translation using monolingually-derived paraphrases"
+    },
+    {
+      "assumption": "Handling untranslated words is essential for improving the performance of statistical machine translation systems.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Improved statistical machine translation using monolingually-derived paraphrases"
+    },
+    {
+      "assumption": "Language-non-selective lexical access is essential for understanding bilingual word recognition.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Bilingual Word Recognition in a Sentence Context"
+    },
+    {
+      "assumption": "Lexical representations from both languages are necessary for processing words in bilingual contexts.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Bilingual Word Recognition in a Sentence Context"
+    },
+    {
+      "assumption": "High-quality feature vectors are essential for accurate distributional word similarity.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Bootstrapping Distributional Feature Vector Quality"
+    },
+    {
+      "assumption": "Joint modeling of syntax and semantics is essential for accurate natural language processing.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Parsing Models for Identifying Multiword Expressions"
+    },
+    {
+      "assumption": "Ontologies are essential for defining conceptual categories in computational linguistics.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "What lexical sets tell us about conceptual categories"
+    },
+    {
+      "assumption": "Distributional features are essential for capturing semantic relatedness in NLP tasks.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "A supervised learning approach to automatic synonym identification based on distributional features"
+    },
+    {
+      "assumption": "Evaluation using metrics like the F-1 measure is essential for assessing the performance of NLP models.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "A supervised learning approach to automatic synonym identification based on distributional features"
+    },
+    {
+      "assumption": "Distributional similarity is a foundational concept in natural language processing.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "A supervised learning approach to automatic synonym identification based on distributional features"
+    },
+    {
+      "assumption": "Distributional similarity is essential for capturing semantic relatedness in NLP tasks.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Supervised Synonym Acquisition Using Distributional Features and Syntactic Patterns"
+    },
+    {
+      "assumption": "Integrating perceptual and linguistic information is essential for modeling lexical semantics.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Construction in Semantic Memory: Generating Perceptual Representations With Global Lexical Similarity"
+    },
+    {
+      "assumption": "Theories of lexical semantics must account for both perceptual and linguistic sources of information.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Construction in Semantic Memory: Generating Perceptual Representations With Global Lexical Similarity"
+    },
+    {
+      "assumption": "Distributional properties of linguistic entities are essential for semantics.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "The Distributional Hypothesis"
+    },
+    {
+      "assumption": "Contextual information is necessary for defining the dimensions of vector space models.",
+      "confidence": 0.85,
+      "category": "data",
+      "source_paper": "Vector Space Models of Word Meaning and Phrase Meaning: A Survey"
+    },
+    {
+      "assumption": "Combining word vectors is required for constructing vector space models of phrases.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Vector Space Models of Word Meaning and Phrase Meaning: A Survey"
+    },
+    {
+      "assumption": "The use of metric spaces is necessary for the allocation of words based on their meaning.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Principal Semantic Components of Language and the Measurement of Meaning"
+    },
+    {
+      "assumption": "Capturing both synonymy and antonymy is essential for a comprehensive semantic representation.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Principal Semantic Components of Language and the Measurement of Meaning"
+    },
+    {
+      "assumption": "A usage-based perspective on meaning is essential for understanding semantics.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Distributional semantics in linguistic and cognitive research"
+    },
+    {
+      "assumption": "Semantic representations must be grounded in linguistic context.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Distributional semantics in linguistic and cognitive research"
+    },
+    {
+      "assumption": "Asymmetric similarity measures are necessary for capturing directional relations in lexical inference.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Directional distributional similarity for lexical inference"
+    },
+    {
+      "assumption": "Augmenting training data is required to improve translation quality, especially for low-resource languages.",
+      "confidence": 0.85,
+      "category": "data",
+      "source_paper": "Improved statistical machine translation using monolingually-derived paraphrases"
+    },
+    {
+      "assumption": "Feature weighting is necessary for improving the quality of distributional feature vectors.",
+      "confidence": 0.85,
+      "category": "data",
+      "source_paper": "Bootstrapping Distributional Feature Vector Quality"
+    },
+    {
+      "assumption": "Structured prediction models are necessary for capturing complex linguistic phenomena.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Parsing Models for Identifying Multiword Expressions"
+    },
+    {
+      "assumption": "Semantic type hierarchies are necessary for word sense disambiguation.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "What lexical sets tell us about conceptual categories"
+    },
+    {
+      "assumption": "Supervised learning is necessary for improving performance in synonym identification tasks.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "A supervised learning approach to automatic synonym identification based on distributional features"
+    },
+    {
+      "assumption": "Comparative evaluation of different classifiers is essential for determining the best approach in NLP tasks.",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "A supervised learning approach to automatic synonym identification based on distributional features"
+    },
+    {
+      "assumption": "Supervised learning is necessary for improving the performance of synonym identification.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Supervised Synonym Acquisition Using Distributional Features and Syntactic Patterns"
+    },
+    {
+      "assumption": "Semantic memory models require a mechanism to handle the redundancy between language and perception.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Construction in Semantic Memory: Generating Perceptual Representations With Global Lexical Similarity"
+    },
+    {
+      "assumption": "Models of semantic memory require a representation of the global structure of memory.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Construction in Semantic Memory: Generating Perceptual Representations With Global Lexical Similarity"
+    },
+    {
+      "assumption": "Different types of distributional properties can be treated as functionally equivalent for representing meaning similarities.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "The Distributional Hypothesis"
+    },
+    {
+      "assumption": "Distributional representations are required to convey meaning.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "The Distributional Hypothesis"
+    },
+    {
+      "assumption": "Semantic similarity is essential for evaluating the effectiveness of vector space models.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Vector Space Models of Word Meaning and Phrase Meaning: A Survey"
+    },
+    {
+      "assumption": "Addressing polysemy is necessary for improving the accuracy of distributional models.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Vector Space Models of Word Meaning and Phrase Meaning: A Survey"
+    },
+    {
+      "assumption": "Neuroimaging studies are required to investigate the neural basis of language comprehension.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Flexibility in embodied lexical\u2010semantic representations"
+    },
+    {
+      "assumption": "Behavioral studies are essential for providing evidence of embodied language comprehension.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Flexibility in embodied lexical\u2010semantic representations"
+    },
+    {
+      "assumption": "Context is necessary for determining the activation of modality-specific regions in language representation.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Flexibility in embodied lexical\u2010semantic representations"
+    },
+    {
+      "assumption": "Consistency across different languages and dictionaries is required for a universal semantic metric system.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Principal Semantic Components of Language and the Measurement of Meaning"
+    },
+    {
+      "assumption": "Statistically significant dimensions are necessary for the robustness of semantic maps.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Principal Semantic Components of Language and the Measurement of Meaning"
+    },
+    {
+      "assumption": "Neural network architectures are essential for learning effective word embeddings.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Improving Word Representations via Global Context and Multiple Word Prototypes"
+    },
+    {
+      "assumption": "Evaluation against human judgments is necessary for validating the quality of word representations.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Improving Word Representations via Global Context and Multiple Word Prototypes"
+    },
+    {
+      "assumption": "Computational techniques are necessary for processing semantic representations.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Distributional semantics in linguistic and cognitive research"
+    },
+    {
+      "assumption": "Quantifying distributional feature inclusion is required for effective lexical inference.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Directional distributional similarity for lexical inference"
+    },
+    {
+      "assumption": "Distributional semantic similarity is necessary for deriving paraphrases from monolingual data.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Improved statistical machine translation using monolingually-derived paraphrases"
+    },
+    {
+      "assumption": "Integration of paraphrasing techniques is necessary for enhancing statistical machine translation systems.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Improved statistical machine translation using monolingually-derived paraphrases"
+    },
+    {
+      "assumption": "Eye tracking is essential for revealing the time course of word activation in bilingual word recognition studies.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Bilingual Word Recognition in a Sentence Context"
+    },
+    {
+      "assumption": "Semantic constraint information is necessary for understanding the effects on language-non-selective access.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Bilingual Word Recognition in a Sentence Context"
+    },
+    {
+      "assumption": "Distributional similarity methods are required for identifying semantic relationships between words.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Bootstrapping Distributional Feature Vector Quality"
+    },
+    {
+      "assumption": "Rich morphological analysis is required for handling languages with complex morphology.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Parsing Models for Identifying Multiword Expressions"
+    },
+    {
+      "assumption": "Selectional constraints are required for guiding the induction of word senses.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "What lexical sets tell us about conceptual categories"
+    },
+    {
+      "assumption": "Semantic relatedness can be effectively modeled using context types shared by word pairs.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "A supervised learning approach to automatic synonym identification based on distributional features"
+    },
+    {
+      "assumption": "Integration of multiple feature types is necessary for building robust NLP classifiers.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "A supervised learning approach to automatic synonym identification based on distributional features"
+    },
+    {
+      "assumption": "Machine learning approaches are required for advancing the state-of-the-art in NLP synonym identification.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "A supervised learning approach to automatic synonym identification based on distributional features"
+    },
+    {
+      "assumption": "The integration of multiple feature types is required for effective synonym classification.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Supervised Synonym Acquisition Using Distributional Features and Syntactic Patterns"
+    },
+    {
+      "assumption": "Global lexical similarity is necessary for generating perceptual representations in semantic memory models.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Construction in Semantic Memory: Generating Perceptual Representations With Global Lexical Similarity"
+    },
+    {
+      "assumption": "Exposure to language regularities is essential for learning lexical semantics.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Construction in Semantic Memory: Generating Perceptual Representations With Global Lexical Similarity"
+    },
+    {
+      "assumption": "Building distributional profiles based on surrounding words is necessary for meaning acquisition.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "The Distributional Hypothesis"
+    },
+    {
+      "assumption": "Building distributional profiles based on text regions is necessary for meaning acquisition.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "The Distributional Hypothesis"
+    },
+    {
+      "assumption": "Clustering or vector combination techniques are required for handling polysemy in vector space models.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "Vector Space Models of Word Meaning and Phrase Meaning: A Survey"
+    },
+    {
+      "assumption": "Semantic dimensions must be interpretable to provide meaningful insights into language.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "Principal Semantic Components of Language and the Measurement of Meaning"
+    },
+    {
+      "assumption": "A universal metric system for semantics is essential for developing a rigorous science of the mind.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "Principal Semantic Components of Language and the Measurement of Meaning"
+    },
+    {
+      "assumption": "A general model of meaning is required to unify different semantic approaches.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "Distributional semantics in linguistic and cognitive research"
+    },
+    {
+      "assumption": "Evaluation on multiple NLP datasets is necessary to demonstrate the empirical benefit of new similarity measures.",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "Directional distributional similarity for lexical inference"
+    },
+    {
+      "assumption": "Comparable and unrelated monolingual corpora are valuable resources for improving translation models.",
+      "confidence": 0.75,
+      "category": "data",
+      "source_paper": "Improved statistical machine translation using monolingually-derived paraphrases"
+    },
+    {
+      "assumption": "Significant translation improvements are required to validate new methods in SMT research.",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "Improved statistical machine translation using monolingually-derived paraphrases"
+    },
+    {
+      "assumption": "Bootstrapping techniques are essential for enhancing feature vector quality in distributional semantics.",
+      "confidence": 0.75,
+      "category": "training",
+      "source_paper": "Bootstrapping Distributional Feature Vector Quality"
+    },
+    {
+      "assumption": "Context-free grammars are essential for syntactic parsing in natural language processing.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "Parsing Models for Identifying Multiword Expressions"
+    },
+    {
+      "assumption": "Corpus data is essential for validating semantic type systems.",
+      "confidence": 0.75,
+      "category": "data",
+      "source_paper": "What lexical sets tell us about conceptual categories"
+    },
+    {
+      "assumption": "Hand-tuning of parameters is required for optimizing similarity measures in distributional similarity approaches.",
+      "confidence": 0.75,
+      "category": "training",
+      "source_paper": "A supervised learning approach to automatic synonym identification based on distributional features"
+    },
+    {
+      "assumption": "Manual tuning of parameters is necessary for optimizing distributional similarity measures.",
+      "confidence": 0.75,
+      "category": "training",
+      "source_paper": "Supervised Synonym Acquisition Using Distributional Features and Syntactic Patterns"
+    },
+    {
+      "assumption": "Perceptual experience is required for a comprehensive understanding of lexical semantics.",
+      "confidence": 0.75,
+      "category": "data",
+      "source_paper": "Construction in Semantic Memory: Generating Perceptual Representations With Global Lexical Similarity"
+    },
+    {
+      "assumption": "Co-occurrence models are necessary for understanding the structure of semantic memory.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "Construction in Semantic Memory: Generating Perceptual Representations With Global Lexical Similarity"
+    },
+    {
+      "assumption": "The correlation between distributional similarity and meaning similarity is essential for semantic analysis.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "The Distributional Hypothesis"
+    },
+    {
+      "assumption": "Vector space models can serve as a general-purpose representation framework for natural language semantics.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Vector Space Models of Word Meaning and Phrase Meaning: A Survey"
+    },
+    {
+      "assumption": "Flexibility in embodied representations is required for accurate language comprehension.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Flexibility in embodied lexical\u2010semantic representations"
+    },
+    {
+      "assumption": "Activation in perception and action areas is essential for the embodiment of language concepts.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Flexibility in embodied lexical\u2010semantic representations"
+    },
+    {
+      "assumption": "Modality-specific regions are necessary for constituting language concepts.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Flexibility in embodied lexical\u2010semantic representations"
+    },
+    {
+      "assumption": "The context-dependent nature of language representation is essential for understanding flexibility in embodied cognition.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Flexibility in embodied lexical\u2010semantic representations"
+    },
+    {
+      "assumption": "The geometric characteristics of semantic maps are necessary for their validity and utility.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Principal Semantic Components of Language and the Measurement of Meaning"
+    },
+    {
+      "assumption": "Quantitative analysis of word meaning is required for advancing semantic research.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Principal Semantic Components of Language and the Measurement of Meaning"
+    },
+    {
+      "assumption": "Unsupervised learning is required for generating word representations without labeled data.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Improving Word Representations via Global Context and Multiple Word Prototypes"
+    },
+    {
+      "assumption": "Multiple word prototypes are necessary for capturing different meanings of polysemous words.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Improving Word Representations via Global Context and Multiple Word Prototypes"
+    },
+    {
+      "assumption": "Global document context is essential for capturing broader semantic information beyond local context.",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "Improving Word Representations via Global Context and Multiple Word Prototypes"
+    },
+    {
+      "assumption": "Semantic properties can be associated with text distributions.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Distributional semantics in linguistic and cognitive research"
+    },
+    {
+      "assumption": "Mathematical techniques are essential for defining combinatorial spaces of lexical items.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Distributional semantics in linguistic and cognitive research"
+    },
+    {
+      "assumption": "Lexical inference is essential for many Natural Language Processing tasks.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Directional distributional similarity for lexical inference"
+    },
+    {
+      "assumption": "Symmetric similarity measures are insufficient for identifying directional relations in lexical semantics.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Directional distributional similarity for lexical inference"
+    },
+    {
+      "assumption": "State-of-the-art SMT systems are required to demonstrate significant improvements in translation tasks.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Improved statistical machine translation using monolingually-derived paraphrases"
+    },
+    {
+      "assumption": "Collocational approaches are essential for addressing untranslated words in SMT.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Improved statistical machine translation using monolingually-derived paraphrases"
+    },
+    {
+      "assumption": "The Bilingual Interactive Activation+ model is essential for explaining bilingual word recognition phenomena.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Bilingual Word Recognition in a Sentence Context"
+    },
+    {
+      "assumption": "Sentence context is necessary for studying the generalization of language-non-selective access.",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "Bilingual Word Recognition in a Sentence Context"
+    },
+    {
+      "assumption": "Visual word recognition studies are required to understand bilingual lexical access.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Bilingual Word Recognition in a Sentence Context"
+    },
+    {
+      "assumption": "Evaluation against human gold-standard annotations is necessary for validating semantic similarity methods.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Bootstrapping Distributional Feature Vector Quality"
+    },
+    {
+      "assumption": "Tree substitution grammars are necessary for storing larger syntactic fragments.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Parsing Models for Identifying Multiword Expressions"
+    },
+    {
+      "assumption": "Factored lexical representations are required to address lexical sparsity in finite corpora.",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "Parsing Models for Identifying Multiword Expressions"
+    },
+    {
+      "assumption": "Word sense disambiguation requires mapping distributional language behavior onto semantic type systems.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "What lexical sets tell us about conceptual categories"
+    },
+    {
+      "assumption": "Conceptual categories must be grounded in empirical data for practical application.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "What lexical sets tell us about conceptual categories"
+    },
+    {
+      "assumption": "Pattern-based features are generally considered useful in NLP tasks, despite their redundancy in some cases.",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "A supervised learning approach to automatic synonym identification based on distributional features"
+    },
+    {
+      "assumption": "Evaluation using F-1 measure is essential for assessing the performance of synonym classifiers.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Supervised Synonym Acquisition Using Distributional Features and Syntactic Patterns"
+    },
+    {
+      "assumption": "Contextual information is required for effective distributional feature extraction.",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "Supervised Synonym Acquisition Using Distributional Features and Syntactic Patterns"
+    },
+    {
+      "assumption": "Testing models on diverse datasets is necessary for validating their ability to generate perceptual representations.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Construction in Semantic Memory: Generating Perceptual Representations With Global Lexical Similarity"
+    },
+    {
+      "assumption": "Grounded cognition experiments are essential for evaluating models of semantic memory.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Construction in Semantic Memory: Generating Perceptual Representations With Global Lexical Similarity"
+    },
+    {
+      "assumption": "Differences in semantic approaches are secondary to their commonalities.",
+      "confidence": 0.65,
+      "category": "theoretical",
+      "source_paper": "Distributional semantics in linguistic and cognitive research"
+    },
+    {
+      "assumption": "Distributional feature analysis is required for developing new similarity measures.",
+      "confidence": 0.65,
+      "category": "theoretical",
+      "source_paper": "Directional distributional similarity for lexical inference"
+    },
+    {
+      "assumption": "Pivoting through other languages is necessary for generating paraphrases in low-resource settings.",
+      "confidence": 0.65,
+      "category": "theoretical",
+      "source_paper": "Improved statistical machine translation using monolingually-derived paraphrases"
+    },
+    {
+      "assumption": "Feature reduction is essential for efficient computation in distributional semantics.",
+      "confidence": 0.65,
+      "category": "architectural",
+      "source_paper": "Bootstrapping Distributional Feature Vector Quality"
+    },
+    {
+      "assumption": "High accuracy in multiword expression identification is essential for improving overall parsing performance.",
+      "confidence": 0.65,
+      "category": "evaluation",
+      "source_paper": "Parsing Models for Identifying Multiword Expressions"
+    },
+    {
+      "assumption": "Lexical sets are necessary for understanding the combinatorial constraints on lexical items.",
+      "confidence": 0.65,
+      "category": "theoretical",
+      "source_paper": "What lexical sets tell us about conceptual categories"
+    },
+    {
+      "assumption": "Empirical validity is required for the acceptance of ontologies in computational linguistics.",
+      "confidence": 0.65,
+      "category": "evaluation",
+      "source_paper": "What lexical sets tell us about conceptual categories"
+    },
+    {
+      "assumption": "Pattern-based features are generally considered useful for synonym identification.",
+      "confidence": 0.65,
+      "category": "theoretical",
+      "source_paper": "Supervised Synonym Acquisition Using Distributional Features and Syntactic Patterns"
+    },
+    {
+      "assumption": "Comparative experiments are necessary for validating the effectiveness of new approaches in NLP.",
+      "confidence": 0.65,
+      "category": "evaluation",
+      "source_paper": "Supervised Synonym Acquisition Using Distributional Features and Syntactic Patterns"
+    },
+    {
+      "assumption": "The integration of motor and visual properties is required for the representation of certain language concepts.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Flexibility in embodied lexical\u2010semantic representations"
+    },
+    {
+      "assumption": "Comparative evaluation with competitive baselines is required to demonstrate model improvements.",
+      "confidence": 0.6,
+      "category": "evaluation",
+      "source_paper": "Improving Word Representations via Global Context and Multiple Word Prototypes"
+    },
+    {
+      "assumption": "Word representations are necessary as inputs to learning algorithms in NLP systems.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Improving Word Representations via Global Context and Multiple Word Prototypes"
+    },
+    {
+      "assumption": "Theoretical properties of similarity measures are necessary for their validation and acceptance.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Directional distributional similarity for lexical inference"
+    },
+    {
+      "assumption": "Empirical validation is essential for the acceptance of new methods in the NLP community.",
+      "confidence": 0.6,
+      "category": "evaluation",
+      "source_paper": "Directional distributional similarity for lexical inference"
+    },
+    {
+      "assumption": "The language of preceding words is necessary for providing language cues in bilingual word recognition.",
+      "confidence": 0.6,
+      "category": "data",
+      "source_paper": "Bilingual Word Recognition in a Sentence Context"
+    },
+    {
+      "assumption": "Reading in the native language is essential for examining language-non-selective access effects.",
+      "confidence": 0.6,
+      "category": "data",
+      "source_paper": "Bilingual Word Recognition in a Sentence Context"
+    },
+    {
+      "assumption": "Theoretical models are required to interpret findings in bilingual word recognition research.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Bilingual Word Recognition in a Sentence Context"
+    },
+    {
+      "assumption": "Semantic similarity measures are required for assessing the quality of feature vectors.",
+      "confidence": 0.6,
+      "category": "evaluation",
+      "source_paper": "Bootstrapping Distributional Feature Vector Quality"
+    },
+    {
+      "assumption": "Automatic transformation of morphological analyses into feature tags is necessary for enhancing parsing models.",
+      "confidence": 0.6,
+      "category": "training",
+      "source_paper": "Parsing Models for Identifying Multiword Expressions"
+    },
+    {
+      "assumption": "Experiments across multiple languages are required to validate the generality of parsing models.",
+      "confidence": 0.6,
+      "category": "evaluation",
+      "source_paper": "Parsing Models for Identifying Multiword Expressions"
+    },
+    {
+      "assumption": "Semantic typing information is essential for specifying selectional preferences.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "What lexical sets tell us about conceptual categories"
+    },
+    {
+      "assumption": "Stable generalizations of lexemes are necessary for effective semantic type categorization.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "What lexical sets tell us about conceptual categories"
+    },
+    {
+      "assumption": "Semantic relatedness is required for understanding word relationships in NLP.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Supervised Synonym Acquisition Using Distributional Features and Syntactic Patterns"
+    },
+    {
+      "assumption": "Feature engineering is essential for improving the performance of NLP models.",
+      "confidence": 0.6,
+      "category": "architectural",
+      "source_paper": "Supervised Synonym Acquisition Using Distributional Features and Syntactic Patterns"
+    },
+    {
+      "assumption": "Lexical semantics is a foundational aspect of Natural Language Processing.",
+      "confidence": 0.55,
+      "category": "theoretical",
+      "source_paper": "Directional distributional similarity for lexical inference"
+    },
+    {
+      "assumption": "Common features among similar words are necessary for characterizing their meanings.",
+      "confidence": 0.55,
+      "category": "theoretical",
+      "source_paper": "Bootstrapping Distributional Feature Vector Quality"
+    },
+    {
+      "assumption": "Combining lexical items with morphological features is essential for improving parsing accuracy.",
+      "confidence": 0.55,
+      "category": "training",
+      "source_paper": "Parsing Models for Identifying Multiword Expressions"
+    },
+    {
+      "assumption": "Quantitative measurements are essential for evaluating feature weighting functions.",
+      "confidence": 0.5,
+      "category": "evaluation",
+      "source_paper": "Bootstrapping Distributional Feature Vector Quality"
+    },
+    {
+      "assumption": "Robustness to original functions is necessary for the general applicability of bootstrapping schemes.",
+      "confidence": 0.45,
+      "category": "training",
+      "source_paper": "Bootstrapping Distributional Feature Vector Quality"
+    }
+  ]
+}

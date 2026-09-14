@@ -1,0 +1,32 @@
+# Optional dependencies for the open-source 5-LLM sweep ONLY
+# (scripts/run_oss_llm_extraction.py, scripts/run_oss_llm_parallel.sh,
+#  scripts/prelim_eval_local_embedder.py).
+#
+# Not needed for the core API pipeline or `make reproduce-tables` /
+# `make test`; install separately on a CUDA host.
+#
+# Exact stack that produced experiments/{llama3_1_8b,qwen2_5_7b,mistral_7b}_clean/
+# (commit 4d05f41 / a20ea9f). Single-run, seed=42, temperature=0,
+# 1x A100-80GB, gpu_memory_utilization=0.50, NVIDIA driver CUDA 12.8.
+#
+# Install:  pip install -r requirements-oss.txt \
+#             --extra-index-url https://download.pytorch.org/whl/cu121
+
+vllm==0.7.3
+torch==2.5.1
+transformers==4.49.0
+# prelim (non-canonical) local embedder only — scripts/prelim_eval_local_embedder.py
+sentence-transformers
+
+# Notes:
+# - vLLM 0.7.3 requires transformers>=4.48.2; 4.49.0 is the pinned working
+#   version (a newer transformers dropped an attribute vLLM 0.7.3 needs;
+#   an older one is incompatible).
+# - The CANONICAL cross-LLM numbers in the paper are produced by
+#   scripts/canonical_evaluator.py, which uses the OpenAI
+#   text-embedding-3-small API (see requirements.txt) — NOT
+#   sentence-transformers. all-MiniLM-L6-v2 is used only for the
+#   explicitly-labelled non-canonical prelim in
+#   experiments/oss_llm_prelim_eval.md.
+# - Llama-3.1-8B weights via the NousResearch un-gated mirror
+#   (identical weights to meta-llama/Llama-3.1-8B-Instruct).

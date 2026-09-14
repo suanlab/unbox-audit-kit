@@ -1,0 +1,232 @@
+{
+  "fisher_unbox_vs_vanilla": {
+    "description": "Fisher's exact test: Unbox vs Vanilla LLM recall at threshold 0.65",
+    "contingency_table": {
+      "headers": [
+        "Hit",
+        "Miss"
+      ],
+      "unbox": [
+        3,
+        1
+      ],
+      "vanilla_llm": [
+        1,
+        3
+      ]
+    },
+    "per_category": {
+      "unbox": {
+        "transformer": 1,
+        "diffusion": 1,
+        "icl": 0,
+        "vit": 1
+      },
+      "vanilla_llm": {
+        "transformer": 1,
+        "diffusion": 0,
+        "icl": 0,
+        "vit": 0
+      }
+    },
+    "p_value_one_sided": 0.242857,
+    "p_value_two_sided": 0.485714,
+    "significant_at_005": false,
+    "significant_at_010": false,
+    "interpretation": "One-sided p = 0.2429. Not significant at alpha=0.05."
+  },
+  "ablation_significance": {
+    "B_vs_A": {
+      "description": "Prompt-only (B) vs Baseline (A)",
+      "n_categories": 3,
+      "contingency_table": {
+        "B": [
+          3,
+          0
+        ],
+        "A": [
+          1,
+          2
+        ]
+      },
+      "per_category_similarity": {
+        "transformer": {
+          "B": 0.7987,
+          "A": 0.5232
+        },
+        "diffusion": {
+          "B": 0.8171,
+          "A": 0.6507
+        },
+        "vit": {
+          "B": 0.756,
+          "A": 0.5581
+        }
+      },
+      "p_value_one_sided": 0.2,
+      "p_value_two_sided": 0.4,
+      "significant_at_005": false
+    },
+    "B_vs_D": {
+      "description": "Prompt-only (B) vs Full (Unbox) (D)",
+      "n_categories": 3,
+      "contingency_table": {
+        "B": [
+          3,
+          0
+        ],
+        "D": [
+          3,
+          0
+        ]
+      },
+      "per_category_similarity": {
+        "transformer": {
+          "B": 0.7987,
+          "D": 0.7987
+        },
+        "diffusion": {
+          "B": 0.8171,
+          "D": 0.8171
+        },
+        "vit": {
+          "B": 0.756,
+          "D": 0.7125
+        }
+      },
+      "p_value_one_sided": 1.0,
+      "p_value_two_sided": 1.0,
+      "significant_at_005": false
+    }
+  },
+  "effect_size": {
+    "description": "Cohen's d effect size on best_similarity scores",
+    "from_ablation_3_categories": {
+      "categories": [
+        "transformer",
+        "diffusion",
+        "vit"
+      ],
+      "unbox_B_similarities": [
+        0.7987,
+        0.8171,
+        0.756
+      ],
+      "baseline_A_similarities": [
+        0.5232,
+        0.6507,
+        0.5581
+      ],
+      "mean_unbox": 0.7906,
+      "mean_baseline": 0.5773,
+      "cohens_d_paired": 3.7982,
+      "cohens_d_independent": 4.1335,
+      "interpretation": "very large"
+    },
+    "from_threshold_sweep_4_categories": {
+      "categories": [
+        "transformer",
+        "diffusion",
+        "icl",
+        "vit"
+      ],
+      "unbox_inferred_thresholds": [
+        0.75,
+        0.8,
+        0.6,
+        0.7
+      ],
+      "vanilla_inferred_thresholds": [
+        0.7,
+        0.6,
+        0.55,
+        0.55
+      ],
+      "mean_unbox": 0.7125,
+      "mean_vanilla": 0.6,
+      "cohens_d_paired": 1.5,
+      "note": "Inferred from highest threshold with recall=1; lower bound on true similarity"
+    }
+  },
+  "power_analysis": {
+    "n_per_group": 4,
+    "alpha": 0.05,
+    "power": 0.8,
+    "cohens_h": 1.401,
+    "interpretation": "large",
+    "note": "With N=4 per group, need Cohen's h >= 1.40 to detect at alpha=0.05, power=0.8. This is a large effect size.",
+    "fisher_exact_p_values_for_4_categories": {
+      "0v1": 1.0,
+      "0v2": 1.0,
+      "0v3": 1.0,
+      "0v4": 1.0,
+      "1v0": 0.5,
+      "1v1": 0.7857,
+      "1v2": 0.9286,
+      "1v3": 0.9857,
+      "1v4": 1.0,
+      "2v0": 0.2143,
+      "2v1": 0.5,
+      "2v2": 0.7571,
+      "2v3": 0.9286,
+      "2v4": 1.0,
+      "3v0": 0.0714,
+      "3v1": 0.2429,
+      "3v2": 0.5,
+      "3v3": 0.7857,
+      "3v4": 1.0,
+      "4v0": 0.0143,
+      "4v1": 0.0714,
+      "4v2": 0.2143,
+      "4v3": 0.5,
+      "4v4": 1.0
+    },
+    "minimum_for_significance": "With N=4, Fisher's exact one-sided test requires 4-vs-0 or 3-vs-0 to approach significance. 3-vs-1 gives p=0.2429 (not significant). 4-vs-0 gives p=0.0143 (significant). This confirms the study is underpowered for moderate effects."
+  },
+  "permutation_test": {
+    "description": "Permutation test (10000 permutations) on best_similarity scores",
+    "from_ablation_3_categories": {
+      "categories": [
+        "transformer",
+        "diffusion",
+        "vit"
+      ],
+      "unbox_B": [
+        0.7987,
+        0.8171,
+        0.756
+      ],
+      "baseline_A": [
+        0.5232,
+        0.6507,
+        0.5581
+      ],
+      "observed_mean_diff": 0.2133,
+      "p_value": 0.1001,
+      "significant_at_005": false
+    },
+    "from_threshold_sweep_4_categories": {
+      "categories": [
+        "transformer",
+        "diffusion",
+        "icl",
+        "vit"
+      ],
+      "unbox_inferred": [
+        0.75,
+        0.8,
+        0.6,
+        0.7
+      ],
+      "vanilla_inferred": [
+        0.7,
+        0.6,
+        0.55,
+        0.55
+      ],
+      "observed_mean_diff": 0.1125,
+      "p_value": 0.1361,
+      "significant_at_005": false
+    }
+  }
+}

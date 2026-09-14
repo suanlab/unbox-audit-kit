@@ -1,0 +1,23 @@
+item_id,paradigm,type,field_label,year_guard,breakthrough,candidate_assumption,expected
+T01,attention-false,attention,sequence modeling / NLP,before 2017,the Transformer (2017),Sequence models were expected to be trained without using any data,expect low (<=2)
+T02,icl,decoy,task adaptation in LLMs,before 2020,in-context learning / GPT-3 (2020),task adaptation requires reinforcement learning,
+T03,diffusion,real,generative image modeling,before 2020,denoising diffusion models (2020),adversarial training is necessary for high-quality generation,
+T04,dropout,decoy,neural-network regularization,before 2014,Dropout (2014),regularization requires ensembling separate models,
+T05,resnet,decoy,deep network training,before 2015,ResNet / residual learning (2015),network depth requires recurrent weight sharing,
+T06,word2vec,real,word representation,before 2013,Word2Vec (2013),Word meaning requires symbolic or hand-crafted feature representations,
+T07,batchnorm,real,deep-network optimization,before 2015,Batch Normalization (2015),Network training requires careful weight initialization and low learning rates,
+T08,bert,decoy,language representation,before 2018,BERT (2018),language representations require supervised parse trees,
+T09,vit,real,computer vision,before 2020,the Vision Transformer (2020),convolutional layers are necessary for vision,
+T10,word2vec,decoy,word representation,before 2013,Word2Vec (2013),word vectors require sentence-level labels,
+T11,bert,real,language representation,before 2018,BERT (2018),Language model pre-training must be left-to-right (autoregressive),
+T12,dropout,real,neural-network regularization,before 2014,Dropout (2014),All neurons should be active during training for optimal learning,
+T13,gan,real,generative modeling,before 2014,GANs (2014),Generative modeling requires explicit density estimation or variational inference,
+T14,transformer,decoy,sequence modeling / NLP,before 2017,the Transformer (2017),attention requires convolutional feature maps,
+T15,gan,decoy,generative modeling,before 2014,GANs (2014),generation requires paired supervised data,
+T16,icl,real,task adaptation in LLMs,before 2020,in-context learning / GPT-3 (2020),fine-tuning is necessary for task adaptation,
+T17,batchnorm,decoy,deep-network optimization,before 2015,Batch Normalization (2015),deep training requires second-order optimizers,
+T18,vit,decoy,computer vision,before 2020,the Vision Transformer (2020),vision requires hand-crafted SIFT/HOG features,
+T19,resnet,real,deep network training,before 2015,ResNet / residual learning (2015),Deep networks must process information through sequential layers without shortcuts,
+T20,transformer,real,sequence modeling / NLP,before 2017,the Transformer (2017),recurrence is necessary for sequence modeling,
+T21,diffusion,decoy,generative image modeling,before 2020,denoising diffusion models (2020),generation requires discrete latent codebooks,
+T22,attention-true,attention,computer vision,before 2020,the Vision Transformer (2020),Labeled image data is useful for training supervised visual recognition models,expect high (>=4)

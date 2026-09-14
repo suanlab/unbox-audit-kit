@@ -1,0 +1,72 @@
+{
+  "paradigm": "dropout",
+  "display": "Dropout Regularization",
+  "year": 2014,
+  "ground_truth": "All neurons should be active during training for optimal learning",
+  "ground_truth_aliases": [
+    "All neurons should be active during training for optimal learning",
+    "training neural networks requires using all available parameters",
+    "randomly disabling neurons during training would harm learning"
+  ],
+  "num_papers": 60,
+  "num_raw_assumptions": 300,
+  "num_unique_assumptions": 300,
+  "best_similarity": 0.6072,
+  "soft_rank": 301.0,
+  "soft_recall_at_5": 0.0,
+  "soft_recall_at_10": 0.0,
+  "soft_recall_at_20": 0.0,
+  "top_10_assumptions": [
+    {
+      "rank": 9,
+      "assumption": "Large neural networks with many parameters are inherently prone to overfitting",
+      "similarity": 0.6072
+    },
+    {
+      "rank": 54,
+      "assumption": "Traditional neural networks require external optimization algorithms for effective training",
+      "similarity": 0.5841
+    },
+    {
+      "rank": 19,
+      "assumption": "Deep neural networks require substantial amounts of training data to avoid overfitting and achieve good performance",
+      "similarity": 0.5625
+    },
+    {
+      "rank": 264,
+      "assumption": "Neural networks require specialized optimization algorithms for effective training",
+      "similarity": 0.5591
+    },
+    {
+      "rank": 126,
+      "assumption": "Neural networks require extensive training data to approximate complex physical processes reliably",
+      "similarity": 0.5547
+    },
+    {
+      "rank": 287,
+      "assumption": "Parameter sharing is required for computational efficiency when training multiple model variants",
+      "similarity": 0.5534
+    },
+    {
+      "rank": 134,
+      "assumption": "Neural networks are required to model complex conditional distributions effectively",
+      "similarity": 0.5438
+    },
+    {
+      "rank": 57,
+      "assumption": "Neural networks require manual architecture design and hyperparameter tuning to achieve good performance",
+      "similarity": 0.5434
+    },
+    {
+      "rank": 18,
+      "assumption": "Deep neural networks require explicit regularization techniques to prevent overfitting",
+      "similarity": 0.5405
+    },
+    {
+      "rank": 75,
+      "assumption": "Neural network ensembles require specialized training procedures distinct from training individual networks",
+      "similarity": 0.5372
+    }
+  ],
+  "ran_at": "2026-03-23T22:38:04.772412+00:00"
+}

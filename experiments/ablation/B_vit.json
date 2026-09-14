@@ -1,0 +1,16 @@
+{
+  "condition": "B",
+  "label": "Prompt-only",
+  "category": "vit",
+  "prompt_type": "field_wide",
+  "corpus_type": "temporal_only",
+  "num_papers": 15,
+  "num_unique_assumptions": 73,
+  "best_similarity": 0.756,
+  "metrics": {
+    "soft_rank": 1.0,
+    "soft_recall_at_5": 1.0,
+    "soft_recall_at_10": 1.0,
+    "soft_recall_at_20": 1.0
+  }
+}

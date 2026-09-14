@@ -1,0 +1,909 @@
+{
+  "paradigm": "gan",
+  "num_papers": 15,
+  "num_raw_assumptions": 150,
+  "num_unique_assumptions": 150,
+  "ground_truth": "Generative modeling requires explicit density estimation or variational inference",
+  "assumptions": [
+    {
+      "assumption": "Deep neural networks are required for learning complex, high-dimensional data representations.",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Deep AutoRegressive Networks"
+    },
+    {
+      "assumption": "Back-propagation is required for fine-tuning the parameters of deep neural networks.",
+      "confidence": 0.95,
+      "category": "training",
+      "source_paper": "Binary coding of speech spectrograms using a deep auto-encoder"
+    },
+    {
+      "assumption": "Latent variable models are essential for capturing complex dependencies in multimodal data.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Multimodal Learning with Deep Boltzmann Machines"
+    },
+    {
+      "assumption": "Unified representations are necessary for effective multimodal learning.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Multimodal Learning with Deep Boltzmann Machines"
+    },
+    {
+      "assumption": "Hierarchical representation learning is essential for capturing complex data distributions.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Deep AutoRegressive Networks"
+    },
+    {
+      "assumption": "Variational inference is essential for approximate parameter estimation in complex models.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Deep AutoRegressive Networks"
+    },
+    {
+      "assumption": "State-of-the-art performance is essential for validating the effectiveness of new generative models.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "Deep AutoRegressive Networks"
+    },
+    {
+      "assumption": "Log-likelihood maximization is essential for training generative models.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Deep AutoRegressive Networks"
+    },
+    {
+      "assumption": "Neural networks are essential for representing complex distributions.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "On the Representational Efficiency of Restricted Boltzmann Machines"
+    },
+    {
+      "assumption": "Efficient representation of probability distributions is essential for the success of generative models.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "On the Representational Efficiency of Restricted Boltzmann Machines"
+    },
+    {
+      "assumption": "Generative models are essential for capturing the underlying distribution of data.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "On the Representational Efficiency of Restricted Boltzmann Machines"
+    },
+    {
+      "assumption": "Layer-wise pretraining is essential for initializing deep neural networks effectively.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "An Efficient Learning Procedure for Deep Boltzmann Machines"
+    },
+    {
+      "assumption": "Deep architectures are necessary for capturing complex data distributions.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "An Efficient Learning Procedure for Deep Boltzmann Machines"
+    },
+    {
+      "assumption": "Effective initialization is required for successful training of deep networks.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "An Efficient Learning Procedure for Deep Boltzmann Machines"
+    },
+    {
+      "assumption": "The use of hidden layers is essential for learning hierarchical feature representations.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "An Efficient Learning Procedure for Deep Boltzmann Machines"
+    },
+    {
+      "assumption": "Evaluation on benchmark datasets is necessary for validating the performance of machine learning models.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "An Efficient Learning Procedure for Deep Boltzmann Machines"
+    },
+    {
+      "assumption": "A generative model is essential for representing the environment in decision-making problems.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Active inference and agency: optimal control without cost functions"
+    },
+    {
+      "assumption": "Minimizing a free energy bound is necessary for optimal decision-making under uncertainty.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Active inference and agency: optimal control without cost functions"
+    },
+    {
+      "assumption": "Optimal control can be formulated as an inference problem.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Active inference and agency: optimal control without cost functions"
+    },
+    {
+      "assumption": "Hierarchical representation is essential for effective face parsing.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Hierarchical face parsing via deep learning"
+    },
+    {
+      "assumption": "Deep learning models are necessary for robust face component detection.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Hierarchical face parsing via deep learning"
+    },
+    {
+      "assumption": "Layer-wise pretraining is essential for training deep generative models effectively.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "A Better Way to Pretrain Deep Boltzmann Machines"
+    },
+    {
+      "assumption": "Deep architectures are required for capturing complex data distributions.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "A Better Way to Pretrain Deep Boltzmann Machines"
+    },
+    {
+      "assumption": "Pretraining is necessary to initialize deep networks before fine-tuning.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "A Better Way to Pretrain Deep Boltzmann Machines"
+    },
+    {
+      "assumption": "Deep neural networks are essential for improving performance in large-vocabulary speech recognition tasks.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Context-Dependent Pre-Trained Deep Neural Networks for Large-Vocabulary Speech Recognition"
+    },
+    {
+      "assumption": "Context-dependent models are required for accurate large-vocabulary speech recognition.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Context-Dependent Pre-Trained Deep Neural Networks for Large-Vocabulary Speech Recognition"
+    },
+    {
+      "assumption": "Hybrid architectures combining neural networks and hidden Markov models are essential for modeling sequential data in speech recognition.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Context-Dependent Pre-Trained Deep Neural Networks for Large-Vocabulary Speech Recognition"
+    },
+    {
+      "assumption": "Deep architectures are necessary for capturing complex data representations.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Likability classification - a not so deep neural network approach"
+    },
+    {
+      "assumption": "Layer-wise unsupervised pretraining is essential for training deep architectures effectively.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "A Connection Between Score Matching and Denoising Autoencoders"
+    },
+    {
+      "assumption": "Deep learning is essential for learning hierarchical feature representations.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Learning hierarchical representations for face verification with convolutional deep belief networks"
+    },
+    {
+      "assumption": "Learning weights is essential for achieving good multilayer representations.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Learning hierarchical representations for face verification with convolutional deep belief networks"
+    },
+    {
+      "assumption": "Layer-by-layer pre-training is essential for training deep generative models effectively.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Binary coding of speech spectrograms using a deep auto-encoder"
+    },
+    {
+      "assumption": "Deep auto-encoders are essential for learning compact representations of data.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Binary coding of speech spectrograms using a deep auto-encoder"
+    },
+    {
+      "assumption": "Spectrograms are essential representations for processing and analyzing speech data.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Binary coding of speech spectrograms using a deep auto-encoder"
+    },
+    {
+      "assumption": "Layered architectures are essential for modeling complex data distributions.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Efficient Learning of Deep Boltzmann Machines"
+    },
+    {
+      "assumption": "Approximate inference is necessary for training deep generative models.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Efficient Learning of Deep Boltzmann Machines"
+    },
+    {
+      "assumption": "Multiple atlases are necessary for accurate segmentation in computational anatomy.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Bayesian Parameter Estimation and Segmentation in the Multi-Atlas Random Orbit Model"
+    },
+    {
+      "assumption": "Diffeomorphic transformations are essential for modeling anatomical variability.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Bayesian Parameter Estimation and Segmentation in the Multi-Atlas Random Orbit Model"
+    },
+    {
+      "assumption": "Incremental learning is necessary for handling large-scale online datasets.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Online Incremental Feature Learning with Denoising Autoencoders"
+    },
+    {
+      "assumption": "Feature learning is essential for improving model performance in online learning scenarios.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Online Incremental Feature Learning with Denoising Autoencoders"
+    },
+    {
+      "assumption": "Online learning systems must be capable of adapting to new patterns in data.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Online Incremental Feature Learning with Denoising Autoencoders"
+    },
+    {
+      "assumption": "Generative models are required for learning joint distributions over multimodal inputs.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Multimodal Learning with Deep Boltzmann Machines"
+    },
+    {
+      "assumption": "Deep architectures are essential for capturing hierarchical features in multimodal data.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Multimodal Learning with Deep Boltzmann Machines"
+    },
+    {
+      "assumption": "Autoregressive models are necessary for efficient and exact sampling in generative models.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Deep AutoRegressive Networks"
+    },
+    {
+      "assumption": "Feedforward neural networks are required for implementing approximate inference in deep generative models.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Deep AutoRegressive Networks"
+    },
+    {
+      "assumption": "Ancestral sampling is required for generating samples from autoregressive models.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Deep AutoRegressive Networks"
+    },
+    {
+      "assumption": "Restricted Boltzmann Machines are necessary for understanding the representational capabilities of shallow generative models.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "On the Representational Efficiency of Restricted Boltzmann Machines"
+    },
+    {
+      "assumption": "Understanding the limitations of shallow models is required for justifying the use of deeper models.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "On the Representational Efficiency of Restricted Boltzmann Machines"
+    },
+    {
+      "assumption": "Variational approximations are necessary for estimating data-dependent statistics in complex models.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "An Efficient Learning Procedure for Deep Boltzmann Machines"
+    },
+    {
+      "assumption": "Generative models are essential for understanding and modeling data distributions.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "An Efficient Learning Procedure for Deep Boltzmann Machines"
+    },
+    {
+      "assumption": "Discriminative fine-tuning is required for optimizing the performance of generatively pre-trained models.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "An Efficient Learning Procedure for Deep Boltzmann Machines"
+    },
+    {
+      "assumption": "Posterior beliefs about hidden states are required for determining optimal trajectories.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Active inference and agency: optimal control without cost functions"
+    },
+    {
+      "assumption": "Incorporating prior beliefs about state transitions is essential for converting control problems into inference problems.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Active inference and agency: optimal control without cost functions"
+    },
+    {
+      "assumption": "Improving the variational lower bound is necessary for enhancing the performance of generative models.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "A Better Way to Pretrain Deep Boltzmann Machines"
+    },
+    {
+      "assumption": "Hidden layers are essential for distributing modeling work in deep networks.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "A Better Way to Pretrain Deep Boltzmann Machines"
+    },
+    {
+      "assumption": "Variational methods are essential for approximating complex posterior distributions in deep generative models.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "A Better Way to Pretrain Deep Boltzmann Machines"
+    },
+    {
+      "assumption": "Modeling hierarchical representations is required for understanding high-dimensional data.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "A Better Way to Pretrain Deep Boltzmann Machines"
+    },
+    {
+      "assumption": "Pre-training is necessary for effectively initializing deep neural networks to improve optimization and generalization.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Context-Dependent Pre-Trained Deep Neural Networks for Large-Vocabulary Speech Recognition"
+    },
+    {
+      "assumption": "Large-vocabulary speech recognition requires robust training datasets to achieve high accuracy.",
+      "confidence": 0.85,
+      "category": "data",
+      "source_paper": "Context-Dependent Pre-Trained Deep Neural Networks for Large-Vocabulary Speech Recognition"
+    },
+    {
+      "assumption": "Unsupervised pre-training is essential for initializing deep networks effectively.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Likability classification - a not so deep neural network approach"
+    },
+    {
+      "assumption": "Fine-tuning is essential for improving the performance of pre-trained models.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Likability classification - a not so deep neural network approach"
+    },
+    {
+      "assumption": "Stacking multiple layers is required for deep belief networks to increase representational power.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Likability classification - a not so deep neural network approach"
+    },
+    {
+      "assumption": "Energy-based models are necessary for understanding and modeling complex data distributions.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "A Connection Between Score Matching and Denoising Autoencoders"
+    },
+    {
+      "assumption": "Convolutional architectures are required for processing high-resolution images effectively.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Learning hierarchical representations for face verification with convolutional deep belief networks"
+    },
+    {
+      "assumption": "Contrastive divergence is necessary for efficiently approximating the log likelihood gradient in generative models.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Binary coding of speech spectrograms using a deep auto-encoder"
+    },
+    {
+      "assumption": "Generative models are necessary for unsupervised learning of data representations.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Binary coding of speech spectrograms using a deep auto-encoder"
+    },
+    {
+      "assumption": "Generative models are required for understanding high-dimensional sensory input.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Efficient Learning of Deep Boltzmann Machines"
+    },
+    {
+      "assumption": "Model complexity needs to be dynamically adjusted in response to data stream changes.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Online Incremental Feature Learning with Denoising Autoencoders"
+    },
+    {
+      "assumption": "A compact feature representation is necessary for efficient model performance.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Online Incremental Feature Learning with Denoising Autoencoders"
+    },
+    {
+      "assumption": "Handling missing modalities is necessary for robust multimodal learning.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Multimodal Learning with Deep Boltzmann Machines"
+    },
+    {
+      "assumption": "Probabilistic sampling is required for inferring missing data in multimodal inputs.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Multimodal Learning with Deep Boltzmann Machines"
+    },
+    {
+      "assumption": "The minimum description length principle is necessary for efficient model selection and parameter estimation.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Deep AutoRegressive Networks"
+    },
+    {
+      "assumption": "Benchmark datasets like MNIST and UCI are necessary for evaluating generative model performance.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Deep AutoRegressive Networks"
+    },
+    {
+      "assumption": "The expressiveness of a model is required to be evaluated in terms of the types of distributions it can represent.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "On the Representational Efficiency of Restricted Boltzmann Machines"
+    },
+    {
+      "assumption": "Characterizing the log-likelihood function is necessary for analyzing the representational power of generative models.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "On the Representational Efficiency of Restricted Boltzmann Machines"
+    },
+    {
+      "assumption": "The number of hidden units in a model is required to be sufficient to capture the complexity of the data distribution.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "On the Representational Efficiency of Restricted Boltzmann Machines"
+    },
+    {
+      "assumption": "Persistent Markov chains are required for estimating data-independent statistics in Boltzmann machines.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "An Efficient Learning Procedure for Deep Boltzmann Machines"
+    },
+    {
+      "assumption": "Large datasets are necessary for training deep generative models effectively.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "An Efficient Learning Procedure for Deep Boltzmann Machines"
+    },
+    {
+      "assumption": "Bayesian filtering techniques are necessary for solving inference problems in decision-making.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Active inference and agency: optimal control without cost functions"
+    },
+    {
+      "assumption": "Modelling control as a hidden state is required for representing agency in generative models.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Active inference and agency: optimal control without cost functions"
+    },
+    {
+      "assumption": "The use of variational methods is necessary for approximating solutions in complex decision-making problems.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Active inference and agency: optimal control without cost functions"
+    },
+    {
+      "assumption": "Generative training followed by discriminative tuning is required for optimal model performance.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Hierarchical face parsing via deep learning"
+    },
+    {
+      "assumption": "Handling occlusions is essential for accurate face parsing.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Hierarchical face parsing via deep learning"
+    },
+    {
+      "assumption": "Generative models must be evaluated on benchmark datasets like MNIST and NORB to validate their effectiveness.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "A Better Way to Pretrain Deep Boltzmann Machines"
+    },
+    {
+      "assumption": "Probabilistic models are required for capturing the uncertainty in data.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "A Better Way to Pretrain Deep Boltzmann Machines"
+    },
+    {
+      "assumption": "Generative models are necessary for unsupervised learning tasks.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "A Better Way to Pretrain Deep Boltzmann Machines"
+    },
+    {
+      "assumption": "Using a distribution over senones is necessary for effective output representation in speech recognition models.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Context-Dependent Pre-Trained Deep Neural Networks for Large-Vocabulary Speech Recognition"
+    },
+    {
+      "assumption": "Evaluation of speech recognition models must be based on sentence accuracy and error reduction metrics.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Context-Dependent Pre-Trained Deep Neural Networks for Large-Vocabulary Speech Recognition"
+    },
+    {
+      "assumption": "Generative pre-training is essential for reducing generalization error in deep neural networks.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Context-Dependent Pre-Trained Deep Neural Networks for Large-Vocabulary Speech Recognition"
+    },
+    {
+      "assumption": "Comparative performance evaluation against Gaussian mixture models is required to demonstrate the effectiveness of new speech recognition models.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Context-Dependent Pre-Trained Deep Neural Networks for Large-Vocabulary Speech Recognition"
+    },
+    {
+      "assumption": "Generative models are required for understanding the underlying probability distribution of input data.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Likability classification - a not so deep neural network approach"
+    },
+    {
+      "assumption": "Layer-wise training is necessary for building deep belief networks.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Likability classification - a not so deep neural network approach"
+    },
+    {
+      "assumption": "Evaluation metrics must reflect the specific goals of the task to be meaningful.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Likability classification - a not so deep neural network approach"
+    },
+    {
+      "assumption": "Probabilistic modeling is required for interpreting and extending neural network techniques.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "A Connection Between Score Matching and Denoising Autoencoders"
+    },
+    {
+      "assumption": "Unsupervised learning is necessary for obtaining robust feature representations.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Learning hierarchical representations for face verification with convolutional deep belief networks"
+    },
+    {
+      "assumption": "Exploiting global structure in data is required for effective feature learning.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Learning hierarchical representations for face verification with convolutional deep belief networks"
+    },
+    {
+      "assumption": "Empirical evaluation is required to demonstrate the effectiveness of learned representations.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Learning hierarchical representations for face verification with convolutional deep belief networks"
+    },
+    {
+      "assumption": "Fully connected layers are necessary for capturing complex relationships in data within generative models.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Binary coding of speech spectrograms using a deep auto-encoder"
+    },
+    {
+      "assumption": "Log-spectral distortion is a required metric for evaluating the quality of speech coding techniques.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Binary coding of speech spectrograms using a deep auto-encoder"
+    },
+    {
+      "assumption": "Recognition models are essential for efficient initialization of latent variables.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Efficient Learning of Deep Boltzmann Machines"
+    },
+    {
+      "assumption": "Top-down feedback is necessary for improving the performance of deep generative models.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Efficient Learning of Deep Boltzmann Machines"
+    },
+    {
+      "assumption": "The expectation-maximization algorithm is required for parameter estimation in generative models.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Bayesian Parameter Estimation and Segmentation in the Multi-Atlas Random Orbit Model"
+    },
+    {
+      "assumption": "Conditionally Gaussian random fields are necessary for modeling the statistical properties of MRI data.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Bayesian Parameter Estimation and Segmentation in the Multi-Atlas Random Orbit Model"
+    },
+    {
+      "assumption": "Maximum a posteriori estimation is required for optimal segmentation in probabilistic models.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Bayesian Parameter Estimation and Segmentation in the Multi-Atlas Random Orbit Model"
+    },
+    {
+      "assumption": "Generative models are required for understanding the underlying structure of MRI data.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Bayesian Parameter Estimation and Segmentation in the Multi-Atlas Random Orbit Model"
+    },
+    {
+      "assumption": "Denoising autoencoders are required for effective feature learning in noisy data environments.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Online Incremental Feature Learning with Denoising Autoencoders"
+    },
+    {
+      "assumption": "Cross-validation is challenging for online learning and alternative methods are necessary.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Online Incremental Feature Learning with Denoising Autoencoders"
+    },
+    {
+      "assumption": "Merging similar features is required to prevent overfitting in feature learning.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Online Incremental Feature Learning with Denoising Autoencoders"
+    },
+    {
+      "assumption": "Comparative evaluation against baseline models is essential for validating new multimodal learning methods.",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "Multimodal Learning with Deep Boltzmann Machines"
+    },
+    {
+      "assumption": "Multimodal data integration is necessary for improving performance on tasks like classification and retrieval.",
+      "confidence": 0.75,
+      "category": "data",
+      "source_paper": "Multimodal Learning with Deep Boltzmann Machines"
+    },
+    {
+      "assumption": "Weight constraints are necessary for analyzing the representational limits of neural networks.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "On the Representational Efficiency of Restricted Boltzmann Machines"
+    },
+    {
+      "assumption": "The distinction between agency-free and agency-based models is essential for understanding different approaches to control.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "Active inference and agency: optimal control without cost functions"
+    },
+    {
+      "assumption": "A representation of agency is essential for models that include inference on hidden control states.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "Active inference and agency: optimal control without cost functions"
+    },
+    {
+      "assumption": "Deep belief networks are necessary for effective pre-training of deep neural networks in speech recognition.",
+      "confidence": 0.75,
+      "category": "training",
+      "source_paper": "Context-Dependent Pre-Trained Deep Neural Networks for Large-Vocabulary Speech Recognition"
+    },
+    {
+      "assumption": "The complexity of the model should match the complexity of the task for optimal performance.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "Likability classification - a not so deep neural network approach"
+    },
+    {
+      "assumption": "Modeling power is necessary for achieving significant improvements over baseline results.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "Likability classification - a not so deep neural network approach"
+    },
+    {
+      "assumption": "Tied weights between encoder and decoder are essential for effective autoencoder training.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "A Connection Between Score Matching and Denoising Autoencoders"
+    },
+    {
+      "assumption": "Combining learned representations with hand-crafted descriptors is necessary for state-of-the-art performance.",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "Learning hierarchical representations for face verification with convolutional deep belief networks"
+    },
+    {
+      "assumption": "High-resolution image data is necessary for learning detailed feature representations.",
+      "confidence": 0.75,
+      "category": "data",
+      "source_paper": "Learning hierarchical representations for face verification with convolutional deep belief networks"
+    },
+    {
+      "assumption": "Binary coding is essential for efficient compression and retrieval of speech data.",
+      "confidence": 0.75,
+      "category": "data",
+      "source_paper": "Binary coding of speech spectrograms using a deep auto-encoder"
+    },
+    {
+      "assumption": "Comparative evaluation against established models like DBNs and SVMs is required to validate new models.",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "Efficient Learning of Deep Boltzmann Machines"
+    },
+    {
+      "assumption": "Handling high-dimensional data is essential for the applicability of generative models.",
+      "confidence": 0.75,
+      "category": "data",
+      "source_paper": "Efficient Learning of Deep Boltzmann Machines"
+    },
+    {
+      "assumption": "Minimizing the objective function's residual is essential for feature addition in incremental learning.",
+      "confidence": 0.75,
+      "category": "training",
+      "source_paper": "Online Incremental Feature Learning with Denoising Autoencoders"
+    },
+    {
+      "assumption": "Learning a joint space of inputs is required for effective information retrieval from multimodal queries.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Multimodal Learning with Deep Boltzmann Machines"
+    },
+    {
+      "assumption": "Deep learning methods are essential for advancing state-of-the-art in multimodal tasks.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Multimodal Learning with Deep Boltzmann Machines"
+    },
+    {
+      "assumption": "Simulation results are essential for validating theoretical claims about model capabilities.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "On the Representational Efficiency of Restricted Boltzmann Machines"
+    },
+    {
+      "assumption": "Cross-modality data transformation is necessary for effective segmentation.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Hierarchical face parsing via deep learning"
+    },
+    {
+      "assumption": "Pixel-wise label maps are required for detailed face analysis.",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "Hierarchical face parsing via deep learning"
+    },
+    {
+      "assumption": "The initial model performance serves as a baseline for measuring improvements.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Likability classification - a not so deep neural network approach"
+    },
+    {
+      "assumption": "Score matching is necessary for learning energy-based models without computing second derivatives.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "A Connection Between Score Matching and Denoising Autoencoders"
+    },
+    {
+      "assumption": "Scalability and robustness to small misalignments are essential for practical face verification systems.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Learning hierarchical representations for face verification with convolutional deep belief networks"
+    },
+    {
+      "assumption": "Feature learning models must not assume stationarity of features across the image.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Learning hierarchical representations for face verification with convolutional deep belief networks"
+    },
+    {
+      "assumption": "Overlap-and-add methods are required for reconstructing full-length signals from segments.",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "Binary coding of speech spectrograms using a deep auto-encoder"
+    },
+    {
+      "assumption": "Efficient learning algorithms are necessary for the practical application of deep models.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Efficient Learning of Deep Boltzmann Machines"
+    },
+    {
+      "assumption": "Generative and discriminative capabilities are required for comprehensive model evaluation.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Efficient Learning of Deep Boltzmann Machines"
+    },
+    {
+      "assumption": "Scalability is essential for the deployment of deep learning models in real-world tasks.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Efficient Learning of Deep Boltzmann Machines"
+    },
+    {
+      "assumption": "Latent variables are essential for capturing unobserved anatomical correspondences.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Bayesian Parameter Estimation and Segmentation in the Multi-Atlas Random Orbit Model"
+    },
+    {
+      "assumption": "Manual delineation of structures is necessary for creating accurate atlas charts.",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "Bayesian Parameter Estimation and Segmentation in the Multi-Atlas Random Orbit Model"
+    },
+    {
+      "assumption": "Multi-modal representations are essential for capturing the complexity of MRI data.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Bayesian Parameter Estimation and Segmentation in the Multi-Atlas Random Orbit Model"
+    },
+    {
+      "assumption": "Deep networks constructed from incremental learning algorithms can outperform traditional deep learning models.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Online Incremental Feature Learning with Denoising Autoencoders"
+    },
+    {
+      "assumption": "Nonparametric density estimation is required for evaluating the performance of probabilistic models.",
+      "confidence": 0.65,
+      "category": "evaluation",
+      "source_paper": "A Connection Between Score Matching and Denoising Autoencoders"
+    },
+    {
+      "assumption": "Deep belief networks are essential for part-based and component-based detection.",
+      "confidence": 0.6,
+      "category": "architectural",
+      "source_paper": "Hierarchical face parsing via deep learning"
+    },
+    {
+      "assumption": "Deep autoencoders are necessary for learning highly nonlinear mappings.",
+      "confidence": 0.6,
+      "category": "training",
+      "source_paper": "Hierarchical face parsing via deep learning"
+    },
+    {
+      "assumption": "Evaluation on multiple datasets is required to demonstrate algorithm effectiveness.",
+      "confidence": 0.6,
+      "category": "evaluation",
+      "source_paper": "Hierarchical face parsing via deep learning"
+    },
+    {
+      "assumption": "Denoising is essential for improving the robustness and generalization of autoencoders.",
+      "confidence": 0.6,
+      "category": "training",
+      "source_paper": "A Connection Between Score Matching and Denoising Autoencoders"
+    },
+    {
+      "assumption": "Convex weighting is necessary for fusing likelihoods from multiple atlases.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Bayesian Parameter Estimation and Segmentation in the Multi-Atlas Random Orbit Model"
+    },
+    {
+      "assumption": "Sampling from probabilistic models is necessary for generating new data instances.",
+      "confidence": 0.55,
+      "category": "theoretical",
+      "source_paper": "A Connection Between Score Matching and Denoising Autoencoders"
+    },
+    {
+      "assumption": "Face parsing provides richer information than keypoint detection and alignment.",
+      "confidence": 0.5,
+      "category": "theoretical",
+      "source_paper": "Hierarchical face parsing via deep learning"
+    },
+    {
+      "assumption": "Ranking examples by energy is required for evaluating the quality of learned representations.",
+      "confidence": 0.5,
+      "category": "evaluation",
+      "source_paper": "A Connection Between Score Matching and Denoising Autoencoders"
+    },
+    {
+      "assumption": "Deep architectures are necessary for capturing hierarchical representations of data.",
+      "confidence": 0.45,
+      "category": "architectural",
+      "source_paper": "A Connection Between Score Matching and Denoising Autoencoders"
+    }
+  ]
+}

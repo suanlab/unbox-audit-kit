@@ -1,0 +1,909 @@
+{
+  "paradigm": "bert",
+  "num_papers": 15,
+  "num_raw_assumptions": 150,
+  "num_unique_assumptions": 150,
+  "ground_truth": "Language model pre-training must be left-to-right (autoregressive)",
+  "assumptions": [
+    {
+      "assumption": "Parton distribution functions (PDFs) are essential for predicting outcomes in high-energy particle collisions.",
+      "confidence": 1.0,
+      "category": "theoretical",
+      "source_paper": "Parton distributions for the LHC run II"
+    },
+    {
+      "assumption": "Language is a dynamic and fluid system that transcends traditional boundaries between named languages.",
+      "confidence": 0.95,
+      "category": "theoretical",
+      "source_paper": "Translanguaging as a Practical Theory of Language"
+    },
+    {
+      "assumption": "Continuous word representations are essential for natural language processing tasks.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Enriching Word Vectors with Subword Information"
+    },
+    {
+      "assumption": "Large unlabeled corpora are necessary for training effective word representations.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Enriching Word Vectors with Subword Information"
+    },
+    {
+      "assumption": "Attention mechanisms are essential for improving neural machine translation performance.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Effective Approaches to Attention-based Neural Machine Translation"
+    },
+    {
+      "assumption": "Neural networks are necessary for state-of-the-art machine translation systems.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Effective Approaches to Attention-based Neural Machine Translation"
+    },
+    {
+      "assumption": "Open-source software is essential for advancing scientific imaging methods.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "ImageJ2: ImageJ for the next generation of scientific image data"
+    },
+    {
+      "assumption": "Rich and dense annotations are necessary for training models to perform cognitive tasks involving images.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Visual Genome: Connecting Language and Vision Using Crowdsourced Dense Image Annotations"
+    },
+    {
+      "assumption": "Understanding relationships between objects is essential for cognitive tasks in computer vision.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Visual Genome: Connecting Language and Vision Using Crowdsourced Dense Image Annotations"
+    },
+    {
+      "assumption": "Image description and question answering tasks require models to integrate language and vision.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Visual Genome: Connecting Language and Vision Using Crowdsourced Dense Image Annotations"
+    },
+    {
+      "assumption": "Hierarchical structures are essential for capturing document-level context in text classification.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Hierarchical Attention Networks for Document Classification"
+    },
+    {
+      "assumption": "Attention mechanisms are necessary for effectively modeling long-range dependencies in text data.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Hierarchical Attention Networks for Document Classification"
+    },
+    {
+      "assumption": "Structural equation modeling is essential for understanding complex multivariate relationships in ecological and evolutionary studies.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "<scp>piecewiseSEM</scp>: Piecewise structural equation\u00a0modelling in<scp>r</scp>\u00a0for ecology, evolution, and systematics"
+    },
+    {
+      "assumption": "Deep learning architectures are necessary for effective named entity recognition.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Neural Architectures for Named Entity Recognition"
+    },
+    {
+      "assumption": "Large annotated datasets are essential for training accurate named entity recognition models.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Neural Architectures for Named Entity Recognition"
+    },
+    {
+      "assumption": "Sequence labeling is essential for the task of named entity recognition.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Neural Architectures for Named Entity Recognition"
+    },
+    {
+      "assumption": "Evaluation using precision, recall, and F1-score is required for assessing named entity recognition models.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "Neural Architectures for Named Entity Recognition"
+    },
+    {
+      "assumption": "ROC plots are necessary for evaluating classifier performance across a wide range of specificities.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "The Precision-Recall Plot Is More Informative than the ROC Plot When Evaluating Binary Classifiers on Imbalanced Datasets"
+    },
+    {
+      "assumption": "Sequence-to-sequence models are essential for abstractive text summarization.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Get To The Point: Summarization with Pointer-Generator Networks"
+    },
+    {
+      "assumption": "Attention mechanisms are necessary for improving the performance of sequence-to-sequence models.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Get To The Point: Summarization with Pointer-Generator Networks"
+    },
+    {
+      "assumption": "Neural network architectures are necessary for state-of-the-art performance in abstractive summarization.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Get To The Point: Summarization with Pointer-Generator Networks"
+    },
+    {
+      "assumption": "Longitudinal data is necessary for studying causal influences over time.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "A critique of the cross-lagged panel model."
+    },
+    {
+      "assumption": "Large and diverse text corpora are essential for training effective language models.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Semantics derived automatically from language corpora contain human-like biases"
+    },
+    {
+      "assumption": "Biases present in training data are inevitably learned by machine learning models.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Semantics derived automatically from language corpora contain human-like biases"
+    },
+    {
+      "assumption": "Deep learning architectures are necessary for achieving state-of-the-art performance in sequence labeling tasks.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF"
+    },
+    {
+      "assumption": "Hierarchical learning processes are essential for extracting high-level, complex abstractions from data.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Deep learning applications and challenges in big data analytics"
+    },
+    {
+      "assumption": "Handling massive amounts of data is necessary for effective Big Data Analytics.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Deep learning applications and challenges in big data analytics"
+    },
+    {
+      "assumption": "Understanding multilingual practices requires considering both sociocultural and cognitive perspectives.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Translanguaging as a Practical Theory of Language"
+    },
+    {
+      "assumption": "Global datasets are necessary for accurate determination of parton distribution functions.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Parton distributions for the LHC run II"
+    },
+    {
+      "assumption": "Higher-order QCD calculations (LO, NLO, NNLO) are required for precise theoretical predictions.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Parton distributions for the LHC run II"
+    },
+    {
+      "assumption": "Theoretical and experimental uncertainties are inherent and must be accounted for in PDF determinations.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Parton distributions for the LHC run II"
+    },
+    {
+      "assumption": "Flexibility in software architecture is necessary for accommodating future scientific requirements.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "ImageJ2: ImageJ for the next generation of scientific image data"
+    },
+    {
+      "assumption": "Datasets designed for perceptual tasks are insufficient for training models on cognitive tasks.",
+      "confidence": 0.85,
+      "category": "data",
+      "source_paper": "Visual Genome: Connecting Language and Vision Using Crowdsourced Dense Image Annotations"
+    },
+    {
+      "assumption": "Models need to reason about visual content, not just recognize it, to succeed in cognitive tasks.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Visual Genome: Connecting Language and Vision Using Crowdsourced Dense Image Annotations"
+    },
+    {
+      "assumption": "Large-scale datasets are necessary for training robust models for cognitive tasks in vision.",
+      "confidence": 0.85,
+      "category": "data",
+      "source_paper": "Visual Genome: Connecting Language and Vision Using Crowdsourced Dense Image Annotations"
+    },
+    {
+      "assumption": "Incorporating random effects and non-normal distributions is required for accurate modeling of ecological data.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "<scp>piecewiseSEM</scp>: Piecewise structural equation\u00a0modelling in<scp>r</scp>\u00a0for ecology, evolution, and systematics"
+    },
+    {
+      "assumption": "Integration with existing statistical software (e.g., R) is essential for widespread adoption of new modeling techniques.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "<scp>piecewiseSEM</scp>: Piecewise structural equation\u00a0modelling in<scp>r</scp>\u00a0for ecology, evolution, and systematics"
+    },
+    {
+      "assumption": "Word embeddings are necessary for capturing semantic information in named entity recognition tasks.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Neural Architectures for Named Entity Recognition"
+    },
+    {
+      "assumption": "Precision-Recall plots are essential for evaluating classifier performance on imbalanced datasets.",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "The Precision-Recall Plot Is More Informative than the ROC Plot When Evaluating Binary Classifiers on Imbalanced Datasets"
+    },
+    {
+      "assumption": "Cross-lagged panel models are essential for analyzing causal relationships in longitudinal studies.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "A critique of the cross-lagged panel model."
+    },
+    {
+      "assumption": "Statistical machine learning models are necessary for capturing semantic patterns in language.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Semantics derived automatically from language corpora contain human-like biases"
+    },
+    {
+      "assumption": "Machine learning models are essential for uncovering latent patterns in large datasets.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Semantics derived automatically from language corpora contain human-like biases"
+    },
+    {
+      "assumption": "End-to-end learning is essential for reducing the need for task-specific feature engineering in sequence labeling.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF"
+    },
+    {
+      "assumption": "Scalability of models is required to address the challenges posed by Big Data.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Deep learning applications and challenges in big data analytics"
+    },
+    {
+      "assumption": "Distributed computing is essential for processing large volumes of data efficiently.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Deep learning applications and challenges in big data analytics"
+    },
+    {
+      "assumption": "Multimodal and multisensory aspects are essential for understanding language use in social interactions.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Translanguaging as a Practical Theory of Language"
+    },
+    {
+      "assumption": "Handling morphology is essential for improving word representation quality, especially in languages with large vocabularies.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Enriching Word Vectors with Subword Information"
+    },
+    {
+      "assumption": "Word representations must be capable of generalizing to words not seen in the training data.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Enriching Word Vectors with Subword Information"
+    },
+    {
+      "assumption": "Evaluation on word similarity and analogy tasks is required to assess the quality of word representations.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Enriching Word Vectors with Subword Information"
+    },
+    {
+      "assumption": "BLEU score is required for evaluating the performance of machine translation systems.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Effective Approaches to Attention-based Neural Machine Translation"
+    },
+    {
+      "assumption": "Large parallel corpora are essential for training effective neural machine translation models.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Effective Approaches to Attention-based Neural Machine Translation"
+    },
+    {
+      "assumption": "End-to-end training is necessary for neural machine translation models to learn effective representations.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Effective Approaches to Attention-based Neural Machine Translation"
+    },
+    {
+      "assumption": "Sequence-to-sequence architectures are required for neural machine translation.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Effective Approaches to Attention-based Neural Machine Translation"
+    },
+    {
+      "assumption": "Integration with other scientific software suites is required for comprehensive image analysis.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "ImageJ2: ImageJ for the next generation of scientific image data"
+    },
+    {
+      "assumption": "Continuous evolution of software is necessary to meet emerging scientific challenges.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "ImageJ2: ImageJ for the next generation of scientific image data"
+    },
+    {
+      "assumption": "Canonicalization of objects, attributes, and relationships to a common ontology like WordNet is necessary for consistent image annotation.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Visual Genome: Connecting Language and Vision Using Crowdsourced Dense Image Annotations"
+    },
+    {
+      "assumption": "Image datasets must include both objects and their attributes to be useful for cognitive tasks.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Visual Genome: Connecting Language and Vision Using Crowdsourced Dense Image Annotations"
+    },
+    {
+      "assumption": "Pairwise relationships between objects are required for comprehensive image understanding.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Visual Genome: Connecting Language and Vision Using Crowdsourced Dense Image Annotations"
+    },
+    {
+      "assumption": "Deep learning models are required for state-of-the-art performance in natural language processing tasks.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Hierarchical Attention Networks for Document Classification"
+    },
+    {
+      "assumption": "Large labeled datasets are essential for training effective document classification models.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Hierarchical Attention Networks for Document Classification"
+    },
+    {
+      "assumption": "End-to-end training is necessary for optimizing complex neural network architectures.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Hierarchical Attention Networks for Document Classification"
+    },
+    {
+      "assumption": "Word embeddings are required for representing text data in a format suitable for neural network processing.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Hierarchical Attention Networks for Document Classification"
+    },
+    {
+      "assumption": "Evaluation on benchmark datasets is essential for validating the performance of document classification models.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Hierarchical Attention Networks for Document Classification"
+    },
+    {
+      "assumption": "Covariance-based evaluation is necessary for assessing structural equation models.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "<scp>piecewiseSEM</scp>: Piecewise structural equation\u00a0modelling in<scp>r</scp>\u00a0for ecology, evolution, and systematics"
+    },
+    {
+      "assumption": "Local estimation methods are necessary for handling complex models with diverse correlation structures.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "<scp>piecewiseSEM</scp>: Piecewise structural equation\u00a0modelling in<scp>r</scp>\u00a0for ecology, evolution, and systematics"
+    },
+    {
+      "assumption": "Confirmatory path analysis is necessary for validating ecological and evolutionary models.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "<scp>piecewiseSEM</scp>: Piecewise structural equation\u00a0modelling in<scp>r</scp>\u00a0for ecology, evolution, and systematics"
+    },
+    {
+      "assumption": "Phylogenetic considerations are required for accurate modeling in evolutionary biology.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "<scp>piecewiseSEM</scp>: Piecewise structural equation\u00a0modelling in<scp>r</scp>\u00a0for ecology, evolution, and systematics"
+    },
+    {
+      "assumption": "End-to-end training is required for optimizing neural network performance in named entity recognition.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Neural Architectures for Named Entity Recognition"
+    },
+    {
+      "assumption": "Recurrent neural networks are necessary for modeling sequential data in named entity recognition.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Neural Architectures for Named Entity Recognition"
+    },
+    {
+      "assumption": "Regularization techniques are required to prevent overfitting in neural network models for named entity recognition.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Neural Architectures for Named Entity Recognition"
+    },
+    {
+      "assumption": "Sensitivity and specificity are required metrics for assessing binary classifier performance.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "The Precision-Recall Plot Is More Informative than the ROC Plot When Evaluating Binary Classifiers on Imbalanced Datasets"
+    },
+    {
+      "assumption": "Evaluating classifiers on imbalanced datasets is necessary for many real-world applications.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "The Precision-Recall Plot Is More Informative than the ROC Plot When Evaluating Binary Classifiers on Imbalanced Datasets"
+    },
+    {
+      "assumption": "Handling factual inaccuracies and repetition is required for effective abstractive summarization.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Get To The Point: Summarization with Pointer-Generator Networks"
+    },
+    {
+      "assumption": "Hybrid models that combine copying and generating are essential for accurate information reproduction in summarization tasks.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Get To The Point: Summarization with Pointer-Generator Networks"
+    },
+    {
+      "assumption": "Coverage mechanisms are necessary to prevent repetition in sequence-to-sequence models.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Get To The Point: Summarization with Pointer-Generator Networks"
+    },
+    {
+      "assumption": "The ability to generate novel words is required for abstractive summarization models to be effective.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Get To The Point: Summarization with Pointer-Generator Networks"
+    },
+    {
+      "assumption": "Improving model architectures is essential for advancing the state-of-the-art in summarization tasks.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Get To The Point: Summarization with Pointer-Generator Networks"
+    },
+    {
+      "assumption": "Autoregressive relationships are required to model temporal stability in longitudinal data.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "A critique of the cross-lagged panel model."
+    },
+    {
+      "assumption": "Structural equation modeling is necessary for estimating complex relationships in longitudinal data.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "A critique of the cross-lagged panel model."
+    },
+    {
+      "assumption": "Language models require exposure to real-world data to reflect human-like biases.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Semantics derived automatically from language corpora contain human-like biases"
+    },
+    {
+      "assumption": "Human-like biases in language models are indicative of biases in the underlying data.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Semantics derived automatically from language corpora contain human-like biases"
+    },
+    {
+      "assumption": "Understanding biases in AI systems is essential for improving their societal impact.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Semantics derived automatically from language corpora contain human-like biases"
+    },
+    {
+      "assumption": "Bi-directional processing is required for capturing context in sequence data effectively.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF"
+    },
+    {
+      "assumption": "Combining multiple neural network components (e.g., LSTM, CNN, CRF) is necessary for capturing different levels of representation in sequence labeling.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF"
+    },
+    {
+      "assumption": "Unsupervised learning is necessary for analyzing and learning from largely unlabeled and un-categorized data.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Deep learning applications and challenges in big data analytics"
+    },
+    {
+      "assumption": "Extracting complex patterns from data is essential for effective Big Data Analytics.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Deep learning applications and challenges in big data analytics"
+    },
+    {
+      "assumption": "Bridging divides between sociocultural and cognitive approaches is necessary for a comprehensive understanding of language practices.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Translanguaging as a Practical Theory of Language"
+    },
+    {
+      "assumption": "Validation of methodologies through closure tests is essential to ensure reliability of PDF determinations.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Parton distributions for the LHC run II"
+    },
+    {
+      "assumption": "Inclusion of electroweak corrections is necessary for comprehensive theoretical predictions.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Parton distributions for the LHC run II"
+    },
+    {
+      "assumption": "Consistency across different experimental datasets is required for robust PDF determination.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Parton distributions for the LHC run II"
+    },
+    {
+      "assumption": "Use of a validated methodology is required for confidence in PDF results across different perturbative orders.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Parton distributions for the LHC run II"
+    },
+    {
+      "assumption": "Incorporating the latest experimental results is necessary for up-to-date PDF determinations.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Parton distributions for the LHC run II"
+    },
+    {
+      "assumption": "A framework that supports new algorithm implementation is essential for scientific progress.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "ImageJ2: ImageJ for the next generation of scientific image data"
+    },
+    {
+      "assumption": "Collaboration with a diverse audience is required for effective method development and deployment.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "ImageJ2: ImageJ for the next generation of scientific image data"
+    },
+    {
+      "assumption": "Crowdsourcing is essential for collecting large-scale, diverse image annotations.",
+      "confidence": 0.75,
+      "category": "data",
+      "source_paper": "Visual Genome: Connecting Language and Vision Using Crowdsourced Dense Image Annotations"
+    },
+    {
+      "assumption": "Open-source software is essential for the dissemination and implementation of statistical methods in ecology.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "<scp>piecewiseSEM</scp>: Piecewise structural equation\u00a0modelling in<scp>r</scp>\u00a0for ecology, evolution, and systematics"
+    },
+    {
+      "assumption": "Model flexibility is necessary to accommodate the diverse data structures encountered in ecological research.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "<scp>piecewiseSEM</scp>: Piecewise structural equation\u00a0modelling in<scp>r</scp>\u00a0for ecology, evolution, and systematics"
+    },
+    {
+      "assumption": "Transfer learning is essential for improving performance on named entity recognition with limited data.",
+      "confidence": 0.75,
+      "category": "training",
+      "source_paper": "Neural Architectures for Named Entity Recognition"
+    },
+    {
+      "assumption": "Performance measures should provide an overview of classifier performance across different thresholds.",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "The Precision-Recall Plot Is More Informative than the ROC Plot When Evaluating Binary Classifiers on Imbalanced Datasets"
+    },
+    {
+      "assumption": "Random intercepts are essential for accounting for stable, trait-like individual differences in longitudinal models.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "A critique of the cross-lagged panel model."
+    },
+    {
+      "assumption": "The Implicit Association Test is a valid method for measuring biases in language models.",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "Semantics derived automatically from language corpora contain human-like biases"
+    },
+    {
+      "assumption": "Standardized evaluation metrics are required for assessing bias in language models.",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "Semantics derived automatically from language corpora contain human-like biases"
+    },
+    {
+      "assumption": "Large annotated datasets are essential for training effective sequence labeling models.",
+      "confidence": 0.75,
+      "category": "data",
+      "source_paper": "End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF"
+    },
+    {
+      "assumption": "Semantic indexing is required for efficient information retrieval in Big Data.",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "Deep learning applications and challenges in big data analytics"
+    },
+    {
+      "assumption": "High-dimensional data handling is necessary for addressing Big Data challenges.",
+      "confidence": 0.75,
+      "category": "data",
+      "source_paper": "Deep learning applications and challenges in big data analytics"
+    },
+    {
+      "assumption": "Translanguaging is essential for understanding the linguistic realities of the 21st century.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "Translanguaging as a Practical Theory of Language"
+    },
+    {
+      "assumption": "Fast training methods are necessary to handle large corpora efficiently.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Enriching Word Vectors with Subword Information"
+    },
+    {
+      "assumption": "Subword information is essential for capturing morphological nuances in word representations.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Enriching Word Vectors with Subword Information"
+    },
+    {
+      "assumption": "State-of-the-art performance is required to validate the effectiveness of new word representation methods.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Enriching Word Vectors with Subword Information"
+    },
+    {
+      "assumption": "Dropout is necessary for regularizing neural machine translation models.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Effective Approaches to Attention-based Neural Machine Translation"
+    },
+    {
+      "assumption": "Ensemble methods are essential for achieving state-of-the-art results in machine translation.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Effective Approaches to Attention-based Neural Machine Translation"
+    },
+    {
+      "assumption": "Attention mechanisms must be capable of focusing on relevant parts of the input sequence.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Effective Approaches to Attention-based Neural Machine Translation"
+    },
+    {
+      "assumption": "Comparative evaluation against existing systems is required to demonstrate improvements in machine translation.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Effective Approaches to Attention-based Neural Machine Translation"
+    },
+    {
+      "assumption": "Support for a wide range of scientific imaging data is necessary for software relevance.",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "ImageJ2: ImageJ for the next generation of scientific image data"
+    },
+    {
+      "assumption": "User-friendly interfaces are essential for broad adoption of scientific software.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "ImageJ2: ImageJ for the next generation of scientific image data"
+    },
+    {
+      "assumption": "Community-driven development is necessary for sustainable software evolution.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "ImageJ2: ImageJ for the next generation of scientific image data"
+    },
+    {
+      "assumption": "Hierarchical models are necessary for effectively capturing multi-level information in structured data.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Hierarchical Attention Networks for Document Classification"
+    },
+    {
+      "assumption": "Recurrent neural networks are essential for processing sequential data in natural language processing.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Hierarchical Attention Networks for Document Classification"
+    },
+    {
+      "assumption": "User-friendly interfaces are required for the practical application of complex statistical models by ecologists.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "<scp>piecewiseSEM</scp>: Piecewise structural equation\u00a0modelling in<scp>r</scp>\u00a0for ecology, evolution, and systematics"
+    },
+    {
+      "assumption": "Hyperparameter tuning is necessary for optimizing neural network performance in named entity recognition.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Neural Architectures for Named Entity Recognition"
+    },
+    {
+      "assumption": "Visual interpretability of performance plots is essential for understanding classifier reliability.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "The Precision-Recall Plot Is More Informative than the ROC Plot When Evaluating Binary Classifiers on Imbalanced Datasets"
+    },
+    {
+      "assumption": "True positive rate and false positive rate are necessary components of ROC analysis.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "The Precision-Recall Plot Is More Informative than the ROC Plot When Evaluating Binary Classifiers on Imbalanced Datasets"
+    },
+    {
+      "assumption": "Large-scale datasets like CNN/Daily Mail are required for training and evaluating summarization models.",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "Get To The Point: Summarization with Pointer-Generator Networks"
+    },
+    {
+      "assumption": "ROUGE scores are essential for evaluating the performance of summarization models.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Get To The Point: Summarization with Pointer-Generator Networks"
+    },
+    {
+      "assumption": "Simulations are required to validate the robustness of longitudinal models.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "A critique of the cross-lagged panel model."
+    },
+    {
+      "assumption": "Within-person processes must be separated from between-person differences to accurately model longitudinal data.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "A critique of the cross-lagged panel model."
+    },
+    {
+      "assumption": "Addressing bias in language models is necessary for ethical AI development.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Semantics derived automatically from language corpora contain human-like biases"
+    },
+    {
+      "assumption": "Character-level representations are required for handling morphological variations in sequence labeling tasks.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF"
+    },
+    {
+      "assumption": "Word-level representations are necessary for capturing semantic information in sequence labeling.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF"
+    },
+    {
+      "assumption": "Sequence labeling models must be evaluated on standard benchmark datasets to validate their performance.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF"
+    },
+    {
+      "assumption": "The use of CRF layers is essential for modeling dependencies between output labels in sequence labeling tasks.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF"
+    },
+    {
+      "assumption": "Fast information retrieval is essential for practical applications of Big Data Analytics.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Deep learning applications and challenges in big data analytics"
+    },
+    {
+      "assumption": "Simplifying discriminative tasks is necessary for effective data analysis in Big Data.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Deep learning applications and challenges in big data analytics"
+    },
+    {
+      "assumption": "Theoretical concepts like Translanguaging Space and Translanguaging Instinct are necessary to explain language practices.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Translanguaging as a Practical Theory of Language"
+    },
+    {
+      "assumption": "Phenomenological implications of PDFs are essential for understanding particle production processes at colliders.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Parton distributions for the LHC run II"
+    },
+    {
+      "assumption": "Scalability of software is required to handle increasing data sizes in scientific imaging.",
+      "confidence": 0.65,
+      "category": "architectural",
+      "source_paper": "ImageJ2: ImageJ for the next generation of scientific image data"
+    },
+    {
+      "assumption": "Positive predictive value is required for understanding the precision of a classifier.",
+      "confidence": 0.65,
+      "category": "evaluation",
+      "source_paper": "The Precision-Recall Plot Is More Informative than the ROC Plot When Evaluating Binary Classifiers on Imbalanced Datasets"
+    },
+    {
+      "assumption": "Classifier evaluation must account for the imbalance in class distribution.",
+      "confidence": 0.65,
+      "category": "data",
+      "source_paper": "The Precision-Recall Plot Is More Informative than the ROC Plot When Evaluating Binary Classifiers on Imbalanced Datasets"
+    },
+    {
+      "assumption": "Analytical derivation is necessary for understanding the relationships between different longitudinal models.",
+      "confidence": 0.65,
+      "category": "theoretical",
+      "source_paper": "A critique of the cross-lagged panel model."
+    },
+    {
+      "assumption": "Empirical data sets are essential for illustrating and validating theoretical models in longitudinal research.",
+      "confidence": 0.65,
+      "category": "data",
+      "source_paper": "A critique of the cross-lagged panel model."
+    },
+    {
+      "assumption": "Achieving high accuracy and F1 scores is necessary for a model to be considered state-of-the-art in sequence labeling.",
+      "confidence": 0.65,
+      "category": "evaluation",
+      "source_paper": "End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF"
+    },
+    {
+      "assumption": "Language and thought are interconnected, and this relationship is crucial for understanding language practices.",
+      "confidence": 0.65,
+      "category": "theoretical",
+      "source_paper": "Translanguaging as a Practical Theory of Language"
+    },
+    {
+      "assumption": "The skipgram model is a foundational architecture for learning word representations.",
+      "confidence": 0.6,
+      "category": "architectural",
+      "source_paper": "Enriching Word Vectors with Subword Information"
+    },
+    {
+      "assumption": "Comparative evaluation against recent models is necessary to demonstrate improvements in word representation techniques.",
+      "confidence": 0.6,
+      "category": "evaluation",
+      "source_paper": "Enriching Word Vectors with Subword Information"
+    },
+    {
+      "assumption": "Model interpretability is required for understanding the decision-making process of complex neural networks.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Hierarchical Attention Networks for Document Classification"
+    },
+    {
+      "assumption": "Theoretical understanding of performance metrics is essential for accurate interpretation of classifier results.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "The Precision-Recall Plot Is More Informative than the ROC Plot When Evaluating Binary Classifiers on Imbalanced Datasets"
+    },
+    {
+      "assumption": "Modeling strategies are required to avoid pitfalls in longitudinal data analysis.",
+      "confidence": 0.6,
+      "category": "training",
+      "source_paper": "A critique of the cross-lagged panel model."
+    },
+    {
+      "assumption": "The modularity of mind hypothesis is relevant for discussions about language and thought.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Translanguaging as a Practical Theory of Language"
+    },
+    {
+      "assumption": "Translanguaging provides added value to debates over language and thought.",
+      "confidence": 0.55,
+      "category": "theoretical",
+      "source_paper": "Translanguaging as a Practical Theory of Language"
+    },
+    {
+      "assumption": "Criticisms and confusions about Translanguaging need to be addressed for its theoretical development.",
+      "confidence": 0.5,
+      "category": "theoretical",
+      "source_paper": "Translanguaging as a Practical Theory of Language"
+    }
+  ]
+}

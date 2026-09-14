@@ -1,0 +1,376 @@
+{
+  "completed_at": "2026-03-22T09:23:30.541391+00:00",
+  "methodology_note": "The expert audit (expert_audit.json) evaluated 12 hypotheses all from the Unbox pipeline. The blinded comparison set (audit_blinded_set.json) contains 6 Unbox + 6 SCAM hypotheses. Only the 6 Unbox hypotheses could be matched to audit evaluations. SCAM hypotheses were not evaluated in this audit.",
+  "unbox_hypotheses": [
+    "H02",
+    "H03",
+    "H08",
+    "H09",
+    "H10",
+    "H11"
+  ],
+  "scam_hypotheses": [
+    "H01",
+    "H04",
+    "H05",
+    "H06",
+    "H07",
+    "H12"
+  ],
+  "unbox_avg": {
+    "novelty": 6.2,
+    "feasibility": 5.9,
+    "impact": 7.767,
+    "clarity": 6.733,
+    "composite": 6.65
+  },
+  "scam_avg": {
+    "novelty": null,
+    "feasibility": null,
+    "impact": null,
+    "clarity": null,
+    "composite": null
+  },
+  "delta": {
+    "novelty": null,
+    "feasibility": null,
+    "impact": null,
+    "clarity": null,
+    "composite": null
+  },
+  "mann_whitney_p": {
+    "novelty": null,
+    "feasibility": null,
+    "impact": null,
+    "clarity": null,
+    "composite": null
+  },
+  "note_on_comparison": "Direct Unbox-vs-SCAM comparison not possible: SCAM hypotheses lack expert audit scores. Below we report within-Unbox analysis (selected vs additional).",
+  "within_unbox_comparison": {
+    "selected_avg": {
+      "novelty": 6.2,
+      "feasibility": 5.9,
+      "impact": 7.767,
+      "clarity": 6.733,
+      "composite": 6.65
+    },
+    "additional_avg": {
+      "novelty": 4.533,
+      "feasibility": 5.967,
+      "impact": 6.3,
+      "clarity": 6.267,
+      "composite": 5.767
+    },
+    "all_12_avg": {
+      "novelty": 5.367,
+      "feasibility": 5.933,
+      "impact": 7.033,
+      "clarity": 6.5,
+      "composite": 6.208
+    },
+    "mann_whitney_selected_vs_additional": {
+      "novelty": {
+        "U": 4.5,
+        "z": 2.1732,
+        "p": 0.0298
+      },
+      "feasibility": {
+        "U": 16.5,
+        "z": -0.2406,
+        "p": 0.8099
+      },
+      "impact": {
+        "U": 6.5,
+        "z": 1.8578,
+        "p": 0.0632
+      },
+      "clarity": {
+        "U": 15.0,
+        "z": 0.4821,
+        "p": 0.6298
+      },
+      "composite": {
+        "U": 0.0,
+        "z": 2.9078,
+        "p": 0.0036
+      }
+    }
+  },
+  "per_hypothesis_scores": [
+    {
+      "id": "H01",
+      "system": "scam",
+      "paradigm": "rlhf_alignment",
+      "transformation": "negate",
+      "hypothesis_snippet": "Language models could be aligned using purely synthetic feedback from rule-based systems without any",
+      "has_audit_scores": false,
+      "novelty": null,
+      "feasibility": null,
+      "impact": null,
+      "clarity": null,
+      "composite": null
+    },
+    {
+      "id": "H02",
+      "system": "unbox",
+      "paradigm": "scaling_laws",
+      "transformation": "invert",
+      "hypothesis_snippet": "Optimal capability improvement requires deliberate parameter-data imbalance, with periodic phases of",
+      "has_audit_scores": true,
+      "novelty": 6.0,
+      "feasibility": 6.2,
+      "impact": 6.4,
+      "clarity": 6.8,
+      "composite": 6.35
+    },
+    {
+      "id": "H03",
+      "system": "unbox",
+      "paradigm": "scaling_laws",
+      "transformation": "negate",
+      "hypothesis_snippet": "Power-law scaling is an artifact of transformer limitations, and alternative architectures exhibit e",
+      "has_audit_scores": true,
+      "novelty": 6.0,
+      "feasibility": 4.2,
+      "impact": 8.8,
+      "clarity": 7.0,
+      "composite": 6.5
+    },
+    {
+      "id": "H04",
+      "system": "scam",
+      "paradigm": "scaling_laws",
+      "transformation": "negate",
+      "hypothesis_snippet": "Capability improvement is primarily a function of training data quality rather than scale, and caref",
+      "has_audit_scores": false,
+      "novelty": null,
+      "feasibility": null,
+      "impact": null,
+      "clarity": null,
+      "composite": null
+    },
+    {
+      "id": "H05",
+      "system": "scam",
+      "paradigm": "attention_mechanism",
+      "transformation": "negate",
+      "hypothesis_snippet": "Sparse attention patterns that only attend to nearby tokens and a small number of global tokens can ",
+      "has_audit_scores": false,
+      "novelty": null,
+      "feasibility": null,
+      "impact": null,
+      "clarity": null,
+      "composite": null
+    },
+    {
+      "id": "H06",
+      "system": "scam",
+      "paradigm": "autoregressive_llm",
+      "transformation": "negate",
+      "hypothesis_snippet": "Training language models to predict full sentence completions or paragraph-level summaries rather th",
+      "has_audit_scores": false,
+      "novelty": null,
+      "feasibility": null,
+      "impact": null,
+      "clarity": null,
+      "composite": null
+    },
+    {
+      "id": "H07",
+      "system": "scam",
+      "paradigm": "autoregressive_llm",
+      "transformation": "negate",
+      "hypothesis_snippet": "Non-autoregressive models that generate all tokens in parallel with iterative refinement can produce",
+      "has_audit_scores": false,
+      "novelty": null,
+      "feasibility": null,
+      "impact": null,
+      "clarity": null,
+      "composite": null
+    },
+    {
+      "id": "H08",
+      "system": "unbox",
+      "paradigm": "attention_mechanism",
+      "transformation": "negate",
+      "hypothesis_snippet": "Constant-time attention mechanisms can achieve superior sequence modeling quality compared to quadra",
+      "has_audit_scores": true,
+      "novelty": 6.2,
+      "feasibility": 5.6,
+      "impact": 7.6,
+      "clarity": 6.0,
+      "composite": 6.35
+    },
+    {
+      "id": "H09",
+      "system": "unbox",
+      "paradigm": "rlhf_alignment",
+      "transformation": "negate",
+      "hypothesis_snippet": "Language models can achieve superior alignment through self-supervised constitutional learning, wher",
+      "has_audit_scores": true,
+      "novelty": 5.0,
+      "feasibility": 6.4,
+      "impact": 7.6,
+      "clarity": 6.4,
+      "composite": 6.35
+    },
+    {
+      "id": "H10",
+      "system": "unbox",
+      "paradigm": "attention_mechanism",
+      "transformation": "invert",
+      "hypothesis_snippet": "Randomly initialized and frozen attention patterns can match or exceed the performance of learned at",
+      "has_audit_scores": true,
+      "novelty": 7.0,
+      "feasibility": 8.6,
+      "impact": 7.2,
+      "clarity": 8.4,
+      "composite": 7.8
+    },
+    {
+      "id": "H11",
+      "system": "unbox",
+      "paradigm": "rlhf_alignment",
+      "transformation": "invert",
+      "hypothesis_snippet": "RLHF-style training actually reduces long-term safety by creating deceptive alignment, and truly saf",
+      "has_audit_scores": true,
+      "novelty": 7.0,
+      "feasibility": 4.4,
+      "impact": 9.0,
+      "clarity": 5.8,
+      "composite": 6.55
+    },
+    {
+      "id": "H12",
+      "system": "scam",
+      "paradigm": "rlhf_alignment",
+      "transformation": "relax",
+      "hypothesis_snippet": "Simple supervised fine-tuning on high-quality human-written demonstrations is sufficient for safety ",
+      "has_audit_scores": false,
+      "novelty": null,
+      "feasibility": null,
+      "impact": null,
+      "clarity": null,
+      "composite": null
+    }
+  ],
+  "additional_unbox_scores": [
+    {
+      "audit_index": 6,
+      "paradigm": "attention_mechanism",
+      "hypothesis_snippet": "Fixed, mathematically-derived attention patterns based on linguistic and cognitive principles consis",
+      "novelty": 4.2,
+      "feasibility": 7.6,
+      "impact": 5.8,
+      "clarity": 7.2,
+      "composite": 6.2
+    },
+    {
+      "audit_index": 7,
+      "paradigm": "autoregressive_llm",
+      "hypothesis_snippet": "Training on sentence-level or paragraph-level semantic reconstruction tasks produces better language",
+      "novelty": 5.4,
+      "feasibility": 6.8,
+      "impact": 6.4,
+      "clarity": 6.0,
+      "composite": 6.15
+    },
+    {
+      "audit_index": 8,
+      "paradigm": "autoregressive_llm",
+      "hypothesis_snippet": "Reverse autoregressive generation (right-to-left) or center-out generation produces more coherent te",
+      "novelty": 3.2,
+      "feasibility": 8.8,
+      "impact": 3.8,
+      "clarity": 8.8,
+      "composite": 6.15
+    },
+    {
+      "audit_index": 9,
+      "paradigm": "scaling_laws",
+      "hypothesis_snippet": "Capability improvements are primarily driven by architectural innovations and training dynamics rath",
+      "novelty": 3.6,
+      "feasibility": 5.4,
+      "impact": 7.6,
+      "clarity": 6.4,
+      "composite": 5.75
+    },
+    {
+      "audit_index": 10,
+      "paradigm": "rlhf_alignment",
+      "hypothesis_snippet": "AI systems should primarily align to objective, measurable outcomes rather than subjective human pre",
+      "novelty": 4.6,
+      "feasibility": 4.4,
+      "impact": 6.8,
+      "clarity": 5.2,
+      "composite": 5.25
+    },
+    {
+      "audit_index": 11,
+      "paradigm": "autoregressive_llm",
+      "hypothesis_snippet": "Semantic unit tokenization based on meaning rather than linguistic form produces superior language m",
+      "novelty": 6.2,
+      "feasibility": 2.8,
+      "impact": 7.4,
+      "clarity": 4.0,
+      "composite": 5.1
+    }
+  ],
+  "per_paradigm_breakdown": {
+    "attention_mechanism": {
+      "count": 2,
+      "avg": {
+        "novelty": 6.6,
+        "feasibility": 7.1,
+        "impact": 7.4,
+        "clarity": 7.2,
+        "composite": 7.075
+      },
+      "extra_count": 1,
+      "extra_avg": {
+        "novelty": 4.2,
+        "feasibility": 7.6,
+        "impact": 5.8,
+        "clarity": 7.2,
+        "composite": 6.2
+      }
+    },
+    "rlhf_alignment": {
+      "count": 2,
+      "avg": {
+        "novelty": 6.0,
+        "feasibility": 5.4,
+        "impact": 8.3,
+        "clarity": 6.1,
+        "composite": 6.45
+      },
+      "extra_count": 1,
+      "extra_avg": {
+        "novelty": 4.6,
+        "feasibility": 4.4,
+        "impact": 6.8,
+        "clarity": 5.2,
+        "composite": 5.25
+      }
+    },
+    "scaling_laws": {
+      "count": 2,
+      "avg": {
+        "novelty": 6.0,
+        "feasibility": 5.2,
+        "impact": 7.6,
+        "clarity": 6.9,
+        "composite": 6.425
+      },
+      "extra_count": 1,
+      "extra_avg": {
+        "novelty": 3.6,
+        "feasibility": 5.4,
+        "impact": 7.6,
+        "clarity": 6.4,
+        "composite": 5.75
+      }
+    }
+  },
+  "conclusion": "Expert audit evaluated 12 Unbox-pipeline hypotheses (5 judge personas). 6 of these correspond to the Unbox hypotheses in the blinded comparison set (IDs: H02, H03, H08, H09, H10, H11). The 6 SCAM hypotheses (H01, H04, H05, H06, H07, H12) were not part of the expert audit and thus lack audit scores. Selected Unbox avg composite: 6.650, additional Unbox avg composite: 5.767, overall audit avg composite: 6.208. Novelty ranged from 5.0 to 7.0 (mean 6.20). Impact ranged from 6.4 to 9.0 (mean 7.77). A direct Unbox-vs-SCAM comparison requires evaluating SCAM hypotheses through the same expert audit protocol."
+}

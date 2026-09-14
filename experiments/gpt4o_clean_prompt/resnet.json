@@ -1,0 +1,909 @@
+{
+  "paradigm": "resnet",
+  "num_papers": 15,
+  "num_raw_assumptions": 150,
+  "num_unique_assumptions": 150,
+  "ground_truth": "Deep networks must process information through sequential layers without shortcuts",
+  "assumptions": [
+    {
+      "assumption": "Convolutional neural networks (CNNs) are essential for extracting powerful features for visual recognition tasks.",
+      "confidence": 1.0,
+      "category": "architectural",
+      "source_paper": "CNN Features Off-the-Shelf: An Astounding Baseline for Recognition"
+    },
+    {
+      "assumption": "Large labeled datasets are essential for training effective deep learning models.",
+      "confidence": 1.0,
+      "category": "data",
+      "source_paper": "Learning Deep Features for Scene Recognition using Places Database"
+    },
+    {
+      "assumption": "Convolutional Neural Networks (CNNs) are necessary for learning high-level features in image recognition tasks.",
+      "confidence": 1.0,
+      "category": "architectural",
+      "source_paper": "Learning Deep Features for Scene Recognition using Places Database"
+    },
+    {
+      "assumption": "Increasing network depth is essential for improving model accuracy in image recognition tasks.",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Very Deep Convolutional Networks for Large-Scale Image Recognition"
+    },
+    {
+      "assumption": "Convolutional layers are necessary for effective feature extraction in image data.",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Very Deep Convolutional Networks for Large-Scale Image Recognition"
+    },
+    {
+      "assumption": "Deep learning models are essential for handling complex image analysis tasks in medical imaging.",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Automatic detection of invasive ductal carcinoma in whole slide images with convolutional neural networks"
+    },
+    {
+      "assumption": "Deep neural networks are essential for achieving high performance in face recognition tasks.",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "DeepFace: Closing the Gap to Human-Level Performance in Face Verification"
+    },
+    {
+      "assumption": "Large-scale datasets are necessary for training effective face recognition models.",
+      "confidence": 0.95,
+      "category": "data",
+      "source_paper": "DeepFace: Closing the Gap to Human-Level Performance in Face Verification"
+    },
+    {
+      "assumption": "Scalability is essential for training large deep networks.",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Large Scale Distributed Deep Networks"
+    },
+    {
+      "assumption": "Distributed computing is necessary for handling large-scale deep learning tasks.",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Large Scale Distributed Deep Networks"
+    },
+    {
+      "assumption": "Deep neural networks are necessary for achieving human-level performance in image classification tasks.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Multi-column deep neural networks for image classification"
+    },
+    {
+      "assumption": "Convolutional layers are essential for processing image data effectively.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Multi-column deep neural networks for image classification"
+    },
+    {
+      "assumption": "Graphics processing units (GPUs) are essential for fast training of deep neural networks.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Multi-column deep neural networks for image classification"
+    },
+    {
+      "assumption": "Benchmark datasets are required for evaluating the performance of image classification models.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "Multi-column deep neural networks for image classification"
+    },
+    {
+      "assumption": "Large-scale datasets are required for training deep convolutional networks effectively.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Very Deep Convolutional Networks for Large-Scale Image Recognition"
+    },
+    {
+      "assumption": "Deep learning models must be evaluated on benchmark datasets like ImageNet to validate their performance.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "Very Deep Convolutional Networks for Large-Scale Image Recognition"
+    },
+    {
+      "assumption": "Large datasets are necessary for training deep learning models to ensure generalizability.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Automatic detection of invasive ductal carcinoma in whole slide images with convolutional neural networks"
+    },
+    {
+      "assumption": "Convolutional neural networks are required for effective feature extraction in image-based tasks.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Automatic detection of invasive ductal carcinoma in whole slide images with convolutional neural networks"
+    },
+    {
+      "assumption": "Deep convolutional neural networks are essential for feature extraction in image-based tasks.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Vehicle Detection in Satellite Images by Hybrid Deep Convolutional Neural Networks"
+    },
+    {
+      "assumption": "Deep learning architectures are necessary for extracting generic features in video analysis.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "C3D: Generic Features for Video Analysis."
+    },
+    {
+      "assumption": "Large annotated datasets are required for training effective video analysis models.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "C3D: Generic Features for Video Analysis."
+    },
+    {
+      "assumption": "Deep learning models are essential for achieving state-of-the-art performance in image classification tasks.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Deep convolutional neural network based species recognition for wild animal monitoring"
+    },
+    {
+      "assumption": "Large annotated datasets are necessary for training effective deep learning models.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Deep convolutional neural network based species recognition for wild animal monitoring"
+    },
+    {
+      "assumption": "Convolutional neural networks are required for processing and extracting features from image data.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Deep convolutional neural network based species recognition for wild animal monitoring"
+    },
+    {
+      "assumption": "Deep learning architectures are necessary for effective image character recognition.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Image character recognition using deep convolutional neural network learned from different languages"
+    },
+    {
+      "assumption": "Convolutional neural networks are essential for capturing spatial hierarchies in image data.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Image character recognition using deep convolutional neural network learned from different languages"
+    },
+    {
+      "assumption": "Empirical evaluation on benchmark datasets is essential for validating model performance.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "Image character recognition using deep convolutional neural network learned from different languages"
+    },
+    {
+      "assumption": "Gaussian mixture models are necessary for modeling the generation process of local features in Fisher vector coding.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Encoding High Dimensional Local Features by Sparse Coding Based Fisher Vectors"
+    },
+    {
+      "assumption": "Accurate face alignment is required for improving face recognition accuracy.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "DeepFace: Closing the Gap to Human-Level Performance in Face Verification"
+    },
+    {
+      "assumption": "High-dimensional feature representations are necessary for distinguishing between different identities in face recognition.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "DeepFace: Closing the Gap to Human-Level Performance in Face Verification"
+    },
+    {
+      "assumption": "Evaluation on benchmark datasets like Labeled Faces in the Wild (LFW) is required for validating face recognition models.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "DeepFace: Closing the Gap to Human-Level Performance in Face Verification"
+    },
+    {
+      "assumption": "Reducing error rates significantly is necessary for approaching human-level performance in face verification.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "DeepFace: Closing the Gap to Human-Level Performance in Face Verification"
+    },
+    {
+      "assumption": "Pre-trained models are necessary for achieving strong performance in diverse recognition tasks.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "CNN Features Off-the-Shelf: An Astounding Baseline for Recognition"
+    },
+    {
+      "assumption": "Feature extraction from deep learning models is required for effective image representation.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "CNN Features Off-the-Shelf: An Astounding Baseline for Recognition"
+    },
+    {
+      "assumption": "Deep learning features should be the primary choice for most visual recognition tasks.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "CNN Features Off-the-Shelf: An Astounding Baseline for Recognition"
+    },
+    {
+      "assumption": "Asynchronous optimization methods are required for efficient distributed training.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Large Scale Distributed Deep Networks"
+    },
+    {
+      "assumption": "Large models are necessary for achieving state-of-the-art performance on complex tasks.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Large Scale Distributed Deep Networks"
+    },
+    {
+      "assumption": "High-performance computing infrastructure is essential for training deep networks with billions of parameters.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Large Scale Distributed Deep Networks"
+    },
+    {
+      "assumption": "The diversity of a dataset is required to improve the generalization of models trained on it.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Learning Deep Features for Scene Recognition using Places Database"
+    },
+    {
+      "assumption": "Scene recognition requires specialized datasets that are distinct from object recognition datasets.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Learning Deep Features for Scene Recognition using Places Database"
+    },
+    {
+      "assumption": "High-level feature learning is required for successful scene recognition.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Learning Deep Features for Scene Recognition using Places Database"
+    },
+    {
+      "assumption": "Convolutional neural networks are essential for extracting hierarchical features in image classification tasks.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Learning Convolutional Nonlinear Features for K Nearest Neighbor Image Classification"
+    },
+    {
+      "assumption": "Learning low-dimensional feature representations is necessary for effective machine learning and computer vision.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Learning Convolutional Nonlinear Features for K Nearest Neighbor Image Classification"
+    },
+    {
+      "assumption": "Supervised learning is necessary for achieving high performance in visual object recognition models.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation"
+    },
+    {
+      "assumption": "Deep learning models are necessary for effective segmentation of complex biological structures in images.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Deep Neural Networks Segment Neuronal Membranes in Electron Microscopy Images"
+    },
+    {
+      "assumption": "Convolutional layers are essential for extracting hierarchical features from image data.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Deep Neural Networks Segment Neuronal Membranes in Electron Microscopy Images"
+    },
+    {
+      "assumption": "Training on labeled ground truth data is necessary for supervised learning models to perform accurate segmentation.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Deep Neural Networks Segment Neuronal Membranes in Electron Microscopy Images"
+    },
+    {
+      "assumption": "Small convolutional filters (e.g., 3x3) are sufficient and effective for building deep networks.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Very Deep Convolutional Networks for Large-Scale Image Recognition"
+    },
+    {
+      "assumption": "Transfer learning is essential for applying models trained on large datasets to other tasks or datasets.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Very Deep Convolutional Networks for Large-Scale Image Recognition"
+    },
+    {
+      "assumption": "Weight initialization and optimization techniques are essential for training deep networks effectively.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Very Deep Convolutional Networks for Large-Scale Image Recognition"
+    },
+    {
+      "assumption": "Hierarchical feature representation is essential for capturing complex patterns in image data.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Automatic detection of invasive ductal carcinoma in whole slide images with convolutional neural networks"
+    },
+    {
+      "assumption": "Ground truth annotations by experts are necessary for the quantitative evaluation of model performance.",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "Automatic detection of invasive ductal carcinoma in whole slide images with convolutional neural networks"
+    },
+    {
+      "assumption": "Rich feature learning is necessary for achieving state-of-the-art performance in image classification.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Vehicle Detection in Satellite Images by Hybrid Deep Convolutional Neural Networks"
+    },
+    {
+      "assumption": "Spatio-temporal convolutions are essential for capturing both appearance and motion cues in video data.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "C3D: Generic Features for Video Analysis."
+    },
+    {
+      "assumption": "Deep convolutional networks are required for achieving compact and effective feature representations.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "C3D: Generic Features for Video Analysis."
+    },
+    {
+      "assumption": "Shared feature representations are required for transferring learning across different but related tasks.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Image character recognition using deep convolutional neural network learned from different languages"
+    },
+    {
+      "assumption": "Large and diverse datasets are necessary for training robust image recognition models.",
+      "confidence": 0.85,
+      "category": "data",
+      "source_paper": "Image character recognition using deep convolutional neural network learned from different languages"
+    },
+    {
+      "assumption": "High dimensional local features are essential for improving image classification performance.",
+      "confidence": 0.85,
+      "category": "data",
+      "source_paper": "Encoding High Dimensional Local Features by Sparse Coding Based Fisher Vectors"
+    },
+    {
+      "assumption": "Model-based alignment techniques are essential for handling variations in facial pose and expression.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "DeepFace: Closing the Gap to Human-Level Performance in Face Verification"
+    },
+    {
+      "assumption": "Generalization to unconstrained environments is required for practical face recognition applications.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "DeepFace: Closing the Gap to Human-Level Performance in Face Verification"
+    },
+    {
+      "assumption": "Transfer learning is necessary for applying models trained on one task to different but related tasks.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "CNN Features Off-the-Shelf: An Astounding Baseline for Recognition"
+    },
+    {
+      "assumption": "Gradient-based optimization is required for training deep learning models.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Large Scale Distributed Deep Networks"
+    },
+    {
+      "assumption": "Handling large datasets is necessary for training effective deep learning models.",
+      "confidence": 0.85,
+      "category": "data",
+      "source_paper": "Large Scale Distributed Deep Networks"
+    },
+    {
+      "assumption": "Parallelization is essential for reducing training time in large-scale deep learning.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Large Scale Distributed Deep Networks"
+    },
+    {
+      "assumption": "Optimizing feature representations for specific tasks is required to achieve optimal performance in those tasks.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Learning Convolutional Nonlinear Features for K Nearest Neighbor Image Classification"
+    },
+    {
+      "assumption": "Deep learning models require large-scale data to effectively learn discriminative features.",
+      "confidence": 0.85,
+      "category": "data",
+      "source_paper": "Learning Convolutional Nonlinear Features for K Nearest Neighbor Image Classification"
+    },
+    {
+      "assumption": "Deep learning architectures are essential for modeling complex visual representations similar to those in the IT cortex.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation"
+    },
+    {
+      "assumption": "Large-scale labeled datasets are required for training models that aim to replicate human-like visual recognition capabilities.",
+      "confidence": 0.85,
+      "category": "data",
+      "source_paper": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation"
+    },
+    {
+      "assumption": "Large network depth is required to model complex patterns in image data.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Multi-column deep neural networks for image classification"
+    },
+    {
+      "assumption": "Preprocessing of input data is necessary to enhance the performance of neural networks.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Multi-column deep neural networks for image classification"
+    },
+    {
+      "assumption": "Achieving state-of-the-art performance on benchmarks is essential for validating new image classification methods.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Multi-column deep neural networks for image classification"
+    },
+    {
+      "assumption": "State-of-the-art performance is necessary for a model to be considered successful in the field.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Very Deep Convolutional Networks for Large-Scale Image Recognition"
+    },
+    {
+      "assumption": "Public availability of models is required to facilitate further research and reproducibility.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Very Deep Convolutional Networks for Large-Scale Image Recognition"
+    },
+    {
+      "assumption": "Generalization to other datasets is necessary to demonstrate the robustness of a model.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Very Deep Convolutional Networks for Large-Scale Image Recognition"
+    },
+    {
+      "assumption": "Quantitative metrics like F-measure and balanced accuracy are required for evaluating model performance.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Automatic detection of invasive ductal carcinoma in whole slide images with convolutional neural networks"
+    },
+    {
+      "assumption": "Deep learning approaches are required to outperform traditional handcrafted feature methods in complex tasks.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Automatic detection of invasive ductal carcinoma in whole slide images with convolutional neural networks"
+    },
+    {
+      "assumption": "Handling scale variance is required for effective object detection in complex environments.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Vehicle Detection in Satellite Images by Hybrid Deep Convolutional Neural Networks"
+    },
+    {
+      "assumption": "Generic features are necessary for achieving state-of-the-art results across multiple video analysis tasks.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "C3D: Generic Features for Video Analysis."
+    },
+    {
+      "assumption": "Video analysis models must be evaluated on a variety of tasks to demonstrate their generality.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "C3D: Generic Features for Video Analysis."
+    },
+    {
+      "assumption": "The integration of appearance and motion information is necessary for effective video classification.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "C3D: Generic Features for Video Analysis."
+    },
+    {
+      "assumption": "Automated segmentation of images is essential for focusing on relevant regions of interest in image classification tasks.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Deep convolutional neural network based species recognition for wild animal monitoring"
+    },
+    {
+      "assumption": "Benchmark datasets are necessary for evaluating and comparing the performance of different models.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Deep convolutional neural network based species recognition for wild animal monitoring"
+    },
+    {
+      "assumption": "Supervised learning is required for training models on labeled datasets.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Deep convolutional neural network based species recognition for wild animal monitoring"
+    },
+    {
+      "assumption": "The performance of deep learning models is dependent on the quality and quantity of training data.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Deep convolutional neural network based species recognition for wild animal monitoring"
+    },
+    {
+      "assumption": "Supervised learning is essential for training models to perform specific recognition tasks.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Image character recognition using deep convolutional neural network learned from different languages"
+    },
+    {
+      "assumption": "Softmax layers are required for multi-class classification tasks in neural networks.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Image character recognition using deep convolutional neural network learned from different languages"
+    },
+    {
+      "assumption": "Reducing recognition errors is a primary objective in image character recognition research.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Image character recognition using deep convolutional neural network learned from different languages"
+    },
+    {
+      "assumption": "Sparse coding is required for efficient modeling of high dimensional feature spaces.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Encoding High Dimensional Local Features by Sparse Coding Based Fisher Vectors"
+    },
+    {
+      "assumption": "Deep Convolutional Neural Networks are necessary for extracting high dimensional local features.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Encoding High Dimensional Local Features by Sparse Coding Based Fisher Vectors"
+    },
+    {
+      "assumption": "Piecewise affine transformations are necessary for effective face alignment in 3D face modeling.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "DeepFace: Closing the Gap to Human-Level Performance in Face Verification"
+    },
+    {
+      "assumption": "Large-scale datasets are essential for training models that generalize well to various tasks.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "CNN Features Off-the-Shelf: An Astounding Baseline for Recognition"
+    },
+    {
+      "assumption": "Evaluation on diverse datasets is necessary to demonstrate the generalization capability of models.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "CNN Features Off-the-Shelf: An Astounding Baseline for Recognition"
+    },
+    {
+      "assumption": "State-of-the-art performance is a necessary benchmark for evaluating deep learning models.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Large Scale Distributed Deep Networks"
+    },
+    {
+      "assumption": "Algorithmic innovations are required to efficiently utilize distributed systems for deep learning.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Large Scale Distributed Deep Networks"
+    },
+    {
+      "assumption": "Visualization of CNN layers is essential for understanding the internal representations of neural networks.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Learning Deep Features for Scene Recognition using Places Database"
+    },
+    {
+      "assumption": "State-of-the-art performance is necessary to validate the effectiveness of new methods in scene recognition.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Learning Deep Features for Scene Recognition using Places Database"
+    },
+    {
+      "assumption": "Advancements in object recognition can inform and enhance scene recognition methodologies.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Learning Deep Features for Scene Recognition using Places Database"
+    },
+    {
+      "assumption": "The performance of image classification models is evaluated based on standard benchmarks.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Learning Convolutional Nonlinear Features for K Nearest Neighbor Image Classification"
+    },
+    {
+      "assumption": "End-to-end training is essential for learning task-specific features in deep learning models.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Learning Convolutional Nonlinear Features for K Nearest Neighbor Image Classification"
+    },
+    {
+      "assumption": "Representational similarity analysis is necessary for comparing computational models with neural data.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation"
+    },
+    {
+      "assumption": "Categorical clustering is essential for understanding the representational geometry of the IT cortex.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation"
+    },
+    {
+      "assumption": "Max-pooling layers are required to reduce spatial dimensions and retain important features in image processing tasks.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Deep Neural Networks Segment Neuronal Membranes in Electron Microscopy Images"
+    },
+    {
+      "assumption": "Gradient descent is essential for optimizing neural network parameters during training.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Deep Neural Networks Segment Neuronal Membranes in Electron Microscopy Images"
+    },
+    {
+      "assumption": "High-resolution image data is required to capture detailed structures in electron microscopy.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Deep Neural Networks Segment Neuronal Membranes in Electron Microscopy Images"
+    },
+    {
+      "assumption": "Benchmarking against standardized metrics is essential for evaluating the performance of segmentation algorithms.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Deep Neural Networks Segment Neuronal Membranes in Electron Microscopy Images"
+    },
+    {
+      "assumption": "Training on image patches is necessary for learning detailed representations in whole slide images.",
+      "confidence": 0.75,
+      "category": "training",
+      "source_paper": "Automatic detection of invasive ductal carcinoma in whole slide images with convolutional neural networks"
+    },
+    {
+      "assumption": "Expert pathologist annotations are essential for creating reliable training datasets in medical imaging.",
+      "confidence": 0.75,
+      "category": "data",
+      "source_paper": "Automatic detection of invasive ductal carcinoma in whole slide images with convolutional neural networks"
+    },
+    {
+      "assumption": "Hybrid models are necessary to improve performance over traditional models in complex tasks.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "Vehicle Detection in Satellite Images by Hybrid Deep Convolutional Neural Networks"
+    },
+    {
+      "assumption": "Efficiency in computation is essential for the practical application of video analysis methods.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "C3D: Generic Features for Video Analysis."
+    },
+    {
+      "assumption": "Advancements in image domain feature extraction are applicable and beneficial to video analysis.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "C3D: Generic Features for Video Analysis."
+    },
+    {
+      "assumption": "Cross-language feature extraction is necessary for improving recognition performance in multilingual contexts.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "Image character recognition using deep convolutional neural network learned from different languages"
+    },
+    {
+      "assumption": "Transfer learning is required for leveraging pre-trained models on new, related tasks.",
+      "confidence": 0.75,
+      "category": "training",
+      "source_paper": "Image character recognition using deep convolutional neural network learned from different languages"
+    },
+    {
+      "assumption": "Fisher vector encoding is essential for effective image classification.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "Encoding High Dimensional Local Features by Sparse Coding Based Fisher Vectors"
+    },
+    {
+      "assumption": "Locally connected layers without weight sharing can be essential for capturing local facial features.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "DeepFace: Closing the Gap to Human-Level Performance in Face Verification"
+    },
+    {
+      "assumption": "Deep learning models require large computational resources for training and inference.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "CNN Features Off-the-Shelf: An Astounding Baseline for Recognition"
+    },
+    {
+      "assumption": "Feature optimization should be data-driven and task-driven to improve classification performance.",
+      "confidence": 0.75,
+      "category": "training",
+      "source_paper": "Learning Convolutional Nonlinear Features for K Nearest Neighbor Image Classification"
+    },
+    {
+      "assumption": "Hierarchical feature extraction is necessary for capturing complex patterns in image data.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "Learning Convolutional Nonlinear Features for K Nearest Neighbor Image Classification"
+    },
+    {
+      "assumption": "Linear combinations of features are required to enhance model performance in distinguishing between specific object categories.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation"
+    },
+    {
+      "assumption": "Neuroscientific insights are necessary for guiding the development of computational models of vision.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation"
+    },
+    {
+      "assumption": "Multiple neural network columns are necessary for handling diverse input preprocessing methods.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Multi-column deep neural networks for image classification"
+    },
+    {
+      "assumption": "Sparse connectivity in neural networks is required to mimic biological neural structures.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Multi-column deep neural networks for image classification"
+    },
+    {
+      "assumption": "Handling false positives and false negatives is necessary for improving model reliability in medical diagnostics.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Automatic detection of invasive ductal carcinoma in whole slide images with convolutional neural networks"
+    },
+    {
+      "assumption": "Comparative experimental results are essential for validating the performance of new models.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Vehicle Detection in Satellite Images by Hybrid Deep Convolutional Neural Networks"
+    },
+    {
+      "assumption": "Automatic feature learning is required for robustness to distortion in image data.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Vehicle Detection in Satellite Images by Hybrid Deep Convolutional Neural Networks"
+    },
+    {
+      "assumption": "Hand-crafted features are insufficient for achieving the best performance in modern video analysis.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "C3D: Generic Features for Video Analysis."
+    },
+    {
+      "assumption": "Graph-cut algorithms are effective for image segmentation tasks in computer vision.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Deep convolutional neural network based species recognition for wild animal monitoring"
+    },
+    {
+      "assumption": "Comparative evaluation against baseline models is essential for demonstrating the effectiveness of new algorithms.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Deep convolutional neural network based species recognition for wild animal monitoring"
+    },
+    {
+      "assumption": "Motion-triggered camera traps are necessary for capturing relevant wildlife imagery data.",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "Deep convolutional neural network based species recognition for wild animal monitoring"
+    },
+    {
+      "assumption": "A generative model is required for deriving gradient vectors in Fisher vector coding.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Encoding High Dimensional Local Features by Sparse Coding Based Fisher Vectors"
+    },
+    {
+      "assumption": "State-of-the-art performance in image classification requires advanced feature encoding strategies.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Encoding High Dimensional Local Features by Sparse Coding Based Fisher Vectors"
+    },
+    {
+      "assumption": "Linear classifiers are sufficient for achieving competitive performance when used with deep features.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "CNN Features Off-the-Shelf: An Astounding Baseline for Recognition"
+    },
+    {
+      "assumption": "Augmentation techniques are essential for improving the robustness of feature representations.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "CNN Features Off-the-Shelf: An Astounding Baseline for Recognition"
+    },
+    {
+      "assumption": "Comparative analysis of datasets is necessary to establish the quality and applicability of a new dataset.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Learning Deep Features for Scene Recognition using Places Database"
+    },
+    {
+      "assumption": "Object-centric and scene-centric networks have fundamentally different internal representations.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Learning Deep Features for Scene Recognition using Places Database"
+    },
+    {
+      "assumption": "Convolutional networks are required for achieving state-of-the-art results in object recognition tasks.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Learning Convolutional Nonlinear Features for K Nearest Neighbor Image Classification"
+    },
+    {
+      "assumption": "The kNN classification task requires specialized feature representations for optimal performance.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Learning Convolutional Nonlinear Features for K Nearest Neighbor Image Classification"
+    },
+    {
+      "assumption": "Comparative analysis with primate IT data is essential for validating computational models of visual recognition.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation"
+    },
+    {
+      "assumption": "High categorization performance is required for a model to be considered successful in explaining IT representations.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation"
+    },
+    {
+      "assumption": "Behaviorally important categorical divisions must be emphasized in models to accurately reflect IT representations.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation"
+    },
+    {
+      "assumption": "Calibrated probability outputs are necessary for reliable classification in segmentation tasks.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Deep Neural Networks Segment Neuronal Membranes in Electron Microscopy Images"
+    },
+    {
+      "assumption": "Comparative performance evaluation against human observers is necessary to validate the effectiveness of automated segmentation methods.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Deep Neural Networks Segment Neuronal Membranes in Electron Microscopy Images"
+    },
+    {
+      "assumption": "Preserving 2D information is required for accurate feature extraction in image-based neural networks.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Deep Neural Networks Segment Neuronal Membranes in Electron Microscopy Images"
+    },
+    {
+      "assumption": "Variable receptive field sizes are necessary for extracting features at multiple scales.",
+      "confidence": 0.65,
+      "category": "architectural",
+      "source_paper": "Vehicle Detection in Satellite Images by Hybrid Deep Convolutional Neural Networks"
+    },
+    {
+      "assumption": "State-of-the-art performance benchmarks are essential for evaluating the effectiveness of new models.",
+      "confidence": 0.65,
+      "category": "evaluation",
+      "source_paper": "Vehicle Detection in Satellite Images by Hybrid Deep Convolutional Neural Networks"
+    },
+    {
+      "assumption": "Subspace sampling is necessary for improving the modeling capacity of Gaussian distributions in high dimensional spaces.",
+      "confidence": 0.65,
+      "category": "theoretical",
+      "source_paper": "Encoding High Dimensional Local Features by Sparse Coding Based Fisher Vectors"
+    },
+    {
+      "assumption": "Standard sparse coding methods are required for solving learning and inference problems in high dimensional feature spaces.",
+      "confidence": 0.65,
+      "category": "training",
+      "source_paper": "Encoding High Dimensional Local Features by Sparse Coding Based Fisher Vectors"
+    },
+    {
+      "assumption": "Winner-take-all mechanisms are essential for efficient training of neural networks.",
+      "confidence": 0.6,
+      "category": "training",
+      "source_paper": "Multi-column deep neural networks for image classification"
+    },
+    {
+      "assumption": "Complex environments require advanced feature extraction techniques beyond traditional methods.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Vehicle Detection in Satellite Images by Hybrid Deep Convolutional Neural Networks"
+    },
+    {
+      "assumption": "Max-pooling is required for down-sampling and feature selection in convolutional neural networks.",
+      "confidence": 0.6,
+      "category": "architectural",
+      "source_paper": "Vehicle Detection in Satellite Images by Hybrid Deep Convolutional Neural Networks"
+    },
+    {
+      "assumption": "Image classification tasks require robust feature representation techniques to handle diverse datasets.",
+      "confidence": 0.6,
+      "category": "data",
+      "source_paper": "Encoding High Dimensional Local Features by Sparse Coding Based Fisher Vectors"
+    }
+  ]
+}

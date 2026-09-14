@@ -1,0 +1,255 @@
+{
+  "evaluator": "canonical_evaluator.py",
+  "ranking_method": "confidence_order (NOT similarity-reranked)",
+  "threshold": 0.65,
+  "embedding_model": "text-embedding-3-small",
+  "input_dir": "experiments/claude_clean_15paper",
+  "label": "claude_sonnet_4",
+  "aggregate": {
+    "total": 4,
+    "r_at_5": 1,
+    "r_at_10": 1
+  },
+  "results": [
+    {
+      "conf_rank": null,
+      "best_sim": 0.6253,
+      "r_at_5": 0.0,
+      "r_at_10": 0.0,
+      "r_at_20": 0.0,
+      "top_matches": [
+        {
+          "conf_position": 1,
+          "assumption": "Encoder-decoder architectures are necessary for sequence-to-sequence learning tasks",
+          "similarity": 0.4822
+        },
+        {
+          "conf_position": 2,
+          "assumption": "Attention mechanisms are essential for effective sequence alignment in neural translation",
+          "similarity": 0.427
+        },
+        {
+          "conf_position": 3,
+          "assumption": "Recurrent neural networks are required for processing sequential data with temporal dependencies",
+          "similarity": 0.6115
+        },
+        {
+          "conf_position": 4,
+          "assumption": "End-to-end learning is necessary for optimal neural machine translation performance",
+          "similarity": 0.3
+        },
+        {
+          "conf_position": 5,
+          "assumption": "Gating mechanisms are essential for controlling information flow in recurrent architectures",
+          "similarity": 0.4425
+        },
+        {
+          "conf_position": 6,
+          "assumption": "Large-scale datasets are required for training effective neural translation models",
+          "similarity": 0.3198
+        },
+        {
+          "conf_position": 7,
+          "assumption": "Comparison with word-based and phrase-based systems is necessary for validating neural approaches",
+          "similarity": 0.3211
+        },
+        {
+          "conf_position": 8,
+          "assumption": "Distributed representations are essential for capturing semantic relationships in neural models",
+          "similarity": 0.4024
+        },
+        {
+          "conf_position": 9,
+          "assumption": "Gradient-based optimization is necessary for training neural sequence-to-sequence models",
+          "similarity": 0.4512
+        },
+        {
+          "conf_position": 10,
+          "assumption": "Translation quality metrics are required for evaluating sequence-to-sequence model performance",
+          "similarity": 0.3918
+        }
+      ],
+      "paradigm": "transformer"
+    },
+    {
+      "conf_rank": 1,
+      "best_sim": 0.7379,
+      "r_at_5": 1.0,
+      "r_at_10": 1.0,
+      "r_at_20": 1.0,
+      "top_matches": [
+        {
+          "conf_position": 1,
+          "assumption": "Adversarial training between generator and discriminator networks is necessary for producing high-quality synthetic data",
+          "similarity": 0.7379
+        },
+        {
+          "conf_position": 2,
+          "assumption": "Deep neural networks are required for capturing complex patterns in biomedical time series data",
+          "similarity": 0.2512
+        },
+        {
+          "conf_position": 3,
+          "assumption": "Morphological similarity to real data is essential for validating synthetic biomedical signal quality",
+          "similarity": 0.3337
+        },
+        {
+          "conf_position": 4,
+          "assumption": "Large volumes of labeled clinical data are necessary for training effective automated medical diagnosis models",
+          "similarity": 0.3015
+        },
+        {
+          "conf_position": 5,
+          "assumption": "Gradient-based optimization is required for training generative models on sequential data",
+          "similarity": 0.4862
+        },
+        {
+          "conf_position": 6,
+          "assumption": "Recurrent architectures are necessary for modeling temporal dependencies in physiological signals",
+          "similarity": 0.2222
+        },
+        {
+          "conf_position": 7,
+          "assumption": "Convolutional operations are essential for capturing local patterns in signal data",
+          "similarity": 0.3233
+        },
+        {
+          "conf_position": 8,
+          "assumption": "Loss function convergence is necessary for determining model training completion",
+          "similarity": 0.351
+        },
+        {
+          "conf_position": 9,
+          "assumption": "Comparative evaluation against baseline generative models is required for validating new approaches",
+          "similarity": 0.4789
+        },
+        {
+          "conf_position": 10,
+          "assumption": "Synthetic data generation is essential for addressing privacy constraints in medical machine learning",
+          "similarity": 0.3838
+        }
+      ],
+      "paradigm": "diffusion"
+    },
+    {
+      "conf_rank": null,
+      "best_sim": 0.5706,
+      "r_at_5": 0.0,
+      "r_at_10": 0.0,
+      "r_at_20": 0.0,
+      "top_matches": [
+        {
+          "conf_position": 1,
+          "assumption": "Large-scale unsupervised pretraining is necessary for achieving strong natural language understanding performance",
+          "similarity": 0.2824
+        },
+        {
+          "conf_position": 2,
+          "assumption": "Transfer learning from general language tasks to specific downstream tasks is essential for efficient NLP model development",
+          "similarity": 0.3644
+        },
+        {
+          "conf_position": 3,
+          "assumption": "Language modeling captures fundamental linguistic knowledge required for natural language understanding",
+          "similarity": 0.2697
+        },
+        {
+          "conf_position": 4,
+          "assumption": "Sentence-level representations are necessary for effective natural language understanding systems",
+          "similarity": 0.2669
+        },
+        {
+          "conf_position": 5,
+          "assumption": "Performance on downstream tasks is the essential measure of pretraining effectiveness",
+          "similarity": 0.3961
+        },
+        {
+          "conf_position": 6,
+          "assumption": "Contextual word representations are required for capturing semantic meaning in natural language",
+          "similarity": 0.2117
+        },
+        {
+          "conf_position": 7,
+          "assumption": "Large amounts of unlabeled text data are necessary for learning generalizable language representations",
+          "similarity": 0.2659
+        },
+        {
+          "conf_position": 8,
+          "assumption": "Multi-task learning frameworks are essential for leveraging diverse linguistic knowledge",
+          "similarity": 0.3892
+        },
+        {
+          "conf_position": 9,
+          "assumption": "Comparative evaluation across multiple pretraining objectives is necessary for identifying optimal training strategies",
+          "similarity": 0.4039
+        },
+        {
+          "conf_position": 10,
+          "assumption": "Deep neural architectures are required for learning complex linguistic representations from pretraining tasks",
+          "similarity": 0.2906
+        }
+      ],
+      "paradigm": "icl"
+    },
+    {
+      "conf_rank": 11,
+      "best_sim": 0.6976,
+      "r_at_5": 0.0,
+      "r_at_10": 0.0,
+      "r_at_20": 1.0,
+      "top_matches": [
+        {
+          "conf_position": 1,
+          "assumption": "Gradient-based backpropagation is necessary for training deep convolutional neural networks",
+          "similarity": 0.4616
+        },
+        {
+          "conf_position": 2,
+          "assumption": "Hierarchical feature extraction through multiple convolutional layers is essential for image understanding",
+          "similarity": 0.5629
+        },
+        {
+          "conf_position": 3,
+          "assumption": "Large-scale labeled datasets are required for training effective deep learning models",
+          "similarity": 0.3777
+        },
+        {
+          "conf_position": 4,
+          "assumption": "Classification accuracy on held-out test sets is necessary for validating model performance",
+          "similarity": 0.3123
+        },
+        {
+          "conf_position": 5,
+          "assumption": "Deeper networks with more parameters are essential for capturing complex visual patterns",
+          "similarity": 0.4845
+        },
+        {
+          "conf_position": 6,
+          "assumption": "Convolutional operations with learnable filters are necessary for spatial feature detection in images",
+          "similarity": 0.6181
+        },
+        {
+          "conf_position": 7,
+          "assumption": "End-to-end supervised learning is required for optimal feature representation learning",
+          "similarity": 0.3653
+        },
+        {
+          "conf_position": 8,
+          "assumption": "Pooling operations are essential for achieving spatial invariance and reducing computational complexity",
+          "similarity": 0.4363
+        },
+        {
+          "conf_position": 9,
+          "assumption": "Non-linear activation functions are necessary for learning complex decision boundaries",
+          "similarity": 0.4518
+        },
+        {
+          "conf_position": 10,
+          "assumption": "Model performance generalizes from benchmark datasets to real-world applications",
+          "similarity": 0.2974
+        }
+      ],
+      "paradigm": "vit"
+    }
+  ]
+}

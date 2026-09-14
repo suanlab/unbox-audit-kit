@@ -1,0 +1,72 @@
+{
+  "paradigm": "resnet",
+  "display": "ResNet / Skip Connections",
+  "year": 2015,
+  "ground_truth": "Deep networks must process information through sequential layers without shortcuts",
+  "ground_truth_aliases": [
+    "Deep networks must process information through sequential layers without shortcuts",
+    "deep networks require sequential layer-by-layer processing",
+    "adding more layers always increases training difficulty"
+  ],
+  "num_papers": 60,
+  "num_raw_assumptions": 300,
+  "num_unique_assumptions": 295,
+  "best_similarity": 0.6471,
+  "soft_rank": 296.0,
+  "soft_recall_at_5": 0.0,
+  "soft_recall_at_10": 0.0,
+  "soft_recall_at_20": 0.0,
+  "top_10_assumptions": [
+    {
+      "rank": 102,
+      "assumption": "Deep networks (>6 layers) are required to extract stable and meaningful visual features",
+      "similarity": 0.6471
+    },
+    {
+      "rank": 281,
+      "assumption": "Layer-wise pretraining is required for training deep networks effectively",
+      "similarity": 0.6405
+    },
+    {
+      "rank": 136,
+      "assumption": "Deeper architectures are necessary for learning complex patterns in sequential data",
+      "similarity": 0.6379
+    },
+    {
+      "rank": 54,
+      "assumption": "Deep networks require pre-training to overcome vanishing gradient problems",
+      "similarity": 0.624
+    },
+    {
+      "rank": 234,
+      "assumption": "Training difficulty necessarily increases with network depth",
+      "similarity": 0.6234
+    },
+    {
+      "rank": 153,
+      "assumption": "Layer-by-layer feature specialization is fundamental to how deep networks learn meaningful representations",
+      "similarity": 0.6199
+    },
+    {
+      "rank": 164,
+      "assumption": "Stacked architectures are required for building deep networks",
+      "similarity": 0.6159
+    },
+    {
+      "rank": 247,
+      "assumption": "Layer-wise unsupervised pre-training is required for training deep networks effectively",
+      "similarity": 0.612
+    },
+    {
+      "rank": 140,
+      "assumption": "Deep networks are required to learn sufficiently rich feature representations",
+      "similarity": 0.6086
+    },
+    {
+      "rank": 172,
+      "assumption": "Hierarchical feature extraction through layer progression is essential for understanding complex visual patterns",
+      "similarity": 0.6005
+    }
+  ],
+  "ran_at": "2026-03-23T12:34:12.736429+00:00"
+}

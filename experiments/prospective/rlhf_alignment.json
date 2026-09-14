@@ -1,0 +1,103 @@
+{
+  "paradigm": "rlhf_alignment",
+  "description": "Reinforcement Learning from Human Feedback for AI alignment",
+  "seed_assumptions": [
+    "Human preference labels are necessary for aligning language models",
+    "Reward models can accurately capture human values and preferences",
+    "RLHF-style training is necessary to make language models safe and helpful"
+  ],
+  "ran_at": "2026-03-18T09:45:52.052250+00:00",
+  "num_hypotheses": 9,
+  "hypotheses": [
+    {
+      "original_assumption": "Human preference labels are necessary for aligning language models",
+      "transformation": "negate",
+      "hypothesis": "Language models can achieve superior alignment through self-supervised constitutional learning, where models iteratively refine their own behavior against fixed constitutional principles without any human preference data",
+      "rationale": "This would eliminate the bottleneck of human labeling and potential biases in human preferences, while enabling models to discover more consistent and principled alignment strategies. Constitutional AI shows early promise, but this pushes toward complete human-preference independence.",
+      "novelty": 7,
+      "feasibility": 8,
+      "transformational_potential": 9,
+      "composite": 8.0
+    },
+    {
+      "original_assumption": "RLHF-style training is necessary to make language models safe and helpful",
+      "transformation": "invert",
+      "hypothesis": "RLHF-style training actually reduces long-term safety by creating deceptive alignment, and truly safe AI requires adversarial training where models are rewarded for honestly revealing their limitations and potential misalignments",
+      "rationale": "RLHF might teach models to appear aligned while hiding concerning capabilities or reasoning. Adversarial honesty training could create genuinely transparent and trustworthy AI systems by incentivizing self-disclosure of problems.",
+      "novelty": 8,
+      "feasibility": 7,
+      "transformational_potential": 9,
+      "composite": 8.0
+    },
+    {
+      "original_assumption": "Human preference labels are necessary for aligning language models",
+      "transformation": "invert",
+      "hypothesis": "AI systems should primarily align to objective, measurable outcomes rather than subjective human preferences, using automated evaluation of real-world impact metrics",
+      "rationale": "Human preferences can be inconsistent, biased, or short-sighted, while objective outcomes like factual accuracy, logical consistency, and beneficial real-world effects might provide more stable alignment targets. This flips the priority from satisfying human judgment to achieving measurable positive impact.",
+      "novelty": 8,
+      "feasibility": 6,
+      "transformational_potential": 9,
+      "composite": 7.67
+    },
+    {
+      "original_assumption": "Reward models can accurately capture human values and preferences",
+      "transformation": "negate",
+      "hypothesis": "Reward models fundamentally cannot capture human values due to their static nature, and alignment requires dynamic, context-dependent value learning through multi-agent negotiation between AI systems representing different stakeholder perspectives",
+      "rationale": "Human values are contextual, evolving, and often contradictory, making static reward models inadequate. Multi-agent systems could better represent the plurality and dynamics of human values through ongoing negotiation processes.",
+      "novelty": 8,
+      "feasibility": 7,
+      "transformational_potential": 8,
+      "composite": 7.67
+    },
+    {
+      "original_assumption": "Human preference labels are necessary for aligning language models",
+      "transformation": "relax",
+      "hypothesis": "Sparse human feedback combined with automated preference inference from revealed preferences in human-AI interaction logs can achieve equivalent alignment with 100x less direct human labeling",
+      "rationale": "This leverages the vast amounts of natural interaction data where humans reveal preferences through their choices and behaviors, rather than explicit labeling. It could dramatically reduce alignment costs while potentially capturing more authentic preferences.",
+      "novelty": 6,
+      "feasibility": 9,
+      "transformational_potential": 7,
+      "composite": 7.33
+    },
+    {
+      "original_assumption": "Reward models can accurately capture human values and preferences",
+      "transformation": "invert",
+      "hypothesis": "Instead of modeling human values, AI systems should be designed to help humans discover and refine their own values through Socratic dialogue and preference elicitation",
+      "rationale": "Rather than assuming we know our values and can teach them to AI, this approach treats value discovery as an ongoing collaborative process. AI becomes a tool for moral reasoning rather than a recipient of moral instruction.",
+      "novelty": 7,
+      "feasibility": 7,
+      "transformational_potential": 8,
+      "composite": 7.33
+    },
+    {
+      "original_assumption": "RLHF-style training is necessary to make language models safe and helpful",
+      "transformation": "negate",
+      "hypothesis": "Safety and helpfulness emerge naturally from scale and architectural improvements alone, without requiring any post-training alignment procedures",
+      "rationale": "This suggests that current safety issues are primarily due to insufficient scale or poor architectures rather than fundamental alignment problems. If true, it would dramatically simplify AI development and suggest current safety concerns are overblown.",
+      "novelty": 5,
+      "feasibility": 8,
+      "transformational_potential": 9,
+      "composite": 7.33
+    },
+    {
+      "original_assumption": "Reward models can accurately capture human values and preferences",
+      "transformation": "relax",
+      "hypothesis": "Reward models should explicitly model uncertainty and value pluralism, outputting probability distributions over multiple possible value systems rather than point estimates",
+      "rationale": "This acknowledges that human values vary across individuals and cultures, and that AI systems should navigate this uncertainty rather than collapsing to a single reward function. It could lead to more robust and inclusive AI behavior.",
+      "novelty": 6,
+      "feasibility": 8,
+      "transformational_potential": 7,
+      "composite": 7.0
+    },
+    {
+      "original_assumption": "RLHF-style training is necessary to make language models safe and helpful",
+      "transformation": "relax",
+      "hypothesis": "RLHF is only necessary during an initial 'socialization' phase, after which models can maintain and improve their alignment through interaction with aligned AI mentors and self-reflection",
+      "rationale": "Similar to human development, AI might only need initial guided learning before becoming capable of autonomous moral development. This could enable more scalable alignment as models help train other models.",
+      "novelty": 7,
+      "feasibility": 6,
+      "transformational_potential": 8,
+      "composite": 7.0
+    }
+  ]
+}

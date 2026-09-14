@@ -1,0 +1,47 @@
+{
+  "experiment": "multicall_ablation",
+  "category": "transformer",
+  "model": "gpt-4o",
+  "soft_threshold": 0.65,
+  "ground_truth": [
+    "recurrence is necessary for sequence modeling",
+    "recurrent structure is required for sequence modeling",
+    "sequence models require recurrence"
+  ],
+  "conditions": [
+    {
+      "condition": "single_call",
+      "raw_count": 20,
+      "unique_count": 20,
+      "redundancy_rate": 0.0,
+      "best_similarity": 0.6631,
+      "soft_rank": 3,
+      "soft_recall_at_5": 1.0,
+      "soft_recall_at_10": 1.0,
+      "soft_recall_at_20": 1.0
+    },
+    {
+      "condition": "multi_call_no_context",
+      "raw_count": 150,
+      "unique_count": 108,
+      "redundancy_rate": 0.28,
+      "best_similarity": 0.7011,
+      "soft_rank": 1,
+      "soft_recall_at_5": 1.0,
+      "soft_recall_at_10": 1.0,
+      "soft_recall_at_20": 1.0
+    },
+    {
+      "condition": "per_paper",
+      "raw_count": 150,
+      "unique_count": 149,
+      "redundancy_rate": 0.0067,
+      "best_similarity": 0.7375,
+      "soft_rank": 2,
+      "soft_recall_at_5": 1.0,
+      "soft_recall_at_10": 1.0,
+      "soft_recall_at_20": 1.0
+    }
+  ],
+  "ran_at": "2026-03-24T12:30:59.854116+00:00"
+}

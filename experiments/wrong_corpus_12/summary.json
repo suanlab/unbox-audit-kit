@@ -1,0 +1,135 @@
+{
+  "model": "gpt-4o",
+  "seed": 42,
+  "papers_per_pairing": 15,
+  "embedding_model": "text-embedding-3-small",
+  "threshold": 0.65,
+  "results": [
+    {
+      "target": "transformer",
+      "corpus": "diffusion",
+      "num_unique_assumptions": 150,
+      "best_sim": 0.418,
+      "conf_rank": null,
+      "r_at_5": 0,
+      "r_at_10": 0,
+      "r_at_20": 0
+    },
+    {
+      "target": "transformer",
+      "corpus": "icl",
+      "num_unique_assumptions": 146,
+      "best_sim": 0.4274,
+      "conf_rank": null,
+      "r_at_5": 0,
+      "r_at_10": 0,
+      "r_at_20": 0
+    },
+    {
+      "target": "transformer",
+      "corpus": "vit",
+      "num_unique_assumptions": 150,
+      "best_sim": 0.3862,
+      "conf_rank": null,
+      "r_at_5": 0,
+      "r_at_10": 0,
+      "r_at_20": 0
+    },
+    {
+      "target": "diffusion",
+      "corpus": "transformer",
+      "num_unique_assumptions": 149,
+      "best_sim": 0.3965,
+      "conf_rank": null,
+      "r_at_5": 0,
+      "r_at_10": 0,
+      "r_at_20": 0
+    },
+    {
+      "target": "diffusion",
+      "corpus": "icl",
+      "num_unique_assumptions": 149,
+      "best_sim": 0.3686,
+      "conf_rank": null,
+      "r_at_5": 0,
+      "r_at_10": 0,
+      "r_at_20": 0
+    },
+    {
+      "target": "diffusion",
+      "corpus": "vit",
+      "num_unique_assumptions": 148,
+      "best_sim": 0.4276,
+      "conf_rank": null,
+      "r_at_5": 0,
+      "r_at_10": 0,
+      "r_at_20": 0
+    },
+    {
+      "target": "icl",
+      "corpus": "transformer",
+      "num_unique_assumptions": 148,
+      "best_sim": 0.4321,
+      "conf_rank": null,
+      "r_at_5": 0,
+      "r_at_10": 0,
+      "r_at_20": 0
+    },
+    {
+      "target": "icl",
+      "corpus": "diffusion",
+      "num_unique_assumptions": 150,
+      "best_sim": 0.3663,
+      "conf_rank": null,
+      "r_at_5": 0,
+      "r_at_10": 0,
+      "r_at_20": 0
+    },
+    {
+      "target": "icl",
+      "corpus": "vit",
+      "num_unique_assumptions": 149,
+      "best_sim": 0.4113,
+      "conf_rank": null,
+      "r_at_5": 0,
+      "r_at_10": 0,
+      "r_at_20": 0
+    },
+    {
+      "target": "vit",
+      "corpus": "transformer",
+      "num_unique_assumptions": 149,
+      "best_sim": 0.4184,
+      "conf_rank": null,
+      "r_at_5": 0,
+      "r_at_10": 0,
+      "r_at_20": 0
+    },
+    {
+      "target": "vit",
+      "corpus": "diffusion",
+      "num_unique_assumptions": 150,
+      "best_sim": 0.4648,
+      "conf_rank": null,
+      "r_at_5": 0,
+      "r_at_10": 0,
+      "r_at_20": 0
+    },
+    {
+      "target": "vit",
+      "corpus": "icl",
+      "num_unique_assumptions": 146,
+      "best_sim": 0.4103,
+      "conf_rank": null,
+      "r_at_5": 0,
+      "r_at_10": 0,
+      "r_at_20": 0
+    }
+  ],
+  "aggregate": {
+    "n_pairings_completed": 12,
+    "n_pairings_total": 12,
+    "wrong_corpus_r10": "0/12",
+    "avg_wrong_corpus_best_sim": 0.4106
+  }
+}

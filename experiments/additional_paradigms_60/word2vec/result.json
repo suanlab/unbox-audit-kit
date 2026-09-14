@@ -1,0 +1,72 @@
+{
+  "paradigm": "word2vec",
+  "display": "Word2Vec / Distributed Word Representations",
+  "year": 2013,
+  "ground_truth": "Word meaning requires symbolic or hand-crafted feature representations",
+  "ground_truth_aliases": [
+    "Word meaning requires symbolic or hand-crafted feature representations",
+    "word representations should be based on linguistic features",
+    "semantic similarity requires structured knowledge bases"
+  ],
+  "num_papers": 60,
+  "num_raw_assumptions": 300,
+  "num_unique_assumptions": 298,
+  "best_similarity": 0.6927,
+  "soft_rank": 93.0,
+  "soft_recall_at_5": 0.0,
+  "soft_recall_at_10": 0.0,
+  "soft_recall_at_20": 0.0,
+  "top_10_assumptions": [
+    {
+      "rank": 163,
+      "assumption": "Semantic similarity must be explicitly encoded through feature engineering or external knowledge integration",
+      "similarity": 0.6927
+    },
+    {
+      "rank": 93,
+      "assumption": "Word meaning acquisition requires explicit symbolic representations of semantic elements",
+      "similarity": 0.6643
+    },
+    {
+      "rank": 24,
+      "assumption": "Semantic relatedness requires integration of broad real-world knowledge beyond local text features",
+      "similarity": 0.6351
+    },
+    {
+      "rank": 121,
+      "assumption": "Symbolic knowledge bases are essential for comprehensive semantic representation",
+      "similarity": 0.6328
+    },
+    {
+      "rank": 83,
+      "assumption": "Semantic similarity requires analysis of shared contextual environments",
+      "similarity": 0.6228
+    },
+    {
+      "rank": 11,
+      "assumption": "Distributional similarity is the primary foundation for computational semantic relatedness",
+      "similarity": 0.6195
+    },
+    {
+      "rank": 76,
+      "assumption": "Semantic similarity can be effectively quantified through statistical measures applied to distributional representations",
+      "similarity": 0.6153
+    },
+    {
+      "rank": 51,
+      "assumption": "Distributional similarity is necessary for semantic representation",
+      "similarity": 0.604
+    },
+    {
+      "rank": 131,
+      "assumption": "Semantic similarity can be meaningfully represented through spatial proximity in vector spaces",
+      "similarity": 0.6017
+    },
+    {
+      "rank": 75,
+      "assumption": "Semantic similarity can be measured through distributional similarity in vector spaces",
+      "similarity": 0.5981
+    }
+  ],
+  "ran_at": "2026-03-23T22:38:03.826987+00:00"
+}

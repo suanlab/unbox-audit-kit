@@ -1,0 +1,49 @@
+{
+  "baseline": "heuristic",
+  "category": "vit",
+  "ran_at": "2026-03-12T00:25:15.889528+00:00",
+  "inputs": {
+    "num_papers": 60,
+    "ground_truth_aliases": [
+      "convolutional layers are necessary for vision",
+      "vision models require convolutional layers",
+      "image understanding needs convolutional inductive biases"
+    ]
+  },
+  "config": {
+    "top_ks": [
+      5,
+      10,
+      20
+    ],
+    "candidate_limit": 20,
+    "seed": 7
+  },
+  "outputs": {
+    "num_candidates": 13,
+    "top_candidates": [
+      "It addresses two important issues: 1) deep video saliency model training with the absence of sufficiently large and pixel-wise annotated video data and 2) fast video saliency training and detection.",
+      "Some recent studies suggest a more important role of image textures.",
+      "Change detection (CD) in multitemporal images is an important application of remote sensing.",
+      "This paper assumes that the readers have adequate knowledge about both machine learning and artificial neural network.",
+      "The cup to disc ratio (CDR) plays an important role in the screening and diagnosis of glaucoma.",
+      "Additionally, we find that it is important to remove non-linearities in the narrow layers in order to maintain representational power.",
+      "In this paper we will explain and define all the elements and important issues related to CNN, and how these elements work.",
+      "Therefore, we revisit numerous previously proposed self-supervised models, conduct a thorough large scale study and, as a result, uncover multiple crucial insights.",
+      "(ii) The Kinetics dataset has sufficient data for training of deep 3D CNNs, and enables training of up to 152 ResNets layers, interestingly similar to 2D ResNets on ImageNet.",
+      "The purpose of this study is to determine whether current video datasets have sufficient data for training very deep convolutional neural networks (CNNs) with spatio-temporal three-dimensional (3D) kernels.",
+      "Importantly, SE blocks only lead to a minimal increase in model complexity of about 1.5%, while the Dice score increases by 4%-9% in the case of U-Net.",
+      "A large number of the pretext tasks for self-supervised learning have been studied, but other important aspects, such as the choice of convolutional neural networks (CNN), has not received equal attention.",
+      "Traditional methods, based on handcrafted features or shallow learning techniques, can only localize insulators and detect faults under specific detection conditions, such as when sufficient prior knowledge is available, with low background interference, at certain object scales, or under specific illumination conditions."
+    ]
+  },
+  "metrics": {
+    "rank": 14.0,
+    "recall_at_5": 0.0,
+    "precision_at_5": 0.0,
+    "recall_at_10": 0.0,
+    "precision_at_10": 0.0,
+    "recall_at_20": 0.0,
+    "precision_at_20": 0.0
+  }
+}

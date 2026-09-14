@@ -1,0 +1,201 @@
+{
+  "paradigm": "neural_ode",
+  "field_name": "residual networks and network depth analysis",
+  "num_calls": 15,
+  "num_raw": 150,
+  "num_unique": 32,
+  "assumptions": [
+    {
+      "assumption": "Residual connections are necessary for training very deep networks effectively.",
+      "confidence": 0.98,
+      "category": "architectural",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Skip connections are necessary to mitigate the vanishing gradient problem in deep networks.",
+      "confidence": 0.97,
+      "category": "architectural",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Increasing network depth is essential for improving model performance.",
+      "confidence": 0.95,
+      "category": "theoretical",
+      "call_idx": 0
+    },
+    {
+      "assumption": "The architecture of residual networks is essential for enabling deeper models without degradation.",
+      "confidence": 0.95,
+      "category": "architectural",
+      "call_idx": 8
+    },
+    {
+      "assumption": "Residual networks are essential for achieving state-of-the-art results in image classification tasks.",
+      "confidence": 0.94,
+      "category": "theoretical",
+      "call_idx": 0
+    },
+    {
+      "assumption": "The depth of a network is required to capture complex hierarchical features.",
+      "confidence": 0.94,
+      "category": "theoretical",
+      "call_idx": 14
+    },
+    {
+      "assumption": "Deep networks require significant computational resources for training and evaluation.",
+      "confidence": 0.93,
+      "category": "training",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Deep networks require significant computational resources for training.",
+      "confidence": 0.93,
+      "category": "training",
+      "call_idx": 3
+    },
+    {
+      "assumption": "Deep networks require significant computational resources for training and inference.",
+      "confidence": 0.93,
+      "category": "training",
+      "call_idx": 5
+    },
+    {
+      "assumption": "Batch normalization is required for stabilizing the training of deep networks.",
+      "confidence": 0.92,
+      "category": "training",
+      "call_idx": 0
+    },
+    {
+      "assumption": "The architecture of a network is essential for determining its capacity to learn complex functions.",
+      "confidence": 0.92,
+      "category": "architectural",
+      "call_idx": 14
+    },
+    {
+      "assumption": "Large-scale datasets are required for training deep residual networks to achieve state-of-the-art results.",
+      "confidence": 0.92,
+      "category": "data",
+      "call_idx": 14
+    },
+    {
+      "assumption": "Evaluation on benchmark datasets is required to validate the performance of deep networks.",
+      "confidence": 0.91,
+      "category": "evaluation",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Evaluation on benchmark datasets is necessary for validating the performance of deep networks.",
+      "confidence": 0.91,
+      "category": "evaluation",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Evaluation on benchmark datasets is essential for validating the performance of deep networks.",
+      "confidence": 0.91,
+      "category": "evaluation",
+      "call_idx": 14
+    },
+    {
+      "assumption": "Large-scale datasets are essential for training deep residual networks to achieve high accuracy.",
+      "confidence": 0.9,
+      "category": "data",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Large-scale datasets are essential for training deep residual networks.",
+      "confidence": 0.9,
+      "category": "data",
+      "call_idx": 3
+    },
+    {
+      "assumption": "Evaluation on benchmark datasets is required to validate the effectiveness of deep residual networks.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "call_idx": 8
+    },
+    {
+      "assumption": "Batch normalization is essential for stabilizing the training of deep networks.",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 14
+    },
+    {
+      "assumption": "The depth of a network is required to be proportional to the complexity of the task.",
+      "confidence": 0.89,
+      "category": "theoretical",
+      "call_idx": 1
+    },
+    {
+      "assumption": "The architecture of a network is crucial for determining its capacity to learn complex functions.",
+      "confidence": 0.89,
+      "category": "architectural",
+      "call_idx": 3
+    },
+    {
+      "assumption": "The depth of a network is essential for capturing complex patterns in data.",
+      "confidence": 0.89,
+      "category": "theoretical",
+      "call_idx": 6
+    },
+    {
+      "assumption": "Residual networks require careful initialization to ensure convergence during training.",
+      "confidence": 0.89,
+      "category": "training",
+      "call_idx": 14
+    },
+    {
+      "assumption": "Layer-wise initialization is necessary for the successful training of deep networks.",
+      "confidence": 0.88,
+      "category": "training",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Regularization techniques are essential for preventing overfitting in deep residual networks.",
+      "confidence": 0.88,
+      "category": "training",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Hyperparameter tuning is required for optimizing the performance of deep networks.",
+      "confidence": 0.88,
+      "category": "training",
+      "call_idx": 3
+    },
+    {
+      "assumption": "Hyperparameter tuning is required for optimizing the performance of deep residual networks.",
+      "confidence": 0.88,
+      "category": "training",
+      "call_idx": 4
+    },
+    {
+      "assumption": "Layer-wise initialization is necessary for effective training of deep networks.",
+      "confidence": 0.88,
+      "category": "training",
+      "call_idx": 5
+    },
+    {
+      "assumption": "Deep networks require careful initialization to converge effectively during training.",
+      "confidence": 0.88,
+      "category": "training",
+      "call_idx": 10
+    },
+    {
+      "assumption": "The use of advanced optimization techniques is essential for training deep residual networks efficiently.",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 2
+    },
+    {
+      "assumption": "Layer-wise training stability is necessary for the successful training of deep networks.",
+      "confidence": 0.8,
+      "category": "training",
+      "call_idx": 2
+    },
+    {
+      "assumption": "Layer-wise training is necessary for understanding the contribution of depth in residual networks.",
+      "confidence": 0.75,
+      "category": "training",
+      "call_idx": 8
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "baseline": "heuristic",
+  "category": "transformer",
+  "ran_at": "2026-03-12T00:25:15.859518+00:00",
+  "inputs": {
+    "num_papers": 60,
+    "ground_truth_aliases": [
+      "recurrence is necessary for sequence modeling",
+      "recurrent structure is required for sequence modeling",
+      "sequence models require recurrence"
+    ]
+  },
+  "config": {
+    "top_ks": [
+      5,
+      10,
+      20
+    ],
+    "candidate_limit": 20,
+    "seed": 7
+  },
+  "outputs": {
+    "num_candidates": 19,
+    "top_candidates": [
+      "In particular for language, understanding novel and complex sentences crucially depends on being able to construct their meaning compositionally from smaller parts\u2014words and multi-word expressions\u2014of which they are constituted.",
+      "Intelligence requires being able to understand bigger things from knowing about smaller parts.",
+      "However, the performance of neural network language models strongly depends on their architectural structure.",
+      "The results suggest that on many languages, character inputs are sufficient for language modeling.",
+      "Importantly, the linear dependence is gated through a gating function, which we call depth gate.",
+      "Prior methods generally have required separate classification and image segmentation stages and/or pre- and post-processing.",
+      "Modeling the properties and functions of DNA sequences is an important, but challenging task in the broad field of genomics.",
+      "Timely detection and identification of faults in railway track circuits are crucial for the safety and availability of railway networks.",
+      "It is important to consider attention that allows for salient features, instead of mapping an entire frame into a static representation.",
+      "From the training data, we induce a highprecision synchronous context-free grammar, which captures important conditional independence properties commonly found in semantic parsing.",
+      "Passage-level question answer matching is a challenging task since it requires effective representations that capture the complex semantic relations between questions and answers.",
+      "Sequence-to-Sequence (seq2seq) modeling has rapidly become an important generalpurpose NLP tool that has proven effective for many text-generation and sequence-labeling tasks.",
+      "Modeling crisp logical regularities is crucial in semantic parsing, making it difficult for neural models with no task-specific prior knowledge to achieve good results.",
+      "In contrast to DNN-HMM, CTC and most other models, LAS makes no independence assumptions about the probability distribution of the output character sequences given the acoustic sequence.",
+      "Dropout prediction, or identifying students at risk of dropping out of a course, is an important problem to study due to the high attrition rate commonly found on many MOOC platforms.",
+      "In the language model, we improve the basic structure of a gated recurrent unit by adding an output gate, which is used for filtering out unimportant information involved in the attention scheme of the alignment model.",
+      "To overcome the uncertainty of emotional labels, such that all frames in the same utterance are mapped into the same emotional label, it is assumed that the label of each frame is regarded as a sequence of random variables.",
+      "Such problems cannot be trivially addressed by existent approaches such as sequence-to-sequence [1] and Neural Turing Machines [2], because the number of target classes in each step of the output depends on the length of the input, which is variable.",
+      "The problem of rare and unknown words is an important issue that can potentially effect the performance of many NLP systems, including traditional count-based and deep learning models.We propose a novel way to deal with the rare and unseen words for the neural network models using attention.Our model uses two softmax layers in order to predict the next word in conditional language models: one predicts the location of a word in the source sentence, and the other predicts a word in the shortlist vocabulary.At each timestep, the decision of which softmax layer to use is adaptively made by an MLP which is conditioned on the context.We motivate this work from a psychological evidence that humans naturally have a tendency to point towards objects in the context or the environment when the name of an object is not known.Using our proposed model, we observe improvements on two tasks, neural machine translation on the Europarl English to French parallel corpora and text summarization on the Gigaword dataset."
+    ]
+  },
+  "metrics": {
+    "rank": 20.0,
+    "recall_at_5": 0.0,
+    "precision_at_5": 0.0,
+    "recall_at_10": 0.0,
+    "precision_at_10": 0.0,
+    "recall_at_20": 0.0,
+    "precision_at_20": 0.0
+  }
+}

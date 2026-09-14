@@ -1,0 +1,363 @@
+{
+  "ran_at": "2026-03-18T02:45:22.970375+00:00",
+  "threshold": 0.65,
+  "source": "experiments/baselines/vanilla_llm",
+  "categories": {
+    "transformer": {
+      "category": "transformer",
+      "threshold": 0.65,
+      "num_predicted": 20,
+      "num_aliases": 3,
+      "aliases": [
+        "recurrence is necessary for sequence modeling",
+        "recurrent structure is required for sequence modeling",
+        "sequence models require recurrence"
+      ],
+      "soft_metrics": {
+        "soft_rank": 1.0,
+        "soft_recall_at_5": 1.0,
+        "soft_recall_at_10": 1.0,
+        "soft_recall_at_20": 1.0
+      },
+      "top_10_by_similarity": [
+        {
+          "rank": 1,
+          "assumption": "Sequential processing requires recurrence",
+          "best_similarity": 0.7026,
+          "is_match": true
+        },
+        {
+          "rank": 19,
+          "assumption": "Recurrent connections are necessary for temporal modeling",
+          "best_similarity": 0.6611,
+          "is_match": true
+        },
+        {
+          "rank": 8,
+          "assumption": "Sequence-to-sequence tasks require separate encoder and decoder components",
+          "best_similarity": 0.4632,
+          "is_match": false
+        },
+        {
+          "rank": 16,
+          "assumption": "Sequence alignment must be monotonic or nearly monotonic",
+          "best_similarity": 0.4272,
+          "is_match": false
+        },
+        {
+          "rank": 10,
+          "assumption": "RNN hidden states capture all necessary temporal dependencies",
+          "best_similarity": 0.4106,
+          "is_match": false
+        },
+        {
+          "rank": 6,
+          "assumption": "Language understanding requires left-to-right sequential processing",
+          "best_similarity": 0.3741,
+          "is_match": false
+        },
+        {
+          "rank": 12,
+          "assumption": "Neural language models must predict one token at a time",
+          "best_similarity": 0.3681,
+          "is_match": false
+        },
+        {
+          "rank": 5,
+          "assumption": "Memory in neural networks must be implemented through gating mechanisms",
+          "best_similarity": 0.3347,
+          "is_match": false
+        },
+        {
+          "rank": 3,
+          "assumption": "End-to-end learning is always superior to modular approaches",
+          "best_similarity": 0.3293,
+          "is_match": false
+        },
+        {
+          "rank": 17,
+          "assumption": "Neural networks require fixed-dimensional input representations",
+          "best_similarity": 0.3268,
+          "is_match": false
+        }
+      ],
+      "original_metrics": {
+        "rank": 21.0,
+        "recall_at_5": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "precision_at_10": 0.0,
+        "recall_at_20": 0.0,
+        "precision_at_20": 0.0
+      }
+    },
+    "diffusion": {
+      "category": "diffusion",
+      "threshold": 0.65,
+      "num_predicted": 20,
+      "num_aliases": 3,
+      "aliases": [
+        "adversarial training is necessary for high-quality generation",
+        "high-quality generation requires adversarial training",
+        "gan-style adversarial objectives are required for strong image generation"
+      ],
+      "soft_metrics": {
+        "soft_rank": 1.0,
+        "soft_recall_at_5": 1.0,
+        "soft_recall_at_10": 1.0,
+        "soft_recall_at_20": 1.0
+      },
+      "top_10_by_similarity": [
+        {
+          "rank": 1,
+          "assumption": "Adversarial training is necessary for high-quality generation",
+          "best_similarity": 0.9558,
+          "is_match": true
+        },
+        {
+          "rank": 20,
+          "assumption": "Image quality improvements require adversarial loss functions",
+          "best_similarity": 0.6463,
+          "is_match": false
+        },
+        {
+          "rank": 2,
+          "assumption": "Generative models require separate generator and discriminator architectures",
+          "best_similarity": 0.5115,
+          "is_match": false
+        },
+        {
+          "rank": 9,
+          "assumption": "Medical image synthesis requires domain-specific architectural modifications",
+          "best_similarity": 0.4523,
+          "is_match": false
+        },
+        {
+          "rank": 10,
+          "assumption": "Text-to-image synthesis requires hierarchical refinement processes",
+          "best_similarity": 0.4404,
+          "is_match": false
+        },
+        {
+          "rank": 11,
+          "assumption": "Cross-modal synthesis requires paired training data",
+          "best_similarity": 0.4366,
+          "is_match": false
+        },
+        {
+          "rank": 14,
+          "assumption": "Conditional generation requires conditioning at multiple network layers",
+          "best_similarity": 0.4313,
+          "is_match": false
+        },
+        {
+          "rank": 6,
+          "assumption": "Sequential data generation requires recurrent neural networks",
+          "best_similarity": 0.3717,
+          "is_match": false
+        },
+        {
+          "rank": 18,
+          "assumption": "Multi-modal learning requires separate encoders for each modality",
+          "best_similarity": 0.3588,
+          "is_match": false
+        },
+        {
+          "rank": 12,
+          "assumption": "Pose-invariant recognition requires pose normalization or frontalization",
+          "best_similarity": 0.3572,
+          "is_match": false
+        }
+      ],
+      "original_metrics": {
+        "rank": 1.0,
+        "recall_at_5": 1.0,
+        "precision_at_5": 0.2,
+        "recall_at_10": 1.0,
+        "precision_at_10": 0.1,
+        "recall_at_20": 1.0,
+        "precision_at_20": 0.05
+      }
+    },
+    "icl": {
+      "category": "icl",
+      "threshold": 0.65,
+      "num_predicted": 20,
+      "num_aliases": 3,
+      "aliases": [
+        "fine-tuning is necessary for task adaptation",
+        "task adaptation requires fine-tuning",
+        "downstream adaptation must update model weights"
+      ],
+      "soft_metrics": {
+        "soft_rank": 21.0,
+        "soft_recall_at_5": 0.0,
+        "soft_recall_at_10": 0.0,
+        "soft_recall_at_20": 0.0
+      },
+      "top_10_by_similarity": [
+        {
+          "rank": 14,
+          "assumption": "Fine-tuning with small target datasets is sufficient to overcome domain gaps",
+          "best_similarity": 0.5788,
+          "is_match": false
+        },
+        {
+          "rank": 19,
+          "assumption": "Transfer learning benefits require architectural similarity between source and target tasks",
+          "best_similarity": 0.4089,
+          "is_match": false
+        },
+        {
+          "rank": 17,
+          "assumption": "Domain adaptation requires preserving discriminative information from the source domain",
+          "best_similarity": 0.4055,
+          "is_match": false
+        },
+        {
+          "rank": 7,
+          "assumption": "Marginal and conditional distributions contribute equally to domain adaptation success",
+          "best_similarity": 0.3907,
+          "is_match": false
+        },
+        {
+          "rank": 8,
+          "assumption": "Transfer learning requires explicit measurement and reduction of domain discrepancy",
+          "best_similarity": 0.379,
+          "is_match": false
+        },
+        {
+          "rank": 10,
+          "assumption": "Domain adaptation effectiveness can be measured solely by target domain accuracy",
+          "best_similarity": 0.3785,
+          "is_match": false
+        },
+        {
+          "rank": 2,
+          "assumption": "Source and target domains must share the same task structure and label space",
+          "best_similarity": 0.3634,
+          "is_match": false
+        },
+        {
+          "rank": 18,
+          "assumption": "Synthetic data can substitute for real data given sufficient domain adaptation techniques",
+          "best_similarity": 0.341,
+          "is_match": false
+        },
+        {
+          "rank": 3,
+          "assumption": "Adversarial training is the optimal approach for learning transferable representations",
+          "best_similarity": 0.3335,
+          "is_match": false
+        },
+        {
+          "rank": 6,
+          "assumption": "Feature extraction and domain adaptation should be performed in the same representation space",
+          "best_similarity": 0.3277,
+          "is_match": false
+        }
+      ],
+      "original_metrics": {
+        "rank": 21.0,
+        "recall_at_5": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "precision_at_10": 0.0,
+        "recall_at_20": 0.0,
+        "precision_at_20": 0.0
+      }
+    },
+    "vit": {
+      "category": "vit",
+      "threshold": 0.65,
+      "num_predicted": 20,
+      "num_aliases": 3,
+      "aliases": [
+        "convolutional layers are necessary for vision",
+        "vision models require convolutional layers",
+        "image understanding needs convolutional inductive biases"
+      ],
+      "soft_metrics": {
+        "soft_rank": 21.0,
+        "soft_recall_at_5": 0.0,
+        "soft_recall_at_10": 0.0,
+        "soft_recall_at_20": 0.0
+      },
+      "top_10_by_similarity": [
+        {
+          "rank": 10,
+          "assumption": "Global context requires large receptive fields through stacking convolutions",
+          "best_similarity": 0.5384,
+          "is_match": false
+        },
+        {
+          "rank": 9,
+          "assumption": "Convolutional operations are inherently superior to other spatial aggregation methods",
+          "best_similarity": 0.5353,
+          "is_match": false
+        },
+        {
+          "rank": 6,
+          "assumption": "Deep supervision requires intermediate loss functions at multiple layers",
+          "best_similarity": 0.4552,
+          "is_match": false
+        },
+        {
+          "rank": 19,
+          "assumption": "Feature maps at different scales capture fundamentally different information types",
+          "best_similarity": 0.4318,
+          "is_match": false
+        },
+        {
+          "rank": 16,
+          "assumption": "Object detection requires region proposal mechanisms",
+          "best_similarity": 0.419,
+          "is_match": false
+        },
+        {
+          "rank": 1,
+          "assumption": "Spatial locality is fundamental to visual feature learning",
+          "best_similarity": 0.4174,
+          "is_match": false
+        },
+        {
+          "rank": 14,
+          "assumption": "Bottleneck architectures always reduce representational capacity",
+          "best_similarity": 0.4124,
+          "is_match": false
+        },
+        {
+          "rank": 13,
+          "assumption": "Feature extraction and reasoning must happen in the same coordinate space",
+          "best_similarity": 0.3997,
+          "is_match": false
+        },
+        {
+          "rank": 3,
+          "assumption": "Skip connections must connect same-scale encoder-decoder features",
+          "best_similarity": 0.3848,
+          "is_match": false
+        },
+        {
+          "rank": 15,
+          "assumption": "Non-linearities are necessary at every network layer",
+          "best_similarity": 0.3763,
+          "is_match": false
+        }
+      ],
+      "original_metrics": {
+        "rank": 21.0,
+        "recall_at_5": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "precision_at_10": 0.0,
+        "recall_at_20": 0.0,
+        "precision_at_20": 0.0
+      }
+    }
+  },
+  "average_soft_rank": 11.0,
+  "overall_soft_recall_at_5": 0.5,
+  "overall_soft_recall_at_10": 0.5,
+  "overall_soft_recall_at_20": 0.5
+}

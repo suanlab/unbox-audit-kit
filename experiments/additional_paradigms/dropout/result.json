@@ -1,0 +1,72 @@
+{
+  "paradigm": "dropout",
+  "display": "Dropout Regularization",
+  "year": 2014,
+  "ground_truth": "All neurons should be active during training for optimal learning",
+  "ground_truth_aliases": [
+    "All neurons should be active during training for optimal learning",
+    "training neural networks requires using all available parameters",
+    "randomly disabling neurons during training would harm learning"
+  ],
+  "num_papers": 20,
+  "num_raw_assumptions": 100,
+  "num_unique_assumptions": 100,
+  "best_similarity": 0.6155,
+  "soft_rank": 101.0,
+  "soft_recall_at_5": 0.0,
+  "soft_recall_at_10": 0.0,
+  "soft_recall_at_20": 0.0,
+  "top_10_assumptions": [
+    {
+      "rank": 73,
+      "assumption": "Manual hyperparameter selection is necessary for optimal neural network design",
+      "similarity": 0.6155
+    },
+    {
+      "rank": 63,
+      "assumption": "Global optimization of neural network parameters is necessary for achieving optimal classification performance",
+      "similarity": 0.609
+    },
+    {
+      "rank": 36,
+      "assumption": "The number of hidden neurons must be predetermined before training rather than learned during training",
+      "similarity": 0.5973
+    },
+    {
+      "rank": 49,
+      "assumption": "Neural networks require gradient-based optimization algorithms for effective weight training",
+      "similarity": 0.5222
+    },
+    {
+      "rank": 3,
+      "assumption": "Overfitting is an inevitable problem that requires explicit regularization techniques in deep neural networks",
+      "similarity": 0.5194
+    },
+    {
+      "rank": 69,
+      "assumption": "Neural network architecture design requires manual experimentation and comparison of multiple candidate structures",
+      "similarity": 0.5158
+    },
+    {
+      "rank": 70,
+      "assumption": "Input data preprocessing and encoding schemes are necessary for effective neural network training",
+      "similarity": 0.5075
+    },
+    {
+      "rank": 27,
+      "assumption": "Model capacity and generalization ability are fundamentally at odds in neural networks",
+      "similarity": 0.505
+    },
+    {
+      "rank": 18,
+      "assumption": "Regularization is necessary to prevent overfitting in neural networks",
+      "similarity": 0.5036
+    },
+    {
+      "rank": 55,
+      "assumption": "Sequential record-by-record processing is required for neural network learning",
+      "similarity": 0.4884
+    }
+  ],
+  "ran_at": "2026-03-22T16:40:56.341828+00:00"
+}

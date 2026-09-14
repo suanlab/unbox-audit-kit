@@ -1,0 +1,1826 @@
+{
+  "paradigm": "transformer",
+  "num_papers": 15,
+  "num_raw_assumptions": 150,
+  "num_unique_assumptions": 149,
+  "ground_truth": "recurrence is necessary for sequence modeling",
+  "assumptions": [
+    {
+      "assumption": "Encoder-decoder architectures are necessary for sequence-to-sequence learning tasks",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Understanding Subtitles by Character-Level Sequence-to-Sequence Learning"
+    },
+    {
+      "assumption": "Attention mechanisms are essential for effective sequence alignment in neural translation",
+      "confidence": 0.92,
+      "category": "architectural",
+      "source_paper": "Understanding Subtitles by Character-Level Sequence-to-Sequence Learning"
+    },
+    {
+      "assumption": "Recurrent neural networks are required for processing sequential data with temporal dependencies",
+      "confidence": 0.88,
+      "category": "architectural",
+      "source_paper": "Understanding Subtitles by Character-Level Sequence-to-Sequence Learning"
+    },
+    {
+      "assumption": "End-to-end learning is necessary for optimal neural machine translation performance",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Understanding Subtitles by Character-Level Sequence-to-Sequence Learning"
+    },
+    {
+      "assumption": "Gating mechanisms are essential for controlling information flow in recurrent architectures",
+      "confidence": 0.83,
+      "category": "architectural",
+      "source_paper": "Understanding Subtitles by Character-Level Sequence-to-Sequence Learning"
+    },
+    {
+      "assumption": "Large-scale datasets are required for training effective neural translation models",
+      "confidence": 0.82,
+      "category": "data",
+      "source_paper": "Understanding Subtitles by Character-Level Sequence-to-Sequence Learning"
+    },
+    {
+      "assumption": "Comparison with word-based and phrase-based systems is necessary for validating neural approaches",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Understanding Subtitles by Character-Level Sequence-to-Sequence Learning"
+    },
+    {
+      "assumption": "Distributed representations are essential for capturing semantic relationships in neural models",
+      "confidence": 0.78,
+      "category": "theoretical",
+      "source_paper": "Understanding Subtitles by Character-Level Sequence-to-Sequence Learning"
+    },
+    {
+      "assumption": "Gradient-based optimization is necessary for training neural sequence-to-sequence models",
+      "confidence": 0.75,
+      "category": "training",
+      "source_paper": "Understanding Subtitles by Character-Level Sequence-to-Sequence Learning"
+    },
+    {
+      "assumption": "Translation quality metrics are required for evaluating sequence-to-sequence model performance",
+      "confidence": 0.73,
+      "category": "evaluation",
+      "source_paper": "Understanding Subtitles by Character-Level Sequence-to-Sequence Learning"
+    },
+    {
+      "assumption": "Sequence-to-sequence mapping is necessary for speech recognition systems",
+      "confidence": 0.95,
+      "category": "theoretical",
+      "source_paper": "Listen, attend and spell: A neural network for large vocabulary conversational speech recognition"
+    },
+    {
+      "assumption": "Word Error Rate is the essential metric for evaluating speech recognition performance",
+      "confidence": 0.92,
+      "category": "evaluation",
+      "source_paper": "Listen, attend and spell: A neural network for large vocabulary conversational speech recognition"
+    },
+    {
+      "assumption": "Neural network architectures are required for competitive speech recognition systems",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Listen, attend and spell: A neural network for large vocabulary conversational speech recognition"
+    },
+    {
+      "assumption": "Gradient-based optimization is necessary for training speech recognition models",
+      "confidence": 0.88,
+      "category": "training",
+      "source_paper": "Listen, attend and spell: A neural network for large vocabulary conversational speech recognition"
+    },
+    {
+      "assumption": "Spectral features are essential input representations for speech recognition",
+      "confidence": 0.87,
+      "category": "data",
+      "source_paper": "Listen, attend and spell: A neural network for large vocabulary conversational speech recognition"
+    },
+    {
+      "assumption": "Recurrent architectures are necessary for modeling temporal dependencies in speech",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Listen, attend and spell: A neural network for large vocabulary conversational speech recognition"
+    },
+    {
+      "assumption": "Large-scale training data is required for robust speech recognition performance",
+      "confidence": 0.83,
+      "category": "data",
+      "source_paper": "Listen, attend and spell: A neural network for large vocabulary conversational speech recognition"
+    },
+    {
+      "assumption": "Beam search is necessary for decoding in sequence generation tasks",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Listen, attend and spell: A neural network for large vocabulary conversational speech recognition"
+    },
+    {
+      "assumption": "Attention mechanisms are essential for aligning input and output sequences",
+      "confidence": 0.78,
+      "category": "architectural",
+      "source_paper": "Listen, attend and spell: A neural network for large vocabulary conversational speech recognition"
+    },
+    {
+      "assumption": "Probabilistic modeling is required for handling uncertainty in speech recognition",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "Listen, attend and spell: A neural network for large vocabulary conversational speech recognition"
+    },
+    {
+      "assumption": "Left-to-right sequential processing is necessary for natural language understanding",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Long Short-Term Memory-Networks for Machine Reading"
+    },
+    {
+      "assumption": "Memory mechanisms are essential for handling long-range dependencies in text",
+      "confidence": 0.92,
+      "category": "architectural",
+      "source_paper": "Long Short-Term Memory-Networks for Machine Reading"
+    },
+    {
+      "assumption": "Attention mechanisms are required for effective token relation modeling",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Long Short-Term Memory-Networks for Machine Reading"
+    },
+    {
+      "assumption": "Neural architectures are necessary for learning complex language representations",
+      "confidence": 0.88,
+      "category": "theoretical",
+      "source_paper": "Long Short-Term Memory-Networks for Machine Reading"
+    },
+    {
+      "assumption": "Incremental processing is essential for realistic language comprehension modeling",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Long Short-Term Memory-Networks for Machine Reading"
+    },
+    {
+      "assumption": "Recurrent architectures are required for sequence modeling tasks",
+      "confidence": 0.83,
+      "category": "architectural",
+      "source_paper": "Long Short-Term Memory-Networks for Machine Reading"
+    },
+    {
+      "assumption": "End-to-end differentiable training is necessary for optimal performance",
+      "confidence": 0.82,
+      "category": "training",
+      "source_paper": "Long Short-Term Memory-Networks for Machine Reading"
+    },
+    {
+      "assumption": "State-of-the-art comparison on standard benchmarks is required for validation",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Long Short-Term Memory-Networks for Machine Reading"
+    },
+    {
+      "assumption": "Encoder-decoder architectures are essential for sequence-to-sequence tasks",
+      "confidence": 0.78,
+      "category": "architectural",
+      "source_paper": "Long Short-Term Memory-Networks for Machine Reading"
+    },
+    {
+      "assumption": "Token-level representations are necessary building blocks for sentence understanding",
+      "confidence": 0.75,
+      "category": "data",
+      "source_paper": "Long Short-Term Memory-Networks for Machine Reading"
+    },
+    {
+      "assumption": "Joint learning of related tasks is necessary for optimal performance in natural language understanding systems",
+      "confidence": 0.95,
+      "category": "training",
+      "source_paper": "Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling"
+    },
+    {
+      "assumption": "Attention mechanisms are essential for capturing relevant contextual information in sequence-to-sequence tasks",
+      "confidence": 0.92,
+      "category": "architectural",
+      "source_paper": "Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling"
+    },
+    {
+      "assumption": "Encoder-decoder architectures are required for effective sequence labeling and classification tasks",
+      "confidence": 0.88,
+      "category": "architectural",
+      "source_paper": "Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling"
+    },
+    {
+      "assumption": "Recurrent neural networks are necessary for modeling sequential dependencies in natural language",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling"
+    },
+    {
+      "assumption": "Benchmark datasets with established metrics are essential for validating model performance and comparing approaches",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling"
+    },
+    {
+      "assumption": "Alignment information between input and output sequences is necessary for effective slot filling performance",
+      "confidence": 0.87,
+      "category": "theoretical",
+      "source_paper": "Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling"
+    },
+    {
+      "assumption": "State-of-the-art comparison is required to demonstrate the validity of proposed neural architectures",
+      "confidence": 0.83,
+      "category": "evaluation",
+      "source_paper": "Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling"
+    },
+    {
+      "assumption": "Error rate and F1 score metrics are essential for evaluating intent detection and slot filling performance respectively",
+      "confidence": 0.86,
+      "category": "evaluation",
+      "source_paper": "Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling"
+    },
+    {
+      "assumption": "Transfer of architectural innovations across related NLP tasks is necessary for advancing the field",
+      "confidence": 0.82,
+      "category": "theoretical",
+      "source_paper": "Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling"
+    },
+    {
+      "assumption": "Neural network models are required to achieve competitive performance in modern NLP tasks",
+      "confidence": 0.94,
+      "category": "architectural",
+      "source_paper": "Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling"
+    },
+    {
+      "assumption": "Attention mechanisms are essential for effective sequence-to-sequence learning in neural translation",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Attention-based Multimodal Neural Machine Translation"
+    },
+    {
+      "assumption": "Encoder-decoder architectures are necessary for neural machine translation systems",
+      "confidence": 0.93,
+      "category": "architectural",
+      "source_paper": "Attention-based Multimodal Neural Machine Translation"
+    },
+    {
+      "assumption": "Distributed representations are required for neural networks to process linguistic information effectively",
+      "confidence": 0.91,
+      "category": "theoretical",
+      "source_paper": "Attention-based Multimodal Neural Machine Translation"
+    },
+    {
+      "assumption": "Recurrent neural networks are essential for modeling sequential dependencies in language",
+      "confidence": 0.88,
+      "category": "architectural",
+      "source_paper": "Attention-based Multimodal Neural Machine Translation"
+    },
+    {
+      "assumption": "Gradient-based optimization is necessary for training neural translation models",
+      "confidence": 0.87,
+      "category": "training",
+      "source_paper": "Attention-based Multimodal Neural Machine Translation"
+    },
+    {
+      "assumption": "Feature concatenation is required for effective multimodal information fusion",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Attention-based Multimodal Neural Machine Translation"
+    },
+    {
+      "assumption": "Parallel sentence pairs are essential for supervised neural machine translation",
+      "confidence": 0.84,
+      "category": "data",
+      "source_paper": "Attention-based Multimodal Neural Machine Translation"
+    },
+    {
+      "assumption": "Comparison against text-only baselines is necessary for validating multimodal translation approaches",
+      "confidence": 0.82,
+      "category": "evaluation",
+      "source_paper": "Attention-based Multimodal Neural Machine Translation"
+    },
+    {
+      "assumption": "Hierarchical feature extraction is required for processing visual information in multimodal systems",
+      "confidence": 0.79,
+      "category": "architectural",
+      "source_paper": "Attention-based Multimodal Neural Machine Translation"
+    },
+    {
+      "assumption": "Cross-modal alignment is essential for leveraging multiple information sources in translation",
+      "confidence": 0.77,
+      "category": "theoretical",
+      "source_paper": "Attention-based Multimodal Neural Machine Translation"
+    },
+    {
+      "assumption": "Encoder-decoder architectures are necessary for sequence-to-sequence translation tasks",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Montreal Neural Machine Translation Systems for WMT\u201915"
+    },
+    {
+      "assumption": "Attention mechanisms are essential for handling long sequences in neural translation",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Montreal Neural Machine Translation Systems for WMT\u201915"
+    },
+    {
+      "assumption": "Large parallel corpora are required for training effective neural translation models",
+      "confidence": 0.92,
+      "category": "data",
+      "source_paper": "Montreal Neural Machine Translation Systems for WMT\u201915"
+    },
+    {
+      "assumption": "Human evaluation is necessary for validating translation quality beyond automatic metrics",
+      "confidence": 0.88,
+      "category": "evaluation",
+      "source_paper": "Montreal Neural Machine Translation Systems for WMT\u201915"
+    },
+    {
+      "assumption": "Large vocabularies are necessary for handling diverse linguistic phenomena in translation",
+      "confidence": 0.83,
+      "category": "data",
+      "source_paper": "Montreal Neural Machine Translation Systems for WMT\u201915"
+    },
+    {
+      "assumption": "End-to-end differentiable training is required for optimal neural translation performance",
+      "confidence": 0.87,
+      "category": "training",
+      "source_paper": "Montreal Neural Machine Translation Systems for WMT\u201915"
+    },
+    {
+      "assumption": "Monolingual language models are essential for improving target language fluency",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Montreal Neural Machine Translation Systems for WMT\u201915"
+    },
+    {
+      "assumption": "Unknown word handling mechanisms are necessary for practical translation systems",
+      "confidence": 0.82,
+      "category": "data",
+      "source_paper": "Montreal Neural Machine Translation Systems for WMT\u201915"
+    },
+    {
+      "assumption": "Comparative evaluation across multiple language pairs is required for validating translation approaches",
+      "confidence": 0.78,
+      "category": "evaluation",
+      "source_paper": "Montreal Neural Machine Translation Systems for WMT\u201915"
+    },
+    {
+      "assumption": "Multiplicative gating mechanisms are necessary for controlling information flow in neural networks",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "LSTM, GRU, Highway and a Bit of Attention: An Empirical Overview for Language Modeling in Speech Recognition"
+    },
+    {
+      "assumption": "Recurrent architectures are essential for modeling sequential dependencies in language",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "LSTM, GRU, Highway and a Bit of Attention: An Empirical Overview for Language Modeling in Speech Recognition"
+    },
+    {
+      "assumption": "Deep network structures are required for achieving optimal language modeling performance",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "LSTM, GRU, Highway and a Bit of Attention: An Empirical Overview for Language Modeling in Speech Recognition"
+    },
+    {
+      "assumption": "Model interpolation with count-based models is necessary for optimal speech recognition accuracy",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "LSTM, GRU, Highway and a Bit of Attention: An Empirical Overview for Language Modeling in Speech Recognition"
+    },
+    {
+      "assumption": "Large vocabulary coverage is essential for practical speech recognition language models",
+      "confidence": 0.85,
+      "category": "data",
+      "source_paper": "LSTM, GRU, Highway and a Bit of Attention: An Empirical Overview for Language Modeling in Speech Recognition"
+    },
+    {
+      "assumption": "Recognition accuracy is the primary required metric for evaluating language models in speech recognition",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "LSTM, GRU, Highway and a Bit of Attention: An Empirical Overview for Language Modeling in Speech Recognition"
+    },
+    {
+      "assumption": "Memory mechanisms are necessary for handling long-range dependencies in language sequences",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "LSTM, GRU, Highway and a Bit of Attention: An Empirical Overview for Language Modeling in Speech Recognition"
+    },
+    {
+      "assumption": "Attention mechanisms are required for learning selective focus on relevant input elements",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "LSTM, GRU, Highway and a Bit of Attention: An Empirical Overview for Language Modeling in Speech Recognition"
+    },
+    {
+      "assumption": "Comparative evaluation across multiple architectures is necessary for establishing model superiority",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "LSTM, GRU, Highway and a Bit of Attention: An Empirical Overview for Language Modeling in Speech Recognition"
+    },
+    {
+      "assumption": "Highway connections are essential for enabling effective gradient flow in deep networks",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "LSTM, GRU, Highway and a Bit of Attention: An Empirical Overview for Language Modeling in Speech Recognition"
+    },
+    {
+      "assumption": "Sequence-to-sequence architectures are necessary for neural machine translation",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Knowledge-Based Semantic Embedding for Machine Translation"
+    },
+    {
+      "assumption": "Recurrent neural networks are essential for generating sequential text outputs",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Knowledge-Based Semantic Embedding for Machine Translation"
+    },
+    {
+      "assumption": "Encoder-decoder frameworks are required for translation between different languages",
+      "confidence": 0.92,
+      "category": "architectural",
+      "source_paper": "Knowledge-Based Semantic Embedding for Machine Translation"
+    },
+    {
+      "assumption": "Semantic representations must be learned through distributed embeddings",
+      "confidence": 0.88,
+      "category": "theoretical",
+      "source_paper": "Knowledge-Based Semantic Embedding for Machine Translation"
+    },
+    {
+      "assumption": "Cross-lingual semantic spaces are necessary for bridging source and target languages",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Knowledge-Based Semantic Embedding for Machine Translation"
+    },
+    {
+      "assumption": "Meaning preservation is essential for translation quality",
+      "confidence": 0.93,
+      "category": "theoretical",
+      "source_paper": "Knowledge-Based Semantic Embedding for Machine Translation"
+    },
+    {
+      "assumption": "Comparative evaluation against baseline methods is required to validate new approaches",
+      "confidence": 0.87,
+      "category": "evaluation",
+      "source_paper": "Knowledge-Based Semantic Embedding for Machine Translation"
+    },
+    {
+      "assumption": "Domain-specific datasets are necessary for evaluating translation performance",
+      "confidence": 0.82,
+      "category": "data",
+      "source_paper": "Knowledge-Based Semantic Embedding for Machine Translation"
+    },
+    {
+      "assumption": "Statistical machine translation methods serve as essential baseline comparisons",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Knowledge-Based Semantic Embedding for Machine Translation"
+    },
+    {
+      "assumption": "External knowledge sources are required to enhance semantic understanding",
+      "confidence": 0.78,
+      "category": "data",
+      "source_paper": "Knowledge-Based Semantic Embedding for Machine Translation"
+    },
+    {
+      "assumption": "Sequential processing architectures are necessary for understanding natural language text",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Sentiment classification using Comprehensive Attention Recurrent models"
+    },
+    {
+      "assumption": "Contextual information from surrounding words is essential for accurate sentiment classification",
+      "confidence": 0.92,
+      "category": "theoretical",
+      "source_paper": "Sentiment classification using Comprehensive Attention Recurrent models"
+    },
+    {
+      "assumption": "End-to-end differentiable training is required for effective neural language models",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Sentiment classification using Comprehensive Attention Recurrent models"
+    },
+    {
+      "assumption": "Classification accuracy on labeled datasets is the essential metric for evaluating sentiment analysis systems",
+      "confidence": 0.88,
+      "category": "evaluation",
+      "source_paper": "Sentiment classification using Comprehensive Attention Recurrent models"
+    },
+    {
+      "assumption": "Distributed vector representations are necessary for neural networks to process textual input",
+      "confidence": 0.87,
+      "category": "architectural",
+      "source_paper": "Sentiment classification using Comprehensive Attention Recurrent models"
+    },
+    {
+      "assumption": "Gradient-based optimization is required for training neural sentiment classification models",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Sentiment classification using Comprehensive Attention Recurrent models"
+    },
+    {
+      "assumption": "Supervised learning with labeled sentiment data is essential for sentiment classification systems",
+      "confidence": 0.83,
+      "category": "data",
+      "source_paper": "Sentiment classification using Comprehensive Attention Recurrent models"
+    },
+    {
+      "assumption": "Comparative evaluation against existing methods is necessary to validate new sentiment classification approaches",
+      "confidence": 0.82,
+      "category": "evaluation",
+      "source_paper": "Sentiment classification using Comprehensive Attention Recurrent models"
+    },
+    {
+      "assumption": "Memory mechanisms are required for neural networks to effectively process variable-length sequences",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Sentiment classification using Comprehensive Attention Recurrent models"
+    },
+    {
+      "assumption": "Sentence-level or document-level units are the essential granularity for sentiment classification tasks",
+      "confidence": 0.78,
+      "category": "theoretical",
+      "source_paper": "Sentiment classification using Comprehensive Attention Recurrent models"
+    },
+    {
+      "assumption": "Gating mechanisms are necessary for effective long-term sequence modeling",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "An Empirical Exploration of Recurrent Network Architectures"
+    },
+    {
+      "assumption": "Gradient-based optimization is required for training recurrent neural networks",
+      "confidence": 0.98,
+      "category": "training",
+      "source_paper": "An Empirical Exploration of Recurrent Network Architectures"
+    },
+    {
+      "assumption": "Architecture search through empirical evaluation is necessary to determine optimal network designs",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "An Empirical Exploration of Recurrent Network Architectures"
+    },
+    {
+      "assumption": "Sequential processing with hidden state propagation is essential for sequence modeling",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "An Empirical Exploration of Recurrent Network Architectures"
+    },
+    {
+      "assumption": "Comparative performance evaluation across multiple tasks is required to validate architectural improvements",
+      "confidence": 0.88,
+      "category": "evaluation",
+      "source_paper": "An Empirical Exploration of Recurrent Network Architectures"
+    },
+    {
+      "assumption": "Differentiable architectures are necessary for end-to-end neural network training",
+      "confidence": 0.97,
+      "category": "architectural",
+      "source_paper": "An Empirical Exploration of Recurrent Network Architectures"
+    },
+    {
+      "assumption": "Addressing the vanishing gradient problem is essential for training deep recurrent networks",
+      "confidence": 0.93,
+      "category": "training",
+      "source_paper": "An Empirical Exploration of Recurrent Network Architectures"
+    },
+    {
+      "assumption": "Fixed-size vector representations are required for processing variable-length sequences",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "An Empirical Exploration of Recurrent Network Architectures"
+    },
+    {
+      "assumption": "Supervised learning paradigms are necessary for evaluating sequence model performance",
+      "confidence": 0.87,
+      "category": "evaluation",
+      "source_paper": "An Empirical Exploration of Recurrent Network Architectures"
+    },
+    {
+      "assumption": "Parameterized nonlinear transformations are essential for learning complex sequence patterns",
+      "confidence": 0.92,
+      "category": "theoretical",
+      "source_paper": "An Empirical Exploration of Recurrent Network Architectures"
+    },
+    {
+      "assumption": "Sequential processing is necessary for understanding temporal dynamics in video",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Sequence to Sequence -- Video to Text"
+    },
+    {
+      "assumption": "End-to-end differentiable training is required for optimal multimodal learning",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Sequence to Sequence -- Video to Text"
+    },
+    {
+      "assumption": "Recurrent architectures are essential for modeling variable-length sequences",
+      "confidence": 0.88,
+      "category": "architectural",
+      "source_paper": "Sequence to Sequence -- Video to Text"
+    },
+    {
+      "assumption": "Supervised learning on paired data is necessary for cross-modal generation tasks",
+      "confidence": 0.92,
+      "category": "training",
+      "source_paper": "Sequence to Sequence -- Video to Text"
+    },
+    {
+      "assumption": "Frame-level visual features are sufficient for video understanding",
+      "confidence": 0.85,
+      "category": "data",
+      "source_paper": "Sequence to Sequence -- Video to Text"
+    },
+    {
+      "assumption": "Language modeling capabilities are required for coherent text generation",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Sequence to Sequence -- Video to Text"
+    },
+    {
+      "assumption": "Encoder-decoder architectures are necessary for sequence transduction tasks",
+      "confidence": 0.87,
+      "category": "architectural",
+      "source_paper": "Sequence to Sequence -- Video to Text"
+    },
+    {
+      "assumption": "Standard benchmark datasets are essential for meaningful performance evaluation",
+      "confidence": 0.83,
+      "category": "evaluation",
+      "source_paper": "Sequence to Sequence -- Video to Text"
+    },
+    {
+      "assumption": "Temporal ordering of frames is essential for video comprehension",
+      "confidence": 0.89,
+      "category": "theoretical",
+      "source_paper": "Sequence to Sequence -- Video to Text"
+    },
+    {
+      "assumption": "Single-sentence descriptions are sufficient for capturing video content",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Sequence to Sequence -- Video to Text"
+    },
+    {
+      "assumption": "Gradient-based optimization is necessary for training neural network parameters",
+      "confidence": 0.95,
+      "category": "training",
+      "source_paper": "Pointer networks"
+    },
+    {
+      "assumption": "Differentiable operations are required for end-to-end neural network training",
+      "confidence": 0.94,
+      "category": "architectural",
+      "source_paper": "Pointer networks"
+    },
+    {
+      "assumption": "Attention mechanisms are essential for handling variable-length input dependencies",
+      "confidence": 0.92,
+      "category": "architectural",
+      "source_paper": "Pointer networks"
+    },
+    {
+      "assumption": "Supervised learning with input-output pairs is necessary for sequence-to-sequence problems",
+      "confidence": 0.91,
+      "category": "training",
+      "source_paper": "Pointer networks"
+    },
+    {
+      "assumption": "Encoder-decoder architectures are required for sequence transformation tasks",
+      "confidence": 0.89,
+      "category": "architectural",
+      "source_paper": "Pointer networks"
+    },
+    {
+      "assumption": "Recurrent or sequential processing is essential for handling ordered data",
+      "confidence": 0.88,
+      "category": "architectural",
+      "source_paper": "Pointer networks"
+    },
+    {
+      "assumption": "Generalization to longer sequences than seen during training is necessary for practical applicability",
+      "confidence": 0.87,
+      "category": "evaluation",
+      "source_paper": "Pointer networks"
+    },
+    {
+      "assumption": "Neural networks are required to learn complex combinatorial relationships from data",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Pointer networks"
+    },
+    {
+      "assumption": "Probabilistic output distributions are necessary for handling discrete prediction tasks",
+      "confidence": 0.84,
+      "category": "theoretical",
+      "source_paper": "Pointer networks"
+    },
+    {
+      "assumption": "Training examples alone are sufficient for learning approximate solutions to optimization problems",
+      "confidence": 0.82,
+      "category": "data",
+      "source_paper": "Pointer networks"
+    },
+    {
+      "assumption": "Distributed vector representations are necessary for capturing semantic meaning in neural language models",
+      "confidence": 0.95,
+      "category": "theoretical",
+      "source_paper": "Siamese Recurrent Architectures for Learning Sentence Similarity"
+    },
+    {
+      "assumption": "Fixed-size vector encodings are required for comparing variable-length sequences",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Siamese Recurrent Architectures for Learning Sentence Similarity"
+    },
+    {
+      "assumption": "Recurrent architectures are essential for processing sequential linguistic information",
+      "confidence": 0.88,
+      "category": "architectural",
+      "source_paper": "Siamese Recurrent Architectures for Learning Sentence Similarity"
+    },
+    {
+      "assumption": "Siamese architectures are necessary for learning similarity functions between paired inputs",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Siamese Recurrent Architectures for Learning Sentence Similarity"
+    },
+    {
+      "assumption": "Supervised learning with labeled pairs is required for training similarity models",
+      "confidence": 0.83,
+      "category": "training",
+      "source_paper": "Siamese Recurrent Architectures for Learning Sentence Similarity"
+    },
+    {
+      "assumption": "Word-level tokenization is essential for neural language processing",
+      "confidence": 0.82,
+      "category": "data",
+      "source_paper": "Siamese Recurrent Architectures for Learning Sentence Similarity"
+    },
+    {
+      "assumption": "Geometric distance metrics in embedding space are necessary for measuring semantic similarity",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Siamese Recurrent Architectures for Learning Sentence Similarity"
+    },
+    {
+      "assumption": "Pre-trained word embeddings are required for effective neural language understanding",
+      "confidence": 0.78,
+      "category": "data",
+      "source_paper": "Siamese Recurrent Architectures for Learning Sentence Similarity"
+    },
+    {
+      "assumption": "Outperforming previous benchmarks is essential for validating new neural architectures",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "Siamese Recurrent Architectures for Learning Sentence Similarity"
+    },
+    {
+      "assumption": "End-to-end differentiable training is necessary for learning sentence representations",
+      "confidence": 0.73,
+      "category": "training",
+      "source_paper": "Siamese Recurrent Architectures for Learning Sentence Similarity"
+    },
+    {
+      "assumption": "End-to-end differentiable training is necessary for optimal neural text generation performance",
+      "confidence": 0.95,
+      "category": "training",
+      "source_paper": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks"
+    },
+    {
+      "assumption": "Attention mechanisms are essential for handling variable-length input-output mappings in sequence-to-sequence tasks",
+      "confidence": 0.92,
+      "category": "architectural",
+      "source_paper": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks"
+    },
+    {
+      "assumption": "Encoder-decoder architectures are required for abstractive text summarization",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks"
+    },
+    {
+      "assumption": "Large-scale datasets are necessary for training effective neural summarization models",
+      "confidence": 0.88,
+      "category": "data",
+      "source_paper": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks"
+    },
+    {
+      "assumption": "Learned distributed representations are essential for capturing semantic meaning in text",
+      "confidence": 0.87,
+      "category": "theoretical",
+      "source_paper": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks"
+    },
+    {
+      "assumption": "Sequential generation is necessary for producing coherent abstractive summaries",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks"
+    },
+    {
+      "assumption": "Comparison against established benchmarks is required for validating model performance",
+      "confidence": 0.83,
+      "category": "evaluation",
+      "source_paper": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks"
+    },
+    {
+      "assumption": "Recurrent architectures are essential for modeling sequential dependencies in text generation",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks"
+    },
+    {
+      "assumption": "Conditional generation is necessary for controlling output based on input content",
+      "confidence": 0.78,
+      "category": "theoretical",
+      "source_paper": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks"
+    },
+    {
+      "assumption": "Automatic evaluation metrics are sufficient for measuring summarization quality",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks"
+    },
+    {
+      "assumption": "Gradient-based optimization is necessary for training neural networks effectively",
+      "confidence": 0.95,
+      "category": "training",
+      "source_paper": "A theoretically grounded application of dropout in recurrent neural networks"
+    },
+    {
+      "assumption": "Regularization techniques are essential for preventing overfitting in deep learning models",
+      "confidence": 0.92,
+      "category": "training",
+      "source_paper": "A theoretically grounded application of dropout in recurrent neural networks"
+    },
+    {
+      "assumption": "Perplexity is a necessary metric for evaluating language modeling performance",
+      "confidence": 0.88,
+      "category": "evaluation",
+      "source_paper": "A theoretically grounded application of dropout in recurrent neural networks"
+    },
+    {
+      "assumption": "Recurrent connections are required for modeling sequential dependencies in neural networks",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "A theoretically grounded application of dropout in recurrent neural networks"
+    },
+    {
+      "assumption": "Gated architectures are necessary for learning long-term dependencies in sequences",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "A theoretically grounded application of dropout in recurrent neural networks"
+    },
+    {
+      "assumption": "Bayesian principles provide essential theoretical foundations for understanding deep learning techniques",
+      "confidence": 0.82,
+      "category": "theoretical",
+      "source_paper": "A theoretically grounded application of dropout in recurrent neural networks"
+    },
+    {
+      "assumption": "Single model performance benchmarks are necessary for establishing state-of-the-art results",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "A theoretically grounded application of dropout in recurrent neural networks"
+    },
+    {
+      "assumption": "Variational inference is required for tractable approximate Bayesian computation in deep learning",
+      "confidence": 0.78,
+      "category": "theoretical",
+      "source_paper": "A theoretically grounded application of dropout in recurrent neural networks"
+    },
+    {
+      "assumption": "Standard benchmark datasets are essential for validating model improvements",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "A theoretically grounded application of dropout in recurrent neural networks"
+    },
+    {
+      "assumption": "Theoretical grounding is necessary for principled extension of empirical techniques",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "A theoretically grounded application of dropout in recurrent neural networks"
+    }
+  ],
+  "best_similarity": 0.7916,
+  "soft_rank": 26,
+  "soft_recall_at_5": 0.0,
+  "soft_recall_at_10": 0.0,
+  "soft_recall_at_20": 0.0,
+  "top_5_assumptions": [
+    {
+      "assumption": "Encoder-decoder architectures are necessary for sequence-to-sequence learning tasks",
+      "similarity": 0.4823
+    },
+    {
+      "assumption": "Attention mechanisms are essential for effective sequence alignment in neural translation",
+      "similarity": 0.427
+    },
+    {
+      "assumption": "Recurrent neural networks are required for processing sequential data with temporal dependencies",
+      "similarity": 0.6115
+    },
+    {
+      "assumption": "End-to-end learning is necessary for optimal neural machine translation performance",
+      "similarity": 0.3
+    },
+    {
+      "assumption": "Gating mechanisms are essential for controlling information flow in recurrent architectures",
+      "similarity": 0.4426
+    }
+  ],
+  "all_details": [
+    {
+      "rank": 26,
+      "assumption": "Recurrent architectures are required for sequence modeling tasks",
+      "best_similarity": 0.7916,
+      "is_match": true
+    },
+    {
+      "rank": 102,
+      "assumption": "Recurrent architectures are essential for modeling variable-length sequences",
+      "best_similarity": 0.716,
+      "is_match": true
+    },
+    {
+      "rank": 143,
+      "assumption": "Recurrent connections are required for modeling sequential dependencies in neural networks",
+      "best_similarity": 0.6737,
+      "is_match": true
+    },
+    {
+      "rank": 34,
+      "assumption": "Recurrent neural networks are necessary for modeling sequential dependencies in natural language",
+      "best_similarity": 0.6572,
+      "is_match": true
+    },
+    {
+      "rank": 61,
+      "assumption": "Recurrent architectures are essential for modeling sequential dependencies in language",
+      "best_similarity": 0.6493,
+      "is_match": false
+    },
+    {
+      "rank": 44,
+      "assumption": "Recurrent neural networks are essential for modeling sequential dependencies in language",
+      "best_similarity": 0.6399,
+      "is_match": false
+    },
+    {
+      "rank": 137,
+      "assumption": "Recurrent architectures are essential for modeling sequential dependencies in text generation",
+      "best_similarity": 0.6391,
+      "is_match": false
+    },
+    {
+      "rank": 16,
+      "assumption": "Recurrent architectures are necessary for modeling temporal dependencies in speech",
+      "best_similarity": 0.6253,
+      "is_match": false
+    },
+    {
+      "rank": 122,
+      "assumption": "Recurrent architectures are essential for processing sequential linguistic information",
+      "best_similarity": 0.6246,
+      "is_match": false
+    },
+    {
+      "rank": 3,
+      "assumption": "Recurrent neural networks are required for processing sequential data with temporal dependencies",
+      "best_similarity": 0.6115,
+      "is_match": false
+    },
+    {
+      "rank": 90,
+      "assumption": "Gating mechanisms are necessary for effective long-term sequence modeling",
+      "best_similarity": 0.6096,
+      "is_match": false
+    },
+    {
+      "rank": 93,
+      "assumption": "Sequential processing with hidden state propagation is essential for sequence modeling",
+      "best_similarity": 0.5794,
+      "is_match": false
+    },
+    {
+      "rank": 115,
+      "assumption": "Recurrent or sequential processing is essential for handling ordered data",
+      "best_similarity": 0.5778,
+      "is_match": false
+    },
+    {
+      "rank": 71,
+      "assumption": "Recurrent neural networks are essential for generating sequential text outputs",
+      "best_similarity": 0.5626,
+      "is_match": false
+    },
+    {
+      "rank": 144,
+      "assumption": "Gated architectures are necessary for learning long-term dependencies in sequences",
+      "best_similarity": 0.522,
+      "is_match": false
+    },
+    {
+      "rank": 116,
+      "assumption": "Generalization to longer sequences than seen during training is necessary for practical applicability",
+      "best_similarity": 0.5203,
+      "is_match": false
+    },
+    {
+      "rank": 98,
+      "assumption": "Supervised learning paradigms are necessary for evaluating sequence model performance",
+      "best_similarity": 0.5182,
+      "is_match": false
+    },
+    {
+      "rank": 88,
+      "assumption": "Memory mechanisms are required for neural networks to effectively process variable-length sequences",
+      "best_similarity": 0.4945,
+      "is_match": false
+    },
+    {
+      "rank": 106,
+      "assumption": "Encoder-decoder architectures are necessary for sequence transduction tasks",
+      "best_similarity": 0.4838,
+      "is_match": false
+    },
+    {
+      "rank": 66,
+      "assumption": "Memory mechanisms are necessary for handling long-range dependencies in language sequences",
+      "best_similarity": 0.4836,
+      "is_match": false
+    },
+    {
+      "rank": 11,
+      "assumption": "Sequence-to-sequence mapping is necessary for speech recognition systems",
+      "best_similarity": 0.4825,
+      "is_match": false
+    },
+    {
+      "rank": 1,
+      "assumption": "Encoder-decoder architectures are necessary for sequence-to-sequence learning tasks",
+      "best_similarity": 0.4823,
+      "is_match": false
+    },
+    {
+      "rank": 62,
+      "assumption": "Deep network structures are required for achieving optimal language modeling performance",
+      "best_similarity": 0.4809,
+      "is_match": false
+    },
+    {
+      "rank": 114,
+      "assumption": "Encoder-decoder architectures are required for sequence transformation tasks",
+      "best_similarity": 0.4725,
+      "is_match": false
+    },
+    {
+      "rank": 70,
+      "assumption": "Sequence-to-sequence architectures are necessary for neural machine translation",
+      "best_similarity": 0.4695,
+      "is_match": false
+    },
+    {
+      "rank": 29,
+      "assumption": "Encoder-decoder architectures are essential for sequence-to-sequence tasks",
+      "best_similarity": 0.467,
+      "is_match": false
+    },
+    {
+      "rank": 99,
+      "assumption": "Parameterized nonlinear transformations are essential for learning complex sequence patterns",
+      "best_similarity": 0.4657,
+      "is_match": false
+    },
+    {
+      "rank": 33,
+      "assumption": "Encoder-decoder architectures are required for effective sequence labeling and classification tasks",
+      "best_similarity": 0.455,
+      "is_match": false
+    },
+    {
+      "rank": 9,
+      "assumption": "Gradient-based optimization is necessary for training neural sequence-to-sequence models",
+      "best_similarity": 0.4499,
+      "is_match": false
+    },
+    {
+      "rank": 5,
+      "assumption": "Gating mechanisms are essential for controlling information flow in recurrent architectures",
+      "best_similarity": 0.4426,
+      "is_match": false
+    },
+    {
+      "rank": 91,
+      "assumption": "Gradient-based optimization is required for training recurrent neural networks",
+      "best_similarity": 0.4419,
+      "is_match": false
+    },
+    {
+      "rank": 113,
+      "assumption": "Supervised learning with input-output pairs is necessary for sequence-to-sequence problems",
+      "best_similarity": 0.4399,
+      "is_match": false
+    },
+    {
+      "rank": 131,
+      "assumption": "Attention mechanisms are essential for handling variable-length input-output mappings in sequence-to-sequence tasks",
+      "best_similarity": 0.438,
+      "is_match": false
+    },
+    {
+      "rank": 51,
+      "assumption": "Encoder-decoder architectures are necessary for sequence-to-sequence translation tasks",
+      "best_similarity": 0.4341,
+      "is_match": false
+    },
+    {
+      "rank": 135,
+      "assumption": "Sequential generation is necessary for producing coherent abstractive summaries",
+      "best_similarity": 0.4332,
+      "is_match": false
+    },
+    {
+      "rank": 117,
+      "assumption": "Neural networks are required to learn complex combinatorial relationships from data",
+      "best_similarity": 0.4322,
+      "is_match": false
+    },
+    {
+      "rank": 18,
+      "assumption": "Beam search is necessary for decoding in sequence generation tasks",
+      "best_similarity": 0.4301,
+      "is_match": false
+    },
+    {
+      "rank": 36,
+      "assumption": "Alignment information between input and output sequences is necessary for effective slot filling performance",
+      "best_similarity": 0.4296,
+      "is_match": false
+    },
+    {
+      "rank": 2,
+      "assumption": "Attention mechanisms are essential for effective sequence alignment in neural translation",
+      "best_similarity": 0.427,
+      "is_match": false
+    },
+    {
+      "rank": 20,
+      "assumption": "Probabilistic modeling is required for handling uncertainty in speech recognition",
+      "best_similarity": 0.4184,
+      "is_match": false
+    },
+    {
+      "rank": 19,
+      "assumption": "Attention mechanisms are essential for aligning input and output sequences",
+      "best_similarity": 0.4169,
+      "is_match": false
+    },
+    {
+      "rank": 97,
+      "assumption": "Fixed-size vector representations are required for processing variable-length sequences",
+      "best_similarity": 0.4163,
+      "is_match": false
+    },
+    {
+      "rank": 25,
+      "assumption": "Incremental processing is essential for realistic language comprehension modeling",
+      "best_similarity": 0.4142,
+      "is_match": false
+    },
+    {
+      "rank": 32,
+      "assumption": "Attention mechanisms are essential for capturing relevant contextual information in sequence-to-sequence tasks",
+      "best_similarity": 0.4112,
+      "is_match": false
+    },
+    {
+      "rank": 52,
+      "assumption": "Attention mechanisms are essential for handling long sequences in neural translation",
+      "best_similarity": 0.4054,
+      "is_match": false
+    },
+    {
+      "rank": 8,
+      "assumption": "Distributed representations are essential for capturing semantic relationships in neural models",
+      "best_similarity": 0.4025,
+      "is_match": false
+    },
+    {
+      "rank": 123,
+      "assumption": "Siamese architectures are necessary for learning similarity functions between paired inputs",
+      "best_similarity": 0.402,
+      "is_match": false
+    },
+    {
+      "rank": 100,
+      "assumption": "Sequential processing is necessary for understanding temporal dynamics in video",
+      "best_similarity": 0.401,
+      "is_match": false
+    },
+    {
+      "rank": 41,
+      "assumption": "Attention mechanisms are essential for effective sequence-to-sequence learning in neural translation",
+      "best_similarity": 0.3985,
+      "is_match": false
+    },
+    {
+      "rank": 21,
+      "assumption": "Left-to-right sequential processing is necessary for natural language understanding",
+      "best_similarity": 0.3971,
+      "is_match": false
+    },
+    {
+      "rank": 118,
+      "assumption": "Probabilistic output distributions are necessary for handling discrete prediction tasks",
+      "best_similarity": 0.3968,
+      "is_match": false
+    },
+    {
+      "rank": 23,
+      "assumption": "Attention mechanisms are required for effective token relation modeling",
+      "best_similarity": 0.3967,
+      "is_match": false
+    },
+    {
+      "rank": 10,
+      "assumption": "Translation quality metrics are required for evaluating sequence-to-sequence model performance",
+      "best_similarity": 0.3917,
+      "is_match": false
+    },
+    {
+      "rank": 24,
+      "assumption": "Neural architectures are necessary for learning complex language representations",
+      "best_similarity": 0.3915,
+      "is_match": false
+    },
+    {
+      "rank": 80,
+      "assumption": "Sequential processing architectures are necessary for understanding natural language text",
+      "best_similarity": 0.3912,
+      "is_match": false
+    },
+    {
+      "rank": 121,
+      "assumption": "Fixed-size vector encodings are required for comparing variable-length sequences",
+      "best_similarity": 0.3908,
+      "is_match": false
+    },
+    {
+      "rank": 112,
+      "assumption": "Attention mechanisms are essential for handling variable-length input dependencies",
+      "best_similarity": 0.3891,
+      "is_match": false
+    },
+    {
+      "rank": 63,
+      "assumption": "Model interpolation with count-based models is necessary for optimal speech recognition accuracy",
+      "best_similarity": 0.3883,
+      "is_match": false
+    },
+    {
+      "rank": 105,
+      "assumption": "Language modeling capabilities are required for coherent text generation",
+      "best_similarity": 0.3855,
+      "is_match": false
+    },
+    {
+      "rank": 22,
+      "assumption": "Memory mechanisms are essential for handling long-range dependencies in text",
+      "best_similarity": 0.382,
+      "is_match": false
+    },
+    {
+      "rank": 138,
+      "assumption": "Conditional generation is necessary for controlling output based on input content",
+      "best_similarity": 0.3668,
+      "is_match": false
+    },
+    {
+      "rank": 142,
+      "assumption": "Perplexity is a necessary metric for evaluating language modeling performance",
+      "best_similarity": 0.3655,
+      "is_match": false
+    },
+    {
+      "rank": 96,
+      "assumption": "Addressing the vanishing gradient problem is essential for training deep recurrent networks",
+      "best_similarity": 0.359,
+      "is_match": false
+    },
+    {
+      "rank": 120,
+      "assumption": "Distributed vector representations are necessary for capturing semantic meaning in neural language models",
+      "best_similarity": 0.3589,
+      "is_match": false
+    },
+    {
+      "rank": 30,
+      "assumption": "Token-level representations are necessary building blocks for sentence understanding",
+      "best_similarity": 0.353,
+      "is_match": false
+    },
+    {
+      "rank": 132,
+      "assumption": "Encoder-decoder architectures are required for abstractive text summarization",
+      "best_similarity": 0.3519,
+      "is_match": false
+    },
+    {
+      "rank": 46,
+      "assumption": "Feature concatenation is required for effective multimodal information fusion",
+      "best_similarity": 0.3503,
+      "is_match": false
+    },
+    {
+      "rank": 108,
+      "assumption": "Temporal ordering of frames is essential for video comprehension",
+      "best_similarity": 0.3479,
+      "is_match": false
+    },
+    {
+      "rank": 124,
+      "assumption": "Supervised learning with labeled pairs is required for training similarity models",
+      "best_similarity": 0.3477,
+      "is_match": false
+    },
+    {
+      "rank": 43,
+      "assumption": "Distributed representations are required for neural networks to process linguistic information effectively",
+      "best_similarity": 0.347,
+      "is_match": false
+    },
+    {
+      "rank": 49,
+      "assumption": "Hierarchical feature extraction is required for processing visual information in multimodal systems",
+      "best_similarity": 0.3447,
+      "is_match": false
+    },
+    {
+      "rank": 129,
+      "assumption": "End-to-end differentiable training is necessary for learning sentence representations",
+      "best_similarity": 0.3422,
+      "is_match": false
+    },
+    {
+      "rank": 42,
+      "assumption": "Encoder-decoder architectures are necessary for neural machine translation systems",
+      "best_similarity": 0.3413,
+      "is_match": false
+    },
+    {
+      "rank": 146,
+      "assumption": "Single model performance benchmarks are necessary for establishing state-of-the-art results",
+      "best_similarity": 0.341,
+      "is_match": false
+    },
+    {
+      "rank": 141,
+      "assumption": "Regularization techniques are essential for preventing overfitting in deep learning models",
+      "best_similarity": 0.3406,
+      "is_match": false
+    },
+    {
+      "rank": 133,
+      "assumption": "Large-scale datasets are necessary for training effective neural summarization models",
+      "best_similarity": 0.3402,
+      "is_match": false
+    },
+    {
+      "rank": 13,
+      "assumption": "Neural network architectures are required for competitive speech recognition systems",
+      "best_similarity": 0.3364,
+      "is_match": false
+    },
+    {
+      "rank": 103,
+      "assumption": "Supervised learning on paired data is necessary for cross-modal generation tasks",
+      "best_similarity": 0.3355,
+      "is_match": false
+    },
+    {
+      "rank": 31,
+      "assumption": "Joint learning of related tasks is necessary for optimal performance in natural language understanding systems",
+      "best_similarity": 0.332,
+      "is_match": false
+    },
+    {
+      "rank": 82,
+      "assumption": "End-to-end differentiable training is required for effective neural language models",
+      "best_similarity": 0.3291,
+      "is_match": false
+    },
+    {
+      "rank": 39,
+      "assumption": "Transfer of architectural innovations across related NLP tasks is necessary for advancing the field",
+      "best_similarity": 0.3282,
+      "is_match": false
+    },
+    {
+      "rank": 60,
+      "assumption": "Multiplicative gating mechanisms are necessary for controlling information flow in neural networks",
+      "best_similarity": 0.3272,
+      "is_match": false
+    },
+    {
+      "rank": 65,
+      "assumption": "Recognition accuracy is the primary required metric for evaluating language models in speech recognition",
+      "best_similarity": 0.3266,
+      "is_match": false
+    },
+    {
+      "rank": 47,
+      "assumption": "Parallel sentence pairs are essential for supervised neural machine translation",
+      "best_similarity": 0.3264,
+      "is_match": false
+    },
+    {
+      "rank": 127,
+      "assumption": "Pre-trained word embeddings are required for effective neural language understanding",
+      "best_similarity": 0.3261,
+      "is_match": false
+    },
+    {
+      "rank": 7,
+      "assumption": "Comparison with word-based and phrase-based systems is necessary for validating neural approaches",
+      "best_similarity": 0.3213,
+      "is_match": false
+    },
+    {
+      "rank": 6,
+      "assumption": "Large-scale datasets are required for training effective neural translation models",
+      "best_similarity": 0.3198,
+      "is_match": false
+    },
+    {
+      "rank": 53,
+      "assumption": "Large parallel corpora are required for training effective neural translation models",
+      "best_similarity": 0.3191,
+      "is_match": false
+    },
+    {
+      "rank": 17,
+      "assumption": "Large-scale training data is required for robust speech recognition performance",
+      "best_similarity": 0.3172,
+      "is_match": false
+    },
+    {
+      "rank": 45,
+      "assumption": "Gradient-based optimization is necessary for training neural translation models",
+      "best_similarity": 0.3171,
+      "is_match": false
+    },
+    {
+      "rank": 136,
+      "assumption": "Comparison against established benchmarks is required for validating model performance",
+      "best_similarity": 0.3106,
+      "is_match": false
+    },
+    {
+      "rank": 101,
+      "assumption": "End-to-end differentiable training is required for optimal multimodal learning",
+      "best_similarity": 0.3101,
+      "is_match": false
+    },
+    {
+      "rank": 85,
+      "assumption": "Gradient-based optimization is required for training neural sentiment classification models",
+      "best_similarity": 0.3093,
+      "is_match": false
+    },
+    {
+      "rank": 134,
+      "assumption": "Learned distributed representations are essential for capturing semantic meaning in text",
+      "best_similarity": 0.3092,
+      "is_match": false
+    },
+    {
+      "rank": 40,
+      "assumption": "Neural network models are required to achieve competitive performance in modern NLP tasks",
+      "best_similarity": 0.3088,
+      "is_match": false
+    },
+    {
+      "rank": 147,
+      "assumption": "Variational inference is required for tractable approximate Bayesian computation in deep learning",
+      "best_similarity": 0.3086,
+      "is_match": false
+    },
+    {
+      "rank": 64,
+      "assumption": "Large vocabulary coverage is essential for practical speech recognition language models",
+      "best_similarity": 0.3072,
+      "is_match": false
+    },
+    {
+      "rank": 57,
+      "assumption": "Monolingual language models are essential for improving target language fluency",
+      "best_similarity": 0.3049,
+      "is_match": false
+    },
+    {
+      "rank": 73,
+      "assumption": "Semantic representations must be learned through distributed embeddings",
+      "best_similarity": 0.3044,
+      "is_match": false
+    },
+    {
+      "rank": 84,
+      "assumption": "Distributed vector representations are necessary for neural networks to process textual input",
+      "best_similarity": 0.3033,
+      "is_match": false
+    },
+    {
+      "rank": 14,
+      "assumption": "Gradient-based optimization is necessary for training speech recognition models",
+      "best_similarity": 0.3024,
+      "is_match": false
+    },
+    {
+      "rank": 72,
+      "assumption": "Encoder-decoder frameworks are required for translation between different languages",
+      "best_similarity": 0.3022,
+      "is_match": false
+    },
+    {
+      "rank": 4,
+      "assumption": "End-to-end learning is necessary for optimal neural machine translation performance",
+      "best_similarity": 0.3,
+      "is_match": false
+    },
+    {
+      "rank": 119,
+      "assumption": "Training examples alone are sufficient for learning approximate solutions to optimization problems",
+      "best_similarity": 0.2982,
+      "is_match": false
+    },
+    {
+      "rank": 110,
+      "assumption": "Gradient-based optimization is necessary for training neural network parameters",
+      "best_similarity": 0.298,
+      "is_match": false
+    },
+    {
+      "rank": 140,
+      "assumption": "Gradient-based optimization is necessary for training neural networks effectively",
+      "best_similarity": 0.2946,
+      "is_match": false
+    },
+    {
+      "rank": 104,
+      "assumption": "Frame-level visual features are sufficient for video understanding",
+      "best_similarity": 0.2936,
+      "is_match": false
+    },
+    {
+      "rank": 95,
+      "assumption": "Differentiable architectures are necessary for end-to-end neural network training",
+      "best_similarity": 0.2931,
+      "is_match": false
+    },
+    {
+      "rank": 68,
+      "assumption": "Comparative evaluation across multiple architectures is necessary for establishing model superiority",
+      "best_similarity": 0.2881,
+      "is_match": false
+    },
+    {
+      "rank": 37,
+      "assumption": "State-of-the-art comparison is required to demonstrate the validity of proposed neural architectures",
+      "best_similarity": 0.2865,
+      "is_match": false
+    },
+    {
+      "rank": 148,
+      "assumption": "Standard benchmark datasets are essential for validating model improvements",
+      "best_similarity": 0.2849,
+      "is_match": false
+    },
+    {
+      "rank": 78,
+      "assumption": "Statistical machine translation methods serve as essential baseline comparisons",
+      "best_similarity": 0.2824,
+      "is_match": false
+    },
+    {
+      "rank": 149,
+      "assumption": "Theoretical grounding is necessary for principled extension of empirical techniques",
+      "best_similarity": 0.2797,
+      "is_match": false
+    },
+    {
+      "rank": 126,
+      "assumption": "Geometric distance metrics in embedding space are necessary for measuring semantic similarity",
+      "best_similarity": 0.2796,
+      "is_match": false
+    },
+    {
+      "rank": 79,
+      "assumption": "External knowledge sources are required to enhance semantic understanding",
+      "best_similarity": 0.2789,
+      "is_match": false
+    },
+    {
+      "rank": 67,
+      "assumption": "Attention mechanisms are required for learning selective focus on relevant input elements",
+      "best_similarity": 0.2785,
+      "is_match": false
+    },
+    {
+      "rank": 15,
+      "assumption": "Spectral features are essential input representations for speech recognition",
+      "best_similarity": 0.2779,
+      "is_match": false
+    },
+    {
+      "rank": 55,
+      "assumption": "Large vocabularies are necessary for handling diverse linguistic phenomena in translation",
+      "best_similarity": 0.2775,
+      "is_match": false
+    },
+    {
+      "rank": 77,
+      "assumption": "Domain-specific datasets are necessary for evaluating translation performance",
+      "best_similarity": 0.2763,
+      "is_match": false
+    },
+    {
+      "rank": 56,
+      "assumption": "End-to-end differentiable training is required for optimal neural translation performance",
+      "best_similarity": 0.2694,
+      "is_match": false
+    },
+    {
+      "rank": 35,
+      "assumption": "Benchmark datasets with established metrics are essential for validating model performance and comparing approaches",
+      "best_similarity": 0.268,
+      "is_match": false
+    },
+    {
+      "rank": 74,
+      "assumption": "Cross-lingual semantic spaces are necessary for bridging source and target languages",
+      "best_similarity": 0.2677,
+      "is_match": false
+    },
+    {
+      "rank": 130,
+      "assumption": "End-to-end differentiable training is necessary for optimal neural text generation performance",
+      "best_similarity": 0.2671,
+      "is_match": false
+    },
+    {
+      "rank": 75,
+      "assumption": "Meaning preservation is essential for translation quality",
+      "best_similarity": 0.2662,
+      "is_match": false
+    },
+    {
+      "rank": 125,
+      "assumption": "Word-level tokenization is essential for neural language processing",
+      "best_similarity": 0.266,
+      "is_match": false
+    },
+    {
+      "rank": 58,
+      "assumption": "Unknown word handling mechanisms are necessary for practical translation systems",
+      "best_similarity": 0.2616,
+      "is_match": false
+    },
+    {
+      "rank": 27,
+      "assumption": "End-to-end differentiable training is necessary for optimal performance",
+      "best_similarity": 0.258,
+      "is_match": false
+    },
+    {
+      "rank": 81,
+      "assumption": "Contextual information from surrounding words is essential for accurate sentiment classification",
+      "best_similarity": 0.2578,
+      "is_match": false
+    },
+    {
+      "rank": 69,
+      "assumption": "Highway connections are essential for enabling effective gradient flow in deep networks",
+      "best_similarity": 0.253,
+      "is_match": false
+    },
+    {
+      "rank": 89,
+      "assumption": "Sentence-level or document-level units are the essential granularity for sentiment classification tasks",
+      "best_similarity": 0.2469,
+      "is_match": false
+    },
+    {
+      "rank": 145,
+      "assumption": "Bayesian principles provide essential theoretical foundations for understanding deep learning techniques",
+      "best_similarity": 0.2462,
+      "is_match": false
+    },
+    {
+      "rank": 76,
+      "assumption": "Comparative evaluation against baseline methods is required to validate new approaches",
+      "best_similarity": 0.2458,
+      "is_match": false
+    },
+    {
+      "rank": 50,
+      "assumption": "Cross-modal alignment is essential for leveraging multiple information sources in translation",
+      "best_similarity": 0.242,
+      "is_match": false
+    },
+    {
+      "rank": 111,
+      "assumption": "Differentiable operations are required for end-to-end neural network training",
+      "best_similarity": 0.242,
+      "is_match": false
+    },
+    {
+      "rank": 48,
+      "assumption": "Comparison against text-only baselines is necessary for validating multimodal translation approaches",
+      "best_similarity": 0.2405,
+      "is_match": false
+    },
+    {
+      "rank": 28,
+      "assumption": "State-of-the-art comparison on standard benchmarks is required for validation",
+      "best_similarity": 0.2401,
+      "is_match": false
+    },
+    {
+      "rank": 109,
+      "assumption": "Single-sentence descriptions are sufficient for capturing video content",
+      "best_similarity": 0.2398,
+      "is_match": false
+    },
+    {
+      "rank": 86,
+      "assumption": "Supervised learning with labeled sentiment data is essential for sentiment classification systems",
+      "best_similarity": 0.2342,
+      "is_match": false
+    },
+    {
+      "rank": 107,
+      "assumption": "Standard benchmark datasets are essential for meaningful performance evaluation",
+      "best_similarity": 0.2315,
+      "is_match": false
+    },
+    {
+      "rank": 59,
+      "assumption": "Comparative evaluation across multiple language pairs is required for validating translation approaches",
+      "best_similarity": 0.2246,
+      "is_match": false
+    },
+    {
+      "rank": 139,
+      "assumption": "Automatic evaluation metrics are sufficient for measuring summarization quality",
+      "best_similarity": 0.2238,
+      "is_match": false
+    },
+    {
+      "rank": 94,
+      "assumption": "Comparative performance evaluation across multiple tasks is required to validate architectural improvements",
+      "best_similarity": 0.2223,
+      "is_match": false
+    },
+    {
+      "rank": 128,
+      "assumption": "Outperforming previous benchmarks is essential for validating new neural architectures",
+      "best_similarity": 0.2217,
+      "is_match": false
+    },
+    {
+      "rank": 38,
+      "assumption": "Error rate and F1 score metrics are essential for evaluating intent detection and slot filling performance respectively",
+      "best_similarity": 0.22,
+      "is_match": false
+    },
+    {
+      "rank": 87,
+      "assumption": "Comparative evaluation against existing methods is necessary to validate new sentiment classification approaches",
+      "best_similarity": 0.2198,
+      "is_match": false
+    },
+    {
+      "rank": 92,
+      "assumption": "Architecture search through empirical evaluation is necessary to determine optimal network designs",
+      "best_similarity": 0.2195,
+      "is_match": false
+    },
+    {
+      "rank": 83,
+      "assumption": "Classification accuracy on labeled datasets is the essential metric for evaluating sentiment analysis systems",
+      "best_similarity": 0.2001,
+      "is_match": false
+    },
+    {
+      "rank": 12,
+      "assumption": "Word Error Rate is the essential metric for evaluating speech recognition performance",
+      "best_similarity": 0.1999,
+      "is_match": false
+    },
+    {
+      "rank": 54,
+      "assumption": "Human evaluation is necessary for validating translation quality beyond automatic metrics",
+      "best_similarity": 0.1786,
+      "is_match": false
+    }
+  ]
+}

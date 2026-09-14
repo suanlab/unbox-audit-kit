@@ -1,0 +1,12 @@
+{
+  "condition": "no_corpus",
+  "key": "diffusion",
+  "seed": 2,
+  "num_unique": 65,
+  "conf_rank": 6,
+  "best_sim": 0.812,
+  "r_at_5": 0,
+  "r_at_10": 1,
+  "r_at_20": 1,
+  "elapsed_s": 49.3
+}

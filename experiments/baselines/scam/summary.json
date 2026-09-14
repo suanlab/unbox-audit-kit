@@ -1,0 +1,214 @@
+{
+  "ran_at": "2026-03-18T21:00:02.446352+00:00",
+  "baseline": "scam",
+  "n_samples": 3,
+  "max_papers": 15,
+  "overall_soft_recall_at_10": 0.75,
+  "avg_soft_rank": 6.25,
+  "results": [
+    {
+      "baseline": "scam",
+      "category": "transformer",
+      "ran_at": "2026-03-18T20:20:31.820842+00:00",
+      "config": {
+        "n_samples": 5,
+        "max_papers": 60,
+        "max_assumptions_per_sample": 5,
+        "threshold": 0.65,
+        "prompt": "field_wide"
+      },
+      "inputs": {
+        "num_papers": 60,
+        "ground_truth_aliases": [
+          "recurrence is necessary for sequence modeling",
+          "recurrent structure is required for sequence modeling",
+          "sequence models require recurrence"
+        ]
+      },
+      "outputs": {
+        "num_unique_assumptions": 50,
+        "top_20": [
+          "encoder decoder architectures are necessary for sequence to sequence translation tasks",
+          "encoder decoder architectures are essential for sequence to sequence tasks",
+          "attention mechanisms are essential for handling variable length input output alignments in sequence to sequence tasks",
+          "sequential processing with recurrence is necessary for understanding variable length text sequences",
+          "recurrent architectures are necessary for processing variable length sequential text",
+          "recurrent architectures are necessary for modeling sequential temporal data",
+          "recurrent architectures are necessary for modeling temporal dependencies in sequential data",
+          "lstm architectures are necessary for capturing long term dependencies in sequential data",
+          "sequential processing requires recurrent neural networks",
+          "word level tokenization is the standard for neural machine translation",
+          "attention mechanisms require explicit alignment between encoder and decoder states",
+          "translation quality requires comparison against phrase based statistical systems",
+          "hidden markov models are essential for modeling sequential dependencies in speech recognition",
+          "separate acoustic pronunciation and language models are necessary for effective speech recognition",
+          "sequential output generation requires recurrent neural networks for temporal modeling",
+          "character level modeling is necessary for handling out of vocabulary words in speech recognition",
+          "left to right incremental processing is essential for natural language understanding",
+          "memory mechanisms are required for handling long range dependencies in text",
+          "recurrent architectures are necessary for sequential text processing",
+          "attention mechanisms are necessary for relating non adjacent tokens in sequences"
+        ]
+      },
+      "metrics": {
+        "soft_rank": 6.0,
+        "soft_recall_at_5": 0.0,
+        "soft_recall_at_10": 1.0,
+        "soft_recall_at_20": 1.0
+      }
+    },
+    {
+      "baseline": "scam",
+      "category": "diffusion",
+      "ran_at": "2026-03-18T20:48:03.330431+00:00",
+      "config": {
+        "n_samples": 3,
+        "max_papers": 15,
+        "max_assumptions_per_sample": 5,
+        "threshold": 0.65,
+        "prompt": "field_wide"
+      },
+      "inputs": {
+        "num_papers": 15,
+        "ground_truth_aliases": [
+          "adversarial training is necessary for high-quality generation",
+          "high-quality generation requires adversarial training",
+          "gan-style adversarial objectives are required for strong image generation"
+        ]
+      },
+      "outputs": {
+        "num_unique_assumptions": 50,
+        "top_20": [
+          "adversarial training is essential for high quality image generation",
+          "adversarial training is essential for high quality synthetic medical data generation",
+          "sequential architectures are necessary for modeling temporal physiological signals",
+          "large volumes of labeled clinical data are required for effective automated medical diagnosis",
+          "synthetic data generation requires preserving morphological similarity to real data distributions",
+          "bidirectional processing is necessary for capturing complete temporal dependencies in physiological signals",
+          "adversarial training between generator and discriminator is necessary for high quality data generation",
+          "mode collapse is an inherent problem that requires architectural or training modifications to solve",
+          "deep neural networks are required for modeling complex data distributions like natural images",
+          "generator networks mapping from latent noise to data space are essential for generative modeling",
+          "standard normal distributions are the appropriate choice for latent space representations",
+          "adversarial training is necessary for realistic image generation",
+          "convolutional architectures are essential for medical image analysis",
+          "large labeled datasets are required for effective deep learning in medical imaging",
+          "synthetic data augmentation is necessary to address data scarcity in medical domains",
+          "imagenet pre training is beneficial for medical imaging tasks despite domain mismatch",
+          "adversarial training is necessary for high quality generative modeling",
+          "privacy preservation requires removing identity information from learned representations",
+          "variational frameworks are essential for learning structured latent representations",
+          "deep neural networks are necessary for effective facial expression recognition"
+        ]
+      },
+      "metrics": {
+        "soft_rank": 1.0,
+        "soft_recall_at_5": 1.0,
+        "soft_recall_at_10": 1.0,
+        "soft_recall_at_20": 1.0
+      }
+    },
+    {
+      "baseline": "scam",
+      "category": "icl",
+      "ran_at": "2026-03-18T20:54:06.621728+00:00",
+      "config": {
+        "n_samples": 3,
+        "max_papers": 15,
+        "max_assumptions_per_sample": 5,
+        "threshold": 0.65,
+        "prompt": "field_wide"
+      },
+      "inputs": {
+        "num_papers": 15,
+        "ground_truth_aliases": [
+          "fine-tuning is necessary for task adaptation",
+          "task adaptation requires fine-tuning",
+          "downstream adaptation must update model weights"
+        ]
+      },
+      "outputs": {
+        "num_unique_assumptions": 50,
+        "top_20": [
+          "language modeling is the optimal pretraining objective for learning universal text representations",
+          "large scale unsupervised pretraining is necessary for achieving strong natural language understanding performance",
+          "transfer learning requires a two stage paradigm of pretraining followed by task specific adaptation",
+          "contextual word representations are essential for natural language understanding tasks",
+          "pretraining on more data and tasks will consistently improve downstream task performance",
+          "large scale unsupervised pretraining on text is necessary for acquiring commonsense knowledge",
+          "commonsense reasoning requires learning implicit world knowledge rather than explicit symbolic reasoning",
+          "contextual embeddings are the appropriate representation format for encoding commonsense knowledge",
+          "probing tasks on learned representations are valid methods for measuring what models know",
+          "transformer architectures are necessary for learning effective deep contextual representations",
+          "distributional knowledge from language modeling is insufficient for optimal language understanding",
+          "multi task learning is necessary to effectively incorporate heterogeneous knowledge sources during pretraining",
+          "external linguistic knowledge must be injected through auxiliary supervised objectives rather than architectural modifications",
+          "unsupervised pretraining followed by task specific fine tuning is the optimal paradigm for language understanding",
+          "masked language modeling and next sentence prediction are essential components of effective language pretraining",
+          "fine tuning pretrained models is necessary for domain adaptation rather than training from scratch",
+          "contextualized embeddings are necessary for achieving strong performance across nlp tasks",
+          "large scale pretraining on unlabeled text is essential for learning generalizable language representations",
+          "domain shift necessarily degrades model performance when target domains differ from pretraining corpora",
+          "masked language modeling is the appropriate objective for learning contextual word representations"
+        ]
+      },
+      "metrics": {
+        "soft_rank": 16.0,
+        "soft_recall_at_5": 0.0,
+        "soft_recall_at_10": 0.0,
+        "soft_recall_at_20": 1.0
+      }
+    },
+    {
+      "baseline": "scam",
+      "category": "vit",
+      "ran_at": "2026-03-18T21:00:02.445802+00:00",
+      "config": {
+        "n_samples": 3,
+        "max_papers": 15,
+        "max_assumptions_per_sample": 5,
+        "threshold": 0.65,
+        "prompt": "field_wide"
+      },
+      "inputs": {
+        "num_papers": 15,
+        "ground_truth_aliases": [
+          "convolutional layers are necessary for vision",
+          "vision models require convolutional layers",
+          "image understanding needs convolutional inductive biases"
+        ]
+      },
+      "outputs": {
+        "num_unique_assumptions": 50,
+        "top_20": [
+          "residual connections are necessary for training deep networks effectively",
+          "convolutional architectures are essential for effective image recognition and scene understanding",
+          "deeper networks are necessary for better representational capacity and performance",
+          "model compression requires maintaining the original architecture s core design principles",
+          "residual connections are essential for training very deep networks effectively",
+          "large scale labeled datasets are necessary for training robust image classification models",
+          "multi scale feature representations are necessary for accurate object detection and segmentation",
+          "skip connections are necessary to preserve fine grained spatial information in deep networks",
+          "convolutional neural networks are necessary for effective visual feature learning in computer vision tasks",
+          "multi scale feature representations are essential for dense pixel level prediction tasks",
+          "deep supervision is required to effectively train very deep networks for dense prediction",
+          "convolutional neural networks are essential for effective visual feature extraction in computer vision tasks",
+          "multi scale feature representation is necessary for accurate object detection and segmentation",
+          "deep supervision is required to effectively train very deep neural networks",
+          "skip connections are necessary to preserve fine grained spatial information in dense prediction tasks",
+          "fully convolutional architectures are essential for dense pixel wise prediction tasks",
+          "convolutional operations are essential for effective visual feature learning",
+          "spatial locality and translation equivariance are fundamental requirements for visual processing",
+          "fixed geometric sampling patterns are necessary for stable neural network training",
+          "hierarchical feature extraction through deep networks is required for complex visual tasks"
+        ]
+      },
+      "metrics": {
+        "soft_rank": 2.0,
+        "soft_recall_at_5": 1.0,
+        "soft_recall_at_10": 1.0,
+        "soft_recall_at_20": 1.0
+      }
+    }
+  ]
+}

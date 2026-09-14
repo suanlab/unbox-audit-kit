@@ -1,0 +1,601 @@
+{
+  "experiment": "leave_one_out_data_leakage_test",
+  "ran_at": "2026-03-23T12:45:53.147946+00:00",
+  "config": {
+    "max_papers_per_category": 15,
+    "model": "claude-sonnet-4-20250514",
+    "soft_threshold": 0.65,
+    "categories": [
+      "transformer",
+      "diffusion",
+      "icl",
+      "vit"
+    ]
+  },
+  "conditions": {
+    "original": {
+      "transformer": {
+        "best_similarity": 0.7987,
+        "soft_rank": 17.0,
+        "soft_recall_at_10": 0.0,
+        "num_assumptions": 148,
+        "top_5_assumptions": [
+          {
+            "assumption": "Recurrent connections are necessary for effective sequence modeling",
+            "similarity": 0.7987
+          },
+          {
+            "assumption": "Variable-length sequence modeling necessitates recurrent architectures",
+            "similarity": 0.7414
+          },
+          {
+            "assumption": "Recurrent networks are required for modeling sequential temporal patterns in speech",
+            "similarity": 0.6667
+          },
+          {
+            "assumption": "Recurrent architectures are necessary for effective language modeling in sequential tasks",
+            "similarity": 0.6546
+          },
+          {
+            "assumption": "Memory cells are required for long-term dependency modeling in sequences",
+            "similarity": 0.6064
+          }
+        ],
+        "best_match": {
+          "assumption": "Recurrent connections are necessary for effective sequence modeling",
+          "similarity": 0.7987
+        },
+        "num_papers": 15,
+        "extraction_errors": 0,
+        "elapsed_seconds": 121.4
+      },
+      "diffusion": {
+        "best_similarity": 0.8171,
+        "soft_rank": 1.0,
+        "soft_recall_at_10": 1.0,
+        "num_assumptions": 149,
+        "top_5_assumptions": [
+          {
+            "assumption": "Adversarial training is necessary for high-quality generative modeling",
+            "similarity": 0.8171
+          },
+          {
+            "assumption": "Adversarial training is necessary for high-quality image generation",
+            "similarity": 0.8157
+          },
+          {
+            "assumption": "Adversarial training is essential for high-quality generative modeling",
+            "similarity": 0.8072
+          },
+          {
+            "assumption": "Adversarial training is essential for high-quality image generation",
+            "similarity": 0.8035
+          },
+          {
+            "assumption": "Adversarial training is necessary for high-quality face image generation",
+            "similarity": 0.7594
+          }
+        ],
+        "best_match": {
+          "assumption": "Adversarial training is necessary for high-quality generative modeling",
+          "similarity": 0.8171
+        },
+        "num_papers": 15,
+        "extraction_errors": 0,
+        "elapsed_seconds": 122.1
+      },
+      "icl": {
+        "best_similarity": 0.7982,
+        "soft_rank": 35.0,
+        "soft_recall_at_10": 0.0,
+        "num_assumptions": 150,
+        "top_5_assumptions": [
+          {
+            "assumption": "Fine-tuning pre-trained models is necessary for task-specific adaptation",
+            "similarity": 0.7982
+          },
+          {
+            "assumption": "Task adaptation requires fine-tuning model weights on labeled task-specific data",
+            "similarity": 0.7855
+          },
+          {
+            "assumption": "Task-specific fine-tuning of pretrained model weights is necessary for downstream task adaptation",
+            "similarity": 0.7224
+          },
+          {
+            "assumption": "Fine-tuning pretrained models is necessary for domain adaptation rather than training from scratch",
+            "similarity": 0.6884
+          },
+          {
+            "assumption": "Fine-tuning pre-trained models is required for domain adaptation in NLP tasks",
+            "similarity": 0.67
+          }
+        ],
+        "best_match": {
+          "assumption": "Fine-tuning pre-trained models is necessary for task-specific adaptation",
+          "similarity": 0.7982
+        },
+        "num_papers": 15,
+        "extraction_errors": 0,
+        "elapsed_seconds": 118.4
+      },
+      "vit": {
+        "best_similarity": 0.7279,
+        "soft_rank": 1.0,
+        "soft_recall_at_10": 1.0,
+        "num_assumptions": 146,
+        "top_5_assumptions": [
+          {
+            "assumption": "Convolutional architectures are necessary for effective visual feature learning",
+            "similarity": 0.7279
+          },
+          {
+            "assumption": "Convolutional neural networks are necessary for effective visual feature learning from images",
+            "similarity": 0.7207
+          },
+          {
+            "assumption": "Convolutional architectures are necessary for effective visual feature extraction in computer vision tasks",
+            "similarity": 0.7121
+          },
+          {
+            "assumption": "Convolutional operations are essential for visual feature learning",
+            "similarity": 0.7055
+          },
+          {
+            "assumption": "Convolutional architectures are essential for effective visual feature extraction",
+            "similarity": 0.6995
+          }
+        ],
+        "best_match": {
+          "assumption": "Convolutional architectures are necessary for effective visual feature learning",
+          "similarity": 0.7279
+        },
+        "num_papers": 15,
+        "extraction_errors": 0,
+        "elapsed_seconds": 111.5
+      }
+    },
+    "leave_one_out": {
+      "transformer": {
+        "best_similarity": 0.7987,
+        "soft_rank": 61.0,
+        "soft_recall_at_10": 0.0,
+        "num_assumptions": 150,
+        "top_5_assumptions": [
+          {
+            "assumption": "Recurrent connections are necessary for effective sequence modeling",
+            "similarity": 0.7987
+          },
+          {
+            "assumption": "Recurrence is necessary for processing sequential data",
+            "similarity": 0.6861
+          },
+          {
+            "assumption": "Recurrent architectures are necessary for effective language modeling in sequential tasks",
+            "similarity": 0.6546
+          },
+          {
+            "assumption": "Recurrent neural networks are necessary for modeling sequential dependencies in speech and language",
+            "similarity": 0.6372
+          },
+          {
+            "assumption": "Recurrent neural networks are necessary for sequential language modeling and translation",
+            "similarity": 0.6104
+          }
+        ],
+        "best_match": {
+          "assumption": "Recurrent connections are necessary for effective sequence modeling",
+          "similarity": 0.7987
+        },
+        "num_papers": 15,
+        "extraction_errors": 0,
+        "elapsed_seconds": 116.1
+      },
+      "diffusion": {
+        "best_similarity": 0.8156,
+        "soft_rank": 1.0,
+        "soft_recall_at_10": 1.0,
+        "num_assumptions": 148,
+        "top_5_assumptions": [
+          {
+            "assumption": "Adversarial training is necessary for high-quality image generation",
+            "similarity": 0.8156
+          },
+          {
+            "assumption": "Adversarial training is necessary for high-quality image and video generation",
+            "similarity": 0.8065
+          },
+          {
+            "assumption": "Adversarial training is necessary for high-quality synthetic data generation",
+            "similarity": 0.7956
+          },
+          {
+            "assumption": "Adversarial training between generator and discriminator is necessary for high-quality image generation",
+            "similarity": 0.7622
+          },
+          {
+            "assumption": "Adversarial training is necessary for high-quality facial image generation",
+            "similarity": 0.7429
+          }
+        ],
+        "best_match": {
+          "assumption": "Adversarial training is necessary for high-quality image generation",
+          "similarity": 0.8156
+        },
+        "num_papers": 15,
+        "extraction_errors": 0,
+        "elapsed_seconds": 116.5
+      },
+      "icl": {
+        "best_similarity": 0.7573,
+        "soft_rank": 16.0,
+        "soft_recall_at_10": 0.0,
+        "num_assumptions": 150,
+        "top_5_assumptions": [
+          {
+            "assumption": "Fine-tuning is the essential paradigm for adapting pre-trained models to downstream tasks",
+            "similarity": 0.7573
+          },
+          {
+            "assumption": "Fine-tuning pretrained models is necessary for adapting to specific downstream tasks",
+            "similarity": 0.7293
+          },
+          {
+            "assumption": "Task-specific fine-tuning is necessary for optimal performance on downstream reasoning tasks",
+            "similarity": 0.6838
+          },
+          {
+            "assumption": "Fine-tuning hyperparameters like learning rate and sequence length require task-specific optimization for optimal performance",
+            "similarity": 0.6426
+          },
+          {
+            "assumption": "Fine-tuning pretrained models is required rather than training from scratch for downstream tasks",
+            "similarity": 0.6268
+          }
+        ],
+        "best_match": {
+          "assumption": "Fine-tuning is the essential paradigm for adapting pre-trained models to downstream tasks",
+          "similarity": 0.7573
+        },
+        "num_papers": 15,
+        "extraction_errors": 0,
+        "elapsed_seconds": 126.4
+      },
+      "vit": {
+        "best_similarity": 0.7524,
+        "soft_rank": 2.0,
+        "soft_recall_at_10": 1.0,
+        "num_assumptions": 150,
+        "top_5_assumptions": [
+          {
+            "assumption": "Convolutional neural networks are necessary for effective computer vision tasks on natural images",
+            "similarity": 0.7524
+          },
+          {
+            "assumption": "Convolutional neural networks are necessary for achieving state-of-the-art performance in low-level vision tasks",
+            "similarity": 0.7339
+          },
+          {
+            "assumption": "Convolutional neural networks are necessary for effective visual pattern recognition in images",
+            "similarity": 0.7193
+          },
+          {
+            "assumption": "Convolutional architectures are essential for effective image recognition",
+            "similarity": 0.6919
+          },
+          {
+            "assumption": "Convolutional operations are required for effective visual feature extraction",
+            "similarity": 0.6856
+          }
+        ],
+        "best_match": {
+          "assumption": "Convolutional neural networks are necessary for effective computer vision tasks on natural images",
+          "similarity": 0.7524
+        },
+        "num_papers": 15,
+        "extraction_errors": 0,
+        "elapsed_seconds": 117.8
+      }
+    },
+    "no_examples": {
+      "transformer": {
+        "best_similarity": 0.9206,
+        "soft_rank": 61.0,
+        "soft_recall_at_10": 0.0,
+        "num_assumptions": 150,
+        "top_5_assumptions": [
+          {
+            "assumption": "Recurrence is necessary for effective sequence modeling",
+            "similarity": 0.9206
+          },
+          {
+            "assumption": "Recurrent architectures are necessary for modeling sequential language data effectively",
+            "similarity": 0.6671
+          },
+          {
+            "assumption": "Recurrent architectures are required for processing variable-length sequences effectively",
+            "similarity": 0.6613
+          },
+          {
+            "assumption": "Recurrent neural networks are essential for modeling temporal dependencies in sequential speech data",
+            "similarity": 0.6312
+          },
+          {
+            "assumption": "Recurrence is necessary for processing variable-length sequences in natural language",
+            "similarity": 0.6265
+          }
+        ],
+        "best_match": {
+          "assumption": "Recurrence is necessary for effective sequence modeling",
+          "similarity": 0.9206
+        },
+        "num_papers": 15,
+        "extraction_errors": 0,
+        "elapsed_seconds": 110.7
+      },
+      "diffusion": {
+        "best_similarity": 0.8171,
+        "soft_rank": 1.0,
+        "soft_recall_at_10": 1.0,
+        "num_assumptions": 149,
+        "top_5_assumptions": [
+          {
+            "assumption": "Adversarial training is necessary for high-quality generative modeling",
+            "similarity": 0.8171
+          },
+          {
+            "assumption": "Adversarial training is necessary for high-quality image generation",
+            "similarity": 0.8156
+          },
+          {
+            "assumption": "Adversarial training is necessary for high-quality synthetic data generation",
+            "similarity": 0.7956
+          },
+          {
+            "assumption": "Adversarial training is necessary for generating high-quality realistic data",
+            "similarity": 0.7757
+          },
+          {
+            "assumption": "Adversarial training is necessary for generating high-quality synthetic data",
+            "similarity": 0.7688
+          }
+        ],
+        "best_match": {
+          "assumption": "Adversarial training is necessary for high-quality generative modeling",
+          "similarity": 0.8171
+        },
+        "num_papers": 15,
+        "extraction_errors": 0,
+        "elapsed_seconds": 111.2
+      },
+      "icl": {
+        "best_similarity": 0.8047,
+        "soft_rank": 17.0,
+        "soft_recall_at_10": 0.0,
+        "num_assumptions": 150,
+        "top_5_assumptions": [
+          {
+            "assumption": "Fine-tuning is essential for adapting pretrained models to specific tasks or domains",
+            "similarity": 0.8047
+          },
+          {
+            "assumption": "Fine-tuning is required to adapt pre-trained models to downstream tasks",
+            "similarity": 0.7505
+          },
+          {
+            "assumption": "Fine-tuning on task-specific data is necessary for adapting pretrained models to downstream applications",
+            "similarity": 0.7343
+          },
+          {
+            "assumption": "Fine-tuning is the essential paradigm for adapting pre-trained language models to downstream tasks",
+            "similarity": 0.7313
+          },
+          {
+            "assumption": "Fine-tuning pretrained models is necessary for optimal performance on specific tasks",
+            "similarity": 0.6931
+          }
+        ],
+        "best_match": {
+          "assumption": "Fine-tuning is essential for adapting pretrained models to specific tasks or domains",
+          "similarity": 0.8047
+        },
+        "num_papers": 15,
+        "extraction_errors": 0,
+        "elapsed_seconds": 121.8
+      },
+      "vit": {
+        "best_similarity": 0.7515,
+        "soft_rank": 2.0,
+        "soft_recall_at_10": 1.0,
+        "num_assumptions": 145,
+        "top_5_assumptions": [
+          {
+            "assumption": "Convolutional layers are essential for extracting meaningful spatial features from images",
+            "similarity": 0.7515
+          },
+          {
+            "assumption": "Convolutional operations are essential building blocks for visual processing tasks",
+            "similarity": 0.7426
+          },
+          {
+            "assumption": "Convolutional architectures are necessary for capturing spatial relationships in images",
+            "similarity": 0.7051
+          },
+          {
+            "assumption": "Convolutional neural networks are necessary for effective image classification",
+            "similarity": 0.6976
+          },
+          {
+            "assumption": "Convolutional neural networks are necessary for effective visual feature extraction in computer vision tasks",
+            "similarity": 0.6975
+          }
+        ],
+        "best_match": {
+          "assumption": "Convolutional layers are essential for extracting meaningful spatial features from images",
+          "similarity": 0.7515
+        },
+        "num_papers": 15,
+        "extraction_errors": 0,
+        "elapsed_seconds": 112.5
+      }
+    },
+    "cross_domain_examples": {
+      "transformer": {
+        "best_similarity": 0.7986,
+        "soft_rank": 5.0,
+        "soft_recall_at_10": 1.0,
+        "num_assumptions": 149,
+        "top_5_assumptions": [
+          {
+            "assumption": "Recurrent connections are necessary for effective sequence modeling",
+            "similarity": 0.7986
+          },
+          {
+            "assumption": "Recurrent architectures are essential for capturing sequential structure in natural language",
+            "similarity": 0.687
+          },
+          {
+            "assumption": "Recurrent architectures are required for handling variable-length sequences effectively",
+            "similarity": 0.6722
+          },
+          {
+            "assumption": "Recurrent architectures are required for modeling sequential dependencies in natural language",
+            "similarity": 0.6631
+          },
+          {
+            "assumption": "Recurrent connections are essential for modeling sequential information in neural networks",
+            "similarity": 0.6617
+          }
+        ],
+        "best_match": {
+          "assumption": "Recurrent connections are necessary for effective sequence modeling",
+          "similarity": 0.7986
+        },
+        "num_papers": 15,
+        "extraction_errors": 0,
+        "elapsed_seconds": 110.0
+      },
+      "diffusion": {
+        "best_similarity": 0.8157,
+        "soft_rank": 1.0,
+        "soft_recall_at_10": 1.0,
+        "num_assumptions": 150,
+        "top_5_assumptions": [
+          {
+            "assumption": "Adversarial training is necessary for high-quality image generation",
+            "similarity": 0.8157
+          },
+          {
+            "assumption": "Adversarial training between generator and discriminator is necessary for high-quality synthetic data generation",
+            "similarity": 0.7629
+          },
+          {
+            "assumption": "Adversarial training between generator and discriminator networks is necessary for high-quality image generation",
+            "similarity": 0.745
+          },
+          {
+            "assumption": "Adversarial training between generator and discriminator is necessary for high-quality image synthesis",
+            "similarity": 0.739
+          },
+          {
+            "assumption": "Adversarial training is necessary for generating high-quality synthetic images",
+            "similarity": 0.7338
+          }
+        ],
+        "best_match": {
+          "assumption": "Adversarial training is necessary for high-quality image generation",
+          "similarity": 0.8157
+        },
+        "num_papers": 15,
+        "extraction_errors": 0,
+        "elapsed_seconds": 119.1
+      },
+      "icl": {
+        "best_similarity": 0.8011,
+        "soft_rank": 37.0,
+        "soft_recall_at_10": 0.0,
+        "num_assumptions": 150,
+        "top_5_assumptions": [
+          {
+            "assumption": "Fine-tuning is the required paradigm for adapting pre-trained models to specific tasks",
+            "similarity": 0.8011
+          },
+          {
+            "assumption": "Fine-tuning pre-trained models is necessary for domain adaptation rather than training from scratch",
+            "similarity": 0.6705
+          },
+          {
+            "assumption": "Transfer learning through fine-tuning is necessary for adapting pretrained models to new tasks",
+            "similarity": 0.6704
+          },
+          {
+            "assumption": "Fine-tuning pretrained models is necessary for achieving optimal performance on downstream tasks",
+            "similarity": 0.6619
+          },
+          {
+            "assumption": "Fine-tuning pretrained models is required for domain adaptation in NLP",
+            "similarity": 0.654
+          }
+        ],
+        "best_match": {
+          "assumption": "Fine-tuning is the required paradigm for adapting pre-trained models to specific tasks",
+          "similarity": 0.8011
+        },
+        "num_papers": 15,
+        "extraction_errors": 0,
+        "elapsed_seconds": 118.8
+      },
+      "vit": {
+        "best_similarity": 0.7133,
+        "soft_rank": 1.0,
+        "soft_recall_at_10": 1.0,
+        "num_assumptions": 150,
+        "top_5_assumptions": [
+          {
+            "assumption": "Convolutional operations are necessary for effective visual pattern recognition in images",
+            "similarity": 0.7133
+          },
+          {
+            "assumption": "Convolutional operations are necessary for extracting spatial features in computer vision",
+            "similarity": 0.7058
+          },
+          {
+            "assumption": "Convolutional operations are necessary for effective visual feature extraction",
+            "similarity": 0.7002
+          },
+          {
+            "assumption": "Convolutional neural networks are necessary for effective image classification",
+            "similarity": 0.6977
+          },
+          {
+            "assumption": "Convolutional architectures are essential for effective image recognition",
+            "similarity": 0.692
+          }
+        ],
+        "best_match": {
+          "assumption": "Convolutional operations are necessary for effective visual pattern recognition in images",
+          "similarity": 0.7133
+        },
+        "num_papers": 15,
+        "extraction_errors": 0,
+        "elapsed_seconds": 112.6
+      }
+    }
+  },
+  "comparison": {
+    "original_avg_best_similarity": 0.7855,
+    "original_avg_soft_rank": 13.5,
+    "original_avg_recall_at_10": 0.5,
+    "leave_one_out_avg_best_similarity": 0.781,
+    "leave_one_out_avg_soft_rank": 20.0,
+    "leave_one_out_avg_recall_at_10": 0.5,
+    "no_examples_avg_best_similarity": 0.8235,
+    "no_examples_avg_soft_rank": 20.25,
+    "no_examples_avg_recall_at_10": 0.5,
+    "cross_domain_examples_avg_best_similarity": 0.7822,
+    "cross_domain_examples_avg_soft_rank": 11.0,
+    "cross_domain_examples_avg_recall_at_10": 0.75,
+    "conclusion": "MIXED RESULTS: Original recall=0.5, LOO=0.5, no-examples=0.5, cross-domain=0.75. Similarity: original=0.7855, LOO=0.781, no-examples=0.8235, cross-domain=0.7822. Requires manual inspection of extracted assumptions."
+  },
+  "total_elapsed_seconds": 1866.8
+}

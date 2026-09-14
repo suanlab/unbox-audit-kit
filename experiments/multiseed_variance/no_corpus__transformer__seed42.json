@@ -1,0 +1,12 @@
+{
+  "condition": "no_corpus",
+  "key": "transformer",
+  "seed": 42,
+  "num_unique": 60,
+  "conf_rank": 1,
+  "best_sim": 0.7732,
+  "r_at_5": 1,
+  "r_at_10": 1,
+  "r_at_20": 1,
+  "elapsed_s": 61.8
+}

@@ -1,0 +1,902 @@
+[
+  {
+    "assumption": "Low power consumption is essential for neuromorphic memory architecture",
+    "confidence": 0.95,
+    "category": "architectural",
+    "call_idx": 1
+  },
+  {
+    "assumption": "Mimicking biological neural processes is necessary for effective neuromorphic memory design",
+    "confidence": 0.93,
+    "category": "theoretical",
+    "call_idx": 1
+  },
+  {
+    "assumption": "Scalability is required for neuromorphic memory systems to be practical",
+    "confidence": 0.92,
+    "category": "architectural",
+    "call_idx": 1
+  },
+  {
+    "assumption": "Real-time processing is essential for neuromorphic memory applications",
+    "confidence": 0.9,
+    "category": "architectural",
+    "call_idx": 1
+  },
+  {
+    "assumption": "Non-volatility is necessary for neuromorphic memory to retain information without power",
+    "confidence": 0.89,
+    "category": "architectural",
+    "call_idx": 1
+  },
+  {
+    "assumption": "Efficient learning algorithms are required for training neuromorphic systems",
+    "confidence": 0.88,
+    "category": "training",
+    "call_idx": 1
+  },
+  {
+    "assumption": "High-density memory storage is essential for neuromorphic systems to handle complex tasks",
+    "confidence": 0.87,
+    "category": "architectural",
+    "call_idx": 1
+  },
+  {
+    "assumption": "Robustness to noise is necessary for reliable neuromorphic memory operation",
+    "confidence": 0.86,
+    "category": "theoretical",
+    "call_idx": 1
+  },
+  {
+    "assumption": "Crossbar arrays are required for implementing synaptic connections in neuromorphic memory",
+    "confidence": 0.85,
+    "category": "architectural",
+    "call_idx": 1
+  },
+  {
+    "assumption": "Benchmarking against biological systems is essential for evaluating neuromorphic memory performance",
+    "confidence": 0.84,
+    "category": "evaluation",
+    "call_idx": 1
+  },
+  {
+    "assumption": "Low power consumption is essential for neuromorphic memory architecture",
+    "confidence": 0.95,
+    "category": "architectural",
+    "call_idx": 2
+  },
+  {
+    "assumption": "Mimicking biological neural processes is necessary for effective neuromorphic memory design",
+    "confidence": 0.93,
+    "category": "theoretical",
+    "call_idx": 2
+  },
+  {
+    "assumption": "Scalability is required for neuromorphic memory systems to be practical",
+    "confidence": 0.92,
+    "category": "architectural",
+    "call_idx": 2
+  },
+  {
+    "assumption": "Real-time processing is essential for neuromorphic memory applications",
+    "confidence": 0.9,
+    "category": "architectural",
+    "call_idx": 2
+  },
+  {
+    "assumption": "Efficient data encoding is necessary for neuromorphic memory functionality",
+    "confidence": 0.89,
+    "category": "data",
+    "call_idx": 2
+  },
+  {
+    "assumption": "Robustness to noise is required for reliable neuromorphic memory systems",
+    "confidence": 0.88,
+    "category": "architectural",
+    "call_idx": 2
+  },
+  {
+    "assumption": "Adaptability to changing inputs is essential for neuromorphic memory systems",
+    "confidence": 0.87,
+    "category": "theoretical",
+    "call_idx": 2
+  },
+  {
+    "assumption": "Energy-efficient training algorithms are necessary for neuromorphic memory development",
+    "confidence": 0.86,
+    "category": "training",
+    "call_idx": 2
+  },
+  {
+    "assumption": "Cross-disciplinary collaboration is required for advancing neuromorphic memory research",
+    "confidence": 0.85,
+    "category": "theoretical",
+    "call_idx": 2
+  },
+  {
+    "assumption": "Benchmarking against traditional memory systems is essential for evaluating neuromorphic memory performance",
+    "confidence": 0.84,
+    "category": "evaluation",
+    "call_idx": 2
+  },
+  {
+    "assumption": "Low power consumption is essential for neuromorphic memory architecture.",
+    "confidence": 0.95,
+    "category": "architectural",
+    "call_idx": 3
+  },
+  {
+    "assumption": "Mimicking biological neural processes is necessary for effective neuromorphic memory design.",
+    "confidence": 0.93,
+    "category": "theoretical",
+    "call_idx": 3
+  },
+  {
+    "assumption": "Scalability is required for neuromorphic memory systems to be practical.",
+    "confidence": 0.92,
+    "category": "architectural",
+    "call_idx": 3
+  },
+  {
+    "assumption": "Real-time processing is essential for neuromorphic memory applications.",
+    "confidence": 0.9,
+    "category": "architectural",
+    "call_idx": 3
+  },
+  {
+    "assumption": "Non-volatility is necessary for efficient neuromorphic memory storage.",
+    "confidence": 0.89,
+    "category": "architectural",
+    "call_idx": 3
+  },
+  {
+    "assumption": "Spiking neural networks are required for simulating brain-like memory functions.",
+    "confidence": 0.88,
+    "category": "theoretical",
+    "call_idx": 3
+  },
+  {
+    "assumption": "Efficient data encoding is essential for neuromorphic memory systems.",
+    "confidence": 0.87,
+    "category": "data",
+    "call_idx": 3
+  },
+  {
+    "assumption": "Adaptability to different tasks is necessary for versatile neuromorphic memory architectures.",
+    "confidence": 0.86,
+    "category": "training",
+    "call_idx": 3
+  },
+  {
+    "assumption": "Robustness to noise is required for reliable neuromorphic memory operation.",
+    "confidence": 0.85,
+    "category": "evaluation",
+    "call_idx": 3
+  },
+  {
+    "assumption": "Integration with existing computing systems is essential for the adoption of neuromorphic memory technologies.",
+    "confidence": 0.84,
+    "category": "architectural",
+    "call_idx": 3
+  },
+  {
+    "assumption": "Low power consumption is essential for neuromorphic memory architecture",
+    "confidence": 0.95,
+    "category": "architectural",
+    "call_idx": 4
+  },
+  {
+    "assumption": "Mimicking biological neural processes is necessary for effective neuromorphic memory design",
+    "confidence": 0.93,
+    "category": "theoretical",
+    "call_idx": 4
+  },
+  {
+    "assumption": "Scalability is required for neuromorphic memory systems to be practical",
+    "confidence": 0.92,
+    "category": "architectural",
+    "call_idx": 4
+  },
+  {
+    "assumption": "Real-time processing is essential for neuromorphic memory applications",
+    "confidence": 0.9,
+    "category": "architectural",
+    "call_idx": 4
+  },
+  {
+    "assumption": "Efficient data encoding is necessary for neuromorphic memory functionality",
+    "confidence": 0.89,
+    "category": "data",
+    "call_idx": 4
+  },
+  {
+    "assumption": "Robustness to noise is required for reliable neuromorphic memory systems",
+    "confidence": 0.88,
+    "category": "theoretical",
+    "call_idx": 4
+  },
+  {
+    "assumption": "Adaptability to changing inputs is essential for neuromorphic memory systems",
+    "confidence": 0.87,
+    "category": "training",
+    "call_idx": 4
+  },
+  {
+    "assumption": "Energy-efficient learning algorithms are necessary for neuromorphic memory systems",
+    "confidence": 0.86,
+    "category": "training",
+    "call_idx": 4
+  },
+  {
+    "assumption": "Integration with existing computing systems is required for neuromorphic memory adoption",
+    "confidence": 0.85,
+    "category": "architectural",
+    "call_idx": 4
+  },
+  {
+    "assumption": "Accurate evaluation metrics are essential for assessing neuromorphic memory performance",
+    "confidence": 0.84,
+    "category": "evaluation",
+    "call_idx": 4
+  },
+  {
+    "assumption": "Low power consumption is essential for neuromorphic memory architecture.",
+    "confidence": 0.95,
+    "category": "architectural",
+    "call_idx": 5
+  },
+  {
+    "assumption": "Mimicking biological neural processes is necessary for effective neuromorphic memory design.",
+    "confidence": 0.93,
+    "category": "theoretical",
+    "call_idx": 5
+  },
+  {
+    "assumption": "Spiking neural networks are required for realistic neuromorphic memory systems.",
+    "confidence": 0.92,
+    "category": "theoretical",
+    "call_idx": 5
+  },
+  {
+    "assumption": "Scalability is essential for the practical implementation of neuromorphic memory architectures.",
+    "confidence": 0.9,
+    "category": "architectural",
+    "call_idx": 5
+  },
+  {
+    "assumption": "Real-time processing is necessary for neuromorphic memory applications.",
+    "confidence": 0.89,
+    "category": "architectural",
+    "call_idx": 5
+  },
+  {
+    "assumption": "Non-volatile memory is required for efficient neuromorphic memory systems.",
+    "confidence": 0.88,
+    "category": "architectural",
+    "call_idx": 5
+  },
+  {
+    "assumption": "Training algorithms must be biologically plausible for neuromorphic memory systems.",
+    "confidence": 0.87,
+    "category": "training",
+    "call_idx": 5
+  },
+  {
+    "assumption": "Data sparsity is essential for efficient neuromorphic memory processing.",
+    "confidence": 0.86,
+    "category": "data",
+    "call_idx": 5
+  },
+  {
+    "assumption": "Energy efficiency is necessary for the viability of neuromorphic memory architectures.",
+    "confidence": 0.85,
+    "category": "architectural",
+    "call_idx": 5
+  },
+  {
+    "assumption": "Robustness to noise is required for reliable neuromorphic memory systems.",
+    "confidence": 0.84,
+    "category": "evaluation",
+    "call_idx": 5
+  },
+  {
+    "assumption": "Low power consumption is essential for neuromorphic memory architecture.",
+    "confidence": 0.95,
+    "category": "architectural",
+    "call_idx": 6
+  },
+  {
+    "assumption": "Mimicking biological neural processes is necessary for effective neuromorphic memory design.",
+    "confidence": 0.93,
+    "category": "theoretical",
+    "call_idx": 6
+  },
+  {
+    "assumption": "Scalability is required for neuromorphic memory systems to be practical.",
+    "confidence": 0.92,
+    "category": "architectural",
+    "call_idx": 6
+  },
+  {
+    "assumption": "Real-time processing is essential for neuromorphic memory applications.",
+    "confidence": 0.9,
+    "category": "architectural",
+    "call_idx": 6
+  },
+  {
+    "assumption": "Non-volatility is necessary for neuromorphic memory to retain information without power.",
+    "confidence": 0.89,
+    "category": "architectural",
+    "call_idx": 6
+  },
+  {
+    "assumption": "Efficient data encoding is required for neuromorphic memory to function effectively.",
+    "confidence": 0.88,
+    "category": "data",
+    "call_idx": 6
+  },
+  {
+    "assumption": "Synaptic plasticity is essential for learning in neuromorphic memory systems.",
+    "confidence": 0.87,
+    "category": "theoretical",
+    "call_idx": 6
+  },
+  {
+    "assumption": "Robustness to noise is necessary for reliable neuromorphic memory operation.",
+    "confidence": 0.86,
+    "category": "architectural",
+    "call_idx": 6
+  },
+  {
+    "assumption": "Cross-disciplinary collaboration is required for advancements in neuromorphic memory architecture.",
+    "confidence": 0.85,
+    "category": "training",
+    "call_idx": 6
+  },
+  {
+    "assumption": "Benchmarking against biological systems is essential for evaluating neuromorphic memory performance.",
+    "confidence": 0.84,
+    "category": "evaluation",
+    "call_idx": 6
+  },
+  {
+    "assumption": "Low power consumption is essential for neuromorphic memory architecture.",
+    "confidence": 0.95,
+    "category": "architectural",
+    "call_idx": 7
+  },
+  {
+    "assumption": "Mimicking biological neural processes is necessary for effective neuromorphic memory design.",
+    "confidence": 0.93,
+    "category": "theoretical",
+    "call_idx": 7
+  },
+  {
+    "assumption": "Spiking neural networks are required for realistic neuromorphic memory systems.",
+    "confidence": 0.92,
+    "category": "theoretical",
+    "call_idx": 7
+  },
+  {
+    "assumption": "Scalability is essential for the practical implementation of neuromorphic memory architectures.",
+    "confidence": 0.91,
+    "category": "architectural",
+    "call_idx": 7
+  },
+  {
+    "assumption": "Real-time processing is necessary for neuromorphic memory applications.",
+    "confidence": 0.9,
+    "category": "architectural",
+    "call_idx": 7
+  },
+  {
+    "assumption": "Efficient data encoding is required for effective neuromorphic memory systems.",
+    "confidence": 0.89,
+    "category": "data",
+    "call_idx": 7
+  },
+  {
+    "assumption": "Robustness to noise is essential for reliable neuromorphic memory architectures.",
+    "confidence": 0.88,
+    "category": "architectural",
+    "call_idx": 7
+  },
+  {
+    "assumption": "Plasticity mechanisms are necessary for adaptive neuromorphic memory systems.",
+    "confidence": 0.87,
+    "category": "theoretical",
+    "call_idx": 7
+  },
+  {
+    "assumption": "Energy-efficient training algorithms are required for neuromorphic memory development.",
+    "confidence": 0.86,
+    "category": "training",
+    "call_idx": 7
+  },
+  {
+    "assumption": "Benchmarking against biological systems is essential for evaluating neuromorphic memory architectures.",
+    "confidence": 0.85,
+    "category": "evaluation",
+    "call_idx": 7
+  },
+  {
+    "assumption": "Low power consumption is essential for neuromorphic memory architecture.",
+    "confidence": 0.95,
+    "category": "architectural",
+    "call_idx": 8
+  },
+  {
+    "assumption": "Mimicking biological neural processes is necessary for effective neuromorphic memory design.",
+    "confidence": 0.93,
+    "category": "theoretical",
+    "call_idx": 8
+  },
+  {
+    "assumption": "Scalability is required for neuromorphic memory systems to be practical.",
+    "confidence": 0.92,
+    "category": "architectural",
+    "call_idx": 8
+  },
+  {
+    "assumption": "Real-time processing is essential for neuromorphic memory applications.",
+    "confidence": 0.9,
+    "category": "architectural",
+    "call_idx": 8
+  },
+  {
+    "assumption": "Non-volatility is necessary for neuromorphic memory to retain information without power.",
+    "confidence": 0.89,
+    "category": "architectural",
+    "call_idx": 8
+  },
+  {
+    "assumption": "Efficient data encoding is required for neuromorphic memory to function effectively.",
+    "confidence": 0.88,
+    "category": "data",
+    "call_idx": 8
+  },
+  {
+    "assumption": "Adaptability to changing inputs is essential for neuromorphic memory systems.",
+    "confidence": 0.87,
+    "category": "theoretical",
+    "call_idx": 8
+  },
+  {
+    "assumption": "Robustness to noise is necessary for reliable neuromorphic memory operation.",
+    "confidence": 0.86,
+    "category": "architectural",
+    "call_idx": 8
+  },
+  {
+    "assumption": "Parallel processing capabilities are required for neuromorphic memory efficiency.",
+    "confidence": 0.85,
+    "category": "architectural",
+    "call_idx": 8
+  },
+  {
+    "assumption": "Biocompatibility is essential for integrating neuromorphic memory with biological systems.",
+    "confidence": 0.84,
+    "category": "theoretical",
+    "call_idx": 8
+  },
+  {
+    "assumption": "Low power consumption is essential for neuromorphic memory architecture.",
+    "confidence": 0.95,
+    "category": "architectural",
+    "call_idx": 9
+  },
+  {
+    "assumption": "Mimicking biological neural processes is necessary for effective neuromorphic memory design.",
+    "confidence": 0.93,
+    "category": "theoretical",
+    "call_idx": 9
+  },
+  {
+    "assumption": "Non-volatility is required for efficient neuromorphic memory storage.",
+    "confidence": 0.92,
+    "category": "architectural",
+    "call_idx": 9
+  },
+  {
+    "assumption": "Scalability is essential for the practical implementation of neuromorphic memory systems.",
+    "confidence": 0.9,
+    "category": "architectural",
+    "call_idx": 9
+  },
+  {
+    "assumption": "Real-time processing is necessary for neuromorphic memory applications.",
+    "confidence": 0.89,
+    "category": "architectural",
+    "call_idx": 9
+  },
+  {
+    "assumption": "Synaptic plasticity is required for adaptive learning in neuromorphic systems.",
+    "confidence": 0.88,
+    "category": "theoretical",
+    "call_idx": 9
+  },
+  {
+    "assumption": "Efficient data encoding is essential for the functionality of neuromorphic memory.",
+    "confidence": 0.87,
+    "category": "data",
+    "call_idx": 9
+  },
+  {
+    "assumption": "Robustness to noise is necessary for reliable neuromorphic memory operation.",
+    "confidence": 0.86,
+    "category": "architectural",
+    "call_idx": 9
+  },
+  {
+    "assumption": "Crossbar arrays are required for implementing dense neuromorphic memory architectures.",
+    "confidence": 0.85,
+    "category": "architectural",
+    "call_idx": 9
+  },
+  {
+    "assumption": "Neuromorphic memory systems require specialized training algorithms to optimize performance.",
+    "confidence": 0.84,
+    "category": "training",
+    "call_idx": 9
+  },
+  {
+    "assumption": "Low power consumption is essential for neuromorphic memory architecture.",
+    "confidence": 0.95,
+    "category": "architectural",
+    "call_idx": 10
+  },
+  {
+    "assumption": "Mimicking biological neural processes is necessary for effective neuromorphic memory design.",
+    "confidence": 0.93,
+    "category": "theoretical",
+    "call_idx": 10
+  },
+  {
+    "assumption": "Scalability is required for neuromorphic memory systems to be practical.",
+    "confidence": 0.92,
+    "category": "architectural",
+    "call_idx": 10
+  },
+  {
+    "assumption": "Real-time processing is essential for neuromorphic memory applications.",
+    "confidence": 0.9,
+    "category": "architectural",
+    "call_idx": 10
+  },
+  {
+    "assumption": "Non-volatility is necessary for neuromorphic memory to retain information without power.",
+    "confidence": 0.89,
+    "category": "architectural",
+    "call_idx": 10
+  },
+  {
+    "assumption": "Efficient data encoding is required for neuromorphic memory to function effectively.",
+    "confidence": 0.88,
+    "category": "data",
+    "call_idx": 10
+  },
+  {
+    "assumption": "Adaptability to changing inputs is essential for neuromorphic memory systems.",
+    "confidence": 0.87,
+    "category": "training",
+    "call_idx": 10
+  },
+  {
+    "assumption": "High-density integration is necessary for compact neuromorphic memory architectures.",
+    "confidence": 0.86,
+    "category": "architectural",
+    "call_idx": 10
+  },
+  {
+    "assumption": "Robustness to noise is required for reliable neuromorphic memory operation.",
+    "confidence": 0.85,
+    "category": "evaluation",
+    "call_idx": 10
+  },
+  {
+    "assumption": "Parallel processing capabilities are essential for neuromorphic memory systems.",
+    "confidence": 0.84,
+    "category": "architectural",
+    "call_idx": 10
+  },
+  {
+    "assumption": "Low power consumption is essential for neuromorphic memory architecture.",
+    "confidence": 0.95,
+    "category": "architectural",
+    "call_idx": 11
+  },
+  {
+    "assumption": "Mimicking biological neural processes is necessary for effective neuromorphic memory design.",
+    "confidence": 0.93,
+    "category": "theoretical",
+    "call_idx": 11
+  },
+  {
+    "assumption": "Scalability is required for neuromorphic memory systems to be practical.",
+    "confidence": 0.92,
+    "category": "architectural",
+    "call_idx": 11
+  },
+  {
+    "assumption": "Real-time processing is essential for neuromorphic memory applications.",
+    "confidence": 0.9,
+    "category": "architectural",
+    "call_idx": 11
+  },
+  {
+    "assumption": "Non-volatility is necessary for neuromorphic memory to retain information without power.",
+    "confidence": 0.89,
+    "category": "architectural",
+    "call_idx": 11
+  },
+  {
+    "assumption": "Efficient data encoding is required for neuromorphic memory to function effectively.",
+    "confidence": 0.88,
+    "category": "data",
+    "call_idx": 11
+  },
+  {
+    "assumption": "Synaptic plasticity is essential for learning and memory in neuromorphic systems.",
+    "confidence": 0.87,
+    "category": "theoretical",
+    "call_idx": 11
+  },
+  {
+    "assumption": "Robustness to noise is necessary for reliable neuromorphic memory operation.",
+    "confidence": 0.86,
+    "category": "architectural",
+    "call_idx": 11
+  },
+  {
+    "assumption": "Parallel processing capabilities are required for neuromorphic memory to achieve high efficiency.",
+    "confidence": 0.85,
+    "category": "architectural",
+    "call_idx": 11
+  },
+  {
+    "assumption": "Biocompatibility is essential for integrating neuromorphic memory with biological systems.",
+    "confidence": 0.84,
+    "category": "architectural",
+    "call_idx": 11
+  },
+  {
+    "assumption": "Low power consumption is essential for neuromorphic memory architecture.",
+    "confidence": 0.95,
+    "category": "architectural",
+    "call_idx": 12
+  },
+  {
+    "assumption": "Mimicking biological neural processes is necessary for effective neuromorphic memory design.",
+    "confidence": 0.93,
+    "category": "theoretical",
+    "call_idx": 12
+  },
+  {
+    "assumption": "Scalability is required for neuromorphic memory systems to be practical.",
+    "confidence": 0.92,
+    "category": "architectural",
+    "call_idx": 12
+  },
+  {
+    "assumption": "Real-time processing is essential for neuromorphic memory applications.",
+    "confidence": 0.9,
+    "category": "architectural",
+    "call_idx": 12
+  },
+  {
+    "assumption": "Non-volatility is necessary for neuromorphic memory to retain information without power.",
+    "confidence": 0.89,
+    "category": "architectural",
+    "call_idx": 12
+  },
+  {
+    "assumption": "Efficient data encoding is required for neuromorphic memory to function effectively.",
+    "confidence": 0.88,
+    "category": "data",
+    "call_idx": 12
+  },
+  {
+    "assumption": "Adaptability to changing inputs is essential for neuromorphic memory systems.",
+    "confidence": 0.87,
+    "category": "theoretical",
+    "call_idx": 12
+  },
+  {
+    "assumption": "High-density integration is necessary for compact neuromorphic memory architectures.",
+    "confidence": 0.86,
+    "category": "architectural",
+    "call_idx": 12
+  },
+  {
+    "assumption": "Robustness to noise is required for reliable neuromorphic memory operation.",
+    "confidence": 0.85,
+    "category": "theoretical",
+    "call_idx": 12
+  },
+  {
+    "assumption": "Efficient training algorithms are essential for optimizing neuromorphic memory performance.",
+    "confidence": 0.84,
+    "category": "training",
+    "call_idx": 12
+  },
+  {
+    "assumption": "Low power consumption is essential for neuromorphic memory architecture.",
+    "confidence": 0.95,
+    "category": "architectural",
+    "call_idx": 13
+  },
+  {
+    "assumption": "Mimicking biological neural processes is necessary for effective neuromorphic memory design.",
+    "confidence": 0.93,
+    "category": "theoretical",
+    "call_idx": 13
+  },
+  {
+    "assumption": "Scalability is required for neuromorphic memory systems to be practical.",
+    "confidence": 0.92,
+    "category": "architectural",
+    "call_idx": 13
+  },
+  {
+    "assumption": "Real-time processing is essential for neuromorphic memory applications.",
+    "confidence": 0.9,
+    "category": "architectural",
+    "call_idx": 13
+  },
+  {
+    "assumption": "Efficient data encoding is necessary for neuromorphic memory systems.",
+    "confidence": 0.89,
+    "category": "data",
+    "call_idx": 13
+  },
+  {
+    "assumption": "Robustness to noise is required for reliable neuromorphic memory function.",
+    "confidence": 0.88,
+    "category": "theoretical",
+    "call_idx": 13
+  },
+  {
+    "assumption": "Adaptability to changing inputs is essential for neuromorphic memory systems.",
+    "confidence": 0.87,
+    "category": "training",
+    "call_idx": 13
+  },
+  {
+    "assumption": "Integration with existing computing systems is necessary for the adoption of neuromorphic memory.",
+    "confidence": 0.86,
+    "category": "architectural",
+    "call_idx": 13
+  },
+  {
+    "assumption": "Energy efficiency is required for the viability of neuromorphic memory technologies.",
+    "confidence": 0.85,
+    "category": "architectural",
+    "call_idx": 13
+  },
+  {
+    "assumption": "Accurate evaluation metrics are essential for assessing neuromorphic memory performance.",
+    "confidence": 0.84,
+    "category": "evaluation",
+    "call_idx": 13
+  },
+  {
+    "assumption": "Low power consumption is essential for neuromorphic memory architecture.",
+    "confidence": 0.95,
+    "category": "architectural",
+    "call_idx": 14
+  },
+  {
+    "assumption": "Mimicking biological neural processes is necessary for effective neuromorphic memory design.",
+    "confidence": 0.93,
+    "category": "theoretical",
+    "call_idx": 14
+  },
+  {
+    "assumption": "Scalability is required for neuromorphic memory systems to be practical.",
+    "confidence": 0.92,
+    "category": "architectural",
+    "call_idx": 14
+  },
+  {
+    "assumption": "Real-time processing is essential for neuromorphic memory applications.",
+    "confidence": 0.9,
+    "category": "architectural",
+    "call_idx": 14
+  },
+  {
+    "assumption": "Non-volatility is necessary for efficient neuromorphic memory storage.",
+    "confidence": 0.89,
+    "category": "architectural",
+    "call_idx": 14
+  },
+  {
+    "assumption": "Training algorithms must be biologically plausible for neuromorphic systems.",
+    "confidence": 0.88,
+    "category": "training",
+    "call_idx": 14
+  },
+  {
+    "assumption": "Data sparsity is required for efficient neuromorphic memory operation.",
+    "confidence": 0.87,
+    "category": "data",
+    "call_idx": 14
+  },
+  {
+    "assumption": "Fault tolerance is essential for reliable neuromorphic memory systems.",
+    "confidence": 0.86,
+    "category": "architectural",
+    "call_idx": 14
+  },
+  {
+    "assumption": "Energy efficiency is necessary for the viability of neuromorphic memory architectures.",
+    "confidence": 0.85,
+    "category": "architectural",
+    "call_idx": 14
+  },
+  {
+    "assumption": "Evaluation metrics must reflect biological realism for neuromorphic memory systems.",
+    "confidence": 0.84,
+    "category": "evaluation",
+    "call_idx": 14
+  },
+  {
+    "assumption": "Low power consumption is essential for neuromorphic memory architecture.",
+    "confidence": 0.95,
+    "category": "architectural",
+    "call_idx": 15
+  },
+  {
+    "assumption": "Mimicking biological neural processes is necessary for effective neuromorphic memory design.",
+    "confidence": 0.93,
+    "category": "theoretical",
+    "call_idx": 15
+  },
+  {
+    "assumption": "Spiking neural networks are required for implementing neuromorphic memory systems.",
+    "confidence": 0.92,
+    "category": "architectural",
+    "call_idx": 15
+  },
+  {
+    "assumption": "Real-time processing is essential for neuromorphic memory applications.",
+    "confidence": 0.9,
+    "category": "architectural",
+    "call_idx": 15
+  },
+  {
+    "assumption": "Scalability is necessary for the practical deployment of neuromorphic memory systems.",
+    "confidence": 0.89,
+    "category": "architectural",
+    "call_idx": 15
+  },
+  {
+    "assumption": "Efficient data encoding is required for neuromorphic memory functionality.",
+    "confidence": 0.88,
+    "category": "data",
+    "call_idx": 15
+  },
+  {
+    "assumption": "Robustness to noise is essential for reliable neuromorphic memory operation.",
+    "confidence": 0.87,
+    "category": "theoretical",
+    "call_idx": 15
+  },
+  {
+    "assumption": "Energy-efficient training algorithms are necessary for neuromorphic memory systems.",
+    "confidence": 0.86,
+    "category": "training",
+    "call_idx": 15
+  },
+  {
+    "assumption": "Crossbar arrays are required for implementing neuromorphic memory architectures.",
+    "confidence": 0.85,
+    "category": "architectural",
+    "call_idx": 15
+  },
+  {
+    "assumption": "Neuromorphic memory systems must be evaluated based on their similarity to biological systems.",
+    "confidence": 0.84,
+    "category": "evaluation",
+    "call_idx": 15
+  }
+]

@@ -1,0 +1,935 @@
+{
+  "experiment": "random_corpus_control",
+  "model": "gpt-4o",
+  "num_papers_collected": 50,
+  "num_papers_extracted": 15,
+  "paper_topics": [
+    "Robot relationships within communal/exchange service contexts: working paper",
+    "PLC-based temperature controller applied to a distiller of essential oils by wat",
+    "Game neologization in the format of a creolized text",
+    "Batmen X The Puzzler - Escaping AR's Drawbacks with Augmented Virtuality and Low",
+    "Invent\u00e1rio de emiss\u00f5es antr\u00f3picas e sumidouros de gases de efeito estufa do Esta",
+    "A Distributed Feedback Motion Planning Protocol for Multiple Unicycle Agents of ",
+    "Development and Psychometric Properties of the Sussex-Oxford Compassion Scales (",
+    "Extension of the QuickFF force field protocol for an improved accuracy of struct",
+    "The future of the International Schools for Young Astronomers (ISYA)",
+    "The Relationship Between Leverage, Maturity, and Investment Decision: Evidence F",
+    "The vibration characters analysis of tube compressor",
+    "Maintainability Prediction of Object Oriented Software by using Adaptive Network",
+    "Reconfiguring the Android in \u201cThe Electric Ant\u201d by Philip K. Dick",
+    "Adaptive Comparative Judgment in Graphics Applications and Education",
+    "Go-Mo (Go-motion): An android mobile application detecting motion gestures for g"
+  ],
+  "raw_assumption_count": 147,
+  "exact_unique_count": 147,
+  "exact_redundancy_rate": 0.0,
+  "semantic_redundancy": {
+    "total": 147,
+    "semantic_unique": 146,
+    "semantic_redundancy_rate": 0.0068
+  },
+  "pairwise_similarity": {
+    "avg_pairwise_similarity": 0.2392,
+    "max_pairwise_similarity": 0.8724,
+    "min_pairwise_similarity": -0.0056,
+    "num_pairs": 10731
+  },
+  "category_distribution": {
+    "theoretical": 80,
+    "evaluation": 18,
+    "architectural": 21,
+    "training": 13,
+    "data": 15
+  },
+  "focused_corpus_comparison": {
+    "focused_raw_count": 150,
+    "focused_exact_unique": 149,
+    "focused_exact_redundancy": 0.0067
+  },
+  "interpretation": "Random corpus redundancy (0.0%) is similar to focused corpus (0.7%). This suggests LLM homogeneity: the model produces similar assumption patterns regardless of input specificity.",
+  "assumptions": [
+    {
+      "assumption": "Anthropomorphization of robots is essential for influencing user perceptions in service contexts.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Robot relationships within communal/exchange service contexts: working paper"
+    },
+    {
+      "assumption": "Understanding human-robot interaction is necessary for improving service experiences.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Robot relationships within communal/exchange service contexts: working paper"
+    },
+    {
+      "assumption": "Relational trust is essential for successful service provider-user interactions.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Robot relationships within communal/exchange service contexts: working paper"
+    },
+    {
+      "assumption": "Service contexts are required to be categorized into 'communal' and 'exchange' for analyzing relational dynamics.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Robot relationships within communal/exchange service contexts: working paper"
+    },
+    {
+      "assumption": "User perceptions of competence and professionalism are necessary for evaluating service robots.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Robot relationships within communal/exchange service contexts: working paper"
+    },
+    {
+      "assumption": "Innovative methodological approaches are essential for studying human-robot relationships.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Robot relationships within communal/exchange service contexts: working paper"
+    },
+    {
+      "assumption": "Social cognition is required for understanding user interactions with service robots.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Robot relationships within communal/exchange service contexts: working paper"
+    },
+    {
+      "assumption": "Robots are necessary components of future service systems.",
+      "confidence": 0.6,
+      "category": "architectural",
+      "source_paper": "Robot relationships within communal/exchange service contexts: working paper"
+    },
+    {
+      "assumption": "The integration of robots into service systems is essential for transforming service experiences.",
+      "confidence": 0.6,
+      "category": "architectural",
+      "source_paper": "Robot relationships within communal/exchange service contexts: working paper"
+    },
+    {
+      "assumption": "Examining the impact of robot animacy is necessary for understanding user-service provider relationships.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Robot relationships within communal/exchange service contexts: working paper"
+    },
+    {
+      "assumption": "Automation is essential for improving safety and consistency in industrial processes.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "PLC-based temperature controller applied to a distiller of essential oils by water-steam drag"
+    },
+    {
+      "assumption": "Temperature control is necessary for the effective extraction of essential oils.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "PLC-based temperature controller applied to a distiller of essential oils by water-steam drag"
+    },
+    {
+      "assumption": "Programmable Logic Controllers (PLCs) are required for implementing automated control systems in industrial settings.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "PLC-based temperature controller applied to a distiller of essential oils by water-steam drag"
+    },
+    {
+      "assumption": "Precise temperature regulation is essential for maintaining the quality of extracted essential oils.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "PLC-based temperature controller applied to a distiller of essential oils by water-steam drag"
+    },
+    {
+      "assumption": "Evaluation of control systems is necessary to ensure they meet performance criteria such as rise time, settling time, and steady state error.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "PLC-based temperature controller applied to a distiller of essential oils by water-steam drag"
+    },
+    {
+      "assumption": "Laboratory testing is required to validate the performance of prototype control systems before industrial application.",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "PLC-based temperature controller applied to a distiller of essential oils by water-steam drag"
+    },
+    {
+      "assumption": "Control system architecture must be designed to handle specific process requirements of the application domain.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "PLC-based temperature controller applied to a distiller of essential oils by water-steam drag"
+    },
+    {
+      "assumption": "The integration of control systems into existing processes is necessary for operational efficiency.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "PLC-based temperature controller applied to a distiller of essential oils by water-steam drag"
+    },
+    {
+      "assumption": "Continuous monitoring and adjustment of process parameters are required for optimal system performance.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "PLC-based temperature controller applied to a distiller of essential oils by water-steam drag"
+    },
+    {
+      "assumption": "The use of automated systems is necessary to meet the growing demand and production scale in the essential oils market.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "PLC-based temperature controller applied to a distiller of essential oils by water-steam drag"
+    },
+    {
+      "assumption": "The integration of verbal and non-verbal elements is essential for the creation of creolized texts.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Game neologization in the format of a creolized text"
+    },
+    {
+      "assumption": "Understanding the semantic and functional unity of text components is necessary for analyzing creolized texts.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Game neologization in the format of a creolized text"
+    },
+    {
+      "assumption": "The influence of graphic components on text interpretation is essential for studying creolized texts.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Game neologization in the format of a creolized text"
+    },
+    {
+      "assumption": "The study of neologisms requires consideration of both verbal and non-verbal representations.",
+      "confidence": 0.75,
+      "category": "data",
+      "source_paper": "Game neologization in the format of a creolized text"
+    },
+    {
+      "assumption": "Creolized texts are necessary for understanding modern information presentation in mass media.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Game neologization in the format of a creolized text"
+    },
+    {
+      "assumption": "The interaction between verbal and non-verbal elements is required for the effective communication of complex messages.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Game neologization in the format of a creolized text"
+    },
+    {
+      "assumption": "The study of word formation processes must include atypical methods like word contamination.",
+      "confidence": 0.65,
+      "category": "theoretical",
+      "source_paper": "Game neologization in the format of a creolized text"
+    },
+    {
+      "assumption": "Illustrations are essential for the full interpretation of certain neologisms in creolized texts.",
+      "confidence": 0.65,
+      "category": "data",
+      "source_paper": "Game neologization in the format of a creolized text"
+    },
+    {
+      "assumption": "A comprehensive analysis of creolized texts requires a multidisciplinary approach.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Game neologization in the format of a creolized text"
+    },
+    {
+      "assumption": "The exploration of new word formation methods is necessary for advancing the field of neology.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Game neologization in the format of a creolized text"
+    },
+    {
+      "assumption": "Augmented reality and virtual reality systems require precise tracking for effective interaction.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Batmen X The Puzzler - Escaping AR's Drawbacks with Augmented Virtuality and Low Cost Sensors"
+    },
+    {
+      "assumption": "Physical objects are essential for enhancing user interaction in virtual environments.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Batmen X The Puzzler - Escaping AR's Drawbacks with Augmented Virtuality and Low Cost Sensors"
+    },
+    {
+      "assumption": "Augmented virtuality systems require a seamless integration of physical and virtual elements to enhance user experience.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Batmen X The Puzzler - Escaping AR's Drawbacks with Augmented Virtuality and Low Cost Sensors"
+    },
+    {
+      "assumption": "Low-cost sensors are sufficient for creating effective augmented virtuality experiences.",
+      "confidence": 0.75,
+      "category": "data",
+      "source_paper": "Batmen X The Puzzler - Escaping AR's Drawbacks with Augmented Virtuality and Low Cost Sensors"
+    },
+    {
+      "assumption": "A high sense of presence is necessary for the success of augmented and virtual reality systems.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Batmen X The Puzzler - Escaping AR's Drawbacks with Augmented Virtuality and Low Cost Sensors"
+    },
+    {
+      "assumption": "Storytelling is essential for creating engaging and immersive virtual reality experiences.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Batmen X The Puzzler - Escaping AR's Drawbacks with Augmented Virtuality and Low Cost Sensors"
+    },
+    {
+      "assumption": "Wireless tracking systems are required for precise registration in augmented and virtual reality environments.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Batmen X The Puzzler - Escaping AR's Drawbacks with Augmented Virtuality and Low Cost Sensors"
+    },
+    {
+      "assumption": "User interaction in virtual environments requires a variety of movement types to be effective.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Batmen X The Puzzler - Escaping AR's Drawbacks with Augmented Virtuality and Low Cost Sensors"
+    },
+    {
+      "assumption": "Augmented virtuality systems must address the challenge of absent physical counterparts to ensure effective interaction.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "Batmen X The Puzzler - Escaping AR's Drawbacks with Augmented Virtuality and Low Cost Sensors"
+    },
+    {
+      "assumption": "The flexibility of virtual reality is essential for exploring interactions that are not possible in the physical world.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Batmen X The Puzzler - Escaping AR's Drawbacks with Augmented Virtuality and Low Cost Sensors"
+    },
+    {
+      "assumption": "Quantification of greenhouse gas emissions is essential for creating emission inventories.",
+      "confidence": 1.0,
+      "category": "data",
+      "source_paper": "Invent\u00e1rio de emiss\u00f5es antr\u00f3picas e sumidouros de gases de efeito estufa do Estado do Acre: ano-base 2014."
+    },
+    {
+      "assumption": "Inclusion of all Kyoto Protocol gases is necessary for comprehensive greenhouse gas inventories.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Invent\u00e1rio de emiss\u00f5es antr\u00f3picas e sumidouros de gases de efeito estufa do Estado do Acre: ano-base 2014."
+    },
+    {
+      "assumption": "Comparative analysis with previous inventories is required for assessing emission trends.",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "Invent\u00e1rio de emiss\u00f5es antr\u00f3picas e sumidouros de gases de efeito estufa do Estado do Acre: ano-base 2014."
+    },
+    {
+      "assumption": "Emission inventories are essential tools for supporting public policy development.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Invent\u00e1rio de emiss\u00f5es antr\u00f3picas e sumidouros de gases de efeito estufa do Estado do Acre: ano-base 2014."
+    },
+    {
+      "assumption": "Standardized methodologies are necessary for consistent measurement, reporting, and verification of emissions.",
+      "confidence": 0.95,
+      "category": "theoretical",
+      "source_paper": "Invent\u00e1rio de emiss\u00f5es antr\u00f3picas e sumidouros de gases de efeito estufa do Estado do Acre: ano-base 2014."
+    },
+    {
+      "assumption": "Regional and national accounting of emissions is required for comprehensive climate policy planning.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Invent\u00e1rio de emiss\u00f5es antr\u00f3picas e sumidouros de gases de efeito estufa do Estado do Acre: ano-base 2014."
+    },
+    {
+      "assumption": "Emission inventories must account for both direct and indirect activities of organizations or territories.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Invent\u00e1rio de emiss\u00f5es antr\u00f3picas e sumidouros de gases de efeito estufa do Estado do Acre: ano-base 2014."
+    },
+    {
+      "assumption": "Emission inventories are necessary for supporting carbon programs like ISA Carbono.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Invent\u00e1rio de emiss\u00f5es antr\u00f3picas e sumidouros de gases de efeito estufa do Estado do Acre: ano-base 2014."
+    },
+    {
+      "assumption": "Emission inventories must be objective and consistent to be effective tools for policy support.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Invent\u00e1rio de emiss\u00f5es antr\u00f3picas e sumidouros de gases de efeito estufa do Estado do Acre: ano-base 2014."
+    },
+    {
+      "assumption": "Emission inventories are required for providing subsidies for the development of local and regional public policies.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Invent\u00e1rio de emiss\u00f5es antr\u00f3picas e sumidouros de gases de efeito estufa do Estado do Acre: ano-base 2014."
+    },
+    {
+      "assumption": "Modeling agents with unicycle kinematics is essential for realistic motion planning in multi-agent systems.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "A Distributed Feedback Motion Planning Protocol for Multiple Unicycle Agents of Different Classes"
+    },
+    {
+      "assumption": "Feedback control is necessary for effective motion planning and coordination in multi-agent systems.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "A Distributed Feedback Motion Planning Protocol for Multiple Unicycle Agents of Different Classes"
+    },
+    {
+      "assumption": "Analytic vector fields are required for designing safe and stable motion plans.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "A Distributed Feedback Motion Planning Protocol for Multiple Unicycle Agents of Different Classes"
+    },
+    {
+      "assumption": "Collision avoidance is essential for the safety of multi-agent systems.",
+      "confidence": 1.0,
+      "category": "theoretical",
+      "source_paper": "A Distributed Feedback Motion Planning Protocol for Multiple Unicycle Agents of Different Classes"
+    },
+    {
+      "assumption": "Distributed coordination is necessary for scalability in multi-agent systems.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "A Distributed Feedback Motion Planning Protocol for Multiple Unicycle Agents of Different Classes"
+    },
+    {
+      "assumption": "Semi-cooperative strategies are required for conflict resolution in heterogeneous multi-agent systems.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "A Distributed Feedback Motion Planning Protocol for Multiple Unicycle Agents of Different Classes"
+    },
+    {
+      "assumption": "Simulation results are essential for demonstrating the efficacy of motion planning methodologies.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "A Distributed Feedback Motion Planning Protocol for Multiple Unicycle Agents of Different Classes"
+    },
+    {
+      "assumption": "Ensuring almost global convergence is necessary for the effectiveness of multi-agent coordination protocols.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "A Distributed Feedback Motion Planning Protocol for Multiple Unicycle Agents of Different Classes"
+    },
+    {
+      "assumption": "Handling agents with failed sensing/communication systems is required for robust multi-agent system design.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "A Distributed Feedback Motion Planning Protocol for Multiple Unicycle Agents of Different Classes"
+    },
+    {
+      "assumption": "Prioritization among agents is essential for resolving conflicts in multi-agent systems.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "A Distributed Feedback Motion Planning Protocol for Multiple Unicycle Agents of Different Classes"
+    },
+    {
+      "assumption": "A valid and reliable measurement tool is essential for the scientific study of psychological constructs.",
+      "confidence": 1.0,
+      "category": "theoretical",
+      "source_paper": "Development and Psychometric Properties of the Sussex-Oxford Compassion Scales (SOCS)"
+    },
+    {
+      "assumption": "Psychological constructs can be effectively measured using self-report scales.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Development and Psychometric Properties of the Sussex-Oxford Compassion Scales (SOCS)"
+    },
+    {
+      "assumption": "Psychometric properties such as internal consistency, validity, and reliability are necessary for evaluating the quality of a measurement tool.",
+      "confidence": 1.0,
+      "category": "evaluation",
+      "source_paper": "Development and Psychometric Properties of the Sussex-Oxford Compassion Scales (SOCS)"
+    },
+    {
+      "assumption": "A multi-dimensional approach is required to accurately capture complex psychological constructs.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Development and Psychometric Properties of the Sussex-Oxford Compassion Scales (SOCS)"
+    },
+    {
+      "assumption": "Theoretical and empirical support is necessary for defining the dimensions of a psychological construct.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Development and Psychometric Properties of the Sussex-Oxford Compassion Scales (SOCS)"
+    },
+    {
+      "assumption": "Factor analysis is essential for validating the structure of psychological scales.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "Development and Psychometric Properties of the Sussex-Oxford Compassion Scales (SOCS)"
+    },
+    {
+      "assumption": "Convergent and discriminant validity are required to establish the validity of a psychological measurement tool.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "Development and Psychometric Properties of the Sussex-Oxford Compassion Scales (SOCS)"
+    },
+    {
+      "assumption": "Floor and ceiling effects must be assessed to ensure the interpretability of scale scores.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Development and Psychometric Properties of the Sussex-Oxford Compassion Scales (SOCS)"
+    },
+    {
+      "assumption": "The universality of certain psychological experiences is necessary for the generalization of measurement tools across different populations.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Development and Psychometric Properties of the Sussex-Oxford Compassion Scales (SOCS)"
+    },
+    {
+      "assumption": "Self-report measures are necessary for capturing subjective experiences related to psychological constructs.",
+      "confidence": 0.85,
+      "category": "data",
+      "source_paper": "Development and Psychometric Properties of the Sussex-Oxford Compassion Scales (SOCS)"
+    },
+    {
+      "assumption": "Periodic models are necessary for accurate description of metal-organic frameworks.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Extension of the QuickFF force field protocol for an improved accuracy of structural, vibrational, mechanical and thermal properties of metal\u2013organic frameworks"
+    },
+    {
+      "assumption": "Ab initio data is essential for fitting force fields in molecular systems.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Extension of the QuickFF force field protocol for an improved accuracy of structural, vibrational, mechanical and thermal properties of metal\u2013organic frameworks"
+    },
+    {
+      "assumption": "Cross terms are required for accurate modeling of vibrational and thermal properties.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Extension of the QuickFF force field protocol for an improved accuracy of structural, vibrational, mechanical and thermal properties of metal\u2013organic frameworks"
+    },
+    {
+      "assumption": "Anharmonic contributions are necessary for accurate force field predictions.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Extension of the QuickFF force field protocol for an improved accuracy of structural, vibrational, mechanical and thermal properties of metal\u2013organic frameworks"
+    },
+    {
+      "assumption": "Force fields must be robust and transparent for reliable predictions.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Extension of the QuickFF force field protocol for an improved accuracy of structural, vibrational, mechanical and thermal properties of metal\u2013organic frameworks"
+    },
+    {
+      "assumption": "Accurate prediction of structural properties is essential for validating force fields.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Extension of the QuickFF force field protocol for an improved accuracy of structural, vibrational, mechanical and thermal properties of metal\u2013organic frameworks"
+    },
+    {
+      "assumption": "Static and dynamic simulations are required for accurate reproduction of bulk moduli and thermal expansion coefficients.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Extension of the QuickFF force field protocol for an improved accuracy of structural, vibrational, mechanical and thermal properties of metal\u2013organic frameworks"
+    },
+    {
+      "assumption": "Fitting schemes must be modified to improve robustness and accuracy of force fields.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Extension of the QuickFF force field protocol for an improved accuracy of structural, vibrational, mechanical and thermal properties of metal\u2013organic frameworks"
+    },
+    {
+      "assumption": "Accurate description of transition pressures is essential for modeling flexible materials.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Extension of the QuickFF force field protocol for an improved accuracy of structural, vibrational, mechanical and thermal properties of metal\u2013organic frameworks"
+    },
+    {
+      "assumption": "Force fields must be applicable to both isolated and complex molecular systems.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Extension of the QuickFF force field protocol for an improved accuracy of structural, vibrational, mechanical and thermal properties of metal\u2013organic frameworks"
+    },
+    {
+      "assumption": "Face-to-face interaction is essential for effective learning in regions with limited access to up-to-date research.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "The future of the International Schools for Young Astronomers (ISYA)"
+    },
+    {
+      "assumption": "Exposure to international networks is necessary for the professional development of young astronomers.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "The future of the International Schools for Young Astronomers (ISYA)"
+    },
+    {
+      "assumption": "Access to global scientific communities is required for advancing research capabilities in underrepresented regions.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "The future of the International Schools for Young Astronomers (ISYA)"
+    },
+    {
+      "assumption": "Hands-on experience is essential for understanding complex astrophysical concepts.",
+      "confidence": 0.75,
+      "category": "training",
+      "source_paper": "The future of the International Schools for Young Astronomers (ISYA)"
+    },
+    {
+      "assumption": "Collaborative learning environments are necessary for fostering innovation in astronomy.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "The future of the International Schools for Young Astronomers (ISYA)"
+    },
+    {
+      "assumption": "Cultural exchange is required to broaden the perspectives of young researchers.",
+      "confidence": 0.65,
+      "category": "training",
+      "source_paper": "The future of the International Schools for Young Astronomers (ISYA)"
+    },
+    {
+      "assumption": "Continuous adaptation of educational programs is essential to keep pace with technological advancements.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "The future of the International Schools for Young Astronomers (ISYA)"
+    },
+    {
+      "assumption": "In-person mentorship is necessary for effective skill transfer in scientific education.",
+      "confidence": 0.55,
+      "category": "training",
+      "source_paper": "The future of the International Schools for Young Astronomers (ISYA)"
+    },
+    {
+      "assumption": "Diverse educational backgrounds are required to enrich the learning experience in international schools.",
+      "confidence": 0.5,
+      "category": "training",
+      "source_paper": "The future of the International Schools for Young Astronomers (ISYA)"
+    },
+    {
+      "assumption": "Long-term educational programs are essential for building sustainable research communities.",
+      "confidence": 0.45,
+      "category": "theoretical",
+      "source_paper": "The future of the International Schools for Young Astronomers (ISYA)"
+    },
+    {
+      "assumption": "Understanding the relationship between leverage and investment decisions is essential for financial analysis in emerging markets.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "The Relationship Between Leverage, Maturity, and Investment Decision: Evidence From Emerging Markets"
+    },
+    {
+      "assumption": "Debt maturity structure is necessary for analyzing investment decisions in emerging markets.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "The Relationship Between Leverage, Maturity, and Investment Decision: Evidence From Emerging Markets"
+    },
+    {
+      "assumption": "Emerging markets require distinct financial models compared to developed markets due to different economic characteristics.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "The Relationship Between Leverage, Maturity, and Investment Decision: Evidence From Emerging Markets"
+    },
+    {
+      "assumption": "Non-linear relationships are essential for accurately modeling financial interactions in emerging markets.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "The Relationship Between Leverage, Maturity, and Investment Decision: Evidence From Emerging Markets"
+    },
+    {
+      "assumption": "Data from multiple emerging markets is necessary for generalizing findings about financial behavior.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "The Relationship Between Leverage, Maturity, and Investment Decision: Evidence From Emerging Markets"
+    },
+    {
+      "assumption": "Short-term and long-term leverage distinctions are required for comprehensive financial analysis.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "The Relationship Between Leverage, Maturity, and Investment Decision: Evidence From Emerging Markets"
+    },
+    {
+      "assumption": "Simultaneous equation modeling is essential for capturing the interactions between financial variables.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "The Relationship Between Leverage, Maturity, and Investment Decision: Evidence From Emerging Markets"
+    },
+    {
+      "assumption": "Historical financial data is necessary for understanding current financial dynamics in emerging markets.",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "The Relationship Between Leverage, Maturity, and Investment Decision: Evidence From Emerging Markets"
+    },
+    {
+      "assumption": "Minimizing underinvestment is essential for optimal financial strategy in emerging markets.",
+      "confidence": 0.65,
+      "category": "theoretical",
+      "source_paper": "The Relationship Between Leverage, Maturity, and Investment Decision: Evidence From Emerging Markets"
+    },
+    {
+      "assumption": "Comparative analysis between emerging and developed markets is required to highlight unique financial behaviors.",
+      "confidence": 0.65,
+      "category": "evaluation",
+      "source_paper": "The Relationship Between Leverage, Maturity, and Investment Decision: Evidence From Emerging Markets"
+    },
+    {
+      "assumption": "Finite element modeling is essential for analyzing complex mechanical systems like rotor-bearing systems.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "The vibration characters analysis of tube compressor"
+    },
+    {
+      "assumption": "Understanding the gyroscopic effect is necessary for accurate analysis of rotor dynamics.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "The vibration characters analysis of tube compressor"
+    },
+    {
+      "assumption": "Commercial software like ANSYS is required for simulating and analyzing mechanical systems.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "The vibration characters analysis of tube compressor"
+    },
+    {
+      "assumption": "Critical speed analysis is essential for ensuring the stability and performance of rotor-bearing systems.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "The vibration characters analysis of tube compressor"
+    },
+    {
+      "assumption": "Campbell diagrams are necessary for visualizing the relationship between characteristic frequencies and rotation speed.",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "The vibration characters analysis of tube compressor"
+    },
+    {
+      "assumption": "Accurate modeling of bearing parameters is required for realistic simulation of rotor dynamics.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "The vibration characters analysis of tube compressor"
+    },
+    {
+      "assumption": "Computational methods are essential for investigating the dynamic behavior of mechanical systems.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "The vibration characters analysis of tube compressor"
+    },
+    {
+      "assumption": "Object Oriented metrics are essential for predicting software maintenance effort.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Maintainability Prediction of Object Oriented Software by using Adaptive Network based Fuzzy System Technique"
+    },
+    {
+      "assumption": "Non-linear modeling techniques are necessary for capturing the complexity of software maintenance effort.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Maintainability Prediction of Object Oriented Software by using Adaptive Network based Fuzzy System Technique"
+    },
+    {
+      "assumption": "Historical data is required for building predictive models of software maintenance.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Maintainability Prediction of Object Oriented Software by using Adaptive Network based Fuzzy System Technique"
+    },
+    {
+      "assumption": "Accurate prediction of software maintenance effort is essential for effective software project management.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Maintainability Prediction of Object Oriented Software by using Adaptive Network based Fuzzy System Technique"
+    },
+    {
+      "assumption": "Adaptive learning systems are necessary for improving the accuracy of predictive models in software engineering.",
+      "confidence": 0.75,
+      "category": "training",
+      "source_paper": "Maintainability Prediction of Object Oriented Software by using Adaptive Network based Fuzzy System Technique"
+    },
+    {
+      "assumption": "Software maintenance requires more resources than initial software development.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Maintainability Prediction of Object Oriented Software by using Adaptive Network based Fuzzy System Technique"
+    },
+    {
+      "assumption": "Correlations between different software metrics are essential for selecting relevant predictors in modeling.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Maintainability Prediction of Object Oriented Software by using Adaptive Network based Fuzzy System Technique"
+    },
+    {
+      "assumption": "Predictive models must be validated using real-world software product data.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Maintainability Prediction of Object Oriented Software by using Adaptive Network based Fuzzy System Technique"
+    },
+    {
+      "assumption": "Sophisticated techniques are required to handle the complexity of software maintenance prediction.",
+      "confidence": 0.65,
+      "category": "theoretical",
+      "source_paper": "Maintainability Prediction of Object Oriented Software by using Adaptive Network based Fuzzy System Technique"
+    },
+    {
+      "assumption": "The use of fuzzy systems is necessary for dealing with uncertainty in software metrics.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Maintainability Prediction of Object Oriented Software by using Adaptive Network based Fuzzy System Technique"
+    },
+    {
+      "assumption": "The exploration of technology's impact on human subjectivity is essential for understanding modern narratives.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Reconfiguring the Android in \u201cThe Electric Ant\u201d by Philip K. Dick"
+    },
+    {
+      "assumption": "Literary analysis is necessary for unpacking the metaphorical significance of androids in science fiction.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Reconfiguring the Android in \u201cThe Electric Ant\u201d by Philip K. Dick"
+    },
+    {
+      "assumption": "The concept of constructed reality is essential for analyzing the influence of ideology on human perception.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Reconfiguring the Android in \u201cThe Electric Ant\u201d by Philip K. Dick"
+    },
+    {
+      "assumption": "The use of philosophical frameworks is required for a deeper understanding of technology's role in literature.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "Reconfiguring the Android in \u201cThe Electric Ant\u201d by Philip K. Dick"
+    },
+    {
+      "assumption": "Examining the relationship between humans and machines is necessary for exploring themes of dehumanization.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Reconfiguring the Android in \u201cThe Electric Ant\u201d by Philip K. Dick"
+    },
+    {
+      "assumption": "Analyzing the narrative structure is essential for understanding the thematic concerns of science fiction.",
+      "confidence": 0.65,
+      "category": "theoretical",
+      "source_paper": "Reconfiguring the Android in \u201cThe Electric Ant\u201d by Philip K. Dick"
+    },
+    {
+      "assumption": "The study of autopoiesis is required for exploring self-creation and identity in literary characters.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Reconfiguring the Android in \u201cThe Electric Ant\u201d by Philip K. Dick"
+    },
+    {
+      "assumption": "The critique of capitalist ideologies is necessary for understanding their representation in literature.",
+      "confidence": 0.55,
+      "category": "theoretical",
+      "source_paper": "Reconfiguring the Android in \u201cThe Electric Ant\u201d by Philip K. Dick"
+    },
+    {
+      "assumption": "The analysis of character development is essential for exploring the transformation of identity in narratives.",
+      "confidence": 0.5,
+      "category": "theoretical",
+      "source_paper": "Reconfiguring the Android in \u201cThe Electric Ant\u201d by Philip K. Dick"
+    },
+    {
+      "assumption": "The integration of thematic arguments is required for a comprehensive analysis of literary works.",
+      "confidence": 0.45,
+      "category": "theoretical",
+      "source_paper": "Reconfiguring the Android in \u201cThe Electric Ant\u201d by Philip K. Dick"
+    },
+    {
+      "assumption": "Comparative judgment is necessary for achieving higher reliability in assessment.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Adaptive Comparative Judgment in Graphics Applications and Education"
+    },
+    {
+      "assumption": "Adaptive methods are essential for improving the accuracy of comparative judgments.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Adaptive Comparative Judgment in Graphics Applications and Education"
+    },
+    {
+      "assumption": "Rank ordering is required for effective assessment in educational contexts.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Adaptive Comparative Judgment in Graphics Applications and Education"
+    },
+    {
+      "assumption": "Comparative judgment techniques are necessary for assessing subjective domains like design and technology.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Adaptive Comparative Judgment in Graphics Applications and Education"
+    },
+    {
+      "assumption": "High correlation with traditional grading methods is essential for validating new assessment methodologies.",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "Adaptive Comparative Judgment in Graphics Applications and Education"
+    },
+    {
+      "assumption": "Assessment methodologies must be applicable across varying levels of academic rigor.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Adaptive Comparative Judgment in Graphics Applications and Education"
+    },
+    {
+      "assumption": "The effectiveness of assessment methods must be demonstrated across multiple academic disciplines.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Adaptive Comparative Judgment in Graphics Applications and Education"
+    },
+    {
+      "assumption": "Subjectivity in scoring is a limitation that needs to be addressed by alternative assessment methods.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Adaptive Comparative Judgment in Graphics Applications and Education"
+    },
+    {
+      "assumption": "Comparative judgment is required for more accurate assessment than rubric-based scoring.",
+      "confidence": 0.65,
+      "category": "theoretical",
+      "source_paper": "Adaptive Comparative Judgment in Graphics Applications and Education"
+    },
+    {
+      "assumption": "Assessment methods must be adaptable to different educational contexts and subjects.",
+      "confidence": 0.65,
+      "category": "theoretical",
+      "source_paper": "Adaptive Comparative Judgment in Graphics Applications and Education"
+    },
+    {
+      "assumption": "Gesture recognition is essential for natural human-computer interaction.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Go-Mo (Go-motion): An android mobile application detecting motion gestures for generating basic mobile phone commands utilizing KLT algorithm"
+    },
+    {
+      "assumption": "Feature point extraction is necessary for effective motion detection in image processing.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Go-Mo (Go-motion): An android mobile application detecting motion gestures for generating basic mobile phone commands utilizing KLT algorithm"
+    },
+    {
+      "assumption": "The Kanade-Lucas-Tomasi (KLT) algorithm is required for reliable feature tracking in gesture recognition applications.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Go-Mo (Go-motion): An android mobile application detecting motion gestures for generating basic mobile phone commands utilizing KLT algorithm"
+    },
+    {
+      "assumption": "Image processing techniques are essential for interpreting hand gestures in mobile applications.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Go-Mo (Go-motion): An android mobile application detecting motion gestures for generating basic mobile phone commands utilizing KLT algorithm"
+    },
+    {
+      "assumption": "Mobile applications must be evaluated using standardized software evaluation criteria to ensure quality.",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "Go-Mo (Go-motion): An android mobile application detecting motion gestures for generating basic mobile phone commands utilizing KLT algorithm"
+    },
+    {
+      "assumption": "Static gesture detection is necessary for mapping gestures to mobile phone commands.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Go-Mo (Go-motion): An android mobile application detecting motion gestures for generating basic mobile phone commands utilizing KLT algorithm"
+    },
+    {
+      "assumption": "Hand gestures can be effectively used to communicate commands to mobile devices.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Go-Mo (Go-motion): An android mobile application detecting motion gestures for generating basic mobile phone commands utilizing KLT algorithm"
+    },
+    {
+      "assumption": "Enhancing accuracy is required for improving gesture recognition systems.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Go-Mo (Go-motion): An android mobile application detecting motion gestures for generating basic mobile phone commands utilizing KLT algorithm"
+    },
+    {
+      "assumption": "Storing and re-labeling gestures is necessary for mapping them to specific commands.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "Go-Mo (Go-motion): An android mobile application detecting motion gestures for generating basic mobile phone commands utilizing KLT algorithm"
+    },
+    {
+      "assumption": "User satisfaction is essential for the success of gesture-based mobile applications.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Go-Mo (Go-motion): An android mobile application detecting motion gestures for generating basic mobile phone commands utilizing KLT algorithm"
+    }
+  ],
+  "ran_at": "2026-03-24T12:33:07.063772+00:00"
+}

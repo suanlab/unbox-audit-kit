@@ -1,0 +1,56 @@
+{
+  "baseline": "random",
+  "category": "icl",
+  "ran_at": "2026-03-12T00:25:15.842347+00:00",
+  "inputs": {
+    "num_papers": 60,
+    "ground_truth_aliases": [
+      "fine-tuning is necessary for task adaptation",
+      "task adaptation requires fine-tuning",
+      "downstream adaptation must update model weights"
+    ]
+  },
+  "config": {
+    "top_ks": [
+      5,
+      10,
+      20
+    ],
+    "candidate_limit": 20,
+    "seed": 7
+  },
+  "outputs": {
+    "num_candidates": 20,
+    "top_candidates": [
+      "The field of machine learning has undergone a revolution of sorts with the emergence of convolutional neural networks as the leading method of choice for a wide swath of tasks.",
+      "We extend the popular BERT architecture to a multi-modal two-stream model, processing both visual and textual inputs in separate streams that interact through co-attentional transformer layers.",
+      "In addition to evaluating CNNs pretrained with the ImageNet dataset, we investigate the use of transfer learning for a particular domain adaptation.",
+      "Neural Style Transfer has recently demonstrated very exciting results which catches eyes in both academia and industry.",
+      "Cross-domain sentiment classification is an important Natural Language Processing (NLP) task that aims at leveraging knowledge obtained from a source domain to train a high-performance learner for sentiment classification on a target domain.",
+      "Based on the transfer learning, we propose a new intelligent method named deep convolutional transfer learning network (DCTLN).",
+      "Transfer Learning in Natural Language Processing.",
+      "OpenSim's design enables computational scientists to create new state-of-the-art software tools and empowers others to use these tools in research and clinical applications.",
+      "Comparing to previous methods, these task-specific knowledge allows us to adopt a more concise model and conduct more efficient training.",
+      "However, simply applying the models learnt on synthetic images may lead to high generalization error on real images due to domain shift.",
+      "Previous approaches showcase the inability of even deep neural networks to learn informative representations across domain shift.",
+      "The metric is learned in an unsupervised fashion using metatraining.",
+      "Wasserstein Distance Guided Representation Learning for Domain Adaptation.",
+      "Breast lesion detection using ultrasound imaging is considered an important step of computer-aided diagnosis systems.",
+      "Transferable Attention for Domain Adaptation.",
+      "We conduct experiments using (5-class, 1-shot) and (5-class, 5-shot) recognition tasks on two challenging few-shot learning benchmarks: miniImageNet and Fewshot-CIFAR100.",
+      "The success of intelligent fault diagnosis of machines relies on the following two conditions: 1) labeled data with fault information are available; and 2) the training and testing data are drawn from the same probability distribution.",
+      "Fully Convolutional Adaptation Networks for Semantic Segmentation.",
+      "Moreover, those sources may not completely share their categories, which further brings a new transfer challenge called category shift.",
+      "Note that the two domains have separate batch normalization layers in both stages."
+    ]
+  },
+  "metrics": {
+    "rank": 21.0,
+    "recall_at_5": 0.0,
+    "precision_at_5": 0.0,
+    "recall_at_10": 0.0,
+    "precision_at_10": 0.0,
+    "recall_at_20": 0.0,
+    "precision_at_20": 0.0
+  }
+}

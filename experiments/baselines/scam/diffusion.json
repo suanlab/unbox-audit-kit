@@ -1,0 +1,51 @@
+{
+  "baseline": "scam",
+  "category": "diffusion",
+  "ran_at": "2026-03-18T20:48:03.330431+00:00",
+  "config": {
+    "n_samples": 3,
+    "max_papers": 15,
+    "max_assumptions_per_sample": 5,
+    "threshold": 0.65,
+    "prompt": "field_wide"
+  },
+  "inputs": {
+    "num_papers": 15,
+    "ground_truth_aliases": [
+      "adversarial training is necessary for high-quality generation",
+      "high-quality generation requires adversarial training",
+      "gan-style adversarial objectives are required for strong image generation"
+    ]
+  },
+  "outputs": {
+    "num_unique_assumptions": 50,
+    "top_20": [
+      "adversarial training is essential for high quality image generation",
+      "adversarial training is essential for high quality synthetic medical data generation",
+      "sequential architectures are necessary for modeling temporal physiological signals",
+      "large volumes of labeled clinical data are required for effective automated medical diagnosis",
+      "synthetic data generation requires preserving morphological similarity to real data distributions",
+      "bidirectional processing is necessary for capturing complete temporal dependencies in physiological signals",
+      "adversarial training between generator and discriminator is necessary for high quality data generation",
+      "mode collapse is an inherent problem that requires architectural or training modifications to solve",
+      "deep neural networks are required for modeling complex data distributions like natural images",
+      "generator networks mapping from latent noise to data space are essential for generative modeling",
+      "standard normal distributions are the appropriate choice for latent space representations",
+      "adversarial training is necessary for realistic image generation",
+      "convolutional architectures are essential for medical image analysis",
+      "large labeled datasets are required for effective deep learning in medical imaging",
+      "synthetic data augmentation is necessary to address data scarcity in medical domains",
+      "imagenet pre training is beneficial for medical imaging tasks despite domain mismatch",
+      "adversarial training is necessary for high quality generative modeling",
+      "privacy preservation requires removing identity information from learned representations",
+      "variational frameworks are essential for learning structured latent representations",
+      "deep neural networks are necessary for effective facial expression recognition"
+    ]
+  },
+  "metrics": {
+    "soft_rank": 1.0,
+    "soft_recall_at_5": 1.0,
+    "soft_recall_at_10": 1.0,
+    "soft_recall_at_20": 1.0
+  }
+}

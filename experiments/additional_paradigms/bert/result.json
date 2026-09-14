@@ -1,0 +1,72 @@
+{
+  "paradigm": "bert",
+  "display": "BERT / Bidirectional Pre-training",
+  "year": 2018,
+  "ground_truth": "Language model pre-training must be left-to-right (autoregressive)",
+  "ground_truth_aliases": [
+    "Language model pre-training must be left-to-right (autoregressive)",
+    "language models should generate text left-to-right",
+    "autoregressive training is necessary for language model pre-training"
+  ],
+  "num_papers": 20,
+  "num_raw_assumptions": 100,
+  "num_unique_assumptions": 99,
+  "best_similarity": 0.6933,
+  "soft_rank": 20.0,
+  "soft_recall_at_5": 0.0,
+  "soft_recall_at_10": 0.0,
+  "soft_recall_at_20": 1.0,
+  "top_10_assumptions": [
+    {
+      "rank": 20,
+      "assumption": "Language modeling requires autoregressive next-token prediction as the fundamental training objective",
+      "similarity": 0.6933
+    },
+    {
+      "rank": 13,
+      "assumption": "Recurrence is necessary for effective language modeling",
+      "similarity": 0.6355
+    },
+    {
+      "rank": 7,
+      "assumption": "Recurrent neural networks are essential for effective language modeling",
+      "similarity": 0.6296
+    },
+    {
+      "rank": 16,
+      "assumption": "Recurrent architectures are necessary for effective language modeling",
+      "similarity": 0.616
+    },
+    {
+      "rank": 44,
+      "assumption": "Autoregressive word-by-word generation is required for natural language dialogue systems",
+      "similarity": 0.5938
+    },
+    {
+      "rank": 53,
+      "assumption": "Language model pretraining objectives are sufficient for learning useful representations for downstream sequence tasks",
+      "similarity": 0.5626
+    },
+    {
+      "rank": 43,
+      "assumption": "Sequential generation with recurrent architectures is necessary for neural machine translation",
+      "similarity": 0.5541
+    },
+    {
+      "rank": 88,
+      "assumption": "Transfer learning from larger corpora is essential for improving dialogue model performance",
+      "similarity": 0.5414
+    },
+    {
+      "rank": 34,
+      "assumption": "Word-level predictions are necessary for meaningful language modeling evaluation",
+      "similarity": 0.5406
+    },
+    {
+      "rank": 99,
+      "assumption": "LSTM architectures are necessary for sequential language modeling",
+      "similarity": 0.5339
+    }
+  ],
+  "ran_at": "2026-03-22T16:47:09.092924+00:00"
+}

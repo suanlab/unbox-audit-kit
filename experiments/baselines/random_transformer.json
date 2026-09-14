@@ -1,0 +1,56 @@
+{
+  "baseline": "random",
+  "category": "transformer",
+  "ran_at": "2026-03-12T00:25:15.830749+00:00",
+  "inputs": {
+    "num_papers": 60,
+    "ground_truth_aliases": [
+      "recurrence is necessary for sequence modeling",
+      "recurrent structure is required for sequence modeling",
+      "sequence models require recurrence"
+    ]
+  },
+  "config": {
+    "top_ks": [
+      5,
+      10,
+      20
+    ],
+    "candidate_limit": 20,
+    "seed": 7
+  },
+  "outputs": {
+    "num_candidates": 20,
+    "top_candidates": [
+      "CNTK is a powerful computation-graph based deep-learning toolkit for training and evaluating deep neural networks.",
+      "This paper investigates the usefulness of structural syntactic and semantic information additionally incorporated in a baseline neural attention-based model.",
+      "Experiments show that DBLSTM-RNNs outperform DNNs where Mean Opinion Scores are 3.2 and 2.3 respectively.",
+      "Sentiment classification using Comprehensive Attention Recurrent models.",
+      "We introduce a new neural architecture to learn the conditional probability of an output sequence with elements that are discrete tokens corresponding to positions in an input sequence.",
+      "A theoretically grounded application of dropout in recurrent neural networks.",
+      "Learning a Transferable Change Rule from a Recurrent Neural Network for Land Cover Change Detection.",
+      "Experiment results demonstrate that capturing comprehensive contextual information can significantly enhance the classification accuracy compared with the standard recurrent models and the new models can achieve competitive performance compared with the state-of-the-art approaches.",
+      "A deep learning approach to flight delay prediction.",
+      "In this paper, we explore LSTM RNN architectures for large scale acoustic modeling in speech recognition.",
+      "Neural machine translation (NMT) systems have recently achieved results comparable to the state of the art on a few translation tasks, including EnglishFrench and EnglishGerman.",
+      "By restricting subsequent operations to rely on a simple Manhattan metric, we compel the sentence representations learned by our model to form a highly structured space whose geometry reflects complex semantic relationships.",
+      "However, I do have my own two reasons why NLP need not worry about deep learning: (1) It just has to be wonderful for our field for the smartest and most influential people in machine learning to be saying that NLP is the problem area to focus on; and (2) Our field is the domain science of language technology; it's not about the best method of machine learning\u2014the central issue remains the domain problems.",
+      "Accompanying ICML 2015 in Lille, France, there was another, almost as big, event: the 2015 Deep Learning Workshop.",
+      "Our LSTM model is trained on video-sentence pairs and learns to associate a sequence of video frames to a sequence of words in order to generate a description of the event in the video clip.",
+      "Our recurrent neural network based model captures both word sequence and dependency tree substructure information by stacking bidirectional treestructured LSTM-RNNs on bidirectional sequential LSTM-RNNs.",
+      "We introduce a conditional recurrent neural network (RNN) which generates a summary of an input sentence.",
+      "It's not just Deep Learning researchers.",
+      "An Empirical Exploration of Recurrent Network Architectures.",
+      "Then, we design an end-to-end pipeline by integrating 3-D CNN with LSTM, followed by a time series pooling layer and a softmax layer to predict the activities."
+    ]
+  },
+  "metrics": {
+    "rank": 21.0,
+    "recall_at_5": 0.0,
+    "precision_at_5": 0.0,
+    "recall_at_10": 0.0,
+    "precision_at_10": 0.0,
+    "recall_at_20": 0.0,
+    "precision_at_20": 0.0
+  }
+}

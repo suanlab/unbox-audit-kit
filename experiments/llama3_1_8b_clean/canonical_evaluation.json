@@ -1,0 +1,255 @@
+{
+  "evaluator": "canonical_evaluator.py",
+  "ranking_method": "confidence_order (NOT similarity-reranked)",
+  "threshold": 0.65,
+  "embedding_model": "text-embedding-3-small",
+  "input_dir": "experiments/llama3_1_8b_clean",
+  "label": "llama3_1_8b",
+  "aggregate": {
+    "total": 4,
+    "r_at_5": 1,
+    "r_at_10": 2
+  },
+  "results": [
+    {
+      "conf_rank": 10,
+      "best_sim": 0.6743,
+      "r_at_5": 0.0,
+      "r_at_10": 1.0,
+      "r_at_20": 1.0,
+      "top_matches": [
+        {
+          "conf_position": 1,
+          "assumption": "Neural networks are necessary for sequence-to-sequence learning tasks.",
+          "similarity": 0.5085
+        },
+        {
+          "conf_position": 2,
+          "assumption": "Neural networks are necessary for modeling complex sequential data.",
+          "similarity": 0.5244
+        },
+        {
+          "conf_position": 3,
+          "assumption": "Sequential data must be processed in a left-to-right manner for effective processing.",
+          "similarity": 0.3557
+        },
+        {
+          "conf_position": 4,
+          "assumption": "Neural networks must be designed to handle sequential data for tasks like language modeling and natural language inference.",
+          "similarity": 0.4618
+        },
+        {
+          "conf_position": 5,
+          "assumption": "Deep neural networks are necessary for state-of-the-art performance in machine translation",
+          "similarity": 0.2805
+        },
+        {
+          "conf_position": 6,
+          "assumption": "Evaluation of machine translation models requires human-annotated reference translations",
+          "similarity": 0.2671
+        },
+        {
+          "conf_position": 7,
+          "assumption": "Neural networks are necessary for effective machine translation.",
+          "similarity": 0.2954
+        },
+        {
+          "conf_position": 8,
+          "assumption": "Neural networks require a hierarchical structure to learn complex patterns.",
+          "similarity": 0.465
+        },
+        {
+          "conf_position": 9,
+          "assumption": "A neural network architecture is necessary for modeling complex relationships between languages.",
+          "similarity": 0.4283
+        },
+        {
+          "conf_position": 10,
+          "assumption": "Recurrent neural networks are necessary for modeling sequential data.",
+          "similarity": 0.6743
+        }
+      ],
+      "paradigm": "transformer"
+    },
+    {
+      "conf_rank": null,
+      "best_sim": 0.5209,
+      "r_at_5": 0.0,
+      "r_at_10": 0.0,
+      "r_at_20": 0.0,
+      "top_matches": [
+        {
+          "conf_position": 1,
+          "assumption": "Deep neural networks are necessary for image synthesis tasks.",
+          "similarity": 0.5082
+        },
+        {
+          "conf_position": 2,
+          "assumption": "Backpropagation is necessary for training deep neural networks.",
+          "similarity": 0.3783
+        },
+        {
+          "conf_position": 3,
+          "assumption": "Backpropagation is required for training neural networks",
+          "similarity": 0.4
+        },
+        {
+          "conf_position": 4,
+          "assumption": "Deep neural networks are necessary for image synthesis tasks",
+          "similarity": 0.5209
+        },
+        {
+          "conf_position": 5,
+          "assumption": "Deep learning models require large amounts of data to learn meaningful representations.",
+          "similarity": 0.3098
+        },
+        {
+          "conf_position": 6,
+          "assumption": "Generative models require a separate generator and discriminator network for effective learning.",
+          "similarity": 0.5121
+        },
+        {
+          "conf_position": 7,
+          "assumption": "The goal of generative models is to learn a probability distribution over the data.",
+          "similarity": 0.3794
+        },
+        {
+          "conf_position": 8,
+          "assumption": "Generative models can be used to learn distributions over complicated manifolds.",
+          "similarity": 0.3454
+        },
+        {
+          "conf_position": 9,
+          "assumption": "Deep learning models require large amounts of data to achieve high performance",
+          "similarity": 0.3378
+        },
+        {
+          "conf_position": 10,
+          "assumption": "Deep neural networks are necessary for achieving state-of-the-art performance in image recognition tasks.",
+          "similarity": 0.4283
+        }
+      ],
+      "paradigm": "diffusion"
+    },
+    {
+      "conf_rank": null,
+      "best_sim": 0.3921,
+      "r_at_5": 0.0,
+      "r_at_10": 0.0,
+      "r_at_20": 0.0,
+      "top_matches": [
+        {
+          "conf_position": 1,
+          "assumption": "Pretraining is necessary for achieving state-of-the-art results in natural language understanding tasks.",
+          "similarity": 0.3577
+        },
+        {
+          "conf_position": 2,
+          "assumption": "Deep contextual representations are necessary for achieving state-of-the-art performance on various NLP tasks.",
+          "similarity": 0.2597
+        },
+        {
+          "conf_position": 3,
+          "assumption": "Deep neural networks are necessary for modeling complex linguistic phenomena.",
+          "similarity": 0.3125
+        },
+        {
+          "conf_position": 4,
+          "assumption": "Large pretraining corpora are necessary for contextualized embeddings to achieve strong performance across a wide range of natural language processing tasks.",
+          "similarity": 0.2705
+        },
+        {
+          "conf_position": 5,
+          "assumption": "Contextualized embeddings are a necessary component for achieving strong performance on natural language processing tasks.",
+          "similarity": 0.2843
+        },
+        {
+          "conf_position": 6,
+          "assumption": "Deep neural networks are necessary for achieving state-of-the-art performance in natural language processing tasks.",
+          "similarity": 0.3054
+        },
+        {
+          "conf_position": 7,
+          "assumption": "Deep learning architectures are necessary for state-of-the-art performance in natural language processing tasks.",
+          "similarity": 0.2822
+        },
+        {
+          "conf_position": 8,
+          "assumption": "Deep learning models are necessary for natural language processing tasks",
+          "similarity": 0.3027
+        },
+        {
+          "conf_position": 9,
+          "assumption": "Deep learning models require large amounts of data to achieve state-of-the-art performance.",
+          "similarity": 0.3698
+        },
+        {
+          "conf_position": 10,
+          "assumption": "Large amounts of well-formed text data are necessary for training effective language models.",
+          "similarity": 0.3224
+        }
+      ],
+      "paradigm": "icl"
+    },
+    {
+      "conf_rank": 5,
+      "best_sim": 0.6641,
+      "r_at_5": 1.0,
+      "r_at_10": 1.0,
+      "r_at_20": 1.0,
+      "top_matches": [
+        {
+          "conf_position": 1,
+          "assumption": "Deep neural networks require hierarchical representations for effective feature extraction.",
+          "similarity": 0.4233
+        },
+        {
+          "conf_position": 2,
+          "assumption": "Deep neural networks are necessary for achieving state-of-the-art performance in image recognition tasks.",
+          "similarity": 0.4565
+        },
+        {
+          "conf_position": 3,
+          "assumption": "Convolutional neural networks are essential for image classification and object detection tasks.",
+          "similarity": 0.6431
+        },
+        {
+          "conf_position": 4,
+          "assumption": "Deep neural networks are necessary for state-of-the-art performance in computer vision tasks",
+          "similarity": 0.5229
+        },
+        {
+          "conf_position": 5,
+          "assumption": "Convolutional neural networks are essential for image processing and feature extraction",
+          "similarity": 0.655
+        },
+        {
+          "conf_position": 6,
+          "assumption": "Learning spatial transformations is essential for modeling geometric variations in images.",
+          "similarity": 0.4295
+        },
+        {
+          "conf_position": 7,
+          "assumption": "Graphs are necessary for modeling complex spatial relationships in 3D data.",
+          "similarity": 0.3283
+        },
+        {
+          "conf_position": 8,
+          "assumption": "Deep neural networks are necessary for image segmentation tasks.",
+          "similarity": 0.478
+        },
+        {
+          "conf_position": 9,
+          "assumption": "Deep neural networks are necessary for achieving state-of-the-art performance in image classification and semantic segmentation tasks.",
+          "similarity": 0.434
+        },
+        {
+          "conf_position": 10,
+          "assumption": "Deep learning models require a fixed, Euclidean data structure to achieve state-of-the-art performance.",
+          "similarity": 0.3966
+        }
+      ],
+      "paradigm": "vit"
+    }
+  ]
+}

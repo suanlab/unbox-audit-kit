@@ -1,0 +1,893 @@
+{
+  "paradigm": "transformer",
+  "model": "NousResearch/Meta-Llama-3.1-8B-Instruct",
+  "num_papers": 15,
+  "num_raw_assumptions": 150,
+  "num_unique_assumptions": 147,
+  "num_parse_failures": 0,
+  "seed": 42,
+  "assumptions": [
+    {
+      "assumption": "Neural networks are necessary for sequence-to-sequence learning tasks.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Understanding Subtitles by Character-Level Sequence-to-Sequence Learning"
+    },
+    {
+      "assumption": "Neural networks are necessary for modeling complex sequential data.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Listen, attend and spell: A neural network for large vocabulary conversational speech recognition"
+    },
+    {
+      "assumption": "Sequential data must be processed in a left-to-right manner for effective processing.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Long Short-Term Memory-Networks for Machine Reading"
+    },
+    {
+      "assumption": "Neural networks must be designed to handle sequential data for tasks like language modeling and natural language inference.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Long Short-Term Memory-Networks for Machine Reading"
+    },
+    {
+      "assumption": "Deep neural networks are necessary for state-of-the-art performance in machine translation",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Attention-based Multimodal Neural Machine Translation"
+    },
+    {
+      "assumption": "Evaluation of machine translation models requires human-annotated reference translations",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "Attention-based Multimodal Neural Machine Translation"
+    },
+    {
+      "assumption": "Neural networks are necessary for effective machine translation.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Montreal Neural Machine Translation Systems for WMT’15"
+    },
+    {
+      "assumption": "Neural networks require a hierarchical structure to learn complex patterns.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "LSTM, GRU, Highway and a Bit of Attention: An Empirical Overview for Language Modeling in Speech Recognition"
+    },
+    {
+      "assumption": "A neural network architecture is necessary for modeling complex relationships between languages.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Knowledge-Based Semantic Embedding for Machine Translation"
+    },
+    {
+      "assumption": "Recurrent neural networks are necessary for modeling sequential data.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Sentiment classification using Comprehensive Attention Recurrent models"
+    },
+    {
+      "assumption": "Neural networks require a fixed, discrete architecture for training to be feasible.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "An Empirical Exploration of Recurrent Network Architectures"
+    },
+    {
+      "assumption": "Optimization algorithms are necessary for training neural networks.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "An Empirical Exploration of Recurrent Network Architectures"
+    },
+    {
+      "assumption": "Neural networks are necessary for modeling complex sequential data",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Pointer networks"
+    },
+    {
+      "assumption": "Learning to predict discrete tokens is a fundamental problem in NLP",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Pointer networks"
+    },
+    {
+      "assumption": "The number of target classes in each step of the output depends on the length of the input",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Pointer networks"
+    },
+    {
+      "assumption": "Deep neural networks are necessary for modeling complex semantic relationships in natural language processing.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Siamese Recurrent Architectures for Learning Sentence Similarity"
+    },
+    {
+      "assumption": "A neural network architecture is necessary for complex sequence-to-sequence tasks",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks"
+    },
+    {
+      "assumption": "Large datasets are necessary for training effective neural networks",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks"
+    },
+    {
+      "assumption": "Deep learning models require regularization to prevent overfitting.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "A theoretically grounded application of dropout in recurrent neural networks"
+    },
+    {
+      "assumption": "Recurrent neural networks are essential for modeling sequential data.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Understanding Subtitles by Character-Level Sequence-to-Sequence Learning"
+    },
+    {
+      "assumption": "End-to-end learning is required for optimal performance in sequence-to-sequence tasks.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Understanding Subtitles by Character-Level Sequence-to-Sequence Learning"
+    },
+    {
+      "assumption": "End-to-end learning is essential for achieving state-of-the-art performance in speech recognition tasks.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Listen, attend and spell: A neural network for large vocabulary conversational speech recognition"
+    },
+    {
+      "assumption": "Attention mechanisms are required for modeling long-range dependencies in sequential data.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Listen, attend and spell: A neural network for large vocabulary conversational speech recognition"
+    },
+    {
+      "assumption": "Memory is necessary for handling structured input in sequence-level networks.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Long Short-Term Memory-Networks for Machine Reading"
+    },
+    {
+      "assumption": "Attention mechanisms are required for adaptive memory usage during recurrence.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Long Short-Term Memory-Networks for Machine Reading"
+    },
+    {
+      "assumption": "Memory networks are a necessary extension of traditional RNNs for handling structured input.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Long Short-Term Memory-Networks for Machine Reading"
+    },
+    {
+      "assumption": "Attention mechanisms are essential for inducing relations among tokens in sequence-level networks.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Long Short-Term Memory-Networks for Machine Reading"
+    },
+    {
+      "assumption": "Attention mechanisms are essential for modeling long-range dependencies in sequential data.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling"
+    },
+    {
+      "assumption": "Sequential data can be effectively modeled using a combination of encoder and decoder components.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling"
+    },
+    {
+      "assumption": "Attention mechanisms are essential for handling variable-length input sequences in machine translation",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Attention-based Multimodal Neural Machine Translation"
+    },
+    {
+      "assumption": "Long short-term memory (LSTM) networks are required for modeling sequential dependencies in machine translation",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Attention-based Multimodal Neural Machine Translation"
+    },
+    {
+      "assumption": "The quality of machine translation models is directly correlated with their performance on automatic metrics such as BLEU",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Attention-based Multimodal Neural Machine Translation"
+    },
+    {
+      "assumption": "Attention mechanisms are required for handling long-range dependencies in sequential data.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Montreal Neural Machine Translation Systems for WMT’15"
+    },
+    {
+      "assumption": "Language modeling for speech recognition requires large vocabulary and deep neural networks.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "LSTM, GRU, Highway and a Bit of Attention: An Empirical Overview for Language Modeling in Speech Recognition"
+    },
+    {
+      "assumption": "Knowledge representation is essential for improving machine translation performance.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Knowledge-Based Semantic Embedding for Machine Translation"
+    },
+    {
+      "assumption": "Sequence-to-sequence models are required for handling variable-length input and output sequences.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Knowledge-Based Semantic Embedding for Machine Translation"
+    },
+    {
+      "assumption": "Bidirectional models are required for capturing both past and future context in sequential data.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Sentiment classification using Comprehensive Attention Recurrent models"
+    },
+    {
+      "assumption": "Local context is essential for capturing relevant information in sequential data.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Sentiment classification using Comprehensive Attention Recurrent models"
+    },
+    {
+      "assumption": "Large-scale search is necessary to find optimal neural network architectures.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "An Empirical Exploration of Recurrent Network Architectures"
+    },
+    {
+      "assumption": "The performance of neural networks is task-dependent and cannot be generalized across tasks.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "An Empirical Exploration of Recurrent Network Architectures"
+    },
+    {
+      "assumption": "Temporal structure is essential for understanding video data.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Sequence to Sequence -- Video to Text"
+    },
+    {
+      "assumption": "End-to-end training is required for learning complex mappings between input and output sequences.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Sequence to Sequence -- Video to Text"
+    },
+    {
+      "assumption": "Attention mechanisms are essential for handling variable-length input sequences",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Pointer networks"
+    },
+    {
+      "assumption": "Generalization to unseen input lengths is a key requirement for sequential models",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Pointer networks"
+    },
+    {
+      "assumption": "Neural networks can be used to learn approximate solutions to combinatorial optimization problems",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Pointer networks"
+    },
+    {
+      "assumption": "Sequence-to-sequence models are insufficient for handling variable-sized output dictionaries",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Pointer networks"
+    },
+    {
+      "assumption": "Word embeddings are essential for capturing the underlying meaning of words in a sentence.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Siamese Recurrent Architectures for Learning Sentence Similarity"
+    },
+    {
+      "assumption": "LSTM networks are required for modeling sequential data with long-term dependencies.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Siamese Recurrent Architectures for Learning Sentence Similarity"
+    },
+    {
+      "assumption": "Attention mechanisms are required for effective sequence alignment and alignment-based tasks",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks"
+    },
+    {
+      "assumption": "End-to-end training is essential for neural network development",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks"
+    },
+    {
+      "assumption": "Recurrent neural networks are necessary for modeling sequential dependencies",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks"
+    },
+    {
+      "assumption": "Neural networks can be trained to learn features and representations from data",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks"
+    },
+    {
+      "assumption": "Recurrent neural networks are prone to overfitting.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "A theoretically grounded application of dropout in recurrent neural networks"
+    },
+    {
+      "assumption": "Attention mechanisms are necessary for aligning input and output sequences in sequence-to-sequence tasks.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Understanding Subtitles by Character-Level Sequence-to-Sequence Learning"
+    },
+    {
+      "assumption": "Large-scale datasets are necessary for training effective sequence-to-sequence models.",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "Understanding Subtitles by Character-Level Sequence-to-Sequence Learning"
+    },
+    {
+      "assumption": "Recurrent neural networks are necessary for modeling sequential data with temporal dependencies.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Listen, attend and spell: A neural network for large vocabulary conversational speech recognition"
+    },
+    {
+      "assumption": "The use of a separate encoder and decoder is necessary for sequence-to-sequence tasks.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Listen, attend and spell: A neural network for large vocabulary conversational speech recognition"
+    },
+    {
+      "assumption": "The encoder-decoder architecture is a necessary component for many NLP tasks.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Long Short-Term Memory-Networks for Machine Reading"
+    },
+    {
+      "assumption": "The use of shallow reasoning is necessary for effective processing of structured input in sequence-level networks.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Long Short-Term Memory-Networks for Machine Reading"
+    },
+    {
+      "assumption": "Intent detection and slot filling are separate tasks that can be modeled independently.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling"
+    },
+    {
+      "assumption": "Attention mechanisms can be applied to any sequential data to improve performance.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling"
+    },
+    {
+      "assumption": "Multimodal input is required for achieving optimal performance in machine translation tasks",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "Attention-based Multimodal Neural Machine Translation"
+    },
+    {
+      "assumption": "Neural machine translation models require large amounts of training data to achieve optimal performance",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "Attention-based Multimodal Neural Machine Translation"
+    },
+    {
+      "assumption": "Large vocabularies are essential for capturing nuances in language.",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "Montreal Neural Machine Translation Systems for WMT’15"
+    },
+    {
+      "assumption": "Gated architectures are essential for controlling information flow in neural networks.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "LSTM, GRU, Highway and a Bit of Attention: An Empirical Overview for Language Modeling in Speech Recognition"
+    },
+    {
+      "assumption": "Recurrent neural networks are necessary for modeling temporal dependencies in language.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Knowledge-Based Semantic Embedding for Machine Translation"
+    },
+    {
+      "assumption": "Evaluation of machine translation systems requires human-annotated datasets.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Knowledge-Based Semantic Embedding for Machine Translation"
+    },
+    {
+      "assumption": "Deep learning models are necessary for achieving state-of-the-art performance in NLP tasks.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Sentiment classification using Comprehensive Attention Recurrent models"
+    },
+    {
+      "assumption": "End-to-end training is required for achieving optimal model performance.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Sentiment classification using Comprehensive Attention Recurrent models"
+    },
+    {
+      "assumption": "The design of neural network architectures is a matter of trial and error, and there is no systematic way to design optimal architectures.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "An Empirical Exploration of Recurrent Network Architectures"
+    },
+    {
+      "assumption": "The performance of neural networks is highly sensitive to the choice of hyperparameters.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "An Empirical Exploration of Recurrent Network Architectures"
+    },
+    {
+      "assumption": "Language models are necessary for generating coherent text sequences.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Sequence to Sequence -- Video to Text"
+    },
+    {
+      "assumption": "Visual features are essential for understanding video data.",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "Sequence to Sequence -- Video to Text"
+    },
+    {
+      "assumption": "Training on examples alone is sufficient for learning complex tasks",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Pointer networks"
+    },
+    {
+      "assumption": "Evaluation of generalization to unseen input lengths is a critical aspect of model evaluation",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Pointer networks"
+    },
+    {
+      "assumption": "Semantic similarity between sentences can be measured using a fixed-size vector representation.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Siamese Recurrent Architectures for Learning Sentence Similarity"
+    },
+    {
+      "assumption": "Evaluation on benchmark datasets is necessary for establishing the validity of a model",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks"
+    },
+    {
+      "assumption": "Convolutional neural networks are necessary for feature extraction and representation learning",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks"
+    },
+    {
+      "assumption": "Dropout is a necessary component of deep learning models.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "A theoretically grounded application of dropout in recurrent neural networks"
+    },
+    {
+      "assumption": "Word-based or phrase-based systems are the gold standard for sequence-to-sequence tasks.",
+      "confidence": 0.6,
+      "category": "evaluation",
+      "source_paper": "Understanding Subtitles by Character-Level Sequence-to-Sequence Learning"
+    },
+    {
+      "assumption": "Gated recurrent units are essential for modeling complex sequential data.",
+      "confidence": 0.6,
+      "category": "architectural",
+      "source_paper": "Understanding Subtitles by Character-Level Sequence-to-Sequence Learning"
+    },
+    {
+      "assumption": "The independence assumption of output character sequences given the acoustic sequence is not necessary for speech recognition tasks.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Listen, attend and spell: A neural network for large vocabulary conversational speech recognition"
+    },
+    {
+      "assumption": "Large-scale datasets are required for training accurate speech recognition models.",
+      "confidence": 0.6,
+      "category": "data",
+      "source_paper": "Listen, attend and spell: A neural network for large vocabulary conversational speech recognition"
+    },
+    {
+      "assumption": "The use of a single sequence as input is a fundamental requirement for many NLP models.",
+      "confidence": 0.6,
+      "category": "data",
+      "source_paper": "Long Short-Term Memory-Networks for Machine Reading"
+    },
+    {
+      "assumption": "Joint training of multiple tasks is necessary for achieving state-of-the-art performance.",
+      "confidence": 0.6,
+      "category": "training",
+      "source_paper": "Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling"
+    },
+    {
+      "assumption": "The ATIS task is a representative benchmark for evaluating intent detection and slot filling models.",
+      "confidence": 0.6,
+      "category": "evaluation",
+      "source_paper": "Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling"
+    },
+    {
+      "assumption": "Parallel processing of input modalities is necessary for efficient processing in multimodal machine translation",
+      "confidence": 0.6,
+      "category": "architectural",
+      "source_paper": "Attention-based Multimodal Neural Machine Translation"
+    },
+    {
+      "assumption": "Attention-based decoding is necessary for handling out-of-vocabulary words in machine translation",
+      "confidence": 0.6,
+      "category": "architectural",
+      "source_paper": "Attention-based Multimodal Neural Machine Translation"
+    },
+    {
+      "assumption": "Unknown word replacement is necessary for handling out-of-vocabulary words.",
+      "confidence": 0.6,
+      "category": "data",
+      "source_paper": "Montreal Neural Machine Translation Systems for WMT’15"
+    },
+    {
+      "assumption": "Interpolation with count models improves recognition accuracy in speech recognition.",
+      "confidence": 0.6,
+      "category": "evaluation",
+      "source_paper": "LSTM, GRU, Highway and a Bit of Attention: An Empirical Overview for Language Modeling in Speech Recognition"
+    },
+    {
+      "assumption": "Attention mechanisms are beneficial for learning word triggers in language modeling.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "LSTM, GRU, Highway and a Bit of Attention: An Empirical Overview for Language Modeling in Speech Recognition"
+    },
+    {
+      "assumption": "Knowledge bases are necessary for capturing domain-specific knowledge and relationships.",
+      "confidence": 0.6,
+      "category": "data",
+      "source_paper": "Knowledge-Based Semantic Embedding for Machine Translation"
+    },
+    {
+      "assumption": "Semantic meaning is essential for improving the quality of machine translation.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Knowledge-Based Semantic Embedding for Machine Translation"
+    },
+    {
+      "assumption": "Human intervention is not necessary for training deep learning models.",
+      "confidence": 0.6,
+      "category": "training",
+      "source_paper": "Sentiment classification using Comprehensive Attention Recurrent models"
+    },
+    {
+      "assumption": "Evaluation of model performance requires comparison to state-of-the-art approaches.",
+      "confidence": 0.6,
+      "category": "evaluation",
+      "source_paper": "Sentiment classification using Comprehensive Attention Recurrent models"
+    },
+    {
+      "assumption": "The evaluation of neural networks requires a fixed, discrete set of metrics (e.g. accuracy, loss).",
+      "confidence": 0.6,
+      "category": "evaluation",
+      "source_paper": "An Empirical Exploration of Recurrent Network Architectures"
+    },
+    {
+      "assumption": "The training of neural networks requires a large amount of data.",
+      "confidence": 0.6,
+      "category": "data",
+      "source_paper": "An Empirical Exploration of Recurrent Network Architectures"
+    },
+    {
+      "assumption": "Standard evaluation metrics (e.g. accuracy, BLEU score) are necessary for evaluating sequence-to-sequence models.",
+      "confidence": 0.6,
+      "category": "evaluation",
+      "source_paper": "Sequence to Sequence -- Video to Text"
+    },
+    {
+      "assumption": "Large-scale datasets are required for training effective sequence-to-sequence models.",
+      "confidence": 0.6,
+      "category": "data",
+      "source_paper": "Sequence to Sequence -- Video to Text"
+    },
+    {
+      "assumption": "Neural Turing Machines are a necessary component of sequential models",
+      "confidence": 0.6,
+      "category": "architectural",
+      "source_paper": "Pointer networks"
+    },
+    {
+      "assumption": "Manhattan metric is necessary for ensuring the learned sentence representations form a structured space.",
+      "confidence": 0.6,
+      "category": "evaluation",
+      "source_paper": "Siamese Recurrent Architectures for Learning Sentence Similarity"
+    },
+    {
+      "assumption": "LSTMs can learn to capture intricate understanding of language tasks.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Siamese Recurrent Architectures for Learning Sentence Similarity"
+    },
+    {
+      "assumption": "The goal of abstractive summarization is to preserve the meaning of the original text",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks"
+    },
+    {
+      "assumption": "The quality of a model is measured by its performance on benchmark tasks and datasets",
+      "confidence": 0.6,
+      "category": "evaluation",
+      "source_paper": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks"
+    },
+    {
+      "assumption": "Bayesian inference is a suitable framework for understanding deep learning techniques.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "A theoretically grounded application of dropout in recurrent neural networks"
+    },
+    {
+      "assumption": "Character-level input is necessary for handling unknown or rare words in sequences.",
+      "confidence": 0.5,
+      "category": "data",
+      "source_paper": "Understanding Subtitles by Character-Level Sequence-to-Sequence Learning"
+    },
+    {
+      "assumption": "The encoder-decoder framework is a required structure for sequence-to-sequence tasks.",
+      "confidence": 0.5,
+      "category": "architectural",
+      "source_paper": "Understanding Subtitles by Character-Level Sequence-to-Sequence Learning"
+    },
+    {
+      "assumption": "Translation performance is the primary metric for evaluating sequence-to-sequence models.",
+      "confidence": 0.5,
+      "category": "evaluation",
+      "source_paper": "Understanding Subtitles by Character-Level Sequence-to-Sequence Learning"
+    },
+    {
+      "assumption": "Language models are necessary for improving speech recognition performance.",
+      "confidence": 0.5,
+      "category": "theoretical",
+      "source_paper": "Listen, attend and spell: A neural network for large vocabulary conversational speech recognition"
+    },
+    {
+      "assumption": "Beam search is a necessary component of sequence-to-sequence decoding.",
+      "confidence": 0.5,
+      "category": "evaluation",
+      "source_paper": "Listen, attend and spell: A neural network for large vocabulary conversational speech recognition"
+    },
+    {
+      "assumption": "The evaluation of NLP models should focus on matching or outperforming the state of the art.",
+      "confidence": 0.5,
+      "category": "evaluation",
+      "source_paper": "Long Short-Term Memory-Networks for Machine Reading"
+    },
+    {
+      "assumption": "Evaluation metrics such as error rate and F1 score are sufficient for evaluating the performance of intent detection and slot filling models.",
+      "confidence": 0.5,
+      "category": "evaluation",
+      "source_paper": "Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling"
+    },
+    {
+      "assumption": "Neural network models can be trained using a fixed learning rate schedule.",
+      "confidence": 0.5,
+      "category": "training",
+      "source_paper": "Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling"
+    },
+    {
+      "assumption": "The encoder-decoder architecture is the most effective framework for machine translation",
+      "confidence": 0.5,
+      "category": "architectural",
+      "source_paper": "Attention-based Multimodal Neural Machine Translation"
+    },
+    {
+      "assumption": "Monolingual language models are beneficial for improving translation quality.",
+      "confidence": 0.5,
+      "category": "theoretical",
+      "source_paper": "Montreal Neural Machine Translation Systems for WMT’15"
+    },
+    {
+      "assumption": "Deep neural networks are necessary for achieving state-of-the-art performance in speech recognition.",
+      "confidence": 0.5,
+      "category": "architectural",
+      "source_paper": "LSTM, GRU, Highway and a Bit of Attention: An Empirical Overview for Language Modeling in Speech Recognition"
+    },
+    {
+      "assumption": "LSTM and GRU are interchangeable and can be used as transformation functions.",
+      "confidence": 0.5,
+      "category": "architectural",
+      "source_paper": "LSTM, GRU, Highway and a Bit of Attention: An Empirical Overview for Language Modeling in Speech Recognition"
+    },
+    {
+      "assumption": "Highway connections are necessary for enabling deep structure in neural networks.",
+      "confidence": 0.5,
+      "category": "architectural",
+      "source_paper": "LSTM, GRU, Highway and a Bit of Attention: An Empirical Overview for Language Modeling in Speech Recognition"
+    },
+    {
+      "assumption": "Translation tasks require a separate model for each language pair.",
+      "confidence": 0.5,
+      "category": "architectural",
+      "source_paper": "Knowledge-Based Semantic Embedding for Machine Translation"
+    },
+    {
+      "assumption": "Human evaluation is necessary for assessing the quality of machine translation systems.",
+      "confidence": 0.5,
+      "category": "evaluation",
+      "source_paper": "Knowledge-Based Semantic Embedding for Machine Translation"
+    },
+    {
+      "assumption": "Classification accuracy is the primary metric for evaluating model performance in NLP tasks.",
+      "confidence": 0.5,
+      "category": "evaluation",
+      "source_paper": "Sentiment classification using Comprehensive Attention Recurrent models"
+    },
+    {
+      "assumption": "Sequential data can be effectively modeled using a single, monolithic model.",
+      "confidence": 0.5,
+      "category": "architectural",
+      "source_paper": "Sentiment classification using Comprehensive Attention Recurrent models"
+    },
+    {
+      "assumption": "The performance of neural networks is highly dependent on the choice of optimization algorithm and its hyperparameters.",
+      "confidence": 0.5,
+      "category": "training",
+      "source_paper": "An Empirical Exploration of Recurrent Network Architectures"
+    },
+    {
+      "assumption": "The design of neural network architectures is a separate problem from the choice of optimization algorithm and hyperparameters.",
+      "confidence": 0.5,
+      "category": "architectural",
+      "source_paper": "An Empirical Exploration of Recurrent Network Architectures"
+    },
+    {
+      "assumption": "Recurrent neural networks with LSTMs are the most effective architecture for sequence-to-sequence tasks.",
+      "confidence": 0.5,
+      "category": "architectural",
+      "source_paper": "Sequence to Sequence -- Video to Text"
+    },
+    {
+      "assumption": "Training on video-sentence pairs is necessary for learning to generate video descriptions.",
+      "confidence": 0.5,
+      "category": "training",
+      "source_paper": "Sequence to Sequence -- Video to Text"
+    },
+    {
+      "assumption": "The goal of sequence-to-sequence models is to generate coherent and accurate text sequences.",
+      "confidence": 0.5,
+      "category": "theoretical",
+      "source_paper": "Sequence to Sequence -- Video to Text"
+    },
+    {
+      "assumption": "Word-embedding vectors supplemented with synonymic information are necessary for improving sentence representation.",
+      "confidence": 0.5,
+      "category": "data",
+      "source_paper": "Siamese Recurrent Architectures for Learning Sentence Similarity"
+    },
+    {
+      "assumption": "Variable-length sequences require specialized neural network architectures.",
+      "confidence": 0.5,
+      "category": "architectural",
+      "source_paper": "Siamese Recurrent Architectures for Learning Sentence Similarity"
+    },
+    {
+      "assumption": "Variational inference is a viable approach to approximating Bayesian inference in deep learning.",
+      "confidence": 0.5,
+      "category": "theoretical",
+      "source_paper": "A theoretically grounded application of dropout in recurrent neural networks"
+    },
+    {
+      "assumption": "Word error rate (WER) is a sufficient metric for evaluating speech recognition performance.",
+      "confidence": 0.4,
+      "category": "evaluation",
+      "source_paper": "Listen, attend and spell: A neural network for large vocabulary conversational speech recognition"
+    },
+    {
+      "assumption": "The performance of a model can be improved by simply combining the outputs of multiple models.",
+      "confidence": 0.4,
+      "category": "theoretical",
+      "source_paper": "Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling"
+    },
+    {
+      "assumption": "Human evaluation is necessary for understanding the behavior of machine translation systems.",
+      "confidence": 0.4,
+      "category": "evaluation",
+      "source_paper": "Montreal Neural Machine Translation Systems for WMT’15"
+    },
+    {
+      "assumption": "Evaluation of speech recognition systems requires a combination of recognition accuracy and other metrics.",
+      "confidence": 0.4,
+      "category": "evaluation",
+      "source_paper": "LSTM, GRU, Highway and a Bit of Attention: An Empirical Overview for Language Modeling in Speech Recognition"
+    },
+    {
+      "assumption": "Large-scale datasets are required for training effective machine translation models.",
+      "confidence": 0.4,
+      "category": "data",
+      "source_paper": "Knowledge-Based Semantic Embedding for Machine Translation"
+    },
+    {
+      "assumption": "The structure of the model should be designed to mimic human cognition.",
+      "confidence": 0.4,
+      "category": "architectural",
+      "source_paper": "Sentiment classification using Comprehensive Attention Recurrent models"
+    },
+    {
+      "assumption": "Semantic similarity is a well-defined and measurable concept.",
+      "confidence": 0.4,
+      "category": "theoretical",
+      "source_paper": "Siamese Recurrent Architectures for Learning Sentence Similarity"
+    },
+    {
+      "assumption": "LSTM networks can be effectively trained using standard optimization algorithms.",
+      "confidence": 0.4,
+      "category": "training",
+      "source_paper": "Siamese Recurrent Architectures for Learning Sentence Similarity"
+    },
+    {
+      "assumption": "Language modeling is a suitable task for evaluating the performance of deep learning models.",
+      "confidence": 0.4,
+      "category": "evaluation",
+      "source_paper": "A theoretically grounded application of dropout in recurrent neural networks"
+    },
+    {
+      "assumption": "The encoder-decoder architecture is a fundamental component of neural machine translation systems.",
+      "confidence": 0.3,
+      "category": "architectural",
+      "source_paper": "Montreal Neural Machine Translation Systems for WMT’15"
+    },
+    {
+      "assumption": "Deep learning models can be improved by applying techniques from Bayesian inference.",
+      "confidence": 0.3,
+      "category": "theoretical",
+      "source_paper": "A theoretically grounded application of dropout in recurrent neural networks"
+    },
+    {
+      "assumption": "RNNs are a suitable choice for sequence-to-sequence tasks.",
+      "confidence": 0.2,
+      "category": "architectural",
+      "source_paper": "Montreal Neural Machine Translation Systems for WMT’15"
+    },
+    {
+      "assumption": "Recurrent neural networks are a necessary component of natural language processing tasks.",
+      "confidence": 0.2,
+      "category": "architectural",
+      "source_paper": "A theoretically grounded application of dropout in recurrent neural networks"
+    },
+    {
+      "assumption": "The quality of machine translation systems can be improved by leveraging recent developments in the field.",
+      "confidence": 0.1,
+      "category": "theoretical",
+      "source_paper": "Montreal Neural Machine Translation Systems for WMT’15"
+    },
+    {
+      "assumption": "Perplexity is a suitable metric for evaluating the performance of language models.",
+      "confidence": 0.1,
+      "category": "evaluation",
+      "source_paper": "A theoretically grounded application of dropout in recurrent neural networks"
+    },
+    {
+      "assumption": "The goal of machine translation is to produce human-like translations.",
+      "confidence": 0.0,
+      "category": "theoretical",
+      "source_paper": "Montreal Neural Machine Translation Systems for WMT’15"
+    },
+    {
+      "assumption": "Deep learning models can be improved by using more complex architectures.",
+      "confidence": 0.0,
+      "category": "architectural",
+      "source_paper": "A theoretically grounded application of dropout in recurrent neural networks"
+    }
+  ]
+}

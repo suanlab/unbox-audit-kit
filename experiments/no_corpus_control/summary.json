@@ -1,0 +1,301 @@
+{
+  "experiment": "no_corpus_memorization_control",
+  "model": "gpt-4o",
+  "num_calls_per_field": 15,
+  "soft_threshold": 0.65,
+  "conditions": {
+    "with_year": "Field name with year hint (e.g., 'pre-2017')",
+    "no_year": "Field name only, no year hint",
+    "corpus_based": "Original per-paper extraction (from gpt4o_clean_prompt)"
+  },
+  "comparison": [
+    {
+      "paradigm": "transformer",
+      "corpus_based": {
+        "best_similarity": 0.6744,
+        "soft_rank": 1,
+        "recall_at_5": 1.0,
+        "num_unique": 149
+      },
+      "no_corpus_with_year": {
+        "best_similarity": 0.7258,
+        "soft_rank": 12,
+        "recall_at_5": 0.0,
+        "num_unique": 57,
+        "best_matching_assumption": "Recurrent neural networks are necessary for capturing sequential dependencies in sequence modeling",
+        "top_5": [
+          {
+            "assumption": "Recurrent neural networks are necessary for capturing sequential dependencies in sequence modeling",
+            "similarity": 0.7258
+          },
+          {
+            "assumption": "Handling variable-length sequences is required for effective sequence modeling",
+            "similarity": 0.6555
+          },
+          {
+            "assumption": "Handling variable-length sequences is required for effective sequence modeling.",
+            "similarity": 0.6405
+          },
+          {
+            "assumption": "Recurrent neural networks are necessary for modeling sequential data in neural machine translation.",
+            "similarity": 0.6351
+          },
+          {
+            "assumption": "Recurrent neural networks are necessary for modeling sequential data in machine translation",
+            "similarity": 0.629
+          }
+        ]
+      },
+      "no_corpus_no_year": {
+        "best_similarity": 0.6793,
+        "soft_rank": 1,
+        "recall_at_5": 1.0,
+        "num_unique": 71,
+        "best_matching_assumption": "Recurrent neural networks or their variants are necessary for modeling sequential data",
+        "top_5": [
+          {
+            "assumption": "Recurrent neural networks or their variants are necessary for modeling sequential data",
+            "similarity": 0.6793
+          },
+          {
+            "assumption": "Sequence models require robust handling of long-range dependencies",
+            "similarity": 0.6662
+          },
+          {
+            "assumption": "Sequence models must capture temporal dependencies to be effective",
+            "similarity": 0.6562
+          },
+          {
+            "assumption": "Recurrent neural networks are necessary for capturing temporal dependencies in sequence data.",
+            "similarity": 0.6551
+          },
+          {
+            "assumption": "Sequential data is essential for sequence modeling.",
+            "similarity": 0.6546
+          }
+        ]
+      }
+    },
+    {
+      "paradigm": "diffusion",
+      "corpus_based": {
+        "best_similarity": 0.7591,
+        "soft_rank": 1,
+        "recall_at_5": 1.0,
+        "num_unique": 149
+      },
+      "no_corpus_with_year": {
+        "best_similarity": 0.7626,
+        "soft_rank": 3,
+        "recall_at_5": 1.0,
+        "num_unique": 61,
+        "best_matching_assumption": "Adversarial training is required for improving the quality of generated images",
+        "top_5": [
+          {
+            "assumption": "Adversarial training is required for improving the quality of generated images",
+            "similarity": 0.7626
+          },
+          {
+            "assumption": "Adversarial training is required for improving the realism of generated images.",
+            "similarity": 0.6978
+          },
+          {
+            "assumption": "Generative Adversarial Networks (GANs) are essential for state-of-the-art image synthesis",
+            "similarity": 0.6059
+          },
+          {
+            "assumption": "Generative models require a balance between generator and discriminator for stable training",
+            "similarity": 0.5559
+          },
+          {
+            "assumption": "Data augmentation is necessary for improving model generalization in image synthesis",
+            "similarity": 0.5371
+          }
+        ]
+      },
+      "no_corpus_no_year": {
+        "best_similarity": 0.8169,
+        "soft_rank": 4,
+        "recall_at_5": 1.0,
+        "num_unique": 65,
+        "best_matching_assumption": "Adversarial training is necessary for improving the quality of generative models",
+        "top_5": [
+          {
+            "assumption": "Adversarial training is necessary for improving the quality of generative models",
+            "similarity": 0.8169
+          },
+          {
+            "assumption": "Adversarial training is essential for improving the quality of generative models",
+            "similarity": 0.8093
+          },
+          {
+            "assumption": "Adversarial training is required for improving the quality of generative models",
+            "similarity": 0.8073
+          },
+          {
+            "assumption": "Adversarial training is required for improving the realism of generated samples",
+            "similarity": 0.7242
+          },
+          {
+            "assumption": "Training stability is essential for the successful development of generative adversarial networks",
+            "similarity": 0.5842
+          }
+        ]
+      }
+    },
+    {
+      "paradigm": "icl",
+      "corpus_based": {
+        "best_similarity": 0.8057,
+        "soft_rank": 1,
+        "recall_at_5": 1.0,
+        "num_unique": 147
+      },
+      "no_corpus_with_year": {
+        "best_similarity": 0.7963,
+        "soft_rank": 2,
+        "recall_at_5": 1.0,
+        "num_unique": 69,
+        "best_matching_assumption": "Fine-tuning is required for adapting pre-trained models to specific tasks.",
+        "top_5": [
+          {
+            "assumption": "Fine-tuning is required for adapting pre-trained models to specific tasks.",
+            "similarity": 0.7963
+          },
+          {
+            "assumption": "Fine-tuning on task-specific data is necessary for adapting pre-trained models to new tasks.",
+            "similarity": 0.7607
+          },
+          {
+            "assumption": "Task-specific adaptation is essential for maximizing the utility of pre-trained models.",
+            "similarity": 0.6589
+          },
+          {
+            "assumption": "Task-specific adaptation techniques are necessary to maximize the benefits of transfer learning.",
+            "similarity": 0.6331
+          },
+          {
+            "assumption": "Task-specific adaptation is essential for maximizing the benefits of transfer learning.",
+            "similarity": 0.6317
+          }
+        ]
+      },
+      "no_corpus_no_year": {
+        "best_similarity": 0.7505,
+        "soft_rank": 2,
+        "recall_at_5": 1.0,
+        "num_unique": 87,
+        "best_matching_assumption": "Fine-tuning is required for adapting pre-trained models to specific NLP tasks",
+        "top_5": [
+          {
+            "assumption": "Fine-tuning is required for adapting pre-trained models to specific NLP tasks",
+            "similarity": 0.7505
+          },
+          {
+            "assumption": "Fine-tuning is required for adapting pre-trained models to specific NLP tasks.",
+            "similarity": 0.7418
+          },
+          {
+            "assumption": "Fine-tuning on task-specific data is necessary for achieving high performance in transfer learning",
+            "similarity": 0.7175
+          },
+          {
+            "assumption": "Fine-tuning on task-specific data is necessary for achieving high performance in transfer learning.",
+            "similarity": 0.711
+          },
+          {
+            "assumption": "Continuous updating of pre-trained models is required to maintain their relevance and performance.",
+            "similarity": 0.5548
+          }
+        ]
+      }
+    },
+    {
+      "paradigm": "vit",
+      "corpus_based": {
+        "best_similarity": 0.6764,
+        "soft_rank": 1,
+        "recall_at_5": 1.0,
+        "num_unique": 150
+      },
+      "no_corpus_with_year": {
+        "best_similarity": 0.7316,
+        "soft_rank": 4,
+        "recall_at_5": 1.0,
+        "num_unique": 60,
+        "best_matching_assumption": "Convolutional layers are essential for capturing spatial hierarchies in images",
+        "top_5": [
+          {
+            "assumption": "Convolutional layers are essential for capturing spatial hierarchies in images",
+            "similarity": 0.7316
+          },
+          {
+            "assumption": "Convolutional layers are essential for capturing spatial hierarchies in image data",
+            "similarity": 0.7272
+          },
+          {
+            "assumption": "Convolutional layers are essential for capturing spatial hierarchies in images.",
+            "similarity": 0.7201
+          },
+          {
+            "assumption": "Deep neural networks are necessary for achieving state-of-the-art performance in visual recognition tasks",
+            "similarity": 0.5164
+          },
+          {
+            "assumption": "Supervised learning is required for training accurate image classification models",
+            "similarity": 0.4882
+          }
+        ]
+      },
+      "no_corpus_no_year": {
+        "best_similarity": 0.7739,
+        "soft_rank": 5,
+        "recall_at_5": 1.0,
+        "num_unique": 58,
+        "best_matching_assumption": "Convolutional layers are necessary for capturing spatial hierarchies in visual data",
+        "top_5": [
+          {
+            "assumption": "Convolutional layers are necessary for capturing spatial hierarchies in visual data",
+            "similarity": 0.7739
+          },
+          {
+            "assumption": "Convolutional layers are necessary for capturing spatial hierarchies in image data",
+            "similarity": 0.7484
+          },
+          {
+            "assumption": "Convolutional neural networks are essential for processing visual data",
+            "similarity": 0.7348
+          },
+          {
+            "assumption": "Convolutional layers are essential for capturing spatial hierarchies in image data",
+            "similarity": 0.7272
+          },
+          {
+            "assumption": "Convolutional neural networks are necessary for processing image data effectively",
+            "similarity": 0.7149
+          }
+        ]
+      }
+    }
+  ],
+  "aggregate": {
+    "corpus_based": {
+      "avg_best_similarity": 0.7289,
+      "avg_rank": 1.0,
+      "hits_at_5": 4
+    },
+    "no_corpus_with_year": {
+      "avg_best_similarity": 0.7541,
+      "avg_rank": 5.25,
+      "hits_at_5": 3,
+      "hits_at_10": 3
+    },
+    "no_corpus_no_year": {
+      "avg_best_similarity": 0.7551,
+      "avg_rank": 3.0,
+      "hits_at_5": 4,
+      "hits_at_10": 4
+    }
+  },
+  "interpretation": "WARNING: No-corpus control achieves comparable or identical hit rates to corpus-based extraction (no_year: 4/4, with_year: 3/4, corpus: 4/4). The model can identify all 4 paradigm-breaking assumptions from field name alone WITHOUT any paper text. This strongly suggests GPT-4o is retrieving known paradigm shifts from pretraining memory rather than extracting them from the corpus. Notably, the no-year condition (4/4 hits) actually outperforms with-year (3/4 hits), indicating year hints are unnecessary -- the model already knows these breakthroughs. Average best similarity is actually HIGHER without corpus (0.755) than with corpus (0.729). However, corpus-based extraction achieves rank-1 consistently (avg_rank=1.0) while no-corpus has higher average rank (3.0-5.25), suggesting the corpus helps prioritize the correct assumption even if the model already knows it."
+}

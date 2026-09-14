@@ -1,0 +1,51 @@
+{
+  "baseline": "scam",
+  "category": "transformer",
+  "ran_at": "2026-03-18T20:20:31.820842+00:00",
+  "config": {
+    "n_samples": 5,
+    "max_papers": 60,
+    "max_assumptions_per_sample": 5,
+    "threshold": 0.65,
+    "prompt": "field_wide"
+  },
+  "inputs": {
+    "num_papers": 60,
+    "ground_truth_aliases": [
+      "recurrence is necessary for sequence modeling",
+      "recurrent structure is required for sequence modeling",
+      "sequence models require recurrence"
+    ]
+  },
+  "outputs": {
+    "num_unique_assumptions": 50,
+    "top_20": [
+      "encoder decoder architectures are necessary for sequence to sequence translation tasks",
+      "encoder decoder architectures are essential for sequence to sequence tasks",
+      "attention mechanisms are essential for handling variable length input output alignments in sequence to sequence tasks",
+      "sequential processing with recurrence is necessary for understanding variable length text sequences",
+      "recurrent architectures are necessary for processing variable length sequential text",
+      "recurrent architectures are necessary for modeling sequential temporal data",
+      "recurrent architectures are necessary for modeling temporal dependencies in sequential data",
+      "lstm architectures are necessary for capturing long term dependencies in sequential data",
+      "sequential processing requires recurrent neural networks",
+      "word level tokenization is the standard for neural machine translation",
+      "attention mechanisms require explicit alignment between encoder and decoder states",
+      "translation quality requires comparison against phrase based statistical systems",
+      "hidden markov models are essential for modeling sequential dependencies in speech recognition",
+      "separate acoustic pronunciation and language models are necessary for effective speech recognition",
+      "sequential output generation requires recurrent neural networks for temporal modeling",
+      "character level modeling is necessary for handling out of vocabulary words in speech recognition",
+      "left to right incremental processing is essential for natural language understanding",
+      "memory mechanisms are required for handling long range dependencies in text",
+      "recurrent architectures are necessary for sequential text processing",
+      "attention mechanisms are necessary for relating non adjacent tokens in sequences"
+    ]
+  },
+  "metrics": {
+    "soft_rank": 6.0,
+    "soft_recall_at_5": 0.0,
+    "soft_recall_at_10": 1.0,
+    "soft_recall_at_20": 1.0
+  }
+}

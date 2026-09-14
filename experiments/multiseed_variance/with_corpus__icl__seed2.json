@@ -1,0 +1,12 @@
+{
+  "condition": "with_corpus",
+  "key": "icl",
+  "seed": 2,
+  "num_unique": 148,
+  "conf_rank": 5,
+  "best_sim": 0.8038,
+  "r_at_5": 1,
+  "r_at_10": 1,
+  "r_at_20": 1,
+  "elapsed_s": 78.6
+}

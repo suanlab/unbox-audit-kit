@@ -1,0 +1,902 @@
+{
+  "paradigm": "lora",
+  "name": "LoRA",
+  "num_papers": 15,
+  "num_raw": 150,
+  "num_unique": 148,
+  "ground_truth": "Fine-tuning requires updating all model parameters",
+  "aliases": [
+    "full parameter updates are necessary for task adaptation",
+    "all weights must be modified during fine-tuning"
+  ],
+  "assumptions": [
+    {
+      "assumption": "Pretrained language models are essential for achieving state-of-the-art performance in natural language processing tasks.",
+      "confidence": 1.0,
+      "category": "theoretical",
+      "source_paper": "AutoPrompt: Eliciting Knowledge from Language Models with Automatically Generated Prompts"
+    },
+    {
+      "assumption": "Pre-trained language models are essential for achieving state-of-the-art performance in NLP tasks.",
+      "confidence": 0.95,
+      "category": "theoretical",
+      "source_paper": "Integrating Multimodal Information in Large Pretrained Transformers"
+    },
+    {
+      "assumption": "Language models have an inherent capability to store and retrieve factual knowledge.",
+      "confidence": 0.95,
+      "category": "theoretical",
+      "source_paper": "AutoPrompt: Eliciting Knowledge from Language Models with Automatically Generated Prompts"
+    },
+    {
+      "assumption": "Transformer architectures are essential for state-of-the-art performance in NLP tasks.",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Q-BERT: Hessian Based Ultra Low Precision Quantization of BERT"
+    },
+    {
+      "assumption": "Pre-trained models are essential for achieving state-of-the-art performance in language generation tasks.",
+      "confidence": 0.95,
+      "category": "theoretical",
+      "source_paper": "Exploring Versatile Generative Language Model Via Parameter-Efficient Transfer Learning"
+    },
+    {
+      "assumption": "Pre-trained language models are essential for achieving state-of-the-art performance in natural language processing tasks.",
+      "confidence": 0.95,
+      "category": "theoretical",
+      "source_paper": "TinyBERT: Distilling BERT for Natural Language Understanding"
+    },
+    {
+      "assumption": "Pre-training on large-scale datasets is necessary for achieving state-of-the-art performance in vision-language tasks.",
+      "confidence": 0.95,
+      "category": "training",
+      "source_paper": "Unified Vision-Language Pre-Training for Image Captioning and VQA"
+    },
+    {
+      "assumption": "Convolutional neural networks (CNNs) are necessary for effective visual recognition tasks.",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "NetVLAD: CNN Architecture for Weakly Supervised Place Recognition"
+    },
+    {
+      "assumption": "Backpropagation is required for training neural networks effectively.",
+      "confidence": 0.95,
+      "category": "training",
+      "source_paper": "NetVLAD: CNN Architecture for Weakly Supervised Place Recognition"
+    },
+    {
+      "assumption": "Pretrained language models are essential for achieving state-of-the-art performance in NLP tasks.",
+      "confidence": 0.95,
+      "category": "training",
+      "source_paper": "LUKE: Deep Contextualized Entity Representations with Entity-aware Self-attention"
+    },
+    {
+      "assumption": "Fine-tuning pre-trained models on task-specific datasets is necessary for superior downstream performance.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Integrating Multimodal Information in Large Pretrained Transformers"
+    },
+    {
+      "assumption": "Reformulating tasks as fill-in-the-blank problems is necessary for evaluating the knowledge contained in language models.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "AutoPrompt: Eliciting Knowledge from Language Models with Automatically Generated Prompts"
+    },
+    {
+      "assumption": "Masked language models are necessary for performing tasks like sentiment analysis and natural language inference without additional parameters.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "AutoPrompt: Eliciting Knowledge from Language Models with Automatically Generated Prompts"
+    },
+    {
+      "assumption": "Large-scale unlabeled data is essential for effective self-supervised learning in remote sensing.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Self-Supervised Pretraining of Transformers for Satellite Image Time Series Classification"
+    },
+    {
+      "assumption": "Pretraining is necessary for improving model generalization in tasks with limited labeled data.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Self-Supervised Pretraining of Transformers for Satellite Image Time Series Classification"
+    },
+    {
+      "assumption": "Quantization is necessary for deploying large models like BERT in resource-constrained environments.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Q-BERT: Hessian Based Ultra Low Precision Quantization of BERT"
+    },
+    {
+      "assumption": "Maintaining model accuracy is essential when applying compression techniques.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "Q-BERT: Hessian Based Ultra Low Precision Quantization of BERT"
+    },
+    {
+      "assumption": "Parameter-efficient transfer learning is necessary for adapting large models to multiple tasks in resource-constrained environments.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Exploring Versatile Generative Language Model Via Parameter-Efficient Transfer Learning"
+    },
+    {
+      "assumption": "Fine-tuning is required for adapting pre-trained models to specific downstream tasks.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Exploring Versatile Generative Language Model Via Parameter-Efficient Transfer Learning"
+    },
+    {
+      "assumption": "Graph neural networks are necessary for modeling structured data.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Heterogeneous Graph Transformer"
+    },
+    {
+      "assumption": "Transformer architectures are necessary for building effective language models.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "DeeBERT: Dynamic Early Exiting for Accelerating BERT Inference"
+    },
+    {
+      "assumption": "Fine-tuning pre-trained models on specific tasks is required for optimal performance.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "DeeBERT: Dynamic Early Exiting for Accelerating BERT Inference"
+    },
+    {
+      "assumption": "Knowledge distillation is necessary for reducing the size of large language models while maintaining their performance.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "TinyBERT: Distilling BERT for Natural Language Understanding"
+    },
+    {
+      "assumption": "Transformer architecture is required for effective language model pre-training.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "TinyBERT: Distilling BERT for Natural Language Understanding"
+    },
+    {
+      "assumption": "A shared multi-layer transformer network is essential for unified vision-language tasks.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Unified Vision-Language Pre-Training for Image Captioning and VQA"
+    },
+    {
+      "assumption": "Image-text pairs are required for effective vision-language pre-training.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Unified Vision-Language Pre-Training for Image Captioning and VQA"
+    },
+    {
+      "assumption": "Fine-tuning is necessary for adapting pre-trained models to specific vision-language tasks.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Unified Vision-Language Pre-Training for Image Captioning and VQA"
+    },
+    {
+      "assumption": "Transformer networks are necessary for modern vision-language model architectures.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Unified Vision-Language Pre-Training for Image Captioning and VQA"
+    },
+    {
+      "assumption": "Deep learning architectures are necessary for effective text categorization.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Deep Pyramid Convolutional Neural Networks for Text Categorization"
+    },
+    {
+      "assumption": "Incorporating domain-specific knowledge is necessary for improving the performance of language models on domain-specific tasks.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "K-BERT: Enabling Language Representation with Knowledge Graph"
+    },
+    {
+      "assumption": "Pre-trained language models are essential for effective natural language processing tasks.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Hate speech detection and racial bias mitigation in social media based on BERT model"
+    },
+    {
+      "assumption": "Mitigating bias in training data is essential for fair and unbiased machine learning models.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Hate speech detection and racial bias mitigation in social media based on BERT model"
+    },
+    {
+      "assumption": "Systematic bias in classifiers is a critical issue that must be addressed for ethical AI deployment.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Hate speech detection and racial bias mitigation in social media based on BERT model"
+    },
+    {
+      "assumption": "End-to-end training is essential for optimizing CNN architectures for specific tasks.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "NetVLAD: CNN Architecture for Weakly Supervised Place Recognition"
+    },
+    {
+      "assumption": "Feature aggregation methods, like VLAD, are essential for improving image representation in retrieval tasks.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "NetVLAD: CNN Architecture for Weakly Supervised Place Recognition"
+    },
+    {
+      "assumption": "Large-scale datasets are necessary for training robust visual recognition models.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "NetVLAD: CNN Architecture for Weakly Supervised Place Recognition"
+    },
+    {
+      "assumption": "Benchmarking against standard datasets is essential for evaluating the performance of visual recognition models.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "NetVLAD: CNN Architecture for Weakly Supervised Place Recognition"
+    },
+    {
+      "assumption": "Generalization from training data to unseen data is necessary for the practical application of recognition models.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "NetVLAD: CNN Architecture for Weakly Supervised Place Recognition"
+    },
+    {
+      "assumption": "Contextualized word representations are necessary for capturing the meaning of words in different contexts.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "LUKE: Deep Contextualized Entity Representations with Entity-aware Self-attention"
+    },
+    {
+      "assumption": "Entity representations are required for tasks involving named entities.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "LUKE: Deep Contextualized Entity Representations with Entity-aware Self-attention"
+    },
+    {
+      "assumption": "Contrastive learning is essential for effective self-supervised learning.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "A Survey on Contrastive Self-Supervised Learning"
+    },
+    {
+      "assumption": "Embedding augmented versions of the same sample close to each other is necessary for contrastive learning.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "A Survey on Contrastive Self-Supervised Learning"
+    },
+    {
+      "assumption": "Performance on downstream tasks is required for evaluating self-supervised learning methods.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "A Survey on Contrastive Self-Supervised Learning"
+    },
+    {
+      "assumption": "Augmentation of data samples is necessary for contrastive learning.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "A Survey on Contrastive Self-Supervised Learning"
+    },
+    {
+      "assumption": "Embedding different samples far apart is necessary for contrastive learning.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "A Survey on Contrastive Self-Supervised Learning"
+    },
+    {
+      "assumption": "Multimodal integration is required for modeling face-to-face communication effectively.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Integrating Multimodal Information in Large Pretrained Transformers"
+    },
+    {
+      "assumption": "Automatically generated prompts are required for reducing manual effort in task reformulation for language models.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "AutoPrompt: Eliciting Knowledge from Language Models with Automatically Generated Prompts"
+    },
+    {
+      "assumption": "Parameter-free methods are essential for probing the capabilities of language models without additional finetuning.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "AutoPrompt: Eliciting Knowledge from Language Models with Automatically Generated Prompts"
+    },
+    {
+      "assumption": "Self-supervised learning is essential for leveraging unlabeled data in deep learning models.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Self-Supervised Pretraining of Transformers for Satellite Image Time Series Classification"
+    },
+    {
+      "assumption": "Fine-tuning pretrained models is necessary for adapting to specific tasks with limited labeled data.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Self-Supervised Pretraining of Transformers for Satellite Image Time Series Classification"
+    },
+    {
+      "assumption": "Fine-tuning pre-trained models is required for achieving high performance on specific NLP tasks.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Q-BERT: Hessian Based Ultra Low Precision Quantization of BERT"
+    },
+    {
+      "assumption": "A single, large model is necessary for handling multiple language generation tasks effectively.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Exploring Versatile Generative Language Model Via Parameter-Efficient Transfer Learning"
+    },
+    {
+      "assumption": "Maintaining or improving performance with minimal additional parameters is essential for efficient model adaptation.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Exploring Versatile Generative Language Model Via Parameter-Efficient Transfer Learning"
+    },
+    {
+      "assumption": "Handling heterogeneity is essential for accurately representing complex graph structures.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Heterogeneous Graph Transformer"
+    },
+    {
+      "assumption": "Reducing inference time is essential for deploying models in real-time applications.",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "DeeBERT: Dynamic Early Exiting for Accelerating BERT Inference"
+    },
+    {
+      "assumption": "Layer-wise processing in transformers is necessary for capturing complex language patterns.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "DeeBERT: Dynamic Early Exiting for Accelerating BERT Inference"
+    },
+    {
+      "assumption": "A two-stage learning framework is essential for capturing both general-domain and task-specific knowledge in language models.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "TinyBERT: Distilling BERT for Natural Language Understanding"
+    },
+    {
+      "assumption": "Large 'teacher' models are necessary for effective knowledge transfer to smaller 'student' models.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "TinyBERT: Distilling BERT for Natural Language Understanding"
+    },
+    {
+      "assumption": "Masked prediction objectives are essential for unsupervised learning in vision-language models.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Unified Vision-Language Pre-Training for Image Captioning and VQA"
+    },
+    {
+      "assumption": "Benchmark datasets like COCO Captions, Flickr30k Captions, and VQA 2.0 are essential for evaluating vision-language models.",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "Unified Vision-Language Pre-Training for Image Captioning and VQA"
+    },
+    {
+      "assumption": "Self-attention mechanisms are required for effective context modeling in vision-language tasks.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Unified Vision-Language Pre-Training for Image Captioning and VQA"
+    },
+    {
+      "assumption": "Convolutional neural networks (CNNs) are essential for capturing spatial hierarchies in text data.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Deep Pyramid Convolutional Neural Networks for Text Categorization"
+    },
+    {
+      "assumption": "Knowledge graphs are required for providing structured domain-specific knowledge to language models.",
+      "confidence": 0.85,
+      "category": "data",
+      "source_paper": "K-BERT: Enabling Language Representation with Knowledge Graph"
+    },
+    {
+      "assumption": "Transfer learning is necessary for improving model performance on specific tasks with limited data.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Hate speech detection and racial bias mitigation in social media based on BERT model"
+    },
+    {
+      "assumption": "Fine-tuning pre-trained models is essential for adapting them to specific tasks.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Hate speech detection and racial bias mitigation in social media based on BERT model"
+    },
+    {
+      "assumption": "Bias alleviation mechanisms are required to ensure fairness in machine learning applications.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Hate speech detection and racial bias mitigation in social media based on BERT model"
+    },
+    {
+      "assumption": "Weakly supervised learning is required for handling large-scale datasets where full supervision is impractical.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "NetVLAD: CNN Architecture for Weakly Supervised Place Recognition"
+    },
+    {
+      "assumption": "Image representations need to be compact and discriminative for efficient retrieval.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "NetVLAD: CNN Architecture for Weakly Supervised Place Recognition"
+    },
+    {
+      "assumption": "The ability to integrate new layers into existing architectures is essential for advancing CNN capabilities.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "NetVLAD: CNN Architecture for Weakly Supervised Place Recognition"
+    },
+    {
+      "assumption": "Large-scale annotated corpora are essential for effective pretraining of language models.",
+      "confidence": 0.85,
+      "category": "data",
+      "source_paper": "LUKE: Deep Contextualized Entity Representations with Entity-aware Self-attention"
+    },
+    {
+      "assumption": "Transformer architectures are necessary for modeling complex dependencies in text.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "LUKE: Deep Contextualized Entity Representations with Entity-aware Self-attention"
+    },
+    {
+      "assumption": "Architectural modifications are necessary for pre-trained models to handle multimodal data.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Integrating Multimodal Information in Large Pretrained Transformers"
+    },
+    {
+      "assumption": "Gradient-guided search is essential for creating effective prompts for language models.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "AutoPrompt: Eliciting Knowledge from Language Models with Automatically Generated Prompts"
+    },
+    {
+      "assumption": "The LAMA benchmark is required for evaluating the factual knowledge elicitation capabilities of language models.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "AutoPrompt: Eliciting Knowledge from Language Models with Automatically Generated Prompts"
+    },
+    {
+      "assumption": "Relation extraction can be effectively performed by language models without supervision.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "AutoPrompt: Eliciting Knowledge from Language Models with Automatically Generated Prompts"
+    },
+    {
+      "assumption": "Transformers are required for capturing complex temporal dependencies in satellite image time series.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Self-Supervised Pretraining of Transformers for Satellite Image Time Series Classification"
+    },
+    {
+      "assumption": "Temporal structure is essential for learning meaningful representations in satellite image time series.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Self-Supervised Pretraining of Transformers for Satellite Image Time Series Classification"
+    },
+    {
+      "assumption": "Benchmark datasets are necessary for evaluating the effectiveness of classification models in remote sensing.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Self-Supervised Pretraining of Transformers for Satellite Image Time Series Classification"
+    },
+    {
+      "assumption": "Reducing overfitting is essential for improving the performance of deep learning models in remote sensing.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Self-Supervised Pretraining of Transformers for Satellite Image Time Series Classification"
+    },
+    {
+      "assumption": "Second-order information, such as the Hessian, is necessary for understanding model parameter sensitivity.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Q-BERT: Hessian Based Ultra Low Precision Quantization of BERT"
+    },
+    {
+      "assumption": "Compression techniques must be evaluated on a range of benchmark NLP tasks to validate their effectiveness.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Q-BERT: Hessian Based Ultra Low Precision Quantization of BERT"
+    },
+    {
+      "assumption": "Pre-trained models like BERT have a prohibitive memory footprint that requires optimization for practical use.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Q-BERT: Hessian Based Ultra Low Precision Quantization of BERT"
+    },
+    {
+      "assumption": "Diverse language generation tasks are required to evaluate the versatility of generative models.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Exploring Versatile Generative Language Model Via Parameter-Efficient Transfer Learning"
+    },
+    {
+      "assumption": "Memory and power efficiency are essential considerations for deploying models in mobile or low-resource environments.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Exploring Versatile Generative Language Model Via Parameter-Efficient Transfer Learning"
+    },
+    {
+      "assumption": "Scalability is required for processing Web-scale graph data.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Heterogeneous Graph Transformer"
+    },
+    {
+      "assumption": "Node- and edge-type dependent parameters are necessary for capturing heterogeneity in graphs.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Heterogeneous Graph Transformer"
+    },
+    {
+      "assumption": "Large-scale datasets are required for pre-training effective language models.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "DeeBERT: Dynamic Early Exiting for Accelerating BERT Inference"
+    },
+    {
+      "assumption": "Maintaining accuracy while reducing model size is essential for deploying models on resource-restricted devices.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "TinyBERT: Distilling BERT for Natural Language Understanding"
+    },
+    {
+      "assumption": "Pre-training is required for capturing general-domain knowledge in language models.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "TinyBERT: Distilling BERT for Natural Language Understanding"
+    },
+    {
+      "assumption": "Task-specific fine-tuning is necessary for adapting pre-trained models to specific natural language processing tasks.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "TinyBERT: Distilling BERT for Natural Language Understanding"
+    },
+    {
+      "assumption": "State-of-the-art results are required to validate the effectiveness of new models in vision-language research.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Unified Vision-Language Pre-Training for Image Captioning and VQA"
+    },
+    {
+      "assumption": "Unified models that can handle both generation and understanding tasks are essential for advancing vision-language research.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Unified Vision-Language Pre-Training for Image Captioning and VQA"
+    },
+    {
+      "assumption": "Large amounts of training data are required for training deep neural networks effectively.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Deep Pyramid Convolutional Neural Networks for Text Categorization"
+    },
+    {
+      "assumption": "Mitigating knowledge noise is essential for maintaining the integrity of sentence meaning when integrating external knowledge.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "K-BERT: Enabling Language Representation with Knowledge Graph"
+    },
+    {
+      "assumption": "Fine-tuning pre-trained models on specific tasks is necessary for achieving optimal performance.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "K-BERT: Enabling Language Representation with Knowledge Graph"
+    },
+    {
+      "assumption": "Regularization techniques are required to reduce overfitting and improve model generalization.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Hate speech detection and racial bias mitigation in social media based on BERT model"
+    },
+    {
+      "assumption": "Publicly available datasets are necessary for benchmarking and evaluating machine learning models.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Hate speech detection and racial bias mitigation in social media based on BERT model"
+    },
+    {
+      "assumption": "Evaluating models on diverse linguistic groups is essential for understanding model biases.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Hate speech detection and racial bias mitigation in social media based on BERT model"
+    },
+    {
+      "assumption": "Self-attention mechanisms are required for capturing relationships between tokens in a sequence.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "LUKE: Deep Contextualized Entity Representations with Entity-aware Self-attention"
+    },
+    {
+      "assumption": "Masked language modeling is essential for pretraining language models to understand context.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "LUKE: Deep Contextualized Entity Representations with Entity-aware Self-attention"
+    },
+    {
+      "assumption": "Using self-defined pseudolabels is necessary for self-supervised learning.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "A Survey on Contrastive Self-Supervised Learning"
+    },
+    {
+      "assumption": "Large-scale datasets are required for effective self-supervised learning.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "A Survey on Contrastive Self-Supervised Learning"
+    },
+    {
+      "assumption": "Pretext tasks are essential for guiding the learning process in self-supervised learning.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "A Survey on Contrastive Self-Supervised Learning"
+    },
+    {
+      "assumption": "Self-supervised learning is essential for reducing the cost of data annotation.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "A Survey on Contrastive Self-Supervised Learning"
+    },
+    {
+      "assumption": "The inclusion of visual and acoustic modalities is essential for comprehensive sentiment analysis.",
+      "confidence": 0.75,
+      "category": "data",
+      "source_paper": "Integrating Multimodal Information in Large Pretrained Transformers"
+    },
+    {
+      "assumption": "Pretrained language models can potentially replace finetuning as they become more sophisticated.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "AutoPrompt: Eliciting Knowledge from Language Models with Automatically Generated Prompts"
+    },
+    {
+      "assumption": "General-purpose spectral-temporal representations are required for effective land cover classification.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "Self-Supervised Pretraining of Transformers for Satellite Image Time Series Classification"
+    },
+    {
+      "assumption": "Transfer learning is required for applying knowledge from one task to another in remote sensing.",
+      "confidence": 0.75,
+      "category": "training",
+      "source_paper": "Self-Supervised Pretraining of Transformers for Satellite Image Time Series Classification"
+    },
+    {
+      "assumption": "Model performance degradation should be minimized when applying quantization.",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "Q-BERT: Hessian Based Ultra Low Precision Quantization of BERT"
+    },
+    {
+      "assumption": "The ability to fine-tune multiple tasks simultaneously is necessary for practical deployment of generative models.",
+      "confidence": 0.75,
+      "category": "training",
+      "source_paper": "Exploring Versatile Generative Language Model Via Parameter-Efficient Transfer Learning"
+    },
+    {
+      "assumption": "Pre-trained generative models are required as a starting point for downstream task adaptation.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "Exploring Versatile Generative Language Model Via Parameter-Efficient Transfer Learning"
+    },
+    {
+      "assumption": "Attention mechanisms are essential for learning meaningful representations in graph neural networks.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "Heterogeneous Graph Transformer"
+    },
+    {
+      "assumption": "Mini-batch sampling is required for efficient training on large-scale graphs.",
+      "confidence": 0.75,
+      "category": "training",
+      "source_paper": "Heterogeneous Graph Transformer"
+    },
+    {
+      "assumption": "Model redundancy is a common issue in deep transformer-based models.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "DeeBERT: Dynamic Early Exiting for Accelerating BERT Inference"
+    },
+    {
+      "assumption": "Efficient execution of language models on resource-restricted devices is essential for practical applications.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "TinyBERT: Distilling BERT for Natural Language Understanding"
+    },
+    {
+      "assumption": "Transformer-based models are required for state-of-the-art natural language understanding.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "TinyBERT: Distilling BERT for Natural Language Understanding"
+    },
+    {
+      "assumption": "Increasing network depth is necessary for capturing complex patterns in data.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "Deep Pyramid Convolutional Neural Networks for Text Categorization"
+    },
+    {
+      "assumption": "The ability to load parameters from pre-trained models is essential for leveraging existing language representations.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "K-BERT: Enabling Language Representation with Knowledge Graph"
+    },
+    {
+      "assumption": "Cross-domain evaluation is necessary for assessing the generalizability of machine learning models.",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "Hate speech detection and racial bias mitigation in social media based on BERT model"
+    },
+    {
+      "assumption": "Evaluation on benchmark datasets is necessary for validating model performance.",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "LUKE: Deep Contextualized Entity Representations with Entity-aware Self-attention"
+    },
+    {
+      "assumption": "Benchmark datasets like CMU-MOSI and CMU-MOSEI are required for evaluating multimodal sentiment analysis models.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Integrating Multimodal Information in Large Pretrained Transformers"
+    },
+    {
+      "assumption": "Group-wise quantization is a viable method for reducing model size while maintaining performance.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Q-BERT: Hessian Based Ultra Low Precision Quantization of BERT"
+    },
+    {
+      "assumption": "The current training and fine-tuning strategies for BERT may not be optimal for all tasks.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Q-BERT: Hessian Based Ultra Low Precision Quantization of BERT"
+    },
+    {
+      "assumption": "Evaluating on multiple tasks is necessary to demonstrate the generalization capability of a model.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Exploring Versatile Generative Language Model Via Parameter-Efficient Transfer Learning"
+    },
+    {
+      "assumption": "Publicly available datasets and source code are necessary for reproducibility and benchmarking in graph neural network research.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Heterogeneous Graph Transformer"
+    },
+    {
+      "assumption": "Outperforming state-of-the-art baselines is essential for demonstrating the effectiveness of new graph neural network models.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Heterogeneous Graph Transformer"
+    },
+    {
+      "assumption": "Experiments on large datasets are required to validate the scalability and performance of graph neural network models.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Heterogeneous Graph Transformer"
+    },
+    {
+      "assumption": "Dedicated representations for different types of nodes and edges are necessary for modeling heterogeneous graphs.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Heterogeneous Graph Transformer"
+    },
+    {
+      "assumption": "Early exiting strategies are necessary for improving the efficiency of deep models.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "DeeBERT: Dynamic Early Exiting for Accelerating BERT Inference"
+    },
+    {
+      "assumption": "Maintaining model quality is essential when optimizing for inference speed.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "DeeBERT: Dynamic Early Exiting for Accelerating BERT Inference"
+    },
+    {
+      "assumption": "Word-level representations are essential for capturing semantic meaning in text categorization tasks.",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "Deep Pyramid Convolutional Neural Networks for Text Categorization"
+    },
+    {
+      "assumption": "Benchmark datasets are required for evaluating the performance of text categorization models.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Deep Pyramid Convolutional Neural Networks for Text Categorization"
+    },
+    {
+      "assumption": "Evaluation on a diverse set of NLP tasks is required to demonstrate the generalizability of a language model.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "K-BERT: Enabling Language Representation with Knowledge Graph"
+    },
+    {
+      "assumption": "Soft-position embeddings are necessary for effectively integrating external knowledge without disrupting the original sentence structure.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "K-BERT: Enabling Language Representation with Knowledge Graph"
+    },
+    {
+      "assumption": "Entity-aware mechanisms are required for improving performance on entity-centric tasks.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "LUKE: Deep Contextualized Entity Representations with Entity-aware Self-attention"
+    },
+    {
+      "assumption": "Open-source code and pretrained models are essential for reproducibility and further research.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "LUKE: Deep Contextualized Entity Representations with Entity-aware Self-attention"
+    },
+    {
+      "assumption": "Different architectures are required to optimize contrastive learning methods.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "A Survey on Contrastive Self-Supervised Learning"
+    },
+    {
+      "assumption": "Achieving human-level performance is a critical benchmark for success in multimodal sentiment analysis.",
+      "confidence": 0.65,
+      "category": "evaluation",
+      "source_paper": "Integrating Multimodal Information in Large Pretrained Transformers"
+    },
+    {
+      "assumption": "Analyzing transformer layer behaviors is required for understanding model efficiency.",
+      "confidence": 0.65,
+      "category": "theoretical",
+      "source_paper": "DeeBERT: Dynamic Early Exiting for Accelerating BERT Inference"
+    },
+    {
+      "assumption": "Efficient computational complexity is necessary for practical applications of deep learning models.",
+      "confidence": 0.65,
+      "category": "theoretical",
+      "source_paper": "Deep Pyramid Convolutional Neural Networks for Text Categorization"
+    },
+    {
+      "assumption": "Global representations of text are essential for accurate text categorization.",
+      "confidence": 0.65,
+      "category": "theoretical",
+      "source_paper": "Deep Pyramid Convolutional Neural Networks for Text Categorization"
+    },
+    {
+      "assumption": "Visible matrices are essential for controlling the influence of injected knowledge on language models.",
+      "confidence": 0.65,
+      "category": "architectural",
+      "source_paper": "K-BERT: Enabling Language Representation with Knowledge Graph"
+    },
+    {
+      "assumption": "Domain-specific tasks require specialized approaches to outperform general-purpose language models.",
+      "confidence": 0.65,
+      "category": "theoretical",
+      "source_paper": "K-BERT: Enabling Language Representation with Knowledge Graph"
+    },
+    {
+      "assumption": "Contextual word representations are necessary for capturing the nuances of language in NLP tasks.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Integrating Multimodal Information in Large Pretrained Transformers"
+    },
+    {
+      "assumption": "Shallow networks can be more efficient than very deep networks for certain tasks.",
+      "confidence": 0.6,
+      "category": "architectural",
+      "source_paper": "Deep Pyramid Convolutional Neural Networks for Text Categorization"
+    },
+    {
+      "assumption": "Performance on benchmark datasets is necessary for validating model improvements.",
+      "confidence": 0.6,
+      "category": "evaluation",
+      "source_paper": "Deep Pyramid Convolutional Neural Networks for Text Categorization"
+    },
+    {
+      "assumption": "Transformer architectures are essential for building effective NLP models.",
+      "confidence": 0.55,
+      "category": "architectural",
+      "source_paper": "Integrating Multimodal Information in Large Pretrained Transformers"
+    },
+    {
+      "assumption": "Task-specific adaptations are required to extend the capabilities of general pre-trained models.",
+      "confidence": 0.5,
+      "category": "architectural",
+      "source_paper": "Integrating Multimodal Information in Large Pretrained Transformers"
+    }
+  ]
+}

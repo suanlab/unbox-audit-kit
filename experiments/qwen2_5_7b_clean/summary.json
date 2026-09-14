@@ -1,0 +1,12 @@
+{
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "seed": 42,
+  "paradigms": [
+    "transformer",
+    "diffusion",
+    "icl",
+    "vit"
+  ],
+  "papers_per_paradigm": 15,
+  "temperature": 0.0
+}

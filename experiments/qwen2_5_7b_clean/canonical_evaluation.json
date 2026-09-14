@@ -1,0 +1,255 @@
+{
+  "evaluator": "canonical_evaluator.py",
+  "ranking_method": "confidence_order (NOT similarity-reranked)",
+  "threshold": 0.65,
+  "embedding_model": "text-embedding-3-small",
+  "input_dir": "experiments/qwen2_5_7b_clean",
+  "label": "qwen2_5_7b",
+  "aggregate": {
+    "total": 4,
+    "r_at_5": 2,
+    "r_at_10": 3
+  },
+  "results": [
+    {
+      "conf_rank": null,
+      "best_sim": 0.6455,
+      "r_at_5": 0.0,
+      "r_at_10": 0.0,
+      "r_at_20": 0.0,
+      "top_matches": [
+        {
+          "conf_position": 1,
+          "assumption": "An encoder-decoder framework is necessary for sequence-to-sequence learning tasks.",
+          "similarity": 0.4733
+        },
+        {
+          "conf_position": 2,
+          "assumption": "Attention mechanisms are necessary for capturing long-range dependencies in sequence-to-sequence models.",
+          "similarity": 0.5206
+        },
+        {
+          "conf_position": 3,
+          "assumption": "Neural networks are necessary for achieving state-of-the-art performance in natural language processing tasks.",
+          "similarity": 0.2815
+        },
+        {
+          "conf_position": 4,
+          "assumption": "Attention mechanisms are necessary for capturing long-range dependencies in sequential data processing tasks.",
+          "similarity": 0.441
+        },
+        {
+          "conf_position": 5,
+          "assumption": "Attention mechanisms are necessary for effective multimodal neural machine translation.",
+          "similarity": 0.2978
+        },
+        {
+          "conf_position": 6,
+          "assumption": "an attention mechanism is necessary for effective neural machine translation systems",
+          "similarity": 0.3434
+        },
+        {
+          "conf_position": 7,
+          "assumption": "A deep structure is necessary for improving recognition accuracy in language modeling for speech recognition.",
+          "similarity": 0.4737
+        },
+        {
+          "conf_position": 8,
+          "assumption": "A knowledge-based semantic space is necessary for capturing the semantic meaning of source sentences in machine translation.",
+          "similarity": 0.2504
+        },
+        {
+          "conf_position": 9,
+          "assumption": "Comprehensive context is necessary for accurate sentiment classification.",
+          "similarity": 0.2534
+        },
+        {
+          "conf_position": 10,
+          "assumption": "Recurrent architectures are necessary for processing sequential data.",
+          "similarity": 0.6169
+        }
+      ],
+      "paradigm": "transformer"
+    },
+    {
+      "conf_rank": 9,
+      "best_sim": 0.6931,
+      "r_at_5": 0.0,
+      "r_at_10": 1.0,
+      "r_at_20": 1.0,
+      "top_matches": [
+        {
+          "conf_position": 1,
+          "assumption": "Generative adversarial networks (GANs) are necessary for generating synthetic data that mimic real data distributions.",
+          "similarity": 0.5615
+        },
+        {
+          "conf_position": 2,
+          "assumption": "A reconstructor network is necessary for generating diverse samples by mapping from data to noise, which helps in reducing mode collapse in GANs.",
+          "similarity": 0.4516
+        },
+        {
+          "conf_position": 3,
+          "assumption": "Generative Adversarial Networks (GANs) are necessary for synthesizing realistic/diverse additional training images.",
+          "similarity": 0.6017
+        },
+        {
+          "conf_position": 4,
+          "assumption": "Spatiotemporal consistency is necessary for generating visually realistic videos in virtual try-on systems.",
+          "similarity": 0.346
+        },
+        {
+          "conf_position": 5,
+          "assumption": "A generator is necessary for learning the distribution of natural images and artwork in GANs.",
+          "similarity": 0.542
+        },
+        {
+          "conf_position": 6,
+          "assumption": "A discriminator is required to distinguish between real and generated images in GANs.",
+          "similarity": 0.533
+        },
+        {
+          "conf_position": 7,
+          "assumption": "High-resolution synthesis is necessary for photo-realistic image generation.",
+          "similarity": 0.4006
+        },
+        {
+          "conf_position": 8,
+          "assumption": "A discriminator is necessary for training a generator in GANs.",
+          "similarity": 0.501
+        },
+        {
+          "conf_position": 9,
+          "assumption": "An adversarial training framework is necessary for generating realistic and diverse synthetic data.",
+          "similarity": 0.6931
+        },
+        {
+          "conf_position": 10,
+          "assumption": "Diversity is necessary for conditional image synthesis tasks.",
+          "similarity": 0.5518
+        }
+      ],
+      "paradigm": "diffusion"
+    },
+    {
+      "conf_rank": 5,
+      "best_sim": 0.7644,
+      "r_at_5": 1.0,
+      "r_at_10": 1.0,
+      "r_at_20": 1.0,
+      "top_matches": [
+        {
+          "conf_position": 1,
+          "assumption": "Sentence encoders are necessary for achieving state-of-the-art performance in natural language understanding tasks.",
+          "similarity": 0.2863
+        },
+        {
+          "conf_position": 2,
+          "assumption": "Pretrained deep contextual representations are necessary for achieving state-of-the-art performance on NLP tasks.",
+          "similarity": 0.2866
+        },
+        {
+          "conf_position": 3,
+          "assumption": "Unsupervised pretraining is necessary for facilitating a wide range of downstream applications.",
+          "similarity": 0.2881
+        },
+        {
+          "conf_position": 4,
+          "assumption": "Pretraining on large corpora of unlabeled text is necessary for obtaining strong performance in natural language processing tasks.",
+          "similarity": 0.3015
+        },
+        {
+          "conf_position": 5,
+          "assumption": "Fine-tuning is necessary for leveraging pre-trained language models on specific tasks.",
+          "similarity": 0.7038
+        },
+        {
+          "conf_position": 6,
+          "assumption": "Pretrained language models are necessary for effective conversational machine comprehension.",
+          "similarity": 0.2949
+        },
+        {
+          "conf_position": 7,
+          "assumption": "Pretrained language models are necessary for achieving state-of-the-art performance in natural language processing tasks.",
+          "similarity": 0.3133
+        },
+        {
+          "conf_position": 8,
+          "assumption": "Pre-trained language models are necessary for achieving state-of-the-art performance in natural language processing tasks.",
+          "similarity": 0.3078
+        },
+        {
+          "conf_position": 9,
+          "assumption": "Pre-trained language models are essential for achieving state-of-the-art performance in various NLP tasks.",
+          "similarity": 0.2888
+        },
+        {
+          "conf_position": 10,
+          "assumption": "Pre-trained embeddings are necessary for capturing semantic meaning in text data.",
+          "similarity": 0.2363
+        }
+      ],
+      "paradigm": "icl"
+    },
+    {
+      "conf_rank": 1,
+      "best_sim": 0.7175,
+      "r_at_5": 1.0,
+      "r_at_10": 1.0,
+      "r_at_20": 1.0,
+      "top_matches": [
+        {
+          "conf_position": 1,
+          "assumption": "Convolutional neural networks are necessary for image recognition tasks.",
+          "similarity": 0.6888
+        },
+        {
+          "conf_position": 2,
+          "assumption": "Deep supervision is necessary for achieving state-of-the-art performance in saliency detection.",
+          "similarity": 0.3855
+        },
+        {
+          "conf_position": 3,
+          "assumption": "Deep supervision is necessary for improving the performance of salient object detection models.",
+          "similarity": 0.3974
+        },
+        {
+          "conf_position": 4,
+          "assumption": "Spatial transformation is necessary for accurate object detection and semantic segmentation.",
+          "similarity": 0.4093
+        },
+        {
+          "conf_position": 5,
+          "assumption": "Dynamic graph construction is necessary for learning on point clouds.",
+          "similarity": 0.3424
+        },
+        {
+          "conf_position": 6,
+          "assumption": "Skip connections are necessary for effective feature fusion in deep neural networks for image segmentation.",
+          "similarity": 0.4672
+        },
+        {
+          "conf_position": 7,
+          "assumption": "Deep convolutional neural networks are necessary for achieving high performance in semantic segmentation tasks.",
+          "similarity": 0.5011
+        },
+        {
+          "conf_position": 8,
+          "assumption": "Convolution is necessary for learning local, stationary, and compositional task-specific features in Euclidean-structured data.",
+          "similarity": 0.6214
+        },
+        {
+          "conf_position": 9,
+          "assumption": "Deep learning architectures are necessary for accurate object detection and recognition in images.",
+          "similarity": 0.4791
+        },
+        {
+          "conf_position": 10,
+          "assumption": "Rich feature hierarchies are necessary for accurate edge detection.",
+          "similarity": 0.4122
+        }
+      ],
+      "paradigm": "vit"
+    }
+  ]
+}

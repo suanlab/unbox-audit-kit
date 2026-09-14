@@ -1,0 +1,1802 @@
+{
+  "paradigm": "vit",
+  "num_papers": 15,
+  "num_raw_assumptions": 150,
+  "num_unique_assumptions": 147,
+  "ground_truth": "convolutional layers are necessary for vision",
+  "assumptions": [
+    {
+      "assumption": "Gradient-based backpropagation is necessary for training deep convolutional neural networks",
+      "confidence": 0.95,
+      "category": "training",
+      "source_paper": "Compressed residual-VGG16 CNN model for big data places image recognition"
+    },
+    {
+      "assumption": "Hierarchical feature extraction through multiple convolutional layers is essential for image understanding",
+      "confidence": 0.93,
+      "category": "architectural",
+      "source_paper": "Compressed residual-VGG16 CNN model for big data places image recognition"
+    },
+    {
+      "assumption": "Large-scale labeled datasets are required for training effective deep learning models",
+      "confidence": 0.91,
+      "category": "data",
+      "source_paper": "Compressed residual-VGG16 CNN model for big data places image recognition"
+    },
+    {
+      "assumption": "Classification accuracy on held-out test sets is necessary for validating model performance",
+      "confidence": 0.89,
+      "category": "evaluation",
+      "source_paper": "Compressed residual-VGG16 CNN model for big data places image recognition"
+    },
+    {
+      "assumption": "Deeper networks with more parameters are essential for capturing complex visual patterns",
+      "confidence": 0.87,
+      "category": "theoretical",
+      "source_paper": "Compressed residual-VGG16 CNN model for big data places image recognition"
+    },
+    {
+      "assumption": "Convolutional operations with learnable filters are necessary for spatial feature detection in images",
+      "confidence": 0.86,
+      "category": "architectural",
+      "source_paper": "Compressed residual-VGG16 CNN model for big data places image recognition"
+    },
+    {
+      "assumption": "End-to-end supervised learning is required for optimal feature representation learning",
+      "confidence": 0.84,
+      "category": "training",
+      "source_paper": "Compressed residual-VGG16 CNN model for big data places image recognition"
+    },
+    {
+      "assumption": "Pooling operations are essential for achieving spatial invariance and reducing computational complexity",
+      "confidence": 0.82,
+      "category": "architectural",
+      "source_paper": "Compressed residual-VGG16 CNN model for big data places image recognition"
+    },
+    {
+      "assumption": "Non-linear activation functions are necessary for learning complex decision boundaries",
+      "confidence": 0.81,
+      "category": "architectural",
+      "source_paper": "Compressed residual-VGG16 CNN model for big data places image recognition"
+    },
+    {
+      "assumption": "Model performance generalizes from benchmark datasets to real-world applications",
+      "confidence": 0.79,
+      "category": "evaluation",
+      "source_paper": "Compressed residual-VGG16 CNN model for big data places image recognition"
+    },
+    {
+      "assumption": "Convolutional neural networks are necessary for effective visual feature extraction in computer vision tasks",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Deeply Supervised Salient Object Detection with Short Connections"
+    },
+    {
+      "assumption": "Multi-scale feature representation is essential for accurate object detection and segmentation",
+      "confidence": 0.92,
+      "category": "architectural",
+      "source_paper": "Deeply Supervised Salient Object Detection with Short Connections"
+    },
+    {
+      "assumption": "Deep supervision is required for training effective hierarchical feature representations",
+      "confidence": 0.88,
+      "category": "training",
+      "source_paper": "Deeply Supervised Salient Object Detection with Short Connections"
+    },
+    {
+      "assumption": "Skip connections are necessary to preserve fine-grained spatial information in deep networks",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Deeply Supervised Salient Object Detection with Short Connections"
+    },
+    {
+      "assumption": "Fully convolutional architectures are essential for dense prediction tasks like segmentation",
+      "confidence": 0.89,
+      "category": "architectural",
+      "source_paper": "Deeply Supervised Salient Object Detection with Short Connections"
+    },
+    {
+      "assumption": "Hierarchical feature learning is necessary for capturing both low-level and high-level visual patterns",
+      "confidence": 0.87,
+      "category": "theoretical",
+      "source_paper": "Deeply Supervised Salient Object Detection with Short Connections"
+    },
+    {
+      "assumption": "Standardized benchmark datasets are required for valid performance comparison across methods",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "Deeply Supervised Salient Object Detection with Short Connections"
+    },
+    {
+      "assumption": "End-to-end learning is essential for optimal feature representation in deep networks",
+      "confidence": 0.84,
+      "category": "training",
+      "source_paper": "Deeply Supervised Salient Object Detection with Short Connections"
+    },
+    {
+      "assumption": "Pixel-level ground truth annotations are necessary for training segmentation models",
+      "confidence": 0.83,
+      "category": "data",
+      "source_paper": "Deeply Supervised Salient Object Detection with Short Connections"
+    },
+    {
+      "assumption": "Gradient-based optimization is required for training deep neural networks effectively",
+      "confidence": 0.82,
+      "category": "training",
+      "source_paper": "Deeply Supervised Salient Object Detection with Short Connections"
+    },
+    {
+      "assumption": "End-to-end differentiable training is necessary for optimal feature learning in neural networks",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Deeply Supervised Salient Object Detection with Short Connections"
+    },
+    {
+      "assumption": "Standardized benchmark datasets are essential for valid performance comparison across methods",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "Deeply Supervised Salient Object Detection with Short Connections"
+    },
+    {
+      "assumption": "Skip connections are necessary for preserving fine-grained spatial information in deep networks",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Deeply Supervised Salient Object Detection with Short Connections"
+    },
+    {
+      "assumption": "Fully convolutional architectures are required for dense pixel-level prediction tasks",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Deeply Supervised Salient Object Detection with Short Connections"
+    },
+    {
+      "assumption": "Hierarchical feature extraction is essential for capturing both local and global visual patterns",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Deeply Supervised Salient Object Detection with Short Connections"
+    },
+    {
+      "assumption": "Quantitative metrics on held-out test sets are necessary for establishing method superiority",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "Deeply Supervised Salient Object Detection with Short Connections"
+    },
+    {
+      "assumption": "Large-scale training data is required for learning generalizable visual representations",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Deeply Supervised Salient Object Detection with Short Connections"
+    },
+    {
+      "assumption": "End-to-end differentiable training is necessary for effective deep learning systems",
+      "confidence": 0.95,
+      "category": "training",
+      "source_paper": "Deformable Convolutional Networks"
+    },
+    {
+      "assumption": "Standard backpropagation is required for training deep neural networks",
+      "confidence": 0.92,
+      "category": "training",
+      "source_paper": "Deformable Convolutional Networks"
+    },
+    {
+      "assumption": "Convolutional operations are essential building blocks for computer vision tasks",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Deformable Convolutional Networks"
+    },
+    {
+      "assumption": "Spatial feature extraction is necessary for sophisticated vision understanding",
+      "confidence": 0.88,
+      "category": "theoretical",
+      "source_paper": "Deformable Convolutional Networks"
+    },
+    {
+      "assumption": "Modular architectural components are required for scalable deep network design",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Deformable Convolutional Networks"
+    },
+    {
+      "assumption": "Task-specific performance metrics are essential for validating computer vision approaches",
+      "confidence": 0.83,
+      "category": "evaluation",
+      "source_paper": "Deformable Convolutional Networks"
+    },
+    {
+      "assumption": "Hierarchical feature learning is necessary for complex visual recognition",
+      "confidence": 0.82,
+      "category": "theoretical",
+      "source_paper": "Deformable Convolutional Networks"
+    },
+    {
+      "assumption": "Supervised learning from labeled data is required for training effective vision models",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Deformable Convolutional Networks"
+    },
+    {
+      "assumption": "Geometric transformation modeling is essential for robust computer vision systems",
+      "confidence": 0.78,
+      "category": "theoretical",
+      "source_paper": "Deformable Convolutional Networks"
+    },
+    {
+      "assumption": "Extensive experimental validation is necessary to demonstrate the effectiveness of new architectural components",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "Deformable Convolutional Networks"
+    },
+    {
+      "assumption": "Convolutional operations are necessary for effective feature learning in geometric deep learning",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Dynamic Graph CNN for Learning on Point Clouds"
+    },
+    {
+      "assumption": "Local neighborhood information is essential for understanding geometric structures in point clouds",
+      "confidence": 0.92,
+      "category": "theoretical",
+      "source_paper": "Dynamic Graph CNN for Learning on Point Clouds"
+    },
+    {
+      "assumption": "Hierarchical feature learning through stacked layers is required for capturing multi-scale geometric properties",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Dynamic Graph CNN for Learning on Point Clouds"
+    },
+    {
+      "assumption": "Graph-based representations are necessary for encoding relational information in unstructured point data",
+      "confidence": 0.88,
+      "category": "theoretical",
+      "source_paper": "Dynamic Graph CNN for Learning on Point Clouds"
+    },
+    {
+      "assumption": "Differentiable operations are required for end-to-end learning in geometric neural networks",
+      "confidence": 0.87,
+      "category": "training",
+      "source_paper": "Dynamic Graph CNN for Learning on Point Clouds"
+    },
+    {
+      "assumption": "Standard benchmark datasets are sufficient for validating geometric deep learning methods",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "Dynamic Graph CNN for Learning on Point Clouds"
+    },
+    {
+      "assumption": "Feature space affinity is essential for capturing semantic relationships in geometric data",
+      "confidence": 0.83,
+      "category": "theoretical",
+      "source_paper": "Dynamic Graph CNN for Learning on Point Clouds"
+    },
+    {
+      "assumption": "Modular network components are necessary for building effective point cloud processing architectures",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Dynamic Graph CNN for Learning on Point Clouds"
+    },
+    {
+      "assumption": "Dynamic graph construction is required for adaptive geometric feature learning",
+      "confidence": 0.78,
+      "category": "architectural",
+      "source_paper": "Dynamic Graph CNN for Learning on Point Clouds"
+    },
+    {
+      "assumption": "Classification and segmentation tasks are essential benchmarks for evaluating point cloud methods",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "Dynamic Graph CNN for Learning on Point Clouds"
+    },
+    {
+      "assumption": "Encoder-decoder architectures with skip connections are necessary for effective image segmentation",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "UNet++: Redesigning Skip Connections to Exploit Multiscale Features in Image Segmentation"
+    },
+    {
+      "assumption": "Deep supervision is required for training complex multi-scale segmentation networks effectively",
+      "confidence": 0.88,
+      "category": "training",
+      "source_paper": "UNet++: Redesigning Skip Connections to Exploit Multiscale Features in Image Segmentation"
+    },
+    {
+      "assumption": "Multi-scale feature representation is essential for accurate segmentation of objects of varying sizes",
+      "confidence": 0.92,
+      "category": "theoretical",
+      "source_paper": "UNet++: Redesigning Skip Connections to Exploit Multiscale Features in Image Segmentation"
+    },
+    {
+      "assumption": "Convolutional neural networks are necessary for spatial feature extraction in image segmentation",
+      "confidence": 0.98,
+      "category": "architectural",
+      "source_paper": "UNet++: Redesigning Skip Connections to Exploit Multiscale Features in Image Segmentation"
+    },
+    {
+      "assumption": "Pixel-level ground truth annotations are required for training segmentation models",
+      "confidence": 0.94,
+      "category": "data",
+      "source_paper": "UNet++: Redesigning Skip Connections to Exploit Multiscale Features in Image Segmentation"
+    },
+    {
+      "assumption": "Dice coefficient and IoU metrics are essential for evaluating segmentation quality",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "UNet++: Redesigning Skip Connections to Exploit Multiscale Features in Image Segmentation"
+    },
+    {
+      "assumption": "Feature fusion between encoder and decoder pathways is necessary for preserving spatial information",
+      "confidence": 0.89,
+      "category": "architectural",
+      "source_paper": "UNet++: Redesigning Skip Connections to Exploit Multiscale Features in Image Segmentation"
+    },
+    {
+      "assumption": "End-to-end differentiable training is required for learning optimal segmentation representations",
+      "confidence": 0.93,
+      "category": "training",
+      "source_paper": "UNet++: Redesigning Skip Connections to Exploit Multiscale Features in Image Segmentation"
+    },
+    {
+      "assumption": "Hierarchical feature learning through progressive downsampling and upsampling is essential for segmentation",
+      "confidence": 0.87,
+      "category": "theoretical",
+      "source_paper": "UNet++: Redesigning Skip Connections to Exploit Multiscale Features in Image Segmentation"
+    },
+    {
+      "assumption": "Cross-entropy or similar pixel-wise loss functions are necessary for segmentation training",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "UNet++: Redesigning Skip Connections to Exploit Multiscale Features in Image Segmentation"
+    },
+    {
+      "assumption": "Convolutional neural networks are necessary for effective semantic segmentation",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "RefineNet: Multi-path Refinement Networks for High-Resolution Semantic Segmentation"
+    },
+    {
+      "assumption": "Deep hierarchical feature representations are essential for capturing semantic information",
+      "confidence": 0.92,
+      "category": "theoretical",
+      "source_paper": "RefineNet: Multi-path Refinement Networks for High-Resolution Semantic Segmentation"
+    },
+    {
+      "assumption": "End-to-end gradient-based training is required for optimal network performance",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "RefineNet: Multi-path Refinement Networks for High-Resolution Semantic Segmentation"
+    },
+    {
+      "assumption": "High spatial resolution output is necessary for accurate dense prediction tasks",
+      "confidence": 0.88,
+      "category": "theoretical",
+      "source_paper": "RefineNet: Multi-path Refinement Networks for High-Resolution Semantic Segmentation"
+    },
+    {
+      "assumption": "Multi-scale feature fusion is essential for comprehensive scene understanding",
+      "confidence": 0.87,
+      "category": "architectural",
+      "source_paper": "RefineNet: Multi-path Refinement Networks for High-Resolution Semantic Segmentation"
+    },
+    {
+      "assumption": "Intersection-over-Union metrics are required for meaningful semantic segmentation evaluation",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "RefineNet: Multi-path Refinement Networks for High-Resolution Semantic Segmentation"
+    },
+    {
+      "assumption": "Residual connections are necessary for training very deep networks effectively",
+      "confidence": 0.84,
+      "category": "architectural",
+      "source_paper": "RefineNet: Multi-path Refinement Networks for High-Resolution Semantic Segmentation"
+    },
+    {
+      "assumption": "Benchmark dataset performance is essential for validating algorithmic contributions",
+      "confidence": 0.82,
+      "category": "evaluation",
+      "source_paper": "RefineNet: Multi-path Refinement Networks for High-Resolution Semantic Segmentation"
+    },
+    {
+      "assumption": "Pooling operations are necessary for building translation-invariant representations",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "RefineNet: Multi-path Refinement Networks for High-Resolution Semantic Segmentation"
+    },
+    {
+      "assumption": "State-of-the-art comparison is required for demonstrating research progress",
+      "confidence": 0.78,
+      "category": "evaluation",
+      "source_paper": "RefineNet: Multi-path Refinement Networks for High-Resolution Semantic Segmentation"
+    },
+    {
+      "assumption": "Hierarchical feature composition is necessary for effective representation learning",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Geometric Deep Learning on Graphs and Manifolds Using Mixture Model CNNs"
+    },
+    {
+      "assumption": "Local feature extraction is essential for capturing meaningful patterns in structured data",
+      "confidence": 0.92,
+      "category": "architectural",
+      "source_paper": "Geometric Deep Learning on Graphs and Manifolds Using Mixture Model CNNs"
+    },
+    {
+      "assumption": "Translation equivariance is required for robust feature detection across spatial domains",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Geometric Deep Learning on Graphs and Manifolds Using Mixture Model CNNs"
+    },
+    {
+      "assumption": "Convolutional operations are necessary for exploiting spatial structure in data",
+      "confidence": 0.88,
+      "category": "architectural",
+      "source_paper": "Geometric Deep Learning on Graphs and Manifolds Using Mixture Model CNNs"
+    },
+    {
+      "assumption": "Supervised learning with labeled examples is essential for task-specific feature learning",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Geometric Deep Learning on Graphs and Manifolds Using Mixture Model CNNs"
+    },
+    {
+      "assumption": "Gradient-based optimization is necessary for training deep neural networks",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Geometric Deep Learning on Graphs and Manifolds Using Mixture Model CNNs"
+    },
+    {
+      "assumption": "Compositional feature representations are required for handling complex data structures",
+      "confidence": 0.82,
+      "category": "theoretical",
+      "source_paper": "Geometric Deep Learning on Graphs and Manifolds Using Mixture Model CNNs"
+    },
+    {
+      "assumption": "Benchmark dataset performance is essential for validating model effectiveness",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Geometric Deep Learning on Graphs and Manifolds Using Mixture Model CNNs"
+    },
+    {
+      "assumption": "Stationarity of features is necessary for generalization across different regions of the input space",
+      "confidence": 0.78,
+      "category": "theoretical",
+      "source_paper": "Geometric Deep Learning on Graphs and Manifolds Using Mixture Model CNNs"
+    },
+    {
+      "assumption": "Differentiable architectures are required for end-to-end learning",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "Geometric Deep Learning on Graphs and Manifolds Using Mixture Model CNNs"
+    },
+    {
+      "assumption": "Convolutional neural networks are necessary for effective visual pattern recognition in natural images",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "A Robust Deep-Learning-Based Detector for Real-Time Tomato Plant Diseases and Pests Recognition"
+    },
+    {
+      "assumption": "End-to-end supervised learning is required for optimal object detection performance",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "A Robust Deep-Learning-Based Detector for Real-Time Tomato Plant Diseases and Pests Recognition"
+    },
+    {
+      "assumption": "Large labeled datasets are essential for training robust deep learning models",
+      "confidence": 0.92,
+      "category": "data",
+      "source_paper": "A Robust Deep-Learning-Based Detector for Real-Time Tomato Plant Diseases and Pests Recognition"
+    },
+    {
+      "assumption": "Transfer learning from pre-trained feature extractors is necessary for practical computer vision applications",
+      "confidence": 0.88,
+      "category": "training",
+      "source_paper": "A Robust Deep-Learning-Based Detector for Real-Time Tomato Plant Diseases and Pests Recognition"
+    },
+    {
+      "assumption": "Data augmentation is required to achieve generalization and reduce overfitting in visual recognition tasks",
+      "confidence": 0.85,
+      "category": "data",
+      "source_paper": "A Robust Deep-Learning-Based Detector for Real-Time Tomato Plant Diseases and Pests Recognition"
+    },
+    {
+      "assumption": "Multi-class classification accuracy is the essential metric for evaluating detection system performance",
+      "confidence": 0.82,
+      "category": "evaluation",
+      "source_paper": "A Robust Deep-Learning-Based Detector for Real-Time Tomato Plant Diseases and Pests Recognition"
+    },
+    {
+      "assumption": "Deep hierarchical feature representations are necessary for capturing complex visual patterns",
+      "confidence": 0.87,
+      "category": "theoretical",
+      "source_paper": "A Robust Deep-Learning-Based Detector for Real-Time Tomato Plant Diseases and Pests Recognition"
+    },
+    {
+      "assumption": "Region-based or single-shot detection frameworks are required for practical object detection systems",
+      "confidence": 0.83,
+      "category": "architectural",
+      "source_paper": "A Robust Deep-Learning-Based Detector for Real-Time Tomato Plant Diseases and Pests Recognition"
+    },
+    {
+      "assumption": "Ground truth bounding box annotations are essential for training object detection models",
+      "confidence": 0.89,
+      "category": "data",
+      "source_paper": "A Robust Deep-Learning-Based Detector for Real-Time Tomato Plant Diseases and Pests Recognition"
+    },
+    {
+      "assumption": "Gradient-based optimization is necessary for training deep neural network parameters",
+      "confidence": 0.93,
+      "category": "training",
+      "source_paper": "A Robust Deep-Learning-Based Detector for Real-Time Tomato Plant Diseases and Pests Recognition"
+    },
+    {
+      "assumption": "Supervised learning with pixel-level ground truth annotations is necessary for training effective edge detection models",
+      "confidence": 0.95,
+      "category": "training",
+      "source_paper": "Richer Convolutional Features for Edge Detection"
+    },
+    {
+      "assumption": "Convolutional neural networks are essential for capturing spatial hierarchies in visual tasks",
+      "confidence": 0.92,
+      "category": "architectural",
+      "source_paper": "Richer Convolutional Features for Edge Detection"
+    },
+    {
+      "assumption": "Multi-scale feature representation is required for handling objects at different scales in images",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Richer Convolutional Features for Edge Detection"
+    },
+    {
+      "assumption": "Backpropagation-based gradient descent is necessary for training deep neural networks effectively",
+      "confidence": 0.88,
+      "category": "training",
+      "source_paper": "Richer Convolutional Features for Edge Detection"
+    },
+    {
+      "assumption": "Standardized benchmark datasets are essential for validating and comparing computer vision methods",
+      "confidence": 0.87,
+      "category": "evaluation",
+      "source_paper": "Richer Convolutional Features for Edge Detection"
+    },
+    {
+      "assumption": "Pre-trained feature extractors are required for achieving competitive performance in vision tasks",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Richer Convolutional Features for Edge Detection"
+    },
+    {
+      "assumption": "Pixel-wise prediction accuracy is the primary measure of quality for dense prediction tasks",
+      "confidence": 0.83,
+      "category": "evaluation",
+      "source_paper": "Richer Convolutional Features for Edge Detection"
+    },
+    {
+      "assumption": "Hierarchical feature representations are necessary for capturing both low-level and high-level visual patterns",
+      "confidence": 0.82,
+      "category": "theoretical",
+      "source_paper": "Richer Convolutional Features for Edge Detection"
+    },
+    {
+      "assumption": "End-to-end differentiable architectures are required for optimal feature learning in vision systems",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Richer Convolutional Features for Edge Detection"
+    },
+    {
+      "assumption": "Natural images contain sufficient statistical regularities for learning generalizable visual features",
+      "confidence": 0.78,
+      "category": "data",
+      "source_paper": "Richer Convolutional Features for Edge Detection"
+    },
+    {
+      "assumption": "Convolutional neural networks are necessary for effective visual feature extraction from images",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Detection of Power Line Insulator Defects Using Aerial Images Analyzed With Convolutional Neural Networks"
+    },
+    {
+      "assumption": "Supervised learning with labeled training data is required for object detection tasks",
+      "confidence": 0.92,
+      "category": "training",
+      "source_paper": "Detection of Power Line Insulator Defects Using Aerial Images Analyzed With Convolutional Neural Networks"
+    },
+    {
+      "assumption": "Data augmentation is essential for addressing dataset scarcity in deep learning applications",
+      "confidence": 0.88,
+      "category": "data",
+      "source_paper": "Detection of Power Line Insulator Defects Using Aerial Images Analyzed With Convolutional Neural Networks"
+    },
+    {
+      "assumption": "Hierarchical feature representations are necessary for complex visual recognition tasks",
+      "confidence": 0.87,
+      "category": "architectural",
+      "source_paper": "Detection of Power Line Insulator Defects Using Aerial Images Analyzed With Convolutional Neural Networks"
+    },
+    {
+      "assumption": "Precision and recall metrics are required for evaluating object detection performance",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "Detection of Power Line Insulator Defects Using Aerial Images Analyzed With Convolutional Neural Networks"
+    },
+    {
+      "assumption": "Region proposal mechanisms are essential for accurate object localization in detection systems",
+      "confidence": 0.83,
+      "category": "architectural",
+      "source_paper": "Detection of Power Line Insulator Defects Using Aerial Images Analyzed With Convolutional Neural Networks"
+    },
+    {
+      "assumption": "Deep networks are necessary for handling complex visual variations in real-world conditions",
+      "confidence": 0.82,
+      "category": "theoretical",
+      "source_paper": "Detection of Power Line Insulator Defects Using Aerial Images Analyzed With Convolutional Neural Networks"
+    },
+    {
+      "assumption": "Multi-stage cascading architectures are required for complex detection problems",
+      "confidence": 0.78,
+      "category": "architectural",
+      "source_paper": "Detection of Power Line Insulator Defects Using Aerial Images Analyzed With Convolutional Neural Networks"
+    },
+    {
+      "assumption": "Standard benchmark datasets are necessary for validating detection method performance",
+      "confidence": 0.76,
+      "category": "evaluation",
+      "source_paper": "Detection of Power Line Insulator Defects Using Aerial Images Analyzed With Convolutional Neural Networks"
+    },
+    {
+      "assumption": "Gradient-based optimization is essential for training deep neural networks effectively",
+      "confidence": 0.74,
+      "category": "training",
+      "source_paper": "Detection of Power Line Insulator Defects Using Aerial Images Analyzed With Convolutional Neural Networks"
+    },
+    {
+      "assumption": "Convolutional neural networks are necessary for visual understanding tasks",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Inverted Residuals and Linear Bottlenecks: Mobile Networks for Classification, Detection and Segmentation"
+    },
+    {
+      "assumption": "Supervised learning with labeled datasets is required for training effective visual models",
+      "confidence": 0.92,
+      "category": "training",
+      "source_paper": "Inverted Residuals and Linear Bottlenecks: Mobile Networks for Classification, Detection and Segmentation"
+    },
+    {
+      "assumption": "Hierarchical feature extraction through multiple layers is essential for complex visual recognition",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Inverted Residuals and Linear Bottlenecks: Mobile Networks for Classification, Detection and Segmentation"
+    },
+    {
+      "assumption": "Standard benchmark datasets are necessary for meaningful performance evaluation",
+      "confidence": 0.88,
+      "category": "evaluation",
+      "source_paper": "Inverted Residuals and Linear Bottlenecks: Mobile Networks for Classification, Detection and Segmentation"
+    },
+    {
+      "assumption": "Accuracy-efficiency trade-offs are fundamental constraints that must be optimized",
+      "confidence": 0.87,
+      "category": "theoretical",
+      "source_paper": "Inverted Residuals and Linear Bottlenecks: Mobile Networks for Classification, Detection and Segmentation"
+    },
+    {
+      "assumption": "Non-linear activation functions are essential for neural network expressiveness",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Inverted Residuals and Linear Bottlenecks: Mobile Networks for Classification, Detection and Segmentation"
+    },
+    {
+      "assumption": "Gradient-based optimization is required for training deep neural networks",
+      "confidence": 0.84,
+      "category": "training",
+      "source_paper": "Inverted Residuals and Linear Bottlenecks: Mobile Networks for Classification, Detection and Segmentation"
+    },
+    {
+      "assumption": "Computational complexity measured by operations count is necessary for efficiency evaluation",
+      "confidence": 0.82,
+      "category": "evaluation",
+      "source_paper": "Inverted Residuals and Linear Bottlenecks: Mobile Networks for Classification, Detection and Segmentation"
+    },
+    {
+      "assumption": "Transfer learning across related visual tasks is essential for practical deployment",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Inverted Residuals and Linear Bottlenecks: Mobile Networks for Classification, Detection and Segmentation"
+    },
+    {
+      "assumption": "Representational capacity must scale with task complexity for effective learning",
+      "confidence": 0.78,
+      "category": "theoretical",
+      "source_paper": "Inverted Residuals and Linear Bottlenecks: Mobile Networks for Classification, Detection and Segmentation"
+    },
+    {
+      "assumption": "Deep learning architectures are necessary for achieving clinically relevant accuracy in medical image analysis",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Skin Lesion Analysis towards Melanoma Detection Using Deep Learning Network"
+    },
+    {
+      "assumption": "Supervised learning with labeled ground truth is required for training reliable medical diagnostic systems",
+      "confidence": 0.92,
+      "category": "training",
+      "source_paper": "Skin Lesion Analysis towards Melanoma Detection Using Deep Learning Network"
+    },
+    {
+      "assumption": "Segmentation is a necessary prerequisite for accurate lesion classification in dermoscopy",
+      "confidence": 0.88,
+      "category": "theoretical",
+      "source_paper": "Skin Lesion Analysis towards Melanoma Detection Using Deep Learning Network"
+    },
+    {
+      "assumption": "Convolutional neural networks are essential for processing spatial information in medical images",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Skin Lesion Analysis towards Melanoma Detection Using Deep Learning Network"
+    },
+    {
+      "assumption": "Standardized benchmark datasets are required for validating medical AI system performance",
+      "confidence": 0.87,
+      "category": "evaluation",
+      "source_paper": "Skin Lesion Analysis towards Melanoma Detection Using Deep Learning Network"
+    },
+    {
+      "assumption": "End-to-end learning is necessary for optimal feature extraction in medical image analysis",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Skin Lesion Analysis towards Melanoma Detection Using Deep Learning Network"
+    },
+    {
+      "assumption": "Multi-task learning frameworks are required for comprehensive medical image analysis",
+      "confidence": 0.82,
+      "category": "architectural",
+      "source_paper": "Skin Lesion Analysis towards Melanoma Detection Using Deep Learning Network"
+    },
+    {
+      "assumption": "Quantitative accuracy metrics are essential for demonstrating clinical utility of diagnostic systems",
+      "confidence": 0.89,
+      "category": "evaluation",
+      "source_paper": "Skin Lesion Analysis towards Melanoma Detection Using Deep Learning Network"
+    },
+    {
+      "assumption": "High-resolution dermoscopy images are necessary for reliable melanoma detection",
+      "confidence": 0.84,
+      "category": "data",
+      "source_paper": "Skin Lesion Analysis towards Melanoma Detection Using Deep Learning Network"
+    },
+    {
+      "assumption": "Automated feature extraction is required to surpass human-engineered approaches in medical diagnosis",
+      "confidence": 0.83,
+      "category": "theoretical",
+      "source_paper": "Skin Lesion Analysis towards Melanoma Detection Using Deep Learning Network"
+    },
+    {
+      "assumption": "Supervised learning with labeled datasets is necessary for achieving reliable medical image classification",
+      "confidence": 0.95,
+      "category": "training",
+      "source_paper": "Attention Residual Learning for Skin Lesion Classification"
+    },
+    {
+      "assumption": "Convolutional neural networks are essential for extracting meaningful spatial features from medical images",
+      "confidence": 0.92,
+      "category": "architectural",
+      "source_paper": "Attention Residual Learning for Skin Lesion Classification"
+    },
+    {
+      "assumption": "Attention mechanisms are necessary for focusing on diagnostically relevant image regions",
+      "confidence": 0.88,
+      "category": "architectural",
+      "source_paper": "Attention Residual Learning for Skin Lesion Classification"
+    },
+    {
+      "assumption": "Residual connections are required for training deep networks effectively in medical imaging",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Attention Residual Learning for Skin Lesion Classification"
+    },
+    {
+      "assumption": "Classification accuracy metrics are essential for evaluating medical image analysis systems",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "Attention Residual Learning for Skin Lesion Classification"
+    },
+    {
+      "assumption": "End-to-end differentiable training is necessary for optimal feature learning in medical imaging",
+      "confidence": 0.87,
+      "category": "training",
+      "source_paper": "Attention Residual Learning for Skin Lesion Classification"
+    },
+    {
+      "assumption": "Hierarchical feature representations are required for capturing multi-scale medical image patterns",
+      "confidence": 0.83,
+      "category": "theoretical",
+      "source_paper": "Attention Residual Learning for Skin Lesion Classification"
+    },
+    {
+      "assumption": "Standardized benchmark datasets are necessary for validating medical image classification methods",
+      "confidence": 0.89,
+      "category": "evaluation",
+      "source_paper": "Attention Residual Learning for Skin Lesion Classification"
+    },
+    {
+      "assumption": "Automated feature learning is essential for achieving human-level diagnostic performance",
+      "confidence": 0.86,
+      "category": "theoretical",
+      "source_paper": "Attention Residual Learning for Skin Lesion Classification"
+    },
+    {
+      "assumption": "Large-scale training data is required for generalizable medical image classification models",
+      "confidence": 0.91,
+      "category": "data",
+      "source_paper": "Attention Residual Learning for Skin Lesion Classification"
+    },
+    {
+      "assumption": "End-to-end differentiable training is necessary for effective neural network components",
+      "confidence": 0.95,
+      "category": "training",
+      "source_paper": "Graph-Based Global Reasoning Networks"
+    },
+    {
+      "assumption": "Modular architectural components that can be plugged into existing networks are essential for practical adoption",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Graph-Based Global Reasoning Networks"
+    },
+    {
+      "assumption": "Performance on standard benchmark datasets is required to validate the effectiveness of new methods",
+      "confidence": 0.92,
+      "category": "evaluation",
+      "source_paper": "Graph-Based Global Reasoning Networks"
+    },
+    {
+      "assumption": "Convolutional operations are necessary as the foundational building blocks for visual understanding",
+      "confidence": 0.88,
+      "category": "architectural",
+      "source_paper": "Graph-Based Global Reasoning Networks"
+    },
+    {
+      "assumption": "Spatial coordinate representations are essential for encoding visual information in neural networks",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Graph-Based Global Reasoning Networks"
+    },
+    {
+      "assumption": "Relational reasoning between regions is necessary for advanced computer vision tasks",
+      "confidence": 0.87,
+      "category": "theoretical",
+      "source_paper": "Graph-Based Global Reasoning Networks"
+    },
+    {
+      "assumption": "Computational efficiency is required for practical deployment of neural network components",
+      "confidence": 0.83,
+      "category": "architectural",
+      "source_paper": "Graph-Based Global Reasoning Networks"
+    },
+    {
+      "assumption": "Feature aggregation and distribution mechanisms are essential for global information processing",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Graph-Based Global Reasoning Networks"
+    },
+    {
+      "assumption": "Graph-based representations are necessary for modeling complex relational structures",
+      "confidence": 0.78,
+      "category": "theoretical",
+      "source_paper": "Graph-Based Global Reasoning Networks"
+    },
+    {
+      "assumption": "Cross-task generalization is required to demonstrate the fundamental value of architectural innovations",
+      "confidence": 0.82,
+      "category": "evaluation",
+      "source_paper": "Graph-Based Global Reasoning Networks"
+    }
+  ],
+  "best_similarity": 0.7594,
+  "soft_rank": 11,
+  "soft_recall_at_5": 0.0,
+  "soft_recall_at_10": 0.0,
+  "soft_recall_at_20": 1.0,
+  "top_5_assumptions": [
+    {
+      "assumption": "Gradient-based backpropagation is necessary for training deep convolutional neural networks",
+      "similarity": 0.4615
+    },
+    {
+      "assumption": "Hierarchical feature extraction through multiple convolutional layers is essential for image understanding",
+      "similarity": 0.563
+    },
+    {
+      "assumption": "Large-scale labeled datasets are required for training effective deep learning models",
+      "similarity": 0.3778
+    },
+    {
+      "assumption": "Classification accuracy on held-out test sets is necessary for validating model performance",
+      "similarity": 0.3124
+    },
+    {
+      "assumption": "Deeper networks with more parameters are essential for capturing complex visual patterns",
+      "similarity": 0.4846
+    }
+  ],
+  "all_details": [
+    {
+      "rank": 108,
+      "assumption": "Convolutional neural networks are necessary for visual understanding tasks",
+      "best_similarity": 0.7594,
+      "is_match": true
+    },
+    {
+      "rank": 30,
+      "assumption": "Convolutional operations are essential building blocks for computer vision tasks",
+      "best_similarity": 0.7426,
+      "is_match": true
+    },
+    {
+      "rank": 141,
+      "assumption": "Convolutional operations are necessary as the foundational building blocks for visual understanding",
+      "best_similarity": 0.7372,
+      "is_match": true
+    },
+    {
+      "rank": 78,
+      "assumption": "Convolutional neural networks are necessary for effective visual pattern recognition in natural images",
+      "best_similarity": 0.7148,
+      "is_match": true
+    },
+    {
+      "rank": 98,
+      "assumption": "Convolutional neural networks are necessary for effective visual feature extraction from images",
+      "best_similarity": 0.6963,
+      "is_match": true
+    },
+    {
+      "rank": 11,
+      "assumption": "Convolutional neural networks are necessary for effective visual feature extraction in computer vision tasks",
+      "best_similarity": 0.6954,
+      "is_match": true
+    },
+    {
+      "rank": 71,
+      "assumption": "Convolutional operations are necessary for exploiting spatial structure in data",
+      "best_similarity": 0.6674,
+      "is_match": true
+    },
+    {
+      "rank": 58,
+      "assumption": "Convolutional neural networks are necessary for effective semantic segmentation",
+      "best_similarity": 0.648,
+      "is_match": false
+    },
+    {
+      "rank": 89,
+      "assumption": "Convolutional neural networks are essential for capturing spatial hierarchies in visual tasks",
+      "best_similarity": 0.6405,
+      "is_match": false
+    },
+    {
+      "rank": 51,
+      "assumption": "Convolutional neural networks are necessary for spatial feature extraction in image segmentation",
+      "best_similarity": 0.6205,
+      "is_match": false
+    },
+    {
+      "rank": 6,
+      "assumption": "Convolutional operations with learnable filters are necessary for spatial feature detection in images",
+      "best_similarity": 0.6182,
+      "is_match": false
+    },
+    {
+      "rank": 38,
+      "assumption": "Convolutional operations are necessary for effective feature learning in geometric deep learning",
+      "best_similarity": 0.6163,
+      "is_match": false
+    },
+    {
+      "rank": 121,
+      "assumption": "Convolutional neural networks are essential for processing spatial information in medical images",
+      "best_similarity": 0.602,
+      "is_match": false
+    },
+    {
+      "rank": 24,
+      "assumption": "Fully convolutional architectures are required for dense pixel-level prediction tasks",
+      "best_similarity": 0.5662,
+      "is_match": false
+    },
+    {
+      "rank": 2,
+      "assumption": "Hierarchical feature extraction through multiple convolutional layers is essential for image understanding",
+      "best_similarity": 0.563,
+      "is_match": false
+    },
+    {
+      "rank": 129,
+      "assumption": "Convolutional neural networks are essential for extracting meaningful spatial features from medical images",
+      "best_similarity": 0.5564,
+      "is_match": false
+    },
+    {
+      "rank": 104,
+      "assumption": "Deep networks are necessary for handling complex visual variations in real-world conditions",
+      "best_similarity": 0.5534,
+      "is_match": false
+    },
+    {
+      "rank": 110,
+      "assumption": "Hierarchical feature extraction through multiple layers is essential for complex visual recognition",
+      "best_similarity": 0.5418,
+      "is_match": false
+    },
+    {
+      "rank": 15,
+      "assumption": "Fully convolutional architectures are essential for dense prediction tasks like segmentation",
+      "best_similarity": 0.5342,
+      "is_match": false
+    },
+    {
+      "rank": 97,
+      "assumption": "Natural images contain sufficient statistical regularities for learning generalizable visual features",
+      "best_similarity": 0.5078,
+      "is_match": false
+    },
+    {
+      "rank": 31,
+      "assumption": "Spatial feature extraction is necessary for sophisticated vision understanding",
+      "best_similarity": 0.4971,
+      "is_match": false
+    },
+    {
+      "rank": 36,
+      "assumption": "Geometric transformation modeling is essential for robust computer vision systems",
+      "best_similarity": 0.4904,
+      "is_match": false
+    },
+    {
+      "rank": 35,
+      "assumption": "Supervised learning from labeled data is required for training effective vision models",
+      "best_similarity": 0.4887,
+      "is_match": false
+    },
+    {
+      "rank": 54,
+      "assumption": "Feature fusion between encoder and decoder pathways is necessary for preserving spatial information",
+      "best_similarity": 0.487,
+      "is_match": false
+    },
+    {
+      "rank": 5,
+      "assumption": "Deeper networks with more parameters are essential for capturing complex visual patterns",
+      "best_similarity": 0.4846,
+      "is_match": false
+    },
+    {
+      "rank": 34,
+      "assumption": "Hierarchical feature learning is necessary for complex visual recognition",
+      "best_similarity": 0.4805,
+      "is_match": false
+    },
+    {
+      "rank": 118,
+      "assumption": "Deep learning architectures are necessary for achieving clinically relevant accuracy in medical image analysis",
+      "best_similarity": 0.479,
+      "is_match": false
+    },
+    {
+      "rank": 96,
+      "assumption": "End-to-end differentiable architectures are required for optimal feature learning in vision systems",
+      "best_similarity": 0.4758,
+      "is_match": false
+    },
+    {
+      "rank": 143,
+      "assumption": "Relational reasoning between regions is necessary for advanced computer vision tasks",
+      "best_similarity": 0.4733,
+      "is_match": false
+    },
+    {
+      "rank": 101,
+      "assumption": "Hierarchical feature representations are necessary for complex visual recognition tasks",
+      "best_similarity": 0.4728,
+      "is_match": false
+    },
+    {
+      "rank": 84,
+      "assumption": "Deep hierarchical feature representations are necessary for capturing complex visual patterns",
+      "best_similarity": 0.4619,
+      "is_match": false
+    },
+    {
+      "rank": 1,
+      "assumption": "Gradient-based backpropagation is necessary for training deep convolutional neural networks",
+      "best_similarity": 0.4615,
+      "is_match": false
+    },
+    {
+      "rank": 109,
+      "assumption": "Supervised learning with labeled datasets is required for training effective visual models",
+      "best_similarity": 0.4613,
+      "is_match": false
+    },
+    {
+      "rank": 93,
+      "assumption": "Pre-trained feature extractors are required for achieving competitive performance in vision tasks",
+      "best_similarity": 0.461,
+      "is_match": false
+    },
+    {
+      "rank": 130,
+      "assumption": "Attention mechanisms are necessary for focusing on diagnostically relevant image regions",
+      "best_similarity": 0.4569,
+      "is_match": false
+    },
+    {
+      "rank": 48,
+      "assumption": "Encoder-decoder architectures with skip connections are necessary for effective image segmentation",
+      "best_similarity": 0.455,
+      "is_match": false
+    },
+    {
+      "rank": 116,
+      "assumption": "Transfer learning across related visual tasks is essential for practical deployment",
+      "best_similarity": 0.4531,
+      "is_match": false
+    },
+    {
+      "rank": 9,
+      "assumption": "Non-linear activation functions are necessary for learning complex decision boundaries",
+      "best_similarity": 0.4518,
+      "is_match": false
+    },
+    {
+      "rank": 61,
+      "assumption": "High spatial resolution output is necessary for accurate dense prediction tasks",
+      "best_similarity": 0.4513,
+      "is_match": false
+    },
+    {
+      "rank": 142,
+      "assumption": "Spatial coordinate representations are essential for encoding visual information in neural networks",
+      "best_similarity": 0.4459,
+      "is_match": false
+    },
+    {
+      "rank": 23,
+      "assumption": "Skip connections are necessary for preserving fine-grained spatial information in deep networks",
+      "best_similarity": 0.4453,
+      "is_match": false
+    },
+    {
+      "rank": 14,
+      "assumption": "Skip connections are necessary to preserve fine-grained spatial information in deep networks",
+      "best_similarity": 0.4398,
+      "is_match": false
+    },
+    {
+      "rank": 81,
+      "assumption": "Transfer learning from pre-trained feature extractors is necessary for practical computer vision applications",
+      "best_similarity": 0.4386,
+      "is_match": false
+    },
+    {
+      "rank": 27,
+      "assumption": "Large-scale training data is required for learning generalizable visual representations",
+      "best_similarity": 0.4383,
+      "is_match": false
+    },
+    {
+      "rank": 8,
+      "assumption": "Pooling operations are essential for achieving spatial invariance and reducing computational complexity",
+      "best_similarity": 0.4362,
+      "is_match": false
+    },
+    {
+      "rank": 124,
+      "assumption": "Multi-task learning frameworks are required for comprehensive medical image analysis",
+      "best_similarity": 0.4356,
+      "is_match": false
+    },
+    {
+      "rank": 16,
+      "assumption": "Hierarchical feature learning is necessary for capturing both low-level and high-level visual patterns",
+      "best_similarity": 0.4315,
+      "is_match": false
+    },
+    {
+      "rank": 40,
+      "assumption": "Hierarchical feature learning through stacked layers is required for capturing multi-scale geometric properties",
+      "best_similarity": 0.4308,
+      "is_match": false
+    },
+    {
+      "rank": 88,
+      "assumption": "Supervised learning with pixel-level ground truth annotations is necessary for training effective edge detection models",
+      "best_similarity": 0.4305,
+      "is_match": false
+    },
+    {
+      "rank": 131,
+      "assumption": "Residual connections are required for training deep networks effectively in medical imaging",
+      "best_similarity": 0.4296,
+      "is_match": false
+    },
+    {
+      "rank": 82,
+      "assumption": "Data augmentation is required to achieve generalization and reduce overfitting in visual recognition tasks",
+      "best_similarity": 0.4247,
+      "is_match": false
+    },
+    {
+      "rank": 95,
+      "assumption": "Hierarchical feature representations are necessary for capturing both low-level and high-level visual patterns",
+      "best_similarity": 0.4232,
+      "is_match": false
+    },
+    {
+      "rank": 117,
+      "assumption": "Representational capacity must scale with task complexity for effective learning",
+      "best_similarity": 0.4212,
+      "is_match": false
+    },
+    {
+      "rank": 123,
+      "assumption": "End-to-end learning is necessary for optimal feature extraction in medical image analysis",
+      "best_similarity": 0.4203,
+      "is_match": false
+    },
+    {
+      "rank": 79,
+      "assumption": "End-to-end supervised learning is required for optimal object detection performance",
+      "best_similarity": 0.4197,
+      "is_match": false
+    },
+    {
+      "rank": 128,
+      "assumption": "Supervised learning with labeled datasets is necessary for achieving reliable medical image classification",
+      "best_similarity": 0.4184,
+      "is_match": false
+    },
+    {
+      "rank": 133,
+      "assumption": "End-to-end differentiable training is necessary for optimal feature learning in medical imaging",
+      "best_similarity": 0.4169,
+      "is_match": false
+    },
+    {
+      "rank": 55,
+      "assumption": "End-to-end differentiable training is required for learning optimal segmentation representations",
+      "best_similarity": 0.4155,
+      "is_match": false
+    },
+    {
+      "rank": 105,
+      "assumption": "Multi-stage cascading architectures are required for complex detection problems",
+      "best_similarity": 0.4139,
+      "is_match": false
+    },
+    {
+      "rank": 136,
+      "assumption": "Automated feature learning is essential for achieving human-level diagnostic performance",
+      "best_similarity": 0.4135,
+      "is_match": false
+    },
+    {
+      "rank": 62,
+      "assumption": "Multi-scale feature fusion is essential for comprehensive scene understanding",
+      "best_similarity": 0.4122,
+      "is_match": false
+    },
+    {
+      "rank": 64,
+      "assumption": "Residual connections are necessary for training very deep networks effectively",
+      "best_similarity": 0.4119,
+      "is_match": false
+    },
+    {
+      "rank": 137,
+      "assumption": "Large-scale training data is required for generalizable medical image classification models",
+      "best_similarity": 0.4116,
+      "is_match": false
+    },
+    {
+      "rank": 49,
+      "assumption": "Deep supervision is required for training complex multi-scale segmentation networks effectively",
+      "best_similarity": 0.4111,
+      "is_match": false
+    },
+    {
+      "rank": 70,
+      "assumption": "Translation equivariance is required for robust feature detection across spatial domains",
+      "best_similarity": 0.4097,
+      "is_match": false
+    },
+    {
+      "rank": 66,
+      "assumption": "Pooling operations are necessary for building translation-invariant representations",
+      "best_similarity": 0.4045,
+      "is_match": false
+    },
+    {
+      "rank": 113,
+      "assumption": "Non-linear activation functions are essential for neural network expressiveness",
+      "best_similarity": 0.4027,
+      "is_match": false
+    },
+    {
+      "rank": 29,
+      "assumption": "Standard backpropagation is required for training deep neural networks",
+      "best_similarity": 0.4021,
+      "is_match": false
+    },
+    {
+      "rank": 56,
+      "assumption": "Hierarchical feature learning through progressive downsampling and upsampling is essential for segmentation",
+      "best_similarity": 0.4017,
+      "is_match": false
+    },
+    {
+      "rank": 19,
+      "assumption": "Pixel-level ground truth annotations are necessary for training segmentation models",
+      "best_similarity": 0.4011,
+      "is_match": false
+    },
+    {
+      "rank": 13,
+      "assumption": "Deep supervision is required for training effective hierarchical feature representations",
+      "best_similarity": 0.3988,
+      "is_match": false
+    },
+    {
+      "rank": 77,
+      "assumption": "Differentiable architectures are required for end-to-end learning",
+      "best_similarity": 0.3979,
+      "is_match": false
+    },
+    {
+      "rank": 134,
+      "assumption": "Hierarchical feature representations are required for capturing multi-scale medical image patterns",
+      "best_similarity": 0.3966,
+      "is_match": false
+    },
+    {
+      "rank": 46,
+      "assumption": "Dynamic graph construction is required for adaptive geometric feature learning",
+      "best_similarity": 0.3929,
+      "is_match": false
+    },
+    {
+      "rank": 42,
+      "assumption": "Differentiable operations are required for end-to-end learning in geometric neural networks",
+      "best_similarity": 0.3903,
+      "is_match": false
+    },
+    {
+      "rank": 52,
+      "assumption": "Pixel-level ground truth annotations are required for training segmentation models",
+      "best_similarity": 0.3903,
+      "is_match": false
+    },
+    {
+      "rank": 127,
+      "assumption": "Automated feature extraction is required to surpass human-engineered approaches in medical diagnosis",
+      "best_similarity": 0.388,
+      "is_match": false
+    },
+    {
+      "rank": 43,
+      "assumption": "Standard benchmark datasets are sufficient for validating geometric deep learning methods",
+      "best_similarity": 0.3879,
+      "is_match": false
+    },
+    {
+      "rank": 57,
+      "assumption": "Cross-entropy or similar pixel-wise loss functions are necessary for segmentation training",
+      "best_similarity": 0.3858,
+      "is_match": false
+    },
+    {
+      "rank": 45,
+      "assumption": "Modular network components are necessary for building effective point cloud processing architectures",
+      "best_similarity": 0.385,
+      "is_match": false
+    },
+    {
+      "rank": 25,
+      "assumption": "Hierarchical feature extraction is essential for capturing both local and global visual patterns",
+      "best_similarity": 0.3835,
+      "is_match": false
+    },
+    {
+      "rank": 59,
+      "assumption": "Deep hierarchical feature representations are essential for capturing semantic information",
+      "best_similarity": 0.3812,
+      "is_match": false
+    },
+    {
+      "rank": 135,
+      "assumption": "Standardized benchmark datasets are necessary for validating medical image classification methods",
+      "best_similarity": 0.3809,
+      "is_match": false
+    },
+    {
+      "rank": 99,
+      "assumption": "Supervised learning with labeled training data is required for object detection tasks",
+      "best_similarity": 0.3807,
+      "is_match": false
+    },
+    {
+      "rank": 3,
+      "assumption": "Large-scale labeled datasets are required for training effective deep learning models",
+      "best_similarity": 0.3778,
+      "is_match": false
+    },
+    {
+      "rank": 12,
+      "assumption": "Multi-scale feature representation is essential for accurate object detection and segmentation",
+      "best_similarity": 0.3776,
+      "is_match": false
+    },
+    {
+      "rank": 53,
+      "assumption": "Dice coefficient and IoU metrics are essential for evaluating segmentation quality",
+      "best_similarity": 0.3758,
+      "is_match": false
+    },
+    {
+      "rank": 80,
+      "assumption": "Large labeled datasets are essential for training robust deep learning models",
+      "best_similarity": 0.3749,
+      "is_match": false
+    },
+    {
+      "rank": 144,
+      "assumption": "Computational efficiency is required for practical deployment of neural network components",
+      "best_similarity": 0.3746,
+      "is_match": false
+    },
+    {
+      "rank": 114,
+      "assumption": "Gradient-based optimization is required for training deep neural networks",
+      "best_similarity": 0.3742,
+      "is_match": false
+    },
+    {
+      "rank": 50,
+      "assumption": "Multi-scale feature representation is essential for accurate segmentation of objects of varying sizes",
+      "best_similarity": 0.3723,
+      "is_match": false
+    },
+    {
+      "rank": 68,
+      "assumption": "Hierarchical feature composition is necessary for effective representation learning",
+      "best_similarity": 0.3718,
+      "is_match": false
+    },
+    {
+      "rank": 63,
+      "assumption": "Intersection-over-Union metrics are required for meaningful semantic segmentation evaluation",
+      "best_similarity": 0.3713,
+      "is_match": false
+    },
+    {
+      "rank": 119,
+      "assumption": "Supervised learning with labeled ground truth is required for training reliable medical diagnostic systems",
+      "best_similarity": 0.3712,
+      "is_match": false
+    },
+    {
+      "rank": 69,
+      "assumption": "Local feature extraction is essential for capturing meaningful patterns in structured data",
+      "best_similarity": 0.3695,
+      "is_match": false
+    },
+    {
+      "rank": 90,
+      "assumption": "Multi-scale feature representation is required for handling objects at different scales in images",
+      "best_similarity": 0.3687,
+      "is_match": false
+    },
+    {
+      "rank": 92,
+      "assumption": "Standardized benchmark datasets are essential for validating and comparing computer vision methods",
+      "best_similarity": 0.3675,
+      "is_match": false
+    },
+    {
+      "rank": 73,
+      "assumption": "Gradient-based optimization is necessary for training deep neural networks",
+      "best_similarity": 0.3673,
+      "is_match": false
+    },
+    {
+      "rank": 85,
+      "assumption": "Region-based or single-shot detection frameworks are required for practical object detection systems",
+      "best_similarity": 0.3669,
+      "is_match": false
+    },
+    {
+      "rank": 32,
+      "assumption": "Modular architectural components are required for scalable deep network design",
+      "best_similarity": 0.3661,
+      "is_match": false
+    },
+    {
+      "rank": 20,
+      "assumption": "Gradient-based optimization is required for training deep neural networks effectively",
+      "best_similarity": 0.3654,
+      "is_match": false
+    },
+    {
+      "rank": 7,
+      "assumption": "End-to-end supervised learning is required for optimal feature representation learning",
+      "best_similarity": 0.3653,
+      "is_match": false
+    },
+    {
+      "rank": 21,
+      "assumption": "End-to-end differentiable training is necessary for optimal feature learning in neural networks",
+      "best_similarity": 0.3641,
+      "is_match": false
+    },
+    {
+      "rank": 106,
+      "assumption": "Standard benchmark datasets are necessary for validating detection method performance",
+      "best_similarity": 0.3595,
+      "is_match": false
+    },
+    {
+      "rank": 44,
+      "assumption": "Feature space affinity is essential for capturing semantic relationships in geometric data",
+      "best_similarity": 0.359,
+      "is_match": false
+    },
+    {
+      "rank": 86,
+      "assumption": "Ground truth bounding box annotations are essential for training object detection models",
+      "best_similarity": 0.3573,
+      "is_match": false
+    },
+    {
+      "rank": 74,
+      "assumption": "Compositional feature representations are required for handling complex data structures",
+      "best_similarity": 0.3571,
+      "is_match": false
+    },
+    {
+      "rank": 18,
+      "assumption": "End-to-end learning is essential for optimal feature representation in deep networks",
+      "best_similarity": 0.3547,
+      "is_match": false
+    },
+    {
+      "rank": 107,
+      "assumption": "Gradient-based optimization is essential for training deep neural networks effectively",
+      "best_similarity": 0.3534,
+      "is_match": false
+    },
+    {
+      "rank": 91,
+      "assumption": "Backpropagation-based gradient descent is necessary for training deep neural networks effectively",
+      "best_similarity": 0.3523,
+      "is_match": false
+    },
+    {
+      "rank": 60,
+      "assumption": "End-to-end gradient-based training is required for optimal network performance",
+      "best_similarity": 0.3517,
+      "is_match": false
+    },
+    {
+      "rank": 132,
+      "assumption": "Classification accuracy metrics are essential for evaluating medical image analysis systems",
+      "best_similarity": 0.3512,
+      "is_match": false
+    },
+    {
+      "rank": 76,
+      "assumption": "Stationarity of features is necessary for generalization across different regions of the input space",
+      "best_similarity": 0.3502,
+      "is_match": false
+    },
+    {
+      "rank": 102,
+      "assumption": "Precision and recall metrics are required for evaluating object detection performance",
+      "best_similarity": 0.3488,
+      "is_match": false
+    },
+    {
+      "rank": 87,
+      "assumption": "Gradient-based optimization is necessary for training deep neural network parameters",
+      "best_similarity": 0.3458,
+      "is_match": false
+    },
+    {
+      "rank": 47,
+      "assumption": "Classification and segmentation tasks are essential benchmarks for evaluating point cloud methods",
+      "best_similarity": 0.345,
+      "is_match": false
+    },
+    {
+      "rank": 138,
+      "assumption": "End-to-end differentiable training is necessary for effective neural network components",
+      "best_similarity": 0.3425,
+      "is_match": false
+    },
+    {
+      "rank": 39,
+      "assumption": "Local neighborhood information is essential for understanding geometric structures in point clouds",
+      "best_similarity": 0.3418,
+      "is_match": false
+    },
+    {
+      "rank": 100,
+      "assumption": "Data augmentation is essential for addressing dataset scarcity in deep learning applications",
+      "best_similarity": 0.34,
+      "is_match": false
+    },
+    {
+      "rank": 28,
+      "assumption": "End-to-end differentiable training is necessary for effective deep learning systems",
+      "best_similarity": 0.3387,
+      "is_match": false
+    },
+    {
+      "rank": 94,
+      "assumption": "Pixel-wise prediction accuracy is the primary measure of quality for dense prediction tasks",
+      "best_similarity": 0.3373,
+      "is_match": false
+    },
+    {
+      "rank": 103,
+      "assumption": "Region proposal mechanisms are essential for accurate object localization in detection systems",
+      "best_similarity": 0.3348,
+      "is_match": false
+    },
+    {
+      "rank": 146,
+      "assumption": "Graph-based representations are necessary for modeling complex relational structures",
+      "best_similarity": 0.3267,
+      "is_match": false
+    },
+    {
+      "rank": 33,
+      "assumption": "Task-specific performance metrics are essential for validating computer vision approaches",
+      "best_similarity": 0.324,
+      "is_match": false
+    },
+    {
+      "rank": 126,
+      "assumption": "High-resolution dermoscopy images are necessary for reliable melanoma detection",
+      "best_similarity": 0.3161,
+      "is_match": false
+    },
+    {
+      "rank": 72,
+      "assumption": "Supervised learning with labeled examples is essential for task-specific feature learning",
+      "best_similarity": 0.3155,
+      "is_match": false
+    },
+    {
+      "rank": 4,
+      "assumption": "Classification accuracy on held-out test sets is necessary for validating model performance",
+      "best_similarity": 0.3124,
+      "is_match": false
+    },
+    {
+      "rank": 122,
+      "assumption": "Standardized benchmark datasets are required for validating medical AI system performance",
+      "best_similarity": 0.3096,
+      "is_match": false
+    },
+    {
+      "rank": 41,
+      "assumption": "Graph-based representations are necessary for encoding relational information in unstructured point data",
+      "best_similarity": 0.3069,
+      "is_match": false
+    },
+    {
+      "rank": 120,
+      "assumption": "Segmentation is a necessary prerequisite for accurate lesion classification in dermoscopy",
+      "best_similarity": 0.3042,
+      "is_match": false
+    },
+    {
+      "rank": 10,
+      "assumption": "Model performance generalizes from benchmark datasets to real-world applications",
+      "best_similarity": 0.2974,
+      "is_match": false
+    },
+    {
+      "rank": 65,
+      "assumption": "Benchmark dataset performance is essential for validating algorithmic contributions",
+      "best_similarity": 0.2938,
+      "is_match": false
+    },
+    {
+      "rank": 83,
+      "assumption": "Multi-class classification accuracy is the essential metric for evaluating detection system performance",
+      "best_similarity": 0.2938,
+      "is_match": false
+    },
+    {
+      "rank": 147,
+      "assumption": "Cross-task generalization is required to demonstrate the fundamental value of architectural innovations",
+      "best_similarity": 0.28,
+      "is_match": false
+    },
+    {
+      "rank": 111,
+      "assumption": "Standard benchmark datasets are necessary for meaningful performance evaluation",
+      "best_similarity": 0.2786,
+      "is_match": false
+    },
+    {
+      "rank": 145,
+      "assumption": "Feature aggregation and distribution mechanisms are essential for global information processing",
+      "best_similarity": 0.272,
+      "is_match": false
+    },
+    {
+      "rank": 75,
+      "assumption": "Benchmark dataset performance is essential for validating model effectiveness",
+      "best_similarity": 0.2707,
+      "is_match": false
+    },
+    {
+      "rank": 112,
+      "assumption": "Accuracy-efficiency trade-offs are fundamental constraints that must be optimized",
+      "best_similarity": 0.2472,
+      "is_match": false
+    },
+    {
+      "rank": 140,
+      "assumption": "Performance on standard benchmark datasets is required to validate the effectiveness of new methods",
+      "best_similarity": 0.2366,
+      "is_match": false
+    },
+    {
+      "rank": 125,
+      "assumption": "Quantitative accuracy metrics are essential for demonstrating clinical utility of diagnostic systems",
+      "best_similarity": 0.2305,
+      "is_match": false
+    },
+    {
+      "rank": 22,
+      "assumption": "Standardized benchmark datasets are essential for valid performance comparison across methods",
+      "best_similarity": 0.2239,
+      "is_match": false
+    },
+    {
+      "rank": 139,
+      "assumption": "Modular architectural components that can be plugged into existing networks are essential for practical adoption",
+      "best_similarity": 0.2214,
+      "is_match": false
+    },
+    {
+      "rank": 26,
+      "assumption": "Quantitative metrics on held-out test sets are necessary for establishing method superiority",
+      "best_similarity": 0.2184,
+      "is_match": false
+    },
+    {
+      "rank": 115,
+      "assumption": "Computational complexity measured by operations count is necessary for efficiency evaluation",
+      "best_similarity": 0.2183,
+      "is_match": false
+    },
+    {
+      "rank": 37,
+      "assumption": "Extensive experimental validation is necessary to demonstrate the effectiveness of new architectural components",
+      "best_similarity": 0.2169,
+      "is_match": false
+    },
+    {
+      "rank": 67,
+      "assumption": "State-of-the-art comparison is required for demonstrating research progress",
+      "best_similarity": 0.2127,
+      "is_match": false
+    },
+    {
+      "rank": 17,
+      "assumption": "Standardized benchmark datasets are required for valid performance comparison across methods",
+      "best_similarity": 0.2115,
+      "is_match": false
+    }
+  ]
+}

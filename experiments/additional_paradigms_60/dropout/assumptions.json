@@ -1,0 +1,2102 @@
+[
+  {
+    "paper_id": "https://openalex.org/W2010362084",
+    "paper_title": "Speaker adaptation of context dependent deep neural networks",
+    "assumption": "Speaker-specific acoustic modeling is necessary for optimal speech recognition accuracy",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2010362084",
+    "paper_title": "Speaker adaptation of context dependent deep neural networks",
+    "assumption": "Deep neural networks require fine-tuning or retraining for effective speaker adaptation",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2010362084",
+    "paper_title": "Speaker adaptation of context dependent deep neural networks",
+    "assumption": "Context-dependent modeling is essential for high-quality speech recognition",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2010362084",
+    "paper_title": "Speaker adaptation of context dependent deep neural networks",
+    "assumption": "Frame-level feature transformations are the primary mechanism for acoustic adaptation",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2010362084",
+    "paper_title": "Speaker adaptation of context dependent deep neural networks",
+    "assumption": "Speaker-independent models require adaptation to handle speaker variability effectively",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2140229565",
+    "paper_title": "Multiobjective Neural Network Ensembles Based on Regularized Negative Correlation Learning",
+    "assumption": "Mean-square-error is the appropriate fundamental loss function for neural network ensemble learning",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2140229565",
+    "paper_title": "Multiobjective Neural Network Ensembles Based on Regularized Negative Correlation Learning",
+    "assumption": "Overfitting is primarily caused by insufficient regularization rather than fundamental architectural limitations",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2140229565",
+    "paper_title": "Multiobjective Neural Network Ensembles Based on Regularized Negative Correlation Learning",
+    "assumption": "Ensemble performance is best optimized by explicitly controlling correlation between individual network outputs",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2140229565",
+    "paper_title": "Multiobjective Neural Network Ensembles Based on Regularized Negative Correlation Learning",
+    "assumption": "Neural network ensembles require specialized training procedures distinct from training individual networks",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2140229565",
+    "paper_title": "Multiobjective Neural Network Ensembles Based on Regularized Negative Correlation Learning",
+    "assumption": "Evolutionary algorithms are necessary for effective multiobjective optimization in neural network training",
+    "confidence": 0.75,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2172198266",
+    "paper_title": "Recursive Bayesian Recurrent Neural Networks for Time-Series Modeling",
+    "assumption": "Recurrence is necessary for effective temporal sequence modeling",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2172198266",
+    "paper_title": "Recursive Bayesian Recurrent Neural Networks for Time-Series Modeling",
+    "assumption": "Second-order optimization methods are essential for optimal neural network training",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2172198266",
+    "paper_title": "Recursive Bayesian Recurrent Neural Networks for Time-Series Modeling",
+    "assumption": "Bayesian inference is required for principled uncertainty quantification in neural networks",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2172198266",
+    "paper_title": "Recursive Bayesian Recurrent Neural Networks for Time-Series Modeling",
+    "assumption": "Regularization is necessary to prevent overfitting and achieve good generalization",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2172198266",
+    "paper_title": "Recursive Bayesian Recurrent Neural Networks for Time-Series Modeling",
+    "assumption": "Sequential weight updates are required for online learning in time-series applications",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2150152686",
+    "paper_title": "Neural-Network-Based Models for Short-Term Traffic Flow Forecasting Using a Hybrid Exponential Smoothing and Levenberg–Marquardt Algorithm",
+    "assumption": "Historical traffic patterns are necessary for predicting future traffic flow",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2150152686",
+    "paper_title": "Neural-Network-Based Models for Short-Term Traffic Flow Forecasting Using a Hybrid Exponential Smoothing and Levenberg–Marquardt Algorithm",
+    "assumption": "Data smoothing is required to remove noise before neural network training",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2150152686",
+    "paper_title": "Neural-Network-Based Models for Short-Term Traffic Flow Forecasting Using a Hybrid Exponential Smoothing and Levenberg–Marquardt Algorithm",
+    "assumption": "Supervised learning with labeled historical data is essential for traffic forecasting",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2150152686",
+    "paper_title": "Neural-Network-Based Models for Short-Term Traffic Flow Forecasting Using a Hybrid Exponential Smoothing and Levenberg–Marquardt Algorithm",
+    "assumption": "Neural networks require specialized optimization algorithms for effective training",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2150152686",
+    "paper_title": "Neural-Network-Based Models for Short-Term Traffic Flow Forecasting Using a Hybrid Exponential Smoothing and Levenberg–Marquardt Algorithm",
+    "assumption": "Generalization performance on unseen data is the primary measure of forecasting model quality",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2183112036",
+    "paper_title": "Improving Neural Networks with Dropout",
+    "assumption": "Large neural networks with many parameters are inherently prone to overfitting",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2183112036",
+    "paper_title": "Improving Neural Networks with Dropout",
+    "assumption": "Model averaging is necessary for optimal performance but computationally prohibitive at test time",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2183112036",
+    "paper_title": "Improving Neural Networks with Dropout",
+    "assumption": "Co-adaptation between units is fundamentally detrimental to generalization",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2183112036",
+    "paper_title": "Improving Neural Networks with Dropout",
+    "assumption": "Regularization techniques are essential for training deep neural networks effectively",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2183112036",
+    "paper_title": "Improving Neural Networks with Dropout",
+    "assumption": "Network capacity must be traded off against overfitting risk",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2016291052",
+    "paper_title": "MAGNETIC RESONANCE BRAIN IMAGE CLASSIFICATION BY AN IMPROVED ARTIFICIAL BEE COLONY ALGORITHM",
+    "assumption": "Handcrafted feature extraction is necessary for effective medical image analysis",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2016291052",
+    "paper_title": "MAGNETIC RESONANCE BRAIN IMAGE CLASSIFICATION BY AN IMPROVED ARTIFICIAL BEE COLONY ALGORITHM",
+    "assumption": "Dimensionality reduction is required before classification to achieve optimal performance",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2016291052",
+    "paper_title": "MAGNETIC RESONANCE BRAIN IMAGE CLASSIFICATION BY AN IMPROVED ARTIFICIAL BEE COLONY ALGORITHM",
+    "assumption": "Traditional neural networks require external optimization algorithms for effective training",
+    "confidence": 0.92,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2016291052",
+    "paper_title": "MAGNETIC RESONANCE BRAIN IMAGE CLASSIFICATION BY AN IMPROVED ARTIFICIAL BEE COLONY ALGORITHM",
+    "assumption": "Binary classification accuracy is the essential metric for medical diagnostic systems",
+    "confidence": 0.88,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2016291052",
+    "paper_title": "MAGNETIC RESONANCE BRAIN IMAGE CLASSIFICATION BY AN IMPROVED ARTIFICIAL BEE COLONY ALGORITHM",
+    "assumption": "Cross-validation is necessary to ensure reliable performance estimates in medical imaging",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2250417532",
+    "paper_title": "Simple Customization of Recursive Neural Networks for Semantic Relation Classification",
+    "assumption": "Syntactic tree structures are necessary for capturing semantic relationships in text",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2250417532",
+    "paper_title": "Simple Customization of Recursive Neural Networks for Semantic Relation Classification",
+    "assumption": "Recursive processing along parse trees is required for compositional semantic understanding",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2250417532",
+    "paper_title": "Simple Customization of Recursive Neural Networks for Semantic Relation Classification",
+    "assumption": "Hierarchical sentence structure must be explicitly modeled through tree-based architectures for semantic tasks",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2250417532",
+    "paper_title": "Simple Customization of Recursive Neural Networks for Semantic Relation Classification",
+    "assumption": "Compositional semantics requires bottom-up aggregation from leaf nodes to root in syntactic trees",
+    "confidence": 0.75,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2250417532",
+    "paper_title": "Simple Customization of Recursive Neural Networks for Semantic Relation Classification",
+    "assumption": "Syntactic parsing is a necessary prerequisite for semantic relation classification",
+    "confidence": 0.7,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2124196693",
+    "paper_title": "Prediction of body mass index in mice using dense molecular markers and a regularized neural network",
+    "assumption": "Dense molecular markers are necessary for accurate genomic prediction of complex traits",
+    "confidence": 0.95,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2124196693",
+    "paper_title": "Prediction of body mass index in mice using dense molecular markers and a regularized neural network",
+    "assumption": "Neural networks are essential for capturing non-linear genetic relationships that linear methods cannot model",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2124196693",
+    "paper_title": "Prediction of body mass index in mice using dense molecular markers and a regularized neural network",
+    "assumption": "Feed-forward multilayer perceptrons are the required architecture for genomic prediction tasks",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2124196693",
+    "paper_title": "Prediction of body mass index in mice using dense molecular markers and a regularized neural network",
+    "assumption": "Backpropagation-based training is necessary for neural network optimization in genomic applications",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2124196693",
+    "paper_title": "Prediction of body mass index in mice using dense molecular markers and a regularized neural network",
+    "assumption": "Individual SNP effects can be meaningfully interpreted from trained neural network weights",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2170856142",
+    "paper_title": "Generalized versus non-generalized neural network model for multi-lead inflow forecasting at Aswan High Dam",
+    "assumption": "Cross-validation on held-out test sets is sufficient to measure true model generalization performance",
+    "confidence": 0.95,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2170856142",
+    "paper_title": "Generalized versus non-generalized neural network model for multi-lead inflow forecasting at Aswan High Dam",
+    "assumption": "Overfitting is fundamentally caused by model complexity exceeding data constraints",
+    "confidence": 0.92,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2170856142",
+    "paper_title": "Generalized versus non-generalized neural network model for multi-lead inflow forecasting at Aswan High Dam",
+    "assumption": "Historical time series patterns are necessary and sufficient for forecasting future values",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2170856142",
+    "paper_title": "Generalized versus non-generalized neural network model for multi-lead inflow forecasting at Aswan High Dam",
+    "assumption": "Correlation-based feature selection is necessary for optimal neural network input design",
+    "confidence": 0.88,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2170856142",
+    "paper_title": "Generalized versus non-generalized neural network model for multi-lead inflow forecasting at Aswan High Dam",
+    "assumption": "Feedforward architectures are sufficient for time series prediction with proper input windowing",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1514895053",
+    "paper_title": "Modeling and analysis of actual evapotranspiration using data driven and wavelet techniques",
+    "assumption": "Eddy covariance measurements provide the ground truth standard for actual evapotranspiration validation",
+    "confidence": 0.95,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W1514895053",
+    "paper_title": "Modeling and analysis of actual evapotranspiration using data driven and wavelet techniques",
+    "assumption": "Physical process understanding is required for reliable hydrological modeling",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1514895053",
+    "paper_title": "Modeling and analysis of actual evapotranspiration using data driven and wavelet techniques",
+    "assumption": "Meteorological variables are sufficient predictors for evapotranspiration estimation",
+    "confidence": 0.88,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W1514895053",
+    "paper_title": "Modeling and analysis of actual evapotranspiration using data driven and wavelet techniques",
+    "assumption": "Penman-Monteith equation represents the standard physically-based approach for evapotranspiration modeling",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1514895053",
+    "paper_title": "Modeling and analysis of actual evapotranspiration using data driven and wavelet techniques",
+    "assumption": "Hourly temporal resolution is necessary for capturing evapotranspiration dynamics",
+    "confidence": 0.82,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2046589863",
+    "paper_title": "Deep Architectures and Deep Learning in Chemoinformatics: The Prediction of Aqueous Solubility for Drug-Like Molecules",
+    "assumption": "Molecular property prediction requires handcrafted molecular descriptors or fingerprints as input features",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2046589863",
+    "paper_title": "Deep Architectures and Deep Learning in Chemoinformatics: The Prediction of Aqueous Solubility for Drug-Like Molecules",
+    "assumption": "Graph neural networks must operate on directed acyclic graphs rather than undirected cyclic molecular graphs",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2046589863",
+    "paper_title": "Deep Architectures and Deep Learning in Chemoinformatics: The Prediction of Aqueous Solubility for Drug-Like Molecules",
+    "assumption": "Deep learning methods require large datasets to outperform shallow machine learning approaches",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2046589863",
+    "paper_title": "Deep Architectures and Deep Learning in Chemoinformatics: The Prediction of Aqueous Solubility for Drug-Like Molecules",
+    "assumption": "Molecular graphs must be converted or preprocessed before neural networks can process them effectively",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2046589863",
+    "paper_title": "Deep Architectures and Deep Learning in Chemoinformatics: The Prediction of Aqueous Solubility for Drug-Like Molecules",
+    "assumption": "Recursive neural networks are the primary deep learning architecture suitable for structured chemical data",
+    "confidence": 0.75,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1795688558",
+    "paper_title": "Global patterns in base flow index and recession based on streamflow observations from 3394 catchments",
+    "assumption": "Base flow can be meaningfully separated from total streamflow as a distinct hydrological component",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1795688558",
+    "paper_title": "Global patterns in base flow index and recession based on streamflow observations from 3394 catchments",
+    "assumption": "Streamflow observations at catchment outlets accurately represent integrated watershed hydrological processes",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W1795688558",
+    "paper_title": "Global patterns in base flow index and recession based on streamflow observations from 3394 catchments",
+    "assumption": "Climatic and physiographic characteristics are sufficient to predict hydrological behavior across diverse regions",
+    "confidence": 0.88,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1795688558",
+    "paper_title": "Global patterns in base flow index and recession based on streamflow observations from 3394 catchments",
+    "assumption": "Base flow recession follows exponential decay patterns that can be characterized by a single constant",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1795688558",
+    "paper_title": "Global patterns in base flow index and recession based on streamflow observations from 3394 catchments",
+    "assumption": "Statistical relationships derived from gauged catchments are transferable to ungauged regions",
+    "confidence": 0.82,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2102017823",
+    "paper_title": "Comparing Sigmoid Transfer Functions for Neural Network Multistep Ahead Streamflow Forecasting",
+    "assumption": "Nonlinear transfer functions are essential for neural networks to provide meaningful approximation capabilities",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2102017823",
+    "paper_title": "Comparing Sigmoid Transfer Functions for Neural Network Multistep Ahead Streamflow Forecasting",
+    "assumption": "Bounded transfer functions (between -1 and 1) are necessary for stable neural network training",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2102017823",
+    "paper_title": "Comparing Sigmoid Transfer Functions for Neural Network Multistep Ahead Streamflow Forecasting",
+    "assumption": "Backpropagation-based gradient descent is the required training paradigm for multilayer perceptrons",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2102017823",
+    "paper_title": "Comparing Sigmoid Transfer Functions for Neural Network Multistep Ahead Streamflow Forecasting",
+    "assumption": "Regularization techniques are essential to prevent overfitting in neural network training",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2102017823",
+    "paper_title": "Comparing Sigmoid Transfer Functions for Neural Network Multistep Ahead Streamflow Forecasting",
+    "assumption": "Separate training and testing sets are required for valid neural network performance evaluation",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2036242736",
+    "paper_title": "A deep convolutional neural network using heterogeneous pooling for trading acoustic invariance with phonetic confusion",
+    "assumption": "Translation invariance in CNNs is essential for robust feature learning in spectrograms",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2036242736",
+    "paper_title": "A deep convolutional neural network using heterogeneous pooling for trading acoustic invariance with phonetic confusion",
+    "assumption": "Deep architectures are necessary for achieving competitive speech recognition performance",
+    "confidence": 0.92,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2036242736",
+    "paper_title": "A deep convolutional neural network using heterogeneous pooling for trading acoustic invariance with phonetic confusion",
+    "assumption": "HMM backend integration is required for continuous speech recognition systems",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2036242736",
+    "paper_title": "A deep convolutional neural network using heterogeneous pooling for trading acoustic invariance with phonetic confusion",
+    "assumption": "Convolutional layers are essential for processing spectral features in speech",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2036242736",
+    "paper_title": "A deep convolutional neural network using heterogeneous pooling for trading acoustic invariance with phonetic confusion",
+    "assumption": "Regularization techniques are necessary to prevent overfitting in deep networks",
+    "confidence": 0.87,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2148714761",
+    "paper_title": "Railway passenger train delay prediction via neural network model",
+    "assumption": "Cross-validation with train/validation/test splits is necessary to prevent overfitting",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2148714761",
+    "paper_title": "Railway passenger train delay prediction via neural network model",
+    "assumption": "Neural networks require manual architecture design and hyperparameter tuning to achieve good performance",
+    "confidence": 0.92,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2148714761",
+    "paper_title": "Railway passenger train delay prediction via neural network model",
+    "assumption": "Prediction accuracy on held-out test sets is the primary measure of model quality",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2148714761",
+    "paper_title": "Railway passenger train delay prediction via neural network model",
+    "assumption": "Input data preprocessing and encoding schemes are essential for neural network performance",
+    "confidence": 0.88,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2148714761",
+    "paper_title": "Railway passenger train delay prediction via neural network model",
+    "assumption": "Model comparison requires evaluating multiple competing approaches on the same dataset",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2116386744",
+    "paper_title": "PowerPlay: Training an Increasingly General Problem Solver by Continually Searching for the Simplest Still Unsolvable Problem",
+    "assumption": "Supervised learning with externally provided tasks is necessary for training general problem solvers",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2116386744",
+    "paper_title": "PowerPlay: Training an Increasingly General Problem Solver by Continually Searching for the Simplest Still Unsolvable Problem",
+    "assumption": "Problem generalization requires exposure to diverse external task distributions",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2116386744",
+    "paper_title": "PowerPlay: Training an Increasingly General Problem Solver by Continually Searching for the Simplest Still Unsolvable Problem",
+    "assumption": "Curriculum design requires human expertise to sequence tasks appropriately",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2116386744",
+    "paper_title": "PowerPlay: Training an Increasingly General Problem Solver by Continually Searching for the Simplest Still Unsolvable Problem",
+    "assumption": "Learning systems require external reward signals to guide skill acquisition",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2116386744",
+    "paper_title": "PowerPlay: Training an Increasingly General Problem Solver by Continually Searching for the Simplest Still Unsolvable Problem",
+    "assumption": "Task complexity must be gradually increased through external curriculum control",
+    "confidence": 0.75,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W33646956",
+    "paper_title": "Enactive Music Cognition: Background and Research Themes",
+    "assumption": "Deep neural networks require explicit regularization techniques to prevent overfitting",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W33646956",
+    "paper_title": "Enactive Music Cognition: Background and Research Themes",
+    "assumption": "Data augmentation is essential for improving deep network generalization",
+    "confidence": 0.92,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W33646956",
+    "paper_title": "Enactive Music Cognition: Background and Research Themes",
+    "assumption": "Linear interpolation in feature space is a valid way to create meaningful training samples",
+    "confidence": 0.88,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W33646956",
+    "paper_title": "Enactive Music Cognition: Background and Research Themes",
+    "assumption": "Semi-supervised learning requires leveraging unlabeled data through pseudolabeling or similar techniques",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W33646956",
+    "paper_title": "Enactive Music Cognition: Background and Research Themes",
+    "assumption": "Model performance on validation sets is a reliable indicator of generalization quality",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W17156489",
+    "paper_title": "Improving low-resource CD-DNN-HMM using dropout and multilingual DNN training",
+    "assumption": "Deep neural networks require substantial amounts of training data to avoid overfitting and achieve good performance",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W17156489",
+    "paper_title": "Improving low-resource CD-DNN-HMM using dropout and multilingual DNN training",
+    "assumption": "Hidden Markov Models are necessary for proper temporal modeling in speech recognition",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W17156489",
+    "paper_title": "Improving low-resource CD-DNN-HMM using dropout and multilingual DNN training",
+    "assumption": "Context-dependent acoustic modeling is essential for competitive speech recognition performance",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W17156489",
+    "paper_title": "Improving low-resource CD-DNN-HMM using dropout and multilingual DNN training",
+    "assumption": "Language-specific acoustic models are required for optimal speech recognition in each target language",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W17156489",
+    "paper_title": "Improving low-resource CD-DNN-HMM using dropout and multilingual DNN training",
+    "assumption": "Word error rate is the primary and most meaningful metric for evaluating speech recognition system quality",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2012059993",
+    "paper_title": "Optimization the Initial Weights of Artificial Neural Networks via Genetic Algorithm Applied to Hip Bone Fracture Prediction",
+    "assumption": "Random weight initialization is suboptimal and requires improvement for neural network performance",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2012059993",
+    "paper_title": "Optimization the Initial Weights of Artificial Neural Networks via Genetic Algorithm Applied to Hip Bone Fracture Prediction",
+    "assumption": "Backpropagation with gradient descent is the standard training paradigm for neural networks",
+    "confidence": 0.98,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2012059993",
+    "paper_title": "Optimization the Initial Weights of Artificial Neural Networks via Genetic Algorithm Applied to Hip Bone Fracture Prediction",
+    "assumption": "Three-layer architectures with one hidden layer are sufficient for most classification tasks",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2012059993",
+    "paper_title": "Optimization the Initial Weights of Artificial Neural Networks via Genetic Algorithm Applied to Hip Bone Fracture Prediction",
+    "assumption": "Feature selection through statistical methods is necessary before neural network training",
+    "confidence": 0.88,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2012059993",
+    "paper_title": "Optimization the Initial Weights of Artificial Neural Networks via Genetic Algorithm Applied to Hip Bone Fracture Prediction",
+    "assumption": "AUC is the appropriate primary metric for evaluating binary classification performance",
+    "confidence": 0.92,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2154627016",
+    "paper_title": "Fast probabilistic nonlinear petrophysical inversion",
+    "assumption": "Monte Carlo sampling is the gold standard for obtaining true posterior distributions in nonlinear inverse problems",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2154627016",
+    "paper_title": "Fast probabilistic nonlinear petrophysical inversion",
+    "assumption": "Posterior probability density functions are necessary for meaningful uncertainty quantification in geophysical inversion",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2154627016",
+    "paper_title": "Fast probabilistic nonlinear petrophysical inversion",
+    "assumption": "Computational efficiency requires sacrificing some accuracy compared to full Bayesian sampling methods",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2154627016",
+    "paper_title": "Fast probabilistic nonlinear petrophysical inversion",
+    "assumption": "Joint inversion of multiple geophysical measurements is essential for robust petrophysical parameter estimation",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2154627016",
+    "paper_title": "Fast probabilistic nonlinear petrophysical inversion",
+    "assumption": "Nonlinear forward models are necessary to accurately relate geophysical observables to petrophysical parameters",
+    "confidence": 0.88,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1976773142",
+    "paper_title": "Mechanistic-empirical processor performance modeling for constructing CPI stacks on real hardware",
+    "assumption": "CPI stacks are essential for understanding processor performance bottlenecks",
+    "confidence": 0.95,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W1976773142",
+    "paper_title": "Mechanistic-empirical processor performance modeling for constructing CPI stacks on real hardware",
+    "assumption": "Mechanistic models are inherently superior for providing system insights compared to empirical models",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1976773142",
+    "paper_title": "Mechanistic-empirical processor performance modeling for constructing CPI stacks on real hardware",
+    "assumption": "Performance models must be validated against standardized benchmark suites to be credible",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W1976773142",
+    "paper_title": "Mechanistic-empirical processor performance modeling for constructing CPI stacks on real hardware",
+    "assumption": "White-box interpretability is necessary for actionable performance optimization",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1976773142",
+    "paper_title": "Mechanistic-empirical processor performance modeling for constructing CPI stacks on real hardware",
+    "assumption": "Analytical models are required for systematic processor performance understanding",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2097940622",
+    "paper_title": "Deep Learning Regularized Fisher Mappings",
+    "assumption": "Fisher criterion optimization is essential for achieving optimal class separability in feature space",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2097940622",
+    "paper_title": "Deep Learning Regularized Fisher Mappings",
+    "assumption": "Deep neural networks are necessary for learning complex nonlinear feature mappings",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2097940622",
+    "paper_title": "Deep Learning Regularized Fisher Mappings",
+    "assumption": "Regularization is required to prevent overfitting in high-capacity models",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2097940622",
+    "paper_title": "Deep Learning Regularized Fisher Mappings",
+    "assumption": "Class separability in feature space is the primary objective for classification feature extraction",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2097940622",
+    "paper_title": "Deep Learning Regularized Fisher Mappings",
+    "assumption": "Supervised fine-tuning is necessary for adapting deep models to classification tasks",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2022262456",
+    "paper_title": "Machine learning techniques applied to prediction of residual strength of clay",
+    "assumption": "Supervised learning with labeled input-output pairs is necessary for accurate prediction tasks",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2022262456",
+    "paper_title": "Machine learning techniques applied to prediction of residual strength of clay",
+    "assumption": "Statistical performance metrics on test data are sufficient indicators of model quality and practical utility",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2022262456",
+    "paper_title": "Machine learning techniques applied to prediction of residual strength of clay",
+    "assumption": "Complex nonlinear relationships in physical systems require nonlinear machine learning models to capture accurately",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2022262456",
+    "paper_title": "Machine learning techniques applied to prediction of residual strength of clay",
+    "assumption": "Model generalization performance is essential for determining the superiority of one algorithm over another",
+    "confidence": 0.88,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2022262456",
+    "paper_title": "Machine learning techniques applied to prediction of residual strength of clay",
+    "assumption": "Index properties contain sufficient information to predict complex soil mechanical behaviors",
+    "confidence": 0.8,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2127490715",
+    "paper_title": "Effects of environmental conditions and fishing operations on the performance of a bottom trawl",
+    "assumption": "Trawl performance is adequately captured by measuring net spread and footrope contact variability",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2127490715",
+    "paper_title": "Effects of environmental conditions and fishing operations on the performance of a bottom trawl",
+    "assumption": "Statistical modeling is necessary to understand complex multivariate relationships in fishing gear performance",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2127490715",
+    "paper_title": "Effects of environmental conditions and fishing operations on the performance of a bottom trawl",
+    "assumption": "Model validation through holdout data is essential for assessing predictive accuracy and generalization",
+    "confidence": 0.8,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2127490715",
+    "paper_title": "Effects of environmental conditions and fishing operations on the performance of a bottom trawl",
+    "assumption": "Environmental conditions can be treated as independent variables that linearly or smoothly affect fishing operations",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2127490715",
+    "paper_title": "Effects of environmental conditions and fishing operations on the performance of a bottom trawl",
+    "assumption": "Operational variables and environmental conditions are the primary determinants of trawl performance variability",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2103533122",
+    "paper_title": "Iterative Reweighted Noninteger Norm Regularizing SVM for Gene Expression Data Classification",
+    "assumption": "Sparsity-inducing regularization is necessary for effective feature selection in high-dimensional data",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2103533122",
+    "paper_title": "Iterative Reweighted Noninteger Norm Regularizing SVM for Gene Expression Data Classification",
+    "assumption": "Cross-validation on prediction accuracy is the primary measure for evaluating classification performance",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2103533122",
+    "paper_title": "Iterative Reweighted Noninteger Norm Regularizing SVM for Gene Expression Data Classification",
+    "assumption": "Convex optimization is required for reliable and tractable machine learning algorithms",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2103533122",
+    "paper_title": "Iterative Reweighted Noninteger Norm Regularizing SVM for Gene Expression Data Classification",
+    "assumption": "Feature selection and classification should be performed simultaneously within a single optimization framework",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2103533122",
+    "paper_title": "Iterative Reweighted Noninteger Norm Regularizing SVM for Gene Expression Data Classification",
+    "assumption": "Regularization penalties must be applied uniformly across all features to ensure fair selection",
+    "confidence": 0.82,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2137356002",
+    "paper_title": "Review on Methods to Fix Number of Hidden Neurons in Neural Networks",
+    "assumption": "Hidden layer architecture is necessary for neural networks to learn complex patterns",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2137356002",
+    "paper_title": "Review on Methods to Fix Number of Hidden Neurons in Neural Networks",
+    "assumption": "The number of hidden neurons fundamentally determines network capacity and generalization ability",
+    "confidence": 0.92,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2137356002",
+    "paper_title": "Review on Methods to Fix Number of Hidden Neurons in Neural Networks",
+    "assumption": "Statistical error metrics are sufficient to evaluate neural network performance and guide architectural decisions",
+    "confidence": 0.88,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2137356002",
+    "paper_title": "Review on Methods to Fix Number of Hidden Neurons in Neural Networks",
+    "assumption": "Overfitting and underfitting are primarily controlled by network size rather than other regularization mechanisms",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2137356002",
+    "paper_title": "Review on Methods to Fix Number of Hidden Neurons in Neural Networks",
+    "assumption": "Manual architecture design is necessary for optimal neural network performance",
+    "confidence": 0.82,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1989684337",
+    "paper_title": "Ensemble of exemplar-SVMs for object detection and beyond",
+    "assumption": "Linear classifiers are sufficient for learning discriminative visual features in object detection",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1989684337",
+    "paper_title": "Ensemble of exemplar-SVMs for object detection and beyond",
+    "assumption": "Hard negative mining with millions of negative examples is necessary for training effective object detectors",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1989684337",
+    "paper_title": "Ensemble of exemplar-SVMs for object detection and beyond",
+    "assumption": "Object detection requires learning complex multi-component models with latent variables",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1989684337",
+    "paper_title": "Ensemble of exemplar-SVMs for object detection and beyond",
+    "assumption": "Handcrafted visual features are essential for object recognition performance",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1989684337",
+    "paper_title": "Ensemble of exemplar-SVMs for object detection and beyond",
+    "assumption": "Detection performance and computational efficiency represent a fundamental tradeoff",
+    "confidence": 0.75,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2131342762",
+    "paper_title": "Sequence-discriminative training of deep neural networks",
+    "assumption": "Cross-entropy training is essential for establishing competitive baseline performance before sequence-discriminative training",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2131342762",
+    "paper_title": "Sequence-discriminative training of deep neural networks",
+    "assumption": "Word error rate is the definitive metric for evaluating speech recognition system quality",
+    "confidence": 0.92,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2131342762",
+    "paper_title": "Sequence-discriminative training of deep neural networks",
+    "assumption": "Lattice-based hypotheses are necessary for implementing sequence-discriminative training criteria",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2131342762",
+    "paper_title": "Sequence-discriminative training of deep neural networks",
+    "assumption": "Frame-level acoustic modeling with phoneme targets is required for speech recognition systems",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2131342762",
+    "paper_title": "Sequence-discriminative training of deep neural networks",
+    "assumption": "Sequence-level optimization is necessary to achieve optimal speech recognition performance beyond cross-entropy training",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2127186958",
+    "paper_title": "Resting-State Functional Connectivity Emerges from Structurally and Dynamically Shaped Slow Linear Fluctuations",
+    "assumption": "Anatomical connectivity structure is the primary constraint that determines functional brain organization",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2127186958",
+    "paper_title": "Resting-State Functional Connectivity Emerges from Structurally and Dynamically Shaped Slow Linear Fluctuations",
+    "assumption": "Resting-state functional connectivity reflects meaningful neural communication patterns rather than measurement artifacts",
+    "confidence": 0.92,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2127186958",
+    "paper_title": "Resting-State Functional Connectivity Emerges from Structurally and Dynamically Shaped Slow Linear Fluctuations",
+    "assumption": "Large-scale brain dynamics can be adequately captured by reducing detailed neuronal models to ensemble-level descriptions",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2127186958",
+    "paper_title": "Resting-State Functional Connectivity Emerges from Structurally and Dynamically Shaped Slow Linear Fluctuations",
+    "assumption": "Diffusion imaging provides sufficient anatomical connectivity constraints for modeling structure-function relationships",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2127186958",
+    "paper_title": "Resting-State Functional Connectivity Emerges from Structurally and Dynamically Shaped Slow Linear Fluctuations",
+    "assumption": "Linear correlation measures are appropriate and sufficient metrics for quantifying functional brain connectivity",
+    "confidence": 0.83,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2158585626",
+    "paper_title": "Using sensitivity analysis and visualization techniques to open black box data mining models",
+    "assumption": "Model interpretability requires post-hoc analysis techniques rather than inherently interpretable architectures",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2158585626",
+    "paper_title": "Using sensitivity analysis and visualization techniques to open black box data mining models",
+    "assumption": "Black box models are fundamentally opaque and require external methods to extract understanding",
+    "confidence": 0.92,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2158585626",
+    "paper_title": "Using sensitivity analysis and visualization techniques to open black box data mining models",
+    "assumption": "Human-understandable explanations must be extracted from models rather than built into them",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2158585626",
+    "paper_title": "Using sensitivity analysis and visualization techniques to open black box data mining models",
+    "assumption": "Model performance and interpretability represent a fundamental tradeoff",
+    "confidence": 0.88,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2158585626",
+    "paper_title": "Using sensitivity analysis and visualization techniques to open black box data mining models",
+    "assumption": "Feature importance rankings are necessary and sufficient for model understanding",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W1989549063",
+    "paper_title": "KL-divergence regularized deep neural network adaptation for improved large vocabulary speech recognition",
+    "assumption": "Hidden Markov Models are necessary for modeling the sequential temporal dynamics in speech recognition",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1989549063",
+    "paper_title": "KL-divergence regularized deep neural network adaptation for improved large vocabulary speech recognition",
+    "assumption": "Context-dependent acoustic modeling is essential for large vocabulary speech recognition performance",
+    "confidence": 0.92,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1989549063",
+    "paper_title": "KL-divergence regularized deep neural network adaptation for improved large vocabulary speech recognition",
+    "assumption": "Speaker adaptation is required to achieve optimal performance on speaker-specific speech data",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1989549063",
+    "paper_title": "KL-divergence regularized deep neural network adaptation for improved large vocabulary speech recognition",
+    "assumption": "Senone-based output representations are necessary for effective context-dependent acoustic modeling",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1989549063",
+    "paper_title": "KL-divergence regularized deep neural network adaptation for improved large vocabulary speech recognition",
+    "assumption": "Deep neural networks with thousands of neurons per layer are essential for competitive speech recognition accuracy",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2321278764",
+    "paper_title": "Behaviour Analysis of Multilayer Perceptronswith Multiple Hidden Neurons and Hidden Layers",
+    "assumption": "Multiple hidden layers are necessary for learning complex nonlinear mappings",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2321278764",
+    "paper_title": "Behaviour Analysis of Multilayer Perceptronswith Multiple Hidden Neurons and Hidden Layers",
+    "assumption": "Manual architecture search is required for optimal neural network design",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2321278764",
+    "paper_title": "Behaviour Analysis of Multilayer Perceptronswith Multiple Hidden Neurons and Hidden Layers",
+    "assumption": "Supervised learning with labeled examples is essential for neural network training",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2321278764",
+    "paper_title": "Behaviour Analysis of Multilayer Perceptronswith Multiple Hidden Neurons and Hidden Layers",
+    "assumption": "Classification accuracy is the primary measure of neural network performance",
+    "confidence": 0.8,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2321278764",
+    "paper_title": "Behaviour Analysis of Multilayer Perceptronswith Multiple Hidden Neurons and Hidden Layers",
+    "assumption": "Sequential record-by-record processing is necessary for neural network learning",
+    "confidence": 0.75,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W38891185",
+    "paper_title": "Examining Challenges, Opportunities and Best Practices for Addressing Rural Mobility and Economic Development under SAFETEA-LU’s Coordinated Planning and Human Services Framework",
+    "assumption": "Supervised learning with labeled historical data is necessary for accurate clinical prediction tasks",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W38891185",
+    "paper_title": "Examining Challenges, Opportunities and Best Practices for Addressing Rural Mobility and Economic Development under SAFETEA-LU’s Coordinated Planning and Human Services Framework",
+    "assumption": "Complex ensemble methods are required to achieve optimal performance in healthcare machine learning applications",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W38891185",
+    "paper_title": "Examining Challenges, Opportunities and Best Practices for Addressing Rural Mobility and Economic Development under SAFETEA-LU’s Coordinated Planning and Human Services Framework",
+    "assumption": "Mean absolute error is the appropriate metric for evaluating regression-based clinical prediction models",
+    "confidence": 0.8,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W38891185",
+    "paper_title": "Examining Challenges, Opportunities and Best Practices for Addressing Rural Mobility and Economic Development under SAFETEA-LU’s Coordinated Planning and Human Services Framework",
+    "assumption": "Machine learning models inherently provide superior predictive performance compared to traditional statistical methods in healthcare",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W38891185",
+    "paper_title": "Examining Challenges, Opportunities and Best Practices for Addressing Rural Mobility and Economic Development under SAFETEA-LU’s Coordinated Planning and Human Services Framework",
+    "assumption": "Historical patient encounter data contains sufficient patterns to predict future clinical outcomes",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2003400208",
+    "paper_title": "Bayesian Computation Emerges in Generic Cortical Microcircuits through Spike-Timing-Dependent Plasticity",
+    "assumption": "Biological neural computation must be implementable through local synaptic plasticity rules",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2003400208",
+    "paper_title": "Bayesian Computation Emerges in Generic Cortical Microcircuits through Spike-Timing-Dependent Plasticity",
+    "assumption": "Cortical microcircuits are the fundamental computational units of brain information processing",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2003400208",
+    "paper_title": "Bayesian Computation Emerges in Generic Cortical Microcircuits through Spike-Timing-Dependent Plasticity",
+    "assumption": "Synaptic weight changes are the primary mechanism for learning and memory in neural circuits",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2003400208",
+    "paper_title": "Bayesian Computation Emerges in Generic Cortical Microcircuits through Spike-Timing-Dependent Plasticity",
+    "assumption": "Neural computation should be understood through the lens of statistical inference and probabilistic models",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2003400208",
+    "paper_title": "Bayesian Computation Emerges in Generic Cortical Microcircuits through Spike-Timing-Dependent Plasticity",
+    "assumption": "Spike timing carries essential information for neural computation beyond simple firing rates",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2251811146",
+    "paper_title": "Deep Learning for Chinese Word Segmentation and POS Tagging",
+    "assumption": "Manual feature engineering is necessary for high-quality natural language processing performance",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2251811146",
+    "paper_title": "Deep Learning for Chinese Word Segmentation and POS Tagging",
+    "assumption": "Character-level representations are essential for Chinese text processing tasks",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2251811146",
+    "paper_title": "Deep Learning for Chinese Word Segmentation and POS Tagging",
+    "assumption": "Maximum likelihood estimation is the standard method for training neural networks in NLP",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2251811146",
+    "paper_title": "Deep Learning for Chinese Word Segmentation and POS Tagging",
+    "assumption": "Word segmentation must precede part-of-speech tagging in Chinese NLP pipelines",
+    "confidence": 0.75,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2251811146",
+    "paper_title": "Deep Learning for Chinese Word Segmentation and POS Tagging",
+    "assumption": "Supervised learning requires substantial amounts of labeled training data for competitive performance",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2079541639",
+    "paper_title": "A hybrid model coupled with singular spectrum analysis for daily rainfall prediction",
+    "assumption": "Nonlinear relationships in time series require specialized nonlinear models (neural networks, SVR) rather than linear approaches",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2079541639",
+    "paper_title": "A hybrid model coupled with singular spectrum analysis for daily rainfall prediction",
+    "assumption": "Signal decomposition is necessary to capture meaningful patterns in noisy environmental time series",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2079541639",
+    "paper_title": "A hybrid model coupled with singular spectrum analysis for daily rainfall prediction",
+    "assumption": "Different intensity regimes in meteorological data require separate specialized models rather than a single unified approach",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2079541639",
+    "paper_title": "A hybrid model coupled with singular spectrum analysis for daily rainfall prediction",
+    "assumption": "Historical patterns in rainfall data contain sufficient predictive information for future forecasting",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2079541639",
+    "paper_title": "A hybrid model coupled with singular spectrum analysis for daily rainfall prediction",
+    "assumption": "Model performance on historical holdout data is a reliable indicator of future forecasting capability",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W1966135023",
+    "paper_title": "Cognitive Control in Auditory Working Memory Is Enhanced in Musicians",
+    "assumption": "BOLD signal magnitude directly reflects the intensity of underlying neural activity and cognitive processing",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1966135023",
+    "paper_title": "Cognitive Control in Auditory Working Memory Is Enhanced in Musicians",
+    "assumption": "Higher BOLD activation in cognitive control regions indicates better cognitive control performance",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1966135023",
+    "paper_title": "Cognitive Control in Auditory Working Memory Is Enhanced in Musicians",
+    "assumption": "Specific brain regions can be mapped to distinct cognitive functions like working memory and attention",
+    "confidence": 0.92,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1966135023",
+    "paper_title": "Cognitive Control in Auditory Working Memory Is Enhanced in Musicians",
+    "assumption": "Working memory capacity is fundamentally limited and requires active cognitive control to maintain information",
+    "confidence": 0.88,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1966135023",
+    "paper_title": "Cognitive Control in Auditory Working Memory Is Enhanced in Musicians",
+    "assumption": "Cognitive abilities can be enhanced through domain-specific training and transfer to general cognitive tasks",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2143541304",
+    "paper_title": "Can You Hear Me Now? Musical Training Shapes Functional Brain Networks for Selective Auditory Attention and Hearing Speech in Noise",
+    "assumption": "Neural response variability reduction is necessary for improved cognitive performance",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2143541304",
+    "paper_title": "Can You Hear Me Now? Musical Training Shapes Functional Brain Networks for Selective Auditory Attention and Hearing Speech in Noise",
+    "assumption": "Prefrontal cortex activity is essential for selective auditory attention mechanisms",
+    "confidence": 0.92,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2143541304",
+    "paper_title": "Can You Hear Me Now? Musical Training Shapes Functional Brain Networks for Selective Auditory Attention and Hearing Speech in Noise",
+    "assumption": "Training-induced plasticity requires long-term skill acquisition to produce measurable brain changes",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2143541304",
+    "paper_title": "Can You Hear Me Now? Musical Training Shapes Functional Brain Networks for Selective Auditory Attention and Hearing Speech in Noise",
+    "assumption": "Cross-domain transfer of cognitive abilities is necessary for training interventions to be therapeutically valuable",
+    "confidence": 0.88,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2143541304",
+    "paper_title": "Can You Hear Me Now? Musical Training Shapes Functional Brain Networks for Selective Auditory Attention and Hearing Speech in Noise",
+    "assumption": "Group comparisons between trained and untrained populations are sufficient to establish training effects",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2015772410",
+    "paper_title": "Using Ensemble of Neural Networks to Learn Stochastic Convection Parameterizations for Climate and Numerical Weather Prediction Models from Data Simulated by a Cloud Resolving Model",
+    "assumption": "Cloud-resolving model simulations provide the ground truth for atmospheric convection processes",
+    "confidence": 0.95,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2015772410",
+    "paper_title": "Using Ensemble of Neural Networks to Learn Stochastic Convection Parameterizations for Climate and Numerical Weather Prediction Models from Data Simulated by a Cloud Resolving Model",
+    "assumption": "Parameterizations are necessary to represent sub-grid scale processes in climate models",
+    "confidence": 0.98,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2015772410",
+    "paper_title": "Using Ensemble of Neural Networks to Learn Stochastic Convection Parameterizations for Climate and Numerical Weather Prediction Models from Data Simulated by a Cloud Resolving Model",
+    "assumption": "Ensemble methods are required to capture inherent uncertainty in stochastic physical processes",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2015772410",
+    "paper_title": "Using Ensemble of Neural Networks to Learn Stochastic Convection Parameterizations for Climate and Numerical Weather Prediction Models from Data Simulated by a Cloud Resolving Model",
+    "assumption": "Historical observational data provides sufficient coverage for learning universal atmospheric relationships",
+    "confidence": 0.8,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2015772410",
+    "paper_title": "Using Ensemble of Neural Networks to Learn Stochastic Convection Parameterizations for Climate and Numerical Weather Prediction Models from Data Simulated by a Cloud Resolving Model",
+    "assumption": "Neural networks require explicit training on domain-specific physical data to capture atmospheric processes",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2132417139",
+    "paper_title": "Experimental investigation of the predictive capabilities of data driven modeling techniques in hydrology - Part 1: Concepts and methodology",
+    "assumption": "Cross-validation with separate training/validation/testing splits is essential for reliable model evaluation",
+    "confidence": 0.95,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2132417139",
+    "paper_title": "Experimental investigation of the predictive capabilities of data driven modeling techniques in hydrology - Part 1: Concepts and methodology",
+    "assumption": "Multiple random realizations are necessary to quantify modeling uncertainty and ensure robust conclusions",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2132417139",
+    "paper_title": "Experimental investigation of the predictive capabilities of data driven modeling techniques in hydrology - Part 1: Concepts and methodology",
+    "assumption": "Comparative benchmarking against baseline methods is required to demonstrate technique superiority",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2132417139",
+    "paper_title": "Experimental investigation of the predictive capabilities of data driven modeling techniques in hydrology - Part 1: Concepts and methodology",
+    "assumption": "Prediction accuracy is the primary criterion for evaluating hydrological model quality",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2132417139",
+    "paper_title": "Experimental investigation of the predictive capabilities of data driven modeling techniques in hydrology - Part 1: Concepts and methodology",
+    "assumption": "Data-driven techniques require large amounts of historical observational data to learn meaningful patterns",
+    "confidence": 0.8,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2094225088",
+    "paper_title": "Decorrelation of Neural-Network Activity by Inhibitory Feedback",
+    "assumption": "Linear network models are sufficient to capture the essential dynamics of correlation suppression in neural networks",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2094225088",
+    "paper_title": "Decorrelation of Neural-Network Activity by Inhibitory Feedback",
+    "assumption": "Spike-train correlations are the primary metric for quantifying neural network encoding efficiency",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2094225088",
+    "paper_title": "Decorrelation of Neural-Network Activity by Inhibitory Feedback",
+    "assumption": "Inhibitory feedback mechanisms are essential for controlling population-level neural dynamics",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2094225088",
+    "paper_title": "Decorrelation of Neural-Network Activity by Inhibitory Feedback",
+    "assumption": "Shared presynaptic input is an inevitable and primary source of unwanted correlations in neural networks",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2094225088",
+    "paper_title": "Decorrelation of Neural-Network Activity by Inhibitory Feedback",
+    "assumption": "Excitatory-inhibitory balance is necessary for stable neural network dynamics",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2087324037",
+    "paper_title": "Comment on “Hyperresolution global land surface modeling: Meeting a grand challenge for monitoring Earth's terrestrial water” by Eric F. Wood et al.",
+    "assumption": "Finer spatial resolution is necessary for better hydrological model performance",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2087324037",
+    "paper_title": "Comment on “Hyperresolution global land surface modeling: Meeting a grand challenge for monitoring Earth's terrestrial water” by Eric F. Wood et al.",
+    "assumption": "Process-based physical equations provide the correct foundation for hydrological modeling",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2087324037",
+    "paper_title": "Comment on “Hyperresolution global land surface modeling: Meeting a grand challenge for monitoring Earth's terrestrial water” by Eric F. Wood et al.",
+    "assumption": "Homogeneous grid cell properties are adequate for representing spatial heterogeneity at the model resolution scale",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2087324037",
+    "paper_title": "Comment on “Hyperresolution global land surface modeling: Meeting a grand challenge for monitoring Earth's terrestrial water” by Eric F. Wood et al.",
+    "assumption": "Remote sensing and high-resolution spatial data are sufficient for characterizing hydrological processes",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2087324037",
+    "paper_title": "Comment on “Hyperresolution global land surface modeling: Meeting a grand challenge for monitoring Earth's terrestrial water” by Eric F. Wood et al.",
+    "assumption": "Deterministic model predictions are the primary goal of hydrological modeling",
+    "confidence": 0.82,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2057440314",
+    "paper_title": "An Efficient Weather Forecasting System using Artificial Neural Network",
+    "assumption": "Neural networks are necessary for capturing complex nonlinear relationships in weather data",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2057440314",
+    "paper_title": "An Efficient Weather Forecasting System using Artificial Neural Network",
+    "assumption": "Supervised learning with historical data is essential for weather prediction accuracy",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2057440314",
+    "paper_title": "An Efficient Weather Forecasting System using Artificial Neural Network",
+    "assumption": "Backpropagation is required for training effective weather forecasting neural networks",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2057440314",
+    "paper_title": "An Efficient Weather Forecasting System using Artificial Neural Network",
+    "assumption": "Quantitative atmospheric measurements are necessary inputs for reliable temperature forecasting",
+    "confidence": 0.95,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2057440314",
+    "paper_title": "An Efficient Weather Forecasting System using Artificial Neural Network",
+    "assumption": "Universal function approximation capability is essential for weather modeling systems",
+    "confidence": 0.75,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2016454981",
+    "paper_title": "Training-Induced Changes in Inhibitory Control Network Activity",
+    "assumption": "Inhibitory control is localized to specific, identifiable brain networks",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2016454981",
+    "paper_title": "Training-Induced Changes in Inhibitory Control Network Activity",
+    "assumption": "BOLD signal changes directly reflect meaningful changes in neural computation",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2016454981",
+    "paper_title": "Training-Induced Changes in Inhibitory Control Network Activity",
+    "assumption": "Task-specific training is necessary for improving cognitive control abilities",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2016454981",
+    "paper_title": "Training-Induced Changes in Inhibitory Control Network Activity",
+    "assumption": "Behavioral performance improvements require corresponding neural activity changes",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2016454981",
+    "paper_title": "Training-Induced Changes in Inhibitory Control Network Activity",
+    "assumption": "Randomized controlled designs are essential for establishing training efficacy",
+    "confidence": 0.8,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2026717737",
+    "paper_title": "Estimation of solar radiation using a neural network based on radiative transfer",
+    "assumption": "Radiative transfer models are necessary for accurate solar radiation estimation from satellite data",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2026717737",
+    "paper_title": "Estimation of solar radiation using a neural network based on radiative transfer",
+    "assumption": "Neural networks require extensive training data to approximate complex physical processes reliably",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2026717737",
+    "paper_title": "Estimation of solar radiation using a neural network based on radiative transfer",
+    "assumption": "Ground-based in situ measurements provide the essential ground truth for validating satellite-derived solar radiation estimates",
+    "confidence": 0.88,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2026717737",
+    "paper_title": "Estimation of solar radiation using a neural network based on radiative transfer",
+    "assumption": "Computational speed optimization is necessary for operational solar radiation monitoring from space",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2026717737",
+    "paper_title": "Estimation of solar radiation using a neural network based on radiative transfer",
+    "assumption": "Physical process approximation requires supervised learning with physics-based training data",
+    "confidence": 0.82,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1975017676",
+    "paper_title": "Classification of Camellia (Theaceae) Species Using Leaf Architecture Variations and Pattern Recognition Techniques",
+    "assumption": "Morphological features are sufficient to encode species identity for classification purposes",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1975017676",
+    "paper_title": "Classification of Camellia (Theaceae) Species Using Leaf Architecture Variations and Pattern Recognition Techniques",
+    "assumption": "Supervised learning is necessary for accurate taxonomic classification",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1975017676",
+    "paper_title": "Classification of Camellia (Theaceae) Species Using Leaf Architecture Variations and Pattern Recognition Techniques",
+    "assumption": "Higher classification accuracy indicates better taxonomic validity",
+    "confidence": 0.88,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W1975017676",
+    "paper_title": "Classification of Camellia (Theaceae) Species Using Leaf Architecture Variations and Pattern Recognition Techniques",
+    "assumption": "Quantitative pattern recognition is superior to traditional morphological analysis for species discrimination",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1975017676",
+    "paper_title": "Classification of Camellia (Theaceae) Species Using Leaf Architecture Variations and Pattern Recognition Techniques",
+    "assumption": "Leaf architectural features contain sufficient information to distinguish between closely related species",
+    "confidence": 0.83,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2127394904",
+    "paper_title": "A Wireless Multi-Channel Recording System for Freely Behaving Mice and Rats",
+    "assumption": "Electrical signal recording is necessary for understanding neural basis of behavior",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2127394904",
+    "paper_title": "A Wireless Multi-Channel Recording System for Freely Behaving Mice and Rats",
+    "assumption": "Multi-electrode arrays are essential for studying neuronal ensemble activity",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2127394904",
+    "paper_title": "A Wireless Multi-Channel Recording System for Freely Behaving Mice and Rats",
+    "assumption": "Simultaneous recording from multiple brain regions is required for understanding complex behaviors",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2127394904",
+    "paper_title": "A Wireless Multi-Channel Recording System for Freely Behaving Mice and Rats",
+    "assumption": "Single unit and local field potential signals are the primary measures of neural activity",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2127394904",
+    "paper_title": "A Wireless Multi-Channel Recording System for Freely Behaving Mice and Rats",
+    "assumption": "Signal quality comparable to tethered systems is necessary for valid neural recordings",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2104477723",
+    "paper_title": "A Fast and Simple Population Code for Orientation in Primate V1",
+    "assumption": "Neural population codes require complex decoding mechanisms to extract meaningful information",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2104477723",
+    "paper_title": "A Fast and Simple Population Code for Orientation in Primate V1",
+    "assumption": "Optimal population decoding necessitates accounting for noise correlations between neurons",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2104477723",
+    "paper_title": "A Fast and Simple Population Code for Orientation in Primate V1",
+    "assumption": "Reliable stimulus discrimination from neural populations requires long temporal integration windows",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2104477723",
+    "paper_title": "A Fast and Simple Population Code for Orientation in Primate V1",
+    "assumption": "Stimulus contrast information is essential for optimal orientation decoding",
+    "confidence": 0.75,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2104477723",
+    "paper_title": "A Fast and Simple Population Code for Orientation in Primate V1",
+    "assumption": "Single-neuron tuning properties are sufficient models for understanding cortical computation",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2295343990",
+    "paper_title": "Deep Learning for Detecting Robotic Grasps",
+    "assumption": "Deep neural networks are necessary for robust feature learning in robotic perception tasks",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2295343990",
+    "paper_title": "Deep Learning for Detecting Robotic Grasps",
+    "assumption": "RGB-D sensing is essential for spatial understanding in robotic manipulation",
+    "confidence": 0.92,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2295343990",
+    "paper_title": "Deep Learning for Detecting Robotic Grasps",
+    "assumption": "Grasp detection requires evaluating multiple candidate grasp poses rather than direct regression",
+    "confidence": 0.88,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2295343990",
+    "paper_title": "Deep Learning for Detecting Robotic Grasps",
+    "assumption": "Multimodal fusion through joint neural network processing is necessary for RGB-D understanding",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2295343990",
+    "paper_title": "Deep Learning for Detecting Robotic Grasps",
+    "assumption": "Detection-based approaches are superior to analytical methods for grasp planning",
+    "confidence": 0.83,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2073795431",
+    "paper_title": "Electroencephalographic Rhythms in Alzheimer′s Disease",
+    "assumption": "Electromagnetic activity measured at the scalp is a valid proxy for underlying neuronal network function",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2073795431",
+    "paper_title": "Electroencephalographic Rhythms in Alzheimer′s Disease",
+    "assumption": "Rhythmic oscillations and synchronization are fundamental mechanisms of brain function and cognition",
+    "confidence": 0.92,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2073795431",
+    "paper_title": "Electroencephalographic Rhythms in Alzheimer′s Disease",
+    "assumption": "Pathological brain states manifest as measurable deviations in electrophysiological patterns from normal states",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2073795431",
+    "paper_title": "Electroencephalographic Rhythms in Alzheimer′s Disease",
+    "assumption": "Group-level statistical differences in neural measures reflect meaningful biological distinctions between populations",
+    "confidence": 0.88,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2073795431",
+    "paper_title": "Electroencephalographic Rhythms in Alzheimer′s Disease",
+    "assumption": "Corticocortical connectivity can be reliably inferred from scalp EEG measurements",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2096884546",
+    "paper_title": "Successful combination of computationally inexpensive GIAO 13C NMR calculations and artificial neural network pattern recognition: a new strategy for simple and rapid detection of structural misassignments",
+    "assumption": "Higher level quantum mechanical calculations are necessary for accurate NMR chemical shift prediction",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2096884546",
+    "paper_title": "Successful combination of computationally inexpensive GIAO 13C NMR calculations and artificial neural network pattern recognition: a new strategy for simple and rapid detection of structural misassignments",
+    "assumption": "Computational accuracy is essential for reliable structural validation in NMR spectroscopy",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2096884546",
+    "paper_title": "Successful combination of computationally inexpensive GIAO 13C NMR calculations and artificial neural network pattern recognition: a new strategy for simple and rapid detection of structural misassignments",
+    "assumption": "Direct correlation between calculated and experimental values is the primary approach for NMR structure validation",
+    "confidence": 0.8,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2096884546",
+    "paper_title": "Successful combination of computationally inexpensive GIAO 13C NMR calculations and artificial neural network pattern recognition: a new strategy for simple and rapid detection of structural misassignments",
+    "assumption": "Geometry optimization at high computational levels is required for meaningful NMR predictions",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2096884546",
+    "paper_title": "Successful combination of computationally inexpensive GIAO 13C NMR calculations and artificial neural network pattern recognition: a new strategy for simple and rapid detection of structural misassignments",
+    "assumption": "Statistical correlation metrics are sufficient for determining structural correctness in computational NMR",
+    "confidence": 0.75,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963420343",
+    "paper_title": "Network-Scale Traffic Modeling and Forecasting with Graphical Lasso and Neural Networks",
+    "assumption": "Accurate traffic forecasting requires explicit modeling of spatial dependencies between network links",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963420343",
+    "paper_title": "Network-Scale Traffic Modeling and Forecasting with Graphical Lasso and Neural Networks",
+    "assumption": "Short-term temporal patterns are sufficient for effective traffic flow prediction",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963420343",
+    "paper_title": "Network-Scale Traffic Modeling and Forecasting with Graphical Lasso and Neural Networks",
+    "assumption": "Traffic networks exhibit sparse correlation structures that can be effectively captured through regularization",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963420343",
+    "paper_title": "Network-Scale Traffic Modeling and Forecasting with Graphical Lasso and Neural Networks",
+    "assumption": "Multitask learning is inherently superior to single-task learning for spatially correlated prediction problems",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963420343",
+    "paper_title": "Network-Scale Traffic Modeling and Forecasting with Graphical Lasso and Neural Networks",
+    "assumption": "Historical traffic flow data contains sufficient predictive signal for future forecasting",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2140574335",
+    "paper_title": "RNADE: The real-valued neural autoregressive density-estimator",
+    "assumption": "Autoregressive factorization is necessary for tractable density estimation in high-dimensional spaces",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2140574335",
+    "paper_title": "RNADE: The real-valued neural autoregressive density-estimator",
+    "assumption": "Neural networks are required to model complex conditional distributions effectively",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2140574335",
+    "paper_title": "RNADE: The real-valued neural autoregressive density-estimator",
+    "assumption": "Tractable likelihood computation is essential for meaningful density model evaluation",
+    "confidence": 0.92,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2140574335",
+    "paper_title": "RNADE: The real-valued neural autoregressive density-estimator",
+    "assumption": "Parameter sharing across conditionals is necessary for efficient autoregressive density modeling",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2140574335",
+    "paper_title": "RNADE: The real-valued neural autoregressive density-estimator",
+    "assumption": "Mixture models are required to capture multimodal conditional distributions",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1896993123",
+    "paper_title": "A comparison of six photometric redshift methods applied to 1.5 million luminous red galaxies",
+    "assumption": "Spectroscopic redshifts are the fundamental ground truth for validating photometric redshift methods",
+    "confidence": 0.95,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W1896993123",
+    "paper_title": "A comparison of six photometric redshift methods applied to 1.5 million luminous red galaxies",
+    "assumption": "Photometric redshift accuracy requires comparison against spectroscopic samples for validation",
+    "confidence": 0.92,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W1896993123",
+    "paper_title": "A comparison of six photometric redshift methods applied to 1.5 million luminous red galaxies",
+    "assumption": "Machine learning methods require substantial training datasets with spectroscopic redshifts to achieve reliable photometric redshift estimates",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1896993123",
+    "paper_title": "A comparison of six photometric redshift methods applied to 1.5 million luminous red galaxies",
+    "assumption": "Template-based methods are essential approaches for photometric redshift determination in extragalactic astronomy",
+    "confidence": 0.88,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1896993123",
+    "paper_title": "A comparison of six photometric redshift methods applied to 1.5 million luminous red galaxies",
+    "assumption": "Multi-band photometric observations contain sufficient information to constrain redshift estimates for galaxies",
+    "confidence": 0.87,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W3037729706",
+    "paper_title": "Node harvest",
+    "assumption": "Interpretability and predictive accuracy are fundamentally in tension and require explicit tradeoffs",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W3037729706",
+    "paper_title": "Node harvest",
+    "assumption": "Tree-based partitioning of feature space is essential for interpretable machine learning",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W3037729706",
+    "paper_title": "Node harvest",
+    "assumption": "Ensemble methods are necessary to achieve high predictive accuracy beyond single model performance",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W3037729706",
+    "paper_title": "Node harvest",
+    "assumption": "Model interpretability requires structural sparsity in the learned representation",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W3037729706",
+    "paper_title": "Node harvest",
+    "assumption": "Predictive accuracy on held-out test data is the primary measure of model quality",
+    "confidence": 0.83,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2170111110",
+    "paper_title": "A Deep and Tractable Density Estimator",
+    "assumption": "Autoregressive decomposition is necessary for tractable density estimation of high-dimensional data",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2170111110",
+    "paper_title": "A Deep and Tractable Density Estimator",
+    "assumption": "Deep neural networks are essential for capturing complex probability distributions",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2170111110",
+    "paper_title": "A Deep and Tractable Density Estimator",
+    "assumption": "Parameter sharing is required for computational efficiency when training multiple model variants",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2170111110",
+    "paper_title": "A Deep and Tractable Density Estimator",
+    "assumption": "Variable ordering significantly affects model performance and inference capabilities",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2170111110",
+    "paper_title": "A Deep and Tractable Density Estimator",
+    "assumption": "Exact inference is necessary for tractable density models to be practically useful",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1875596811",
+    "paper_title": "Alternative inversion strategies to resistivity data for targets with sharp boundaries",
+    "assumption": "Smoothness constraints are necessary for stable resistivity inversions",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1875596811",
+    "paper_title": "Alternative inversion strategies to resistivity data for targets with sharp boundaries",
+    "assumption": "Sharp geological boundaries require specialized inversion approaches beyond standard smoothness-constrained methods",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1875596811",
+    "paper_title": "Alternative inversion strategies to resistivity data for targets with sharp boundaries",
+    "assumption": "Geophysical inverse problems are inherently ill-posed and require regularization to obtain meaningful solutions",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1875596811",
+    "paper_title": "Alternative inversion strategies to resistivity data for targets with sharp boundaries",
+    "assumption": "A priori information or multiple datasets are essential for accurately imaging discrete subsurface targets",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W1875596811",
+    "paper_title": "Alternative inversion strategies to resistivity data for targets with sharp boundaries",
+    "assumption": "Iterative optimization is necessary for solving nonlinear geophysical inverse problems",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2091735672",
+    "paper_title": "Translation of a Robust, Biology-Driven, Prognostic Classifier of Cancer Patients' Outcome into Clinically Relevant Rules",
+    "assumption": "Gene expression profiles contain sufficient information to predict clinical outcomes",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2091735672",
+    "paper_title": "Translation of a Robust, Biology-Driven, Prognostic Classifier of Cancer Patients' Outcome into Clinically Relevant Rules",
+    "assumption": "Machine learning classifiers are necessary to extract meaningful patterns from high-dimensional genomic data",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2091735672",
+    "paper_title": "Translation of a Robust, Biology-Driven, Prognostic Classifier of Cancer Patients' Outcome into Clinically Relevant Rules",
+    "assumption": "Biology-driven feature selection is essential for developing clinically relevant prognostic models",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2091735672",
+    "paper_title": "Translation of a Robust, Biology-Driven, Prognostic Classifier of Cancer Patients' Outcome into Clinically Relevant Rules",
+    "assumption": "Cross-validation and train-test splits are required for robust model validation in clinical prediction",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2091735672",
+    "paper_title": "Translation of a Robust, Biology-Driven, Prognostic Classifier of Cancer Patients' Outcome into Clinically Relevant Rules",
+    "assumption": "Rule extraction from black-box models is necessary for clinical interpretability and adoption",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W35814559",
+    "paper_title": "Recolección mecánica de limones con vibrador de tronco",
+    "assumption": "Convolutional inductive biases are essential for effective visual feature learning",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W35814559",
+    "paper_title": "Recolección mecánica de limones con vibrador de tronco",
+    "assumption": "Edge detection preprocessing is necessary for handling noisy or low-quality images",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W35814559",
+    "paper_title": "Recolección mecánica de limones con vibrador de tronco",
+    "assumption": "Regularization techniques are required to prevent overfitting and improve generalization",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W35814559",
+    "paper_title": "Recolección mecánica de limones con vibrador de tronco",
+    "assumption": "Batch normalization is essential for stable training of deep neural networks",
+    "confidence": 0.88,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W35814559",
+    "paper_title": "Recolección mecánica de limones con vibrador de tronco",
+    "assumption": "Grayscale conversion is necessary for edge-based image preprocessing",
+    "confidence": 0.75,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W33488691",
+    "paper_title": "Neural Control of Movement : Motor Neuron Subtypes, Proprioception and Recurrent Inhibition",
+    "assumption": "Deep convolutional architectures are essential for medical image classification tasks",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W33488691",
+    "paper_title": "Neural Control of Movement : Motor Neuron Subtypes, Proprioception and Recurrent Inhibition",
+    "assumption": "Transfer learning from ImageNet pretraining is necessary for effective medical image analysis",
+    "confidence": 0.92,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W33488691",
+    "paper_title": "Neural Control of Movement : Motor Neuron Subtypes, Proprioception and Recurrent Inhibition",
+    "assumption": "Data augmentation is required to achieve optimal performance in medical imaging with limited datasets",
+    "confidence": 0.88,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W33488691",
+    "paper_title": "Neural Control of Movement : Motor Neuron Subtypes, Proprioception and Recurrent Inhibition",
+    "assumption": "Ensemble methods are necessary to achieve state-of-the-art performance in medical image classification",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W33488691",
+    "paper_title": "Neural Control of Movement : Motor Neuron Subtypes, Proprioception and Recurrent Inhibition",
+    "assumption": "Fine-tuning pretrained models is essential for domain adaptation in medical imaging",
+    "confidence": 0.9,
+    "category": "training"
+  }
+]

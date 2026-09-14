@@ -1,0 +1,72 @@
+{
+  "paradigm": "bert",
+  "display": "BERT / Bidirectional Pre-training",
+  "year": 2018,
+  "ground_truth": "Language model pre-training must be left-to-right (autoregressive)",
+  "ground_truth_aliases": [
+    "Language model pre-training must be left-to-right (autoregressive)",
+    "language models should generate text left-to-right",
+    "autoregressive training is necessary for language model pre-training"
+  ],
+  "num_papers": 60,
+  "num_raw_assumptions": 300,
+  "num_unique_assumptions": 300,
+  "best_similarity": 0.5996,
+  "soft_rank": 301.0,
+  "soft_recall_at_5": 0.0,
+  "soft_recall_at_10": 0.0,
+  "soft_recall_at_20": 0.0,
+  "top_10_assumptions": [
+    {
+      "rank": 87,
+      "assumption": "Autoregressive generation is essential for producing coherent sequential text",
+      "similarity": 0.5996
+    },
+    {
+      "rank": 75,
+      "assumption": "Autoregressive modeling is necessary to control for temporal stability when studying causal influences",
+      "similarity": 0.55
+    },
+    {
+      "rank": 17,
+      "assumption": "Adversarial training is necessary for high-quality generative modeling",
+      "similarity": 0.5416
+    },
+    {
+      "rank": 114,
+      "assumption": "Left-to-right incremental processing is necessary for natural language understanding",
+      "similarity": 0.5336
+    },
+    {
+      "rank": 74,
+      "assumption": "Autoregressive token-by-token generation is necessary for producing coherent text summaries",
+      "similarity": 0.529
+    },
+    {
+      "rank": 43,
+      "assumption": "Word-level predictions are necessary for language modeling evaluation and practical utility",
+      "similarity": 0.5282
+    },
+    {
+      "rank": 242,
+      "assumption": "End-to-end differentiable training is necessary for optimal neural text generation performance",
+      "similarity": 0.5282
+    },
+    {
+      "rank": 120,
+      "assumption": "Recurrent architectures are essential for capturing sequential dependencies in language modeling",
+      "similarity": 0.5204
+    },
+    {
+      "rank": 188,
+      "assumption": "Encoder-decoder architectures are necessary for dialogue and conversation modeling",
+      "similarity": 0.5148
+    },
+    {
+      "rank": 2,
+      "assumption": "Recurrent architectures are necessary for sequential text processing in neural machine translation",
+      "similarity": 0.5072
+    }
+  ],
+  "ran_at": "2026-03-23T22:57:43.528078+00:00"
+}

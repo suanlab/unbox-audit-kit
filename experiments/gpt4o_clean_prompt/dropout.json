@@ -1,0 +1,909 @@
+{
+  "paradigm": "dropout",
+  "num_papers": 15,
+  "num_raw_assumptions": 150,
+  "num_unique_assumptions": 150,
+  "ground_truth": "All neurons should be active during training for optimal learning",
+  "assumptions": [
+    {
+      "assumption": "Deep neural networks are essential for modern speech recognition systems.",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Speaker adaptation of context dependent deep neural networks"
+    },
+    {
+      "assumption": "Regularization is essential for preventing overfitting in neural networks.",
+      "confidence": 0.95,
+      "category": "training",
+      "source_paper": "Improving Neural Networks with Dropout"
+    },
+    {
+      "assumption": "Speaker adaptation is necessary for improving speech recognition accuracy.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Speaker adaptation of context dependent deep neural networks"
+    },
+    {
+      "assumption": "Ensemble methods are essential for improving the generalization performance of neural networks.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Multiobjective Neural Network Ensembles Based on Regularized Negative Correlation Learning"
+    },
+    {
+      "assumption": "Regularization is necessary to prevent overfitting in neural network models.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Multiobjective Neural Network Ensembles Based on Regularized Negative Correlation Learning"
+    },
+    {
+      "assumption": "Probabilistic approaches are essential for handling uncertainty in time-series modeling.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Recursive Bayesian Recurrent Neural Networks for Time-Series Modeling"
+    },
+    {
+      "assumption": "Recurrent neural networks are necessary for modeling sequential data.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Recursive Bayesian Recurrent Neural Networks for Time-Series Modeling"
+    },
+    {
+      "assumption": "Neural networks are essential for modeling complex patterns in traffic flow data.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Neural-Network-Based Models for Short-Term Traffic Flow Forecasting Using a Hybrid Exponential Smoothing and Levenberg\u2013Marquardt Algorithm"
+    },
+    {
+      "assumption": "Evaluation on real-world datasets is necessary to validate the effectiveness of traffic forecasting models.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "Neural-Network-Based Models for Short-Term Traffic Flow Forecasting Using a Hybrid Exponential Smoothing and Levenberg\u2013Marquardt Algorithm"
+    },
+    {
+      "assumption": "Large neural networks are necessary for achieving high performance in complex tasks.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Improving Neural Networks with Dropout"
+    },
+    {
+      "assumption": "Benchmark datasets are essential for evaluating the performance of neural network models.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "Improving Neural Networks with Dropout"
+    },
+    {
+      "assumption": "The ability to handle large parameter spaces is required for neural networks to model complex functions.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Improving Neural Networks with Dropout"
+    },
+    {
+      "assumption": "Empirical validation on standard benchmarks is necessary for demonstrating the effectiveness of new techniques.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "Improving Neural Networks with Dropout"
+    },
+    {
+      "assumption": "Feature extraction is necessary for effective image classification.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "MAGNETIC RESONANCE BRAIN IMAGE CLASSIFICATION BY AN IMPROVED ARTIFICIAL BEE COLONY ALGORITHM"
+    },
+    {
+      "assumption": "Dimensionality reduction is essential for handling high-dimensional data in machine learning.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "MAGNETIC RESONANCE BRAIN IMAGE CLASSIFICATION BY AN IMPROVED ARTIFICIAL BEE COLONY ALGORITHM"
+    },
+    {
+      "assumption": "Recursive neural networks are necessary for processing hierarchical structures in language data.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Simple Customization of Recursive Neural Networks for Semantic Relation Classification"
+    },
+    {
+      "assumption": "Improving prediction accuracy is essential for advancing the field of semantic relation classification.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "Simple Customization of Recursive Neural Networks for Semantic Relation Classification"
+    },
+    {
+      "assumption": "Neural network models are required for effective semantic relation classification.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Simple Customization of Recursive Neural Networks for Semantic Relation Classification"
+    },
+    {
+      "assumption": "Neural networks are essential for capturing non-linear relationships in high-dimensional data.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Prediction of body mass index in mice using dense molecular markers and a regularized neural network"
+    },
+    {
+      "assumption": "Regularization is necessary for preventing overfitting in neural networks when dealing with high-dimensional data.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Prediction of body mass index in mice using dense molecular markers and a regularized neural network"
+    },
+    {
+      "assumption": "Neural networks are necessary for modeling complex, stochastic processes in hydrology.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Generalized versus non-generalized neural network model for multi-lead inflow forecasting at Aswan High Dam"
+    },
+    {
+      "assumption": "Generalization is essential for the effective application of neural networks in time series forecasting.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Generalized versus non-generalized neural network model for multi-lead inflow forecasting at Aswan High Dam"
+    },
+    {
+      "assumption": "The ability to generalize from training data to unseen data is essential for the success of neural network models in real-world applications.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Generalized versus non-generalized neural network model for multi-lead inflow forecasting at Aswan High Dam"
+    },
+    {
+      "assumption": "Data-driven models are essential for modeling complex environmental processes without complete physical understanding.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Modeling and analysis of actual evapotranspiration using data driven and wavelet techniques"
+    },
+    {
+      "assumption": "Meteorological variables are necessary for accurate estimation of actual evapotranspiration.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Modeling and analysis of actual evapotranspiration using data driven and wavelet techniques"
+    },
+    {
+      "assumption": "Deep learning architectures are necessary for handling complex chemoinformatics problems.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Deep Architectures and Deep Learning in Chemoinformatics: The Prediction of Aqueous Solubility for Drug-Like Molecules"
+    },
+    {
+      "assumption": "Large and diverse datasets are essential for constructing reliable hydrological models.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Global patterns in base flow index and recession based on streamflow observations from 3394 catchments"
+    },
+    {
+      "assumption": "Climatic and physiographic characteristics are necessary for estimating base flow characteristics.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Global patterns in base flow index and recession based on streamflow observations from 3394 catchments"
+    },
+    {
+      "assumption": "The base flow index (BFI) and base flow recession constant (\u03ba) are essential metrics for understanding streamflow characteristics.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Global patterns in base flow index and recession based on streamflow observations from 3394 catchments"
+    },
+    {
+      "assumption": "Nonlinear transfer functions are essential for capturing complex relationships in neural networks.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Comparing Sigmoid Transfer Functions for Neural Network Multistep Ahead Streamflow Forecasting"
+    },
+    {
+      "assumption": "Deep architectures are essential for capturing complex patterns in speech data.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "A deep convolutional neural network using heterogeneous pooling for trading acoustic invariance with phonetic confusion"
+    },
+    {
+      "assumption": "Convolutional neural networks are necessary for processing spectrograms in speech recognition tasks.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "A deep convolutional neural network using heterogeneous pooling for trading acoustic invariance with phonetic confusion"
+    },
+    {
+      "assumption": "Regularization techniques are essential for preventing overfitting in deep neural networks.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "A deep convolutional neural network using heterogeneous pooling for trading acoustic invariance with phonetic confusion"
+    },
+    {
+      "assumption": "Evaluation on standard datasets is essential for benchmarking and comparing model performance.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "A deep convolutional neural network using heterogeneous pooling for trading acoustic invariance with phonetic confusion"
+    },
+    {
+      "assumption": "Spectrograms are required as input representations for speech recognition tasks.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "A deep convolutional neural network using heterogeneous pooling for trading acoustic invariance with phonetic confusion"
+    },
+    {
+      "assumption": "Neural networks are essential for modeling complex prediction tasks.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Railway passenger train delay prediction via neural network model"
+    },
+    {
+      "assumption": "Cross-validation is necessary for preventing overfitting in model training.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Railway passenger train delay prediction via neural network model"
+    },
+    {
+      "assumption": "Dividing data into training, validation, and testing sets is required for model evaluation.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Railway passenger train delay prediction via neural network model"
+    },
+    {
+      "assumption": "Re-training parts of the neural network is required for effective speaker adaptation.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Speaker adaptation of context dependent deep neural networks"
+    },
+    {
+      "assumption": "Recursive algorithms are necessary for efficient training of recurrent neural networks.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Recursive Bayesian Recurrent Neural Networks for Time-Series Modeling"
+    },
+    {
+      "assumption": "Preprocessing data is necessary for improving the performance of neural network models.",
+      "confidence": 0.85,
+      "category": "data",
+      "source_paper": "Neural-Network-Based Models for Short-Term Traffic Flow Forecasting Using a Hybrid Exponential Smoothing and Levenberg\u2013Marquardt Algorithm"
+    },
+    {
+      "assumption": "Generalization capability is essential for neural networks to be useful in practical forecasting applications.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Neural-Network-Based Models for Short-Term Traffic Flow Forecasting Using a Hybrid Exponential Smoothing and Levenberg\u2013Marquardt Algorithm"
+    },
+    {
+      "assumption": "Model averaging is required for improving generalization in neural networks.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Improving Neural Networks with Dropout"
+    },
+    {
+      "assumption": "Combining multiple models is necessary for achieving better performance than individual models.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Improving Neural Networks with Dropout"
+    },
+    {
+      "assumption": "Neural networks are required for complex pattern recognition tasks.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "MAGNETIC RESONANCE BRAIN IMAGE CLASSIFICATION BY AN IMPROVED ARTIFICIAL BEE COLONY ALGORITHM"
+    },
+    {
+      "assumption": "Optimization algorithms are necessary for training neural networks effectively.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "MAGNETIC RESONANCE BRAIN IMAGE CLASSIFICATION BY AN IMPROVED ARTIFICIAL BEE COLONY ALGORITHM"
+    },
+    {
+      "assumption": "Syntactic trees are essential for capturing the hierarchical nature of language in semantic relation classification.",
+      "confidence": 0.85,
+      "category": "data",
+      "source_paper": "Simple Customization of Recursive Neural Networks for Semantic Relation Classification"
+    },
+    {
+      "assumption": "Semantic relation classification requires models that can effectively capture and utilize syntactic information.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Simple Customization of Recursive Neural Networks for Semantic Relation Classification"
+    },
+    {
+      "assumption": "Single nucleotide polymorphism (SNP) markers are essential for genetic prediction studies.",
+      "confidence": 0.85,
+      "category": "data",
+      "source_paper": "Prediction of body mass index in mice using dense molecular markers and a regularized neural network"
+    },
+    {
+      "assumption": "Predictive accuracy and correlation with test data are essential metrics for evaluating model performance.",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "Prediction of body mass index in mice using dense molecular markers and a regularized neural network"
+    },
+    {
+      "assumption": "Regularization techniques are required to prevent overfitting in neural network models.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Generalized versus non-generalized neural network model for multi-lead inflow forecasting at Aswan High Dam"
+    },
+    {
+      "assumption": "Historical data is essential for training, testing, and validating hydrological models.",
+      "confidence": 0.85,
+      "category": "data",
+      "source_paper": "Generalized versus non-generalized neural network model for multi-lead inflow forecasting at Aswan High Dam"
+    },
+    {
+      "assumption": "Large and diverse datasets are essential for training effective deep learning models in chemoinformatics.",
+      "confidence": 0.85,
+      "category": "data",
+      "source_paper": "Deep Architectures and Deep Learning in Chemoinformatics: The Prediction of Aqueous Solubility for Drug-Like Molecules"
+    },
+    {
+      "assumption": "Evaluation on benchmark datasets is required to validate the performance of chemoinformatics models.",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "Deep Architectures and Deep Learning in Chemoinformatics: The Prediction of Aqueous Solubility for Drug-Like Molecules"
+    },
+    {
+      "assumption": "Multilayer perceptrons are necessary for effective streamflow forecasting.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Comparing Sigmoid Transfer Functions for Neural Network Multistep Ahead Streamflow Forecasting"
+    },
+    {
+      "assumption": "L2 regularization is essential for improving generalization in neural network training.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Speaker adaptation of context dependent deep neural networks"
+    },
+    {
+      "assumption": "Stochastic mini-batch training is necessary for efficient neural network training.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Speaker adaptation of context dependent deep neural networks"
+    },
+    {
+      "assumption": "Minimizing mean-square-error (MSE) is essential for training neural networks.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Multiobjective Neural Network Ensembles Based on Regularized Negative Correlation Learning"
+    },
+    {
+      "assumption": "Multiobjective optimization is required for balancing trade-offs in complex learning tasks.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Multiobjective Neural Network Ensembles Based on Regularized Negative Correlation Learning"
+    },
+    {
+      "assumption": "Handling regularization hyperparameters is essential for improving generalization in neural networks.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Recursive Bayesian Recurrent Neural Networks for Time-Series Modeling"
+    },
+    {
+      "assumption": "Sequential weight updates are required for real-time learning in recurrent neural networks.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Recursive Bayesian Recurrent Neural Networks for Time-Series Modeling"
+    },
+    {
+      "assumption": "Comparative evaluation against standard algorithms is required to demonstrate the effectiveness of new methods.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Recursive Bayesian Recurrent Neural Networks for Time-Series Modeling"
+    },
+    {
+      "assumption": "Hybrid algorithms are required to enhance the generalization capabilities of neural networks.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Neural-Network-Based Models for Short-Term Traffic Flow Forecasting Using a Hybrid Exponential Smoothing and Levenberg\u2013Marquardt Algorithm"
+    },
+    {
+      "assumption": "Smoothing techniques are required to handle noise and irregularities in traffic flow data.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Neural-Network-Based Models for Short-Term Traffic Flow Forecasting Using a Hybrid Exponential Smoothing and Levenberg\u2013Marquardt Algorithm"
+    },
+    {
+      "assumption": "Improving neural network training methods is necessary for advancing traffic flow forecasting accuracy.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Neural-Network-Based Models for Short-Term Traffic Flow Forecasting Using a Hybrid Exponential Smoothing and Levenberg\u2013Marquardt Algorithm"
+    },
+    {
+      "assumption": "Randomization techniques are necessary for enhancing the robustness of neural network training.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Improving Neural Networks with Dropout"
+    },
+    {
+      "assumption": "Training efficiency is essential for the practical application of large neural networks.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Improving Neural Networks with Dropout"
+    },
+    {
+      "assumption": "Cross-validation is essential for assessing the generalization performance of a model.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "MAGNETIC RESONANCE BRAIN IMAGE CLASSIFICATION BY AN IMPROVED ARTIFICIAL BEE COLONY ALGORITHM"
+    },
+    {
+      "assumption": "Comparative analysis with multiple algorithms is required to validate the effectiveness of a proposed method.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "MAGNETIC RESONANCE BRAIN IMAGE CLASSIFICATION BY AN IMPROVED ARTIFICIAL BEE COLONY ALGORITHM"
+    },
+    {
+      "assumption": "Task-specific weighting of features is required to improve model performance in semantic tasks.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Simple Customization of Recursive Neural Networks for Semantic Relation Classification"
+    },
+    {
+      "assumption": "Competitive performance with state-of-the-art models is necessary for a model to be considered successful in the field.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Simple Customization of Recursive Neural Networks for Semantic Relation Classification"
+    },
+    {
+      "assumption": "Imputation of missing data is required for handling incomplete datasets in genetic studies.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Prediction of body mass index in mice using dense molecular markers and a regularized neural network"
+    },
+    {
+      "assumption": "Bayesian methods are necessary for incorporating prior knowledge and uncertainty in model training.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Prediction of body mass index in mice using dense molecular markers and a regularized neural network"
+    },
+    {
+      "assumption": "High-dimensional genome-enabled prediction requires methods capable of handling complex gene interactions.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Prediction of body mass index in mice using dense molecular markers and a regularized neural network"
+    },
+    {
+      "assumption": "Optimal input pattern selection is necessary for enhancing the forecasting capabilities of neural networks.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Generalized versus non-generalized neural network model for multi-lead inflow forecasting at Aswan High Dam"
+    },
+    {
+      "assumption": "Ensemble methods are required to improve the robustness and accuracy of neural network predictions.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Generalized versus non-generalized neural network model for multi-lead inflow forecasting at Aswan High Dam"
+    },
+    {
+      "assumption": "Wavelet analysis is required for understanding temporal variations in environmental time series data.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Modeling and analysis of actual evapotranspiration using data driven and wavelet techniques"
+    },
+    {
+      "assumption": "Comparative analysis of different modeling approaches is essential for validating model performance.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Modeling and analysis of actual evapotranspiration using data driven and wavelet techniques"
+    },
+    {
+      "assumption": "The interaction effects of input variables are necessary for accurate environmental modeling.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Modeling and analysis of actual evapotranspiration using data driven and wavelet techniques"
+    },
+    {
+      "assumption": "Automatic feature learning is required to reduce reliance on manually crafted molecular descriptors.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Deep Architectures and Deep Learning in Chemoinformatics: The Prediction of Aqueous Solubility for Drug-Like Molecules"
+    },
+    {
+      "assumption": "Handling graph-based data is essential for accurately representing molecular structures.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Deep Architectures and Deep Learning in Chemoinformatics: The Prediction of Aqueous Solubility for Drug-Like Molecules"
+    },
+    {
+      "assumption": "State-of-the-art performance is required to demonstrate the utility of new methods in chemoinformatics.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Deep Architectures and Deep Learning in Chemoinformatics: The Prediction of Aqueous Solubility for Drug-Like Molecules"
+    },
+    {
+      "assumption": "Artificial neural networks are required for modeling complex relationships in hydrological data.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Global patterns in base flow index and recession based on streamflow observations from 3394 catchments"
+    },
+    {
+      "assumption": "Regression analysis is essential for identifying relationships between hydrological variables.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Global patterns in base flow index and recession based on streamflow observations from 3394 catchments"
+    },
+    {
+      "assumption": "Global applicability of models is necessary for addressing hydrological questions at large scales.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Global patterns in base flow index and recession based on streamflow observations from 3394 catchments"
+    },
+    {
+      "assumption": "The use of global climatic and physiographic data is required for creating global hydrological maps.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Global patterns in base flow index and recession based on streamflow observations from 3394 catchments"
+    },
+    {
+      "assumption": "The universal approximation theorem is essential for justifying the use of neural networks in modeling complex systems.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Comparing Sigmoid Transfer Functions for Neural Network Multistep Ahead Streamflow Forecasting"
+    },
+    {
+      "assumption": "Pooling layers are required to introduce invariance to certain transformations in input data.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "A deep convolutional neural network using heterogeneous pooling for trading acoustic invariance with phonetic confusion"
+    },
+    {
+      "assumption": "Domain knowledge is necessary for guiding architectural choices in specialized tasks like speech recognition.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "A deep convolutional neural network using heterogeneous pooling for trading acoustic invariance with phonetic confusion"
+    },
+    {
+      "assumption": "Integration with Hidden Markov Models is required for effective continuous speech recognition.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "A deep convolutional neural network using heterogeneous pooling for trading acoustic invariance with phonetic confusion"
+    },
+    {
+      "assumption": "Error rate reduction is a necessary metric for assessing improvements in speech recognition systems.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "A deep convolutional neural network using heterogeneous pooling for trading acoustic invariance with phonetic confusion"
+    },
+    {
+      "assumption": "Deep learning models require large amounts of data to achieve state-of-the-art performance.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "A deep convolutional neural network using heterogeneous pooling for trading acoustic invariance with phonetic confusion"
+    },
+    {
+      "assumption": "High accuracy is essential for the success of predictive models.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Railway passenger train delay prediction via neural network model"
+    },
+    {
+      "assumption": "Comparing models based on accuracy and training time is necessary for evaluating their performance.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Railway passenger train delay prediction via neural network model"
+    },
+    {
+      "assumption": "Large vocabulary tasks are essential benchmarks for evaluating speech recognition systems.",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "Speaker adaptation of context dependent deep neural networks"
+    },
+    {
+      "assumption": "Bayesian methods are necessary for principled handling of model uncertainties.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "Recursive Bayesian Recurrent Neural Networks for Time-Series Modeling"
+    },
+    {
+      "assumption": "The Levenberg-Marquardt algorithm is essential for efficient training of neural networks in certain applications.",
+      "confidence": 0.75,
+      "category": "training",
+      "source_paper": "Neural-Network-Based Models for Short-Term Traffic Flow Forecasting Using a Hybrid Exponential Smoothing and Levenberg\u2013Marquardt Algorithm"
+    },
+    {
+      "assumption": "Traffic flow data must be continuous and smooth for effective neural network training.",
+      "confidence": 0.75,
+      "category": "data",
+      "source_paper": "Neural-Network-Based Models for Short-Term Traffic Flow Forecasting Using a Hybrid Exponential Smoothing and Levenberg\u2013Marquardt Algorithm"
+    },
+    {
+      "assumption": "Theoretical understanding of model behavior is required for developing effective regularization techniques.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "Improving Neural Networks with Dropout"
+    },
+    {
+      "assumption": "Handling overfitting is necessary for developing robust machine learning models.",
+      "confidence": 0.75,
+      "category": "training",
+      "source_paper": "MAGNETIC RESONANCE BRAIN IMAGE CLASSIFICATION BY AN IMPROVED ARTIFICIAL BEE COLONY ALGORITHM"
+    },
+    {
+      "assumption": "High classification accuracy is essential for the success of medical image analysis.",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "MAGNETIC RESONANCE BRAIN IMAGE CLASSIFICATION BY AN IMPROVED ARTIFICIAL BEE COLONY ALGORITHM"
+    },
+    {
+      "assumption": "Parameter averaging is necessary for stabilizing the learning process in neural networks.",
+      "confidence": 0.75,
+      "category": "training",
+      "source_paper": "Simple Customization of Recursive Neural Networks for Semantic Relation Classification"
+    },
+    {
+      "assumption": "Stabilizing learning processes is necessary for achieving reliable model performance.",
+      "confidence": 0.75,
+      "category": "training",
+      "source_paper": "Simple Customization of Recursive Neural Networks for Semantic Relation Classification"
+    },
+    {
+      "assumption": "Feed-forward multilayer perceptron networks are a standard architecture for prediction tasks in genetic studies.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "Prediction of body mass index in mice using dense molecular markers and a regularized neural network"
+    },
+    {
+      "assumption": "Artificial neural networks are at least as useful as traditional statistical methods for genetic prediction.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "Prediction of body mass index in mice using dense molecular markers and a regularized neural network"
+    },
+    {
+      "assumption": "Cross-validation is essential for evaluating the performance of neural network models.",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "Generalized versus non-generalized neural network model for multi-lead inflow forecasting at Aswan High Dam"
+    },
+    {
+      "assumption": "Recursive neural networks are necessary for modeling molecular structures in chemoinformatics.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "Deep Architectures and Deep Learning in Chemoinformatics: The Prediction of Aqueous Solubility for Drug-Like Molecules"
+    },
+    {
+      "assumption": "Ensemble methods are essential for improving the robustness of predictions in chemoinformatics.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "Deep Architectures and Deep Learning in Chemoinformatics: The Prediction of Aqueous Solubility for Drug-Like Molecules"
+    },
+    {
+      "assumption": "A linear transfer function is necessary for the output layer in neural networks to ensure proper output scaling.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "Comparing Sigmoid Transfer Functions for Neural Network Multistep Ahead Streamflow Forecasting"
+    },
+    {
+      "assumption": "Affine transformations of input features are required for certain adaptation techniques.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Speaker adaptation of context dependent deep neural networks"
+    },
+    {
+      "assumption": "Momentum is necessary for stabilizing and accelerating the training of neural networks.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Speaker adaptation of context dependent deep neural networks"
+    },
+    {
+      "assumption": "Evolutionary algorithms are necessary for optimizing complex objective functions in neural network training.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Multiobjective Neural Network Ensembles Based on Regularized Negative Correlation Learning"
+    },
+    {
+      "assumption": "Correlation penalties are essential for reducing redundancy among ensemble members.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Multiobjective Neural Network Ensembles Based on Regularized Negative Correlation Learning"
+    },
+    {
+      "assumption": "Synthetic and real-world data are required for validating the performance of machine learning algorithms.",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "Multiobjective Neural Network Ensembles Based on Regularized Negative Correlation Learning"
+    },
+    {
+      "assumption": "Adaptation of noise hyperparameters is essential for accurate modeling of time-series data.",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "Recursive Bayesian Recurrent Neural Networks for Time-Series Modeling"
+    },
+    {
+      "assumption": "Second-order optimization techniques are required for stable numerical performance in training.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Recursive Bayesian Recurrent Neural Networks for Time-Series Modeling"
+    },
+    {
+      "assumption": "Short-term traffic flow forecasting requires specialized algorithms to handle the unique characteristics of traffic data.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Neural-Network-Based Models for Short-Term Traffic Flow Forecasting Using a Hybrid Exponential Smoothing and Levenberg\u2013Marquardt Algorithm"
+    },
+    {
+      "assumption": "Randomness in algorithm performance must be accounted for by running multiple trials.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "MAGNETIC RESONANCE BRAIN IMAGE CLASSIFICATION BY AN IMPROVED ARTIFICIAL BEE COLONY ALGORITHM"
+    },
+    {
+      "assumption": "Hybrid methods combining multiple techniques are required to improve performance in complex tasks.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "MAGNETIC RESONANCE BRAIN IMAGE CLASSIFICATION BY AN IMPROVED ARTIFICIAL BEE COLONY ALGORITHM"
+    },
+    {
+      "assumption": "Generalization capacity is essential for the practical application of neural network models.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Simple Customization of Recursive Neural Networks for Semantic Relation Classification"
+    },
+    {
+      "assumption": "The number of neurons in the hidden layer is crucial for determining the model's capacity to learn from data.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Prediction of body mass index in mice using dense molecular markers and a regularized neural network"
+    },
+    {
+      "assumption": "Autocorrelation and cross-correlation analyses are necessary for identifying relevant input features in time series data.",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "Generalized versus non-generalized neural network model for multi-lead inflow forecasting at Aswan High Dam"
+    },
+    {
+      "assumption": "Comparative evaluation against classical models is required to demonstrate the effectiveness of new neural network approaches.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Generalized versus non-generalized neural network model for multi-lead inflow forecasting at Aswan High Dam"
+    },
+    {
+      "assumption": "Physically based models are required as a benchmark for evaluating data-driven models.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Modeling and analysis of actual evapotranspiration using data driven and wavelet techniques"
+    },
+    {
+      "assumption": "Temporal resolution of input data is essential for capturing the dynamics of environmental processes.",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "Modeling and analysis of actual evapotranspiration using data driven and wavelet techniques"
+    },
+    {
+      "assumption": "Generalization ability is necessary for the practical applicability of environmental models.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Modeling and analysis of actual evapotranspiration using data driven and wavelet techniques"
+    },
+    {
+      "assumption": "Addressing data noise and small training set sizes is necessary for improving model performance.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Deep Architectures and Deep Learning in Chemoinformatics: The Prediction of Aqueous Solubility for Drug-Like Molecules"
+    },
+    {
+      "assumption": "Web-based tools are necessary for disseminating predictive models to the broader scientific community.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Deep Architectures and Deep Learning in Chemoinformatics: The Prediction of Aqueous Solubility for Drug-Like Molecules"
+    },
+    {
+      "assumption": "Catchment-scale estimation is required for accurate hydrological modeling.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Global patterns in base flow index and recession based on streamflow observations from 3394 catchments"
+    },
+    {
+      "assumption": "Ensemble methods are necessary for improving the robustness of hydrological models.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Global patterns in base flow index and recession based on streamflow observations from 3394 catchments"
+    },
+    {
+      "assumption": "Free access to model outputs is essential for advancing research and practical applications in hydrology.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Global patterns in base flow index and recession based on streamflow observations from 3394 catchments"
+    },
+    {
+      "assumption": "Sufficient data set length is required for training neural networks effectively.",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "Comparing Sigmoid Transfer Functions for Neural Network Multistep Ahead Streamflow Forecasting"
+    },
+    {
+      "assumption": "The Levenberg-Marquardt back-propagation training procedure is essential for optimizing neural network weights efficiently.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Comparing Sigmoid Transfer Functions for Neural Network Multistep Ahead Streamflow Forecasting"
+    },
+    {
+      "assumption": "Input data encoding methods are essential for optimizing neural network performance.",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "Railway passenger train delay prediction via neural network model"
+    },
+    {
+      "assumption": "The architecture of a neural network is crucial for its performance on specific tasks.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Railway passenger train delay prediction via neural network model"
+    },
+    {
+      "assumption": "Neural networks require careful design to outperform traditional prediction methods.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Railway passenger train delay prediction via neural network model"
+    },
+    {
+      "assumption": "A fair comparison among models requires consistent evaluation metrics.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Railway passenger train delay prediction via neural network model"
+    },
+    {
+      "assumption": "Generalization improvements are essential for the practical deployment of adapted models.",
+      "confidence": 0.65,
+      "category": "theoretical",
+      "source_paper": "Speaker adaptation of context dependent deep neural networks"
+    },
+    {
+      "assumption": "Discriminative training is required for optimizing neural network performance.",
+      "confidence": 0.65,
+      "category": "training",
+      "source_paper": "Speaker adaptation of context dependent deep neural networks"
+    },
+    {
+      "assumption": "Covariance matrix updates are essential for capturing the dynamics of time-series data.",
+      "confidence": 0.65,
+      "category": "theoretical",
+      "source_paper": "Recursive Bayesian Recurrent Neural Networks for Time-Series Modeling"
+    },
+    {
+      "assumption": "Bayesian regularization is necessary to prevent overfitting in neural network training.",
+      "confidence": 0.65,
+      "category": "training",
+      "source_paper": "Comparing Sigmoid Transfer Functions for Neural Network Multistep Ahead Streamflow Forecasting"
+    },
+    {
+      "assumption": "Transfer function selection is essential for the performance of neural networks in specific applications.",
+      "confidence": 0.65,
+      "category": "architectural",
+      "source_paper": "Comparing Sigmoid Transfer Functions for Neural Network Multistep Ahead Streamflow Forecasting"
+    },
+    {
+      "assumption": "Nondominated sorting is necessary for effective multiobjective optimization.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Multiobjective Neural Network Ensembles Based on Regularized Negative Correlation Learning"
+    },
+    {
+      "assumption": "Fitness sharing is essential for maintaining diversity in evolutionary algorithms.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Multiobjective Neural Network Ensembles Based on Regularized Negative Correlation Learning"
+    },
+    {
+      "assumption": "Rank-based fitness assignment is required for effective selection in evolutionary algorithms.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Multiobjective Neural Network Ensembles Based on Regularized Negative Correlation Learning"
+    },
+    {
+      "assumption": "Multilinear regression is a required baseline for evaluating the performance of more complex models.",
+      "confidence": 0.6,
+      "category": "evaluation",
+      "source_paper": "Modeling and analysis of actual evapotranspiration using data driven and wavelet techniques"
+    },
+    {
+      "assumption": "Understanding the dominant cyclic features in time series data is essential for accurate environmental modeling.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Modeling and analysis of actual evapotranspiration using data driven and wavelet techniques"
+    },
+    {
+      "assumption": "Clustering methods like Kohonen networks are required for creating effective training and testing sets.",
+      "confidence": 0.6,
+      "category": "data",
+      "source_paper": "Comparing Sigmoid Transfer Functions for Neural Network Multistep Ahead Streamflow Forecasting"
+    },
+    {
+      "assumption": "Evaluation over multiple lead times is necessary to validate the robustness of streamflow forecasting models.",
+      "confidence": 0.6,
+      "category": "evaluation",
+      "source_paper": "Comparing Sigmoid Transfer Functions for Neural Network Multistep Ahead Streamflow Forecasting"
+    },
+    {
+      "assumption": "Dynamic and multiple strategies are necessary for finding optimal neural network architectures.",
+      "confidence": 0.6,
+      "category": "architectural",
+      "source_paper": "Railway passenger train delay prediction via neural network model"
+    }
+  ]
+}

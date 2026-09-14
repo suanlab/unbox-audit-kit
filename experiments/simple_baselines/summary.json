@@ -1,0 +1,146 @@
+{
+  "experiment": "simple_retrieval_baselines",
+  "methods": [
+    "tfidf",
+    "bm25"
+  ],
+  "corpus_size": 60,
+  "filter": "sentences containing necessary/required/essential",
+  "matching": "soft token overlap >= 50%",
+  "results": {
+    "tfidf": {
+      "transformer": {
+        "method": "tfidf",
+        "conf_rank": null,
+        "best_score": 0.1932,
+        "r_at_5": 0.0,
+        "r_at_10": 0.0,
+        "num_candidates": 11,
+        "top_5_candidates": [
+          "Real-world videos often have complex dynamics, methods for generating open-domain video descriptions should be sensitive to temporal structure and allow both input (sequence of frames) and output (sequence of words) of variable length.",
+          "Prior methods generally have required separate classification and image segmentation stages and/or pre- and post-processing.",
+          "Passage-level question answer matching is a challenging task since it requires effective representations that capture the complex semantic relations between questions and answers.",
+          "Old timers in our community should remember that arguing against the adequacy of neural networks for rule-governed linguistic behavior was the foundation for the rise to fame of Steve Pinker\u2014and the foundation of the career of about six of his graduate students.",
+          "We present the neural checklist model, a recurrent neural network that models global coherence by storing and updating an agenda of text strings which should be mentioned somewhere in the output."
+        ]
+      },
+      "diffusion": {
+        "method": "tfidf",
+        "conf_rank": 2,
+        "best_score": 0.2457,
+        "r_at_5": 1.0,
+        "r_at_10": 1.0,
+        "num_candidates": 9,
+        "top_5_candidates": [
+          "The sCT generation required 5.6 s and 21 s for a single patient volume on a GPU and CPU, respectively.",
+          "Different attack strategies have been proposed to generate adversarial examples, but how to produce them with high perceptual quality and more efficiently requires more research efforts.",
+          "Besides the challenges in image-based virtual try-on (e.g., clothes fidelity, image synthesis), video virtual try-on further requires spatiotemporal consistency.",
+          "To evaluate the variability of multiphase flow properties of porous media at the pore scale, it is necessary to acquire a number of representative samples of the void-solid structure.",
+          "Considering the application of MR-guided radiotherapy and online adaptive replanning, sCT generation should occur within minutes."
+        ]
+      },
+      "icl": {
+        "method": "tfidf",
+        "conf_rank": 1,
+        "best_score": 0.1754,
+        "r_at_5": 1.0,
+        "r_at_10": 1.0,
+        "num_candidates": 5,
+        "top_5_candidates": [
+          "But it still lacks of task-specific knowledge and domain-related knowledge for further improving the performance of BERT model and more detailed fine-tuning strategy analyses are necessary.",
+          "Conversational machine comprehension (CMC) requires understanding the context of multi-turn dialogue.",
+          "We demonstrate that machine learning can efficiently detect large, rapid deformation signals in wrapped interferograms, but further development is required to detect slow or small deformation patterns which do not generate multiple fringes in short duration interferograms.",
+          "Several prior works have suggested that either complex pretraining schemes using unsupervised methods such as language modeling (Dai and Le 2015; Miyato, Dai, and Goodfellow 2016) or complicated models (Johnson and Zhang 2017) are necessary to achieve a high classification accuracy.",
+          "Following training with a combination of both positive and negative examples, this method reduced the number of interferograms to \u223c100 which required further inspection, of which at least 39 are considered true positives ."
+        ]
+      },
+      "vit": {
+        "method": "tfidf",
+        "conf_rank": null,
+        "best_score": 0.0895,
+        "r_at_5": 0.0,
+        "r_at_10": 0.0,
+        "num_candidates": 6,
+        "top_5_candidates": [
+          "Accurate medical image segmentation is essential for diagnosis, surgical planning and many other applications.",
+          "Automatic and accurate estimation of disease severity is essential for food security, disease management, and yield loss prediction.",
+          "Despite its low computational needs, the experimental results demonstrate that our proposed solution achieves accuracies that are comparable to other, more complex models, mainly due to its increased depth.",
+          "Semantic segmentation is a challenging task that addresses most of the perception needs of intelligent vehicles (IVs) in an unified way.",
+          "Automated skin lesion classification in dermoscopy images is an essential way to improve the diagnostic performance and reduce melanoma deaths."
+        ]
+      }
+    },
+    "bm25": {
+      "transformer": {
+        "method": "bm25",
+        "conf_rank": null,
+        "best_score": 5.3445,
+        "r_at_5": 0.0,
+        "r_at_10": 0.0,
+        "num_candidates": 11,
+        "top_5_candidates": [
+          "Real-world videos often have complex dynamics, methods for generating open-domain video descriptions should be sensitive to temporal structure and allow both input (sequence of frames) and output (sequence of words) of variable length.",
+          "Prior methods generally have required separate classification and image segmentation stages and/or pre- and post-processing.",
+          "Passage-level question answer matching is a challenging task since it requires effective representations that capture the complex semantic relations between questions and answers.",
+          "We present the neural checklist model, a recurrent neural network that models global coherence by storing and updating an agenda of text strings which should be mentioned somewhere in the output.",
+          "Old timers in our community should remember that arguing against the adequacy of neural networks for rule-governed linguistic behavior was the foundation for the rise to fame of Steve Pinker\u2014and the foundation of the career of about six of his graduate students."
+        ]
+      },
+      "diffusion": {
+        "method": "bm25",
+        "conf_rank": 1,
+        "best_score": 6.2404,
+        "r_at_5": 1.0,
+        "r_at_10": 1.0,
+        "num_candidates": 9,
+        "top_5_candidates": [
+          "Different attack strategies have been proposed to generate adversarial examples, but how to produce them with high perceptual quality and more efficiently requires more research efforts.",
+          "The sCT generation required 5.6 s and 21 s for a single patient volume on a GPU and CPU, respectively.",
+          "To evaluate the variability of multiphase flow properties of porous media at the pore scale, it is necessary to acquire a number of representative samples of the void-solid structure.",
+          "Besides the challenges in image-based virtual try-on (e.g., clothes fidelity, image synthesis), video virtual try-on further requires spatiotemporal consistency.",
+          "Considering the application of MR-guided radiotherapy and online adaptive replanning, sCT generation should occur within minutes."
+        ]
+      },
+      "icl": {
+        "method": "bm25",
+        "conf_rank": 1,
+        "best_score": 6.4602,
+        "r_at_5": 1.0,
+        "r_at_10": 1.0,
+        "num_candidates": 5,
+        "top_5_candidates": [
+          "But it still lacks of task-specific knowledge and domain-related knowledge for further improving the performance of BERT model and more detailed fine-tuning strategy analyses are necessary.",
+          "Conversational machine comprehension (CMC) requires understanding the context of multi-turn dialogue.",
+          "We demonstrate that machine learning can efficiently detect large, rapid deformation signals in wrapped interferograms, but further development is required to detect slow or small deformation patterns which do not generate multiple fringes in short duration interferograms.",
+          "Several prior works have suggested that either complex pretraining schemes using unsupervised methods such as language modeling (Dai and Le 2015; Miyato, Dai, and Goodfellow 2016) or complicated models (Johnson and Zhang 2017) are necessary to achieve a high classification accuracy.",
+          "Following training with a combination of both positive and negative examples, this method reduced the number of interferograms to \u223c100 which required further inspection, of which at least 39 are considered true positives ."
+        ]
+      },
+      "vit": {
+        "method": "bm25",
+        "conf_rank": null,
+        "best_score": 1.8959,
+        "r_at_5": 0.0,
+        "r_at_10": 0.0,
+        "num_candidates": 6,
+        "top_5_candidates": [
+          "Accurate medical image segmentation is essential for diagnosis, surgical planning and many other applications.",
+          "Despite its low computational needs, the experimental results demonstrate that our proposed solution achieves accuracies that are comparable to other, more complex models, mainly due to its increased depth.",
+          "Automatic and accurate estimation of disease severity is essential for food security, disease management, and yield loss prediction.",
+          "Semantic segmentation is a challenging task that addresses most of the perception needs of intelligent vehicles (IVs) in an unified way.",
+          "Automated skin lesion classification in dermoscopy images is an essential way to improve the diagnostic performance and reduce melanoma deaths."
+        ]
+      }
+    }
+  },
+  "aggregate": {
+    "tfidf": {
+      "r_at_5": 0.5,
+      "r_at_10": 0.5
+    },
+    "bm25": {
+      "r_at_5": 0.5,
+      "r_at_10": 0.5
+    }
+  }
+}

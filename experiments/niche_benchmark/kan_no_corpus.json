@@ -1,0 +1,321 @@
+{
+  "paradigm": "kan",
+  "field_name": "MLP activation function design and neural network function approximation",
+  "num_calls": 15,
+  "num_raw": 70,
+  "num_unique": 52,
+  "assumptions": [
+    {
+      "assumption": "Non-linearity is essential for neural network function approximation",
+      "confidence": 0.95,
+      "category": "theoretical",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Activation functions are necessary for introducing non-linearity in MLPs",
+      "confidence": 0.95,
+      "category": "architectural",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Non-linearity is essential for neural networks to approximate complex functions.",
+      "confidence": 0.95,
+      "category": "theoretical",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Activation functions are necessary for introducing non-linearity into neural networks.",
+      "confidence": 0.95,
+      "category": "architectural",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Non-linearity is essential for neural network function approximation.",
+      "confidence": 0.95,
+      "category": "theoretical",
+      "call_idx": 2
+    },
+    {
+      "assumption": "Activation functions are necessary for introducing non-linearity in MLPs.",
+      "confidence": 0.95,
+      "category": "architectural",
+      "call_idx": 2
+    },
+    {
+      "assumption": "Non-linearity in activation functions is essential for neural networks to approximate complex functions.",
+      "confidence": 0.95,
+      "category": "theoretical",
+      "call_idx": 5
+    },
+    {
+      "assumption": "Differentiability is required for activation functions to enable backpropagation",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Activation functions should avoid vanishing gradients for effective training",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Universal approximation is essential for neural networks to model complex functions",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Empirical evaluation is necessary to validate the effectiveness of new activation functions",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Differentiability of activation functions is required for effective backpropagation.",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 1
+    },
+    {
+      "assumption": "The choice of activation function is essential for the convergence and performance of neural networks.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Activation functions should avoid vanishing or exploding gradients to ensure stable training.",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Differentiability is required for activation functions to enable backpropagation.",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 2
+    },
+    {
+      "assumption": "Activation functions should avoid vanishing gradients to ensure effective training.",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 2
+    },
+    {
+      "assumption": "Universal approximation is essential for neural networks to approximate any continuous function.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "call_idx": 2
+    },
+    {
+      "assumption": "Activation functions should avoid vanishing or exploding gradients for stable training.",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 3
+    },
+    {
+      "assumption": "Activation functions are essential for controlling the expressiveness of neural networks.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "call_idx": 4
+    },
+    {
+      "assumption": "Activation functions must avoid saturation to prevent vanishing gradient problems.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "call_idx": 4
+    },
+    {
+      "assumption": "The universality of neural networks is essential for their ability to approximate any function given sufficient capacity.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "call_idx": 4
+    },
+    {
+      "assumption": "Activation functions must be differentiable for effective backpropagation training.",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 5
+    },
+    {
+      "assumption": "Proper initialization of weights is required to prevent vanishing or exploding gradients during training.",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 5
+    },
+    {
+      "assumption": "Sufficiently large and diverse datasets are essential for training neural networks to generalize well.",
+      "confidence": 0.9,
+      "category": "data",
+      "call_idx": 5
+    },
+    {
+      "assumption": "Gradient-based optimization methods are essential for training neural networks effectively.",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 5
+    },
+    {
+      "assumption": "Activation functions must avoid vanishing or exploding gradients for effective training.",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 6
+    },
+    {
+      "assumption": "The universality of function approximation is essential for the theoretical foundation of MLPs.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "call_idx": 6
+    },
+    {
+      "assumption": "Activation functions must be computationally efficient for practical training",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Activation functions must be compatible with existing neural network architectures",
+      "confidence": 0.85,
+      "category": "architectural",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Activation functions should maintain stability across different network depths",
+      "confidence": 0.85,
+      "category": "architectural",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Activation functions must be computationally efficient for practical neural network training.",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Activation functions must be capable of handling a wide range of input values to ensure robustness.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Empirical evaluation is necessary to determine the effectiveness of new activation functions.",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "call_idx": 2
+    },
+    {
+      "assumption": "Activation functions should be designed to generalize well across different types of neural network architectures.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Activation functions must be able to handle a wide range of input values for robust performance.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "call_idx": 3
+    },
+    {
+      "assumption": "Activation functions should be compatible with existing neural network architectures.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "call_idx": 3
+    },
+    {
+      "assumption": "The choice of activation function is necessary for influencing the convergence behavior of neural networks.",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 4
+    },
+    {
+      "assumption": "Empirical evaluation is necessary for validating the effectiveness of new activation functions.",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "call_idx": 4
+    },
+    {
+      "assumption": "The choice of activation function is necessary for controlling the expressiveness of a neural network.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "call_idx": 5
+    },
+    {
+      "assumption": "Regularization techniques are necessary to prevent overfitting in neural networks.",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 5
+    },
+    {
+      "assumption": "Evaluation metrics such as accuracy or loss are necessary for assessing the performance of neural networks.",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "call_idx": 5
+    },
+    {
+      "assumption": "The choice of activation function is necessary for the stability of neural network training.",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 6
+    },
+    {
+      "assumption": "Activation functions should be robust to different input distributions",
+      "confidence": 0.8,
+      "category": "data",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Theoretical analysis is essential for understanding the properties and limitations of activation functions.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Activation functions must be chosen based on the specific task and architecture.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "call_idx": 2
+    },
+    {
+      "assumption": "Activation functions should be robust to different initialization schemes.",
+      "confidence": 0.8,
+      "category": "training",
+      "call_idx": 2
+    },
+    {
+      "assumption": "Activation functions are required to be adaptable to different types of data distributions.",
+      "confidence": 0.8,
+      "category": "data",
+      "call_idx": 3
+    },
+    {
+      "assumption": "Activation functions are required to be robust to different input scales for stable training.",
+      "confidence": 0.8,
+      "category": "training",
+      "call_idx": 4
+    },
+    {
+      "assumption": "The universal approximation theorem is essential for justifying the use of neural networks as function approximators.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "call_idx": 5
+    },
+    {
+      "assumption": "Batch normalization is required to stabilize and accelerate the training of deep neural networks.",
+      "confidence": 0.8,
+      "category": "training",
+      "call_idx": 5
+    },
+    {
+      "assumption": "Activation functions are required to be robust to different input distributions.",
+      "confidence": 0.8,
+      "category": "data",
+      "call_idx": 6
+    },
+    {
+      "assumption": "Activation functions must be compatible with existing neural network frameworks.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "call_idx": 2
+    }
+  ]
+}

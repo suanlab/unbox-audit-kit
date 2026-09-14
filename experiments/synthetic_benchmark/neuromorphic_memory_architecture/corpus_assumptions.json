@@ -1,0 +1,527 @@
+[
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_001",
+    "paper_title": "Synthetic Paper #1 in Neuromorphic Memory Architecture",
+    "assumption": "Hierarchical structures are essential for organizing memory in neuromorphic systems",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_001",
+    "paper_title": "Synthetic Paper #1 in Neuromorphic Memory Architecture",
+    "assumption": "Dynamic adaptation is necessary for optimizing memory retrieval processes",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_001",
+    "paper_title": "Synthetic Paper #1 in Neuromorphic Memory Architecture",
+    "assumption": "Biological memory systems provide a foundational model for neuromorphic architecture design",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_001",
+    "paper_title": "Synthetic Paper #1 in Neuromorphic Memory Architecture",
+    "assumption": "Reducing retrieval latency is essential for improving memory system efficiency",
+    "confidence": 0.8,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_001",
+    "paper_title": "Synthetic Paper #1 in Neuromorphic Memory Architecture",
+    "assumption": "Simulated platforms are required for evaluating neuromorphic memory architectures",
+    "confidence": 0.75,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_002",
+    "paper_title": "Synthetic Paper #2 in Neuromorphic Memory Architecture",
+    "assumption": "Hierarchical structures are essential for efficient memory retrieval in neuromorphic architectures.",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_002",
+    "paper_title": "Synthetic Paper #2 in Neuromorphic Memory Architecture",
+    "assumption": "Adaptive mechanisms are necessary for optimizing memory retrieval processes.",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_002",
+    "paper_title": "Synthetic Paper #2 in Neuromorphic Memory Architecture",
+    "assumption": "Mimicking natural cognitive processes is essential for improving neuromorphic system performance.",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_002",
+    "paper_title": "Synthetic Paper #2 in Neuromorphic Memory Architecture",
+    "assumption": "Dynamic adjustment of system parameters is required for handling varying data inputs effectively.",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_002",
+    "paper_title": "Synthetic Paper #2 in Neuromorphic Memory Architecture",
+    "assumption": "Synthetic datasets modeled on human memory patterns are necessary for validating neuromorphic memory systems.",
+    "confidence": 0.75,
+    "category": "data"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_003",
+    "paper_title": "Synthetic Paper #3 in Neuromorphic Memory Architecture",
+    "assumption": "Hierarchical organization is essential for optimizing data retrieval in neuromorphic memory systems.",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_003",
+    "paper_title": "Synthetic Paper #3 in Neuromorphic Memory Architecture",
+    "assumption": "Emulating biological neural networks is necessary for advancing neuromorphic computing.",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_003",
+    "paper_title": "Synthetic Paper #3 in Neuromorphic Memory Architecture",
+    "assumption": "Efficient address resolution is required for improving access speed and accuracy in memory systems.",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_003",
+    "paper_title": "Synthetic Paper #3 in Neuromorphic Memory Architecture",
+    "assumption": "Scalability is essential for the development of next-generation data storage systems.",
+    "confidence": 0.75,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_003",
+    "paper_title": "Synthetic Paper #3 in Neuromorphic Memory Architecture",
+    "assumption": "Adaptability under varying loads is necessary for robust performance in memory architectures.",
+    "confidence": 0.7,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_004",
+    "paper_title": "Synthetic Paper #4 in Neuromorphic Memory Architecture",
+    "assumption": "Hierarchical memory structures are essential for efficient data retrieval in neuromorphic systems.",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_004",
+    "paper_title": "Synthetic Paper #4 in Neuromorphic Memory Architecture",
+    "assumption": "Dynamic memory allocation is necessary for optimizing performance in neuromorphic architectures.",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_004",
+    "paper_title": "Synthetic Paper #4 in Neuromorphic Memory Architecture",
+    "assumption": "Energy efficiency is required for the viability of neuromorphic memory systems.",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_004",
+    "paper_title": "Synthetic Paper #4 in Neuromorphic Memory Architecture",
+    "assumption": "Simulated environments are essential for testing and validating neuromorphic memory algorithms.",
+    "confidence": 0.75,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_004",
+    "paper_title": "Synthetic Paper #4 in Neuromorphic Memory Architecture",
+    "assumption": "Adaptive algorithms are necessary for handling dynamic data access patterns in neuromorphic systems.",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_005",
+    "paper_title": "Synthetic Paper #5 in Neuromorphic Memory Architecture",
+    "assumption": "Biologically-inspired mechanisms are essential for enhancing neuromorphic memory architectures.",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_005",
+    "paper_title": "Synthetic Paper #5 in Neuromorphic Memory Architecture",
+    "assumption": "Hierarchical addressing is necessary for efficient memory retrieval in neuromorphic systems.",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_005",
+    "paper_title": "Synthetic Paper #5 in Neuromorphic Memory Architecture",
+    "assumption": "Dynamic synaptic weight adjustment is required for adaptability in memory architectures.",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_005",
+    "paper_title": "Synthetic Paper #5 in Neuromorphic Memory Architecture",
+    "assumption": "Context-sensitive pattern retrieval is essential for improving retrieval efficiency.",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_005",
+    "paper_title": "Synthetic Paper #5 in Neuromorphic Memory Architecture",
+    "assumption": "Simulation-based evaluation is necessary for validating improvements in neuromorphic memory systems.",
+    "confidence": 0.75,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_006",
+    "paper_title": "Synthetic Paper #6 in Neuromorphic Memory Architecture",
+    "assumption": "Hierarchical memory structures are essential for efficient data retrieval in neuromorphic systems",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_006",
+    "paper_title": "Synthetic Paper #6 in Neuromorphic Memory Architecture",
+    "assumption": "Dynamic adaptation is necessary for optimizing retrieval pathways in complex memory architectures",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_006",
+    "paper_title": "Synthetic Paper #6 in Neuromorphic Memory Architecture",
+    "assumption": "Scalability is required for neuromorphic memory systems to handle increased data loads effectively",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_006",
+    "paper_title": "Synthetic Paper #6 in Neuromorphic Memory Architecture",
+    "assumption": "Context-aware mechanisms are essential for reducing latency in memory retrieval processes",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_006",
+    "paper_title": "Synthetic Paper #6 in Neuromorphic Memory Architecture",
+    "assumption": "Pattern complexity and variability must be accounted for in the design of neuromorphic memory systems",
+    "confidence": 0.75,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_007",
+    "paper_title": "Synthetic Paper #7 in Neuromorphic Memory Architecture",
+    "assumption": "Biologically-inspired architectures are essential for neuromorphic computing.",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_007",
+    "paper_title": "Synthetic Paper #7 in Neuromorphic Memory Architecture",
+    "assumption": "Hierarchical organization is necessary for efficient memory storage and retrieval.",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_007",
+    "paper_title": "Synthetic Paper #7 in Neuromorphic Memory Architecture",
+    "assumption": "Dynamic synaptic weight adjustment is required for optimizing retrieval latency.",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_007",
+    "paper_title": "Synthetic Paper #7 in Neuromorphic Memory Architecture",
+    "assumption": "Predictive mechanisms are essential for improving retrieval precision in memory systems.",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_007",
+    "paper_title": "Synthetic Paper #7 in Neuromorphic Memory Architecture",
+    "assumption": "Scalability is necessary for the development of future high-density memory systems.",
+    "confidence": 0.75,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_008",
+    "paper_title": "Synthetic Paper #8 in Neuromorphic Memory Architecture",
+    "assumption": "Hierarchical addressing is essential for efficient data retrieval in neuromorphic memory systems.",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_008",
+    "paper_title": "Synthetic Paper #8 in Neuromorphic Memory Architecture",
+    "assumption": "Adaptive synaptic mechanisms are necessary for optimizing memory access pathways.",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_008",
+    "paper_title": "Synthetic Paper #8 in Neuromorphic Memory Architecture",
+    "assumption": "Energy efficiency is required for the viability of neuromorphic memory architectures.",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_008",
+    "paper_title": "Synthetic Paper #8 in Neuromorphic Memory Architecture",
+    "assumption": "Simulation-based evaluation is essential for validating neuromorphic memory techniques.",
+    "confidence": 0.75,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_008",
+    "paper_title": "Synthetic Paper #8 in Neuromorphic Memory Architecture",
+    "assumption": "Dynamic weight modulation is necessary for enhancing data retrieval speed.",
+    "confidence": 0.7,
+    "category": "training"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_009",
+    "paper_title": "Synthetic Paper #9 in Neuromorphic Memory Architecture",
+    "assumption": "Hierarchical addressing is essential for optimizing retrieval efficiency in neuromorphic memory systems.",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_009",
+    "paper_title": "Synthetic Paper #9 in Neuromorphic Memory Architecture",
+    "assumption": "Mimicking biological neural processes is necessary for advancing neuromorphic architectures.",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_009",
+    "paper_title": "Synthetic Paper #9 in Neuromorphic Memory Architecture",
+    "assumption": "Dynamic adaptation of system components is required for improving performance in neuromorphic systems.",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_009",
+    "paper_title": "Synthetic Paper #9 in Neuromorphic Memory Architecture",
+    "assumption": "Energy efficiency is essential for the viability of neuromorphic memory architectures.",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_009",
+    "paper_title": "Synthetic Paper #9 in Neuromorphic Memory Architecture",
+    "assumption": "Simulation-based evaluation is necessary for validating neuromorphic memory architecture designs.",
+    "confidence": 0.8,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_010",
+    "paper_title": "Synthetic Paper #10 in Neuromorphic Memory Architecture",
+    "assumption": "Hierarchical memory structures are essential for efficient data retrieval in neuromorphic systems",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_010",
+    "paper_title": "Synthetic Paper #10 in Neuromorphic Memory Architecture",
+    "assumption": "Adaptive algorithms are necessary for optimizing memory access pathways",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_010",
+    "paper_title": "Synthetic Paper #10 in Neuromorphic Memory Architecture",
+    "assumption": "Predictive mechanisms are required for improving retrieval efficiency in memory architectures",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_010",
+    "paper_title": "Synthetic Paper #10 in Neuromorphic Memory Architecture",
+    "assumption": "Dynamic reconfiguration of memory pathways is essential for handling variable data access patterns",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_010",
+    "paper_title": "Synthetic Paper #10 in Neuromorphic Memory Architecture",
+    "assumption": "Simulation-based evaluation is necessary for validating improvements in memory architecture performance",
+    "confidence": 0.75,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_011",
+    "paper_title": "Synthetic Paper #11 in Neuromorphic Memory Architecture",
+    "assumption": "Biologically inspired designs are essential for advancing neuromorphic memory architectures.",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_011",
+    "paper_title": "Synthetic Paper #11 in Neuromorphic Memory Architecture",
+    "assumption": "Hierarchical memory structures are necessary for efficient data retrieval in neuromorphic systems.",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_011",
+    "paper_title": "Synthetic Paper #11 in Neuromorphic Memory Architecture",
+    "assumption": "Dynamic memory allocation is required for adapting to fluctuating data inputs in neuromorphic architectures.",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_011",
+    "paper_title": "Synthetic Paper #11 in Neuromorphic Memory Architecture",
+    "assumption": "Scalability is essential for accommodating increasing data complexity in neuromorphic memory systems.",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_011",
+    "paper_title": "Synthetic Paper #11 in Neuromorphic Memory Architecture",
+    "assumption": "Simulation is necessary for validating the performance of neuromorphic memory architectures.",
+    "confidence": 0.75,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_012",
+    "paper_title": "Synthetic Paper #12 in Neuromorphic Memory Architecture",
+    "assumption": "Hierarchical structures are essential for efficient data retrieval in neuromorphic memory architectures.",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_012",
+    "paper_title": "Synthetic Paper #12 in Neuromorphic Memory Architecture",
+    "assumption": "Adaptive algorithms are necessary for optimizing memory retrieval processes in dynamic environments.",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_012",
+    "paper_title": "Synthetic Paper #12 in Neuromorphic Memory Architecture",
+    "assumption": "Scalability is required for neuromorphic memory systems to handle increasing data volumes without performance loss.",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_012",
+    "paper_title": "Synthetic Paper #12 in Neuromorphic Memory Architecture",
+    "assumption": "Resilience to noise is essential for maintaining accuracy in neuromorphic memory retrieval.",
+    "confidence": 0.87,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_012",
+    "paper_title": "Synthetic Paper #12 in Neuromorphic Memory Architecture",
+    "assumption": "Simulation is necessary for validating the performance of neuromorphic memory architectures.",
+    "confidence": 0.8,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_013",
+    "paper_title": "Synthetic Paper #13 in Neuromorphic Memory Architecture",
+    "assumption": "Hierarchical memory structures are essential for efficient data retrieval in neuromorphic systems.",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_013",
+    "paper_title": "Synthetic Paper #13 in Neuromorphic Memory Architecture",
+    "assumption": "Adaptive mechanisms are necessary for optimizing performance in dynamic data environments.",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_013",
+    "paper_title": "Synthetic Paper #13 in Neuromorphic Memory Architecture",
+    "assumption": "Energy efficiency is required for the sustainability of large-scale neuromorphic systems.",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_013",
+    "paper_title": "Synthetic Paper #13 in Neuromorphic Memory Architecture",
+    "assumption": "Simulations on synthetic datasets are essential for validating neuromorphic memory architectures.",
+    "confidence": 0.75,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_013",
+    "paper_title": "Synthetic Paper #13 in Neuromorphic Memory Architecture",
+    "assumption": "Alignment with biological paradigms is necessary for advancing neuromorphic memory systems.",
+    "confidence": 0.7,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_014",
+    "paper_title": "Synthetic Paper #14 in Neuromorphic Memory Architecture",
+    "assumption": "Neuromorphic architectures are essential for mimicking biological neural processes.",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_014",
+    "paper_title": "Synthetic Paper #14 in Neuromorphic Memory Architecture",
+    "assumption": "Synaptic plasticity is necessary for adaptive learning in neuromorphic systems.",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_014",
+    "paper_title": "Synthetic Paper #14 in Neuromorphic Memory Architecture",
+    "assumption": "Hierarchical memory structures are required for efficient data retrieval in neuromorphic computing.",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_014",
+    "paper_title": "Synthetic Paper #14 in Neuromorphic Memory Architecture",
+    "assumption": "Dynamic restructuring of synaptic weights is essential for optimizing memory access patterns.",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_014",
+    "paper_title": "Synthetic Paper #14 in Neuromorphic Memory Architecture",
+    "assumption": "Simulating neuronal pathways is necessary for reducing retrieval latency in neuromorphic systems.",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_015",
+    "paper_title": "Synthetic Paper #15 in Neuromorphic Memory Architecture",
+    "assumption": "Quantum computing is essential for optimizing complex computational tasks in neuromorphic architectures.",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_015",
+    "paper_title": "Synthetic Paper #15 in Neuromorphic Memory Architecture",
+    "assumption": "Hierarchical addressing is necessary for efficient data retrieval in memory architectures.",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_015",
+    "paper_title": "Synthetic Paper #15 in Neuromorphic Memory Architecture",
+    "assumption": "Parallelization is required to achieve significant reductions in computational latency.",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_015",
+    "paper_title": "Synthetic Paper #15 in Neuromorphic Memory Architecture",
+    "assumption": "Scalability is essential for the practical application of neuromorphic memory systems.",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "synthetic_neuromorphic_memory_architecture_015",
+    "paper_title": "Synthetic Paper #15 in Neuromorphic Memory Architecture",
+    "assumption": "Energy efficiency is necessary for the viability of large-scale neuromorphic systems.",
+    "confidence": 0.75,
+    "category": "architectural"
+  }
+]

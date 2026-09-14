@@ -1,0 +1,72 @@
+{
+  "paradigm": "gan",
+  "display": "GANs / Generative Adversarial Networks",
+  "year": 2014,
+  "ground_truth": "Generative modeling requires explicit density estimation or variational inference",
+  "ground_truth_aliases": [
+    "Generative modeling requires explicit density estimation or variational inference",
+    "generative models must define an explicit likelihood function",
+    "learning to generate data requires modeling the probability distribution explicitly"
+  ],
+  "num_papers": 60,
+  "num_raw_assumptions": 300,
+  "num_unique_assumptions": 298,
+  "best_similarity": 0.715,
+  "soft_rank": 55.0,
+  "soft_recall_at_5": 0.0,
+  "soft_recall_at_10": 0.0,
+  "soft_recall_at_20": 0.0,
+  "top_10_assumptions": [
+    {
+      "rank": 169,
+      "assumption": "Probabilistic models must have explicit likelihood computation to enable proper ranking and sampling",
+      "similarity": 0.715
+    },
+    {
+      "rank": 256,
+      "assumption": "Generative modeling of input data distributions is necessary for learning meaningful representations",
+      "similarity": 0.687
+    },
+    {
+      "rank": 232,
+      "assumption": "Energy-based models with latent variables are necessary for learning complex probability distributions",
+      "similarity": 0.6866
+    },
+    {
+      "rank": 55,
+      "assumption": "Maximizing data likelihood is the essential objective for generative modeling",
+      "similarity": 0.6756
+    },
+    {
+      "rank": 193,
+      "assumption": "Probabilistic generative models are necessary for biologically plausible learning",
+      "similarity": 0.6465
+    },
+    {
+      "rank": 196,
+      "assumption": "Energy-based models are required for learning probability distributions over high-dimensional visual data",
+      "similarity": 0.6441
+    },
+    {
+      "rank": 164,
+      "assumption": "Energy-based models are necessary for principled probabilistic generative modeling",
+      "similarity": 0.6352
+    },
+    {
+      "rank": 237,
+      "assumption": "Unnormalized log-likelihood provides the correct mathematical framework for analyzing generative model capabilities",
+      "similarity": 0.6314
+    },
+    {
+      "rank": 207,
+      "assumption": "Generative modeling capabilities are necessary for robust classification and understanding of learned representations",
+      "similarity": 0.6204
+    },
+    {
+      "rank": 206,
+      "assumption": "Neural networks are required for modeling complex conditional distributions",
+      "similarity": 0.6153
+    }
+  ],
+  "ran_at": "2026-03-23T12:44:46.913512+00:00"
+}

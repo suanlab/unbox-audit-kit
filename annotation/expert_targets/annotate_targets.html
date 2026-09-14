@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Expert Target Validation</title>
+<style>
+ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        max-width: 780px; margin: 0 auto; padding: 1.2em; line-height: 1.55; color: #222; }
+ .bar { background: #eee; height: 8px; border-radius: 4px; overflow: hidden; margin: .6em 0 1.2em; }
+ .bar > div { background: #4caf50; height: 100%; width: 0; transition: width .2s; }
+ .card { border: 1px solid #ddd; border-radius: 10px; padding: 1.1em 1.2em; margin-bottom: 1em; }
+ .meta { color: #666; font-size: .9em; }
+ .claim { font-size: 1.18em; font-weight: 600; margin: .7em 0; padding: .7em .9em;
+           background: #f6f8fa; border-left: 4px solid #4caf50; border-radius: 4px; }
+ .q { margin: 1.1em 0 .3em; font-weight: 600; }
+ .scores { display: flex; gap: .5em; flex-wrap: wrap; }
+ .score-btn { padding: .55em .9em; cursor: pointer; border: 2px solid #ccc; border-radius: 8px;
+               background: #fff; text-align: center; min-width: 4.6em; }
+ .score-btn:hover { border-color: #4caf50; }
+ .score-btn.selected { background: #4caf50; color: #fff; border-color: #4caf50; }
+ .score-btn .num { font-weight: bold; font-size: 1.1em; display: block; }
+ .score-btn .hint { font-size: .72em; opacity: .85; }
+ textarea { width: 100%; min-height: 3.4em; font: inherit; padding: .5em;
+             border: 1px solid #ccc; border-radius: 6px; }
+ nav { display: flex; gap: .6em; align-items: center; margin-top: 1.2em; flex-wrap: wrap; }
+ button.nav { padding: .6em 1.1em; font-size: 1em; border-radius: 8px;
+               border: 1px solid #bbb; background: #fff; cursor: pointer; }
+ button.primary { background: #1769aa; color: #fff; border-color: #1769aa; }
+ .warn { background: #fff8e1; border: 1px solid #ffe082; padding: .8em 1em;
+          border-radius: 8px; font-size: .93em; }
+</style></head><body>
+
+<h2>Expert Target Validation</h2>
+<div class="warn">
+ <b>What you are judging.</b> Each item shows a research field, a cut-off year, a later
+ breakthrough, and a <b>candidate assumption</b>. Judge the candidate assumption
+ <b>on your own knowledge of the field</b>. Some candidates are deliberately wrong &mdash; rate
+ those low. Please do not look up the answer. ~15&ndash;25 minutes for 22 items.
+ Your answers are saved in this browser; click <b>Export CSV</b> at the end and send the file.
+</div>
+
+<p style="margin-top:1em">Your name / ID (used only for the filename):
+ <input id="rater" placeholder="e.g. exp1" style="padding:.4em;font:inherit;border:1px solid #ccc;border-radius:6px"></p>
+
+<div class="bar"><div id="prog"></div></div>
+<div id="counter" class="meta"></div>
+
+<div class="card">
+ <div class="meta">Item <span id="idx"></span> &middot; <span id="itemId"></span></div>
+ <div class="meta">Field: <b id="field"></b> &middot; Assumption held <b id="year"></b>
+   &middot; Later breakthrough: <b id="bk"></b></div>
+ <div class="claim" id="claim"></div>
+
+ <div class="q">Q1. This statement accurately describes an assumption <u>widely held</u> in
+   the field before that year. <span class="meta">(널리 받아들여진 가정인가)</span></div>
+ <div class="scores" id="q1"></div>
+
+ <div class="q">Q2. The breakthrough substantively <u>overturned / relaxed / violated</u>
+   this assumption. <span class="meta">(그 돌파구가 이 가정을 뒤집었는가)</span></div>
+ <div class="scores" id="q2"></div>
+
+ <div class="q">Q3. If you would phrase the overturned assumption differently, write your
+   version. <span class="meta">(optional)</span></div>
+ <textarea id="q3"></textarea>
+
+ <div class="q">Q4. Scope of the statement</div>
+ <div class="scores" id="q4"></div>
+</div>
+
+<nav>
+ <button class="nav" id="prev">&larr; Prev</button>
+ <button class="nav" id="next">Next &rarr;</button>
+ <button class="nav primary" id="export">Export CSV</button>
+ <span id="done" class="meta"></span>
+</nav>
+
+<script>
+const ITEMS = [{"item_id": "T01", "field_label": "sequence modeling / NLP", "year_guard": "before 2017", "breakthrough": "the Transformer (2017)", "candidate_assumption": "Sequence models were expected to be trained without using any data"}, {"item_id": "T02", "field_label": "task adaptation in LLMs", "year_guard": "before 2020", "breakthrough": "in-context learning / GPT-3 (2020)", "candidate_assumption": "task adaptation requires reinforcement learning"}, {"item_id": "T03", "field_label": "generative image modeling", "year_guard": "before 2020", "breakthrough": "denoising diffusion models (2020)", "candidate_assumption": "adversarial training is necessary for high-quality generation"}, {"item_id": "T04", "field_label": "neural-network regularization", "year_guard": "before 2014", "breakthrough": "Dropout (2014)", "candidate_assumption": "regularization requires ensembling separate models"}, {"item_id": "T05", "field_label": "deep network training", "year_guard": "before 2015", "breakthrough": "ResNet / residual learning (2015)", "candidate_assumption": "network depth requires recurrent weight sharing"}, {"item_id": "T06", "field_label": "word representation", "year_guard": "before 2013", "breakthrough": "Word2Vec (2013)", "candidate_assumption": "Word meaning requires symbolic or hand-crafted feature representations"}, {"item_id": "T07", "field_label": "deep-network optimization", "year_guard": "before 2015", "breakthrough": "Batch Normalization (2015)", "candidate_assumption": "Network training requires careful weight initialization and low learning rates"}, {"item_id": "T08", "field_label": "language representation", "year_guard": "before 2018", "breakthrough": "BERT (2018)", "candidate_assumption": "language representations require supervised parse trees"}, {"item_id": "T09", "field_label": "computer vision", "year_guard": "before 2020", "breakthrough": "the Vision Transformer (2020)", "candidate_assumption": "convolutional layers are necessary for vision"}, {"item_id": "T10", "field_label": "word representation", "year_guard": "before 2013", "breakthrough": "Word2Vec (2013)", "candidate_assumption": "word vectors require sentence-level labels"}, {"item_id": "T11", "field_label": "language representation", "year_guard": "before 2018", "breakthrough": "BERT (2018)", "candidate_assumption": "Language model pre-training must be left-to-right (autoregressive)"}, {"item_id": "T12", "field_label": "neural-network regularization", "year_guard": "before 2014", "breakthrough": "Dropout (2014)", "candidate_assumption": "All neurons should be active during training for optimal learning"}, {"item_id": "T13", "field_label": "generative modeling", "year_guard": "before 2014", "breakthrough": "GANs (2014)", "candidate_assumption": "Generative modeling requires explicit density estimation or variational inference"}, {"item_id": "T14", "field_label": "sequence modeling / NLP", "year_guard": "before 2017", "breakthrough": "the Transformer (2017)", "candidate_assumption": "attention requires convolutional feature maps"}, {"item_id": "T15", "field_label": "generative modeling", "year_guard": "before 2014", "breakthrough": "GANs (2014)", "candidate_assumption": "generation requires paired supervised data"}, {"item_id": "T16", "field_label": "task adaptation in LLMs", "year_guard": "before 2020", "breakthrough": "in-context learning / GPT-3 (2020)", "candidate_assumption": "fine-tuning is necessary for task adaptation"}, {"item_id": "T17", "field_label": "deep-network optimization", "year_guard": "before 2015", "breakthrough": "Batch Normalization (2015)", "candidate_assumption": "deep training requires second-order optimizers"}, {"item_id": "T18", "field_label": "computer vision", "year_guard": "before 2020", "breakthrough": "the Vision Transformer (2020)", "candidate_assumption": "vision requires hand-crafted SIFT/HOG features"}, {"item_id": "T19", "field_label": "deep network training", "year_guard": "before 2015", "breakthrough": "ResNet / residual learning (2015)", "candidate_assumption": "Deep networks must process information through sequential layers without shortcuts"}, {"item_id": "T20", "field_label": "sequence modeling / NLP", "year_guard": "before 2017", "breakthrough": "the Transformer (2017)", "candidate_assumption": "recurrence is necessary for sequence modeling"}, {"item_id": "T21", "field_label": "generative image modeling", "year_guard": "before 2020", "breakthrough": "denoising diffusion models (2020)", "candidate_assumption": "generation requires discrete latent codebooks"}, {"item_id": "T22", "field_label": "computer vision", "year_guard": "before 2020", "breakthrough": "the Vision Transformer (2020)", "candidate_assumption": "Labeled image data is useful for training supervised visual recognition models"}];
+const LIKERT = [[1,"strongly disagree"],[2,"disagree"],[3,"unsure"],[4,"agree"],[5,"strongly agree"]];
+const SCOPE  = [["broad","too broad"],["ok","about right"],["narrow","too narrow"]];
+let i = 0, state = {};
+
+const key = () => "unbox_targetval_" + (document.getElementById("rater").value || "anon");
+function load() { try { state = JSON.parse(localStorage.getItem(key())) || {}; } catch (e) { state = {}; } }
+function save() { try { localStorage.setItem(key(), JSON.stringify(state)); } catch (e) {} }
+function rec(id) { return (state[id] = state[id] || {}); }
+
+function buttons(host, opts, field) {
+  const el = document.getElementById(host); el.innerHTML = "";
+  const cur = rec(ITEMS[i].item_id)[field];
+  for (const [val, hint] of opts) {
+    const b = document.createElement("button");
+    b.className = "score-btn" + (String(cur) === String(val) ? " selected" : "");
+    b.innerHTML = '<span class="num">' + val + '</span><span class="hint">' + hint + "</span>";
+    b.onclick = () => { rec(ITEMS[i].item_id)[field] = val; save(); render(); };
+    el.appendChild(b);
+  }
+}
+
+function render() {
+  const it = ITEMS[i];
+  document.getElementById("idx").textContent = (i + 1) + " / " + ITEMS.length;
+  document.getElementById("itemId").textContent = it.item_id;
+  document.getElementById("field").textContent = it.field_label;
+  document.getElementById("year").textContent = it.year_guard;
+  document.getElementById("bk").textContent = it.breakthrough;
+  document.getElementById("claim").textContent = it.candidate_assumption;
+  buttons("q1", LIKERT, "q1"); buttons("q2", LIKERT, "q2"); buttons("q4", SCOPE, "q4");
+  document.getElementById("q3").value = rec(it.item_id).q3 || "";
+  const n = ITEMS.filter(x => (state[x.item_id] || {}).q1 && (state[x.item_id] || {}).q2).length;
+  document.getElementById("prog").style.width = (100 * n / ITEMS.length) + "%";
+  document.getElementById("counter").textContent = n + " of " + ITEMS.length + " items answered (Q1+Q2).";
+  document.getElementById("done").textContent = n === ITEMS.length ? "All done \u2014 please export." : "";
+}
+
+document.getElementById("q3").addEventListener("input", e => {
+  rec(ITEMS[i].item_id).q3 = e.target.value; save();
+});
+document.getElementById("prev").onclick = () => { if (i > 0) { i--; render(); } };
+document.getElementById("next").onclick = () => { if (i < ITEMS.length - 1) { i++; render(); } };
+document.getElementById("rater").addEventListener("change", () => { load(); render(); });
+
+document.getElementById("export").onclick = () => {
+  const name = (document.getElementById("rater").value || "anon").replace(/[^A-Za-z0-9_-]/g, "");
+  const cols = ["item_id","q1_accuracy_1to5","q2_overturned_1to5",
+                "q3_alternative_phrasing","q4_scope_broad_ok_narrow"];
+  const esc = v => '"' + String(v == null ? "" : v).replace(/"/g, '""') + '"';
+  const rows = [cols.join(",")].concat(ITEMS.map(it => {
+    const r = state[it.item_id] || {};
+    return [it.item_id, r.q1 || "", r.q2 || "", r.q3 || "", r.q4 || ""].map(esc).join(",");
+  }));
+  const blob = new Blob([rows.join("\n")], { type: "text/csv;charset=utf-8" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob); a.download = name + "_complete.csv";
+  document.body.appendChild(a); a.click(); a.remove();
+};
+
+load(); render();
+</script></body></html>

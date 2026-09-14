@@ -1,0 +1,479 @@
+{
+  "ran_at": "2026-03-12T00:25:15.824083+00:00",
+  "results": {
+    "random": {
+      "summary": {
+        "num_categories": 4,
+        "categories": [
+          "transformer",
+          "diffusion",
+          "icl",
+          "vit"
+        ],
+        "average_rank": 21.0,
+        "overall_recall_at_5": 0.0,
+        "overall_recall_at_10": 0.0,
+        "overall_recall_at_20": 0.0
+      },
+      "categories": [
+        {
+          "baseline": "random",
+          "category": "transformer",
+          "ran_at": "2026-03-12T00:25:15.830749+00:00",
+          "inputs": {
+            "num_papers": 60,
+            "ground_truth_aliases": [
+              "recurrence is necessary for sequence modeling",
+              "recurrent structure is required for sequence modeling",
+              "sequence models require recurrence"
+            ]
+          },
+          "config": {
+            "top_ks": [
+              5,
+              10,
+              20
+            ],
+            "candidate_limit": 20,
+            "seed": 7
+          },
+          "outputs": {
+            "num_candidates": 20,
+            "top_candidates": [
+              "CNTK is a powerful computation-graph based deep-learning toolkit for training and evaluating deep neural networks.",
+              "This paper investigates the usefulness of structural syntactic and semantic information additionally incorporated in a baseline neural attention-based model.",
+              "Experiments show that DBLSTM-RNNs outperform DNNs where Mean Opinion Scores are 3.2 and 2.3 respectively.",
+              "Sentiment classification using Comprehensive Attention Recurrent models.",
+              "We introduce a new neural architecture to learn the conditional probability of an output sequence with elements that are discrete tokens corresponding to positions in an input sequence.",
+              "A theoretically grounded application of dropout in recurrent neural networks.",
+              "Learning a Transferable Change Rule from a Recurrent Neural Network for Land Cover Change Detection.",
+              "Experiment results demonstrate that capturing comprehensive contextual information can significantly enhance the classification accuracy compared with the standard recurrent models and the new models can achieve competitive performance compared with the state-of-the-art approaches.",
+              "A deep learning approach to flight delay prediction.",
+              "In this paper, we explore LSTM RNN architectures for large scale acoustic modeling in speech recognition.",
+              "Neural machine translation (NMT) systems have recently achieved results comparable to the state of the art on a few translation tasks, including EnglishFrench and EnglishGerman.",
+              "By restricting subsequent operations to rely on a simple Manhattan metric, we compel the sentence representations learned by our model to form a highly structured space whose geometry reflects complex semantic relationships.",
+              "However, I do have my own two reasons why NLP need not worry about deep learning: (1) It just has to be wonderful for our field for the smartest and most influential people in machine learning to be saying that NLP is the problem area to focus on; and (2) Our field is the domain science of language technology; it's not about the best method of machine learning\u2014the central issue remains the domain problems.",
+              "Accompanying ICML 2015 in Lille, France, there was another, almost as big, event: the 2015 Deep Learning Workshop.",
+              "Our LSTM model is trained on video-sentence pairs and learns to associate a sequence of video frames to a sequence of words in order to generate a description of the event in the video clip.",
+              "Our recurrent neural network based model captures both word sequence and dependency tree substructure information by stacking bidirectional treestructured LSTM-RNNs on bidirectional sequential LSTM-RNNs.",
+              "We introduce a conditional recurrent neural network (RNN) which generates a summary of an input sentence.",
+              "It's not just Deep Learning researchers.",
+              "An Empirical Exploration of Recurrent Network Architectures.",
+              "Then, we design an end-to-end pipeline by integrating 3-D CNN with LSTM, followed by a time series pooling layer and a softmax layer to predict the activities."
+            ]
+          },
+          "metrics": {
+            "rank": 21.0,
+            "recall_at_5": 0.0,
+            "precision_at_5": 0.0,
+            "recall_at_10": 0.0,
+            "precision_at_10": 0.0,
+            "recall_at_20": 0.0,
+            "precision_at_20": 0.0
+          }
+        },
+        {
+          "baseline": "random",
+          "category": "diffusion",
+          "ran_at": "2026-03-12T00:25:15.837094+00:00",
+          "inputs": {
+            "num_papers": 60,
+            "ground_truth_aliases": [
+              "adversarial training is necessary for high-quality generation",
+              "high-quality generation requires adversarial training",
+              "gan-style adversarial objectives are required for strong image generation"
+            ]
+          },
+          "config": {
+            "top_ks": [
+              5,
+              10,
+              20
+            ],
+            "candidate_limit": 20,
+            "seed": 7
+          },
+          "outputs": {
+            "num_candidates": 20,
+            "top_candidates": [
+              "When the kidney model was trained with CycleGAN augmentation techniques, the out-of-distribution (non-contrast) performance increased dramatically (from a Dice score of 0.09 to 0.66, p < 0.001).",
+              "All DVH points calculated on sCT differed less than \u00b12.5% from the corresponding points on CT.",
+              "As such, it limits its success when the length of the generated text samples is long (more than 20 words).",
+              "In the experiments, we evaluate ArtGAN on CIFAR-10 and STL-10 via ablation studies.",
+              "Third, DR-GAN can take one or multiple images as the input, and generate one unified representation along with an arbitrary number of synthetic images.",
+              "Classical GAN algorithms are then compared comprehensively in terms of the mechanism, visual results of generated samples, and Frechet Inception Distance.",
+              "Both models require the optimization of almost everywhere differentiable loss functions, which allows us to train them jointly.",
+              "Results show that generative adversarial networks can be used to reconstruct high-resolution three-dimensional images of porous media at different scales that are representative of the morphology of the images used to train the neural network.",
+              "Second, we propose a method to generate diverse results given the same input, allowing users to edit the object appearance interactively.",
+              "Instance-Guided Context Rendering for Cross-Domain Person Re-Identification.",
+              "First, the encoder-decoder structure of the generator enables DR-GAN to learn a representation that is both generative and discriminative, which can be used for face image synthesis and pose-invariant face recognition.",
+              "In this work, we propose Flow-navigated Warping Generative Adversarial Network (FW-GAN), a novel framework that learns to synthesize the video of virtual try-on based on a person image, the desired clothes image, and a series of target poses.",
+              "Experimental results demonstrate that our DM-GAN model performs favorably against the state-of-the-art approaches.",
+              "Unfortunately, GANs do not offer an ``inverse model,'' a mapping from data space back to latent space, making it difficult to infer a latent representation for a given data sample.",
+              "Secondly, by reformulating the search procedure as a constrained Bayesian optimization problem, we show that the effects of this pathology can be mitigated, yielding marked improvements in the validity of the generated molecules.",
+              "To this end, this paper proposes Disentangled Representation learning-Generative Adversarial Network (DR-GAN) with three distinct novelties.",
+              "Image Synthesis From Reconfigurable Layout and Style.",
+              "In this paper, we address the problem of synthesizing retinal color images by applying recent techniques based on adversarial learning.",
+              "HoloGAN instead learns a 3D representation of the world, and to render this representation in a realistic manner.",
+              "Human opinion studies demonstrate that our method significantly outperforms existing methods, advancing both the quality and the resolution of deep image synthesis and editing."
+            ]
+          },
+          "metrics": {
+            "rank": 21.0,
+            "recall_at_5": 0.0,
+            "precision_at_5": 0.0,
+            "recall_at_10": 0.0,
+            "precision_at_10": 0.0,
+            "recall_at_20": 0.0,
+            "precision_at_20": 0.0
+          }
+        },
+        {
+          "baseline": "random",
+          "category": "icl",
+          "ran_at": "2026-03-12T00:25:15.842347+00:00",
+          "inputs": {
+            "num_papers": 60,
+            "ground_truth_aliases": [
+              "fine-tuning is necessary for task adaptation",
+              "task adaptation requires fine-tuning",
+              "downstream adaptation must update model weights"
+            ]
+          },
+          "config": {
+            "top_ks": [
+              5,
+              10,
+              20
+            ],
+            "candidate_limit": 20,
+            "seed": 7
+          },
+          "outputs": {
+            "num_candidates": 20,
+            "top_candidates": [
+              "The field of machine learning has undergone a revolution of sorts with the emergence of convolutional neural networks as the leading method of choice for a wide swath of tasks.",
+              "We extend the popular BERT architecture to a multi-modal two-stream model, processing both visual and textual inputs in separate streams that interact through co-attentional transformer layers.",
+              "In addition to evaluating CNNs pretrained with the ImageNet dataset, we investigate the use of transfer learning for a particular domain adaptation.",
+              "Neural Style Transfer has recently demonstrated very exciting results which catches eyes in both academia and industry.",
+              "Cross-domain sentiment classification is an important Natural Language Processing (NLP) task that aims at leveraging knowledge obtained from a source domain to train a high-performance learner for sentiment classification on a target domain.",
+              "Based on the transfer learning, we propose a new intelligent method named deep convolutional transfer learning network (DCTLN).",
+              "Transfer Learning in Natural Language Processing.",
+              "OpenSim's design enables computational scientists to create new state-of-the-art software tools and empowers others to use these tools in research and clinical applications.",
+              "Comparing to previous methods, these task-specific knowledge allows us to adopt a more concise model and conduct more efficient training.",
+              "However, simply applying the models learnt on synthetic images may lead to high generalization error on real images due to domain shift.",
+              "Previous approaches showcase the inability of even deep neural networks to learn informative representations across domain shift.",
+              "The metric is learned in an unsupervised fashion using metatraining.",
+              "Wasserstein Distance Guided Representation Learning for Domain Adaptation.",
+              "Breast lesion detection using ultrasound imaging is considered an important step of computer-aided diagnosis systems.",
+              "Transferable Attention for Domain Adaptation.",
+              "We conduct experiments using (5-class, 1-shot) and (5-class, 5-shot) recognition tasks on two challenging few-shot learning benchmarks: miniImageNet and Fewshot-CIFAR100.",
+              "The success of intelligent fault diagnosis of machines relies on the following two conditions: 1) labeled data with fault information are available; and 2) the training and testing data are drawn from the same probability distribution.",
+              "Fully Convolutional Adaptation Networks for Semantic Segmentation.",
+              "Moreover, those sources may not completely share their categories, which further brings a new transfer challenge called category shift.",
+              "Note that the two domains have separate batch normalization layers in both stages."
+            ]
+          },
+          "metrics": {
+            "rank": 21.0,
+            "recall_at_5": 0.0,
+            "precision_at_5": 0.0,
+            "recall_at_10": 0.0,
+            "precision_at_10": 0.0,
+            "recall_at_20": 0.0,
+            "precision_at_20": 0.0
+          }
+        },
+        {
+          "baseline": "random",
+          "category": "vit",
+          "ran_at": "2026-03-12T00:25:15.848790+00:00",
+          "inputs": {
+            "num_papers": 60,
+            "ground_truth_aliases": [
+              "convolutional layers are necessary for vision",
+              "vision models require convolutional layers",
+              "image understanding needs convolutional inductive biases"
+            ]
+          },
+          "config": {
+            "top_ks": [
+              5,
+              10,
+              20
+            ],
+            "candidate_limit": 20,
+            "seed": 7
+          },
+          "outputs": {
+            "num_candidates": 20,
+            "top_candidates": [
+              "Existing approaches predominantly solve these challenges independently, while neglecting the fact that part localization (e.g., head of a bird) and fine-grained feature learning (e.g., head shape) are mutually correlated.",
+              "Automatic Metallic Surface Defect Detection and Recognition with Convolutional Neural Networks.",
+              "Learning Temporal Information for Brain-Computer Interface Using Convolutional Neural Networks.",
+              "Here, we present RefineNet, a generic multi-path refinement network that explicitly exploits all the information available along the down-sampling process to enable high-resolution prediction using long-range residual connections.",
+              "Richer Convolutional Features for Edge Detection.",
+              "This deep evolutional spatial-temporal network (composed of PHRNN and MSCNN) extracts the partial-whole, geometry-appearance, and dynamic-still information, effectively boosting the performance of facial expression recognition.",
+              "In this paper we describe a new mobile architecture, MobileNetV2, that improves the state of the art performance of mobile models on multiple tasks and benchmarks as well as across a spectrum of different model sizes.",
+              "A large number of the pretext tasks for self-supervised learning have been studied, but other important aspects, such as the choice of convolutional neural networks (CNN), has not received equal attention.",
+              "Recently, there has been an increasing interest in geometric deep learning, attempting to generalize deep learning methods to non-Euclidean structured data such as graphs and manifolds, with a variety of applications from the domains of network analysis, computational social science, or computer graphics.",
+              "Unsupervised Deep Change Vector Analysis for Multiple-Change Detection in VHR Images.",
+              "(iii) Kinetics pretrained simple 3D architectures outperforms complex 2D architectures, and the pretrained ResNeXt-101 achieved 94.5% and 70.2% on UCF-101 and HMDB-51, respectively.",
+              "Compared to existing modules operating in extrinsic space or treating each point independently, EdgeConv has several appealing properties: It incorporates local neighborhood information; it can be stacked applied to learn global shape properties; and in multi-layer systems affinity in feature space captures semantic characteristics over potentially long distances in the original embedding.",
+              "Traditional methods, based on handcrafted features or shallow learning techniques, can only localize insulators and detect faults under specific detection conditions, such as when sufficient prior knowledge is available, with low background interference, at certain object scales, or under specific illumination conditions.",
+              "T-CNN: Tubelets With Convolutional Neural Networks for Object Detection From Videos.",
+              "For each task, it contains at lease 15x larger amount of images than SOTA datasets.",
+              "We demonstrate the performance of deep meta-architectures and feature extractors, and additionally propose a method for local and global class annotation and data augmentation to increase the accuracy and reduce the number of false positives during training.",
+              "The One Hundred Layers Tiramisu: Fully Convolutional DenseNets for Semantic Segmentation.",
+              "To address the scarcity of defect images in a real inspection environment, a data augmentation method is also proposed that includes four operations: 1) affine transformation; 2) insulator segmentation and background fusion; 3) Gaussian blur; and 4) brightness transformation.",
+              "Therefore, for this paper, a multilayer convolutional neural network (MCNN) is proposed for the classification of the Mango leaves infected by the Anthracnose fungal disease.",
+              "A Deep Learning Ensemble Approach for Diabetic Retinopathy Detection."
+            ]
+          },
+          "metrics": {
+            "rank": 21.0,
+            "recall_at_5": 0.0,
+            "precision_at_5": 0.0,
+            "recall_at_10": 0.0,
+            "precision_at_10": 0.0,
+            "recall_at_20": 0.0,
+            "precision_at_20": 0.0
+          }
+        }
+      ]
+    },
+    "heuristic": {
+      "summary": {
+        "num_categories": 4,
+        "categories": [
+          "transformer",
+          "diffusion",
+          "icl",
+          "vit"
+        ],
+        "average_rank": 19.0,
+        "overall_recall_at_5": 0.0,
+        "overall_recall_at_10": 0.0,
+        "overall_recall_at_20": 0.0
+      },
+      "categories": [
+        {
+          "baseline": "heuristic",
+          "category": "transformer",
+          "ran_at": "2026-03-12T00:25:15.859518+00:00",
+          "inputs": {
+            "num_papers": 60,
+            "ground_truth_aliases": [
+              "recurrence is necessary for sequence modeling",
+              "recurrent structure is required for sequence modeling",
+              "sequence models require recurrence"
+            ]
+          },
+          "config": {
+            "top_ks": [
+              5,
+              10,
+              20
+            ],
+            "candidate_limit": 20,
+            "seed": 7
+          },
+          "outputs": {
+            "num_candidates": 19,
+            "top_candidates": [
+              "In particular for language, understanding novel and complex sentences crucially depends on being able to construct their meaning compositionally from smaller parts\u2014words and multi-word expressions\u2014of which they are constituted.",
+              "Intelligence requires being able to understand bigger things from knowing about smaller parts.",
+              "However, the performance of neural network language models strongly depends on their architectural structure.",
+              "The results suggest that on many languages, character inputs are sufficient for language modeling.",
+              "Importantly, the linear dependence is gated through a gating function, which we call depth gate.",
+              "Prior methods generally have required separate classification and image segmentation stages and/or pre- and post-processing.",
+              "Modeling the properties and functions of DNA sequences is an important, but challenging task in the broad field of genomics.",
+              "Timely detection and identification of faults in railway track circuits are crucial for the safety and availability of railway networks.",
+              "It is important to consider attention that allows for salient features, instead of mapping an entire frame into a static representation.",
+              "From the training data, we induce a highprecision synchronous context-free grammar, which captures important conditional independence properties commonly found in semantic parsing.",
+              "Passage-level question answer matching is a challenging task since it requires effective representations that capture the complex semantic relations between questions and answers.",
+              "Sequence-to-Sequence (seq2seq) modeling has rapidly become an important generalpurpose NLP tool that has proven effective for many text-generation and sequence-labeling tasks.",
+              "Modeling crisp logical regularities is crucial in semantic parsing, making it difficult for neural models with no task-specific prior knowledge to achieve good results.",
+              "In contrast to DNN-HMM, CTC and most other models, LAS makes no independence assumptions about the probability distribution of the output character sequences given the acoustic sequence.",
+              "Dropout prediction, or identifying students at risk of dropping out of a course, is an important problem to study due to the high attrition rate commonly found on many MOOC platforms.",
+              "In the language model, we improve the basic structure of a gated recurrent unit by adding an output gate, which is used for filtering out unimportant information involved in the attention scheme of the alignment model.",
+              "To overcome the uncertainty of emotional labels, such that all frames in the same utterance are mapped into the same emotional label, it is assumed that the label of each frame is regarded as a sequence of random variables.",
+              "Such problems cannot be trivially addressed by existent approaches such as sequence-to-sequence [1] and Neural Turing Machines [2], because the number of target classes in each step of the output depends on the length of the input, which is variable.",
+              "The problem of rare and unknown words is an important issue that can potentially effect the performance of many NLP systems, including traditional count-based and deep learning models.We propose a novel way to deal with the rare and unseen words for the neural network models using attention.Our model uses two softmax layers in order to predict the next word in conditional language models: one predicts the location of a word in the source sentence, and the other predicts a word in the shortlist vocabulary.At each timestep, the decision of which softmax layer to use is adaptively made by an MLP which is conditioned on the context.We motivate this work from a psychological evidence that humans naturally have a tendency to point towards objects in the context or the environment when the name of an object is not known.Using our proposed model, we observe improvements on two tasks, neural machine translation on the Europarl English to French parallel corpora and text summarization on the Gigaword dataset."
+            ]
+          },
+          "metrics": {
+            "rank": 20.0,
+            "recall_at_5": 0.0,
+            "precision_at_5": 0.0,
+            "recall_at_10": 0.0,
+            "precision_at_10": 0.0,
+            "recall_at_20": 0.0,
+            "precision_at_20": 0.0
+          }
+        },
+        {
+          "baseline": "heuristic",
+          "category": "diffusion",
+          "ran_at": "2026-03-12T00:25:15.870109+00:00",
+          "inputs": {
+            "num_papers": 60,
+            "ground_truth_aliases": [
+              "adversarial training is necessary for high-quality generation",
+              "high-quality generation requires adversarial training",
+              "gan-style adversarial objectives are required for strong image generation"
+            ]
+          },
+          "config": {
+            "top_ks": [
+              5,
+              10,
+              20
+            ],
+            "candidate_limit": 20,
+            "seed": 7
+          },
+          "outputs": {
+            "num_candidates": 20,
+            "top_candidates": [
+              "Convolutional Neural Networks (CNNs) achieve excellent computer-assisted diagnosis with sufficient annotated training data.",
+              "The sCT generation was sufficiently fast for integration in an MR-guided radiotherapy workflow.",
+              "The realization of the advantage often requires the ability to load classical data efficiently into quantum states.",
+              "Most generative models rely on 2D kernels to generate images and make few assumptions about the 3D world.",
+              "We introduce a different regularization parameter for the learning objective, which proves to be crucial for achieving competitive performance.",
+              "The sCT generation required 5.6 s and 21 s for a single patient volume on a GPU and CPU, respectively.",
+              "Person re-identification (Re-ID) is an important task in video surveillance which automatically searches and identifies people across different cameras.",
+              "Magnetic resonance (MR) imaging plays a highly important role in radiotherapy treatment planning for the segmentation of tumor volumes and organs.",
+              "Nevertheless, annotating sufficient data is labor-intensive and time-consuming, establishing significant barriers for adapting the image captioning systems to new domains.",
+              "More importantly, without any supervision, LeakGAN would be able to implicitly learn sentence structures only through the interaction between MANAGER and WORKER.",
+              "Besides the challenges in image-based virtual try-on (e.g., clothes fidelity, image synthesis), video virtual try-on further requires spatiotemporal consistency.",
+              "Existing person re-identification (re-id) methods mostly assume the availability of large-scale identity labels for model learning in any target domain deployment.",
+              "Different attack strategies have been proposed to generate adversarial examples, but how to produce them with high perceptual quality and more efficiently requires more research efforts.",
+              "First, we pre-train the model to learn the alignment between the neural representations of images and that of text data with the sufficient labeled source domain data.",
+              "Generative adversarial network (GANs) is one of the most important research avenues in the field of artificial intelligence, and its outstanding data generation capacity has received wide attention.",
+              "To handle the issue of insufficient discriminative information, we leverage the cutting-edge generative adversarial training to design our own discriminator to learn discriminative feature representation from different modalities.",
+              "A memory writing gate is designed to select the important text information based on the initial image content, which enables our method to accurately generate images from the text description.",
+              "To evaluate the variability of multiphase flow properties of porous media at the pore scale, it is necessary to acquire a number of representative samples of the void-solid structure.",
+              "In sharp contrast to a traditional autoencoder over data points, VEEGAN does not require specifying a loss function over the data, but rather only over the representations, which are standard normal by assumption.",
+              "However, automated medical-aided diagnosis with computers usually requires a large volume of labeled clinical data without patients' privacy to train the model, which is an empirical problem that still needs to be solved."
+            ]
+          },
+          "metrics": {
+            "rank": 21.0,
+            "recall_at_5": 0.0,
+            "precision_at_5": 0.0,
+            "recall_at_10": 0.0,
+            "precision_at_10": 0.0,
+            "recall_at_20": 0.0,
+            "precision_at_20": 0.0
+          }
+        },
+        {
+          "baseline": "heuristic",
+          "category": "icl",
+          "ran_at": "2026-03-12T00:25:15.878994+00:00",
+          "inputs": {
+            "num_papers": 60,
+            "ground_truth_aliases": [
+              "fine-tuning is necessary for task adaptation",
+              "task adaptation requires fine-tuning",
+              "downstream adaptation must update model weights"
+            ]
+          },
+          "config": {
+            "top_ks": [
+              5,
+              10,
+              20
+            ],
+            "candidate_limit": 20,
+            "seed": 7
+          },
+          "outputs": {
+            "num_candidates": 20,
+            "top_candidates": [
+              "Our solution requires no changes to the model architecture from a standard NMT system but instead introduces an artificial token at the beginning of the input sentence to specify the required target language.",
+              "However, it is usually assumed that sufficient testing data are available for training, that is not in accordance with most transfer tasks in real industries where only data in machine healthy condition can be collected in advance.",
+              "On the other hand, subspace learning is not sufficient to reduce the distribution divergence.",
+              "Conventional unsupervised domain adaptation (UDA) assumes that training data are sampled from a single domain.",
+              "However, in many cases, it is hard to obtain sufficient annotations to train these models.",
+              "We believe this novel interpretation connects these two important research fields, and could enlighten future researches.",
+              "Unsupervised domain adaptation (UDA) conventionally assumes labeled source samples coming from a single underlying source distribution.",
+              "Breast lesion detection using ultrasound imaging is considered an important step of computer-aided diagnosis systems.",
+              "Training models for point cloud segmentation requires large amounts of labeled data, which is expensive to obtain.",
+              "And, the second important factor is a proper network complexity that matches the scale of the dataset.",
+              "This approach requires a large number of training examples and performs best for well-defined and narrow tasks.",
+              "The meta-optimization objective requires that steps to improve training domain performance should also improve testing domain performance.",
+              "Management must involve both treatment of affected individual athletes and optimising environments in which all elite athletes train and compete.",
+              "Specifically, we introduce adaptation layers on top of existing neural architectures, where no re-training using the source domain data is required.",
+              "In this paper, we introduce a new benchmark dataset named EgoGesture with sufficient size, variation, and reality to be able to train deep neural networks.",
+              "However, training a deep neural network requires a large amount of labeled data, which is an expensive process in terms of time, labor and human expertise.",
+              "Despite the recent advances on intelligent fault diagnosis of rolling element bearings, existing research works mostly assume training and testing data are drawn from the same distribution.",
+              "Effective classification with imbalanced data is an important area of research, as high class imbalance is naturally inherent in many real-world applications, e.g., fraud detection and cancer detection.",
+              "Machine learning-based methods are data-driven, they do not rely on prior assumptions about array geometries, and are expected to adapt better to array imperfections when compared with model-based counterparts.",
+              "Importantly, we show that it is possible to successfully fine tune a large pretrained language model with noisy data, as opposed to previous works that rely on gold data for fine tuning."
+            ]
+          },
+          "metrics": {
+            "rank": 21.0,
+            "recall_at_5": 0.0,
+            "precision_at_5": 0.0,
+            "recall_at_10": 0.0,
+            "precision_at_10": 0.0,
+            "recall_at_20": 0.0,
+            "precision_at_20": 0.0
+          }
+        },
+        {
+          "baseline": "heuristic",
+          "category": "vit",
+          "ran_at": "2026-03-12T00:25:15.889528+00:00",
+          "inputs": {
+            "num_papers": 60,
+            "ground_truth_aliases": [
+              "convolutional layers are necessary for vision",
+              "vision models require convolutional layers",
+              "image understanding needs convolutional inductive biases"
+            ]
+          },
+          "config": {
+            "top_ks": [
+              5,
+              10,
+              20
+            ],
+            "candidate_limit": 20,
+            "seed": 7
+          },
+          "outputs": {
+            "num_candidates": 13,
+            "top_candidates": [
+              "It addresses two important issues: 1) deep video saliency model training with the absence of sufficiently large and pixel-wise annotated video data and 2) fast video saliency training and detection.",
+              "Some recent studies suggest a more important role of image textures.",
+              "Change detection (CD) in multitemporal images is an important application of remote sensing.",
+              "This paper assumes that the readers have adequate knowledge about both machine learning and artificial neural network.",
+              "The cup to disc ratio (CDR) plays an important role in the screening and diagnosis of glaucoma.",
+              "Additionally, we find that it is important to remove non-linearities in the narrow layers in order to maintain representational power.",
+              "In this paper we will explain and define all the elements and important issues related to CNN, and how these elements work.",
+              "Therefore, we revisit numerous previously proposed self-supervised models, conduct a thorough large scale study and, as a result, uncover multiple crucial insights.",
+              "(ii) The Kinetics dataset has sufficient data for training of deep 3D CNNs, and enables training of up to 152 ResNets layers, interestingly similar to 2D ResNets on ImageNet.",
+              "The purpose of this study is to determine whether current video datasets have sufficient data for training very deep convolutional neural networks (CNNs) with spatio-temporal three-dimensional (3D) kernels.",
+              "Importantly, SE blocks only lead to a minimal increase in model complexity of about 1.5%, while the Dice score increases by 4%-9% in the case of U-Net.",
+              "A large number of the pretext tasks for self-supervised learning have been studied, but other important aspects, such as the choice of convolutional neural networks (CNN), has not received equal attention.",
+              "Traditional methods, based on handcrafted features or shallow learning techniques, can only localize insulators and detect faults under specific detection conditions, such as when sufficient prior knowledge is available, with low background interference, at certain object scales, or under specific illumination conditions."
+            ]
+          },
+          "metrics": {
+            "rank": 14.0,
+            "recall_at_5": 0.0,
+            "precision_at_5": 0.0,
+            "recall_at_10": 0.0,
+            "precision_at_10": 0.0,
+            "recall_at_20": 0.0,
+            "precision_at_20": 0.0
+          }
+        }
+      ]
+    }
+  }
+}

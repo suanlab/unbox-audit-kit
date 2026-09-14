@@ -1,0 +1,72 @@
+{
+  "paradigm": "gan",
+  "display": "GANs / Generative Adversarial Networks",
+  "year": 2014,
+  "ground_truth": "Generative modeling requires explicit density estimation or variational inference",
+  "ground_truth_aliases": [
+    "Generative modeling requires explicit density estimation or variational inference",
+    "generative models must define an explicit likelihood function",
+    "learning to generate data requires modeling the probability distribution explicitly"
+  ],
+  "num_papers": 20,
+  "num_raw_assumptions": 100,
+  "num_unique_assumptions": 100,
+  "best_similarity": 0.6824,
+  "soft_rank": 2.0,
+  "soft_recall_at_5": 1.0,
+  "soft_recall_at_10": 1.0,
+  "soft_recall_at_20": 1.0,
+  "top_10_assumptions": [
+    {
+      "rank": 2,
+      "assumption": "Probabilistic generative models require explicit estimation of both data-dependent and data-independent statistics for gradient computation",
+      "similarity": 0.6824
+    },
+    {
+      "rank": 89,
+      "assumption": "Generative modeling of input data distribution is necessary for good feature representations",
+      "similarity": 0.6353
+    },
+    {
+      "rank": 48,
+      "assumption": "Generative modeling is essential for learning meaningful data representations",
+      "similarity": 0.6199
+    },
+    {
+      "rank": 41,
+      "assumption": "Maximum likelihood estimation is the correct objective for learning generative models",
+      "similarity": 0.6097
+    },
+    {
+      "rank": 33,
+      "assumption": "Maximum likelihood training is the required paradigm for density estimation models",
+      "similarity": 0.6041
+    },
+    {
+      "rank": 96,
+      "assumption": "Probabilistic generative models are essential for capturing the structure of sensory data",
+      "similarity": 0.6038
+    },
+    {
+      "rank": 21,
+      "assumption": "Probabilistic generative modeling is necessary for effective multimodal representation learning",
+      "similarity": 0.592
+    },
+    {
+      "rank": 66,
+      "assumption": "Probabilistic modeling approaches are essential for capturing uncertainty in feature representations",
+      "similarity": 0.5827
+    },
+    {
+      "rank": 1,
+      "assumption": "Unnormalized log-likelihood functions are the fundamental way to characterize the representational capacity of energy-based models",
+      "similarity": 0.5676
+    },
+    {
+      "rank": 84,
+      "assumption": "Stochastic sampling procedures are required for inference in deep generative models",
+      "similarity": 0.5671
+    }
+  ],
+  "ran_at": "2026-03-22T16:34:39.976975+00:00"
+}

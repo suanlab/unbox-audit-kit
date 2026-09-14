@@ -1,0 +1,72 @@
+{
+  "paradigm": "batchnorm",
+  "display": "Batch Normalization",
+  "year": 2015,
+  "ground_truth": "Network training requires careful weight initialization and low learning rates",
+  "ground_truth_aliases": [
+    "Network training requires careful weight initialization and low learning rates",
+    "training deep networks requires careful initialization schemes",
+    "high learning rates cause training instability"
+  ],
+  "num_papers": 20,
+  "num_raw_assumptions": 100,
+  "num_unique_assumptions": 97,
+  "best_similarity": 0.6176,
+  "soft_rank": 98.0,
+  "soft_recall_at_5": 0.0,
+  "soft_recall_at_10": 0.0,
+  "soft_recall_at_20": 0.0,
+  "top_10_assumptions": [
+    {
+      "rank": 76,
+      "assumption": "Random initialization is the standard starting point for neural network training",
+      "similarity": 0.6176
+    },
+    {
+      "rank": 85,
+      "assumption": "Precise weight updates are necessary for convergent learning in neural networks",
+      "similarity": 0.5985
+    },
+    {
+      "rank": 40,
+      "assumption": "Learning rate scheduling is essential for effective neural network training",
+      "similarity": 0.5602
+    },
+    {
+      "rank": 37,
+      "assumption": "Neural network controllers require extensive training data to achieve high performance in robotic control tasks",
+      "similarity": 0.5585
+    },
+    {
+      "rank": 25,
+      "assumption": "Backpropagation is required for training deep neural networks effectively",
+      "similarity": 0.5474
+    },
+    {
+      "rank": 18,
+      "assumption": "Nonlinear activation functions are necessary for deep networks to exhibit complex learning dynamics",
+      "similarity": 0.5459
+    },
+    {
+      "rank": 49,
+      "assumption": "Network depth inherently creates optimization difficulties that slow learning",
+      "similarity": 0.5431
+    },
+    {
+      "rank": 97,
+      "assumption": "Layer-wise greedy training is necessary for training deep networks on neuroimaging data",
+      "similarity": 0.5305
+    },
+    {
+      "rank": 20,
+      "assumption": "Gradient-based optimization is required for training neural networks effectively",
+      "similarity": 0.5281
+    },
+    {
+      "rank": 65,
+      "assumption": "Backpropagation-based learning is essential for training deep neural networks",
+      "similarity": 0.5132
+    }
+  ],
+  "ran_at": "2026-03-22T16:44:02.071374+00:00"
+}

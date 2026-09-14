@@ -1,0 +1,55 @@
+{
+  "frozen_at": "2026-03-18T19:34:27Z",
+  "conditions": {
+    "A": {
+      "prompt": "paper_specific",
+      "corpus": "temporal_only",
+      "label": "Baseline"
+    },
+    "B": {
+      "prompt": "field_wide",
+      "corpus": "temporal_only",
+      "label": "Prompt-only"
+    },
+    "C": {
+      "prompt": "paper_specific",
+      "corpus": "curated_representative",
+      "label": "Corpus-only"
+    },
+    "D": {
+      "prompt": "field_wide",
+      "corpus": "curated_representative",
+      "label": "Full (Unbox)"
+    }
+  },
+  "categories": [
+    "transformer",
+    "diffusion",
+    "vit"
+  ],
+  "max_papers": 15,
+  "max_assumptions_per_paper": 5,
+  "pipeline_top_k": 100,
+  "skip_evaluation": true,
+  "semantic_threshold": 0.65,
+  "top_k_values": [
+    5,
+    10,
+    20
+  ],
+  "note": "temporal_only means original OpenAlex query; curated_representative means domain-focused re-query",
+  "corpora_notes": {
+    "transformer_temporal_only": "data/transformer/papers.jsonl (original 60 papers)",
+    "transformer_curated": "data/transformer/papers.jsonl (same \u2014 transformer was not re-curated)",
+    "diffusion_temporal_only": "data/diffusion/papers.jsonl (original)",
+    "vit_temporal_only": "data/vit/papers.jsonl (original)",
+    "icl_temporal_only": "data/icl_temporal/papers.jsonl (original domain adaptation corpus)",
+    "icl_curated": "data/icl/papers.jsonl (fine-tuning focused corpus)"
+  },
+  "rules": [
+    "NO condition additions after this freeze",
+    "NO metric changes after this freeze",
+    "NO re-running conditions due to bad results"
+  ],
+  "sha256": "f84a370a38a31981eb145891c8fd27c4f50d0371d6f52bc3b0aec399f57adb3b"
+}

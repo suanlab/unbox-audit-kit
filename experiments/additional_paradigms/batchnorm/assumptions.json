@@ -1,0 +1,702 @@
+[
+  {
+    "paper_id": "https://openalex.org/W2084894614",
+    "paper_title": "Mean-normalized stochastic gradient for large-scale deep learning",
+    "assumption": "Gradient-based optimization is necessary for training deep neural networks",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2084894614",
+    "paper_title": "Mean-normalized stochastic gradient for large-scale deep learning",
+    "assumption": "Second-order optimization methods are inherently superior to first-order methods for neural network training",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2084894614",
+    "paper_title": "Mean-normalized stochastic gradient for large-scale deep learning",
+    "assumption": "Faster convergence in optimization translates to better practical performance",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2084894614",
+    "paper_title": "Mean-normalized stochastic gradient for large-scale deep learning",
+    "assumption": "Convex analysis provides meaningful theoretical foundations for understanding non-convex deep learning optimization",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2084894614",
+    "paper_title": "Mean-normalized stochastic gradient for large-scale deep learning",
+    "assumption": "Stochastic gradient descent is the fundamental baseline that all optimization methods must outperform",
+    "confidence": 0.92,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963504252",
+    "paper_title": "Exact solutions to the nonlinear dynamics of learning in deep linear neural networks",
+    "assumption": "Nonlinear activation functions are necessary for deep networks to exhibit complex learning dynamics",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963504252",
+    "paper_title": "Exact solutions to the nonlinear dynamics of learning in deep linear neural networks",
+    "assumption": "Gradient-based optimization is the fundamental mechanism for neural network learning",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963504252",
+    "paper_title": "Exact solutions to the nonlinear dynamics of learning in deep linear neural networks",
+    "assumption": "Network depth inherently creates optimization difficulties that slow learning",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963504252",
+    "paper_title": "Exact solutions to the nonlinear dynamics of learning in deep linear neural networks",
+    "assumption": "Random initialization is the standard starting point for neural network training",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963504252",
+    "paper_title": "Exact solutions to the nonlinear dynamics of learning in deep linear neural networks",
+    "assumption": "Unsupervised pretraining benefits arise from better feature representations rather than initialization geometry",
+    "confidence": 0.75,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2293634267",
+    "paper_title": "Long short-term memory recurrent neural network architectures for large scale acoustic modeling",
+    "assumption": "Recurrent architectures are necessary for modeling temporal sequences",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2293634267",
+    "paper_title": "Long short-term memory recurrent neural network architectures for large scale acoustic modeling",
+    "assumption": "Memory mechanisms are required for capturing long-range dependencies in sequences",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2293634267",
+    "paper_title": "Long short-term memory recurrent neural network architectures for large scale acoustic modeling",
+    "assumption": "Sequential processing is essential for acoustic modeling in speech recognition",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2293634267",
+    "paper_title": "Long short-term memory recurrent neural network architectures for large scale acoustic modeling",
+    "assumption": "Distributed training with parameter servers is necessary for large-scale neural network training",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2293634267",
+    "paper_title": "Long short-term memory recurrent neural network architectures for large scale acoustic modeling",
+    "assumption": "Gradient-based optimization is required for training neural networks effectively",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2168231600",
+    "paper_title": "Large Scale Distributed Deep Networks",
+    "assumption": "Model size scaling is essential for achieving dramatically improved performance",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2168231600",
+    "paper_title": "Large Scale Distributed Deep Networks",
+    "assumption": "Gradient-based optimization is necessary for training deep neural networks",
+    "confidence": 0.98,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2168231600",
+    "paper_title": "Large Scale Distributed Deep Networks",
+    "assumption": "Distributed computing is required to train models with billions of parameters",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2168231600",
+    "paper_title": "Large Scale Distributed Deep Networks",
+    "assumption": "Stochastic gradient descent is the fundamental paradigm for large-scale neural network optimization",
+    "confidence": 0.92,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2168231600",
+    "paper_title": "Large Scale Distributed Deep Networks",
+    "assumption": "More computational resources necessarily lead to better model performance",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2000200144",
+    "paper_title": "An empirical study of learning rates in deep neural networks for speech recognition",
+    "assumption": "Gradient-based optimization is necessary for training deep neural networks",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2000200144",
+    "paper_title": "An empirical study of learning rates in deep neural networks for speech recognition",
+    "assumption": "Minibatch stochastic gradient descent is required for scalable deep learning",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2000200144",
+    "paper_title": "An empirical study of learning rates in deep neural networks for speech recognition",
+    "assumption": "Learning rate scheduling is essential for effective neural network training",
+    "confidence": 0.88,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2000200144",
+    "paper_title": "An empirical study of learning rates in deep neural networks for speech recognition",
+    "assumption": "Frame-level accuracy is a valid proxy for speech recognition performance",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2000200144",
+    "paper_title": "An empirical study of learning rates in deep neural networks for speech recognition",
+    "assumption": "Word error rate is the definitive metric for speech recognition system quality",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2131342762",
+    "paper_title": "Sequence-discriminative training of deep neural networks",
+    "assumption": "Cross-entropy training is necessary as the foundation before sequence-discriminative training",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2131342762",
+    "paper_title": "Sequence-discriminative training of deep neural networks",
+    "assumption": "Word error rate is the essential metric for evaluating speech recognition system performance",
+    "confidence": 0.92,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2131342762",
+    "paper_title": "Sequence-discriminative training of deep neural networks",
+    "assumption": "Frame-level acoustic modeling is required for neural speech recognition systems",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2131342762",
+    "paper_title": "Sequence-discriminative training of deep neural networks",
+    "assumption": "Lattice-based search is necessary for sequence-discriminative training in speech recognition",
+    "confidence": 0.88,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2131342762",
+    "paper_title": "Sequence-discriminative training of deep neural networks",
+    "assumption": "Deep neural networks require sequential discriminative criteria to achieve optimal performance on sequence tasks",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2136836265",
+    "paper_title": "Adaptive dropout for training deep neural networks",
+    "assumption": "Regularization is essential for preventing overfitting in deep neural networks",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2136836265",
+    "paper_title": "Adaptive dropout for training deep neural networks",
+    "assumption": "Random dropout mechanisms are necessary for effective regularization of hidden unit activities",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2136836265",
+    "paper_title": "Adaptive dropout for training deep neural networks",
+    "assumption": "Backpropagation is required for training deep neural networks effectively",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2136836265",
+    "paper_title": "Adaptive dropout for training deep neural networks",
+    "assumption": "Stochastic gradient descent is necessary for optimizing neural network parameters",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2136836265",
+    "paper_title": "Adaptive dropout for training deep neural networks",
+    "assumption": "Hidden unit activities must be explicitly controlled during training to achieve good performance",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2964309400",
+    "paper_title": "Revisiting Natural Gradient for Deep Networks",
+    "assumption": "Gradient-based optimization is necessary for training deep neural networks",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2964309400",
+    "paper_title": "Revisiting Natural Gradient for Deep Networks",
+    "assumption": "First-order gradient information is insufficient for optimal deep network training",
+    "confidence": 0.88,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2964309400",
+    "paper_title": "Revisiting Natural Gradient for Deep Networks",
+    "assumption": "The parameter space geometry fundamentally affects optimization efficiency in deep learning",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2964309400",
+    "paper_title": "Revisiting Natural Gradient for Deep Networks",
+    "assumption": "Second-order curvature information is essential for sophisticated optimization methods",
+    "confidence": 0.82,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2964309400",
+    "paper_title": "Revisiting Natural Gradient for Deep Networks",
+    "assumption": "Stochastic gradient descent serves as the fundamental baseline for evaluating optimization algorithms",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2040036684",
+    "paper_title": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation",
+    "assumption": "Supervised learning with categorical labels is necessary for developing biologically plausible object recognition representations",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2040036684",
+    "paper_title": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation",
+    "assumption": "Representational similarity analysis using dissimilarity matrices is the appropriate method for comparing neural and computational representations",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2040036684",
+    "paper_title": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation",
+    "assumption": "Categorical clustering is a fundamental organizational principle that must emerge in visual cortical representations",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2040036684",
+    "paper_title": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation",
+    "assumption": "Deep hierarchical architectures are required for modeling high-level visual cortical areas like IT",
+    "confidence": 0.75,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2040036684",
+    "paper_title": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation",
+    "assumption": "Behavioral task performance is necessary for achieving neural representational fidelity",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2293824885",
+    "paper_title": "Supervised Hashing for Image Retrieval via Image Representation Learning",
+    "assumption": "Semantic similarity preservation is essential for effective hash function learning",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2293824885",
+    "paper_title": "Supervised Hashing for Image Retrieval via Image Representation Learning",
+    "assumption": "Deep convolutional networks are necessary for learning good visual feature representations",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2293824885",
+    "paper_title": "Supervised Hashing for Image Retrieval via Image Representation Learning",
+    "assumption": "Supervised learning with similarity labels is superior to unsupervised approaches for hashing",
+    "confidence": 0.88,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2293824885",
+    "paper_title": "Supervised Hashing for Image Retrieval via Image Representation Learning",
+    "assumption": "Hash codes must approximate continuous similarity relationships through discrete binary representations",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2293824885",
+    "paper_title": "Supervised Hashing for Image Retrieval via Image Representation Learning",
+    "assumption": "Pairwise similarity information is necessary for high-quality supervised hashing",
+    "confidence": 0.82,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2166206801",
+    "paper_title": "Deep Neural Networks Rival the Representation of Primate IT Cortex for Core Visual Object Recognition",
+    "assumption": "Representational similarity is necessary for establishing computational equivalence between artificial and biological systems",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2166206801",
+    "paper_title": "Deep Neural Networks Rival the Representation of Primate IT Cortex for Core Visual Object Recognition",
+    "assumption": "Decoding performance from neural representations is essential for measuring the quality of visual object recognition systems",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2166206801",
+    "paper_title": "Deep Neural Networks Rival the Representation of Primate IT Cortex for Core Visual Object Recognition",
+    "assumption": "Deep hierarchical architectures are required for achieving primate-level visual object recognition",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2166206801",
+    "paper_title": "Deep Neural Networks Rival the Representation of Primate IT Cortex for Core Visual Object Recognition",
+    "assumption": "Multi-unit neural responses are necessary and sufficient proxies for understanding cortical computation",
+    "confidence": 0.75,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2166206801",
+    "paper_title": "Deep Neural Networks Rival the Representation of Primate IT Cortex for Core Visual Object Recognition",
+    "assumption": "Generalization across object exemplars and transformations is essential for defining core visual object recognition",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1686810756",
+    "paper_title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+    "assumption": "Convolutional architectures are essential for visual feature learning",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1686810756",
+    "paper_title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+    "assumption": "Hierarchical feature extraction through multiple layers is necessary for complex visual recognition",
+    "confidence": 0.92,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1686810756",
+    "paper_title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+    "assumption": "Translation invariance through convolution is required for robust image understanding",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1686810756",
+    "paper_title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+    "assumption": "Local spatial connectivity is essential for capturing visual patterns",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1686810756",
+    "paper_title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+    "assumption": "Weight sharing across spatial locations is necessary for efficient visual representation learning",
+    "confidence": 0.87,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2046558738",
+    "paper_title": "Resting-state networks link invasive and noninvasive brain stimulation across diverse psychiatric and neurological diseases",
+    "assumption": "Resting-state functional connectivity reflects therapeutically relevant brain network organization",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2046558738",
+    "paper_title": "Resting-state networks link invasive and noninvasive brain stimulation across diverse psychiatric and neurological diseases",
+    "assumption": "Brain networks identified through resting-state fMRI correspond to pathophysiologically meaningful circuits",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2046558738",
+    "paper_title": "Resting-state networks link invasive and noninvasive brain stimulation across diverse psychiatric and neurological diseases",
+    "assumption": "Therapeutic efficacy can be predicted from anatomical or functional connectivity patterns",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2046558738",
+    "paper_title": "Resting-state networks link invasive and noninvasive brain stimulation across diverse psychiatric and neurological diseases",
+    "assumption": "BOLD signal correlations during rest represent functionally relevant neural communication",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2046558738",
+    "paper_title": "Resting-state networks link invasive and noninvasive brain stimulation across diverse psychiatric and neurological diseases",
+    "assumption": "Neuropsychiatric disorders arise from dysfunctional brain network activity rather than isolated regional pathology",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1972498024",
+    "paper_title": "Deep learning for neuroimaging: a validation study",
+    "assumption": "High-dimensional neuroimaging data requires dimensionality reduction for effective analysis",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W1972498024",
+    "paper_title": "Deep learning for neuroimaging: a validation study",
+    "assumption": "Deep architectures are necessary for learning complex hierarchical representations in brain data",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1972498024",
+    "paper_title": "Deep learning for neuroimaging: a validation study",
+    "assumption": "Unsupervised pre-training is essential for effective deep learning on neuroimaging data",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1972498024",
+    "paper_title": "Deep learning for neuroimaging: a validation study",
+    "assumption": "Energy-based models are required for modeling complex probability distributions in brain imaging",
+    "confidence": 0.75,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1972498024",
+    "paper_title": "Deep learning for neuroimaging: a validation study",
+    "assumption": "Layer-wise greedy training is necessary for training deep networks on neuroimaging data",
+    "confidence": 0.7,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2076462394",
+    "paper_title": "Audio-visual speech recognition using deep learning",
+    "assumption": "Hidden Markov Models are essential for modeling temporal dependencies in speech recognition",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2076462394",
+    "paper_title": "Audio-visual speech recognition using deep learning",
+    "assumption": "Multi-modal fusion requires separate feature extraction pipelines for each modality",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2076462394",
+    "paper_title": "Audio-visual speech recognition using deep learning",
+    "assumption": "Deep neural networks are necessary for extracting robust latent features from raw sensory data",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2076462394",
+    "paper_title": "Audio-visual speech recognition using deep learning",
+    "assumption": "Convolutional architectures are required for effective visual feature extraction from images",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2076462394",
+    "paper_title": "Audio-visual speech recognition using deep learning",
+    "assumption": "Noise robustness requires explicit denoising preprocessing of audio features",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2002700944",
+    "paper_title": "Event-driven contrastive divergence for spiking neuromorphic systems",
+    "assumption": "Discrete time steps and exact arithmetic are necessary for effective neural network training",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2002700944",
+    "paper_title": "Event-driven contrastive divergence for spiking neuromorphic systems",
+    "assumption": "Backpropagation-based learning is essential for training deep neural networks",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2002700944",
+    "paper_title": "Event-driven contrastive divergence for spiking neuromorphic systems",
+    "assumption": "Synchronous batch processing is required for stable gradient-based learning",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2002700944",
+    "paper_title": "Event-driven contrastive divergence for spiking neuromorphic systems",
+    "assumption": "Precise weight updates are necessary for convergent learning in neural networks",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2002700944",
+    "paper_title": "Event-driven contrastive divergence for spiking neuromorphic systems",
+    "assumption": "Rate-based neural coding is sufficient for information processing in artificial networks",
+    "confidence": 0.75,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2140574335",
+    "paper_title": "RNADE: The real-valued neural autoregressive density-estimator",
+    "assumption": "Autoregressive factorization is necessary for tractable density estimation of high-dimensional data",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2140574335",
+    "paper_title": "RNADE: The real-valued neural autoregressive density-estimator",
+    "assumption": "Tractable likelihood computation is essential for meaningful density model evaluation and comparison",
+    "confidence": 0.92,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2140574335",
+    "paper_title": "RNADE: The real-valued neural autoregressive density-estimator",
+    "assumption": "Parameter sharing across conditional distributions is required for effective autoregressive density modeling",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2140574335",
+    "paper_title": "RNADE: The real-valued neural autoregressive density-estimator",
+    "assumption": "Neural networks are necessary for modeling complex conditional distributions in density estimation",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2140574335",
+    "paper_title": "RNADE: The real-valued neural autoregressive density-estimator",
+    "assumption": "Maximum likelihood training is the correct paradigm for density estimation models",
+    "confidence": 0.87,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2295431040",
+    "paper_title": "Combining the benefits of function approximation and trajectory optimization",
+    "assumption": "Neural network controllers require extensive training data to achieve high performance in robotic control tasks",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2295431040",
+    "paper_title": "Combining the benefits of function approximation and trajectory optimization",
+    "assumption": "Trajectory optimization produces higher-fidelity solutions than direct neural network training for robotic control",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2295431040",
+    "paper_title": "Combining the benefits of function approximation and trajectory optimization",
+    "assumption": "Teacher-student paradigms are necessary for transferring knowledge from optimization-based methods to neural networks",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2295431040",
+    "paper_title": "Combining the benefits of function approximation and trajectory optimization",
+    "assumption": "Feedback control requires explicit computation or learning of feedback gains",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2295431040",
+    "paper_title": "Combining the benefits of function approximation and trajectory optimization",
+    "assumption": "Contact dynamics must be explicitly modeled and incorporated for physical manipulation and locomotion tasks",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2009272428",
+    "paper_title": "Voice Conversion Using RNN Pre-Trained by Recurrent Temporal Restricted Boltzmann Machines",
+    "assumption": "Recurrent architectures are necessary for modeling temporal dependencies in sequential acoustic data",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2009272428",
+    "paper_title": "Voice Conversion Using RNN Pre-Trained by Recurrent Temporal Restricted Boltzmann Machines",
+    "assumption": "Speaker-specific models are required for effective voice conversion",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2009272428",
+    "paper_title": "Voice Conversion Using RNN Pre-Trained by Recurrent Temporal Restricted Boltzmann Machines",
+    "assumption": "High-order temporal dependencies are essential for capturing acoustic sequence structure",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2009272428",
+    "paper_title": "Voice Conversion Using RNN Pre-Trained by Recurrent Temporal Restricted Boltzmann Machines",
+    "assumption": "Separate source and target speaker models are necessary before conversion mapping",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2009272428",
+    "paper_title": "Voice Conversion Using RNN Pre-Trained by Recurrent Temporal Restricted Boltzmann Machines",
+    "assumption": "Latent feature representations are required to capture linguistic content separate from speaker identity",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2005022581",
+    "paper_title": "Self-awareness, self-regulation, and self-transcendence (S-ART): a framework for understanding the neurobiological mechanisms of mindfulness",
+    "assumption": "Psychological constructs require neural substrate localization for scientific validity",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2005022581",
+    "paper_title": "Self-awareness, self-regulation, and self-transcendence (S-ART): a framework for understanding the neurobiological mechanisms of mindfulness",
+    "assumption": "Complex mental phenomena can be decomposed into discrete neurobiological mechanisms",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2005022581",
+    "paper_title": "Self-awareness, self-regulation, and self-transcendence (S-ART): a framework for understanding the neurobiological mechanisms of mindfulness",
+    "assumption": "Systematic mental training produces measurable neuroplastic changes",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2005022581",
+    "paper_title": "Self-awareness, self-regulation, and self-transcendence (S-ART): a framework for understanding the neurobiological mechanisms of mindfulness",
+    "assumption": "Self-processing biases are inherently pathological and require correction",
+    "confidence": 0.75,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2005022581",
+    "paper_title": "Self-awareness, self-regulation, and self-transcendence (S-ART): a framework for understanding the neurobiological mechanisms of mindfulness",
+    "assumption": "Network-based brain models are necessary for explaining complex cognitive phenomena",
+    "confidence": 0.85,
+    "category": "architectural"
+  }
+]

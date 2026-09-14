@@ -1,0 +1,908 @@
+{
+  "paradigm": "kan",
+  "name": "Kolmogorov-Arnold Networks / KAN",
+  "num_papers": 15,
+  "num_raw": 150,
+  "num_unique": 149,
+  "ground_truth": "Activation functions must be fixed and applied to nodes",
+  "aliases": [
+    "neural network activation functions should be fixed nonlinearities on nodes",
+    "learnable activations on edges are impractical"
+  ],
+  "assumptions": [
+    {
+      "assumption": "Activation functions are essential for introducing non-linearity in neural networks.",
+      "confidence": 1.0,
+      "category": "architectural",
+      "source_paper": "Enhancing neural network classification using fractional-order activation functions"
+    },
+    {
+      "assumption": "Neural network architectures are necessary for implementing machine learning models.",
+      "confidence": 1.0,
+      "category": "architectural",
+      "source_paper": "{CSI} {NN}: Reverse Engineering of Neural Network Architectures Through Electromagnetic Side Channel"
+    },
+    {
+      "assumption": "Activation functions are essential for introducing non-linearity in deep neural networks.",
+      "confidence": 1.0,
+      "category": "architectural",
+      "source_paper": "An Analysis of State-of-the-art Activation Functions For Supervised Deep Neural Network"
+    },
+    {
+      "assumption": "Deep neural networks are essential for complex functional approximation tasks.",
+      "confidence": 0.95,
+      "category": "theoretical",
+      "source_paper": "A Theory on Deep Neural Network Based Vector-to-Vector Regression With an Illustration of Its Expressive Power in Speech Enhancement"
+    },
+    {
+      "assumption": "Universal approximation is essential for the theoretical justification of neural network architectures.",
+      "confidence": 0.95,
+      "category": "theoretical",
+      "source_paper": "The Universal Approximation Property"
+    },
+    {
+      "assumption": "Supervised learning is necessary for training deep neural networks on labeled datasets.",
+      "confidence": 0.95,
+      "category": "training",
+      "source_paper": "An Analysis of State-of-the-art Activation Functions For Supervised Deep Neural Network"
+    },
+    {
+      "assumption": "Increasing the depth of a neural network is necessary for enhancing its expressive power.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "A Theory on Deep Neural Network Based Vector-to-Vector Regression With an Illustration of Its Expressive Power in Speech Enhancement"
+    },
+    {
+      "assumption": "The width of the hidden layers in a neural network is crucial for the approximation of regression functions.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "A Theory on Deep Neural Network Based Vector-to-Vector Regression With an Illustration of Its Expressive Power in Speech Enhancement"
+    },
+    {
+      "assumption": "Neural networks are essential for learning mappings between infinite-dimensional function spaces.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "MIONet: Learning Multiple-Input Operators via Tensor Product"
+    },
+    {
+      "assumption": "Universal approximation is necessary for validating the capability of neural operators to learn function mappings.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "MIONet: Learning Multiple-Input Operators via Tensor Product"
+    },
+    {
+      "assumption": "Quantum computing is essential for advancing the capabilities of neural networks beyond classical limits.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Quantum activation functions for quantum neural networks"
+    },
+    {
+      "assumption": "The ability to approximate any analytic function is necessary for achieving universal approximation properties in neural networks.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Quantum activation functions for quantum neural networks"
+    },
+    {
+      "assumption": "Neural networks are essential for approximating nonlinear functions in control systems.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Event-Triggered Control for Multiagent Systems With Sensor Faults and Input Saturation"
+    },
+    {
+      "assumption": "The universal approximation property of neural networks is required for designing effective control strategies.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Event-Triggered Control for Multiagent Systems With Sensor Faults and Input Saturation"
+    },
+    {
+      "assumption": "Deep neural networks are essential for semiparametric inference in econometrics.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Deep Neural Networks for Estimation and Inference"
+    },
+    {
+      "assumption": "Deep learning architectures are necessary for effective crack segmentation.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Efficient attention-based deep encoder and decoder for automatic crack segmentation"
+    },
+    {
+      "assumption": "Large and diverse datasets are required for training robust segmentation models.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Efficient attention-based deep encoder and decoder for automatic crack segmentation"
+    },
+    {
+      "assumption": "Pixel-level accuracy is essential for evaluating the performance of segmentation models.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "Efficient attention-based deep encoder and decoder for automatic crack segmentation"
+    },
+    {
+      "assumption": "Encoder-decoder architectures are fundamental for semantic segmentation tasks.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Efficient attention-based deep encoder and decoder for automatic crack segmentation"
+    },
+    {
+      "assumption": "High precision, recall, F1 score, and mIoU are required metrics for assessing segmentation quality.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "Efficient attention-based deep encoder and decoder for automatic crack segmentation"
+    },
+    {
+      "assumption": "Activation functions are necessary for maintaining the universal approximation capabilities of neural networks.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "The Universal Approximation Property"
+    },
+    {
+      "assumption": "Characterizing the conditions under which neural networks can approximate functions is essential for understanding their potential.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "The Universal Approximation Property"
+    },
+    {
+      "assumption": "Parallel processing is essential for efficient hardware acceleration of neural networks.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "A Novel Systolic Parallel Hardware Architecture for the FPGA Acceleration of Feedforward Neural Networks"
+    },
+    {
+      "assumption": "Hardware architectures must be flexible to accommodate various neural network topologies.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "A Novel Systolic Parallel Hardware Architecture for the FPGA Acceleration of Feedforward Neural Networks"
+    },
+    {
+      "assumption": "Hardware acceleration is necessary to meet the computational demands of deep neural networks.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "A Novel Systolic Parallel Hardware Architecture for the FPGA Acceleration of Feedforward Neural Networks"
+    },
+    {
+      "assumption": "Neural Networks are essential for learning complex constitutive relations from data.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "A new family of Constitutive Artificial Neural Networks towards automated model discovery"
+    },
+    {
+      "assumption": "Satisfying physical constraints is necessary for the robustness of neural network models in constitutive modeling.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "A new family of Constitutive Artificial Neural Networks towards automated model discovery"
+    },
+    {
+      "assumption": "Thermodynamic consistency is essential for the validity of constitutive models.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "A new family of Constitutive Artificial Neural Networks towards automated model discovery"
+    },
+    {
+      "assumption": "Side-channel information is essential for reverse engineering neural networks.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "{CSI} {NN}: Reverse Engineering of Neural Network Architectures Through Electromagnetic Side Channel"
+    },
+    {
+      "assumption": "Multilayer perceptrons and convolutional neural networks are required for a wide range of machine learning tasks.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "{CSI} {NN}: Reverse Engineering of Neural Network Architectures Through Electromagnetic Side Channel"
+    },
+    {
+      "assumption": "Multilayer Perceptron (MLP) models are necessary for classification tasks in neural networks.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Enhancing neural network classification using fractional-order activation functions"
+    },
+    {
+      "assumption": "Improving activation functions is necessary for enhancing neural network performance.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Enhancing neural network classification using fractional-order activation functions"
+    },
+    {
+      "assumption": "Robustness and accuracy are essential metrics for evaluating the performance of neural networks.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "Enhancing neural network classification using fractional-order activation functions"
+    },
+    {
+      "assumption": "Deep neural networks are necessary for achieving superior predictive performance over traditional machine learning techniques in complex tasks like churn prediction.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Experimental Analysis of Hyperparameters for Deep Learning-Based Churn Prediction in the Banking Sector"
+    },
+    {
+      "assumption": "The selection and tuning of hyperparameters are essential for optimizing the performance of deep learning models.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Experimental Analysis of Hyperparameters for Deep Learning-Based Churn Prediction in the Banking Sector"
+    },
+    {
+      "assumption": "Continuous volumetric scene representation is essential for synthesizing novel views of complex scenes.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "NeRF"
+    },
+    {
+      "assumption": "Differentiable rendering is necessary for optimizing scene representations from images.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "NeRF"
+    },
+    {
+      "assumption": "Known camera poses are required for optimizing scene representations from images.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "NeRF"
+    },
+    {
+      "assumption": "Volume rendering techniques are essential for projecting 3D scene representations into 2D images.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "NeRF"
+    },
+    {
+      "assumption": "Deep neural networks are essential for achieving minimax rates of convergence in nonparametric regression.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Nonparametric regression using deep neural networks with ReLU activation function"
+    },
+    {
+      "assumption": "Benchmark datasets are required for evaluating the performance of neural network models.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "An Analysis of State-of-the-art Activation Functions For Supervised Deep Neural Network"
+    },
+    {
+      "assumption": "Deep neural networks require multiple layers to capture complex patterns in data.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "An Analysis of State-of-the-art Activation Functions For Supervised Deep Neural Network"
+    },
+    {
+      "assumption": "Theoretical analysis of approximation error is required for guiding the design of neural network architectures.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "MIONet: Learning Multiple-Input Operators via Tensor Product"
+    },
+    {
+      "assumption": "Quantum neural networks require specific quantum algorithms to implement neural network components like activation functions.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Quantum activation functions for quantum neural networks"
+    },
+    {
+      "assumption": "Gate-model quantum computers are necessary for implementing complex quantum algorithms in neural networks.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Quantum activation functions for quantum neural networks"
+    },
+    {
+      "assumption": "Event-triggered control is necessary for efficient resource utilization in networked control systems.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Event-Triggered Control for Multiagent Systems With Sensor Faults and Input Saturation"
+    },
+    {
+      "assumption": "Semi-global uniform ultimate boundedness is necessary for ensuring the stability of closed-loop systems.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Event-Triggered Control for Multiagent Systems With Sensor Faults and Input Saturation"
+    },
+    {
+      "assumption": "Nonasymptotic high probability bounds are necessary for establishing convergence rates in deep learning models.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Deep Neural Networks for Estimation and Inference"
+    },
+    {
+      "assumption": "Attention mechanisms are essential for improving the performance of segmentation networks.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Efficient attention-based deep encoder and decoder for automatic crack segmentation"
+    },
+    {
+      "assumption": "Data augmentation is necessary to enhance the generalization of models in complex scenes.",
+      "confidence": 0.85,
+      "category": "data",
+      "source_paper": "Efficient attention-based deep encoder and decoder for automatic crack segmentation"
+    },
+    {
+      "assumption": "Comparative evaluation against state-of-the-art models is essential for validating new segmentation approaches.",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "Efficient attention-based deep encoder and decoder for automatic crack segmentation"
+    },
+    {
+      "assumption": "The ability to approximate any continuous function is required for a model to be considered a universal approximator.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "The Universal Approximation Property"
+    },
+    {
+      "assumption": "Efficient hardware design requires minimizing resource usage while maintaining performance.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "A Novel Systolic Parallel Hardware Architecture for the FPGA Acceleration of Feedforward Neural Networks"
+    },
+    {
+      "assumption": "Incorporating domain-specific knowledge into neural network design is necessary for improving model performance.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "A new family of Constitutive Artificial Neural Networks towards automated model discovery"
+    },
+    {
+      "assumption": "Activation functions must implement physically reasonable restrictions to ensure model validity.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "A new family of Constitutive Artificial Neural Networks towards automated model discovery"
+    },
+    {
+      "assumption": "Material objectivity and symmetry are essential considerations in the design of constitutive models.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "A new family of Constitutive Artificial Neural Networks towards automated model discovery"
+    },
+    {
+      "assumption": "Empirical experimentation is necessary to determine the optimal configuration of hyperparameters for deep learning models.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Experimental Analysis of Hyperparameters for Deep Learning-Based Churn Prediction in the Banking Sector"
+    },
+    {
+      "assumption": "The choice of optimization algorithm is crucial for the effective training of deep neural networks.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Experimental Analysis of Hyperparameters for Deep Learning-Based Churn Prediction in the Banking Sector"
+    },
+    {
+      "assumption": "Deep learning models are essential for handling non-linear and high-dimensional data effectively.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Experimental Analysis of Hyperparameters for Deep Learning-Based Churn Prediction in the Banking Sector"
+    },
+    {
+      "assumption": "ReLU activation functions are necessary for effective performance in deep neural networks for nonparametric regression.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Nonparametric regression using deep neural networks with ReLU activation function"
+    },
+    {
+      "assumption": "Comparative analysis of models is essential for understanding the effectiveness of different architectural choices.",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "An Analysis of State-of-the-art Activation Functions For Supervised Deep Neural Network"
+    },
+    {
+      "assumption": "Generalization to different datasets is necessary for validating the robustness of neural network models.",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "An Analysis of State-of-the-art Activation Functions For Supervised Deep Neural Network"
+    },
+    {
+      "assumption": "Universal approximation theorems are necessary for justifying the use of neural networks in functional approximation.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "A Theory on Deep Neural Network Based Vector-to-Vector Regression With an Illustration of Its Expressive Power in Speech Enhancement"
+    },
+    {
+      "assumption": "Encoding input functions and output domains separately is essential for learning operators on product spaces.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "MIONet: Learning Multiple-Input Operators via Tensor Product"
+    },
+    {
+      "assumption": "Learning operators for systems governed by differential equations is a fundamental application of neural operators.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "MIONet: Learning Multiple-Input Operators via Tensor Product"
+    },
+    {
+      "assumption": "Evaluation of neural operators must include their ability to generalize to unseen function inputs.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "MIONet: Learning Multiple-Input Operators via Tensor Product"
+    },
+    {
+      "assumption": "Trainable quantum neural networks are essential for solving complex problems in pattern recognition and clustering.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Quantum activation functions for quantum neural networks"
+    },
+    {
+      "assumption": "Quantum perceptrons are required to leverage the advantages of quantum computing in neural network architectures.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Quantum activation functions for quantum neural networks"
+    },
+    {
+      "assumption": "Handling input saturation is required for the stability of control systems.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Event-Triggered Control for Multiagent Systems With Sensor Faults and Input Saturation"
+    },
+    {
+      "assumption": "Adaptive control strategies are essential for dealing with unknown disturbances in dynamic systems.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Event-Triggered Control for Multiagent Systems With Sensor Faults and Input Saturation"
+    },
+    {
+      "assumption": "Nonlinear disturbance observers are essential for estimating unknown disturbances in control systems.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Event-Triggered Control for Multiagent Systems With Sensor Faults and Input Saturation"
+    },
+    {
+      "assumption": "Compensation control approaches are required for addressing sensor faults in control systems.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Event-Triggered Control for Multiagent Systems With Sensor Faults and Input Saturation"
+    },
+    {
+      "assumption": "Fully connected feedforward neural networks are required for standard deep learning architectures.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Deep Neural Networks for Estimation and Inference"
+    },
+    {
+      "assumption": "Rectified linear unit (ReLU) activation functions are essential for modern neural network architectures.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Deep Neural Networks for Estimation and Inference"
+    },
+    {
+      "assumption": "Loss functions tailored to the specific task are required for optimizing segmentation performance.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Efficient attention-based deep encoder and decoder for automatic crack segmentation"
+    },
+    {
+      "assumption": "Sparse connectivity in neural networks is necessary for maintaining universal approximation under certain constraints.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "The Universal Approximation Property"
+    },
+    {
+      "assumption": "Theoretical results are essential for guiding the development of new neural network architectures.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "The Universal Approximation Property"
+    },
+    {
+      "assumption": "Fixed-point arithmetic is sufficient for neural network inference without significant loss of accuracy.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "A Novel Systolic Parallel Hardware Architecture for the FPGA Acceleration of Feedforward Neural Networks"
+    },
+    {
+      "assumption": "Real-time applications necessitate high-speed processing capabilities in hardware designs.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "A Novel Systolic Parallel Hardware Architecture for the FPGA Acceleration of Feedforward Neural Networks"
+    },
+    {
+      "assumption": "Large datasets are required for training neural networks to accurately approximate constitutive relations.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "A new family of Constitutive Artificial Neural Networks towards automated model discovery"
+    },
+    {
+      "assumption": "Polyconvexity is required to ensure the physical plausibility of neural network-based constitutive models.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "A new family of Constitutive Artificial Neural Networks towards automated model discovery"
+    },
+    {
+      "assumption": "Evaluation on classical benchmark data is necessary for validating the performance of constitutive models.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "A new family of Constitutive Artificial Neural Networks towards automated model discovery"
+    },
+    {
+      "assumption": "Real data is necessary for validating the applicability of machine learning attacks.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "{CSI} {NN}: Reverse Engineering of Neural Network Architectures Through Electromagnetic Side Channel"
+    },
+    {
+      "assumption": "Commonly used neural network architectures are essential for assessing the extendability of attacks.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "{CSI} {NN}: Reverse Engineering of Neural Network Architectures Through Electromagnetic Side Channel"
+    },
+    {
+      "assumption": "Non-invasive and passive measurement techniques are required for practical side-channel attacks.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "{CSI} {NN}: Reverse Engineering of Neural Network Architectures Through Electromagnetic Side Channel"
+    },
+    {
+      "assumption": "The ability to measure timing and electromagnetic emanations is necessary for side-channel analysis.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "{CSI} {NN}: Reverse Engineering of Neural Network Architectures Through Electromagnetic Side Channel"
+    },
+    {
+      "assumption": "Theoretical validation is essential for confirming the effectiveness of new neural network components.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Enhancing neural network classification using fractional-order activation functions"
+    },
+    {
+      "assumption": "Benchmark datasets like IRIS, MNIST, and FMNIST are required for evaluating classification performance.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Enhancing neural network classification using fractional-order activation functions"
+    },
+    {
+      "assumption": "Comparative studies with existing models are necessary for demonstrating the advantages of new methods.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Enhancing neural network classification using fractional-order activation functions"
+    },
+    {
+      "assumption": "Numerical studies are required to support theoretical claims in neural network research.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Enhancing neural network classification using fractional-order activation functions"
+    },
+    {
+      "assumption": "Large and complex datasets are required to fully leverage the capabilities of deep neural networks.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Experimental Analysis of Hyperparameters for Deep Learning-Based Churn Prediction in the Banking Sector"
+    },
+    {
+      "assumption": "Activation functions are essential components that significantly impact the performance of deep neural networks.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Experimental Analysis of Hyperparameters for Deep Learning-Based Churn Prediction in the Banking Sector"
+    },
+    {
+      "assumption": "Deep learning models require more computational resources and time for training compared to traditional machine learning models.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Experimental Analysis of Hyperparameters for Deep Learning-Based Churn Prediction in the Banking Sector"
+    },
+    {
+      "assumption": "The performance of deep learning models must be empirically validated through experimentation.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Experimental Analysis of Hyperparameters for Deep Learning-Based Churn Prediction in the Banking Sector"
+    },
+    {
+      "assumption": "A sparse set of input views is sufficient for optimizing a scene representation.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "NeRF"
+    },
+    {
+      "assumption": "Fully connected deep networks are suitable for representing continuous volumetric scene functions.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "NeRF"
+    },
+    {
+      "assumption": "Optimizing neural radiance fields is necessary for rendering photorealistic novel views.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "NeRF"
+    },
+    {
+      "assumption": "View-dependent emitted radiance is required for accurate scene representation.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "NeRF"
+    },
+    {
+      "assumption": "5D coordinate input (spatial location and viewing direction) is essential for scene representation.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "NeRF"
+    },
+    {
+      "assumption": "The depth of neural network architectures is essential for capturing complex functions in nonparametric regression.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Nonparametric regression using deep neural networks with ReLU activation function"
+    },
+    {
+      "assumption": "The choice of activation function significantly impacts the performance of deep neural networks.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "An Analysis of State-of-the-art Activation Functions For Supervised Deep Neural Network"
+    },
+    {
+      "assumption": "Deep learning models require optimization techniques to effectively learn from data.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "An Analysis of State-of-the-art Activation Functions For Supervised Deep Neural Network"
+    },
+    {
+      "assumption": "Vector-to-vector regression is required for tasks involving transformations between input and output spaces of the same dimensionality.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "A Theory on Deep Neural Network Based Vector-to-Vector Regression With an Illustration of Its Expressive Power in Speech Enhancement"
+    },
+    {
+      "assumption": "Low-rank approximations are necessary for efficient learning of complex operators.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "MIONet: Learning Multiple-Input Operators via Tensor Product"
+    },
+    {
+      "assumption": "Branch and trunk network architectures are required for handling multiple-input operator learning.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "MIONet: Learning Multiple-Input Operators via Tensor Product"
+    },
+    {
+      "assumption": "Non-measurement-based quantum algorithms are necessary for maintaining coherence in quantum neural network operations.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "Quantum activation functions for quantum neural networks"
+    },
+    {
+      "assumption": "The development of quantum algorithms is essential for the practical implementation of quantum machine learning.",
+      "confidence": 0.75,
+      "category": "training",
+      "source_paper": "Quantum activation functions for quantum neural networks"
+    },
+    {
+      "assumption": "Dynamic surface control is necessary for managing complex nonlinearities in multiagent systems.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "Event-Triggered Control for Multiagent Systems With Sensor Faults and Input Saturation"
+    },
+    {
+      "assumption": "Unbounded weights are necessary for the flexibility of deep neural networks.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "Deep Neural Networks for Estimation and Inference"
+    },
+    {
+      "assumption": "Real-time processing capability is necessary for practical applications of crack segmentation.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "Efficient attention-based deep encoder and decoder for automatic crack segmentation"
+    },
+    {
+      "assumption": "Function spaces of practical interest are required for evaluating the universal approximation capabilities of models.",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "The Universal Approximation Property"
+    },
+    {
+      "assumption": "The scalability of hardware architectures is necessary to handle larger neural networks or datasets.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "A Novel Systolic Parallel Hardware Architecture for the FPGA Acceleration of Feedforward Neural Networks"
+    },
+    {
+      "assumption": "Automated model discovery is necessary for advancing the field of constitutive modeling.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "A new family of Constitutive Artificial Neural Networks towards automated model discovery"
+    },
+    {
+      "assumption": "Heuristic knowledge is necessary to guide the selection of hyperparameters in deep learning applications.",
+      "confidence": 0.75,
+      "category": "training",
+      "source_paper": "Experimental Analysis of Hyperparameters for Deep Learning-Based Churn Prediction in the Banking Sector"
+    },
+    {
+      "assumption": "Scaling the network depth with the sample size is necessary for optimal performance in nonparametric regression.",
+      "confidence": 0.75,
+      "category": "training",
+      "source_paper": "Nonparametric regression using deep neural networks with ReLU activation function"
+    },
+    {
+      "assumption": "Architectural variations are necessary to adapt neural networks to different types of tasks.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "An Analysis of State-of-the-art Activation Functions For Supervised Deep Neural Network"
+    },
+    {
+      "assumption": "Evaluating models on multiple tasks is essential for assessing their versatility and applicability.",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "An Analysis of State-of-the-art Activation Functions For Supervised Deep Neural Network"
+    },
+    {
+      "assumption": "The Euclidean distance is a necessary metric for evaluating the performance of regression functions in speech enhancement.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "A Theory on Deep Neural Network Based Vector-to-Vector Regression With an Illustration of Its Expressive Power in Speech Enhancement"
+    },
+    {
+      "assumption": "A broader hidden layer at the top of a neural network is essential for improving regression performance.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "A Theory on Deep Neural Network Based Vector-to-Vector Regression With an Illustration of Its Expressive Power in Speech Enhancement"
+    },
+    {
+      "assumption": "Incorporating prior knowledge of the system is essential for improving the accuracy of neural operators.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "MIONet: Learning Multiple-Input Operators via Tensor Product"
+    },
+    {
+      "assumption": "Scientific machine learning paradigms are necessary for advancing the study of neural operators.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "MIONet: Learning Multiple-Input Operators via Tensor Product"
+    },
+    {
+      "assumption": "Quantum machine learning is required to fully exploit the computational power of quantum computers.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Quantum activation functions for quantum neural networks"
+    },
+    {
+      "assumption": "Universal approximation properties are necessary for the effectiveness of neural networks in diverse applications.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Quantum activation functions for quantum neural networks"
+    },
+    {
+      "assumption": "Simulation results are essential for demonstrating the effectiveness of control strategies.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Event-Triggered Control for Multiagent Systems With Sensor Faults and Input Saturation"
+    },
+    {
+      "assumption": "The depth of neural networks must diverge with sample size for effective learning.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Deep Neural Networks for Estimation and Inference"
+    },
+    {
+      "assumption": "Deep learning models are required to handle a general class of nonparametric regression-type loss functions.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Deep Neural Networks for Estimation and Inference"
+    },
+    {
+      "assumption": "Modifications to the feed-forward architecture are necessary to improve its approximation capabilities.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "The Universal Approximation Property"
+    },
+    {
+      "assumption": "Existence results are essential for proving the universal approximation property of neural networks.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "The Universal Approximation Property"
+    },
+    {
+      "assumption": "The use of systolic arrays is required for efficient matrix operations in neural network hardware.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "A Novel Systolic Parallel Hardware Architecture for the FPGA Acceleration of Feedforward Neural Networks"
+    },
+    {
+      "assumption": "Evaluation of hardware designs must include performance, resource usage, and accuracy metrics.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "A Novel Systolic Parallel Hardware Architecture for the FPGA Acceleration of Feedforward Neural Networks"
+    },
+    {
+      "assumption": "ARM Cortex-M3 microcontrollers are essential platforms for testing pervasive applications of neural networks.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "{CSI} {NN}: Reverse Engineering of Neural Network Architectures Through Electromagnetic Side Channel"
+    },
+    {
+      "assumption": "Reverse engineering neural networks is necessary for understanding potential security vulnerabilities.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "{CSI} {NN}: Reverse Engineering of Neural Network Architectures Through Electromagnetic Side Channel"
+    },
+    {
+      "assumption": "The extraction of activation functions, layer configurations, and weights is required for effective reverse engineering.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "{CSI} {NN}: Reverse Engineering of Neural Network Architectures Through Electromagnetic Side Channel"
+    },
+    {
+      "assumption": "Fractional calculus can be a valuable tool for enhancing neural network architectures.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Enhancing neural network classification using fractional-order activation functions"
+    },
+    {
+      "assumption": "Non-integer power exponents in activation functions are necessary for capturing complex patterns.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Enhancing neural network classification using fractional-order activation functions"
+    },
+    {
+      "assumption": "State-of-the-art results in view synthesis require optimization of underlying scene functions.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "NeRF"
+    },
+    {
+      "assumption": "Sparsely connected networks are required to manage the complexity of models with parameters exceeding the sample size.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Nonparametric regression using deep neural networks with ReLU activation function"
+    },
+    {
+      "assumption": "Properly chosen network architecture is essential for achieving theoretical guarantees in nonparametric regression.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Nonparametric regression using deep neural networks with ReLU activation function"
+    },
+    {
+      "assumption": "Theoretical analysis is required to validate the empirical performance of neural network architectures.",
+      "confidence": 0.65,
+      "category": "theoretical",
+      "source_paper": "A Theory on Deep Neural Network Based Vector-to-Vector Regression With an Illustration of Its Expressive Power in Speech Enhancement"
+    },
+    {
+      "assumption": "Minimax optimal rates of convergence are necessary for valid inference in deep learning.",
+      "confidence": 0.65,
+      "category": "theoretical",
+      "source_paper": "Deep Neural Networks for Estimation and Inference"
+    },
+    {
+      "assumption": "Non-pathological growth conditions are required for the uniform approximation of functions on Euclidean spaces.",
+      "confidence": 0.65,
+      "category": "theoretical",
+      "source_paper": "The Universal Approximation Property"
+    },
+    {
+      "assumption": "Single activation function blocks can be used across entire neural networks without impacting performance.",
+      "confidence": 0.65,
+      "category": "architectural",
+      "source_paper": "A Novel Systolic Parallel Hardware Architecture for the FPGA Acceleration of Feedforward Neural Networks"
+    },
+    {
+      "assumption": "The composition assumption on the regression function is necessary for theoretical analysis of neural network estimators.",
+      "confidence": 0.65,
+      "category": "theoretical",
+      "source_paper": "Nonparametric regression using deep neural networks with ReLU activation function"
+    },
+    {
+      "assumption": "Speech enhancement tasks require specialized neural network architectures to handle various noise types and signal-to-noise-ratio levels.",
+      "confidence": 0.6,
+      "category": "data",
+      "source_paper": "A Theory on Deep Neural Network Based Vector-to-Vector Regression With an Illustration of Its Expressive Power in Speech Enhancement"
+    },
+    {
+      "assumption": "Semiparametric inference is essential for understanding causal parameters in econometric applications.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Deep Neural Networks for Estimation and Inference"
+    },
+    {
+      "assumption": "Empirical applications are required to demonstrate the effectiveness of theoretical advancements in deep learning.",
+      "confidence": 0.6,
+      "category": "evaluation",
+      "source_paper": "Deep Neural Networks for Estimation and Inference"
+    },
+    {
+      "assumption": "Wavelet estimators are insufficient for achieving optimal rates under the composition assumption in nonparametric regression.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Nonparametric regression using deep neural networks with ReLU activation function"
+    },
+    {
+      "assumption": "Multilayer feedforward neural networks are required for practical performance in nonparametric regression tasks.",
+      "confidence": 0.6,
+      "category": "architectural",
+      "source_paper": "Nonparametric regression using deep neural networks with ReLU activation function"
+    },
+    {
+      "assumption": "Large networks with a number of parameters exceeding the sample size are necessary for capturing complex data structures.",
+      "confidence": 0.55,
+      "category": "architectural",
+      "source_paper": "Nonparametric regression using deep neural networks with ReLU activation function"
+    }
+  ]
+}

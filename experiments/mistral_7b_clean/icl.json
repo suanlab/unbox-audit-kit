@@ -1,0 +1,911 @@
+{
+  "paradigm": "icl",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "num_papers": 15,
+  "num_raw_assumptions": 150,
+  "num_unique_assumptions": 150,
+  "num_parse_failures": 0,
+  "seed": 42,
+  "assumptions": [
+    {
+      "assumption": "Pretraining is necessary for the development of effective sentence encoders for natural language understanding.",
+      "confidence": 1.0,
+      "category": "training",
+      "source_paper": "Looking for ELMo's friends: Sentence-Level Pretraining Beyond Language Modeling."
+    },
+    {
+      "assumption": "Pretrained deep contextual representations are necessary for advancing the state-of-the-art on various commonsense NLP tasks.",
+      "confidence": 1.0,
+      "category": "architectural",
+      "source_paper": "Understanding Commonsense Inference Aptitude of Deep Contextual Representations"
+    },
+    {
+      "assumption": "Improving performance on downstream commonsense reasoning tasks requires fine-tuning pretrained models.",
+      "confidence": 1.0,
+      "category": "training",
+      "source_paper": "Understanding Commonsense Inference Aptitude of Deep Contextual Representations"
+    },
+    {
+      "assumption": "Evaluation of commonsense NLP models should be based on commonsense reasoning tasks.",
+      "confidence": 1.0,
+      "category": "evaluation",
+      "source_paper": "Understanding Commonsense Inference Aptitude of Deep Contextual Representations"
+    },
+    {
+      "assumption": "Pretrained language models, such as BERT, are necessary for end-to-end Aspect-based Sentiment Analysis (E2E-ABSA).",
+      "confidence": 1.0,
+      "category": "architectural",
+      "source_paper": "Exploiting BERT for End-to-End Aspect-based Sentiment Analysis"
+    },
+    {
+      "assumption": "Pretraining is necessary for facilitating a wide range of downstream applications.",
+      "confidence": 0.95,
+      "category": "training",
+      "source_paper": "Informing Unsupervised Pretraining with External Linguistic Knowledge"
+    },
+    {
+      "assumption": "Distributional knowledge is essential for unsupervised pretraining models.",
+      "confidence": 0.95,
+      "category": "theoretical",
+      "source_paper": "Informing Unsupervised Pretraining with External Linguistic Knowledge"
+    },
+    {
+      "assumption": "Pretraining on large corpora of unlabeled text is necessary for strong performance in natural language processing tasks.",
+      "confidence": 0.95,
+      "category": "training",
+      "source_paper": "Unsupervised Domain Adaptation of Contextualized Embeddings: A Case Study in Early Modern English."
+    },
+    {
+      "assumption": "Pre-trained language models like BERT are necessary for conversational machine comprehension.",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "A Simple but Effective Method to Incorporate Multi-turn Context with BERT for Conversational Machine Comprehension"
+    },
+    {
+      "assumption": "Understanding multi-turn dialogue context is essential for conversational machine comprehension.",
+      "confidence": 0.95,
+      "category": "theoretical",
+      "source_paper": "A Simple but Effective Method to Incorporate Multi-turn Context with BERT for Conversational Machine Comprehension"
+    },
+    {
+      "assumption": "Pre-trained language models are necessary for achieving superior performance in various natural language processing tasks.",
+      "confidence": 0.95,
+      "category": "training",
+      "source_paper": "PANLP at MEDIQA 2019: Pre-trained Language Models, Transfer Learning and Knowledge Distillation"
+    },
+    {
+      "assumption": "Pre-trained language models are necessary for achieving state-of-the-art performance in downstream NLP tasks.",
+      "confidence": 0.95,
+      "category": "training",
+      "source_paper": "An Empirical Study on Pre-trained Embeddings and Language Models for Bot Detection"
+    },
+    {
+      "assumption": "Pretrained language models, such as BERT, are necessary for natural language processing tasks.",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Team Howard Beale at SemEval-2019 Task 4: Hyperpartisan News Detection with BERT"
+    },
+    {
+      "assumption": "A pre-trained language model is necessary for question generation and answer extraction tasks.",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Synthetic QA Corpora Generation with Roundtrip Consistency"
+    },
+    {
+      "assumption": "Language modeling is an essential pretraining task for sentence encoders.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Looking for ELMo's friends: Sentence-Level Pretraining Beyond Language Modeling."
+    },
+    {
+      "assumption": "Large-scale pretraining data is essential for the development of effective sentence encoders.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Looking for ELMo's friends: Sentence-Level Pretraining Beyond Language Modeling."
+    },
+    {
+      "assumption": "Data augmentation can improve the performance of pretrained models on deficient attributes.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Understanding Commonsense Inference Aptitude of Deep Contextual Representations"
+    },
+    {
+      "assumption": "Explicit knowledge graphs are essential for improving the commonsense representation abilities of deep contextual models.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Understanding Commonsense Inference Aptitude of Deep Contextual Representations"
+    },
+    {
+      "assumption": "The embedding space of pretrained models encodes various commonsense features.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Understanding Commonsense Inference Aptitude of Deep Contextual Representations"
+    },
+    {
+      "assumption": "Language modeling objectives are required for encoding distributional knowledge.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Informing Unsupervised Pretraining with External Linguistic Knowledge"
+    },
+    {
+      "assumption": "BERT is a state-of-the-art unsupervised pretraining model.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Informing Unsupervised Pretraining with External Linguistic Knowledge"
+    },
+    {
+      "assumption": "The applicability of pretrained models is questionable when the target domain varies substantially from the pretraining corpus.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Unsupervised Domain Adaptation of Contextualized Embeddings: A Case Study in Early Modern English."
+    },
+    {
+      "assumption": "Labeled data is essential for sequence labeling tasks.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Unsupervised Domain Adaptation of Contextualized Embeddings: A Case Study in Early Modern English."
+    },
+    {
+      "assumption": "Pre-training on a large cross-domain text corpus is necessary for achieving excellent performance on natural language processing tasks.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Improving BERT-Based Text Classification With Auxiliary Sentence and Domain Knowledge"
+    },
+    {
+      "assumption": "Fine-tuning on downstream tasks is required for adapting pre-trained language models to specific tasks.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Improving BERT-Based Text Classification With Auxiliary Sentence and Domain Knowledge"
+    },
+    {
+      "assumption": "Task-specific and domain-related knowledge can further improve the performance of pre-trained language models.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Improving BERT-Based Text Classification With Auxiliary Sentence and Domain Knowledge"
+    },
+    {
+      "assumption": "Encoding each question and answer in a multi-turn context is required to model conversational machine comprehension.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "A Simple but Effective Method to Incorporate Multi-turn Context with BERT for Conversational Machine Comprehension"
+    },
+    {
+      "assumption": "Performance evaluation on representative CMC datasets like QuAC and CoQA is essential for assessing the effectiveness of conversational machine comprehension methods.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "A Simple but Effective Method to Incorporate Multi-turn Context with BERT for Conversational Machine Comprehension"
+    },
+    {
+      "assumption": "A large pretrained language model is necessary for effective natural language processing tasks.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "SciBERT: A Pretrained Language Model for Scientific Text"
+    },
+    {
+      "assumption": "Transfer learning from one natural language processing task to another is required to improve the results of fine-tuning.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "PANLP at MEDIQA 2019: Pre-trained Language Models, Transfer Learning and Knowledge Distillation"
+    },
+    {
+      "assumption": "Bidirectional transformer architectures are essential for achieving state-of-the-art results in natural language processing.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "PANLP at MEDIQA 2019: Pre-trained Language Models, Transfer Learning and Knowledge Distillation"
+    },
+    {
+      "assumption": "Pre-trained word embeddings are necessary for effective relation extraction.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Deep Bidirectional Transformers for Relation Extraction without Supervision"
+    },
+    {
+      "assumption": "Fine-tuning a pre-trained language model is required for improving performance on specific tasks.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Deep Bidirectional Transformers for Relation Extraction without Supervision"
+    },
+    {
+      "assumption": "BERT (Bidirectional Encoder Representations from Transformers) is a powerful language model for relation extraction.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Deep Bidirectional Transformers for Relation Extraction without Supervision"
+    },
+    {
+      "assumption": "Empirical evaluation is essential for assessing the performance of relation extraction models.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "Deep Bidirectional Transformers for Relation Extraction without Supervision"
+    },
+    {
+      "assumption": "Deep learning models, such as transformers, are effective for relation extraction.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Deep Bidirectional Transformers for Relation Extraction without Supervision"
+    },
+    {
+      "assumption": "Large and well-formed text corpora are essential for training high-performing language models.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "An Empirical Study on Pre-trained Embeddings and Language Models for Bot Detection"
+    },
+    {
+      "assumption": "Pre-trained language models like BERT are necessary for knowledge-intensive tasks.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Jeff Da at COIN - Shared Task"
+    },
+    {
+      "assumption": "Fine-tuning pretrained models on task-specific data is required for improved performance.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Team Howard Beale at SemEval-2019 Task 4: Hyperpartisan News Detection with BERT"
+    },
+    {
+      "assumption": "Accuracy is a key evaluation metric for classification tasks.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "Team Howard Beale at SemEval-2019 Task 4: Hyperpartisan News Detection with BERT"
+    },
+    {
+      "assumption": "Deep learning models, such as BERT, are essential for achieving state-of-the-art results in natural language processing.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Team Howard Beale at SemEval-2019 Task 4: Hyperpartisan News Detection with BERT"
+    },
+    {
+      "assumption": "A linear classification layer can be used to achieve competitive results in E2E-ABSA.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Exploiting BERT for End-to-End Aspect-based Sentiment Analysis"
+    },
+    {
+      "assumption": "A hold-out development dataset is essential for model selection in E2E-ABSA.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "Exploiting BERT for End-to-End Aspect-based Sentiment Analysis"
+    },
+    {
+      "assumption": "Pretraining is necessary for improving the accuracy of sequence-to-sequence models.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Unsupervised Pretraining for Sequence to Sequence Learning"
+    },
+    {
+      "assumption": "Language models can be used for pretraining the encoder and decoder of a sequence-to-sequence model.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Unsupervised Pretraining for Sequence to Sequence Learning"
+    },
+    {
+      "assumption": "BLEU score is an essential metric for evaluating machine translation models.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "Unsupervised Pretraining for Sequence to Sequence Learning"
+    },
+    {
+      "assumption": "Sequence-to-sequence models are essential for tasks requiring the transformation of one sequence into another.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Unsupervised Pretraining for Sequence to Sequence Learning"
+    },
+    {
+      "assumption": "Roundtrip consistency is essential for generating high-quality question answering corpora.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Synthetic QA Corpora Generation with Roundtrip Consistency"
+    },
+    {
+      "assumption": "Finetuning a pre-trained language model is required for task-specific applications.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Synthetic QA Corpora Generation with Roundtrip Consistency"
+    },
+    {
+      "assumption": "Evaluation on standard benchmarks like SQuAD2 is essential for measuring the performance of question answering models.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "Synthetic QA Corpora Generation with Roundtrip Consistency"
+    },
+    {
+      "assumption": "External lexical knowledge can improve the performance of unsupervised pretraining models.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Informing Unsupervised Pretraining with External Linguistic Knowledge"
+    },
+    {
+      "assumption": "Deep learning models are essential for natural language processing tasks.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Informing Unsupervised Pretraining with External Linguistic Knowledge"
+    },
+    {
+      "assumption": "Masked language modeling can be used for domain-adaptive fine-tuning of contextualized embeddings.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Unsupervised Domain Adaptation of Contextualized Embeddings: A Case Study in Early Modern English."
+    },
+    {
+      "assumption": "The gold answer history contributes significantly to the model performance in conversational machine comprehension.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "A Simple but Effective Method to Incorporate Multi-turn Context with BERT for Conversational Machine Comprehension"
+    },
+    {
+      "assumption": "Knowledge distillation is essential for transferring the knowledge contained in a set of models into a single model.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "PANLP at MEDIQA 2019: Pre-trained Language Models, Transfer Learning and Knowledge Distillation"
+    },
+    {
+      "assumption": "Participation in shared tasks is essential for benchmarking and comparing the performance of natural language processing models.",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "PANLP at MEDIQA 2019: Pre-trained Language Models, Transfer Learning and Knowledge Distillation"
+    },
+    {
+      "assumption": "Social media data, being short, informal, and frequently automatically generated, poses unique challenges for language models.",
+      "confidence": 0.85,
+      "category": "data",
+      "source_paper": "An Empirical Study on Pre-trained Embeddings and Language Models for Bot Detection"
+    },
+    {
+      "assumption": "Domain-specific data is essential for fine-tuning pretrained models to achieve better results.",
+      "confidence": 0.85,
+      "category": "data",
+      "source_paper": "Team Howard Beale at SemEval-2019 Task 4: Hyperpartisan News Detection with BERT"
+    },
+    {
+      "assumption": "Transfer learning is an effective strategy for improving the performance of deep learning models.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Team Howard Beale at SemEval-2019 Task 4: Hyperpartisan News Detection with BERT"
+    },
+    {
+      "assumption": "Sequence-to-sequence models can be effective for question generation.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Synthetic QA Corpora Generation with Roundtrip Consistency"
+    },
+    {
+      "assumption": "Multitask training can improve the performance of sentence encoders.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Looking for ELMo's friends: Sentence-Level Pretraining Beyond Language Modeling."
+    },
+    {
+      "assumption": "The performance of sentence encoders can be evaluated by their transferability to downstream tasks.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Looking for ELMo's friends: Sentence-Level Pretraining Beyond Language Modeling."
+    },
+    {
+      "assumption": "Minimal data can be used to improve performance on commonsense reasoning tasks.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Understanding Commonsense Inference Aptitude of Deep Contextual Representations"
+    },
+    {
+      "assumption": "Fine-tuning knowledge graphs embeddings alongside BERT can improve its commonsense representation abilities.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Understanding Commonsense Inference Aptitude of Deep Contextual Representations"
+    },
+    {
+      "assumption": "Multi-task learning can be beneficial for improving the performance of models.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Informing Unsupervised Pretraining with External Linguistic Knowledge"
+    },
+    {
+      "assumption": "Performance gains on language understanding tasks are a valid measure of model effectiveness.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Informing Unsupervised Pretraining with External Linguistic Knowledge"
+    },
+    {
+      "assumption": "Large-scale pretraining data is necessary for effective model training.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Informing Unsupervised Pretraining with External Linguistic Knowledge"
+    },
+    {
+      "assumption": "The effectiveness of domain-adaptive fine-tuning can be evaluated on challenging domains that differ substantially from existing pretraining corpora.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Unsupervised Domain Adaptation of Contextualized Embeddings: A Case Study in Early Modern English."
+    },
+    {
+      "assumption": "Improvements over strong baselines indicate the effectiveness of a proposed approach.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Unsupervised Domain Adaptation of Contextualized Embeddings: A Case Study in Early Modern English."
+    },
+    {
+      "assumption": "Contextualized embeddings are essential for sequence labeling tasks.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Unsupervised Domain Adaptation of Contextualized Embeddings: A Case Study in Early Modern English."
+    },
+    {
+      "assumption": "Constructing auxiliary sentences can help address the limited training data problem and task-awareness problem.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Improving BERT-Based Text Classification With Auxiliary Sentence and Domain Knowledge"
+    },
+    {
+      "assumption": "Comparing and analyzing fine-tuning strategies (e.g., learning rate, sequence length, hidden state vector selection) is essential for optimizing the performance of pre-trained language models.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Improving BERT-Based Text Classification With Auxiliary Sentence and Domain Knowledge"
+    },
+    {
+      "assumption": "Post-training approaches can be used to address the domain challenge of pre-trained language models.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Improving BERT-Based Text Classification With Auxiliary Sentence and Domain Knowledge"
+    },
+    {
+      "assumption": "Improving F1 score is essential for the success of conversational machine comprehension methods.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "A Simple but Effective Method to Incorporate Multi-turn Context with BERT for Conversational Machine Comprehension"
+    },
+    {
+      "assumption": "Incorporating multi-turn context with BERT can lead to improved performance in conversational machine comprehension.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "A Simple but Effective Method to Incorporate Multi-turn Context with BERT for Conversational Machine Comprehension"
+    },
+    {
+      "assumption": "Scientific text can be effectively processed using natural language processing techniques.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "SciBERT: A Pretrained Language Model for Scientific Text"
+    },
+    {
+      "assumption": "Pretraining on general-domain data followed by fine-tuning on task-specific data is an effective strategy for improving model performance.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "SciBERT: A Pretrained Language Model for Scientific Text"
+    },
+    {
+      "assumption": "Large-scale annotated datasets are essential for training high-performing natural language processing models.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "SciBERT: A Pretrained Language Model for Scientific Text"
+    },
+    {
+      "assumption": "Evaluation on standard benchmark datasets is necessary for comparing the performance of natural language processing models.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "SciBERT: A Pretrained Language Model for Scientific Text"
+    },
+    {
+      "assumption": "Ensemble methods can improve the performance of natural language processing models.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "PANLP at MEDIQA 2019: Pre-trained Language Models, Transfer Learning and Knowledge Distillation"
+    },
+    {
+      "assumption": "The NLI task (Natural Language Inference) is a useful pretext task for improving the performance on other natural language processing tasks.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "PANLP at MEDIQA 2019: Pre-trained Language Models, Transfer Learning and Knowledge Distillation"
+    },
+    {
+      "assumption": "Syntactic parsing is essential for extracting precise relations.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Deep Bidirectional Transformers for Relation Extraction without Supervision"
+    },
+    {
+      "assumption": "Noisy data can be used for fine-tuning a pre-trained language model.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Deep Bidirectional Transformers for Relation Extraction without Supervision"
+    },
+    {
+      "assumption": "Supervision is necessary for achieving state-of-the-art results in relation extraction.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Deep Bidirectional Transformers for Relation Extraction without Supervision"
+    },
+    {
+      "assumption": "Distant supervision can be used to annotate a larger corpus for relation extraction.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Deep Bidirectional Transformers for Relation Extraction without Supervision"
+    },
+    {
+      "assumption": "Relation extraction is a crucial task in the biomedical domain.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Deep Bidirectional Transformers for Relation Extraction without Supervision"
+    },
+    {
+      "assumption": "Bot detection is an important downstream NLP task.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "An Empirical Study on Pre-trained Embeddings and Language Models for Bot Detection"
+    },
+    {
+      "assumption": "Fine-tuning language models on specific tasks is an effective strategy for improving performance.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "An Empirical Study on Pre-trained Embeddings and Language Models for Bot Detection"
+    },
+    {
+      "assumption": "Aligning tokens between different tokenization methods is essential for combining knowledge base embeddings with language models.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Jeff Da at COIN - Shared Task"
+    },
+    {
+      "assumption": "Improving the speed of querying knowledge bases is required for efficient knowledge-intensive tasks.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Jeff Da at COIN - Shared Task"
+    },
+    {
+      "assumption": "Creating knowledge embeddings from knowledge bases is essential for integrating them with language models.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Jeff Da at COIN - Shared Task"
+    },
+    {
+      "assumption": "Contextualizing language models after combining with knowledge base embeddings is necessary for improving performance.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Jeff Da at COIN - Shared Task"
+    },
+    {
+      "assumption": "Participating in shared tasks and comparing results with other models is essential for evaluating the performance of a new method.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Jeff Da at COIN - Shared Task"
+    },
+    {
+      "assumption": "Comparing performance with other models is essential for benchmarking and understanding the effectiveness of a proposed approach.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Team Howard Beale at SemEval-2019 Task 4: Hyperpartisan News Detection with BERT"
+    },
+    {
+      "assumption": "The use of large-scale datasets is essential for training and evaluating deep learning models.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Team Howard Beale at SemEval-2019 Task 4: Hyperpartisan News Detection with BERT"
+    },
+    {
+      "assumption": "Improving E2E-ABSA performance requires building neural baselines.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Exploiting BERT for End-to-End Aspect-based Sentiment Analysis"
+    },
+    {
+      "assumption": "Comparative studies in E2E-ABSA should consistently utilize a hold-out development dataset for model selection.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Exploiting BERT for End-to-End Aspect-based Sentiment Analysis"
+    },
+    {
+      "assumption": "Fine-tuning pretrained models with labeled data is essential for adapting them to specific tasks.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Unsupervised Pretraining for Sequence to Sequence Learning"
+    },
+    {
+      "assumption": "Improving the generalization of models is essential for better performance on challenging benchmarks.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Unsupervised Pretraining for Sequence to Sequence Learning"
+    },
+    {
+      "assumption": "State-of-the-art results are essential for demonstrating the effectiveness of a new method.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Unsupervised Pretraining for Sequence to Sequence Learning"
+    },
+    {
+      "assumption": "Human evaluations are essential for validating the performance of abstractive summarization models.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Unsupervised Pretraining for Sequence to Sequence Learning"
+    },
+    {
+      "assumption": "Machine translation is a challenging benchmark for sequence-to-sequence models.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Unsupervised Pretraining for Sequence to Sequence Learning"
+    },
+    {
+      "assumption": "Abstractive summarization is a challenging benchmark for sequence-to-sequence models.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Unsupervised Pretraining for Sequence to Sequence Learning"
+    },
+    {
+      "assumption": "Improvements in performance on standard benchmarks are a primary goal in question answering research.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Synthetic QA Corpora Generation with Roundtrip Consistency"
+    },
+    {
+      "assumption": "Synthetic data can be used to augment and improve the quality of question answering models.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Synthetic QA Corpora Generation with Roundtrip Consistency"
+    },
+    {
+      "assumption": "Binary word relation classification is a suitable method for injecting clean linguistic knowledge into models.",
+      "confidence": 0.75,
+      "category": "training",
+      "source_paper": "Informing Unsupervised Pretraining with External Linguistic Knowledge"
+    },
+    {
+      "assumption": "Performance on out-of-vocabulary words is an important metric for evaluating sequence labeling models in challenging domains.",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "Unsupervised Domain Adaptation of Contextualized Embeddings: A Case Study in Early Modern English."
+    },
+    {
+      "assumption": "The number and types of dialogue history can affect the accuracy of conversational machine comprehension.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "A Simple but Effective Method to Incorporate Multi-turn Context with BERT for Conversational Machine Comprehension"
+    },
+    {
+      "assumption": "Re-ranking processes can boost the performances of natural language processing models.",
+      "confidence": 0.75,
+      "category": "training",
+      "source_paper": "PANLP at MEDIQA 2019: Pre-trained Language Models, Transfer Learning and Knowledge Distillation"
+    },
+    {
+      "assumption": "The RQE task (Reasoning Question Answering Evaluation) is a significant natural language processing task.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "PANLP at MEDIQA 2019: Pre-trained Language Models, Transfer Learning and Knowledge Distillation"
+    },
+    {
+      "assumption": "Neural architectures such as LSTM and CNN are commonly used for NLP tasks.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "An Empirical Study on Pre-trained Embeddings and Language Models for Bot Detection"
+    },
+    {
+      "assumption": "The performance of a model on a held-out test dataset is a reliable indicator of its generalization ability.",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "Team Howard Beale at SemEval-2019 Task 4: Hyperpartisan News Detection with BERT"
+    },
+    {
+      "assumption": "BERT is a widely-used and effective language model for various NLP tasks.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "Synthetic QA Corpora Generation with Roundtrip Consistency"
+    },
+    {
+      "assumption": "The architecture of sentence encoders should be transformer-based.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Looking for ELMo's friends: Sentence-Level Pretraining Beyond Language Modeling."
+    },
+    {
+      "assumption": "Fine-tuning on an intermediate task can impact the performance of downstream tasks.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Looking for ELMo's friends: Sentence-Level Pretraining Beyond Language Modeling."
+    },
+    {
+      "assumption": "Probing pretrained models' ability to classify various object attributes can provide insights into their commonsense representation abilities.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Understanding Commonsense Inference Aptitude of Deep Contextual Representations"
+    },
+    {
+      "assumption": "The commonsense representation abilities of deep contextual models are deficient in many areas.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Understanding Commonsense Inference Aptitude of Deep Contextual Representations"
+    },
+    {
+      "assumption": "Text from the target domain is necessary for domain-adaptive fine-tuning.",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "Unsupervised Domain Adaptation of Contextualized Embeddings: A Case Study in Early Modern English."
+    },
+    {
+      "assumption": "Newstext is a canonical source domain for natural language processing tasks.",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "Unsupervised Domain Adaptation of Contextualized Embeddings: A Case Study in Early Modern English."
+    },
+    {
+      "assumption": "Extensive experiments on public datasets are necessary for evaluating and comparing the performance of different models.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Improving BERT-Based Text Classification With Auxiliary Sentence and Domain Knowledge"
+    },
+    {
+      "assumption": "Comparing the performance of a model with both typical feature-based methods and fine-tuning methods is essential for demonstrating its effectiveness.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Improving BERT-Based Text Classification With Auxiliary Sentence and Domain Knowledge"
+    },
+    {
+      "assumption": "A batch size sufficient for the model to learn effectively is essential for training conversational machine comprehension models.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "A Simple but Effective Method to Incorporate Multi-turn Context with BERT for Conversational Machine Comprehension"
+    },
+    {
+      "assumption": "The length of input sequences can limit the applicability of pre-trained language models like BERT for conversational machine comprehension.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "A Simple but Effective Method to Incorporate Multi-turn Context with BERT for Conversational Machine Comprehension"
+    },
+    {
+      "assumption": "Transformer-based architectures are effective for natural language processing tasks.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "SciBERT: A Pretrained Language Model for Scientific Text"
+    },
+    {
+      "assumption": "Fine-tuning on task-specific data can adapt a pretrained model to perform well on that task.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "SciBERT: A Pretrained Language Model for Scientific Text"
+    },
+    {
+      "assumption": "Scientific text shares similar linguistic characteristics with general-domain text.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "SciBERT: A Pretrained Language Model for Scientific Text"
+    },
+    {
+      "assumption": "Large amounts of data are essential for training high-performing natural language processing models.",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "PANLP at MEDIQA 2019: Pre-trained Language Models, Transfer Learning and Knowledge Distillation"
+    },
+    {
+      "assumption": "Contextualized embeddings are essential for capturing the nuances of language.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "An Empirical Study on Pre-trained Embeddings and Language Models for Bot Detection"
+    },
+    {
+      "assumption": "Comparing the performance of different models on a specific task is a valid way to evaluate their effectiveness.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "An Empirical Study on Pre-trained Embeddings and Language Models for Bot Detection"
+    },
+    {
+      "assumption": "Achieving high accuracy on knowledge-intensive tasks is essential for model success.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Jeff Da at COIN - Shared Task"
+    },
+    {
+      "assumption": "Additional language model pretraining can improve performance on knowledge-intensive tasks.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Jeff Da at COIN - Shared Task"
+    },
+    {
+      "assumption": "Participating in competitions, such as SemEval, is an effective way to evaluate and compare the performance of different models.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Team Howard Beale at SemEval-2019 Task 4: Hyperpartisan News Detection with BERT"
+    },
+    {
+      "assumption": "The performance of E2E-ABSA models can be improved by outperforming state-of-the-art works.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Exploiting BERT for End-to-End Aspect-based Sentiment Analysis"
+    },
+    {
+      "assumption": "E2E-ABSA models should be simple yet insightful.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Exploiting BERT for End-to-End Aspect-based Sentiment Analysis"
+    },
+    {
+      "assumption": "Exact match and F1 scores are important evaluation metrics for question answering.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Synthetic QA Corpora Generation with Roundtrip Consistency"
+    },
+    {
+      "assumption": "Reducing the gap between model performance and human performance is a key objective in NLP research.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Synthetic QA Corpora Generation with Roundtrip Consistency"
+    },
+    {
+      "assumption": "The peculiarities of social media text require specialized language models for effective bot detection.",
+      "confidence": 0.65,
+      "category": "theoretical",
+      "source_paper": "An Empirical Study on Pre-trained Embeddings and Language Models for Bot Detection"
+    },
+    {
+      "assumption": "Random baselines can provide a useful comparison for the performance of sentence encoders.",
+      "confidence": 0.6,
+      "category": "training",
+      "source_paper": "Looking for ELMo's friends: Sentence-Level Pretraining Beyond Language Modeling."
+    },
+    {
+      "assumption": "The use of labeled data can improve the performance of sentence encoders.",
+      "confidence": 0.6,
+      "category": "data",
+      "source_paper": "Looking for ELMo's friends: Sentence-Level Pretraining Beyond Language Modeling."
+    },
+    {
+      "assumption": "The development of more sophisticated multitask and transfer learning techniques is an avenue for further research.",
+      "confidence": 0.6,
+      "category": "training",
+      "source_paper": "Looking for ELMo's friends: Sentence-Level Pretraining Beyond Language Modeling."
+    },
+    {
+      "assumption": "Achieving state-of-the-art performance on multi-class classification datasets is a significant indicator of a model's effectiveness.",
+      "confidence": 0.6,
+      "category": "evaluation",
+      "source_paper": "Improving BERT-Based Text Classification With Auxiliary Sentence and Domain Knowledge"
+    },
+    {
+      "assumption": "Achieving better results on binary sentiment classification datasets is important for demonstrating a model's ability to handle subjective text.",
+      "confidence": 0.6,
+      "category": "evaluation",
+      "source_paper": "Improving BERT-Based Text Classification With Auxiliary Sentence and Domain Knowledge"
+    },
+    {
+      "assumption": "The BERT model architecture serves as a strong baseline for various natural language processing tasks.",
+      "confidence": 0.6,
+      "category": "architectural",
+      "source_paper": "SciBERT: A Pretrained Language Model for Scientific Text"
+    },
+    {
+      "assumption": "The quality and size of the pretraining corpus significantly impact the performance of a pretrained language model.",
+      "confidence": 0.6,
+      "category": "data",
+      "source_paper": "SciBERT: A Pretrained Language Model for Scientific Text"
+    },
+    {
+      "assumption": "Twitter is a suitable platform for bot detection studies.",
+      "confidence": 0.6,
+      "category": "data",
+      "source_paper": "An Empirical Study on Pre-trained Embeddings and Language Models for Bot Detection"
+    },
+    {
+      "assumption": "Large amounts of data are essential for training effective models.",
+      "confidence": 0.6,
+      "category": "data",
+      "source_paper": "Jeff Da at COIN - Shared Task"
+    },
+    {
+      "assumption": "The use of commonsense graph embeddings can enhance the performance of language models.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Jeff Da at COIN - Shared Task"
+    },
+    {
+      "assumption": "Contextualized embeddings are essential for capturing the nuances in E2E-ABSA.",
+      "confidence": 0.6,
+      "category": "architectural",
+      "source_paper": "Exploiting BERT for End-to-End Aspect-based Sentiment Analysis"
+    },
+    {
+      "assumption": "E2E-ABSA is a task that benefits from the modeling power of pretrained language models.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Exploiting BERT for End-to-End Aspect-based Sentiment Analysis"
+    },
+    {
+      "assumption": "The success of E2E-ABSA models can be measured by their performance relative to existing state-of-the-art works.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Exploiting BERT for End-to-End Aspect-based Sentiment Analysis"
+    }
+  ]
+}

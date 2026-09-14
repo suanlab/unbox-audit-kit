@@ -1,0 +1,702 @@
+[
+  {
+    "paper_id": "https://openalex.org/W2964167098",
+    "paper_title": "End-to-End Relation Extraction using LSTMs on Sequences and Tree Structures",
+    "assumption": "Recurrent neural networks are necessary for modeling sequential dependencies in text",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2964167098",
+    "paper_title": "End-to-End Relation Extraction using LSTMs on Sequences and Tree Structures",
+    "assumption": "Tree-structured representations are essential for capturing syntactic relationships in natural language",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2964167098",
+    "paper_title": "End-to-End Relation Extraction using LSTMs on Sequences and Tree Structures",
+    "assumption": "Joint modeling with shared parameters is required for optimal entity and relation extraction performance",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2964167098",
+    "paper_title": "End-to-End Relation Extraction using LSTMs on Sequences and Tree Structures",
+    "assumption": "Bidirectional processing is necessary for complete contextual understanding in sequence modeling",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2964167098",
+    "paper_title": "End-to-End Relation Extraction using LSTMs on Sequences and Tree Structures",
+    "assumption": "End-to-end learning is superior to pipeline approaches for multi-stage NLP tasks",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2508865106",
+    "paper_title": "Siamese Recurrent Architectures for Learning Sentence Similarity",
+    "assumption": "Sequential processing with recurrence is necessary for effective sentence understanding",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2508865106",
+    "paper_title": "Siamese Recurrent Architectures for Learning Sentence Similarity",
+    "assumption": "Fixed-size vector representations are essential for encoding sentence meaning",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2508865106",
+    "paper_title": "Siamese Recurrent Architectures for Learning Sentence Similarity",
+    "assumption": "Supervised learning with labeled pairs is required for learning semantic similarity",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2508865106",
+    "paper_title": "Siamese Recurrent Architectures for Learning Sentence Similarity",
+    "assumption": "Word embeddings are necessary building blocks for sentence-level semantic understanding",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2508865106",
+    "paper_title": "Siamese Recurrent Architectures for Learning Sentence Similarity",
+    "assumption": "Siamese architectures are essential for learning comparative relationships between sequences",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963374479",
+    "paper_title": "Neural Architecture Search with Reinforcement Learning",
+    "assumption": "Human-designed architectures represent the optimal baseline for neural network design",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963374479",
+    "paper_title": "Neural Architecture Search with Reinforcement Learning",
+    "assumption": "Validation set accuracy is the primary objective function for architecture optimization",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963374479",
+    "paper_title": "Neural Architecture Search with Reinforcement Learning",
+    "assumption": "Sequential generation is necessary for composing neural network architectures",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963374479",
+    "paper_title": "Neural Architecture Search with Reinforcement Learning",
+    "assumption": "Reinforcement learning is required for optimizing discrete architectural search spaces",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963374479",
+    "paper_title": "Neural Architecture Search with Reinforcement Learning",
+    "assumption": "Architecture search requires separate controller and child network training phases",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1985258458",
+    "paper_title": "From Feedforward to Recurrent LSTM Neural Networks for Language Modeling",
+    "assumption": "Sequential dependencies in language require recurrent connections for optimal modeling",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1985258458",
+    "paper_title": "From Feedforward to Recurrent LSTM Neural Networks for Language Modeling",
+    "assumption": "Language modeling fundamentally requires probabilistic estimation over word sequences",
+    "confidence": 0.92,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1985258458",
+    "paper_title": "From Feedforward to Recurrent LSTM Neural Networks for Language Modeling",
+    "assumption": "Perplexity is the canonical metric for evaluating language model quality",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W1985258458",
+    "paper_title": "From Feedforward to Recurrent LSTM Neural Networks for Language Modeling",
+    "assumption": "Neural network language models necessarily require more computational resources than statistical models",
+    "confidence": 0.88,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1985258458",
+    "paper_title": "From Feedforward to Recurrent LSTM Neural Networks for Language Modeling",
+    "assumption": "Word-level tokenization is the appropriate granularity for language modeling",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2964036636",
+    "paper_title": "A Latent Variable Recurrent Neural Network for Discourse-Driven Language Models",
+    "assumption": "Recurrent architectures are necessary for modeling sequential dependencies in language",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2964036636",
+    "paper_title": "A Latent Variable Recurrent Neural Network for Discourse-Driven Language Models",
+    "assumption": "Discriminative training is required for learning high-quality word representations",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2964036636",
+    "paper_title": "A Latent Variable Recurrent Neural Network for Discourse-Driven Language Models",
+    "assumption": "Joint modeling of multiple linguistic phenomena requires shared parametric architectures",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2964036636",
+    "paper_title": "A Latent Variable Recurrent Neural Network for Discourse-Driven Language Models",
+    "assumption": "Latent variables are necessary for modeling unobserved linguistic structures",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2964036636",
+    "paper_title": "A Latent Variable Recurrent Neural Network for Discourse-Driven Language Models",
+    "assumption": "Word-level prediction is essential for effective language modeling",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2740586471",
+    "paper_title": "Contextual Bidirectional Long Short-Term Memory Recurrent Neural Network Language Models: A Generative Approach to Sentiment Analysis",
+    "assumption": "Recurrent architectures are necessary for effective sequence modeling in natural language",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2740586471",
+    "paper_title": "Contextual Bidirectional Long Short-Term Memory Recurrent Neural Network Language Models: A Generative Approach to Sentiment Analysis",
+    "assumption": "Language understanding requires explicit modeling of temporal dependencies through sequential processing",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2740586471",
+    "paper_title": "Contextual Bidirectional Long Short-Term Memory Recurrent Neural Network Language Models: A Generative Approach to Sentiment Analysis",
+    "assumption": "Bidirectional context processing is essential for comprehensive text understanding",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2740586471",
+    "paper_title": "Contextual Bidirectional Long Short-Term Memory Recurrent Neural Network Language Models: A Generative Approach to Sentiment Analysis",
+    "assumption": "Discriminative classification is the natural paradigm for sentiment analysis tasks",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2740586471",
+    "paper_title": "Contextual Bidirectional Long Short-Term Memory Recurrent Neural Network Language Models: A Generative Approach to Sentiment Analysis",
+    "assumption": "Word-level predictions require aggregation mechanisms to produce document-level classifications",
+    "confidence": 0.82,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2951559648",
+    "paper_title": "Character-Aware Neural Language Models",
+    "assumption": "Recurrent neural networks are essential for effective language modeling",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2951559648",
+    "paper_title": "Character-Aware Neural Language Models",
+    "assumption": "Word-level predictions are necessary for meaningful language modeling evaluation",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2951559648",
+    "paper_title": "Character-Aware Neural Language Models",
+    "assumption": "Hierarchical composition from characters to words requires explicit architectural components",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2951559648",
+    "paper_title": "Character-Aware Neural Language Models",
+    "assumption": "Sequential processing is required for capturing language dependencies",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2951559648",
+    "paper_title": "Character-Aware Neural Language Models",
+    "assumption": "Convolutional layers are necessary for effective local feature extraction from character sequences",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963266340",
+    "paper_title": "A theoretically grounded application of dropout in recurrent neural networks",
+    "assumption": "Recurrent connections are necessary for sequential modeling in neural networks",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963266340",
+    "paper_title": "A theoretically grounded application of dropout in recurrent neural networks",
+    "assumption": "Dropout regularization requires different mechanisms for recurrent versus feedforward connections",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963266340",
+    "paper_title": "A theoretically grounded application of dropout in recurrent neural networks",
+    "assumption": "Bayesian inference provides the correct theoretical foundation for understanding regularization techniques",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963266340",
+    "paper_title": "A theoretically grounded application of dropout in recurrent neural networks",
+    "assumption": "Overfitting is an inherent and primary challenge that must be addressed in recurrent neural networks",
+    "confidence": 0.88,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963266340",
+    "paper_title": "A theoretically grounded application of dropout in recurrent neural networks",
+    "assumption": "Perplexity is the appropriate evaluation metric for language modeling quality",
+    "confidence": 0.82,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2510940142",
+    "paper_title": "Learning Text Similarity with Siamese Recurrent Networks",
+    "assumption": "Recurrent architectures are necessary for processing variable-length sequential text data",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2510940142",
+    "paper_title": "Learning Text Similarity with Siamese Recurrent Networks",
+    "assumption": "Character-level processing is essential for handling lexical variation and out-of-vocabulary terms",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2510940142",
+    "paper_title": "Learning Text Similarity with Siamese Recurrent Networks",
+    "assumption": "Siamese architectures are required for learning similarity metrics between text pairs",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2510940142",
+    "paper_title": "Learning Text Similarity with Siamese Recurrent Networks",
+    "assumption": "Fixed-dimensional embeddings are necessary for effective similarity computation",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2510940142",
+    "paper_title": "Learning Text Similarity with Siamese Recurrent Networks",
+    "assumption": "Bidirectional processing is essential for capturing complete contextual information in sequences",
+    "confidence": 0.82,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2555428947",
+    "paper_title": "Unsupervised Pretraining for Sequence to Sequence Learning",
+    "assumption": "Task-specific supervised fine-tuning is necessary for sequence-to-sequence models to achieve good performance",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2555428947",
+    "paper_title": "Unsupervised Pretraining for Sequence to Sequence Learning",
+    "assumption": "Encoder-decoder architectures are essential for sequence-to-sequence tasks",
+    "confidence": 0.92,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2555428947",
+    "paper_title": "Unsupervised Pretraining for Sequence to Sequence Learning",
+    "assumption": "Language model pretraining objectives are sufficient for learning useful representations for downstream sequence tasks",
+    "confidence": 0.88,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2555428947",
+    "paper_title": "Unsupervised Pretraining for Sequence to Sequence Learning",
+    "assumption": "Large amounts of labeled data are required for effective sequence-to-sequence learning",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2555428947",
+    "paper_title": "Unsupervised Pretraining for Sequence to Sequence Learning",
+    "assumption": "BLEU score is the appropriate metric for evaluating sequence generation quality",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2586756136",
+    "paper_title": "A Hybrid Convolutional Variational Autoencoder for Text Generation",
+    "assumption": "Variational autoencoders are necessary for learning meaningful latent representations of text",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2586756136",
+    "paper_title": "A Hybrid Convolutional Variational Autoencoder for Text Generation",
+    "assumption": "Text generation requires recurrent components to model sequential dependencies",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2586756136",
+    "paper_title": "A Hybrid Convolutional Variational Autoencoder for Text Generation",
+    "assumption": "Posterior collapse is an inherent problem that must be actively avoided in text VAEs",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2586756136",
+    "paper_title": "A Hybrid Convolutional Variational Autoencoder for Text Generation",
+    "assumption": "Convolutional architectures are primarily designed for spatial data and require adaptation for sequential text",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2586756136",
+    "paper_title": "A Hybrid Convolutional Variational Autoencoder for Text Generation",
+    "assumption": "Encoder-decoder architectures are essential for text generation tasks",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2296712013",
+    "paper_title": "Hierarchical Neural Network Generative Models for Movie Dialogues.",
+    "assumption": "Recurrent architectures are necessary for modeling sequential dependencies in dialogue",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2296712013",
+    "paper_title": "Hierarchical Neural Network Generative Models for Movie Dialogues.",
+    "assumption": "Hierarchical structure is essential for capturing multi-turn dialogue context",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2296712013",
+    "paper_title": "Hierarchical Neural Network Generative Models for Movie Dialogues.",
+    "assumption": "Encoder-decoder frameworks are required for generative dialogue modeling",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2296712013",
+    "paper_title": "Hierarchical Neural Network Generative Models for Movie Dialogues.",
+    "assumption": "Pre-trained word embeddings are necessary for effective natural language understanding",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2296712013",
+    "paper_title": "Hierarchical Neural Network Generative Models for Movie Dialogues.",
+    "assumption": "Transfer learning from larger corpora is essential for improving dialogue model performance",
+    "confidence": 0.82,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963077125",
+    "paper_title": "Recurrent Memory Networks for Language Modeling",
+    "assumption": "Recurrence is necessary for effective language modeling",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963077125",
+    "paper_title": "Recurrent Memory Networks for Language Modeling",
+    "assumption": "Understanding model internals requires specialized architectural modifications",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963077125",
+    "paper_title": "Recurrent Memory Networks for Language Modeling",
+    "assumption": "Sequential processing is essential for capturing linguistic patterns",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963077125",
+    "paper_title": "Recurrent Memory Networks for Language Modeling",
+    "assumption": "Memory mechanisms must be explicitly integrated into neural architectures for language tasks",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963077125",
+    "paper_title": "Recurrent Memory Networks for Language Modeling",
+    "assumption": "Perplexity is the canonical metric for evaluating language model quality",
+    "confidence": 0.92,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2758310181",
+    "paper_title": "Using Target-side Monolingual Data for Neural Machine Translation through Multi-task Learning",
+    "assumption": "Parallel bilingual data is the primary resource required for effective machine translation",
+    "confidence": 0.95,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2758310181",
+    "paper_title": "Using Target-side Monolingual Data for Neural Machine Translation through Multi-task Learning",
+    "assumption": "Sequential generation with recurrent architectures is necessary for neural machine translation",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2758310181",
+    "paper_title": "Using Target-side Monolingual Data for Neural Machine Translation through Multi-task Learning",
+    "assumption": "Attention mechanisms are essential for handling source-target alignment in neural translation",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2758310181",
+    "paper_title": "Using Target-side Monolingual Data for Neural Machine Translation through Multi-task Learning",
+    "assumption": "Encoder-decoder architectures are required for sequence-to-sequence translation tasks",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2758310181",
+    "paper_title": "Using Target-side Monolingual Data for Neural Machine Translation through Multi-task Learning",
+    "assumption": "Target-side language modeling and translation are fundamentally compatible tasks for joint optimization",
+    "confidence": 0.82,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2551884415",
+    "paper_title": "Coherent Dialogue with Attention-Based Language Models",
+    "assumption": "Sequential processing with recurrence is necessary for modeling conversational dependencies",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2551884415",
+    "paper_title": "Coherent Dialogue with Attention-Based Language Models",
+    "assumption": "Attention mechanisms are essential for handling variable-length sequence dependencies in dialogue",
+    "confidence": 0.92,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2551884415",
+    "paper_title": "Coherent Dialogue with Attention-Based Language Models",
+    "assumption": "Autoregressive word-by-word generation is required for natural language dialogue systems",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2551884415",
+    "paper_title": "Coherent Dialogue with Attention-Based Language Models",
+    "assumption": "Conversation history must be explicitly modeled through specialized memory mechanisms",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2551884415",
+    "paper_title": "Coherent Dialogue with Attention-Based Language Models",
+    "assumption": "Dataset-specific evaluation metrics are sufficient for measuring dialogue quality",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2508661145",
+    "paper_title": "Larger-Context Language Modelling with Recurrent Neural Network",
+    "assumption": "Recurrent architectures are necessary for effective language modeling",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2508661145",
+    "paper_title": "Larger-Context Language Modelling with Recurrent Neural Network",
+    "assumption": "Sequential processing through hidden states is essential for capturing temporal dependencies in language",
+    "confidence": 0.92,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2508661145",
+    "paper_title": "Larger-Context Language Modelling with Recurrent Neural Network",
+    "assumption": "LSTM units are required to handle long-range dependencies in text sequences",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2508661145",
+    "paper_title": "Larger-Context Language Modelling with Recurrent Neural Network",
+    "assumption": "Perplexity is the definitive metric for evaluating language model quality",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2508661145",
+    "paper_title": "Larger-Context Language Modelling with Recurrent Neural Network",
+    "assumption": "Language modeling requires autoregressive next-token prediction as the fundamental training objective",
+    "confidence": 0.93,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2962883174",
+    "paper_title": "Learning Intrinsic Sparse Structures within Long Short-Term Memory",
+    "assumption": "Recurrent architectures are necessary for sequential modeling tasks",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2962883174",
+    "paper_title": "Learning Intrinsic Sparse Structures within Long Short-Term Memory",
+    "assumption": "Model compression requires maintaining the original architectural paradigm",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2962883174",
+    "paper_title": "Learning Intrinsic Sparse Structures within Long Short-Term Memory",
+    "assumption": "Dimensional consistency between internal components is essential for valid neural network units",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2962883174",
+    "paper_title": "Learning Intrinsic Sparse Structures within Long Short-Term Memory",
+    "assumption": "Sparsity-based compression is necessary for achieving significant model size reduction",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2962883174",
+    "paper_title": "Learning Intrinsic Sparse Structures within Long Short-Term Memory",
+    "assumption": "Regularization techniques are required for learning sparse neural network structures",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2962902328",
+    "paper_title": "End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF",
+    "assumption": "Sequence labeling requires modeling both local label dependencies and sequential dependencies in the input",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2962902328",
+    "paper_title": "End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF",
+    "assumption": "Character-level representations are necessary for handling out-of-vocabulary words and morphological variations",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2962902328",
+    "paper_title": "End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF",
+    "assumption": "Bidirectional context is essential for optimal sequence labeling performance",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2962902328",
+    "paper_title": "End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF",
+    "assumption": "Structured prediction with explicit label transition modeling is required for sequence labeling",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2962902328",
+    "paper_title": "End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF",
+    "assumption": "Neural architectures require recurrent mechanisms to effectively model sequential dependencies",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963899393",
+    "paper_title": "Learning to Create and Reuse Words in Open-Vocabulary Neural Language Modeling",
+    "assumption": "Fixed vocabularies are necessary for tractable neural language modeling",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963899393",
+    "paper_title": "Learning to Create and Reuse Words in Open-Vocabulary Neural Language Modeling",
+    "assumption": "Character-level processing is required for open-vocabulary word generation",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963899393",
+    "paper_title": "Learning to Create and Reuse Words in Open-Vocabulary Neural Language Modeling",
+    "assumption": "Hierarchical architectures are essential for modeling multi-level linguistic structure",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963899393",
+    "paper_title": "Learning to Create and Reuse Words in Open-Vocabulary Neural Language Modeling",
+    "assumption": "LSTM architectures are necessary for sequential language modeling",
+    "confidence": 0.75,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963899393",
+    "paper_title": "Learning to Create and Reuse Words in Open-Vocabulary Neural Language Modeling",
+    "assumption": "Explicit caching mechanisms are required to model word reuse patterns",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2508429489",
+    "paper_title": "Long-Term Recurrent Convolutional Networks for Visual Recognition and Description",
+    "assumption": "Recurrence is necessary for modeling sequential temporal dependencies",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2508429489",
+    "paper_title": "Long-Term Recurrent Convolutional Networks for Visual Recognition and Description",
+    "assumption": "Convolutional architectures are essential for effective visual feature extraction",
+    "confidence": 0.92,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2508429489",
+    "paper_title": "Long-Term Recurrent Convolutional Networks for Visual Recognition and Description",
+    "assumption": "End-to-end joint training is required for optimal multimodal performance",
+    "confidence": 0.88,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2508429489",
+    "paper_title": "Long-Term Recurrent Convolutional Networks for Visual Recognition and Description",
+    "assumption": "Backpropagation through time is necessary for learning temporal representations",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2508429489",
+    "paper_title": "Long-Term Recurrent Convolutional Networks for Visual Recognition and Description",
+    "assumption": "Deep hierarchical representations are essential for complex visual understanding",
+    "confidence": 0.83,
+    "category": "architectural"
+  }
+]

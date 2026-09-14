@@ -1,0 +1,72 @@
+{
+  "paradigm": "transformer",
+  "year": 2017,
+  "ground_truth": "recurrence is necessary for sequence modeling",
+  "ground_truth_aliases": [
+    "recurrence is necessary for sequence modeling",
+    "recurrent structure is required for sequence modeling",
+    "sequence models require recurrence"
+  ],
+  "extraction_model": "gpt-4o",
+  "num_papers": 15,
+  "num_raw_assumptions": 75,
+  "num_unique_assumptions": 73,
+  "best_similarity": 0.8155,
+  "soft_rank": 1.0,
+  "soft_recall_at_5": 1.0,
+  "soft_recall_at_10": 1.0,
+  "soft_recall_at_20": 1.0,
+  "top_10_assumptions": [
+    {
+      "rank": 1,
+      "assumption": "Recurrence is necessary for modeling sequential data",
+      "similarity": 0.8155
+    },
+    {
+      "rank": 9,
+      "assumption": "Recurrence is necessary for processing sequential data in language modeling",
+      "similarity": 0.7277
+    },
+    {
+      "rank": 17,
+      "assumption": "Recurrent connections are essential for modeling sequential data",
+      "similarity": 0.7016
+    },
+    {
+      "rank": 7,
+      "assumption": "Recurrent neural networks are necessary for sequence-to-sequence tasks",
+      "similarity": 0.6958
+    },
+    {
+      "rank": 2,
+      "assumption": "Recurrent neural networks are necessary for sequence processing",
+      "similarity": 0.6931
+    },
+    {
+      "rank": 4,
+      "assumption": "Recurrence is necessary for processing sequential data.",
+      "similarity": 0.6855
+    },
+    {
+      "rank": 10,
+      "assumption": "Recurrence is necessary for sequence processing in machine translation",
+      "similarity": 0.6832
+    },
+    {
+      "rank": 14,
+      "assumption": "Recurrent neural networks are necessary for modeling sequences in video-to-text tasks",
+      "similarity": 0.6689
+    },
+    {
+      "rank": 16,
+      "assumption": "Recurrence is necessary for processing sequential data in neural networks.",
+      "similarity": 0.6392
+    },
+    {
+      "rank": 35,
+      "assumption": "Recurrent neural networks are required for processing sequential data",
+      "similarity": 0.6218
+    }
+  ],
+  "ran_at": "2026-03-23T12:18:42.364494+00:00"
+}

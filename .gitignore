@@ -1,0 +1,52 @@
+# Secrets
+.env
+
+# Virtual environment
+.venv/
+
+# Python caches
+__pycache__/
+*.pyc
+.ruff_cache/
+*.egg-info/
+
+# Build/IDE
+.omc/
+*.aux
+*.log
+*.fls
+*.fdb_latexmk
+*.out
+*.synctex.gz
+
+# Failed experiment runs
+experiments/failed_runs/
+
+# Build / run logs (transient; top-level only — archive logs under experiments/ are kept)
+/logs/
+
+# LaTeX bib artifacts (regenerated)
+*.bbl
+*.blg
+
+# Generated annotation kit (regenerate: bash scripts/build_annotation_kit.sh)
+/annotation_kit.zip
+
+# Internal audit docs (root copy; canonical lives in .internal/)
+CHECK.md
+
+# Human annotation raw returns (PII risk: real names/initials).
+# Never commit any *_complete.csv or the raw submission archive; only the
+# anonymized aggregate annotation/g1_results.json (R01..RNN) is tracked.
+annotation/*_complete.csv
+annotation/**/*_complete.csv
+annotation/Unbox-*.zip
+!annotation/pairs_for_raters.csv
+
+# OSS LLM weights / HF cache (large)
+hf_cache/
+.cache/huggingface/
+
+# OS
+.DS_Store
+Thumbs.db

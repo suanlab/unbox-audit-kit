@@ -1,0 +1,471 @@
+{
+  "condition": "no_year",
+  "paradigm": "transformer",
+  "field_name": "sequence modeling",
+  "ground_truth": "recurrence is necessary for sequence modeling",
+  "num_calls": 15,
+  "num_raw_assumptions": 150,
+  "num_unique_assumptions": 71,
+  "assumptions": [
+    {
+      "assumption": "Sequential data is essential for sequence modeling.",
+      "confidence": 0.95,
+      "category": "data",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Recurrent neural networks are necessary for capturing temporal dependencies in sequence data.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Training on large datasets is required for effective sequence model performance.",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Backpropagation through time is essential for training sequence models.",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Evaluation metrics like perplexity or BLEU score are necessary for assessing sequence model performance.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Temporal order of data is essential for sequence modeling tasks.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Embedding layers are required for handling categorical input data in sequence models.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Attention mechanisms are essential for improving sequence model performance on long sequences.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Regularization techniques are necessary to prevent overfitting in sequence models.",
+      "confidence": 0.8,
+      "category": "training",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Sequence models require iterative optimization algorithms for training.",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Large-scale datasets are essential for training effective sequence models",
+      "confidence": 0.95,
+      "category": "data",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Recurrent neural networks or their variants are necessary for capturing temporal dependencies in sequence data",
+      "confidence": 0.9,
+      "category": "architectural",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Backpropagation through time is required for training sequence models",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Sequence models must be evaluated using metrics that account for temporal dependencies",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Attention mechanisms are essential for improving the performance of sequence models",
+      "confidence": 0.88,
+      "category": "architectural",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Pre-training on large corpora is necessary for achieving state-of-the-art performance in sequence modeling tasks",
+      "confidence": 0.92,
+      "category": "training",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Sequence models require regularization techniques to prevent overfitting",
+      "confidence": 0.87,
+      "category": "training",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Theoretical understanding of sequence model dynamics is essential for advancing the field",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Sequence models must be capable of handling variable-length input sequences",
+      "confidence": 0.93,
+      "category": "architectural",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Evaluation of sequence models requires benchmark datasets that reflect real-world applications",
+      "confidence": 0.89,
+      "category": "evaluation",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Large datasets are essential for training effective sequence models",
+      "confidence": 0.95,
+      "category": "data",
+      "call_idx": 2
+    },
+    {
+      "assumption": "Recurrent neural networks or their variants are necessary for modeling sequential data",
+      "confidence": 0.9,
+      "category": "architectural",
+      "call_idx": 2
+    },
+    {
+      "assumption": "Sequence models require temporal dependencies to be captured for accurate predictions",
+      "confidence": 0.95,
+      "category": "theoretical",
+      "call_idx": 2
+    },
+    {
+      "assumption": "Evaluation metrics like BLEU or ROUGE are essential for assessing sequence model performance",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "call_idx": 2
+    },
+    {
+      "assumption": "Attention mechanisms are necessary for improving the performance of sequence models",
+      "confidence": 0.9,
+      "category": "architectural",
+      "call_idx": 2
+    },
+    {
+      "assumption": "Pre-training on large corpora is essential for achieving state-of-the-art results in sequence modeling",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 2
+    },
+    {
+      "assumption": "Sequence models require robust handling of variable-length input sequences",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "call_idx": 2
+    },
+    {
+      "assumption": "Data augmentation is necessary for improving the generalization of sequence models",
+      "confidence": 0.85,
+      "category": "data",
+      "call_idx": 2
+    },
+    {
+      "assumption": "Transfer learning is essential for leveraging knowledge from related tasks in sequence modeling",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 2
+    },
+    {
+      "assumption": "Backpropagation through time is required for training sequence models with temporal dependencies",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 3
+    },
+    {
+      "assumption": "Sequence models must be evaluated using metrics that capture temporal accuracy, such as BLEU or ROUGE for language tasks",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "call_idx": 3
+    },
+    {
+      "assumption": "Attention mechanisms are essential for improving the performance of sequence models on long sequences",
+      "confidence": 0.9,
+      "category": "architectural",
+      "call_idx": 3
+    },
+    {
+      "assumption": "Sequence models require regularization techniques to prevent overfitting on training data",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 3
+    },
+    {
+      "assumption": "Transformer architectures are essential for achieving high performance in many sequence modeling tasks",
+      "confidence": 0.9,
+      "category": "architectural",
+      "call_idx": 3
+    },
+    {
+      "assumption": "Handling variable-length sequences is necessary for the general applicability of sequence models",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "call_idx": 3
+    },
+    {
+      "assumption": "Sequence models must be capable of handling noise and variability in input data to be effective",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "call_idx": 3
+    },
+    {
+      "assumption": "Evaluation metrics like BLEU or ROUGE are essential for assessing the performance of sequence models",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "call_idx": 4
+    },
+    {
+      "assumption": "Transfer learning is necessary for leveraging knowledge from related tasks in sequence modeling",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 4
+    },
+    {
+      "assumption": "Data augmentation is essential for improving the generalization of sequence models",
+      "confidence": 0.8,
+      "category": "data",
+      "call_idx": 4
+    },
+    {
+      "assumption": "Temporal order is necessary for understanding sequence data.",
+      "confidence": 0.95,
+      "category": "theoretical",
+      "call_idx": 5
+    },
+    {
+      "assumption": "Evaluation metrics like perplexity are required for assessing sequence model performance.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "call_idx": 5
+    },
+    {
+      "assumption": "Embedding layers are essential for representing input sequences in a continuous vector space.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "call_idx": 5
+    },
+    {
+      "assumption": "Sequence-to-sequence models are necessary for tasks involving input-output sequence transformations.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "call_idx": 5
+    },
+    {
+      "assumption": "Attention mechanisms are required for improving sequence model performance on long sequences.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "call_idx": 5
+    },
+    {
+      "assumption": "Data preprocessing is essential for effective sequence model training.",
+      "confidence": 0.8,
+      "category": "data",
+      "call_idx": 5
+    },
+    {
+      "assumption": "Transfer learning is necessary for leveraging pre-trained models to improve sequence modeling tasks",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 6
+    },
+    {
+      "assumption": "Evaluation of sequence models requires benchmarks that reflect real-world applications",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "call_idx": 6
+    },
+    {
+      "assumption": "Temporal dependencies are essential for understanding sequence data",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "call_idx": 7
+    },
+    {
+      "assumption": "Evaluation metrics like BLEU or ROUGE are necessary for assessing sequence model performance",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "call_idx": 7
+    },
+    {
+      "assumption": "Sequence models require handling variable-length input sequences",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "call_idx": 7
+    },
+    {
+      "assumption": "Attention mechanisms are essential for improving sequence model performance",
+      "confidence": 0.85,
+      "category": "architectural",
+      "call_idx": 7
+    },
+    {
+      "assumption": "Pre-training on large corpora is necessary for achieving state-of-the-art results in sequence modeling",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 7
+    },
+    {
+      "assumption": "Sequence models require robust handling of long-range dependencies",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "call_idx": 7
+    },
+    {
+      "assumption": "Sequence models must capture temporal dependencies to be effective",
+      "confidence": 0.95,
+      "category": "theoretical",
+      "call_idx": 8
+    },
+    {
+      "assumption": "Attention mechanisms are necessary for improving sequence model performance",
+      "confidence": 0.9,
+      "category": "architectural",
+      "call_idx": 8
+    },
+    {
+      "assumption": "Pre-training on large corpora is required for achieving state-of-the-art results in sequence modeling",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 8
+    },
+    {
+      "assumption": "Handling variable-length sequences is essential for sequence model architectures",
+      "confidence": 0.9,
+      "category": "architectural",
+      "call_idx": 8
+    },
+    {
+      "assumption": "Sequence models require robust regularization techniques to prevent overfitting",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 8
+    },
+    {
+      "assumption": "Transfer learning is necessary for leveraging knowledge across different sequence modeling tasks",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "call_idx": 8
+    },
+    {
+      "assumption": "Transformer architectures are essential for handling long-range dependencies in sequences",
+      "confidence": 0.9,
+      "category": "architectural",
+      "call_idx": 9
+    },
+    {
+      "assumption": "Data augmentation is necessary for improving the robustness of sequence models",
+      "confidence": 0.75,
+      "category": "data",
+      "call_idx": 9
+    },
+    {
+      "assumption": "Handling variable-length sequences is essential for sequence modeling tasks",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "call_idx": 10
+    },
+    {
+      "assumption": "Preprocessing of sequence data is required to ensure model performance",
+      "confidence": 0.87,
+      "category": "data",
+      "call_idx": 10
+    },
+    {
+      "assumption": "Transfer learning is essential for leveraging pre-trained models in sequence tasks",
+      "confidence": 0.86,
+      "category": "theoretical",
+      "call_idx": 10
+    },
+    {
+      "assumption": "Sequence models must be robust to noise and variability in input data",
+      "confidence": 0.88,
+      "category": "evaluation",
+      "call_idx": 10
+    },
+    {
+      "assumption": "Sequence models require regularization techniques to prevent overfitting due to their high capacity",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 11
+    },
+    {
+      "assumption": "Transformer architectures are essential for achieving competitive performance in modern sequence modeling tasks",
+      "confidence": 0.9,
+      "category": "architectural",
+      "call_idx": 11
+    },
+    {
+      "assumption": "Understanding the theoretical underpinnings of sequence models is required for advancing the field",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "call_idx": 11
+    },
+    {
+      "assumption": "Theoretical understanding of sequence model dynamics is required for advancing the field",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "call_idx": 12
+    },
+    {
+      "assumption": "Sequence models require robust handling of variable-length inputs for effective processing",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "call_idx": 14
+    },
+    {
+      "assumption": "Transformer architectures are essential for achieving high performance in modern sequence modeling tasks",
+      "confidence": 0.9,
+      "category": "architectural",
+      "call_idx": 14
+    }
+  ],
+  "metrics": {
+    "num_unique_assumptions": 71,
+    "best_similarity": 0.6793,
+    "best_matching_assumption": "Recurrent neural networks or their variants are necessary for modeling sequential data",
+    "soft_rank": 1,
+    "soft_recall_at_5": 1.0,
+    "soft_recall_at_10": 1.0,
+    "soft_recall_at_20": 1.0,
+    "top_5_assumptions": [
+      {
+        "assumption": "Recurrent neural networks or their variants are necessary for modeling sequential data",
+        "similarity": 0.6793
+      },
+      {
+        "assumption": "Sequence models require robust handling of long-range dependencies",
+        "similarity": 0.6662
+      },
+      {
+        "assumption": "Sequence models must capture temporal dependencies to be effective",
+        "similarity": 0.6562
+      },
+      {
+        "assumption": "Recurrent neural networks are necessary for capturing temporal dependencies in sequence data.",
+        "similarity": 0.6551
+      },
+      {
+        "assumption": "Sequential data is essential for sequence modeling.",
+        "similarity": 0.6546
+      }
+    ],
+    "paradigm": "transformer",
+    "field_name": "sequence modeling",
+    "num_raw_assumptions": 150
+  }
+}

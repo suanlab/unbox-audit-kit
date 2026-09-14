@@ -1,0 +1,93 @@
+{
+  "paradigm": "attention_mechanism",
+  "description": "Self-attention as the core building block of modern architectures",
+  "seed_assumptions": [
+    "Self-attention over all token pairs is necessary for capturing long-range dependencies",
+    "Quadratic attention complexity is an acceptable cost for sequence modeling quality",
+    "Attention patterns learned from data are superior to structured or fixed connectivity"
+  ],
+  "ran_at": "2026-03-18T09:46:41.566678+00:00",
+  "num_hypotheses": 8,
+  "hypotheses": [
+    {
+      "original_assumption": "Quadratic attention complexity is an acceptable cost for sequence modeling quality",
+      "transformation": "negate",
+      "hypothesis": "Constant-time attention mechanisms can achieve superior sequence modeling quality compared to quadratic attention by leveraging fixed-size compressed representations",
+      "rationale": "This radically challenges the attention scaling paradigm by proposing that compressing sequences into fixed-size representations before attention could actually improve generalization. It suggests that the quadratic cost isn't just expensive but actively harmful to learning.",
+      "novelty": 9,
+      "feasibility": 7,
+      "transformational_potential": 10,
+      "composite": 8.67
+    },
+    {
+      "original_assumption": "Attention patterns learned from data are superior to structured or fixed connectivity",
+      "transformation": "negate",
+      "hypothesis": "Fixed, mathematically-derived attention patterns based on linguistic and cognitive principles consistently outperform learned attention patterns",
+      "rationale": "This challenges the entire premise of learnable attention by suggesting that human-designed patterns reflecting known structures in language and cognition could be more effective. It would represent a return to more structured, interpretable architectures with theoretical foundations.",
+      "novelty": 8,
+      "feasibility": 8,
+      "transformational_potential": 9,
+      "composite": 8.33
+    },
+    {
+      "original_assumption": "Attention patterns learned from data are superior to structured or fixed connectivity",
+      "transformation": "invert",
+      "hypothesis": "Randomly initialized and frozen attention patterns can match or exceed the performance of learned attention when combined with appropriate architectural modifications",
+      "rationale": "This extreme position suggests that the power of transformers comes not from learning attention patterns but from other aspects of the architecture. If true, it would fundamentally change our understanding of what makes these models effective and could lead to much simpler, more efficient designs.",
+      "novelty": 9,
+      "feasibility": 6,
+      "transformational_potential": 10,
+      "composite": 8.33
+    },
+    {
+      "original_assumption": "Self-attention over all token pairs is necessary for capturing long-range dependencies",
+      "transformation": "negate",
+      "hypothesis": "Long-range dependencies can be captured more effectively through hierarchical local attention patterns that never directly connect distant tokens",
+      "rationale": "This challenges the fundamental premise that direct token-to-token attention is needed for long-range understanding. Instead, information could propagate through intermediate representations in a way that's both more interpretable and potentially more robust to noise.",
+      "novelty": 8,
+      "feasibility": 7,
+      "transformational_potential": 9,
+      "composite": 8.0
+    },
+    {
+      "original_assumption": "Attention patterns learned from data are superior to structured or fixed connectivity",
+      "transformation": "relax",
+      "hypothesis": "Hybrid attention combining fixed structural priors with learned refinements achieves better sample efficiency and generalization than purely learned attention",
+      "rationale": "This proposes that starting with structured connectivity and allowing limited learning could capture the benefits of both approaches. It could lead to more interpretable models that require less data and generalize better to out-of-distribution examples.",
+      "novelty": 6,
+      "feasibility": 9,
+      "transformational_potential": 7,
+      "composite": 7.33
+    },
+    {
+      "original_assumption": "Self-attention over all token pairs is necessary for capturing long-range dependencies",
+      "transformation": "relax",
+      "hypothesis": "Only a small, learnable subset of token pairs need attention connections, with the optimal connectivity pattern being extremely sparse and task-dependent",
+      "rationale": "This suggests that most attention weights are redundant and that we could achieve similar performance with dramatically fewer connections. This could lead to both computational savings and better interpretability of what relationships truly matter.",
+      "novelty": 6,
+      "feasibility": 8,
+      "transformational_potential": 7,
+      "composite": 7.0
+    },
+    {
+      "original_assumption": "Self-attention over all token pairs is necessary for capturing long-range dependencies",
+      "transformation": "invert",
+      "hypothesis": "Long-range dependencies are best captured by explicitly avoiding direct attention between distant tokens and instead using memory-augmented local processing",
+      "rationale": "This proposes that forcing models to process information locally while maintaining external memory structures could lead to more systematic and generalizable reasoning patterns. It mirrors how biological systems often process information through local circuits with global coordination mechanisms.",
+      "novelty": 7,
+      "feasibility": 6,
+      "transformational_potential": 8,
+      "composite": 7.0
+    },
+    {
+      "original_assumption": "Quadratic attention complexity is an acceptable cost for sequence modeling quality",
+      "transformation": "relax",
+      "hypothesis": "Linear attention complexity is sufficient for most tasks, with quadratic attention only needed for a small subset of critical reasoning steps that can be identified dynamically",
+      "rationale": "This suggests a hybrid approach where models adaptively choose when to use expensive full attention versus cheap approximations. This could maintain performance while dramatically reducing computational costs through intelligent resource allocation.",
+      "novelty": 5,
+      "feasibility": 9,
+      "transformational_potential": 6,
+      "composite": 6.67
+    }
+  ]
+}

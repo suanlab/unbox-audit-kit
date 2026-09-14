@@ -1,0 +1,914 @@
+{
+  "paradigm": "simclr",
+  "name": "Contrastive Learning / SimCLR",
+  "num_papers": 15,
+  "num_raw": 150,
+  "num_unique": 150,
+  "ground_truth": "Labels are necessary for learning visual representations",
+  "aliases": [
+    "supervised training is required for good visual features",
+    "visual representation learning requires labeled data"
+  ],
+  "assumptions": [
+    {
+      "assumption": "A common semantic representation space is essential for knowledge transfer between source and target domains in zero-shot learning.",
+      "confidence": 0.95,
+      "category": "theoretical",
+      "source_paper": "Unsupervised Domain Adaptation for Zero-Shot Learning"
+    },
+    {
+      "assumption": "Deep learning architectures are necessary for achieving state-of-the-art performance in computer vision tasks.",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Discriminative Unsupervised Feature Learning with Exemplar Convolutional Neural Networks"
+    },
+    {
+      "assumption": "Feature representations are essential for capturing visual similarity among instances.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Unsupervised Feature Learning via Non-parametric Instance Discrimination"
+    },
+    {
+      "assumption": "Unsupervised learning is necessary for learning feature representations without annotated class labels.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Unsupervised Feature Learning via Non-parametric Instance Discrimination"
+    },
+    {
+      "assumption": "Deep convolutional neural networks are essential for achieving high performance in image classification tasks.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Transferring Deep Convolutional Neural Networks for the Scene Classification of High-Resolution Remote Sensing Imagery"
+    },
+    {
+      "assumption": "Transfer learning from pre-trained models is necessary for effective feature extraction in domains with limited labeled data.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Transferring Deep Convolutional Neural Networks for the Scene Classification of High-Resolution Remote Sensing Imagery"
+    },
+    {
+      "assumption": "Self-supervised learning is essential for learning effective visual representations without labeled data.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Self-Supervised Learning via Conditional Motion Propagation"
+    },
+    {
+      "assumption": "Pretext tasks are essential for self-supervised learning to encourage the emergence of useful representations.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Self-Supervised Learning via Conditional Motion Propagation"
+    },
+    {
+      "assumption": "Self-supervised learning is essential for learning useful representations without labeled data.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Self-Supervised Representation Learning by Rotation Feature Decoupling"
+    },
+    {
+      "assumption": "Neural networks are necessary for learning complex representations in self-supervised learning.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Self-Supervised Representation Learning by Rotation Feature Decoupling"
+    },
+    {
+      "assumption": "Multi-task learning is essential for learning generalizable representations.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Cross-Domain Self-Supervised Multi-task Feature Learning Using Synthetic Imagery"
+    },
+    {
+      "assumption": "Domain adaptation is required to bridge the gap between synthetic and real data.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Cross-Domain Self-Supervised Multi-task Feature Learning Using Synthetic Imagery"
+    },
+    {
+      "assumption": "Transfer learning is essential for leveraging learned representations in new tasks.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Cross-Domain Self-Supervised Multi-task Feature Learning Using Synthetic Imagery"
+    },
+    {
+      "assumption": "Projection functions are necessary for embedding visual feature vectors into a semantic space.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Unsupervised Domain Adaptation for Zero-Shot Learning"
+    },
+    {
+      "assumption": "Graph-based representations are essential for capturing local neighborhood information in point cloud data.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Dynamic Graph CNN for Learning on Point Clouds"
+    },
+    {
+      "assumption": "Incorporating local neighborhood information is required for enhancing the representation power of point clouds.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Dynamic Graph CNN for Learning on Point Clouds"
+    },
+    {
+      "assumption": "Standard benchmarks like ModelNet40, ShapeNetPart, and S3DIS are essential for evaluating the performance of models on point cloud data.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "Dynamic Graph CNN for Learning on Point Clouds"
+    },
+    {
+      "assumption": "Recovering topology is essential for enriching the representation power of point clouds.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Dynamic Graph CNN for Learning on Point Clouds"
+    },
+    {
+      "assumption": "Point clouds inherently lack topological information, which is required for effective geometric representation.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Dynamic Graph CNN for Learning on Point Clouds"
+    },
+    {
+      "assumption": "Deep learning architectures are necessary for effective face recognition.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Towards Pose Invariant Face Recognition in the Wild"
+    },
+    {
+      "assumption": "Pose variation is a critical challenge that must be addressed for robust face recognition.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Towards Pose Invariant Face Recognition in the Wild"
+    },
+    {
+      "assumption": "High-quality datasets with diverse pose variations are required for training robust face recognition models.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Towards Pose Invariant Face Recognition in the Wild"
+    },
+    {
+      "assumption": "Convolutional Neural Networks (CNNs) are essential for feature extraction in face recognition.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Towards Pose Invariant Face Recognition in the Wild"
+    },
+    {
+      "assumption": "Understanding model decisions is essential for trust and interpretability in machine learning systems.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "On Pixel-Wise Explanations for Non-Linear Classifier Decisions by Layer-Wise Relevance Propagation"
+    },
+    {
+      "assumption": "Convolutional Neural Networks (CNNs) are essential for learning visual representations.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Unsupervised Learning of Visual Representations Using Videos"
+    },
+    {
+      "assumption": "Large-scale datasets are necessary for training effective visual representation models.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Unsupervised Learning of Visual Representations Using Videos"
+    },
+    {
+      "assumption": "Large datasets are essential for training effective deep learning models.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Discriminative Unsupervised Feature Learning with Exemplar Convolutional Neural Networks"
+    },
+    {
+      "assumption": "Feature representations learned by convolutional neural networks are essential for robust performance across various tasks.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Discriminative Unsupervised Feature Learning with Exemplar Convolutional Neural Networks"
+    },
+    {
+      "assumption": "Evaluation on popular benchmark datasets is essential for validating the effectiveness of new learning approaches.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "Discriminative Unsupervised Feature Learning with Exemplar Convolutional Neural Networks"
+    },
+    {
+      "assumption": "Convolutional neural networks are necessary for learning hierarchical feature representations.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Discriminative Unsupervised Feature Learning with Exemplar Convolutional Neural Networks"
+    },
+    {
+      "assumption": "Self-supervised learning is essential for improving domain adaptation in computer vision tasks.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Self-Supervised Domain Adaptation for Computer Vision Tasks"
+    },
+    {
+      "assumption": "Domain adaptation is necessary for transferring knowledge between different but related visual domains.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Self-Supervised Domain Adaptation for Computer Vision Tasks"
+    },
+    {
+      "assumption": "Convolutional Neural Networks (CNNs) are essential for visual representation learning.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Revisiting Self-Supervised Visual Representation Learning"
+    },
+    {
+      "assumption": "Visual representation learning is essential for solving computer vision tasks.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Revisiting Self-Supervised Visual Representation Learning"
+    },
+    {
+      "assumption": "Graph-based methods are essential for effective label propagation in semi-supervised learning.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Learning to propagate labels on graphs: An iterative multitask regression framework for semi-supervised hyperspectral dimensionality reduction"
+    },
+    {
+      "assumption": "Semi-supervised learning is necessary for leveraging both labeled and unlabeled data in hyperspectral dimensionality reduction.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Learning to propagate labels on graphs: An iterative multitask regression framework for semi-supervised hyperspectral dimensionality reduction"
+    },
+    {
+      "assumption": "Dimensionality reduction is essential for preprocessing hyperspectral data before high-level analysis.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Learning to propagate labels on graphs: An iterative multitask regression framework for semi-supervised hyperspectral dimensionality reduction"
+    },
+    {
+      "assumption": "Deep learning architectures are essential for effective feature extraction in image analysis tasks.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Unsupervised Feature Extraction via Deep Learning for Histopathological Classification of Colon Tissue Images"
+    },
+    {
+      "assumption": "Feature extraction is essential for improving the performance of classification tasks in medical imaging.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Unsupervised Feature Extraction via Deep Learning for Histopathological Classification of Colon Tissue Images"
+    },
+    {
+      "assumption": "Quantitative analysis of histopathological images is required to reduce human error and improve diagnostic accuracy.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Unsupervised Feature Extraction via Deep Learning for Histopathological Classification of Colon Tissue Images"
+    },
+    {
+      "assumption": "Motion cues are necessary for learning visual representations in self-supervised learning.",
+      "confidence": 0.85,
+      "category": "data",
+      "source_paper": "Self-Supervised Learning via Conditional Motion Propagation"
+    },
+    {
+      "assumption": "State-of-the-art performance on downstream tasks is required to validate the effectiveness of self-supervised learning frameworks.",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "Self-Supervised Learning via Conditional Motion Propagation"
+    },
+    {
+      "assumption": "Instance discrimination is required for effective self-supervised learning.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Self-Supervised Representation Learning by Rotation Feature Decoupling"
+    },
+    {
+      "assumption": "Benchmarking against state-of-the-art methods is necessary for validating self-supervised learning approaches.",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "Self-Supervised Representation Learning by Rotation Feature Decoupling"
+    },
+    {
+      "assumption": "Synthetic data is necessary for training when real data annotations are scarce or expensive.",
+      "confidence": 0.85,
+      "category": "data",
+      "source_paper": "Cross-Domain Self-Supervised Multi-task Feature Learning Using Synthetic Imagery"
+    },
+    {
+      "assumption": "High-level visual representations are necessary for transfer learning tasks.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Cross-Domain Self-Supervised Multi-task Feature Learning Using Synthetic Imagery"
+    },
+    {
+      "assumption": "Addressing the domain shift problem is essential for effective zero-shot learning.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Unsupervised Domain Adaptation for Zero-Shot Learning"
+    },
+    {
+      "assumption": "Dynamic computation of graph structures is necessary for effectively learning from point clouds.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Dynamic Graph CNN for Learning on Point Clouds"
+    },
+    {
+      "assumption": "Learning global shape properties is necessary for high-level tasks such as classification and segmentation on point clouds.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Dynamic Graph CNN for Learning on Point Clouds"
+    },
+    {
+      "assumption": "Adapting insights from CNNs is necessary for improving point cloud processing techniques.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Dynamic Graph CNN for Learning on Point Clouds"
+    },
+    {
+      "assumption": "Joint learning of multiple tasks is essential for improving performance in complex recognition tasks.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Towards Pose Invariant Face Recognition in the Wild"
+    },
+    {
+      "assumption": "End-to-end learning is essential for optimizing complex neural network architectures.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Towards Pose Invariant Face Recognition in the Wild"
+    },
+    {
+      "assumption": "Evaluation on both controlled and in-the-wild benchmarks is essential for demonstrating model robustness.",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "Towards Pose Invariant Face Recognition in the Wild"
+    },
+    {
+      "assumption": "Visualization of model decisions is necessary for human interpretability.",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "On Pixel-Wise Explanations for Non-Linear Classifier Decisions by Layer-Wise Relevance Propagation"
+    },
+    {
+      "assumption": "Unsupervised learning is required for scenarios where labeled data is scarce or unavailable.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Discriminative Unsupervised Feature Learning with Exemplar Convolutional Neural Networks"
+    },
+    {
+      "assumption": "Robustness to data transformations is required for effective feature learning in unsupervised settings.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Discriminative Unsupervised Feature Learning with Exemplar Convolutional Neural Networks"
+    },
+    {
+      "assumption": "Self-supervised learning is necessary for advancing unsupervised visual representation learning.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Revisiting Self-Supervised Visual Representation Learning"
+    },
+    {
+      "assumption": "Unsupervised learning is necessary for reducing reliance on labeled data in computer vision.",
+      "confidence": 0.85,
+      "category": "data",
+      "source_paper": "Revisiting Self-Supervised Visual Representation Learning"
+    },
+    {
+      "assumption": "Unsupervised learning is necessary for feature extraction when labeled data is scarce or expensive to obtain.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Unsupervised Feature Extraction via Deep Learning for Histopathological Classification of Colon Tissue Images"
+    },
+    {
+      "assumption": "The use of domain-specific prior knowledge is necessary for identifying salient features in medical images.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Unsupervised Feature Extraction via Deep Learning for Histopathological Classification of Colon Tissue Images"
+    },
+    {
+      "assumption": "Evaluation of feature extraction methods is essential for validating their effectiveness in classification tasks.",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "Unsupervised Feature Extraction via Deep Learning for Histopathological Classification of Colon Tissue Images"
+    },
+    {
+      "assumption": "Noise-contrastive estimation is required for handling computational challenges in large-scale instance discrimination.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Unsupervised Feature Learning via Non-parametric Instance Discrimination"
+    },
+    {
+      "assumption": "Non-parametric methods are essential for instance-level classification in unsupervised learning.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Unsupervised Feature Learning via Non-parametric Instance Discrimination"
+    },
+    {
+      "assumption": "Improving network architectures is necessary for enhancing test performance in unsupervised learning.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Unsupervised Feature Learning via Non-parametric Instance Discrimination"
+    },
+    {
+      "assumption": "Compact feature representations are essential for efficient storage and retrieval in large-scale image datasets.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Unsupervised Feature Learning via Non-parametric Instance Discrimination"
+    },
+    {
+      "assumption": "High-resolution remote sensing imagery requires specialized feature extraction techniques to capture relevant information.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Transferring Deep Convolutional Neural Networks for the Scene Classification of High-Resolution Remote Sensing Imagery"
+    },
+    {
+      "assumption": "Hierarchical architectures are required for capturing complex patterns in image data.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Transferring Deep Convolutional Neural Networks for the Scene Classification of High-Resolution Remote Sensing Imagery"
+    },
+    {
+      "assumption": "Large-scale datasets are necessary for training deep learning models effectively.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Transferring Deep Convolutional Neural Networks for the Scene Classification of High-Resolution Remote Sensing Imagery"
+    },
+    {
+      "assumption": "Sparse flow guidance is required to resolve motion ambiguity in self-supervised learning tasks.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Self-Supervised Learning via Conditional Motion Propagation"
+    },
+    {
+      "assumption": "Learning from motion is essential for intelligent agents to develop visual understanding.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Self-Supervised Learning via Conditional Motion Propagation"
+    },
+    {
+      "assumption": "Structural and coherent feature learning is necessary for successful self-supervised learning.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Self-Supervised Learning via Conditional Motion Propagation"
+    },
+    {
+      "assumption": "Decoupling features is necessary for improving generalization in representation learning.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Self-Supervised Representation Learning by Rotation Feature Decoupling"
+    },
+    {
+      "assumption": "Generalization ability is required for representations to be useful across various tasks.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Self-Supervised Representation Learning by Rotation Feature Decoupling"
+    },
+    {
+      "assumption": "Feature learning frameworks must incorporate multiple beneficial properties for effective representation learning.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Self-Supervised Representation Learning by Rotation Feature Decoupling"
+    },
+    {
+      "assumption": "Adversarial learning is essential for effective domain adaptation.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Cross-Domain Self-Supervised Multi-task Feature Learning Using Synthetic Imagery"
+    },
+    {
+      "assumption": "Feature space alignment is required for reducing domain differences.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Cross-Domain Self-Supervised Multi-task Feature Learning Using Synthetic Imagery"
+    },
+    {
+      "assumption": "Predicting multiple properties from a single input is required for comprehensive feature learning.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Cross-Domain Self-Supervised Multi-task Feature Learning Using Synthetic Imagery"
+    },
+    {
+      "assumption": "Unsupervised domain adaptation is required for improving zero-shot learning performance when the target domain is unlabelled.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Unsupervised Domain Adaptation for Zero-Shot Learning"
+    },
+    {
+      "assumption": "Differentiable modules are essential for integrating new operations into existing neural network architectures.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Dynamic Graph CNN for Learning on Point Clouds"
+    },
+    {
+      "assumption": "Capturing semantic characteristics over long distances in feature space is required for effective point cloud analysis.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Dynamic Graph CNN for Learning on Point Clouds"
+    },
+    {
+      "assumption": "Generative Adversarial Networks (GANs) are required for high-fidelity image synthesis.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Towards Pose Invariant Face Recognition in the Wild"
+    },
+    {
+      "assumption": "Cross-entropy optimization is necessary for learning discriminative feature representations.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Towards Pose Invariant Face Recognition in the Wild"
+    },
+    {
+      "assumption": "Identity preservation is necessary for effective face frontalization in recognition tasks.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Towards Pose Invariant Face Recognition in the Wild"
+    },
+    {
+      "assumption": "Pixel-wise analysis is required for understanding image classification decisions.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "On Pixel-Wise Explanations for Non-Linear Classifier Decisions by Layer-Wise Relevance Propagation"
+    },
+    {
+      "assumption": "Unsupervised learning is a viable approach for learning visual representations without labeled data.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Unsupervised Learning of Visual Representations Using Videos"
+    },
+    {
+      "assumption": "Visual tracking can provide necessary supervision for unsupervised learning of visual representations.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Unsupervised Learning of Visual Representations Using Videos"
+    },
+    {
+      "assumption": "Evaluation on standard benchmarks like VOC 2012 is necessary for validating visual representation models.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Unsupervised Learning of Visual Representations Using Videos"
+    },
+    {
+      "assumption": "Transformations of input data are necessary for creating surrogate classes in unsupervised learning.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Discriminative Unsupervised Feature Learning with Exemplar Convolutional Neural Networks"
+    },
+    {
+      "assumption": "Discriminative learning objectives are essential for training models in unsupervised feature learning.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Discriminative Unsupervised Feature Learning with Exemplar Convolutional Neural Networks"
+    },
+    {
+      "assumption": "Pretext tasks are required for effective self-supervised learning.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Self-Supervised Domain Adaptation for Computer Vision Tasks"
+    },
+    {
+      "assumption": "Semantic segmentation is a critical task for evaluating domain adaptation methods.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Self-Supervised Domain Adaptation for Computer Vision Tasks"
+    },
+    {
+      "assumption": "Cross-domain generalization is required for robust computer vision models.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Self-Supervised Domain Adaptation for Computer Vision Tasks"
+    },
+    {
+      "assumption": "Access to diverse datasets is necessary for effective domain adaptation.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Self-Supervised Domain Adaptation for Computer Vision Tasks"
+    },
+    {
+      "assumption": "Self-supervision provides a viable alternative to traditional supervised domain adaptation methods.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Self-Supervised Domain Adaptation for Computer Vision Tasks"
+    },
+    {
+      "assumption": "Benchmark performance is required to validate the effectiveness of visual representation learning methods.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Revisiting Self-Supervised Visual Representation Learning"
+    },
+    {
+      "assumption": "Pretext tasks are essential for self-supervised learning to generate useful representations.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Revisiting Self-Supervised Visual Representation Learning"
+    },
+    {
+      "assumption": "Iterative refinement of pseudo-labels is required for improving the accuracy of semi-supervised learning models.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Learning to propagate labels on graphs: An iterative multitask regression framework for semi-supervised hyperspectral dimensionality reduction"
+    },
+    {
+      "assumption": "A low-dimensional subspace is necessary for effective feature representation in hyperspectral data.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Learning to propagate labels on graphs: An iterative multitask regression framework for semi-supervised hyperspectral dimensionality reduction"
+    },
+    {
+      "assumption": "High-quality image data is required for training effective models in digital pathology.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Unsupervised Feature Extraction via Deep Learning for Histopathological Classification of Colon Tissue Images"
+    },
+    {
+      "assumption": "Clustering of features is necessary for effective quantization in unsupervised learning.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Unsupervised Feature Extraction via Deep Learning for Histopathological Classification of Colon Tissue Images"
+    },
+    {
+      "assumption": "Kinematically-sound representations are necessary for effective downstream task performance.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "Self-Supervised Learning via Conditional Motion Propagation"
+    },
+    {
+      "assumption": "Semantic and instance segmentation are required benchmarks for evaluating visual representation learning.",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "Self-Supervised Learning via Conditional Motion Propagation"
+    },
+    {
+      "assumption": "Predicting transformations is essential for self-supervised feature learning.",
+      "confidence": 0.75,
+      "category": "training",
+      "source_paper": "Self-Supervised Representation Learning by Rotation Feature Decoupling"
+    },
+    {
+      "assumption": "Extensive experiments are necessary to validate the effectiveness of learned representations.",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "Cross-Domain Self-Supervised Multi-task Feature Learning Using Synthetic Imagery"
+    },
+    {
+      "assumption": "Regularization techniques are necessary for improving the robustness of learned models in zero-shot learning.",
+      "confidence": 0.75,
+      "category": "training",
+      "source_paper": "Unsupervised Domain Adaptation for Zero-Shot Learning"
+    },
+    {
+      "assumption": "Layer-wise relevance propagation is essential for decomposing decisions in neural networks.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "On Pixel-Wise Explanations for Non-Linear Classifier Decisions by Layer-Wise Relevance Propagation"
+    },
+    {
+      "assumption": "Generic feature representations are required for tasks that involve geometric matching.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "Discriminative Unsupervised Feature Learning with Exemplar Convolutional Neural Networks"
+    },
+    {
+      "assumption": "Large-scale studies are necessary to uncover insights in self-supervised learning.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "Revisiting Self-Supervised Visual Representation Learning"
+    },
+    {
+      "assumption": "Deep belief networks are a valid architectural choice for unsupervised feature learning.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "Unsupervised Feature Extraction via Deep Learning for Histopathological Classification of Colon Tissue Images"
+    },
+    {
+      "assumption": "The activation values of hidden unit nodes are required as features in deep learning models.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "Unsupervised Feature Extraction via Deep Learning for Histopathological Classification of Colon Tissue Images"
+    },
+    {
+      "assumption": "Fine-tuning learned features is necessary for achieving competitive results in semi-supervised learning and object detection.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Unsupervised Feature Learning via Non-parametric Instance Discrimination"
+    },
+    {
+      "assumption": "Instance discrimination is required for learning discriminative features in the absence of class labels.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Unsupervised Feature Learning via Non-parametric Instance Discrimination"
+    },
+    {
+      "assumption": "Large-scale datasets are essential for training effective unsupervised learning models.",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "Unsupervised Feature Learning via Non-parametric Instance Discrimination"
+    },
+    {
+      "assumption": "Feature coding approaches are essential for transforming dense features into global image features.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Transferring Deep Convolutional Neural Networks for the Scene Classification of High-Resolution Remote Sensing Imagery"
+    },
+    {
+      "assumption": "Combining features from different models is required for improving classification performance.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Transferring Deep Convolutional Neural Networks for the Scene Classification of High-Resolution Remote Sensing Imagery"
+    },
+    {
+      "assumption": "Pre-trained CNN features are more expressive than low- and mid-level hand-engineered features.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Transferring Deep Convolutional Neural Networks for the Scene Classification of High-Resolution Remote Sensing Imagery"
+    },
+    {
+      "assumption": "Self-supervised frameworks must be extendable to practical applications to demonstrate their utility.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Self-Supervised Learning via Conditional Motion Propagation"
+    },
+    {
+      "assumption": "Rotation invariance is essential for robust visual representation learning.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Self-Supervised Representation Learning by Rotation Feature Decoupling"
+    },
+    {
+      "assumption": "Mitigating label noise is essential for improving prediction accuracy in self-supervised learning.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Self-Supervised Representation Learning by Rotation Feature Decoupling"
+    },
+    {
+      "assumption": "State-of-the-art performance is necessary to demonstrate the superiority of a new method.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Cross-Domain Self-Supervised Multi-task Feature Learning Using Synthetic Imagery"
+    },
+    {
+      "assumption": "Benchmark datasets are essential for evaluating the performance of zero-shot learning methods.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Unsupervised Domain Adaptation for Zero-Shot Learning"
+    },
+    {
+      "assumption": "Non-linear classifiers require specialized methods for interpretability.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "On Pixel-Wise Explanations for Non-Linear Classifier Decisions by Layer-Wise Relevance Propagation"
+    },
+    {
+      "assumption": "Heatmaps are necessary for visualizing pixel contributions in image classification.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "On Pixel-Wise Explanations for Non-Linear Classifier Decisions by Layer-Wise Relevance Propagation"
+    },
+    {
+      "assumption": "Siamese networks are essential for learning similarity between data points in unsupervised learning.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Unsupervised Learning of Visual Representations Using Videos"
+    },
+    {
+      "assumption": "Ranking loss functions are required for training models that learn from similarity constraints.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Unsupervised Learning of Visual Representations Using Videos"
+    },
+    {
+      "assumption": "The ability to perform competitively on multiple tasks is required to demonstrate the robustness of visual representation models.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Unsupervised Learning of Visual Representations Using Videos"
+    },
+    {
+      "assumption": "Deep feature space similarity is necessary for identifying related visual elements in unsupervised learning.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Unsupervised Learning of Visual Representations Using Videos"
+    },
+    {
+      "assumption": "Batch normalization is essential for stabilizing training across different domains.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Self-Supervised Domain Adaptation for Computer Vision Tasks"
+    },
+    {
+      "assumption": "Prediction layer alignment is necessary for improving domain adaptation performance.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Self-Supervised Domain Adaptation for Computer Vision Tasks"
+    },
+    {
+      "assumption": "Object recognition is a fundamental task for assessing the effectiveness of domain adaptation.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Self-Supervised Domain Adaptation for Computer Vision Tasks"
+    },
+    {
+      "assumption": "Releasing code is essential for reproducibility in machine learning research.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Revisiting Self-Supervised Visual Representation Learning"
+    },
+    {
+      "assumption": "Challenging common practices is necessary for progress in self-supervised learning.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Revisiting Self-Supervised Visual Representation Learning"
+    },
+    {
+      "assumption": "State-of-the-art results are required to demonstrate the superiority of a new method.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Revisiting Self-Supervised Visual Representation Learning"
+    },
+    {
+      "assumption": "Multitask learning frameworks are essential for simultaneously addressing multiple related tasks in hyperspectral data analysis.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Learning to propagate labels on graphs: An iterative multitask regression framework for semi-supervised hyperspectral dimensionality reduction"
+    },
+    {
+      "assumption": "The use of both labeled and pseudo-labeled data is required for enhancing the discriminative ability of feature representations.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Learning to propagate labels on graphs: An iterative multitask regression framework for semi-supervised hyperspectral dimensionality reduction"
+    },
+    {
+      "assumption": "Evaluation on widely-used hyperspectral image datasets is necessary for validating the effectiveness of dimensionality reduction methods.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Learning to propagate labels on graphs: An iterative multitask regression framework for semi-supervised hyperspectral dimensionality reduction"
+    },
+    {
+      "assumption": "Sparse coding frameworks are required for effective representation learning in zero-shot learning.",
+      "confidence": 0.65,
+      "category": "architectural",
+      "source_paper": "Unsupervised Domain Adaptation for Zero-Shot Learning"
+    },
+    {
+      "assumption": "Kernel-based classifiers require interpretability methods distinct from linear classifiers.",
+      "confidence": 0.65,
+      "category": "theoretical",
+      "source_paper": "On Pixel-Wise Explanations for Non-Linear Classifier Decisions by Layer-Wise Relevance Propagation"
+    },
+    {
+      "assumption": "Nearest neighbour retrieval is necessary for evaluating the quality of learned feature representations.",
+      "confidence": 0.6,
+      "category": "evaluation",
+      "source_paper": "Unsupervised Feature Learning via Non-parametric Instance Discrimination"
+    },
+    {
+      "assumption": "Simple linear classifiers are sufficient when using high-quality features from deep learning models.",
+      "confidence": 0.6,
+      "category": "evaluation",
+      "source_paper": "Transferring Deep Convolutional Neural Networks for the Scene Classification of High-Resolution Remote Sensing Imagery"
+    },
+    {
+      "assumption": "Scene classification tasks benefit from multi-scale feature extraction techniques.",
+      "confidence": 0.6,
+      "category": "architectural",
+      "source_paper": "Transferring Deep Convolutional Neural Networks for the Scene Classification of High-Resolution Remote Sensing Imagery"
+    },
+    {
+      "assumption": "Semantic space projections are necessary for aligning source and target domain data in zero-shot learning.",
+      "confidence": 0.6,
+      "category": "architectural",
+      "source_paper": "Unsupervised Domain Adaptation for Zero-Shot Learning"
+    },
+    {
+      "assumption": "Human experts are essential for validating the interpretability of machine learning models.",
+      "confidence": 0.6,
+      "category": "evaluation",
+      "source_paper": "On Pixel-Wise Explanations for Non-Linear Classifier Decisions by Layer-Wise Relevance Propagation"
+    },
+    {
+      "assumption": "Ensemble methods are essential for improving the performance of visual representation models.",
+      "confidence": 0.6,
+      "category": "architectural",
+      "source_paper": "Unsupervised Learning of Visual Representations Using Videos"
+    },
+    {
+      "assumption": "A feedback system is essential for dynamically refining model predictions in iterative learning frameworks.",
+      "confidence": 0.6,
+      "category": "architectural",
+      "source_paper": "Learning to propagate labels on graphs: An iterative multitask regression framework for semi-supervised hyperspectral dimensionality reduction"
+    },
+    {
+      "assumption": "Classification or recognition accuracy is required as a primary metric for evaluating hyperspectral dimensionality reduction methods.",
+      "confidence": 0.6,
+      "category": "evaluation",
+      "source_paper": "Learning to propagate labels on graphs: An iterative multitask regression framework for semi-supervised hyperspectral dimensionality reduction"
+    },
+    {
+      "assumption": "Transfer learning is essential for zero-shot learning as it involves knowledge transfer from a source to a target domain.",
+      "confidence": 0.55,
+      "category": "theoretical",
+      "source_paper": "Unsupervised Domain Adaptation for Zero-Shot Learning"
+    },
+    {
+      "assumption": "Bag of Words features are necessary for certain types of image classification tasks.",
+      "confidence": 0.55,
+      "category": "data",
+      "source_paper": "On Pixel-Wise Explanations for Non-Linear Classifier Decisions by Layer-Wise Relevance Propagation"
+    },
+    {
+      "assumption": "State-of-the-art performance is required to validate the effectiveness of new zero-shot learning methods.",
+      "confidence": 0.5,
+      "category": "evaluation",
+      "source_paper": "Unsupervised Domain Adaptation for Zero-Shot Learning"
+    },
+    {
+      "assumption": "Pre-trained models are essential for benchmarking interpretability methods.",
+      "confidence": 0.5,
+      "category": "evaluation",
+      "source_paper": "On Pixel-Wise Explanations for Non-Linear Classifier Decisions by Layer-Wise Relevance Propagation"
+    }
+  ]
+}

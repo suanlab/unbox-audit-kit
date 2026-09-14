@@ -1,0 +1,57 @@
+{
+  "baseline": "vanilla_llm",
+  "category": "diffusion",
+  "ran_at": "2026-03-18T00:53:21.041019+00:00",
+  "inputs": {
+    "num_papers": 15,
+    "ground_truth_aliases": [
+      "adversarial training is necessary for high-quality generation",
+      "high-quality generation requires adversarial training",
+      "gan-style adversarial objectives are required for strong image generation"
+    ]
+  },
+  "config": {
+    "model": "claude-sonnet-4-20250514",
+    "top_ks": [
+      5,
+      10,
+      20
+    ],
+    "max_papers": 15,
+    "assumption_limit": 20
+  },
+  "outputs": {
+    "num_candidates": 20,
+    "candidates": [
+      "Adversarial training is necessary for high-quality generation",
+      "Generative models require separate generator and discriminator architectures",
+      "High-resolution synthesis requires multi-scale progressive architectures",
+      "Mode collapse is an inherent problem that must be explicitly addressed",
+      "Disentangled representations require explicit architectural constraints",
+      "Sequential data generation requires recurrent neural networks",
+      "Synthetic data must closely mimic real data distributions to be useful",
+      "Privacy preservation requires explicit disentanglement mechanisms",
+      "Medical image synthesis requires domain-specific architectural modifications",
+      "Text-to-image synthesis requires hierarchical refinement processes",
+      "Cross-modal synthesis requires paired training data",
+      "Pose-invariant recognition requires pose normalization or frontalization",
+      "Edge information must be explicitly incorporated for structural coherence",
+      "Conditional generation requires conditioning at multiple network layers",
+      "Memory mechanisms require external storage modules",
+      "Quantum advantages require exponential classical complexity",
+      "Video synthesis requires explicit temporal consistency constraints",
+      "Multi-modal learning requires separate encoders for each modality",
+      "Latent space interpolation requires continuous probability distributions",
+      "Image quality improvements require adversarial loss functions"
+    ]
+  },
+  "metrics": {
+    "rank": 1.0,
+    "recall_at_5": 1.0,
+    "precision_at_5": 0.2,
+    "recall_at_10": 1.0,
+    "precision_at_10": 0.1,
+    "recall_at_20": 1.0,
+    "precision_at_20": 0.05
+  }
+}

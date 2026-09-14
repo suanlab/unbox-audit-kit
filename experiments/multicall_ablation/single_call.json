@@ -1,0 +1,235 @@
+{
+  "condition": "single_call",
+  "raw_count": 20,
+  "unique_count": 20,
+  "redundancy_rate": 0.0,
+  "best_similarity": 0.6631,
+  "soft_rank": 3,
+  "soft_recall_at_5": 1.0,
+  "soft_recall_at_10": 1.0,
+  "soft_recall_at_20": 1.0,
+  "details": [
+    {
+      "rank": 3,
+      "assumption": "Recurrent neural networks (RNNs) are essential for modeling sequences.",
+      "best_similarity": 0.6631,
+      "is_match": true
+    },
+    {
+      "rank": 4,
+      "assumption": "Handling variable-length sequences is required for effective sequence modeling.",
+      "best_similarity": 0.6406,
+      "is_match": false
+    },
+    {
+      "rank": 16,
+      "assumption": "Sequence models must be able to handle both input and output sequences of variable length.",
+      "best_similarity": 0.5729,
+      "is_match": false
+    },
+    {
+      "rank": 7,
+      "assumption": "Reducing the dimensionality of input feature space is necessary for efficient sequence modeling.",
+      "best_similarity": 0.5196,
+      "is_match": false
+    },
+    {
+      "rank": 14,
+      "assumption": "Neural sequence models must be able to generalize to unseen data.",
+      "best_similarity": 0.519,
+      "is_match": false
+    },
+    {
+      "rank": 20,
+      "assumption": "Neural sequence models must be robust to variations in input data.",
+      "best_similarity": 0.5121,
+      "is_match": false
+    },
+    {
+      "rank": 2,
+      "assumption": "Attention mechanisms are necessary for improving sequence-to-sequence models.",
+      "best_similarity": 0.5046,
+      "is_match": false
+    },
+    {
+      "rank": 6,
+      "assumption": "Gated architectures like LSTM and GRU are essential for capturing long-range dependencies in sequences.",
+      "best_similarity": 0.4896,
+      "is_match": false
+    },
+    {
+      "rank": 9,
+      "assumption": "Incorporating external knowledge or features can enhance the performance of sequence models.",
+      "best_similarity": 0.4679,
+      "is_match": false
+    },
+    {
+      "rank": 13,
+      "assumption": "End-to-end models are preferred over traditional pipeline models for sequence tasks.",
+      "best_similarity": 0.4547,
+      "is_match": false
+    },
+    {
+      "rank": 1,
+      "assumption": "End-to-end training is essential for neural sequence models.",
+      "best_similarity": 0.4528,
+      "is_match": false
+    },
+    {
+      "rank": 17,
+      "assumption": "Attention mechanisms are required to focus on relevant parts of the input sequence.",
+      "best_similarity": 0.3861,
+      "is_match": false
+    },
+    {
+      "rank": 19,
+      "assumption": "The use of large vocabularies is necessary for effective language modeling.",
+      "best_similarity": 0.3847,
+      "is_match": false
+    },
+    {
+      "rank": 12,
+      "assumption": "Attention-based models are required for tasks involving alignment, such as translation and speech recognition.",
+      "best_similarity": 0.3471,
+      "is_match": false
+    },
+    {
+      "rank": 11,
+      "assumption": "Dropout is necessary to prevent overfitting in neural networks.",
+      "best_similarity": 0.3265,
+      "is_match": false
+    },
+    {
+      "rank": 10,
+      "assumption": "Neural networks must be capable of learning representations that capture semantic meaning.",
+      "best_similarity": 0.3164,
+      "is_match": false
+    },
+    {
+      "rank": 5,
+      "assumption": "Large datasets are necessary for training effective neural machine translation models.",
+      "best_similarity": 0.3089,
+      "is_match": false
+    },
+    {
+      "rank": 18,
+      "assumption": "Neural networks must be capable of learning from raw data without extensive preprocessing.",
+      "best_similarity": 0.2788,
+      "is_match": false
+    },
+    {
+      "rank": 8,
+      "assumption": "Evaluation on benchmark datasets is required to demonstrate the effectiveness of new models.",
+      "best_similarity": 0.2746,
+      "is_match": false
+    },
+    {
+      "rank": 15,
+      "assumption": "The integration of multimodal data is essential for tasks involving multiple input types.",
+      "best_similarity": 0.2729,
+      "is_match": false
+    }
+  ],
+  "assumptions": [
+    {
+      "assumption": "End-to-end training is essential for neural sequence models.",
+      "confidence": 0.95,
+      "category": "training"
+    },
+    {
+      "assumption": "Attention mechanisms are necessary for improving sequence-to-sequence models.",
+      "confidence": 0.95,
+      "category": "architectural"
+    },
+    {
+      "assumption": "Recurrent neural networks (RNNs) are essential for modeling sequences.",
+      "confidence": 0.95,
+      "category": "architectural"
+    },
+    {
+      "assumption": "Handling variable-length sequences is required for effective sequence modeling.",
+      "confidence": 0.9,
+      "category": "architectural"
+    },
+    {
+      "assumption": "Large datasets are necessary for training effective neural machine translation models.",
+      "confidence": 0.9,
+      "category": "data"
+    },
+    {
+      "assumption": "Gated architectures like LSTM and GRU are essential for capturing long-range dependencies in sequences.",
+      "confidence": 0.95,
+      "category": "architectural"
+    },
+    {
+      "assumption": "Reducing the dimensionality of input feature space is necessary for efficient sequence modeling.",
+      "confidence": 0.85,
+      "category": "architectural"
+    },
+    {
+      "assumption": "Evaluation on benchmark datasets is required to demonstrate the effectiveness of new models.",
+      "confidence": 0.9,
+      "category": "evaluation"
+    },
+    {
+      "assumption": "Incorporating external knowledge or features can enhance the performance of sequence models.",
+      "confidence": 0.85,
+      "category": "data"
+    },
+    {
+      "assumption": "Neural networks must be capable of learning representations that capture semantic meaning.",
+      "confidence": 0.9,
+      "category": "theoretical"
+    },
+    {
+      "assumption": "Dropout is necessary to prevent overfitting in neural networks.",
+      "confidence": 0.85,
+      "category": "training"
+    },
+    {
+      "assumption": "Attention-based models are required for tasks involving alignment, such as translation and speech recognition.",
+      "confidence": 0.9,
+      "category": "architectural"
+    },
+    {
+      "assumption": "End-to-end models are preferred over traditional pipeline models for sequence tasks.",
+      "confidence": 0.9,
+      "category": "training"
+    },
+    {
+      "assumption": "Neural sequence models must be able to generalize to unseen data.",
+      "confidence": 0.9,
+      "category": "theoretical"
+    },
+    {
+      "assumption": "The integration of multimodal data is essential for tasks involving multiple input types.",
+      "confidence": 0.85,
+      "category": "data"
+    },
+    {
+      "assumption": "Sequence models must be able to handle both input and output sequences of variable length.",
+      "confidence": 0.9,
+      "category": "architectural"
+    },
+    {
+      "assumption": "Attention mechanisms are required to focus on relevant parts of the input sequence.",
+      "confidence": 0.9,
+      "category": "architectural"
+    },
+    {
+      "assumption": "Neural networks must be capable of learning from raw data without extensive preprocessing.",
+      "confidence": 0.85,
+      "category": "data"
+    },
+    {
+      "assumption": "The use of large vocabularies is necessary for effective language modeling.",
+      "confidence": 0.85,
+      "category": "data"
+    },
+    {
+      "assumption": "Neural sequence models must be robust to variations in input data.",
+      "confidence": 0.85,
+      "category": "theoretical"
+    }
+  ]
+}

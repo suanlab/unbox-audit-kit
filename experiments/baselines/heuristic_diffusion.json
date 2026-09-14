@@ -1,0 +1,56 @@
+{
+  "baseline": "heuristic",
+  "category": "diffusion",
+  "ran_at": "2026-03-12T00:25:15.870109+00:00",
+  "inputs": {
+    "num_papers": 60,
+    "ground_truth_aliases": [
+      "adversarial training is necessary for high-quality generation",
+      "high-quality generation requires adversarial training",
+      "gan-style adversarial objectives are required for strong image generation"
+    ]
+  },
+  "config": {
+    "top_ks": [
+      5,
+      10,
+      20
+    ],
+    "candidate_limit": 20,
+    "seed": 7
+  },
+  "outputs": {
+    "num_candidates": 20,
+    "top_candidates": [
+      "Convolutional Neural Networks (CNNs) achieve excellent computer-assisted diagnosis with sufficient annotated training data.",
+      "The sCT generation was sufficiently fast for integration in an MR-guided radiotherapy workflow.",
+      "The realization of the advantage often requires the ability to load classical data efficiently into quantum states.",
+      "Most generative models rely on 2D kernels to generate images and make few assumptions about the 3D world.",
+      "We introduce a different regularization parameter for the learning objective, which proves to be crucial for achieving competitive performance.",
+      "The sCT generation required 5.6 s and 21 s for a single patient volume on a GPU and CPU, respectively.",
+      "Person re-identification (Re-ID) is an important task in video surveillance which automatically searches and identifies people across different cameras.",
+      "Magnetic resonance (MR) imaging plays a highly important role in radiotherapy treatment planning for the segmentation of tumor volumes and organs.",
+      "Nevertheless, annotating sufficient data is labor-intensive and time-consuming, establishing significant barriers for adapting the image captioning systems to new domains.",
+      "More importantly, without any supervision, LeakGAN would be able to implicitly learn sentence structures only through the interaction between MANAGER and WORKER.",
+      "Besides the challenges in image-based virtual try-on (e.g., clothes fidelity, image synthesis), video virtual try-on further requires spatiotemporal consistency.",
+      "Existing person re-identification (re-id) methods mostly assume the availability of large-scale identity labels for model learning in any target domain deployment.",
+      "Different attack strategies have been proposed to generate adversarial examples, but how to produce them with high perceptual quality and more efficiently requires more research efforts.",
+      "First, we pre-train the model to learn the alignment between the neural representations of images and that of text data with the sufficient labeled source domain data.",
+      "Generative adversarial network (GANs) is one of the most important research avenues in the field of artificial intelligence, and its outstanding data generation capacity has received wide attention.",
+      "To handle the issue of insufficient discriminative information, we leverage the cutting-edge generative adversarial training to design our own discriminator to learn discriminative feature representation from different modalities.",
+      "A memory writing gate is designed to select the important text information based on the initial image content, which enables our method to accurately generate images from the text description.",
+      "To evaluate the variability of multiphase flow properties of porous media at the pore scale, it is necessary to acquire a number of representative samples of the void-solid structure.",
+      "In sharp contrast to a traditional autoencoder over data points, VEEGAN does not require specifying a loss function over the data, but rather only over the representations, which are standard normal by assumption.",
+      "However, automated medical-aided diagnosis with computers usually requires a large volume of labeled clinical data without patients' privacy to train the model, which is an empirical problem that still needs to be solved."
+    ]
+  },
+  "metrics": {
+    "rank": 21.0,
+    "recall_at_5": 0.0,
+    "precision_at_5": 0.0,
+    "recall_at_10": 0.0,
+    "precision_at_10": 0.0,
+    "recall_at_20": 0.0,
+    "precision_at_20": 0.0
+  }
+}

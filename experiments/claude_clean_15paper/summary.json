@@ -1,0 +1,146 @@
+{
+  "experiment": "claude_clean_15paper",
+  "prompt_type": "clean_no_examples",
+  "model": "claude-sonnet-4-20250514",
+  "total_api_calls": 60,
+  "soft_threshold": 0.65,
+  "results": [
+    {
+      "paradigm": "transformer",
+      "num_papers": 15,
+      "num_unique_assumptions": 149,
+      "best_similarity": 0.7916,
+      "soft_rank": 26,
+      "soft_recall_at_5": 0.0,
+      "soft_recall_at_10": 0.0,
+      "soft_recall_at_20": 0.0,
+      "top_5_assumptions": [
+        {
+          "assumption": "Encoder-decoder architectures are necessary for sequence-to-sequence learning tasks",
+          "similarity": 0.4823
+        },
+        {
+          "assumption": "Attention mechanisms are essential for effective sequence alignment in neural translation",
+          "similarity": 0.427
+        },
+        {
+          "assumption": "Recurrent neural networks are required for processing sequential data with temporal dependencies",
+          "similarity": 0.6115
+        },
+        {
+          "assumption": "End-to-end learning is necessary for optimal neural machine translation performance",
+          "similarity": 0.3
+        },
+        {
+          "assumption": "Gating mechanisms are essential for controlling information flow in recurrent architectures",
+          "similarity": 0.4426
+        }
+      ]
+    },
+    {
+      "paradigm": "diffusion",
+      "num_papers": 15,
+      "num_unique_assumptions": 145,
+      "best_similarity": 0.7392,
+      "soft_rank": 1,
+      "soft_recall_at_5": 1.0,
+      "soft_recall_at_10": 1.0,
+      "soft_recall_at_20": 1.0,
+      "top_5_assumptions": [
+        {
+          "assumption": "Adversarial training between generator and discriminator networks is necessary for producing high-quality synthetic data",
+          "similarity": 0.7379
+        },
+        {
+          "assumption": "Deep neural networks are required for capturing complex patterns in biomedical time series data",
+          "similarity": 0.2512
+        },
+        {
+          "assumption": "Morphological similarity to real data is essential for validating synthetic biomedical signal quality",
+          "similarity": 0.3337
+        },
+        {
+          "assumption": "Large volumes of labeled clinical data are necessary for training effective automated medical diagnosis models",
+          "similarity": 0.3015
+        },
+        {
+          "assumption": "Gradient-based optimization is required for training generative models on sequential data",
+          "similarity": 0.4862
+        }
+      ]
+    },
+    {
+      "paradigm": "icl",
+      "num_papers": 15,
+      "num_unique_assumptions": 147,
+      "best_similarity": 0.8047,
+      "soft_rank": 35,
+      "soft_recall_at_5": 0.0,
+      "soft_recall_at_10": 0.0,
+      "soft_recall_at_20": 0.0,
+      "top_5_assumptions": [
+        {
+          "assumption": "Large-scale unsupervised pretraining is necessary for achieving strong natural language understanding performance",
+          "similarity": 0.2824
+        },
+        {
+          "assumption": "Transfer learning from general language tasks to specific downstream tasks is essential for efficient NLP model development",
+          "similarity": 0.3644
+        },
+        {
+          "assumption": "Language modeling captures fundamental linguistic knowledge required for natural language understanding",
+          "similarity": 0.2696
+        },
+        {
+          "assumption": "Sentence-level representations are necessary for effective natural language understanding systems",
+          "similarity": 0.2669
+        },
+        {
+          "assumption": "Performance on downstream tasks is the essential measure of pretraining effectiveness",
+          "similarity": 0.3961
+        }
+      ]
+    },
+    {
+      "paradigm": "vit",
+      "num_papers": 15,
+      "num_unique_assumptions": 147,
+      "best_similarity": 0.7594,
+      "soft_rank": 11,
+      "soft_recall_at_5": 0.0,
+      "soft_recall_at_10": 0.0,
+      "soft_recall_at_20": 1.0,
+      "top_5_assumptions": [
+        {
+          "assumption": "Gradient-based backpropagation is necessary for training deep convolutional neural networks",
+          "similarity": 0.4615
+        },
+        {
+          "assumption": "Hierarchical feature extraction through multiple convolutional layers is essential for image understanding",
+          "similarity": 0.563
+        },
+        {
+          "assumption": "Large-scale labeled datasets are required for training effective deep learning models",
+          "similarity": 0.3778
+        },
+        {
+          "assumption": "Classification accuracy on held-out test sets is necessary for validating model performance",
+          "similarity": 0.3124
+        },
+        {
+          "assumption": "Deeper networks with more parameters are essential for capturing complex visual patterns",
+          "similarity": 0.4846
+        }
+      ]
+    }
+  ],
+  "aggregate": {
+    "total_paradigms": 4,
+    "hits_at_5": 1,
+    "hits_at_10": 1,
+    "hits_at_20": 2,
+    "avg_best_similarity": 0.7737,
+    "avg_rank_when_hit": 18.2
+  },
+  "ran_at": "2026-03-24T12:27:14.683745+00:00"
+}

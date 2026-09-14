@@ -1,0 +1,83 @@
+{
+  "field": "Chromatic Signal Processing",
+  "planted_assumption": "Frequency decomposition is necessary for chromatic signal analysis",
+  "with_corpus": {
+    "conf_rank": 1.0,
+    "best_sim": 0.9535,
+    "r_at_5": 1.0,
+    "r_at_10": 1.0,
+    "top_5": [
+      {
+        "rank": 2,
+        "assumption": "Frequency decomposition is essential for chromatic signal processing.",
+        "best_similarity": 0.9535,
+        "is_match": true
+      },
+      {
+        "rank": 4,
+        "assumption": "Frequency domain analysis is essential for understanding and processing chromatic signals.",
+        "best_similarity": 0.9531,
+        "is_match": true
+      },
+      {
+        "rank": 8,
+        "assumption": "Frequency-domain analysis is essential for enhancing accuracy and efficiency in chromatic signal processing.",
+        "best_similarity": 0.9393,
+        "is_match": true
+      },
+      {
+        "rank": 24,
+        "assumption": "Spectral decomposition is necessary for effective chromatic signal processing.",
+        "best_similarity": 0.9096,
+        "is_match": true
+      },
+      {
+        "rank": 18,
+        "assumption": "Spectral decomposition is essential for enhancing chromatic signal processing.",
+        "best_similarity": 0.9076,
+        "is_match": true
+      }
+    ]
+  },
+  "no_corpus": {
+    "conf_rank": 1.0,
+    "best_sim": 0.7417,
+    "r_at_5": 1.0,
+    "r_at_10": 1.0,
+    "top_5": [
+      {
+        "rank": 61,
+        "assumption": "Efficient data processing techniques are required for real-time chromatic signal applications.",
+        "best_similarity": 0.7417,
+        "is_match": true
+      },
+      {
+        "rank": 4,
+        "assumption": "High-quality spectral data is necessary for effective chromatic signal analysis.",
+        "best_similarity": 0.7334,
+        "is_match": true
+      },
+      {
+        "rank": 6,
+        "assumption": "High-quality spectral data is required for effective chromatic signal analysis.",
+        "best_similarity": 0.727,
+        "is_match": true
+      },
+      {
+        "rank": 3,
+        "assumption": "High-quality spectral data is necessary for reliable chromatic signal analysis.",
+        "best_similarity": 0.7188,
+        "is_match": true
+      },
+      {
+        "rank": 5,
+        "assumption": "High-quality spectral data is required for precise chromatic signal analysis.",
+        "best_similarity": 0.7047,
+        "is_match": true
+      }
+    ]
+  },
+  "num_abstracts": 15,
+  "num_unique_assumptions_corpus": 73,
+  "num_unique_assumptions_nocorpus": 90
+}

@@ -1,0 +1,32 @@
+{
+  "llama": {
+    "n_real": 240,
+    "n_synth": 45,
+    "mean_real": -6.496,
+    "mean_synth": -6.0233,
+    "gap": -0.4721,
+    "ci_95_low": -0.5913,
+    "ci_95_high": -0.3534,
+    "gap_significantly_negative": true
+  },
+  "qwen": {
+    "n_real": 240,
+    "n_synth": 45,
+    "mean_real": -6.2407,
+    "mean_synth": -5.9974,
+    "gap": -0.2439,
+    "ci_95_low": -0.3863,
+    "ci_95_high": -0.0989,
+    "gap_significantly_negative": true
+  },
+  "mistral": {
+    "n_real": 240,
+    "n_synth": 45,
+    "mean_real": -6.1038,
+    "mean_synth": -5.9585,
+    "gap": -0.146,
+    "ci_95_low": -0.2697,
+    "ci_95_high": -0.0244,
+    "gap_significantly_negative": true
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "baseline": "heuristic",
+  "category": "icl",
+  "ran_at": "2026-03-12T00:25:15.878994+00:00",
+  "inputs": {
+    "num_papers": 60,
+    "ground_truth_aliases": [
+      "fine-tuning is necessary for task adaptation",
+      "task adaptation requires fine-tuning",
+      "downstream adaptation must update model weights"
+    ]
+  },
+  "config": {
+    "top_ks": [
+      5,
+      10,
+      20
+    ],
+    "candidate_limit": 20,
+    "seed": 7
+  },
+  "outputs": {
+    "num_candidates": 20,
+    "top_candidates": [
+      "Our solution requires no changes to the model architecture from a standard NMT system but instead introduces an artificial token at the beginning of the input sentence to specify the required target language.",
+      "However, it is usually assumed that sufficient testing data are available for training, that is not in accordance with most transfer tasks in real industries where only data in machine healthy condition can be collected in advance.",
+      "On the other hand, subspace learning is not sufficient to reduce the distribution divergence.",
+      "Conventional unsupervised domain adaptation (UDA) assumes that training data are sampled from a single domain.",
+      "However, in many cases, it is hard to obtain sufficient annotations to train these models.",
+      "We believe this novel interpretation connects these two important research fields, and could enlighten future researches.",
+      "Unsupervised domain adaptation (UDA) conventionally assumes labeled source samples coming from a single underlying source distribution.",
+      "Breast lesion detection using ultrasound imaging is considered an important step of computer-aided diagnosis systems.",
+      "Training models for point cloud segmentation requires large amounts of labeled data, which is expensive to obtain.",
+      "And, the second important factor is a proper network complexity that matches the scale of the dataset.",
+      "This approach requires a large number of training examples and performs best for well-defined and narrow tasks.",
+      "The meta-optimization objective requires that steps to improve training domain performance should also improve testing domain performance.",
+      "Management must involve both treatment of affected individual athletes and optimising environments in which all elite athletes train and compete.",
+      "Specifically, we introduce adaptation layers on top of existing neural architectures, where no re-training using the source domain data is required.",
+      "In this paper, we introduce a new benchmark dataset named EgoGesture with sufficient size, variation, and reality to be able to train deep neural networks.",
+      "However, training a deep neural network requires a large amount of labeled data, which is an expensive process in terms of time, labor and human expertise.",
+      "Despite the recent advances on intelligent fault diagnosis of rolling element bearings, existing research works mostly assume training and testing data are drawn from the same distribution.",
+      "Effective classification with imbalanced data is an important area of research, as high class imbalance is naturally inherent in many real-world applications, e.g., fraud detection and cancer detection.",
+      "Machine learning-based methods are data-driven, they do not rely on prior assumptions about array geometries, and are expected to adapt better to array imperfections when compared with model-based counterparts.",
+      "Importantly, we show that it is possible to successfully fine tune a large pretrained language model with noisy data, as opposed to previous works that rely on gold data for fine tuning."
+    ]
+  },
+  "metrics": {
+    "rank": 21.0,
+    "recall_at_5": 0.0,
+    "precision_at_5": 0.0,
+    "recall_at_10": 0.0,
+    "precision_at_10": 0.0,
+    "recall_at_20": 0.0,
+    "precision_at_20": 0.0
+  }
+}

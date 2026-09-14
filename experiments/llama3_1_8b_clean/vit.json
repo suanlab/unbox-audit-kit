@@ -1,0 +1,887 @@
+{
+  "paradigm": "vit",
+  "model": "NousResearch/Meta-Llama-3.1-8B-Instruct",
+  "num_papers": 15,
+  "num_raw_assumptions": 150,
+  "num_unique_assumptions": 146,
+  "num_parse_failures": 0,
+  "seed": 42,
+  "assumptions": [
+    {
+      "assumption": "Deep neural networks require hierarchical representations for effective feature extraction.",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Deformable Convolutional Networks"
+    },
+    {
+      "assumption": "Deep neural networks are necessary for achieving state-of-the-art performance in image recognition tasks.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Compressed residual-VGG16 CNN model for big data places image recognition"
+    },
+    {
+      "assumption": "Convolutional neural networks are essential for image classification and object detection tasks.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Compressed residual-VGG16 CNN model for big data places image recognition"
+    },
+    {
+      "assumption": "Deep neural networks are necessary for state-of-the-art performance in computer vision tasks",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Deeply Supervised Salient Object Detection with Short Connections"
+    },
+    {
+      "assumption": "Convolutional neural networks are essential for image processing and feature extraction",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Deeply Supervised Salient Object Detection with Short Connections"
+    },
+    {
+      "assumption": "Learning spatial transformations is essential for modeling geometric variations in images.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Deformable Convolutional Networks"
+    },
+    {
+      "assumption": "Graphs are necessary for modeling complex spatial relationships in 3D data.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Dynamic Graph CNN for Learning on Point Clouds"
+    },
+    {
+      "assumption": "Deep neural networks are necessary for image segmentation tasks.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "UNet++: Redesigning Skip Connections to Exploit Multiscale Features in Image Segmentation"
+    },
+    {
+      "assumption": "Deep neural networks are necessary for achieving state-of-the-art performance in image classification and semantic segmentation tasks.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "RefineNet: Multi-path Refinement Networks for High-Resolution Semantic Segmentation"
+    },
+    {
+      "assumption": "Deep learning models require a fixed, Euclidean data structure to achieve state-of-the-art performance.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Geometric Deep Learning on Graphs and Manifolds Using Mixture Model CNNs"
+    },
+    {
+      "assumption": "Deep learning architectures are necessary for object detection and recognition tasks.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "A Robust Deep-Learning-Based Detector for Real-Time Tomato Plant Diseases and Pests Recognition"
+    },
+    {
+      "assumption": "Deep neural networks are necessary for achieving state-of-the-art performance in computer vision tasks.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Richer Convolutional Features for Edge Detection"
+    },
+    {
+      "assumption": "Convolutional neural networks are essential for image processing and analysis.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Richer Convolutional Features for Edge Detection"
+    },
+    {
+      "assumption": "Deep learning models are necessary for complex image classification tasks",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Detection of Power Line Insulator Defects Using Aerial Images Analyzed With Convolutional Neural Networks"
+    },
+    {
+      "assumption": "Deep neural networks are necessary for achieving state-of-the-art performance in image classification, detection, and segmentation tasks.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Inverted Residuals and Linear Bottlenecks: Mobile Networks for Classification, Detection and Segmentation"
+    },
+    {
+      "assumption": "Deep learning models are necessary for image classification tasks",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Skin Lesion Analysis towards Melanoma Detection Using Deep Learning Network"
+    },
+    {
+      "assumption": "Deep neural networks are necessary for image classification tasks",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Attention Residual Learning for Skin Lesion Classification"
+    },
+    {
+      "assumption": "Deep neural networks are necessary for modeling complex relationships between data points.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Graph-Based Global Reasoning Networks"
+    },
+    {
+      "assumption": "Convolutional neural networks are the most effective architecture for image processing tasks.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Deformable Convolutional Networks"
+    },
+    {
+      "assumption": "Model size and training speed are critical factors in deep learning model design.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Compressed residual-VGG16 CNN model for big data places image recognition"
+    },
+    {
+      "assumption": "Residual learning is necessary for achieving faster convergence and better generalization in deep neural networks.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Compressed residual-VGG16 CNN model for big data places image recognition"
+    },
+    {
+      "assumption": "Convolutional neural networks are essential for image processing and analysis",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Deeply Supervised Salient Object Detection with Short Connections"
+    },
+    {
+      "assumption": "Multi-scale feature maps are required for accurate object detection and segmentation",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Deeply Supervised Salient Object Detection with Short Connections"
+    },
+    {
+      "assumption": "Multi-scale and multi-level features are required for accurate object detection",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Deeply Supervised Salient Object Detection with Short Connections"
+    },
+    {
+      "assumption": "Deep supervision is necessary for accurate edge and boundary detection",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Deeply Supervised Salient Object Detection with Short Connections"
+    },
+    {
+      "assumption": "Object detection and semantic segmentation are sophisticated vision tasks that require advanced modeling capabilities.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Deformable Convolutional Networks"
+    },
+    {
+      "assumption": "Convolutional neural networks are essential for image analysis and can be adapted to other modalities.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Dynamic Graph CNN for Learning on Point Clouds"
+    },
+    {
+      "assumption": "Local neighborhood information is necessary for capturing spatial relationships in point clouds.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Dynamic Graph CNN for Learning on Point Clouds"
+    },
+    {
+      "assumption": "Convolutional neural networks are essential for image segmentation tasks.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "UNet++: Redesigning Skip Connections to Exploit Multiscale Features in Image Segmentation"
+    },
+    {
+      "assumption": "High-resolution images are essential for accurate semantic segmentation.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "RefineNet: Multi-path Refinement Networks for High-Resolution Semantic Segmentation"
+    },
+    {
+      "assumption": "Residual connections are required for effective end-to-end training of deep neural networks.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "RefineNet: Multi-path Refinement Networks for High-Resolution Semantic Segmentation"
+    },
+    {
+      "assumption": "Convolutional neural networks are the optimal architecture for image analysis tasks.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Geometric Deep Learning on Graphs and Manifolds Using Mixture Model CNNs"
+    },
+    {
+      "assumption": "High-resolution images are required for accurate object detection and recognition.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "A Robust Deep-Learning-Based Detector for Real-Time Tomato Plant Diseases and Pests Recognition"
+    },
+    {
+      "assumption": "Large datasets are necessary for training deep learning models to achieve high accuracy.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "A Robust Deep-Learning-Based Detector for Real-Time Tomato Plant Diseases and Pests Recognition"
+    },
+    {
+      "assumption": "Multiscale and multilevel information is required for accurate object detection and image analysis.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Richer Convolutional Features for Edge Detection"
+    },
+    {
+      "assumption": "Backpropagation is necessary for training neural networks.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Richer Convolutional Features for Edge Detection"
+    },
+    {
+      "assumption": "Convolutional neural networks are essential for image feature extraction",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Detection of Power Line Insulator Defects Using Aerial Images Analyzed With Convolutional Neural Networks"
+    },
+    {
+      "assumption": "The use of residual connections is necessary for improving the representational power of deep neural networks.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Inverted Residuals and Linear Bottlenecks: Mobile Networks for Classification, Detection and Segmentation"
+    },
+    {
+      "assumption": "Depthwise separable convolutions are required for efficient and lightweight neural network architectures.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Inverted Residuals and Linear Bottlenecks: Mobile Networks for Classification, Detection and Segmentation"
+    },
+    {
+      "assumption": "Large datasets are required for training accurate deep learning models",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Skin Lesion Analysis towards Melanoma Detection Using Deep Learning Network"
+    },
+    {
+      "assumption": "Large datasets are required for accurate classification models",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Attention Residual Learning for Skin Lesion Classification"
+    },
+    {
+      "assumption": "Attention mechanisms are essential for handling intra-class variation",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Attention Residual Learning for Skin Lesion Classification"
+    },
+    {
+      "assumption": "Convolutional neural networks are essential for modeling local relations in images and videos.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Graph-Based Global Reasoning Networks"
+    },
+    {
+      "assumption": "Global relations between distant regions are difficult to capture using traditional convolutional neural networks.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Graph-Based Global Reasoning Networks"
+    },
+    {
+      "assumption": "Standard back-propagation is a sufficient optimization method for training deep neural networks.",
+      "confidence": 0.75,
+      "category": "training",
+      "source_paper": "Deformable Convolutional Networks"
+    },
+    {
+      "assumption": "Large-scale datasets are required for training deep neural networks to achieve high recognition accuracy.",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "Compressed residual-VGG16 CNN model for big data places image recognition"
+    },
+    {
+      "assumption": "Evaluation on large-scale datasets is necessary to demonstrate the effectiveness of a deep learning model.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Compressed residual-VGG16 CNN model for big data places image recognition"
+    },
+    {
+      "assumption": "Skip-layer structures are essential for hierarchical feature learning in deep neural networks",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Deeply Supervised Salient Object Detection with Short Connections"
+    },
+    {
+      "assumption": "Skip-layer structures are essential for efficient and effective feature propagation",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Deeply Supervised Salient Object Detection with Short Connections"
+    },
+    {
+      "assumption": "Training data is a critical factor in determining model performance",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "Deeply Supervised Salient Object Detection with Short Connections"
+    },
+    {
+      "assumption": "End-to-end training is the most effective way to train deep neural networks.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Deformable Convolutional Networks"
+    },
+    {
+      "assumption": "Differentiable modules are required for deep learning architectures.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Dynamic Graph CNN for Learning on Point Clouds"
+    },
+    {
+      "assumption": "High-level tasks on point clouds require the incorporation of topological information.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Dynamic Graph CNN for Learning on Point Clouds"
+    },
+    {
+      "assumption": "Skip connections are required for effective feature fusion in deep neural networks.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "UNet++: Redesigning Skip Connections to Exploit Multiscale Features in Image Segmentation"
+    },
+    {
+      "assumption": "Pooling or convolution striding operations are necessary for reducing the spatial dimensions of feature maps in deep neural networks.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "RefineNet: Multi-path Refinement Networks for High-Resolution Semantic Segmentation"
+    },
+    {
+      "assumption": "Semantic segmentation tasks require the use of dense classification problems.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "RefineNet: Multi-path Refinement Networks for High-Resolution Semantic Segmentation"
+    },
+    {
+      "assumption": "Deep learning methods can be generalized to non-Euclidean structured data with minimal modifications.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Geometric Deep Learning on Graphs and Manifolds Using Mixture Model CNNs"
+    },
+    {
+      "assumption": "Data augmentation is essential for reducing overfitting and improving model generalizability.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "A Robust Deep-Learning-Based Detector for Real-Time Tomato Plant Diseases and Pests Recognition"
+    },
+    {
+      "assumption": "Object detection and recognition tasks require the use of convolutional neural networks.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "A Robust Deep-Learning-Based Detector for Real-Time Tomato Plant Diseases and Pests Recognition"
+    },
+    {
+      "assumption": "Evaluation metrics such as F-measure are essential for assessing the performance of image segmentation models.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Richer Convolutional Features for Edge Detection"
+    },
+    {
+      "assumption": "Image-to-image prediction is a fundamental task in computer vision.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Richer Convolutional Features for Edge Detection"
+    },
+    {
+      "assumption": "Data augmentation is required for robustness in deep learning models",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Detection of Power Line Insulator Defects Using Aerial Images Analyzed With Convolutional Neural Networks"
+    },
+    {
+      "assumption": "The evaluation of neural network performance should be based on a combination of accuracy and computational efficiency metrics.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Inverted Residuals and Linear Bottlenecks: Mobile Networks for Classification, Detection and Segmentation"
+    },
+    {
+      "assumption": "The use of pre-trained models is necessary for achieving good performance on downstream tasks.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Inverted Residuals and Linear Bottlenecks: Mobile Networks for Classification, Detection and Segmentation"
+    },
+    {
+      "assumption": "Evaluation metrics such as accuracy are necessary for assessing model performance",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Skin Lesion Analysis towards Melanoma Detection Using Deep Learning Network"
+    },
+    {
+      "assumption": "Residual learning is necessary for improving model performance",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Attention Residual Learning for Skin Lesion Classification"
+    },
+    {
+      "assumption": "Graph-based models are necessary for efficient relational reasoning.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Graph-Based Global Reasoning Networks"
+    },
+    {
+      "assumption": "End-to-end training is required for effective deep learning models.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Graph-Based Global Reasoning Networks"
+    },
+    {
+      "assumption": "Image data is the primary source of information for training vision models.",
+      "confidence": 0.65,
+      "category": "data",
+      "source_paper": "Deformable Convolutional Networks"
+    },
+    {
+      "assumption": "Model compression is essential for deploying deep neural networks on resource-constrained devices.",
+      "confidence": 0.6,
+      "category": "architectural",
+      "source_paper": "Compressed residual-VGG16 CNN model for big data places image recognition"
+    },
+    {
+      "assumption": "The VGG16 architecture is a suitable baseline for image recognition tasks.",
+      "confidence": 0.6,
+      "category": "architectural",
+      "source_paper": "Compressed residual-VGG16 CNN model for big data places image recognition"
+    },
+    {
+      "assumption": "Efficiency and effectiveness are equally important evaluation metrics for computer vision models",
+      "confidence": 0.6,
+      "category": "evaluation",
+      "source_paper": "Deeply Supervised Salient Object Detection with Short Connections"
+    },
+    {
+      "assumption": "Saliency detection is a distinct and important task in computer vision",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Deeply Supervised Salient Object Detection with Short Connections"
+    },
+    {
+      "assumption": "Evaluation on multiple benchmarks is necessary for a comprehensive assessment of model performance",
+      "confidence": 0.6,
+      "category": "evaluation",
+      "source_paper": "Deeply Supervised Salient Object Detection with Short Connections"
+    },
+    {
+      "assumption": "Efficiency, effectiveness, and simplicity are essential criteria for evaluating model performance",
+      "confidence": 0.6,
+      "category": "evaluation",
+      "source_paper": "Deeply Supervised Salient Object Detection with Short Connections"
+    },
+    {
+      "assumption": "The performance of a vision model is directly correlated with its ability to model geometric transformations.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Deformable Convolutional Networks"
+    },
+    {
+      "assumption": "Point clouds inherently lack topological information.",
+      "confidence": 0.6,
+      "category": "data",
+      "source_paper": "Dynamic Graph CNN for Learning on Point Clouds"
+    },
+    {
+      "assumption": "Standard benchmarks are necessary for evaluating the performance of point cloud processing models.",
+      "confidence": 0.6,
+      "category": "evaluation",
+      "source_paper": "Dynamic Graph CNN for Learning on Point Clouds"
+    },
+    {
+      "assumption": "Deep supervision is necessary for training deep neural networks.",
+      "confidence": 0.6,
+      "category": "training",
+      "source_paper": "UNet++: Redesigning Skip Connections to Exploit Multiscale Features in Image Segmentation"
+    },
+    {
+      "assumption": "Long-range residual connections are necessary for capturing high-level semantic features in deep neural networks.",
+      "confidence": 0.6,
+      "category": "architectural",
+      "source_paper": "RefineNet: Multi-path Refinement Networks for High-Resolution Semantic Segmentation"
+    },
+    {
+      "assumption": "Task-specific features can be learned through a unified framework.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Geometric Deep Learning on Graphs and Manifolds Using Mixture Model CNNs"
+    },
+    {
+      "assumption": "The use of pre-trained feature extractors is necessary for deep learning models to achieve state-of-the-art performance.",
+      "confidence": 0.6,
+      "category": "architectural",
+      "source_paper": "A Robust Deep-Learning-Based Detector for Real-Time Tomato Plant Diseases and Pests Recognition"
+    },
+    {
+      "assumption": "The evaluation of deep learning models requires the use of metrics such as accuracy and precision.",
+      "confidence": 0.6,
+      "category": "evaluation",
+      "source_paper": "A Robust Deep-Learning-Based Detector for Real-Time Tomato Plant Diseases and Pests Recognition"
+    },
+    {
+      "assumption": "Object detection and image segmentation are essential tasks in computer vision.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Richer Convolutional Features for Edge Detection"
+    },
+    {
+      "assumption": "Convolutional features are necessary for capturing complex data structures in images.",
+      "confidence": 0.6,
+      "category": "architectural",
+      "source_paper": "Richer Convolutional Features for Edge Detection"
+    },
+    {
+      "assumption": "Object detection can be transformed into a two-level problem using region proposal networks",
+      "confidence": 0.6,
+      "category": "architectural",
+      "source_paper": "Detection of Power Line Insulator Defects Using Aerial Images Analyzed With Convolutional Neural Networks"
+    },
+    {
+      "assumption": "The Imagenet classification task is a suitable benchmark for evaluating the performance of image classification models.",
+      "confidence": 0.6,
+      "category": "evaluation",
+      "source_paper": "Inverted Residuals and Linear Bottlenecks: Mobile Networks for Classification, Detection and Segmentation"
+    },
+    {
+      "assumption": "Object detection and image segmentation tasks require the use of large and complex neural network architectures.",
+      "confidence": 0.6,
+      "category": "architectural",
+      "source_paper": "Inverted Residuals and Linear Bottlenecks: Mobile Networks for Classification, Detection and Segmentation"
+    },
+    {
+      "assumption": "Residual connections are beneficial for deep neural network training",
+      "confidence": 0.6,
+      "category": "architectural",
+      "source_paper": "Skin Lesion Analysis towards Melanoma Detection Using Deep Learning Network"
+    },
+    {
+      "assumption": "Feature extraction and classification can be performed simultaneously in a single model",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Skin Lesion Analysis towards Melanoma Detection Using Deep Learning Network"
+    },
+    {
+      "assumption": "Global average pooling is a required component of image classification models",
+      "confidence": 0.6,
+      "category": "architectural",
+      "source_paper": "Attention Residual Learning for Skin Lesion Classification"
+    },
+    {
+      "assumption": "High-level features are necessary for generating attention maps",
+      "confidence": 0.6,
+      "category": "architectural",
+      "source_paper": "Attention Residual Learning for Skin Lesion Classification"
+    },
+    {
+      "assumption": "High-performance models require the use of state-of-the-art backbone architectures.",
+      "confidence": 0.6,
+      "category": "architectural",
+      "source_paper": "Graph-Based Global Reasoning Networks"
+    },
+    {
+      "assumption": "Evaluation of deep learning models requires extensive experimentation on multiple tasks and datasets.",
+      "confidence": 0.6,
+      "category": "evaluation",
+      "source_paper": "Graph-Based Global Reasoning Networks"
+    },
+    {
+      "assumption": "Convolutional neural networks can be readily extended with new modules to enhance their capabilities.",
+      "confidence": 0.55,
+      "category": "architectural",
+      "source_paper": "Deformable Convolutional Networks"
+    },
+    {
+      "assumption": "Residual learning can be applied to various deep learning models to improve their performance.",
+      "confidence": 0.5,
+      "category": "training",
+      "source_paper": "Compressed residual-VGG16 CNN model for big data places image recognition"
+    },
+    {
+      "assumption": "Deep learning models can be adapted and integrated with other models to improve their performance.",
+      "confidence": 0.5,
+      "category": "architectural",
+      "source_paper": "Compressed residual-VGG16 CNN model for big data places image recognition"
+    },
+    {
+      "assumption": "Fully Convolutional Neural Networks (FCNs) are a necessary building block for image segmentation and object detection",
+      "confidence": 0.5,
+      "category": "architectural",
+      "source_paper": "Deeply Supervised Salient Object Detection with Short Connections"
+    },
+    {
+      "assumption": "The performance of a computer vision model can be evaluated using benchmark datasets",
+      "confidence": 0.5,
+      "category": "evaluation",
+      "source_paper": "Deeply Supervised Salient Object Detection with Short Connections"
+    },
+    {
+      "assumption": "State-of-the-art performance is the primary goal of research in computer vision",
+      "confidence": 0.5,
+      "category": "theoretical",
+      "source_paper": "Deeply Supervised Salient Object Detection with Short Connections"
+    },
+    {
+      "assumption": "Fair comparisons between models require standardized evaluation protocols and datasets",
+      "confidence": 0.5,
+      "category": "evaluation",
+      "source_paper": "Deeply Supervised Salient Object Detection with Short Connections"
+    },
+    {
+      "assumption": "The effectiveness of a vision model can be evaluated through standard benchmarks such as object detection and semantic segmentation.",
+      "confidence": 0.5,
+      "category": "evaluation",
+      "source_paper": "Deformable Convolutional Networks"
+    },
+    {
+      "assumption": "Multi-layer systems are required for learning global shape properties from point clouds.",
+      "confidence": 0.5,
+      "category": "architectural",
+      "source_paper": "Dynamic Graph CNN for Learning on Point Clouds"
+    },
+    {
+      "assumption": "Semantic characteristics can be captured through affinity in feature space.",
+      "confidence": 0.5,
+      "category": "theoretical",
+      "source_paper": "Dynamic Graph CNN for Learning on Point Clouds"
+    },
+    {
+      "assumption": "Ensemble methods are required to achieve optimal performance in deep learning tasks.",
+      "confidence": 0.5,
+      "category": "training",
+      "source_paper": "UNet++: Redesigning Skip Connections to Exploit Multiscale Features in Image Segmentation"
+    },
+    {
+      "assumption": "Chained residual pooling is a necessary component for capturing rich background context in semantic segmentation tasks.",
+      "confidence": 0.5,
+      "category": "architectural",
+      "source_paper": "RefineNet: Multi-path Refinement Networks for High-Resolution Semantic Segmentation"
+    },
+    {
+      "assumption": "The use of multiple paths or branches in a neural network is necessary for achieving high-resolution predictions.",
+      "confidence": 0.5,
+      "category": "architectural",
+      "source_paper": "RefineNet: Multi-path Refinement Networks for High-Resolution Semantic Segmentation"
+    },
+    {
+      "assumption": "Graphs and manifolds are non-Euclidean data structures that require specialized deep learning methods.",
+      "confidence": 0.5,
+      "category": "data",
+      "source_paper": "Geometric Deep Learning on Graphs and Manifolds Using Mixture Model CNNs"
+    },
+    {
+      "assumption": "Deep learning models are necessary for real-time object detection and recognition tasks.",
+      "confidence": 0.5,
+      "category": "architectural",
+      "source_paper": "A Robust Deep-Learning-Based Detector for Real-Time Tomato Plant Diseases and Pests Recognition"
+    },
+    {
+      "assumption": "The use of region-based convolutional neural networks is essential for object detection tasks.",
+      "confidence": 0.5,
+      "category": "architectural",
+      "source_paper": "A Robust Deep-Learning-Based Detector for Real-Time Tomato Plant Diseases and Pests Recognition"
+    },
+    {
+      "assumption": "Large-scale datasets are required for training accurate deep neural networks.",
+      "confidence": 0.5,
+      "category": "data",
+      "source_paper": "Richer Convolutional Features for Edge Detection"
+    },
+    {
+      "assumption": "Speed and accuracy are often trade-offs in computer vision models.",
+      "confidence": 0.5,
+      "category": "evaluation",
+      "source_paper": "Richer Convolutional Features for Edge Detection"
+    },
+    {
+      "assumption": "Image classification performance is evaluated using precision and recall metrics",
+      "confidence": 0.5,
+      "category": "evaluation",
+      "source_paper": "Detection of Power Line Insulator Defects Using Aerial Images Analyzed With Convolutional Neural Networks"
+    },
+    {
+      "assumption": "The use of batch normalization is necessary for stabilizing the training of deep neural networks.",
+      "confidence": 0.5,
+      "category": "training",
+      "source_paper": "Inverted Residuals and Linear Bottlenecks: Mobile Networks for Classification, Detection and Segmentation"
+    },
+    {
+      "assumption": "The number of parameters and computational operations are essential metrics for evaluating the efficiency of neural network architectures.",
+      "confidence": 0.5,
+      "category": "evaluation",
+      "source_paper": "Inverted Residuals and Linear Bottlenecks: Mobile Networks for Classification, Detection and Segmentation"
+    },
+    {
+      "assumption": "Dermoscopic images can be effectively analyzed using deep learning techniques",
+      "confidence": 0.5,
+      "category": "theoretical",
+      "source_paper": "Skin Lesion Analysis towards Melanoma Detection Using Deep Learning Network"
+    },
+    {
+      "assumption": "Lesion segmentation, feature extraction, and classification are distinct but related tasks",
+      "confidence": 0.5,
+      "category": "theoretical",
+      "source_paper": "Skin Lesion Analysis towards Melanoma Detection Using Deep Learning Network"
+    },
+    {
+      "assumption": "Evaluation on a single dataset is sufficient for establishing model performance",
+      "confidence": 0.5,
+      "category": "evaluation",
+      "source_paper": "Attention Residual Learning for Skin Lesion Classification"
+    },
+    {
+      "assumption": "State-of-the-art performance is the primary goal of research",
+      "confidence": 0.5,
+      "category": "evaluation",
+      "source_paper": "Attention Residual Learning for Skin Lesion Classification"
+    },
+    {
+      "assumption": "The performance of deep learning models can be significantly improved by incorporating global reasoning mechanisms.",
+      "confidence": 0.5,
+      "category": "theoretical",
+      "source_paper": "Graph-Based Global Reasoning Networks"
+    },
+    {
+      "assumption": "The goal of computer vision research is to achieve state-of-the-art performance on established benchmarks",
+      "confidence": 0.4,
+      "category": "evaluation",
+      "source_paper": "Deeply Supervised Salient Object Detection with Short Connections"
+    },
+    {
+      "assumption": "Point clouds are a suitable representation for 3D data acquisition devices.",
+      "confidence": 0.4,
+      "category": "data",
+      "source_paper": "Dynamic Graph CNN for Learning on Point Clouds"
+    },
+    {
+      "assumption": "Image segmentation tasks require the use of multiple imaging modalities.",
+      "confidence": 0.4,
+      "category": "data",
+      "source_paper": "UNet++: Redesigning Skip Connections to Exploit Multiscale Features in Image Segmentation"
+    },
+    {
+      "assumption": "The PASCAL VOC 2012 dataset is a challenging and representative benchmark for evaluating semantic segmentation models.",
+      "confidence": 0.4,
+      "category": "evaluation",
+      "source_paper": "RefineNet: Multi-path Refinement Networks for High-Resolution Semantic Segmentation"
+    },
+    {
+      "assumption": "Intersection-over-union score is a suitable metric for evaluating the performance of semantic segmentation models.",
+      "confidence": 0.4,
+      "category": "evaluation",
+      "source_paper": "RefineNet: Multi-path Refinement Networks for High-Resolution Semantic Segmentation"
+    },
+    {
+      "assumption": "Standard evaluation metrics (e.g. accuracy, precision, recall) are sufficient for evaluating deep learning models.",
+      "confidence": 0.4,
+      "category": "evaluation",
+      "source_paper": "Geometric Deep Learning on Graphs and Manifolds Using Mixture Model CNNs"
+    },
+    {
+      "assumption": "The evaluation of object detection and recognition models requires the use of visualizations and qualitative analysis.",
+      "confidence": 0.4,
+      "category": "evaluation",
+      "source_paper": "A Robust Deep-Learning-Based Detector for Real-Time Tomato Plant Diseases and Pests Recognition"
+    },
+    {
+      "assumption": "Aerial images require specialized processing due to complex backgrounds",
+      "confidence": 0.4,
+      "category": "data",
+      "source_paper": "Detection of Power Line Insulator Defects Using Aerial Images Analyzed With Convolutional Neural Networks"
+    },
+    {
+      "assumption": "Pathologists can benefit from automated skin lesion analysis",
+      "confidence": 0.4,
+      "category": "evaluation",
+      "source_paper": "Skin Lesion Analysis towards Melanoma Detection Using Deep Learning Network"
+    },
+    {
+      "assumption": "Image classification performance can be evaluated using metrics such as accuracy, precision, and recall",
+      "confidence": 0.4,
+      "category": "evaluation",
+      "source_paper": "Skin Lesion Analysis towards Melanoma Detection Using Deep Learning Network"
+    },
+    {
+      "assumption": "Image classification models require a classification layer",
+      "confidence": 0.4,
+      "category": "architectural",
+      "source_paper": "Attention Residual Learning for Skin Lesion Classification"
+    },
+    {
+      "assumption": "Dermoscopy images are a suitable modality for skin lesion classification",
+      "confidence": 0.4,
+      "category": "data",
+      "source_paper": "Attention Residual Learning for Skin Lesion Classification"
+    },
+    {
+      "assumption": "Weighted global pooling and weighted broadcasting are essential for efficient coordinate-interaction space mapping.",
+      "confidence": 0.4,
+      "category": "architectural",
+      "source_paper": "Graph-Based Global Reasoning Networks"
+    },
+    {
+      "assumption": "Graph convolution is necessary for relational reasoning in interaction space.",
+      "confidence": 0.4,
+      "category": "theoretical",
+      "source_paper": "Graph-Based Global Reasoning Networks"
+    },
+    {
+      "assumption": "Medical image segmentation datasets should cover multiple imaging modalities.",
+      "confidence": 0.3,
+      "category": "data",
+      "source_paper": "UNet++: Redesigning Skip Connections to Exploit Multiscale Features in Image Segmentation"
+    },
+    {
+      "assumption": "Deep learning models can be applied to various domains (e.g. network analysis, computer graphics) with minimal adaptation.",
+      "confidence": 0.3,
+      "category": "theoretical",
+      "source_paper": "Geometric Deep Learning on Graphs and Manifolds Using Mixture Model CNNs"
+    },
+    {
+      "assumption": "Insulator defect detection is a challenging problem that requires advanced techniques",
+      "confidence": 0.3,
+      "category": "theoretical",
+      "source_paper": "Detection of Power Line Insulator Defects Using Aerial Images Analyzed With Convolutional Neural Networks"
+    },
+    {
+      "assumption": "Evaluation of deep learning models for image segmentation should include multiple metrics.",
+      "confidence": 0.2,
+      "category": "evaluation",
+      "source_paper": "UNet++: Redesigning Skip Connections to Exploit Multiscale Features in Image Segmentation"
+    },
+    {
+      "assumption": "The performance of deep learning models is directly correlated with the amount of data available.",
+      "confidence": 0.2,
+      "category": "training",
+      "source_paper": "Geometric Deep Learning on Graphs and Manifolds Using Mixture Model CNNs"
+    },
+    {
+      "assumption": "Real-world data is scarce and requires augmentation to be effective",
+      "confidence": 0.2,
+      "category": "data",
+      "source_paper": "Detection of Power Line Insulator Defects Using Aerial Images Analyzed With Convolutional Neural Networks"
+    },
+    {
+      "assumption": "Pruning is necessary to accelerate the inference speed of deep neural networks.",
+      "confidence": 0.1,
+      "category": "architectural",
+      "source_paper": "UNet++: Redesigning Skip Connections to Exploit Multiscale Features in Image Segmentation"
+    },
+    {
+      "assumption": "Pre-trained models are essential for deep learning tasks.",
+      "confidence": 0.1,
+      "category": "training",
+      "source_paper": "UNet++: Redesigning Skip Connections to Exploit Multiscale Features in Image Segmentation"
+    },
+    {
+      "assumption": "Convolutional neural networks can be generalized to 3D data with minimal modifications.",
+      "confidence": 0.1,
+      "category": "architectural",
+      "source_paper": "Geometric Deep Learning on Graphs and Manifolds Using Mixture Model CNNs"
+    },
+    {
+      "assumption": "Deep learning models can be used to analyze and understand complex systems (e.g. networks, social structures).",
+      "confidence": 0.1,
+      "category": "theoretical",
+      "source_paper": "Geometric Deep Learning on Graphs and Manifolds Using Mixture Model CNNs"
+    },
+    {
+      "assumption": "Deep learning models can be cascaded to improve performance",
+      "confidence": 0.1,
+      "category": "architectural",
+      "source_paper": "Detection of Power Line Insulator Defects Using Aerial Images Analyzed With Convolutional Neural Networks"
+    },
+    {
+      "assumption": "Image quality is essential for accurate object detection",
+      "confidence": 0.1,
+      "category": "data",
+      "source_paper": "Detection of Power Line Insulator Defects Using Aerial Images Analyzed With Convolutional Neural Networks"
+    }
+  ]
+}

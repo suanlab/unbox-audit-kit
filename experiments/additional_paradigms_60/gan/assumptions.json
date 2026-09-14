@@ -1,0 +1,2102 @@
+[
+  {
+    "paper_id": "https://openalex.org/W154472438",
+    "paper_title": "Multimodal Learning with Deep Boltzmann Machines",
+    "assumption": "Generative modeling is necessary for learning meaningful multimodal representations",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W154472438",
+    "paper_title": "Multimodal Learning with Deep Boltzmann Machines",
+    "assumption": "Unified joint representations are essential for effective multimodal learning",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W154472438",
+    "paper_title": "Multimodal Learning with Deep Boltzmann Machines",
+    "assumption": "Probabilistic models are required for handling missing modalities in multimodal data",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W154472438",
+    "paper_title": "Multimodal Learning with Deep Boltzmann Machines",
+    "assumption": "Latent variable models are necessary for capturing cross-modal dependencies",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W154472438",
+    "paper_title": "Multimodal Learning with Deep Boltzmann Machines",
+    "assumption": "Unsupervised pretraining is essential for learning deep representations",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2097268041",
+    "paper_title": "Deep AutoRegressive Networks",
+    "assumption": "Autoregressive connections are necessary for exact and efficient sampling in deep generative models",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2097268041",
+    "paper_title": "Deep AutoRegressive Networks",
+    "assumption": "Hierarchical representations require multiple stochastic hidden layers for effective generative modeling",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2097268041",
+    "paper_title": "Deep AutoRegressive Networks",
+    "assumption": "Variational lower bound optimization is essential for tractable parameter estimation in deep generative models",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2097268041",
+    "paper_title": "Deep AutoRegressive Networks",
+    "assumption": "Feedforward neural networks are required to implement approximate inference in complex probabilistic models",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2097268041",
+    "paper_title": "Deep AutoRegressive Networks",
+    "assumption": "Ancestral sampling is necessary for generating samples from deep autoregressive models",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2126229007",
+    "paper_title": "On the Representational Efficiency of Restricted Boltzmann Machines",
+    "assumption": "Representational efficiency is the primary measure of a generative model's theoretical quality",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2126229007",
+    "paper_title": "On the Representational Efficiency of Restricted Boltzmann Machines",
+    "assumption": "Deeper architectures are inherently more expressive than shallow ones for generative modeling",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2126229007",
+    "paper_title": "On the Representational Efficiency of Restricted Boltzmann Machines",
+    "assumption": "A model's ability to represent a distribution is fundamentally determined by its architectural capacity rather than training dynamics",
+    "confidence": 0.88,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2126229007",
+    "paper_title": "On the Representational Efficiency of Restricted Boltzmann Machines",
+    "assumption": "Exponential bounds on model weights represent realistic practical constraints for generative models",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2126229007",
+    "paper_title": "On the Representational Efficiency of Restricted Boltzmann Machines",
+    "assumption": "Unnormalized log-likelihood provides the correct mathematical framework for analyzing generative model capabilities",
+    "confidence": 0.83,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2071709160",
+    "paper_title": "An Efficient Learning Procedure for Deep Boltzmann Machines",
+    "assumption": "Gradient-based optimization of log likelihood is the fundamental learning paradigm for generative models",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2071709160",
+    "paper_title": "An Efficient Learning Procedure for Deep Boltzmann Machines",
+    "assumption": "Layer-by-layer pretraining is necessary for successful deep unsupervised learning",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2071709160",
+    "paper_title": "An Efficient Learning Procedure for Deep Boltzmann Machines",
+    "assumption": "MCMC sampling is required for estimating statistics in undirected graphical models",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2071709160",
+    "paper_title": "An Efficient Learning Procedure for Deep Boltzmann Machines",
+    "assumption": "Deep architectures are essential for learning complex hierarchical representations",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2071709160",
+    "paper_title": "An Efficient Learning Procedure for Deep Boltzmann Machines",
+    "assumption": "Unsupervised pretraining followed by supervised fine-tuning is necessary for effective deep learning",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2091405003",
+    "paper_title": "Active inference and agency: optimal control without cost functions",
+    "assumption": "Optimal control requires explicit cost or reward functions to define objectives",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2091405003",
+    "paper_title": "Active inference and agency: optimal control without cost functions",
+    "assumption": "Decision making under uncertainty necessitates separate optimization and inference procedures",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2091405003",
+    "paper_title": "Active inference and agency: optimal control without cost functions",
+    "assumption": "Markov decision processes require distinct action selection and belief update mechanisms",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2091405003",
+    "paper_title": "Active inference and agency: optimal control without cost functions",
+    "assumption": "Control theory and probabilistic inference are fundamentally different computational frameworks",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2091405003",
+    "paper_title": "Active inference and agency: optimal control without cost functions",
+    "assumption": "Agency requires explicit representation of control mechanisms separate from state estimation",
+    "confidence": 0.82,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1980163762",
+    "paper_title": "Hierarchical face parsing via deep learning",
+    "assumption": "Deep unsupervised pre-training is necessary for learning effective feature representations",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1980163762",
+    "paper_title": "Hierarchical face parsing via deep learning",
+    "assumption": "Hierarchical processing from coarse to fine is required for complex visual parsing tasks",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1980163762",
+    "paper_title": "Hierarchical face parsing via deep learning",
+    "assumption": "Generative pre-training followed by discriminative fine-tuning is essential for optimal performance",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1980163762",
+    "paper_title": "Hierarchical face parsing via deep learning",
+    "assumption": "Cross-modality transformation problems require specialized deep architectures",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1980163762",
+    "paper_title": "Hierarchical face parsing via deep learning",
+    "assumption": "Face parsing requires explicit multi-level representation learning",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2125113755",
+    "paper_title": "A Better Way to Pretrain Deep Boltzmann Machines",
+    "assumption": "Unsupervised pretraining is necessary for effective deep generative model learning",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2125113755",
+    "paper_title": "A Better Way to Pretrain Deep Boltzmann Machines",
+    "assumption": "Layer-by-layer greedy training is required for deep unsupervised models",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2125113755",
+    "paper_title": "A Better Way to Pretrain Deep Boltzmann Machines",
+    "assumption": "Undirected graphical models are essential for capturing bidirectional dependencies in data",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2125113755",
+    "paper_title": "A Better Way to Pretrain Deep Boltzmann Machines",
+    "assumption": "Energy-based models are necessary for principled probabilistic generative modeling",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2125113755",
+    "paper_title": "A Better Way to Pretrain Deep Boltzmann Machines",
+    "assumption": "Variational bounds are required for tractable inference in deep probabilistic models",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2147768505",
+    "paper_title": "Context-Dependent Pre-Trained Deep Neural Networks for Large-Vocabulary Speech Recognition",
+    "assumption": "Hidden Markov Models are essential for modeling the temporal dynamics of speech sequences",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2147768505",
+    "paper_title": "Context-Dependent Pre-Trained Deep Neural Networks for Large-Vocabulary Speech Recognition",
+    "assumption": "Context-dependent acoustic modeling is necessary for high-quality large-vocabulary speech recognition",
+    "confidence": 0.92,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2147768505",
+    "paper_title": "Context-Dependent Pre-Trained Deep Neural Networks for Large-Vocabulary Speech Recognition",
+    "assumption": "Deep neural networks require careful initialization to avoid optimization difficulties",
+    "confidence": 0.88,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2147768505",
+    "paper_title": "Context-Dependent Pre-Trained Deep Neural Networks for Large-Vocabulary Speech Recognition",
+    "assumption": "Generative pre-training is essential for training deep neural networks effectively",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2147768505",
+    "paper_title": "Context-Dependent Pre-Trained Deep Neural Networks for Large-Vocabulary Speech Recognition",
+    "assumption": "Phone-level representations are the appropriate granularity for acoustic modeling in speech recognition",
+    "confidence": 0.82,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2395018931",
+    "paper_title": "Likability classification - a not so deep neural network approach",
+    "assumption": "Deeper neural networks with more layers are necessary for better feature representation learning",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2395018931",
+    "paper_title": "Likability classification - a not so deep neural network approach",
+    "assumption": "Unsupervised pre-training is essential for effective neural network initialization",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2395018931",
+    "paper_title": "Likability classification - a not so deep neural network approach",
+    "assumption": "Generative modeling of input data distributions is necessary for learning meaningful representations",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2395018931",
+    "paper_title": "Likability classification - a not so deep neural network approach",
+    "assumption": "Layer-wise unsupervised pre-training followed by supervised fine-tuning is required for deep network optimization",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2395018931",
+    "paper_title": "Likability classification - a not so deep neural network approach",
+    "assumption": "Complex high-level tasks require deep hierarchical feature representations",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2013035813",
+    "paper_title": "A Connection Between Score Matching and Denoising Autoencoders",
+    "assumption": "Energy-based models require explicit sampling procedures to be practically useful for generation",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2013035813",
+    "paper_title": "A Connection Between Score Matching and Denoising Autoencoders",
+    "assumption": "Unsupervised representation learning requires layer-wise pretraining for deep architectures",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2013035813",
+    "paper_title": "A Connection Between Score Matching and Denoising Autoencoders",
+    "assumption": "Score matching requires computing second derivatives to be practically implementable",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2013035813",
+    "paper_title": "A Connection Between Score Matching and Denoising Autoencoders",
+    "assumption": "Probabilistic models must have explicit likelihood computation to enable proper ranking and sampling",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2013035813",
+    "paper_title": "A Connection Between Score Matching and Denoising Autoencoders",
+    "assumption": "Denoising is primarily a heuristic technique rather than principled probabilistic learning",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2005286252",
+    "paper_title": "Learning hierarchical representations for face verification with convolutional deep belief networks",
+    "assumption": "Hand-crafted feature engineering is essential for achieving good performance in computer vision tasks",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2005286252",
+    "paper_title": "Learning hierarchical representations for face verification with convolutional deep belief networks",
+    "assumption": "Multiple complementary feature representations are necessary for optimal face recognition performance",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2005286252",
+    "paper_title": "Learning hierarchical representations for face verification with convolutional deep belief networks",
+    "assumption": "Convolutional architectures are required for effective hierarchical feature learning in images",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2005286252",
+    "paper_title": "Learning hierarchical representations for face verification with convolutional deep belief networks",
+    "assumption": "Unsupervised pre-training is necessary for learning good deep representations",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2005286252",
+    "paper_title": "Learning hierarchical representations for face verification with convolutional deep belief networks",
+    "assumption": "Translation invariance through weight sharing is essential for convolutional feature learning",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2168013545",
+    "paper_title": "Binary coding of speech spectrograms using a deep auto-encoder",
+    "assumption": "Spectral representations are necessary for effective speech processing and coding",
+    "confidence": 0.95,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2168013545",
+    "paper_title": "Binary coding of speech spectrograms using a deep auto-encoder",
+    "assumption": "Layer-by-layer pretraining is essential for training deep generative models effectively",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2168013545",
+    "paper_title": "Binary coding of speech spectrograms using a deep auto-encoder",
+    "assumption": "Deep architectures are required for learning hierarchical representations of complex signals",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2168013545",
+    "paper_title": "Binary coding of speech spectrograms using a deep auto-encoder",
+    "assumption": "Contrastive divergence is necessary for tractable training of generative models with intractable likelihoods",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2168013545",
+    "paper_title": "Binary coding of speech spectrograms using a deep auto-encoder",
+    "assumption": "Fine-tuning with backpropagation is required after unsupervised pretraining for optimal performance",
+    "confidence": 0.83,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W177847060",
+    "paper_title": "Efficient Learning of Deep Boltzmann Machines",
+    "assumption": "Approximate inference is necessary for learning deep generative models with multiple layers of latent variables",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W177847060",
+    "paper_title": "Efficient Learning of Deep Boltzmann Machines",
+    "assumption": "Layer-wise hierarchical representations are essential for modeling complex high-dimensional data",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W177847060",
+    "paper_title": "Efficient Learning of Deep Boltzmann Machines",
+    "assumption": "Iterative sampling-based inference is required for probabilistic models with undirected connections",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W177847060",
+    "paper_title": "Efficient Learning of Deep Boltzmann Machines",
+    "assumption": "Bottom-up followed by top-down processing is necessary for effective inference in hierarchical generative models",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W177847060",
+    "paper_title": "Efficient Learning of Deep Boltzmann Machines",
+    "assumption": "Exact inference is intractable for deep probabilistic models with many hidden layers",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2026371916",
+    "paper_title": "Bayesian Parameter Estimation and Segmentation in the Multi-Atlas Random Orbit Model",
+    "assumption": "Manual delineation by experts is necessary for generating ground truth anatomical structures in medical images",
+    "confidence": 0.95,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2026371916",
+    "paper_title": "Bayesian Parameter Estimation and Segmentation in the Multi-Atlas Random Orbit Model",
+    "assumption": "Diffeomorphic transformations are essential for modeling biologically plausible anatomical deformations",
+    "confidence": 0.92,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2026371916",
+    "paper_title": "Bayesian Parameter Estimation and Segmentation in the Multi-Atlas Random Orbit Model",
+    "assumption": "Atlas-based approaches are required for accurate medical image segmentation",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2026371916",
+    "paper_title": "Bayesian Parameter Estimation and Segmentation in the Multi-Atlas Random Orbit Model",
+    "assumption": "Gaussian random field models are necessary for representing intensity distributions in medical images",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2026371916",
+    "paper_title": "Bayesian Parameter Estimation and Segmentation in the Multi-Atlas Random Orbit Model",
+    "assumption": "Maximum a posteriori estimation is essential for principled parameter estimation in generative models",
+    "confidence": 0.82,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2165310684",
+    "paper_title": "Online Incremental Feature Learning with Denoising Autoencoders",
+    "assumption": "Cross-validation is necessary for determining optimal model complexity in feature learning",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2165310684",
+    "paper_title": "Online Incremental Feature Learning with Denoising Autoencoders",
+    "assumption": "Feature similarity can be meaningfully measured and leveraged for model compression",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2165310684",
+    "paper_title": "Online Incremental Feature Learning with Denoising Autoencoders",
+    "assumption": "Reconstruction error is essential for unsupervised feature quality assessment",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2165310684",
+    "paper_title": "Online Incremental Feature Learning with Denoising Autoencoders",
+    "assumption": "Denoising through corruption is necessary for learning robust feature representations",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2165310684",
+    "paper_title": "Online Incremental Feature Learning with Denoising Autoencoders",
+    "assumption": "Model complexity optimization requires explicit architectural modification during training",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2140574335",
+    "paper_title": "RNADE: The real-valued neural autoregressive density-estimator",
+    "assumption": "Autoregressive factorization is necessary for tractable density estimation in high-dimensional spaces",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2140574335",
+    "paper_title": "RNADE: The real-valued neural autoregressive density-estimator",
+    "assumption": "Tractable likelihood computation is essential for principled density model evaluation and comparison",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2140574335",
+    "paper_title": "RNADE: The real-valued neural autoregressive density-estimator",
+    "assumption": "Parameter sharing across conditional distributions is required for efficient autoregressive density modeling",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2140574335",
+    "paper_title": "RNADE: The real-valued neural autoregressive density-estimator",
+    "assumption": "Maximum likelihood training is the standard paradigm for density estimation",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2140574335",
+    "paper_title": "RNADE: The real-valued neural autoregressive density-estimator",
+    "assumption": "One-dimensional conditional distributions are sufficient building blocks for modeling complex joint densities",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2144578488",
+    "paper_title": "Learning Invariant Representations with Local Transformations",
+    "assumption": "Invariance must be built into the feature learning architecture rather than emerging from data alone",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2144578488",
+    "paper_title": "Learning Invariant Representations with Local Transformations",
+    "assumption": "Unsupervised feature learning requires explicit architectural constraints to discover meaningful representations",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2144578488",
+    "paper_title": "Learning Invariant Representations with Local Transformations",
+    "assumption": "Transformation invariance is essential for robust feature representations in visual and audio domains",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2144578488",
+    "paper_title": "Learning Invariant Representations with Local Transformations",
+    "assumption": "Pooling operations are necessary to achieve spatial invariance in learned features",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2144578488",
+    "paper_title": "Learning Invariant Representations with Local Transformations",
+    "assumption": "Generative models like RBMs are required for learning meaningful unsupervised representations",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2052251395",
+    "paper_title": "Rheumservice: hot rheumatology updates",
+    "assumption": "Generative modeling requires explicit architectural separation of different feature types",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2052251395",
+    "paper_title": "Rheumservice: hot rheumatology updates",
+    "assumption": "Disentangled representations are necessary for effective unsupervised learning",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2052251395",
+    "paper_title": "Rheumservice: hot rheumatology updates",
+    "assumption": "Variational inference frameworks are essential for tractable learning in latent variable models",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2052251395",
+    "paper_title": "Rheumservice: hot rheumatology updates",
+    "assumption": "Gaussian distributions are the natural choice for modeling latent feature spaces",
+    "confidence": 0.88,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2052251395",
+    "paper_title": "Rheumservice: hot rheumatology updates",
+    "assumption": "Clustering quality is essential for evaluating unsupervised representation learning",
+    "confidence": 0.82,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W37433791",
+    "paper_title": "On some classes of birth and death processes in continuum",
+    "assumption": "Technical batch effects can be disentangled from biological signals through computational methods",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W37433791",
+    "paper_title": "On some classes of birth and death processes in continuum",
+    "assumption": "Variational autoencoders are necessary for modeling complex single-cell genomic data distributions",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W37433791",
+    "paper_title": "On some classes of birth and death processes in continuum",
+    "assumption": "Mutual information regularization is required for effective factor disentanglement in biological data",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W37433791",
+    "paper_title": "On some classes of birth and death processes in continuum",
+    "assumption": "Multi-batch experimental designs are essential for robust perturbation studies",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W37433791",
+    "paper_title": "On some classes of birth and death processes in continuum",
+    "assumption": "Cell type discovery requires dimensionality reduction and latent representation learning",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2200708944",
+    "paper_title": "Enhanced Gradient and Adaptive Learning Rate for Training Restricted Boltzmann Machines",
+    "assumption": "Manual hyperparameter tuning is necessary for effective neural network training",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2200708944",
+    "paper_title": "Enhanced Gradient and Adaptive Learning Rate for Training Restricted Boltzmann Machines",
+    "assumption": "Gradient-based optimization is essential for training probabilistic generative models",
+    "confidence": 0.92,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2200708944",
+    "paper_title": "Enhanced Gradient and Adaptive Learning Rate for Training Restricted Boltzmann Machines",
+    "assumption": "Greedy layer-wise pre-training is required for effective deep network learning",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2200708944",
+    "paper_title": "Enhanced Gradient and Adaptive Learning Rate for Training Restricted Boltzmann Machines",
+    "assumption": "Fixed learning rate schedules are necessary for stable convergence in unsupervised learning",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2200708944",
+    "paper_title": "Enhanced Gradient and Adaptive Learning Rate for Training Restricted Boltzmann Machines",
+    "assumption": "Energy-based models require contrastive learning procedures for parameter estimation",
+    "confidence": 0.82,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1969806998",
+    "paper_title": "Charles Bonnet Syndrome: Evidence for a Generative Model in the Cortex?",
+    "assumption": "Visual processing requires bottom-up sensory input for normal perception",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1969806998",
+    "paper_title": "Charles Bonnet Syndrome: Evidence for a Generative Model in the Cortex?",
+    "assumption": "Computational models from machine learning are necessary to understand complex brain phenomena",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1969806998",
+    "paper_title": "Charles Bonnet Syndrome: Evidence for a Generative Model in the Cortex?",
+    "assumption": "Homeostatic plasticity is essential for maintaining stable neural network function",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1969806998",
+    "paper_title": "Charles Bonnet Syndrome: Evidence for a Generative Model in the Cortex?",
+    "assumption": "Probabilistic generative models are required for explaining cortical representation learning",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1969806998",
+    "paper_title": "Charles Bonnet Syndrome: Evidence for a Generative Model in the Cortex?",
+    "assumption": "Neural networks with layered hierarchical structure are necessary for modeling cortical processing",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2016307665",
+    "paper_title": "Deep Belief Networks for Real-Time Extraction of Tongue Contours from Ultrasound During Speech",
+    "assumption": "Deep neural networks require separate generative pre-training followed by discriminative fine-tuning for effective learning",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2016307665",
+    "paper_title": "Deep Belief Networks for Real-Time Extraction of Tongue Contours from Ultrasound During Speech",
+    "assumption": "Unsupervised pre-training on raw sensor data is necessary for good feature representations in deep networks",
+    "confidence": 0.92,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2016307665",
+    "paper_title": "Deep Belief Networks for Real-Time Extraction of Tongue Contours from Ultrasound During Speech",
+    "assumption": "Manual expert annotation is required for training supervised contour extraction systems",
+    "confidence": 0.88,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2016307665",
+    "paper_title": "Deep Belief Networks for Real-Time Extraction of Tongue Contours from Ultrasound During Speech",
+    "assumption": "Active contour methods represent the state-of-the-art approach for medical image segmentation tasks",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2016307665",
+    "paper_title": "Deep Belief Networks for Real-Time Extraction of Tongue Contours from Ultrasound During Speech",
+    "assumption": "Temporal smoothing is necessary for coherent contour extraction across sequential frames",
+    "confidence": 0.83,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2184970173",
+    "paper_title": "Parallel Tempering for Training of Restricted Boltzmann Machines",
+    "assumption": "Alternating Gibbs sampling is necessary for sampling from Restricted Boltzmann Machines",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2184970173",
+    "paper_title": "Parallel Tempering for Training of Restricted Boltzmann Machines",
+    "assumption": "Likelihood gradient approximation is essential for training energy-based models",
+    "confidence": 0.92,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2184970173",
+    "paper_title": "Parallel Tempering for Training of Restricted Boltzmann Machines",
+    "assumption": "Contrastive Divergence is required for tractable RBM training",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2184970173",
+    "paper_title": "Parallel Tempering for Training of Restricted Boltzmann Machines",
+    "assumption": "MCMC sampling is necessary for inference in undirected graphical models",
+    "confidence": 0.88,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2184970173",
+    "paper_title": "Parallel Tempering for Training of Restricted Boltzmann Machines",
+    "assumption": "Layer-wise pretraining with RBMs is essential for deep network initialization",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2119669612",
+    "paper_title": "Learning Multisensory Integration and Coordinate Transformation via Density Estimation",
+    "assumption": "Biological plausibility requires local, gradient-based learning rules for neural computation",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2119669612",
+    "paper_title": "Learning Multisensory Integration and Coordinate Transformation via Density Estimation",
+    "assumption": "Statistical optimality is the fundamental principle governing neural computation",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2119669612",
+    "paper_title": "Learning Multisensory Integration and Coordinate Transformation via Density Estimation",
+    "assumption": "Neural representations must maintain probabilistic distributions over stimuli for optimal processing",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2119669612",
+    "paper_title": "Learning Multisensory Integration and Coordinate Transformation via Density Estimation",
+    "assumption": "Unsupervised learning through density estimation is sufficient for acquiring sensory mappings",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2119669612",
+    "paper_title": "Learning Multisensory Integration and Coordinate Transformation via Density Estimation",
+    "assumption": "Population-level neural activity patterns are the appropriate unit of analysis for sensory computation",
+    "confidence": 0.75,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2135306627",
+    "paper_title": "Nonparametric guidance of autoencoder representations using label information",
+    "assumption": "Unsupervised representation learning and supervised discriminative learning are fundamentally separate paradigms that must be bridged",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2135306627",
+    "paper_title": "Nonparametric guidance of autoencoder representations using label information",
+    "assumption": "Autoencoder architectures are necessary for learning meaningful latent representations in unsupervised settings",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2135306627",
+    "paper_title": "Nonparametric guidance of autoencoder representations using label information",
+    "assumption": "Reconstruction quality is essential for learning useful unsupervised representations",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2135306627",
+    "paper_title": "Nonparametric guidance of autoencoder representations using label information",
+    "assumption": "Parametric models are required for incorporating discriminative guidance during representation learning",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2135306627",
+    "paper_title": "Nonparametric guidance of autoencoder representations using label information",
+    "assumption": "Feature quality for discriminative tasks can be measured by downstream classification performance",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2187294194",
+    "paper_title": "Deep learning of invariant spatio-temporal features from video",
+    "assumption": "Hierarchical feature representations are necessary for effective video understanding",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2187294194",
+    "paper_title": "Deep learning of invariant spatio-temporal features from video",
+    "assumption": "Convolutional architectures are essential for learning spatial features from visual data",
+    "confidence": 0.92,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2187294194",
+    "paper_title": "Deep learning of invariant spatio-temporal features from video",
+    "assumption": "Unsupervised pre-training is required for learning good feature representations",
+    "confidence": 0.88,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2187294194",
+    "paper_title": "Deep learning of invariant spatio-temporal features from video",
+    "assumption": "Layer-wise training is necessary for deep generative models",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2187294194",
+    "paper_title": "Deep learning of invariant spatio-temporal features from video",
+    "assumption": "Invariance properties are essential for robust visual recognition",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2497526351",
+    "paper_title": "Deep Learning for Signal and Information Processing",
+    "assumption": "Multiple layers of nonlinear transformations are necessary for learning meaningful feature representations from complex data",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2497526351",
+    "paper_title": "Deep Learning for Signal and Information Processing",
+    "assumption": "Hierarchical feature learning is essential for understanding complex patterns in sensory data",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2497526351",
+    "paper_title": "Deep Learning for Signal and Information Processing",
+    "assumption": "Layer-by-layer pre-training is required for effective training of deep neural networks",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2497526351",
+    "paper_title": "Deep Learning for Signal and Information Processing",
+    "assumption": "Representation learning requires automatic feature discovery rather than hand-crafted features",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2497526351",
+    "paper_title": "Deep Learning for Signal and Information Processing",
+    "assumption": "Deep architectures are necessary for modeling complex dependencies in high-dimensional data",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2189142260",
+    "paper_title": "Investigating Convergence of Restricted Boltzmann Machine Learning",
+    "assumption": "MCMC approximations are necessary for intractable probabilistic model training",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2189142260",
+    "paper_title": "Investigating Convergence of Restricted Boltzmann Machine Learning",
+    "assumption": "Maximizing data likelihood is the essential objective for generative modeling",
+    "confidence": 0.92,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2189142260",
+    "paper_title": "Investigating Convergence of Restricted Boltzmann Machine Learning",
+    "assumption": "Contrastive divergence is required for practical RBM training",
+    "confidence": 0.88,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2189142260",
+    "paper_title": "Investigating Convergence of Restricted Boltzmann Machine Learning",
+    "assumption": "Energy-based architectures are necessary for modeling complex data distributions",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2189142260",
+    "paper_title": "Investigating Convergence of Restricted Boltzmann Machine Learning",
+    "assumption": "Regularization is essential to prevent training degradation in unsupervised learning",
+    "confidence": 0.82,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2108379336",
+    "paper_title": "Deep Unsupervised Learning on a Desktop PC: A Primer for Cognitive Scientists",
+    "assumption": "Hierarchical representations are necessary for modeling complex cognition",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2108379336",
+    "paper_title": "Deep Unsupervised Learning on a Desktop PC: A Primer for Cognitive Scientists",
+    "assumption": "Unsupervised learning is essential for discovering meaningful structure in sensory data",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2108379336",
+    "paper_title": "Deep Unsupervised Learning on a Desktop PC: A Primer for Cognitive Scientists",
+    "assumption": "Deep architectures are required for learning abstract representations",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2108379336",
+    "paper_title": "Deep Unsupervised Learning on a Desktop PC: A Primer for Cognitive Scientists",
+    "assumption": "Probabilistic generative models are necessary for biologically plausible learning",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2108379336",
+    "paper_title": "Deep Unsupervised Learning on a Desktop PC: A Primer for Cognitive Scientists",
+    "assumption": "Large datasets are essential for effective deep learning",
+    "confidence": 0.8,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W1532251666",
+    "paper_title": "On autoencoder scoring",
+    "assumption": "Probabilistic models are necessary for meaningful data scoring",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1532251666",
+    "paper_title": "On autoencoder scoring",
+    "assumption": "Training objectives must be derived from probabilistic frameworks to be theoretically justified",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1532251666",
+    "paper_title": "On autoencoder scoring",
+    "assumption": "Energy-based models require explicit probabilistic formulations to define valid scores",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1532251666",
+    "paper_title": "On autoencoder scoring",
+    "assumption": "Meaningful data representation quality requires probabilistic interpretation",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1532251666",
+    "paper_title": "On autoencoder scoring",
+    "assumption": "Autoencoder scoring is inherently tied to the training procedure used",
+    "confidence": 0.75,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2160537405",
+    "paper_title": "Dynamics of tongue gestures extracted automatically from ultrasound",
+    "assumption": "Generative pretraining is necessary for effective feature learning in multimodal translation tasks",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2160537405",
+    "paper_title": "Dynamics of tongue gestures extracted automatically from ultrasound",
+    "assumption": "Deep hierarchical representations are essential for capturing complex speech articulatory patterns",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2160537405",
+    "paper_title": "Dynamics of tongue gestures extracted automatically from ultrasound",
+    "assumption": "Joint modeling of input and output modalities is required for effective cross-modal translation",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2160537405",
+    "paper_title": "Dynamics of tongue gestures extracted automatically from ultrasound",
+    "assumption": "Segmentation into discrete linguistic units is necessary for speech gesture analysis",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2160537405",
+    "paper_title": "Dynamics of tongue gestures extracted automatically from ultrasound",
+    "assumption": "Unsupervised pretraining followed by supervised fine-tuning is essential for deep learning success",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2962687528",
+    "paper_title": "Texture Modeling with Convolutional Spike-and-Slab RBMs and Deep Extensions",
+    "assumption": "Convolutional weight sharing is necessary for spatially coherent texture modeling",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2962687528",
+    "paper_title": "Texture Modeling with Convolutional Spike-and-Slab RBMs and Deep Extensions",
+    "assumption": "Unsupervised generative modeling is essential for high-quality texture synthesis",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2962687528",
+    "paper_title": "Texture Modeling with Convolutional Spike-and-Slab RBMs and Deep Extensions",
+    "assumption": "Energy-based models are required for learning probability distributions over high-dimensional visual data",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2962687528",
+    "paper_title": "Texture Modeling with Convolutional Spike-and-Slab RBMs and Deep Extensions",
+    "assumption": "Layer-wise greedy pretraining is necessary for training deep generative models effectively",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2962687528",
+    "paper_title": "Texture Modeling with Convolutional Spike-and-Slab RBMs and Deep Extensions",
+    "assumption": "Hierarchical feature representations are essential for modeling complex visual patterns",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2601260342",
+    "paper_title": "Improved learning algorithms for restricted Boltzmann machines",
+    "assumption": "Approximate inference methods are necessary for training probabilistic models with intractable partition functions",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2601260342",
+    "paper_title": "Improved learning algorithms for restricted Boltzmann machines",
+    "assumption": "MCMC-based sampling is essential for learning energy-based models",
+    "confidence": 0.92,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2601260342",
+    "paper_title": "Improved learning algorithms for restricted Boltzmann machines",
+    "assumption": "Layer-wise pretraining is required for effective deep model learning",
+    "confidence": 0.88,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2601260342",
+    "paper_title": "Improved learning algorithms for restricted Boltzmann machines",
+    "assumption": "Gradient-based optimization is necessary for training neural probabilistic models",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2601260342",
+    "paper_title": "Improved learning algorithms for restricted Boltzmann machines",
+    "assumption": "Bipartite architectures are essential for tractable probabilistic modeling",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2152790380",
+    "paper_title": "Noise-contrastive estimation: A new estimation principle for unnormalized statistical models",
+    "assumption": "Intractable normalization constants are fundamental barriers that require specialized estimation methods",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2152790380",
+    "paper_title": "Noise-contrastive estimation: A new estimation principle for unnormalized statistical models",
+    "assumption": "Maximum likelihood estimation is the gold standard for parameter estimation in statistical models",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2152790380",
+    "paper_title": "Noise-contrastive estimation: A new estimation principle for unnormalized statistical models",
+    "assumption": "Computational tractability and statistical efficiency represent a fundamental trade-off in estimation methods",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2152790380",
+    "paper_title": "Noise-contrastive estimation: A new estimation principle for unnormalized statistical models",
+    "assumption": "Asymptotic properties like consistency and variance are the primary criteria for evaluating estimators",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2152790380",
+    "paper_title": "Noise-contrastive estimation: A new estimation principle for unnormalized statistical models",
+    "assumption": "Learning unnormalized models requires fundamentally different approaches than normalized models",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1781062201",
+    "paper_title": "On Nonparametric Guidance for Learning Autoencoder Representations",
+    "assumption": "Unsupervised representation learning requires explicit architectural constraints or guidance mechanisms to discover task-relevant features",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1781062201",
+    "paper_title": "On Nonparametric Guidance for Learning Autoencoder Representations",
+    "assumption": "Autoencoder architectures are necessary for learning meaningful latent representations in unsupervised settings",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1781062201",
+    "paper_title": "On Nonparametric Guidance for Learning Autoencoder Representations",
+    "assumption": "Parametric models are required for incorporating task-specific supervision into representation learning",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1781062201",
+    "paper_title": "On Nonparametric Guidance for Learning Autoencoder Representations",
+    "assumption": "Reconstruction loss is essential for learning useful latent representations in autoencoders",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1781062201",
+    "paper_title": "On Nonparametric Guidance for Learning Autoencoder Representations",
+    "assumption": "Latent representations must be explicitly encouraged to capture invariances rather than discovering them naturally",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2235935298",
+    "paper_title": "On the Expressive Power of Restricted Boltzmann Machines.",
+    "assumption": "Efficient representability is the primary measure of a generative model's theoretical value",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2235935298",
+    "paper_title": "On the Expressive Power of Restricted Boltzmann Machines.",
+    "assumption": "Exponential weight bounds are realistic constraints for practical machine learning models",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2235935298",
+    "paper_title": "On the Expressive Power of Restricted Boltzmann Machines.",
+    "assumption": "Computational complexity theory provides the appropriate framework for analyzing generative model capabilities",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2235935298",
+    "paper_title": "On the Expressive Power of Restricted Boltzmann Machines.",
+    "assumption": "Understanding what distributions can be represented is necessary for evaluating generative model quality",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2235935298",
+    "paper_title": "On the Expressive Power of Restricted Boltzmann Machines.",
+    "assumption": "Deeper architectures are inherently more expressive than shallow ones for generative modeling",
+    "confidence": 0.75,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1970034774",
+    "paper_title": "A Separable Model for Dynamic Networks",
+    "assumption": "Network dynamics can be decomposed into separable formation and dissolution processes",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1970034774",
+    "paper_title": "A Separable Model for Dynamic Networks",
+    "assumption": "Exponential-family distributions are necessary for flexible network modeling",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1970034774",
+    "paper_title": "A Separable Model for Dynamic Networks",
+    "assumption": "Maximum likelihood estimation is the primary approach for network model parameter inference",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1970034774",
+    "paper_title": "A Separable Model for Dynamic Networks",
+    "assumption": "Markovian assumptions are sufficient for modeling network evolution",
+    "confidence": 0.75,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1970034774",
+    "paper_title": "A Separable Model for Dynamic Networks",
+    "assumption": "Discrete-time models are adequate for capturing network dynamics",
+    "confidence": 0.7,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2135181320",
+    "paper_title": "The Neural Autoregressive Distribution Estimator",
+    "assumption": "Tractable probability computation is essential for practical probabilistic models",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2135181320",
+    "paper_title": "The Neural Autoregressive Distribution Estimator",
+    "assumption": "Joint distributions must be decomposed into conditional factors to achieve tractability",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2135181320",
+    "paper_title": "The Neural Autoregressive Distribution Estimator",
+    "assumption": "Autoregressive decomposition is necessary for modeling high-dimensional discrete distributions",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2135181320",
+    "paper_title": "The Neural Autoregressive Distribution Estimator",
+    "assumption": "Neural networks are required for modeling complex conditional distributions",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2135181320",
+    "paper_title": "The Neural Autoregressive Distribution Estimator",
+    "assumption": "The partition function problem is fundamentally intractable and must be avoided",
+    "confidence": 0.82,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2008008156",
+    "paper_title": "Real-time classification and sensor fusion with a spiking deep belief network",
+    "assumption": "Deep hierarchical feature representations are necessary for effective classification of complex patterns",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2008008156",
+    "paper_title": "Real-time classification and sensor fusion with a spiking deep belief network",
+    "assumption": "Offline pre-training on large datasets is required before deployment for real-time neural network applications",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2008008156",
+    "paper_title": "Real-time classification and sensor fusion with a spiking deep belief network",
+    "assumption": "Parallel processing architectures are essential for implementing biologically-inspired neural networks efficiently",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2008008156",
+    "paper_title": "Real-time classification and sensor fusion with a spiking deep belief network",
+    "assumption": "Generative modeling capabilities are necessary for robust classification and understanding of learned representations",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2008008156",
+    "paper_title": "Real-time classification and sensor fusion with a spiking deep belief network",
+    "assumption": "Event-driven processing is required for real-time sensory processing applications",
+    "confidence": 0.83,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2276144258",
+    "paper_title": "Learning hierarchical representations for face verification",
+    "assumption": "Convolutional architectures are necessary for effective visual feature learning",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2276144258",
+    "paper_title": "Learning hierarchical representations for face verification",
+    "assumption": "Hand-crafted descriptors are essential components of high-performing face recognition systems",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2276144258",
+    "paper_title": "Learning hierarchical representations for face verification",
+    "assumption": "Combining multiple feature representations is necessary to achieve optimal performance",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2276144258",
+    "paper_title": "Learning hierarchical representations for face verification",
+    "assumption": "Hierarchical feature learning is essential for capturing complex visual patterns",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2276144258",
+    "paper_title": "Learning hierarchical representations for face verification",
+    "assumption": "Local feature extraction is required for robust face representation",
+    "confidence": 0.83,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2150819820",
+    "paper_title": "A new multifield determination of the galaxy luminosity function at z = 7–9 incorporating the 2012 Hubble Ultra-Deep Field imaging",
+    "assumption": "Schechter functions are the appropriate functional form for describing galaxy luminosity distributions",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2150819820",
+    "paper_title": "A new multifield determination of the galaxy luminosity function at z = 7–9 incorporating the 2012 Hubble Ultra-Deep Field imaging",
+    "assumption": "Photometric redshift probability distributions provide reliable distance measurements for high-redshift galaxies",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2150819820",
+    "paper_title": "A new multifield determination of the galaxy luminosity function at z = 7–9 incorporating the 2012 Hubble Ultra-Deep Field imaging",
+    "assumption": "UV luminosity at 1500Å is the fundamental observable for characterizing early galaxy populations",
+    "confidence": 0.88,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2150819820",
+    "paper_title": "A new multifield determination of the galaxy luminosity function at z = 7–9 incorporating the 2012 Hubble Ultra-Deep Field imaging",
+    "assumption": "Maximum likelihood estimation is the correct statistical framework for inferring luminosity function parameters",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2150819820",
+    "paper_title": "A new multifield determination of the galaxy luminosity function at z = 7–9 incorporating the 2012 Hubble Ultra-Deep Field imaging",
+    "assumption": "Multi-band HST photometry is sufficient for robust galaxy identification and characterization at z>7",
+    "confidence": 0.82,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2140956413",
+    "paper_title": "Mechanisms of Hierarchical Reinforcement Learning in Corticostriatal Circuits 1: Computational Analysis",
+    "assumption": "Dopaminergic reward prediction error signals are necessary for learning in corticostriatal circuits",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2140956413",
+    "paper_title": "Mechanisms of Hierarchical Reinforcement Learning in Corticostriatal Circuits 1: Computational Analysis",
+    "assumption": "Hierarchical cognitive control requires anatomically hierarchical neural organization",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2140956413",
+    "paper_title": "Mechanisms of Hierarchical Reinforcement Learning in Corticostriatal Circuits 1: Computational Analysis",
+    "assumption": "Basal ganglia gating mechanisms are essential for action selection and cognitive control",
+    "confidence": 0.92,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2140956413",
+    "paper_title": "Mechanisms of Hierarchical Reinforcement Learning in Corticostriatal Circuits 1: Computational Analysis",
+    "assumption": "Reward prediction error signals are necessary for reinforcement learning in biological systems",
+    "confidence": 0.88,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2140956413",
+    "paper_title": "Mechanisms of Hierarchical Reinforcement Learning in Corticostriatal Circuits 1: Computational Analysis",
+    "assumption": "Abstract representations require more anterior prefrontal cortex regions",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2093466600",
+    "paper_title": "The anatomy of choice: active inference and agency",
+    "assumption": "Bayesian inference is necessary for modeling optimal cognitive processes",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2093466600",
+    "paper_title": "The anatomy of choice: active inference and agency",
+    "assumption": "Free energy minimization is essential for understanding biological information processing",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2093466600",
+    "paper_title": "The anatomy of choice: active inference and agency",
+    "assumption": "Agency requires explicit representation of beliefs about actions",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2093466600",
+    "paper_title": "The anatomy of choice: active inference and agency",
+    "assumption": "Optimal behavior is necessary for understanding rational agents",
+    "confidence": 0.88,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2093466600",
+    "paper_title": "The anatomy of choice: active inference and agency",
+    "assumption": "Predictive coding is required for understanding neural information processing",
+    "confidence": 0.82,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2140323624",
+    "paper_title": "Statistical inference of the generation probability of T-cell receptors from sequence repertoires",
+    "assumption": "Maximum likelihood estimation is necessary for inferring hidden generative processes from observed biological sequences",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2140323624",
+    "paper_title": "Statistical inference of the generation probability of T-cell receptors from sequence repertoires",
+    "assumption": "Nonproductive sequences are required to isolate generative mechanisms from selection effects in immune repertoires",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2140323624",
+    "paper_title": "Statistical inference of the generation probability of T-cell receptors from sequence repertoires",
+    "assumption": "Statistical modeling of molecular events requires treating them as independent stochastic processes",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2140323624",
+    "paper_title": "Statistical inference of the generation probability of T-cell receptors from sequence repertoires",
+    "assumption": "Large sequence repertoires are essential for reliable statistical inference of rare generative events",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2140323624",
+    "paper_title": "Statistical inference of the generation probability of T-cell receptors from sequence repertoires",
+    "assumption": "Generation probability is the fundamental metric for quantifying immune repertoire diversity",
+    "confidence": 0.75,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2105577021",
+    "paper_title": "Learning algorithms for the classification restricted Boltzmann machine",
+    "assumption": "Unsupervised pretraining is essential for effective deep learning",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2105577021",
+    "paper_title": "Learning algorithms for the classification restricted Boltzmann machine",
+    "assumption": "Energy-based models require MCMC sampling for tractable inference and learning",
+    "confidence": 0.92,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2105577021",
+    "paper_title": "Learning algorithms for the classification restricted Boltzmann machine",
+    "assumption": "Generative modeling and discriminative classification require fundamentally different model architectures",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2105577021",
+    "paper_title": "Learning algorithms for the classification restricted Boltzmann machine",
+    "assumption": "Bipartite graphical structure is necessary for tractable Boltzmann machine learning",
+    "confidence": 0.87,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2105577021",
+    "paper_title": "Learning algorithms for the classification restricted Boltzmann machine",
+    "assumption": "Gradient-based optimization is essential for training neural probabilistic models",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2027021064",
+    "paper_title": "Least Soft-Threshold Squares Tracking",
+    "assumption": "Linear regression is essential for robust generative modeling in visual tracking",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2027021064",
+    "paper_title": "Least Soft-Threshold Squares Tracking",
+    "assumption": "Dictionary-based representations are necessary for effective object tracking",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2027021064",
+    "paper_title": "Least Soft-Threshold Squares Tracking",
+    "assumption": "Maximum likelihood estimation is required for parameter learning in tracking systems",
+    "confidence": 0.75,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2027021064",
+    "paper_title": "Least Soft-Threshold Squares Tracking",
+    "assumption": "Distance metrics derived from probabilistic models are essential for sample-dictionary comparison",
+    "confidence": 0.7,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2027021064",
+    "paper_title": "Least Soft-Threshold Squares Tracking",
+    "assumption": "Online model updating is necessary to handle appearance changes in tracking",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2157558673",
+    "paper_title": "Learning to Align from Scratch",
+    "assumption": "Hand-crafted feature representations are necessary for unsupervised alignment of complex real-world images",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2157558673",
+    "paper_title": "Learning to Align from Scratch",
+    "assumption": "Careful feature selection is required to achieve smooth optimization landscapes in alignment tasks",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2157558673",
+    "paper_title": "Learning to Align from Scratch",
+    "assumption": "Joint alignment and feature learning cannot be effectively performed simultaneously in an end-to-end manner",
+    "confidence": 0.88,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2157558673",
+    "paper_title": "Learning to Align from Scratch",
+    "assumption": "Supervised alignment methods are inherently superior to unsupervised approaches for complex recognition tasks",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2157558673",
+    "paper_title": "Learning to Align from Scratch",
+    "assumption": "Image alignment requires explicit geometric transformation modeling separate from feature learning",
+    "confidence": 0.82,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2132037657",
+    "paper_title": "Learning a better representation of speech soundwaves using restricted boltzmann machines",
+    "assumption": "Hand-crafted feature extraction is necessary for speech recognition",
+    "confidence": 0.95,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2132037657",
+    "paper_title": "Learning a better representation of speech soundwaves using restricted boltzmann machines",
+    "assumption": "Dimensionality reduction is required for computational tractability in speech processing",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2132037657",
+    "paper_title": "Learning a better representation of speech soundwaves using restricted boltzmann machines",
+    "assumption": "Unsupervised pre-training is essential for learning good representations from high-dimensional data",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2132037657",
+    "paper_title": "Learning a better representation of speech soundwaves using restricted boltzmann machines",
+    "assumption": "Phoneme-level recognition is the fundamental building block for speech understanding",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2132037657",
+    "paper_title": "Learning a better representation of speech soundwaves using restricted boltzmann machines",
+    "assumption": "Generative modeling is necessary for learning meaningful speech representations",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2018312367",
+    "paper_title": "Uncovering latent structure in valued graphs: A variational approach",
+    "assumption": "Latent group structure is essential for understanding complex network behavior",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2018312367",
+    "paper_title": "Uncovering latent structure in valued graphs: A variational approach",
+    "assumption": "Maximum likelihood estimation is necessary for principled statistical inference in network models",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2018312367",
+    "paper_title": "Uncovering latent structure in valued graphs: A variational approach",
+    "assumption": "Model-based approaches are required for reliable latent structure discovery in networks",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2018312367",
+    "paper_title": "Uncovering latent structure in valued graphs: A variational approach",
+    "assumption": "Parametric random graph models are necessary for capturing network structure",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2018312367",
+    "paper_title": "Uncovering latent structure in valued graphs: A variational approach",
+    "assumption": "Variational approximation is required for tractable inference in complex network models",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2133128597",
+    "paper_title": "A Sparse Coding Model with Synaptically Local Plasticity and Spiking Neurons Can Account for the Diverse Shapes of V1 Simple Cell Receptive Fields",
+    "assumption": "Sparse coding is the fundamental computational principle underlying visual cortical feature learning",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2133128597",
+    "paper_title": "A Sparse Coding Model with Synaptically Local Plasticity and Spiking Neurons Can Account for the Diverse Shapes of V1 Simple Cell Receptive Fields",
+    "assumption": "Biologically plausible learning requires synaptically local plasticity rules",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2133128597",
+    "paper_title": "A Sparse Coding Model with Synaptically Local Plasticity and Spiking Neurons Can Account for the Diverse Shapes of V1 Simple Cell Receptive Fields",
+    "assumption": "Natural image statistics drive the development of visual cortical receptive fields",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2133128597",
+    "paper_title": "A Sparse Coding Model with Synaptically Local Plasticity and Spiking Neurons Can Account for the Diverse Shapes of V1 Simple Cell Receptive Fields",
+    "assumption": "V1 simple cell receptive fields represent the gold standard for evaluating visual feature learning models",
+    "confidence": 0.8,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2133128597",
+    "paper_title": "A Sparse Coding Model with Synaptically Local Plasticity and Spiking Neurons Can Account for the Diverse Shapes of V1 Simple Cell Receptive Fields",
+    "assumption": "Spiking neural networks are necessary for biologically realistic modeling of cortical computation",
+    "confidence": 0.75,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2161000554",
+    "paper_title": "Factored 3-Way Restricted Boltzmann Machines For Modeling Natural Images",
+    "assumption": "Layer-by-layer greedy pre-training is necessary for learning deep generative models",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2161000554",
+    "paper_title": "Factored 3-Way Restricted Boltzmann Machines For Modeling Natural Images",
+    "assumption": "Probabilistic generative models are essential for learning meaningful feature representations",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2161000554",
+    "paper_title": "Factored 3-Way Restricted Boltzmann Machines For Modeling Natural Images",
+    "assumption": "Energy-based models with partition functions are required for modeling data distributions",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2161000554",
+    "paper_title": "Factored 3-Way Restricted Boltzmann Machines For Modeling Natural Images",
+    "assumption": "Unsupervised pre-training is necessary for effective deep learning",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2161000554",
+    "paper_title": "Factored 3-Way Restricted Boltzmann Machines For Modeling Natural Images",
+    "assumption": "Binary hidden units are sufficient for learning feature representations",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2169356885",
+    "paper_title": "Observing the Observer (I): Meta-Bayesian Models of Learning and Decision-Making",
+    "assumption": "Rational optimality is the foundational principle underlying human cognition and decision-making",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2169356885",
+    "paper_title": "Observing the Observer (I): Meta-Bayesian Models of Learning and Decision-Making",
+    "assumption": "Bayesian inference is the normative framework for understanding how minds should and do process uncertainty",
+    "confidence": 0.92,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2169356885",
+    "paper_title": "Observing the Observer (I): Meta-Bayesian Models of Learning and Decision-Making",
+    "assumption": "Observable behavior can be reverse-engineered to reveal underlying cognitive mechanisms and internal representations",
+    "confidence": 0.88,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2169356885",
+    "paper_title": "Observing the Observer (I): Meta-Bayesian Models of Learning and Decision-Making",
+    "assumption": "Utility maximization is the core principle governing decision-making under uncertainty",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2169356885",
+    "paper_title": "Observing the Observer (I): Meta-Bayesian Models of Learning and Decision-Making",
+    "assumption": "Cognitive processes can be decomposed into separable perceptual and decision-making components",
+    "confidence": 0.82,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W4249210107",
+    "paper_title": "Generalised Filtering",
+    "assumption": "Bayesian inference is necessary for principled uncertainty quantification in state-space models",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W4249210107",
+    "paper_title": "Generalised Filtering",
+    "assumption": "Backwards passes are required for optimal state estimation in nonlinear state-space models",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W4249210107",
+    "paper_title": "Generalised Filtering",
+    "assumption": "Conditional independence assumptions between states and parameters are necessary for tractable variational inference",
+    "confidence": 0.88,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W4249210107",
+    "paper_title": "Generalised Filtering",
+    "assumption": "Free-energy bounds are essential for approximate Bayesian inference in complex models",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W4249210107",
+    "paper_title": "Generalised Filtering",
+    "assumption": "Online filtering requires sequential processing of observations as they arrive",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2126630970",
+    "paper_title": "Variational Bayesian inference and complexity control for stochastic block models",
+    "assumption": "Network clustering requires explicit probabilistic mixture models with discrete components",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2126630970",
+    "paper_title": "Variational Bayesian inference and complexity control for stochastic block models",
+    "assumption": "Model selection in mixture models requires comparing integrated likelihoods across different numbers of components",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2126630970",
+    "paper_title": "Variational Bayesian inference and complexity control for stochastic block models",
+    "assumption": "Variational approximations are necessary for tractable inference in complex probabilistic models",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2126630970",
+    "paper_title": "Variational Bayesian inference and complexity control for stochastic block models",
+    "assumption": "Network structure learning requires clustering vertices based on connection profiles rather than direct structural optimization",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2126630970",
+    "paper_title": "Variational Bayesian inference and complexity control for stochastic block models",
+    "assumption": "Bayesian model comparison through marginal likelihood is the principled approach for model selection",
+    "confidence": 0.8,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2125573226",
+    "paper_title": "The Role of Syntax in Vector Space Models of Compositional Semantics",
+    "assumption": "Compositional semantics requires explicit syntactic structure to guide meaning combination",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2125573226",
+    "paper_title": "The Role of Syntax in Vector Space Models of Compositional Semantics",
+    "assumption": "Vector space representations are necessary for encoding semantic meaning in neural models",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2125573226",
+    "paper_title": "The Role of Syntax in Vector Space Models of Compositional Semantics",
+    "assumption": "Sentence-level semantic understanding requires bottom-up composition from word meanings",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2125573226",
+    "paper_title": "The Role of Syntax in Vector Space Models of Compositional Semantics",
+    "assumption": "Non-linear transformations are essential for modeling semantic composition",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2125573226",
+    "paper_title": "The Role of Syntax in Vector Space Models of Compositional Semantics",
+    "assumption": "Syntactic parsing is a prerequisite for semantic composition in NLP systems",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2146721220",
+    "paper_title": "Computational approaches for RNA energy parameter estimation",
+    "assumption": "Free energy minimization is the fundamental principle governing RNA secondary structure formation",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2146721220",
+    "paper_title": "Computational approaches for RNA energy parameter estimation",
+    "assumption": "Additive nearest-neighbor energy models are necessary for accurate RNA structure prediction",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2146721220",
+    "paper_title": "Computational approaches for RNA energy parameter estimation",
+    "assumption": "Known reference structures represent the true native conformations and are essential for parameter training",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2146721220",
+    "paper_title": "Computational approaches for RNA energy parameter estimation",
+    "assumption": "Pseudoknot-free secondary structures are sufficient for most RNA structure prediction applications",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2146721220",
+    "paper_title": "Computational approaches for RNA energy parameter estimation",
+    "assumption": "Maximum likelihood or margin-based optimization is required for learning energy parameters from structural data",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W139043267",
+    "paper_title": "Interaction Design for Complex Cognitive Activities with Visual Representations: A Pattern-Based Approach",
+    "assumption": "Visual representations are essential for supporting complex cognitive activities effectively",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W139043267",
+    "paper_title": "Interaction Design for Complex Cognitive Activities with Visual Representations: A Pattern-Based Approach",
+    "assumption": "Interactive manipulation is necessary for meaningful engagement with visual information",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W139043267",
+    "paper_title": "Interaction Design for Complex Cognitive Activities with Visual Representations: A Pattern-Based Approach",
+    "assumption": "Complex cognitive activities require specialized computational tools rather than general-purpose interfaces",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W139043267",
+    "paper_title": "Interaction Design for Complex Cognitive Activities with Visual Representations: A Pattern-Based Approach",
+    "assumption": "Epistemic actions are fundamental building blocks that can be cataloged and systematically applied across domains",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W139043267",
+    "paper_title": "Interaction Design for Complex Cognitive Activities with Visual Representations: A Pattern-Based Approach",
+    "assumption": "Pattern-based approaches are necessary for generalizable interaction design frameworks",
+    "confidence": 0.75,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2171282218",
+    "paper_title": "Inductive Principles for Restricted Boltzmann Machine Learning",
+    "assumption": "Maximum likelihood estimation is the foundational learning paradigm for probabilistic models",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2171282218",
+    "paper_title": "Inductive Principles for Restricted Boltzmann Machine Learning",
+    "assumption": "Intractable partition functions fundamentally prevent effective maximum likelihood learning",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2171282218",
+    "paper_title": "Inductive Principles for Restricted Boltzmann Machine Learning",
+    "assumption": "Energy-based models with latent variables are necessary for learning complex probability distributions",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2171282218",
+    "paper_title": "Inductive Principles for Restricted Boltzmann Machine Learning",
+    "assumption": "Bipartite architectures are essential for tractable inference in undirected graphical models",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2171282218",
+    "paper_title": "Inductive Principles for Restricted Boltzmann Machine Learning",
+    "assumption": "MCMC-based approximations are required for learning in models with intractable likelihoods",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2004882387",
+    "paper_title": "An introduction to deep learning",
+    "assumption": "Multiple levels of hierarchical representations are necessary for effective learning of complex data distributions",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2004882387",
+    "paper_title": "An introduction to deep learning",
+    "assumption": "Unsupervised pre-training is essential for learning good representations in deep networks",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2004882387",
+    "paper_title": "An introduction to deep learning",
+    "assumption": "Layer-wise greedy pre-training is required to successfully train deep architectures",
+    "confidence": 0.88,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2004882387",
+    "paper_title": "An introduction to deep learning",
+    "assumption": "Denoising corruption is necessary for autoencoders to learn meaningful representations",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2004882387",
+    "paper_title": "An introduction to deep learning",
+    "assumption": "Deep networks require careful initialization strategies to avoid optimization difficulties",
+    "confidence": 0.82,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2185528074",
+    "paper_title": "Learning Deep Energy Models",
+    "assumption": "Greedy layer-wise training is necessary for deep generative models to avoid poor local minima",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2185528074",
+    "paper_title": "Learning Deep Energy Models",
+    "assumption": "Energy-based models require intractable partition function computation that makes direct likelihood optimization impractical",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2185528074",
+    "paper_title": "Learning Deep Energy Models",
+    "assumption": "Deep architectures are essential for learning hierarchical representations in generative models",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2185528074",
+    "paper_title": "Learning Deep Energy Models",
+    "assumption": "Sigmoidal activation functions are the standard choice for neural network-based probabilistic models",
+    "confidence": 0.75,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2185528074",
+    "paper_title": "Learning Deep Energy Models",
+    "assumption": "Joint training of all layers simultaneously in deep models leads to optimization difficulties and poor convergence",
+    "confidence": 0.85,
+    "category": "training"
+  }
+]

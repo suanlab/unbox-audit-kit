@@ -1,0 +1,83 @@
+{
+  "field": "Neuromorphic Memory Architecture",
+  "planted_assumption": "Hierarchical addressing is necessary for neuromorphic memory retrieval",
+  "with_corpus": {
+    "conf_rank": 2.0,
+    "best_sim": 0.9581,
+    "r_at_5": 1.0,
+    "r_at_10": 1.0,
+    "top_5": [
+      {
+        "rank": 22,
+        "assumption": "Hierarchical addressing is necessary for efficient memory retrieval in neuromorphic systems.",
+        "best_similarity": 0.9581,
+        "is_match": true
+      },
+      {
+        "rank": 8,
+        "assumption": "Hierarchical addressing is essential for efficient data retrieval in neuromorphic memory systems.",
+        "best_similarity": 0.9447,
+        "is_match": true
+      },
+      {
+        "rank": 9,
+        "assumption": "Hierarchical addressing is essential for optimizing retrieval efficiency in neuromorphic memory systems.",
+        "best_similarity": 0.9446,
+        "is_match": true
+      },
+      {
+        "rank": 34,
+        "assumption": "Hierarchical addressing is necessary for efficient data retrieval in memory architectures.",
+        "best_similarity": 0.8342,
+        "is_match": true
+      },
+      {
+        "rank": 2,
+        "assumption": "Hierarchical structures are essential for organizing memory in neuromorphic systems",
+        "best_similarity": 0.809,
+        "is_match": true
+      }
+    ]
+  },
+  "no_corpus": {
+    "conf_rank": 27.0,
+    "best_sim": 0.6834,
+    "r_at_5": 0.0,
+    "r_at_10": 0.0,
+    "top_5": [
+      {
+        "rank": 27,
+        "assumption": "High-density memory storage is essential for neuromorphic systems to handle complex tasks",
+        "best_similarity": 0.6834,
+        "is_match": true
+      },
+      {
+        "rank": 2,
+        "assumption": "Mimicking biological neural processes is necessary for effective neuromorphic memory design",
+        "best_similarity": 0.6305,
+        "is_match": false
+      },
+      {
+        "rank": 3,
+        "assumption": "Scalability is required for neuromorphic memory systems to be practical",
+        "best_similarity": 0.6224,
+        "is_match": false
+      },
+      {
+        "rank": 56,
+        "assumption": "Parallel processing capabilities are required for neuromorphic memory to achieve high efficiency.",
+        "best_similarity": 0.6202,
+        "is_match": false
+      },
+      {
+        "rank": 52,
+        "assumption": "Cross-disciplinary collaboration is required for advancements in neuromorphic memory architecture.",
+        "best_similarity": 0.6187,
+        "is_match": false
+      }
+    ]
+  },
+  "num_abstracts": 15,
+  "num_unique_assumptions_corpus": 71,
+  "num_unique_assumptions_nocorpus": 68
+}

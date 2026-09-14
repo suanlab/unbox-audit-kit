@@ -1,0 +1,24 @@
+{
+  "evaluator": "canonical_evaluator.py (manual verification run)",
+  "ranking_method": "confidence_order (NOT similarity-reranked)",
+  "threshold": 0.65,
+  "embedding_model": "text-embedding-3-small",
+  "note": "Ranks verified by manual re-embedding of top-20 assumptions per paradigm in confidence order. See scripts/canonical_evaluator.py for the reusable evaluator.",
+  "aggregate": {
+    "total": 10,
+    "r_at_5": 4,
+    "r_at_10": 6
+  },
+  "results": [
+    {"paradigm": "transformer", "conf_rank": 1, "best_sim": 0.674, "r_at_5": 1.0, "r_at_10": 1.0},
+    {"paradigm": "diffusion", "conf_rank": 2, "best_sim": 0.759, "r_at_5": 1.0, "r_at_10": 1.0},
+    {"paradigm": "icl", "conf_rank": 3, "best_sim": 0.702, "r_at_5": 1.0, "r_at_10": 1.0},
+    {"paradigm": "vit", "conf_rank": 5, "best_sim": 0.676, "r_at_5": 1.0, "r_at_10": 1.0},
+    {"paradigm": "batchnorm", "conf_rank": 7, "best_sim": 0.727, "r_at_5": 0.0, "r_at_10": 1.0},
+    {"paradigm": "gan", "conf_rank": 10, "best_sim": 0.657, "r_at_5": 0.0, "r_at_10": 1.0},
+    {"paradigm": "resnet", "conf_rank": null, "best_sim": 0.597, "r_at_5": 0.0, "r_at_10": 0.0},
+    {"paradigm": "word2vec", "conf_rank": null, "best_sim": 0.633, "r_at_5": 0.0, "r_at_10": 0.0},
+    {"paradigm": "dropout", "conf_rank": null, "best_sim": 0.604, "r_at_5": 0.0, "r_at_10": 0.0},
+    {"paradigm": "bert", "conf_rank": null, "best_sim": 0.544, "r_at_5": 0.0, "r_at_10": 0.0}
+  ]
+}

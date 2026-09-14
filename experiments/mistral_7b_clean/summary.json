@@ -1,0 +1,12 @@
+{
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "seed": 42,
+  "paradigms": [
+    "transformer",
+    "diffusion",
+    "icl",
+    "vit"
+  ],
+  "papers_per_paradigm": 15,
+  "temperature": 0.0
+}

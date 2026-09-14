@@ -1,0 +1,72 @@
+{
+  "paradigm": "vit",
+  "year": 2020,
+  "ground_truth": "convolutional layers are necessary for vision",
+  "ground_truth_aliases": [
+    "convolutional layers are necessary for vision",
+    "vision models require convolutional layers",
+    "image understanding needs convolutional inductive biases"
+  ],
+  "extraction_model": "gpt-4o",
+  "num_papers": 15,
+  "num_raw_assumptions": 75,
+  "num_unique_assumptions": 75,
+  "best_similarity": 0.7797,
+  "soft_rank": 3.0,
+  "soft_recall_at_5": 1.0,
+  "soft_recall_at_10": 1.0,
+  "soft_recall_at_20": 1.0,
+  "top_10_assumptions": [
+    {
+      "rank": 4,
+      "assumption": "Convolutional layers are essential for visual feature extraction in neural networks",
+      "similarity": 0.7797
+    },
+    {
+      "rank": 5,
+      "assumption": "Convolutional neural networks are essential for processing image data",
+      "similarity": 0.6892
+    },
+    {
+      "rank": 3,
+      "assumption": "Convolutional neural networks are essential for image recognition tasks",
+      "similarity": 0.6784
+    },
+    {
+      "rank": 25,
+      "assumption": "Convolutional operations are necessary for modeling local relations in images and videos.",
+      "similarity": 0.6644
+    },
+    {
+      "rank": 1,
+      "assumption": "Convolutional neural networks are essential for feature extraction in computer vision tasks.",
+      "similarity": 0.6407
+    },
+    {
+      "rank": 13,
+      "assumption": "Convolutional architectures are essential for image segmentation tasks",
+      "similarity": 0.6372
+    },
+    {
+      "rank": 23,
+      "assumption": "Convolutional neural networks are necessary for visual feature extraction in medical imaging",
+      "similarity": 0.6325
+    },
+    {
+      "rank": 15,
+      "assumption": "Convolutional architectures are essential for learning spatial hierarchies in data",
+      "similarity": 0.6111
+    },
+    {
+      "rank": 19,
+      "assumption": "Convolutional neural networks are essential for image-based defect detection",
+      "similarity": 0.6093
+    },
+    {
+      "rank": 12,
+      "assumption": "Convolutional neural networks are essential for processing point clouds in high-level tasks.",
+      "similarity": 0.5725
+    }
+  ],
+  "ran_at": "2026-03-23T12:23:22.895754+00:00"
+}

@@ -1,0 +1,1715 @@
+{
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "k_percent": 0.2,
+  "papers_per_paradigm": 60,
+  "per_paradigm": {
+    "transformer": {
+      "n_papers": 60,
+      "mean_min_kpct_prob": -6.283056212123433,
+      "mean_logprob": -2.076906611800021,
+      "per_paper": [
+        {
+          "paperId": "https://openalex.org/W2518638964",
+          "year": 2016,
+          "n_tokens": 223,
+          "min_kpct_prob": -6.777549570257014,
+          "mean_logprob": -2.4428923793095048
+        },
+        {
+          "paperId": "https://openalex.org/W2327501763",
+          "year": 2016,
+          "n_tokens": 293,
+          "min_kpct_prob": -5.648029730237764,
+          "mean_logprob": -1.8070699933529388
+        },
+        {
+          "paperId": "https://openalex.org/W2267186426",
+          "year": 2016,
+          "n_tokens": 162,
+          "min_kpct_prob": -7.443469896912575,
+          "mean_logprob": -2.6881733721121788
+        },
+        {
+          "paperId": "https://openalex.org/W2963974889",
+          "year": 2016,
+          "n_tokens": 236,
+          "min_kpct_prob": -5.8304243037041195,
+          "mean_logprob": -1.8894310804336196
+        },
+        {
+          "paperId": "https://openalex.org/W2513263213",
+          "year": 2016,
+          "n_tokens": 108,
+          "min_kpct_prob": -7.937272185371036,
+          "mean_logprob": -2.4521427353227883
+        },
+        {
+          "paperId": "https://openalex.org/W2252272516",
+          "year": 2015,
+          "n_tokens": 171,
+          "min_kpct_prob": -6.395029208239387,
+          "mean_logprob": -2.0921808584913295
+        },
+        {
+          "paperId": "https://openalex.org/W2516310076",
+          "year": 2016,
+          "n_tokens": 283,
+          "min_kpct_prob": -7.091467099530356,
+          "mean_logprob": -2.4572010315831947
+        },
+        {
+          "paperId": "https://openalex.org/W2514445058",
+          "year": 2016,
+          "n_tokens": 162,
+          "min_kpct_prob": -6.309456564486027,
+          "mean_logprob": -2.0268469176663517
+        },
+        {
+          "paperId": "https://openalex.org/W2554720547",
+          "year": 2016,
+          "n_tokens": 302,
+          "min_kpct_prob": -5.746331179141999,
+          "mean_logprob": -1.8459798826758038
+        },
+        {
+          "paperId": "https://openalex.org/W581956982",
+          "year": 2015,
+          "n_tokens": 226,
+          "min_kpct_prob": -5.8134641064537895,
+          "mean_logprob": -1.7255960484741018
+        },
+        {
+          "paperId": "https://openalex.org/W2139501017",
+          "year": 2015,
+          "n_tokens": 224,
+          "min_kpct_prob": -6.369292540983721,
+          "mean_logprob": -2.104371290313598
+        },
+        {
+          "paperId": "https://openalex.org/W2507756961",
+          "year": 2015,
+          "n_tokens": 322,
+          "min_kpct_prob": -6.247674383223057,
+          "mean_logprob": -2.1273944416865964
+        },
+        {
+          "paperId": "https://openalex.org/W2508865106",
+          "year": 2016,
+          "n_tokens": 205,
+          "min_kpct_prob": -7.592290517760486,
+          "mean_logprob": -2.6834375212547545
+        },
+        {
+          "paperId": "https://openalex.org/W2467173223",
+          "year": 2016,
+          "n_tokens": 172,
+          "min_kpct_prob": -5.307411137749167,
+          "mean_logprob": -1.6120802007752753
+        },
+        {
+          "paperId": "https://openalex.org/W2963266340",
+          "year": 2016,
+          "n_tokens": 220,
+          "min_kpct_prob": -6.682490733536807,
+          "mean_logprob": -2.122961704393459
+        },
+        {
+          "paperId": "https://openalex.org/W1985258458",
+          "year": 2015,
+          "n_tokens": 260,
+          "min_kpct_prob": -6.17561398102687,
+          "mean_logprob": -2.1570636055744883
+        },
+        {
+          "paperId": "https://openalex.org/W2963620441",
+          "year": 2016,
+          "n_tokens": 183,
+          "min_kpct_prob": -7.0428522030512495,
+          "mean_logprob": -2.5500613936678573
+        },
+        {
+          "paperId": "https://openalex.org/W2522485430",
+          "year": 2016,
+          "n_tokens": 407,
+          "min_kpct_prob": -6.301262369862309,
+          "mean_logprob": -2.0231968650642767
+        },
+        {
+          "paperId": "https://openalex.org/W2963661253",
+          "year": 2016,
+          "n_tokens": 172,
+          "min_kpct_prob": -6.164583395509159,
+          "mean_logprob": -1.888769718035355
+        },
+        {
+          "paperId": "https://openalex.org/W2962905474",
+          "year": 2016,
+          "n_tokens": 275,
+          "min_kpct_prob": -6.854436883059415,
+          "mean_logprob": -2.2640780720860327
+        },
+        {
+          "paperId": "https://openalex.org/W2963991316",
+          "year": 2016,
+          "n_tokens": 322,
+          "min_kpct_prob": -5.5229285173118114,
+          "mean_logprob": -1.6751628464432615
+        },
+        {
+          "paperId": "https://openalex.org/W2561360547",
+          "year": 2016,
+          "n_tokens": 118,
+          "min_kpct_prob": -7.676002419513205,
+          "mean_logprob": -2.41176615212674
+        },
+        {
+          "paperId": "https://openalex.org/W2527036487",
+          "year": 2016,
+          "n_tokens": 262,
+          "min_kpct_prob": -6.505679928339445,
+          "mean_logprob": -2.112792905541569
+        },
+        {
+          "paperId": "https://openalex.org/W2566564022",
+          "year": 2016,
+          "n_tokens": 239,
+          "min_kpct_prob": -5.8691146931749705,
+          "mean_logprob": -1.8515895752605722
+        },
+        {
+          "paperId": "https://openalex.org/W2964036636",
+          "year": 2016,
+          "n_tokens": 204,
+          "min_kpct_prob": -6.09758408665657,
+          "mean_logprob": -1.9724474106852476
+        },
+        {
+          "paperId": "https://openalex.org/W2748780488",
+          "year": 2015,
+          "n_tokens": 134,
+          "min_kpct_prob": -6.602625461725088,
+          "mean_logprob": -2.343467375391444
+        },
+        {
+          "paperId": "https://openalex.org/W2399175133",
+          "year": 2016,
+          "n_tokens": 286,
+          "min_kpct_prob": -6.1049457056480545,
+          "mean_logprob": -2.1041379937031337
+        },
+        {
+          "paperId": "https://openalex.org/W2291776410",
+          "year": 2015,
+          "n_tokens": 305,
+          "min_kpct_prob": -6.563362926733299,
+          "mean_logprob": -2.213154860504163
+        },
+        {
+          "paperId": "https://openalex.org/W2514996388",
+          "year": 2016,
+          "n_tokens": 183,
+          "min_kpct_prob": -5.109891851743062,
+          "mean_logprob": -1.6531215673770772
+        },
+        {
+          "paperId": "https://openalex.org/W2424778531",
+          "year": 2016,
+          "n_tokens": 213,
+          "min_kpct_prob": -5.527667471340725,
+          "mean_logprob": -1.856079820384652
+        },
+        {
+          "paperId": "https://openalex.org/W2293634267",
+          "year": 2014,
+          "n_tokens": 252,
+          "min_kpct_prob": -5.538161897659302,
+          "mean_logprob": -1.687981765863711
+        },
+        {
+          "paperId": "https://openalex.org/W2270470215",
+          "year": 2016,
+          "n_tokens": 303,
+          "min_kpct_prob": -5.979354123274486,
+          "mean_logprob": -1.957171665334106
+        },
+        {
+          "paperId": "https://openalex.org/W1923404803",
+          "year": 2015,
+          "n_tokens": 253,
+          "min_kpct_prob": -6.0011786317825315,
+          "mean_logprob": -2.034156326268598
+        },
+        {
+          "paperId": "https://openalex.org/W2964167098",
+          "year": 2016,
+          "n_tokens": 263,
+          "min_kpct_prob": -6.080412328243256,
+          "mean_logprob": -1.9570131585375674
+        },
+        {
+          "paperId": "https://openalex.org/W2951559648",
+          "year": 2016,
+          "n_tokens": 215,
+          "min_kpct_prob": -5.986394039420194,
+          "mean_logprob": -1.911244482362134
+        },
+        {
+          "paperId": "https://openalex.org/W2336509392",
+          "year": 2016,
+          "n_tokens": 296,
+          "min_kpct_prob": -5.497336973578243,
+          "mean_logprob": -1.8028637918786923
+        },
+        {
+          "paperId": "https://openalex.org/W2963088995",
+          "year": 2016,
+          "n_tokens": 239,
+          "min_kpct_prob": -5.763296720829416,
+          "mean_logprob": -1.8425714832026407
+        },
+        {
+          "paperId": "https://openalex.org/W2123585936",
+          "year": 2014,
+          "n_tokens": 390,
+          "min_kpct_prob": -6.119970199389336,
+          "mean_logprob": -2.196379910424469
+        },
+        {
+          "paperId": "https://openalex.org/W846669277",
+          "year": 2015,
+          "n_tokens": 286,
+          "min_kpct_prob": -6.2339173534460235,
+          "mean_logprob": -2.0765344327342348
+        },
+        {
+          "paperId": "https://openalex.org/W2473329891",
+          "year": 2016,
+          "n_tokens": 305,
+          "min_kpct_prob": -6.484206727293671,
+          "mean_logprob": -2.19912321980836
+        },
+        {
+          "paperId": "https://openalex.org/W2962944953",
+          "year": 2016,
+          "n_tokens": 215,
+          "min_kpct_prob": -6.224320428315983,
+          "mean_logprob": -2.2660820927863488
+        },
+        {
+          "paperId": "https://openalex.org/W2963655793",
+          "year": 2016,
+          "n_tokens": 199,
+          "min_kpct_prob": -6.726424975272937,
+          "mean_logprob": -2.113500161431641
+        },
+        {
+          "paperId": "https://openalex.org/W2461621749",
+          "year": 2016,
+          "n_tokens": 309,
+          "min_kpct_prob": -5.992349440934228,
+          "mean_logprob": -1.9590870710657162
+        },
+        {
+          "paperId": "https://openalex.org/W1909234690",
+          "year": 2015,
+          "n_tokens": 307,
+          "min_kpct_prob": -6.479719732628494,
+          "mean_logprob": -2.259569694301584
+        },
+        {
+          "paperId": "https://openalex.org/W2513383847",
+          "year": 2016,
+          "n_tokens": 246,
+          "min_kpct_prob": -6.676658309235865,
+          "mean_logprob": -2.256360951817464
+        },
+        {
+          "paperId": "https://openalex.org/W2408520939",
+          "year": 2015,
+          "n_tokens": 190,
+          "min_kpct_prob": -6.09951945355064,
+          "mean_logprob": -2.1394760443481284
+        },
+        {
+          "paperId": "https://openalex.org/W2515753980",
+          "year": 2016,
+          "n_tokens": 390,
+          "min_kpct_prob": -5.656865544808217,
+          "mean_logprob": -1.8273914638209905
+        },
+        {
+          "paperId": "https://openalex.org/W2510940142",
+          "year": 2016,
+          "n_tokens": 184,
+          "min_kpct_prob": -7.096429453955756,
+          "mean_logprob": -2.2357638243351095
+        },
+        {
+          "paperId": "https://openalex.org/W2024632416",
+          "year": 2014,
+          "n_tokens": 231,
+          "min_kpct_prob": -6.480702239534129,
+          "mean_logprob": -2.030702820465899
+        },
+        {
+          "paperId": "https://openalex.org/W2431738724",
+          "year": 2016,
+          "n_tokens": 399,
+          "min_kpct_prob": -6.550441144387933,
+          "mean_logprob": -2.1533179120056833
+        },
+        {
+          "paperId": "https://openalex.org/W2962790387",
+          "year": 2016,
+          "n_tokens": 251,
+          "min_kpct_prob": -6.9763391399383545,
+          "mean_logprob": -2.4627659883437327
+        },
+        {
+          "paperId": "https://openalex.org/W2341973567",
+          "year": 2016,
+          "n_tokens": 252,
+          "min_kpct_prob": -5.40018226146698,
+          "mean_logprob": -1.6765420792043988
+        },
+        {
+          "paperId": "https://openalex.org/W1509691205",
+          "year": 2015,
+          "n_tokens": 228,
+          "min_kpct_prob": -5.672736464606391,
+          "mean_logprob": -1.5950700080580056
+        },
+        {
+          "paperId": "https://openalex.org/W2546314413",
+          "year": 2015,
+          "n_tokens": 250,
+          "min_kpct_prob": -5.463714447021484,
+          "mean_logprob": -1.7907023331700185
+        },
+        {
+          "paperId": "https://openalex.org/W2517782820",
+          "year": 2016,
+          "n_tokens": 188,
+          "min_kpct_prob": -6.659131784696837,
+          "mean_logprob": -2.2547868180094386
+        },
+        {
+          "paperId": "https://openalex.org/W2521003103",
+          "year": 2016,
+          "n_tokens": 245,
+          "min_kpct_prob": -5.461971219705076,
+          "mean_logprob": -1.6013596233496934
+        },
+        {
+          "paperId": "https://openalex.org/W2180877453",
+          "year": 2015,
+          "n_tokens": 3933,
+          "min_kpct_prob": -6.64719060298444,
+          "mean_logprob": -2.298966343802779
+        },
+        {
+          "paperId": "https://openalex.org/W2561658355",
+          "year": 2016,
+          "n_tokens": 122,
+          "min_kpct_prob": -8.306819001833597,
+          "mean_logprob": -3.024824668614186
+        },
+        {
+          "paperId": "https://openalex.org/W2963713328",
+          "year": 2016,
+          "n_tokens": 223,
+          "min_kpct_prob": -5.639126848090779,
+          "mean_logprob": -1.731284423595659
+        },
+        {
+          "paperId": "https://openalex.org/W2566619632",
+          "year": 2016,
+          "n_tokens": 266,
+          "min_kpct_prob": -5.778296187238873,
+          "mean_logprob": -2.117152529368906
+        }
+      ]
+    },
+    "diffusion": {
+      "n_papers": 60,
+      "mean_min_kpct_prob": -5.913786401886658,
+      "mean_logprob": -1.8586450424800849,
+      "per_paper": [
+        {
+          "paperId": "https://openalex.org/W2943118732",
+          "year": 2019,
+          "n_tokens": 357,
+          "min_kpct_prob": -6.007974184734721,
+          "mean_logprob": -1.7589990251719672
+        },
+        {
+          "paperId": "https://openalex.org/W2963142510",
+          "year": 2017,
+          "n_tokens": 240,
+          "min_kpct_prob": -6.521542504429817,
+          "mean_logprob": -2.141299451484815
+        },
+        {
+          "paperId": "https://openalex.org/W2981036610",
+          "year": 2019,
+          "n_tokens": 460,
+          "min_kpct_prob": -6.293171576831652,
+          "mean_logprob": -2.0036836639692943
+        },
+        {
+          "paperId": "https://openalex.org/W2963278610",
+          "year": 2018,
+          "n_tokens": 211,
+          "min_kpct_prob": -6.08875610714867,
+          "mean_logprob": -1.807362273489114
+        },
+        {
+          "paperId": "https://openalex.org/W2981950698",
+          "year": 2019,
+          "n_tokens": 376,
+          "min_kpct_prob": -5.754644072850545,
+          "mean_logprob": -1.8598303156171572
+        },
+        {
+          "paperId": "https://openalex.org/W2888457764",
+          "year": 2018,
+          "n_tokens": 309,
+          "min_kpct_prob": -5.603755845398199,
+          "mean_logprob": -1.7544945244901813
+        },
+        {
+          "paperId": "https://openalex.org/W2963800363",
+          "year": 2018,
+          "n_tokens": 231,
+          "min_kpct_prob": -5.760190787522689,
+          "mean_logprob": -1.8248201856788544
+        },
+        {
+          "paperId": "https://openalex.org/W2765811365",
+          "year": 2018,
+          "n_tokens": 159,
+          "min_kpct_prob": -6.373217890339513,
+          "mean_logprob": -1.924938349075881
+        },
+        {
+          "paperId": "https://openalex.org/W2737047298",
+          "year": 2017,
+          "n_tokens": 268,
+          "min_kpct_prob": -5.543658040604502,
+          "mean_logprob": -1.7448048398040346
+        },
+        {
+          "paperId": "https://openalex.org/W2966792645",
+          "year": 2019,
+          "n_tokens": 326,
+          "min_kpct_prob": -5.230739509142362,
+          "mean_logprob": -1.704746895742409
+        },
+        {
+          "paperId": "https://openalex.org/W2761299546",
+          "year": 2017,
+          "n_tokens": 332,
+          "min_kpct_prob": -5.906145601561575,
+          "mean_logprob": -2.0126686247407775
+        },
+        {
+          "paperId": "https://openalex.org/W2963306805",
+          "year": 2019,
+          "n_tokens": 247,
+          "min_kpct_prob": -6.06527075475576,
+          "mean_logprob": -1.912416238974302
+        },
+        {
+          "paperId": "https://openalex.org/W2931020703",
+          "year": 2019,
+          "n_tokens": 689,
+          "min_kpct_prob": -4.652366041267006,
+          "mean_logprob": -1.106040865420716
+        },
+        {
+          "paperId": "https://openalex.org/W2914057844",
+          "year": 2019,
+          "n_tokens": 455,
+          "min_kpct_prob": -5.85232718698271,
+          "mean_logprob": -1.5935818346956343
+        },
+        {
+          "paperId": "https://openalex.org/W2798553619",
+          "year": 2018,
+          "n_tokens": 247,
+          "min_kpct_prob": -5.398151816154013,
+          "mean_logprob": -1.7141227342629055
+        },
+        {
+          "paperId": "https://openalex.org/W2886009883",
+          "year": 2018,
+          "n_tokens": 482,
+          "min_kpct_prob": -5.597218545774619,
+          "mean_logprob": -1.8576984675225778
+        },
+        {
+          "paperId": "https://openalex.org/W2921948732",
+          "year": 2019,
+          "n_tokens": 420,
+          "min_kpct_prob": -5.431096678688412,
+          "mean_logprob": -1.670375035358461
+        },
+        {
+          "paperId": "https://openalex.org/W2749193951",
+          "year": 2017,
+          "n_tokens": 291,
+          "min_kpct_prob": -5.901130569392238,
+          "mean_logprob": -1.8067738489109766
+        },
+        {
+          "paperId": "https://openalex.org/W2987947587",
+          "year": 2019,
+          "n_tokens": 311,
+          "min_kpct_prob": -6.385050173728697,
+          "mean_logprob": -2.019011314762006
+        },
+        {
+          "paperId": "https://openalex.org/W2903356598",
+          "year": 2018,
+          "n_tokens": 417,
+          "min_kpct_prob": -5.537160537329065,
+          "mean_logprob": -1.7295278797030578
+        },
+        {
+          "paperId": "https://openalex.org/W2949265864",
+          "year": 2019,
+          "n_tokens": 507,
+          "min_kpct_prob": -6.000642828422017,
+          "mean_logprob": -1.9076082711343565
+        },
+        {
+          "paperId": "https://openalex.org/W2772330423",
+          "year": 2017,
+          "n_tokens": 142,
+          "min_kpct_prob": -5.213857923235212,
+          "mean_logprob": -1.5153719447347818
+        },
+        {
+          "paperId": "https://openalex.org/W2617561348",
+          "year": 2018,
+          "n_tokens": 292,
+          "min_kpct_prob": -6.151944994926453,
+          "mean_logprob": -1.9182753326033684
+        },
+        {
+          "paperId": "https://openalex.org/W2963105382",
+          "year": 2018,
+          "n_tokens": 315,
+          "min_kpct_prob": -6.4630301717727905,
+          "mean_logprob": -2.087514972322716
+        },
+        {
+          "paperId": "https://openalex.org/W2890718122",
+          "year": 2018,
+          "n_tokens": 500,
+          "min_kpct_prob": -5.279343476295471,
+          "mean_logprob": -1.6356537593900258
+        },
+        {
+          "paperId": "https://openalex.org/W2983248633",
+          "year": 2019,
+          "n_tokens": 339,
+          "min_kpct_prob": -6.667970194745419,
+          "mean_logprob": -2.1165956563875095
+        },
+        {
+          "paperId": "https://openalex.org/W2954996726",
+          "year": 2019,
+          "n_tokens": 314,
+          "min_kpct_prob": -6.245729423338367,
+          "mean_logprob": -2.0735341321350615
+        },
+        {
+          "paperId": "https://openalex.org/W2807246925",
+          "year": 2018,
+          "n_tokens": 241,
+          "min_kpct_prob": -5.992530256509781,
+          "mean_logprob": -1.8378184599099032
+        },
+        {
+          "paperId": "https://openalex.org/W2963563295",
+          "year": 2019,
+          "n_tokens": 263,
+          "min_kpct_prob": -5.6447789302239055,
+          "mean_logprob": -1.6760123362404238
+        },
+        {
+          "paperId": "https://openalex.org/W2970955049",
+          "year": 2019,
+          "n_tokens": 268,
+          "min_kpct_prob": -5.954651279269524,
+          "mean_logprob": -1.8434579889360283
+        },
+        {
+          "paperId": "https://openalex.org/W2964268978",
+          "year": 2017,
+          "n_tokens": 277,
+          "min_kpct_prob": -5.346355056762695,
+          "mean_logprob": -1.7047782624263754
+        },
+        {
+          "paperId": "https://openalex.org/W2963085847",
+          "year": 2018,
+          "n_tokens": 288,
+          "min_kpct_prob": -6.275907298974824,
+          "mean_logprob": -2.0149937342076405
+        },
+        {
+          "paperId": "https://openalex.org/W2963448658",
+          "year": 2018,
+          "n_tokens": 315,
+          "min_kpct_prob": -6.101354402209085,
+          "mean_logprob": -1.8878630723153096
+        },
+        {
+          "paperId": "https://openalex.org/W2984306354",
+          "year": 2019,
+          "n_tokens": 500,
+          "min_kpct_prob": -4.895486478805542,
+          "mean_logprob": -1.5114700854209733
+        },
+        {
+          "paperId": "https://openalex.org/W2921353139",
+          "year": 2019,
+          "n_tokens": 154,
+          "min_kpct_prob": -5.7261238177617395,
+          "mean_logprob": -1.8274855638018226
+        },
+        {
+          "paperId": "https://openalex.org/W2789713147",
+          "year": 2018,
+          "n_tokens": 314,
+          "min_kpct_prob": -5.6939320679633845,
+          "mean_logprob": -1.8766042867221928
+        },
+        {
+          "paperId": "https://openalex.org/W2963169753",
+          "year": 2018,
+          "n_tokens": 313,
+          "min_kpct_prob": -5.332307004159497,
+          "mean_logprob": -1.609961012025329
+        },
+        {
+          "paperId": "https://openalex.org/W2929803724",
+          "year": 2019,
+          "n_tokens": 128,
+          "min_kpct_prob": -5.61360050201416,
+          "mean_logprob": -1.8300436509445284
+        },
+        {
+          "paperId": "https://openalex.org/W2606759614",
+          "year": 2017,
+          "n_tokens": 345,
+          "min_kpct_prob": -6.567215332086535,
+          "mean_logprob": -2.1137134336092025
+        },
+        {
+          "paperId": "https://openalex.org/W3201409833",
+          "year": 2019,
+          "n_tokens": 438,
+          "min_kpct_prob": -7.643298242283963,
+          "mean_logprob": -2.5523393457183685
+        },
+        {
+          "paperId": "https://openalex.org/W2808260522",
+          "year": 2018,
+          "n_tokens": 381,
+          "min_kpct_prob": -5.864820016057868,
+          "mean_logprob": -1.7554607312589667
+        },
+        {
+          "paperId": "https://openalex.org/W2963248348",
+          "year": 2018,
+          "n_tokens": 326,
+          "min_kpct_prob": -6.512325771038348,
+          "mean_logprob": -2.182652301599528
+        },
+        {
+          "paperId": "https://openalex.org/W2614083378",
+          "year": 2018,
+          "n_tokens": 323,
+          "min_kpct_prob": -6.703905384987593,
+          "mean_logprob": -2.0421337873395635
+        },
+        {
+          "paperId": "https://openalex.org/W2892278106",
+          "year": 2018,
+          "n_tokens": 386,
+          "min_kpct_prob": -5.474447352545602,
+          "mean_logprob": -1.683106320858033
+        },
+        {
+          "paperId": "https://openalex.org/W2985931096",
+          "year": 2019,
+          "n_tokens": 201,
+          "min_kpct_prob": -5.926211130619049,
+          "mean_logprob": -1.86430969876921
+        },
+        {
+          "paperId": "https://openalex.org/W2933283236",
+          "year": 2019,
+          "n_tokens": 301,
+          "min_kpct_prob": -5.398340098063151,
+          "mean_logprob": -1.6471257680584488
+        },
+        {
+          "paperId": "https://openalex.org/W2963105487",
+          "year": 2018,
+          "n_tokens": 273,
+          "min_kpct_prob": -5.522187480220088,
+          "mean_logprob": -1.831703977496082
+        },
+        {
+          "paperId": "https://openalex.org/W2799565130",
+          "year": 2018,
+          "n_tokens": 231,
+          "min_kpct_prob": -5.7598922926446665,
+          "mean_logprob": -1.8113419867655207
+        },
+        {
+          "paperId": "https://openalex.org/W2975558816",
+          "year": 2019,
+          "n_tokens": 246,
+          "min_kpct_prob": -5.357677158044309,
+          "mean_logprob": -1.6687274943226602
+        },
+        {
+          "paperId": "https://openalex.org/W2903782687",
+          "year": 2019,
+          "n_tokens": 208,
+          "min_kpct_prob": -6.553092444815287,
+          "mean_logprob": -2.042162485460665
+        },
+        {
+          "paperId": "https://openalex.org/W2798807671",
+          "year": 2018,
+          "n_tokens": 318,
+          "min_kpct_prob": -5.729710401050628,
+          "mean_logprob": -1.7242531021901866
+        },
+        {
+          "paperId": "https://openalex.org/W2908062660",
+          "year": 2019,
+          "n_tokens": 375,
+          "min_kpct_prob": -5.64543576558431,
+          "mean_logprob": -1.8128245641273995
+        },
+        {
+          "paperId": "https://openalex.org/W2912126472",
+          "year": 2019,
+          "n_tokens": 347,
+          "min_kpct_prob": -6.445215442906255,
+          "mean_logprob": -1.9592335032083839
+        },
+        {
+          "paperId": "https://openalex.org/W2962891897",
+          "year": 2019,
+          "n_tokens": 347,
+          "min_kpct_prob": -6.730281836744668,
+          "mean_logprob": -2.1322130733513527
+        },
+        {
+          "paperId": "https://openalex.org/W2963288100",
+          "year": 2018,
+          "n_tokens": 397,
+          "min_kpct_prob": -5.315727949142456,
+          "mean_logprob": -1.617962814072699
+        },
+        {
+          "paperId": "https://openalex.org/W2969485315",
+          "year": 2019,
+          "n_tokens": 301,
+          "min_kpct_prob": -5.398340098063151,
+          "mean_logprob": -1.6471257680584488
+        },
+        {
+          "paperId": "https://openalex.org/W2982026851",
+          "year": 2019,
+          "n_tokens": 249,
+          "min_kpct_prob": -6.037261773128899,
+          "mean_logprob": -2.005738263768492
+        },
+        {
+          "paperId": "https://openalex.org/W3214830544",
+          "year": 2018,
+          "n_tokens": 345,
+          "min_kpct_prob": -7.035605831422668,
+          "mean_logprob": -2.513467966222147
+        },
+        {
+          "paperId": "https://openalex.org/W2904843110",
+          "year": 2018,
+          "n_tokens": 285,
+          "min_kpct_prob": -6.427236264212089,
+          "mean_logprob": -2.150290706144481
+        },
+        {
+          "paperId": "https://openalex.org/W2799209711",
+          "year": 2018,
+          "n_tokens": 323,
+          "min_kpct_prob": -6.275841515511274,
+          "mean_logprob": -1.9385765658717835
+        }
+      ]
+    },
+    "icl": {
+      "n_papers": 60,
+      "mean_min_kpct_prob": -6.246219155454244,
+      "mean_logprob": -2.033652335307205,
+      "per_paper": [
+        {
+          "paperId": "https://openalex.org/W2907630459",
+          "year": 2018,
+          "n_tokens": 244,
+          "min_kpct_prob": -6.673566579818726,
+          "mean_logprob": -2.215543334003383
+        },
+        {
+          "paperId": "https://openalex.org/W2985797697",
+          "year": 2019,
+          "n_tokens": 197,
+          "min_kpct_prob": -6.233403976146992,
+          "mean_logprob": -2.1433352339475364
+        },
+        {
+          "paperId": "https://openalex.org/W2972119829",
+          "year": 2019,
+          "n_tokens": 182,
+          "min_kpct_prob": -6.86949798795912,
+          "mean_logprob": -2.1007457649784453
+        },
+        {
+          "paperId": "https://openalex.org/W2931223666",
+          "year": 2019,
+          "n_tokens": 268,
+          "min_kpct_prob": -5.822966647597979,
+          "mean_logprob": -1.745521828163792
+        },
+        {
+          "paperId": "https://openalex.org/W2991170427",
+          "year": 2019,
+          "n_tokens": 340,
+          "min_kpct_prob": -6.4079153958488915,
+          "mean_logprob": -2.1145446790238407
+        },
+        {
+          "paperId": "https://openalex.org/W2972381305",
+          "year": 2019,
+          "n_tokens": 264,
+          "min_kpct_prob": -5.716730209497305,
+          "mean_logprob": -1.879076528145209
+        },
+        {
+          "paperId": "https://openalex.org/W2970771982",
+          "year": 2019,
+          "n_tokens": 81,
+          "min_kpct_prob": -5.238048769533634,
+          "mean_logprob": -1.1604693309313432
+        },
+        {
+          "paperId": "https://openalex.org/W2970645034",
+          "year": 2019,
+          "n_tokens": 282,
+          "min_kpct_prob": -5.92324332680021,
+          "mean_logprob": -1.87282447951209
+        },
+        {
+          "paperId": "https://openalex.org/W2986341143",
+          "year": 2019,
+          "n_tokens": 231,
+          "min_kpct_prob": -5.739942763162696,
+          "mean_logprob": -1.926171986988848
+        },
+        {
+          "paperId": "https://openalex.org/W2970684786",
+          "year": 2019,
+          "n_tokens": 212,
+          "min_kpct_prob": -6.295370885304043,
+          "mean_logprob": -2.2340733995636084
+        },
+        {
+          "paperId": "https://openalex.org/W2989292414",
+          "year": 2019,
+          "n_tokens": 172,
+          "min_kpct_prob": -8.28917823118322,
+          "mean_logprob": -3.2672721178052258
+        },
+        {
+          "paperId": "https://openalex.org/W2953991875",
+          "year": 2019,
+          "n_tokens": 142,
+          "min_kpct_prob": -5.785355533872332,
+          "mean_logprob": -1.739246796472901
+        },
+        {
+          "paperId": "https://openalex.org/W2985056549",
+          "year": 2019,
+          "n_tokens": 170,
+          "min_kpct_prob": -6.241919741911047,
+          "mean_logprob": -1.9210802837913112
+        },
+        {
+          "paperId": "https://openalex.org/W2555428947",
+          "year": 2017,
+          "n_tokens": 233,
+          "min_kpct_prob": -5.28638031690017,
+          "mean_logprob": -1.6689644254381766
+        },
+        {
+          "paperId": "https://openalex.org/W2949849869",
+          "year": 2019,
+          "n_tokens": 150,
+          "min_kpct_prob": -7.274406671524048,
+          "mean_logprob": -2.469595471778278
+        },
+        {
+          "paperId": "https://openalex.org/W2953553271",
+          "year": 2019,
+          "n_tokens": 219,
+          "min_kpct_prob": -6.0010908703471335,
+          "mean_logprob": -1.9122126621163817
+        },
+        {
+          "paperId": "https://openalex.org/W2948346016",
+          "year": 2019,
+          "n_tokens": 359,
+          "min_kpct_prob": -5.79034380174019,
+          "mean_logprob": -1.8394698833591738
+        },
+        {
+          "paperId": "https://openalex.org/W2982567551",
+          "year": 2019,
+          "n_tokens": 222,
+          "min_kpct_prob": -5.910842868414792,
+          "mean_logprob": -1.9193899144558706
+        },
+        {
+          "paperId": "https://openalex.org/W2953039584",
+          "year": 2019,
+          "n_tokens": 100,
+          "min_kpct_prob": -6.527839922904969,
+          "mean_logprob": -2.2727283836796413
+        },
+        {
+          "paperId": "https://openalex.org/W2905107686",
+          "year": 2019,
+          "n_tokens": 273,
+          "min_kpct_prob": -5.9554216817573264,
+          "mean_logprob": -1.9284637387411019
+        },
+        {
+          "paperId": "https://openalex.org/W2985620815",
+          "year": 2019,
+          "n_tokens": 228,
+          "min_kpct_prob": -7.040140586429172,
+          "mean_logprob": -2.3960613422666523
+        },
+        {
+          "paperId": "https://openalex.org/W2971016465",
+          "year": 2019,
+          "n_tokens": 272,
+          "min_kpct_prob": -6.797183292883414,
+          "mean_logprob": -2.1506604737844555
+        },
+        {
+          "paperId": "https://openalex.org/W2982784916",
+          "year": 2019,
+          "n_tokens": 310,
+          "min_kpct_prob": -5.599366445695201,
+          "mean_logprob": -1.8114127017558648
+        },
+        {
+          "paperId": "https://openalex.org/W2964000578",
+          "year": 2019,
+          "n_tokens": 293,
+          "min_kpct_prob": -6.621217308373287,
+          "mean_logprob": -2.0861507533594605
+        },
+        {
+          "paperId": "https://openalex.org/W2989464093",
+          "year": 2019,
+          "n_tokens": 238,
+          "min_kpct_prob": -6.166646140687009,
+          "mean_logprob": -1.9899105361786833
+        },
+        {
+          "paperId": "https://openalex.org/W2982944182",
+          "year": 2019,
+          "n_tokens": 270,
+          "min_kpct_prob": -6.361722862278974,
+          "mean_logprob": -1.9359864516939524
+        },
+        {
+          "paperId": "https://openalex.org/W2944050646",
+          "year": 2019,
+          "n_tokens": 293,
+          "min_kpct_prob": -6.876176899877088,
+          "mean_logprob": -2.4813549720676047
+        },
+        {
+          "paperId": "https://openalex.org/W2992422826",
+          "year": 2019,
+          "n_tokens": 338,
+          "min_kpct_prob": -5.882115794651544,
+          "mean_logprob": -1.7814097449667041
+        },
+        {
+          "paperId": "https://openalex.org/W2988022164",
+          "year": 2019,
+          "n_tokens": 217,
+          "min_kpct_prob": -6.949920177459717,
+          "mean_logprob": -2.5370046225452825
+        },
+        {
+          "paperId": "https://openalex.org/W2990164998",
+          "year": 2019,
+          "n_tokens": 247,
+          "min_kpct_prob": -6.174427110321668,
+          "mean_logprob": -2.0533314389137782
+        },
+        {
+          "paperId": "https://openalex.org/W2965434755",
+          "year": 2019,
+          "n_tokens": 413,
+          "min_kpct_prob": -7.05974406730838,
+          "mean_logprob": -2.417862241582404
+        },
+        {
+          "paperId": "https://openalex.org/W3127549303",
+          "year": 2019,
+          "n_tokens": 298,
+          "min_kpct_prob": -7.029055660053835,
+          "mean_logprob": -2.403117169695606
+        },
+        {
+          "paperId": "https://openalex.org/W2986143601",
+          "year": 2019,
+          "n_tokens": 292,
+          "min_kpct_prob": -5.920057165211644,
+          "mean_logprob": -1.728980781678654
+        },
+        {
+          "paperId": "https://openalex.org/W2955043905",
+          "year": 2019,
+          "n_tokens": 164,
+          "min_kpct_prob": -6.868828900158405,
+          "mean_logprob": -2.105348822374497
+        },
+        {
+          "paperId": "https://openalex.org/W2982364408",
+          "year": 2019,
+          "n_tokens": 164,
+          "min_kpct_prob": -7.071162894368172,
+          "mean_logprob": -2.181477046359516
+        },
+        {
+          "paperId": "https://openalex.org/W2988294541",
+          "year": 2019,
+          "n_tokens": 191,
+          "min_kpct_prob": -7.3787339361090405,
+          "mean_logprob": -2.232685296487282
+        },
+        {
+          "paperId": "https://openalex.org/W2744692634",
+          "year": 2017,
+          "n_tokens": 324,
+          "min_kpct_prob": -5.707072492688894,
+          "mean_logprob": -1.79719498388128
+        },
+        {
+          "paperId": "https://openalex.org/W2980030301",
+          "year": 2019,
+          "n_tokens": 393,
+          "min_kpct_prob": -5.876911502618056,
+          "mean_logprob": -2.077790004092298
+        },
+        {
+          "paperId": "https://openalex.org/W2751808960",
+          "year": 2017,
+          "n_tokens": 556,
+          "min_kpct_prob": -6.120467046359638,
+          "mean_logprob": -1.988728198522573
+        },
+        {
+          "paperId": "https://openalex.org/W2927980542",
+          "year": 2019,
+          "n_tokens": 286,
+          "min_kpct_prob": -7.5767697869685655,
+          "mean_logprob": -2.375924504310606
+        },
+        {
+          "paperId": "https://openalex.org/W2883595988",
+          "year": 2018,
+          "n_tokens": 258,
+          "min_kpct_prob": -6.888116490607168,
+          "mean_logprob": -2.5405232377667932
+        },
+        {
+          "paperId": "https://openalex.org/W2985913519",
+          "year": 2019,
+          "n_tokens": 313,
+          "min_kpct_prob": -6.556120587933448,
+          "mean_logprob": -2.1396422060634257
+        },
+        {
+          "paperId": "https://openalex.org/W2788210750",
+          "year": 2018,
+          "n_tokens": 283,
+          "min_kpct_prob": -5.633939015013831,
+          "mean_logprob": -1.8994976920971647
+        },
+        {
+          "paperId": "https://openalex.org/W2756381707",
+          "year": 2018,
+          "n_tokens": 303,
+          "min_kpct_prob": -6.6107035875320435,
+          "mean_logprob": -2.144381199996649
+        },
+        {
+          "paperId": "https://openalex.org/W2800691917",
+          "year": 2018,
+          "n_tokens": 214,
+          "min_kpct_prob": -5.957871397336324,
+          "mean_logprob": -1.9551283003429574
+        },
+        {
+          "paperId": "https://openalex.org/W2947415936",
+          "year": 2019,
+          "n_tokens": 246,
+          "min_kpct_prob": -7.108936329277194,
+          "mean_logprob": -2.364608068901796
+        },
+        {
+          "paperId": "https://openalex.org/W2893646015",
+          "year": 2018,
+          "n_tokens": 192,
+          "min_kpct_prob": -6.362581767533955,
+          "mean_logprob": -2.0765735833101644
+        },
+        {
+          "paperId": "https://openalex.org/W2941387379",
+          "year": 2019,
+          "n_tokens": 355,
+          "min_kpct_prob": -4.948424963883951,
+          "mean_logprob": -1.4731717732478373
+        },
+        {
+          "paperId": "https://openalex.org/W2885995970",
+          "year": 2018,
+          "n_tokens": 386,
+          "min_kpct_prob": -5.91063641263293,
+          "mean_logprob": -2.0557749104185663
+        },
+        {
+          "paperId": "https://openalex.org/W2969435227",
+          "year": 2019,
+          "n_tokens": 323,
+          "min_kpct_prob": -5.428385145962238,
+          "mean_logprob": -1.8464378740043645
+        },
+        {
+          "paperId": "https://openalex.org/W2895638065",
+          "year": 2018,
+          "n_tokens": 213,
+          "min_kpct_prob": -6.796441066832769,
+          "mean_logprob": -2.3023920445680424
+        },
+        {
+          "paperId": "https://openalex.org/W2921877691",
+          "year": 2019,
+          "n_tokens": 155,
+          "min_kpct_prob": -5.702751375013782,
+          "mean_logprob": -1.7628668055388428
+        },
+        {
+          "paperId": "https://openalex.org/W2970727289",
+          "year": 2019,
+          "n_tokens": 163,
+          "min_kpct_prob": -6.230288594961166,
+          "mean_logprob": -2.203146439822661
+        },
+        {
+          "paperId": "https://openalex.org/W2917435428",
+          "year": 2019,
+          "n_tokens": 549,
+          "min_kpct_prob": -4.568872088686041,
+          "mean_logprob": -1.2109913054017727
+        },
+        {
+          "paperId": "https://openalex.org/W2986442261",
+          "year": 2019,
+          "n_tokens": 307,
+          "min_kpct_prob": -5.472360767301966,
+          "mean_logprob": -1.7845198775001851
+        },
+        {
+          "paperId": "https://openalex.org/W2736288670",
+          "year": 2017,
+          "n_tokens": 514,
+          "min_kpct_prob": -5.4303890864054365,
+          "mean_logprob": -1.8000996310694393
+        },
+        {
+          "paperId": "https://openalex.org/W2976001129",
+          "year": 2019,
+          "n_tokens": 291,
+          "min_kpct_prob": -5.4047656305905045,
+          "mean_logprob": -1.697511621829364
+        },
+        {
+          "paperId": "https://openalex.org/W2964093505",
+          "year": 2017,
+          "n_tokens": 139,
+          "min_kpct_prob": -7.157473546487314,
+          "mean_logprob": -2.535920783786528
+        },
+        {
+          "paperId": "https://openalex.org/W2983735660",
+          "year": 2019,
+          "n_tokens": 248,
+          "min_kpct_prob": -7.319904648527807,
+          "mean_logprob": -2.4995204197855583
+        },
+        {
+          "paperId": "https://openalex.org/W2970641574",
+          "year": 2019,
+          "n_tokens": 89,
+          "min_kpct_prob": -4.223000572008245,
+          "mean_logprob": -0.863310013566887
+        }
+      ]
+    },
+    "vit": {
+      "n_papers": 60,
+      "mean_min_kpct_prob": -5.971956999792639,
+      "mean_logprob": -1.93499681410136,
+      "per_paper": [
+        {
+          "paperId": "https://openalex.org/W2794026873",
+          "year": 2018,
+          "n_tokens": 352,
+          "min_kpct_prob": -7.172525147029332,
+          "mean_logprob": -2.3763422888023342
+        },
+        {
+          "paperId": "https://openalex.org/W2963299740",
+          "year": 2017,
+          "n_tokens": 251,
+          "min_kpct_prob": -6.411410956382752,
+          "mean_logprob": -2.1750264286070577
+        },
+        {
+          "paperId": "https://openalex.org/W2569272946",
+          "year": 2018,
+          "n_tokens": 295,
+          "min_kpct_prob": -6.262861805447077,
+          "mean_logprob": -2.140360961795128
+        },
+        {
+          "paperId": "https://openalex.org/W2601564443",
+          "year": 2017,
+          "n_tokens": 218,
+          "min_kpct_prob": -5.445788178333016,
+          "mean_logprob": -1.786123759998324
+        },
+        {
+          "paperId": "https://openalex.org/W2979750740",
+          "year": 2019,
+          "n_tokens": 282,
+          "min_kpct_prob": -7.035744437149593,
+          "mean_logprob": -2.4311685933638123
+        },
+        {
+          "paperId": "https://openalex.org/W2996290406",
+          "year": 2019,
+          "n_tokens": 452,
+          "min_kpct_prob": -5.724835573302375,
+          "mean_logprob": -1.7038958168306586
+        },
+        {
+          "paperId": "https://openalex.org/W2563705555",
+          "year": 2017,
+          "n_tokens": 284,
+          "min_kpct_prob": -6.0087825783661435,
+          "mean_logprob": -1.798372953169093
+        },
+        {
+          "paperId": "https://openalex.org/W2558460151",
+          "year": 2017,
+          "n_tokens": 295,
+          "min_kpct_prob": -5.675494788056713,
+          "mean_logprob": -1.6425577076473465
+        },
+        {
+          "paperId": "https://openalex.org/W2753403518",
+          "year": 2017,
+          "n_tokens": 396,
+          "min_kpct_prob": -5.956313990339448,
+          "mean_logprob": -1.9086171463348898
+        },
+        {
+          "paperId": "https://openalex.org/W2560622558",
+          "year": 2018,
+          "n_tokens": 271,
+          "min_kpct_prob": -6.366833342446221,
+          "mean_logprob": -2.085287109601998
+        },
+        {
+          "paperId": "https://openalex.org/W2897772777",
+          "year": 2018,
+          "n_tokens": 355,
+          "min_kpct_prob": -6.117503978836704,
+          "mean_logprob": -2.043535025372007
+        },
+        {
+          "paperId": "https://openalex.org/W2783000019",
+          "year": 2018,
+          "n_tokens": 322,
+          "min_kpct_prob": -6.54737439379096,
+          "mean_logprob": -2.2411398845883386
+        },
+        {
+          "paperId": "https://openalex.org/W2592160412",
+          "year": 2018,
+          "n_tokens": 329,
+          "min_kpct_prob": -5.424500861534706,
+          "mean_logprob": -1.6667916971867556
+        },
+        {
+          "paperId": "https://openalex.org/W2914959431",
+          "year": 2019,
+          "n_tokens": 319,
+          "min_kpct_prob": -4.800893420264835,
+          "mean_logprob": -1.4540000333376824
+        },
+        {
+          "paperId": "https://openalex.org/W2963319519",
+          "year": 2019,
+          "n_tokens": 313,
+          "min_kpct_prob": -5.58742811987477,
+          "mean_logprob": -1.8807149051363856
+        },
+        {
+          "paperId": "https://openalex.org/W2904332125",
+          "year": 2019,
+          "n_tokens": 278,
+          "min_kpct_prob": -6.01897221478549,
+          "mean_logprob": -2.031382256502645
+        },
+        {
+          "paperId": "https://openalex.org/W3010398094",
+          "year": 2018,
+          "n_tokens": 355,
+          "min_kpct_prob": -6.219520914722496,
+          "mean_logprob": -2.279554815461177
+        },
+        {
+          "paperId": "https://openalex.org/W2890747436",
+          "year": 2018,
+          "n_tokens": 277,
+          "min_kpct_prob": -6.0833204182711516,
+          "mean_logprob": -2.1943730782182778
+        },
+        {
+          "paperId": "https://openalex.org/W2799597343",
+          "year": 2018,
+          "n_tokens": 272,
+          "min_kpct_prob": -5.119204936204134,
+          "mean_logprob": -1.608558906427454
+        },
+        {
+          "paperId": "https://openalex.org/W2896842408",
+          "year": 2018,
+          "n_tokens": 291,
+          "min_kpct_prob": -5.900137925970143,
+          "mean_logprob": -1.894741228108452
+        },
+        {
+          "paperId": "https://openalex.org/W2412782625",
+          "year": 2017,
+          "n_tokens": 405,
+          "min_kpct_prob": -5.974476255016563,
+          "mean_logprob": -1.7160069547386891
+        },
+        {
+          "paperId": "https://openalex.org/W2789876780",
+          "year": 2017,
+          "n_tokens": 296,
+          "min_kpct_prob": -6.2620212344800015,
+          "mean_logprob": -2.265945904269068
+        },
+        {
+          "paperId": "https://openalex.org/W2962934715",
+          "year": 2018,
+          "n_tokens": 466,
+          "min_kpct_prob": -5.622888103608163,
+          "mean_logprob": -1.6125425011829406
+        },
+        {
+          "paperId": "https://openalex.org/W2963820951",
+          "year": 2017,
+          "n_tokens": 384,
+          "min_kpct_prob": -6.5614016181544255,
+          "mean_logprob": -2.0886910920329647
+        },
+        {
+          "paperId": "https://openalex.org/W2584483805",
+          "year": 2017,
+          "n_tokens": 248,
+          "min_kpct_prob": -6.450054587150107,
+          "mean_logprob": -2.107158499490226
+        },
+        {
+          "paperId": "https://openalex.org/W2962850830",
+          "year": 2017,
+          "n_tokens": 206,
+          "min_kpct_prob": -6.025591675828143,
+          "mean_logprob": -1.9498113809610376
+        },
+        {
+          "paperId": "https://openalex.org/W2559597482",
+          "year": 2017,
+          "n_tokens": 296,
+          "min_kpct_prob": -5.522856712341309,
+          "mean_logprob": -1.606113200275208
+        },
+        {
+          "paperId": "https://openalex.org/W2919358988",
+          "year": 2019,
+          "n_tokens": 425,
+          "min_kpct_prob": -5.849256072324865,
+          "mean_logprob": -1.8314427069780974
+        },
+        {
+          "paperId": "https://openalex.org/W2961348656",
+          "year": 2019,
+          "n_tokens": 310,
+          "min_kpct_prob": -5.626943111419678,
+          "mean_logprob": -1.6712922858915633
+        },
+        {
+          "paperId": "https://openalex.org/W2762439315",
+          "year": 2017,
+          "n_tokens": 305,
+          "min_kpct_prob": -5.597215879158895,
+          "mean_logprob": -1.8472436241419807
+        },
+        {
+          "paperId": "https://openalex.org/W2737725206",
+          "year": 2017,
+          "n_tokens": 350,
+          "min_kpct_prob": -5.372414585522243,
+          "mean_logprob": -1.7241273820230008
+        },
+        {
+          "paperId": "https://openalex.org/W2990045899",
+          "year": 2019,
+          "n_tokens": 323,
+          "min_kpct_prob": -5.590941686183214,
+          "mean_logprob": -1.6919661515145323
+        },
+        {
+          "paperId": "https://openalex.org/W2560544142",
+          "year": 2017,
+          "n_tokens": 324,
+          "min_kpct_prob": -6.061715990304947,
+          "mean_logprob": -2.000278377435953
+        },
+        {
+          "paperId": "https://openalex.org/W3003437478",
+          "year": 2019,
+          "n_tokens": 302,
+          "min_kpct_prob": -6.58436271349589,
+          "mean_logprob": -2.1363687688029835
+        },
+        {
+          "paperId": "https://openalex.org/W2773003563",
+          "year": 2017,
+          "n_tokens": 369,
+          "min_kpct_prob": -5.419440991257968,
+          "mean_logprob": -1.6543920576068007
+        },
+        {
+          "paperId": "https://openalex.org/W2923997689",
+          "year": 2019,
+          "n_tokens": 299,
+          "min_kpct_prob": -5.373555914830353,
+          "mean_logprob": -1.7602172072907816
+        },
+        {
+          "paperId": "https://openalex.org/W2782364420",
+          "year": 2018,
+          "n_tokens": 377,
+          "min_kpct_prob": -5.577567065556844,
+          "mean_logprob": -1.7410795839456639
+        },
+        {
+          "paperId": "https://openalex.org/W2733343268",
+          "year": 2017,
+          "n_tokens": 215,
+          "min_kpct_prob": -5.664211062497871,
+          "mean_logprob": -2.011475069131173
+        },
+        {
+          "paperId": "https://openalex.org/W2913939497",
+          "year": 2019,
+          "n_tokens": 228,
+          "min_kpct_prob": -6.443970129224989,
+          "mean_logprob": -2.060621590234325
+        },
+        {
+          "paperId": "https://openalex.org/W2997408160",
+          "year": 2019,
+          "n_tokens": 238,
+          "min_kpct_prob": -6.014682090028804,
+          "mean_logprob": -2.0738373496099047
+        },
+        {
+          "paperId": "https://openalex.org/W2902617128",
+          "year": 2018,
+          "n_tokens": 283,
+          "min_kpct_prob": -6.527723601886204,
+          "mean_logprob": -2.185061512207289
+        },
+        {
+          "paperId": "https://openalex.org/W2757028014",
+          "year": 2017,
+          "n_tokens": 615,
+          "min_kpct_prob": -4.727236429850261,
+          "mean_logprob": -1.1060977884014895
+        },
+        {
+          "paperId": "https://openalex.org/W2792724009",
+          "year": 2018,
+          "n_tokens": 223,
+          "min_kpct_prob": -5.615084729411385,
+          "mean_logprob": -1.875262092325485
+        },
+        {
+          "paperId": "https://openalex.org/W2796394805",
+          "year": 2018,
+          "n_tokens": 236,
+          "min_kpct_prob": -5.626403539738757,
+          "mean_logprob": -1.98443165221024
+        },
+        {
+          "paperId": "https://openalex.org/W2892614179",
+          "year": 2019,
+          "n_tokens": 428,
+          "min_kpct_prob": -7.051877274232752,
+          "mean_logprob": -2.4163472645655233
+        },
+        {
+          "paperId": "https://openalex.org/W2980444207",
+          "year": 2019,
+          "n_tokens": 306,
+          "min_kpct_prob": -5.474112260537069,
+          "mean_logprob": -1.737349490301244
+        },
+        {
+          "paperId": "https://openalex.org/W2336589871",
+          "year": 2017,
+          "n_tokens": 328,
+          "min_kpct_prob": -6.0914380440345175,
+          "mean_logprob": -1.6778635146631045
+        },
+        {
+          "paperId": "https://openalex.org/W2963131120",
+          "year": 2019,
+          "n_tokens": 368,
+          "min_kpct_prob": -6.146139010991136,
+          "mean_logprob": -1.946220179731634
+        },
+        {
+          "paperId": "https://openalex.org/W2964093967",
+          "year": 2019,
+          "n_tokens": 243,
+          "min_kpct_prob": -6.097193519274394,
+          "mean_logprob": -2.0427920489757314
+        },
+        {
+          "paperId": "https://openalex.org/W2888119354",
+          "year": 2018,
+          "n_tokens": 395,
+          "min_kpct_prob": -6.496126675907569,
+          "mean_logprob": -2.1396753341694215
+        },
+        {
+          "paperId": "https://openalex.org/W2981994674",
+          "year": 2019,
+          "n_tokens": 348,
+          "min_kpct_prob": -6.728677535402602,
+          "mean_logprob": -2.2067051006354097
+        },
+        {
+          "paperId": "https://openalex.org/W2986943971",
+          "year": 2019,
+          "n_tokens": 359,
+          "min_kpct_prob": -5.529350767672901,
+          "mean_logprob": -1.6972160903541076
+        },
+        {
+          "paperId": "https://openalex.org/W2807862495",
+          "year": 2018,
+          "n_tokens": 263,
+          "min_kpct_prob": -6.116885492434869,
+          "mean_logprob": -2.087305179066405
+        },
+        {
+          "paperId": "https://openalex.org/W2888493720",
+          "year": 2018,
+          "n_tokens": 335,
+          "min_kpct_prob": -5.673160915944114,
+          "mean_logprob": -1.7888263393071855
+        },
+        {
+          "paperId": "https://openalex.org/W2910587630",
+          "year": 2019,
+          "n_tokens": 364,
+          "min_kpct_prob": -6.593441552586025,
+          "mean_logprob": -2.351373092908424
+        },
+        {
+          "paperId": "https://openalex.org/W2732931556",
+          "year": 2018,
+          "n_tokens": 300,
+          "min_kpct_prob": -5.973695854345958,
+          "mean_logprob": -2.0370702393114697
+        },
+        {
+          "paperId": "https://openalex.org/W2600389231",
+          "year": 2017,
+          "n_tokens": 322,
+          "min_kpct_prob": -6.578127346932888,
+          "mean_logprob": -1.9983848072063648
+        },
+        {
+          "paperId": "https://openalex.org/W2787614951",
+          "year": 2018,
+          "n_tokens": 280,
+          "min_kpct_prob": -5.978367750133787,
+          "mean_logprob": -1.9207346852280012
+        },
+        {
+          "paperId": "https://openalex.org/W2927613875",
+          "year": 2019,
+          "n_tokens": 287,
+          "min_kpct_prob": -5.95195506330122,
+          "mean_logprob": -1.9612903689792909
+        },
+        {
+          "paperId": "https://openalex.org/W2592765733",
+          "year": 2017,
+          "n_tokens": 333,
+          "min_kpct_prob": -5.8654071634466,
+          "mean_logprob": -2.0466457814870678
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "instrument": "expert_target_validation",
+  "seed": 42,
+  "n_items": 22,
+  "n_real": 10,
+  "n_decoy": 10,
+  "n_attention": 2,
+  "likert": "1-5; binary validated = q1>=4 and q2>=4 (pre-registered)",
+  "primary_analysis": "per-target median q1,q2; target validated if both medians>=4",
+  "reliability": "Krippendorff alpha (interval) on q1,q2; mean pairwise Cohen kappa on validated-flag",
+  "discriminant": "real vs decoy q1,q2: Mann-Whitney U + 95% bootstrap gap CI (expect >0)",
+  "items": [
+    {
+      "item_id": "T01",
+      "paradigm": "attention-false",
+      "type": "attention",
+      "candidate_assumption": "Sequence models were expected to be trained without using any data"
+    },
+    {
+      "item_id": "T02",
+      "paradigm": "icl",
+      "type": "decoy",
+      "candidate_assumption": "task adaptation requires reinforcement learning"
+    },
+    {
+      "item_id": "T03",
+      "paradigm": "diffusion",
+      "type": "real",
+      "candidate_assumption": "adversarial training is necessary for high-quality generation"
+    },
+    {
+      "item_id": "T04",
+      "paradigm": "dropout",
+      "type": "decoy",
+      "candidate_assumption": "regularization requires ensembling separate models"
+    },
+    {
+      "item_id": "T05",
+      "paradigm": "resnet",
+      "type": "decoy",
+      "candidate_assumption": "network depth requires recurrent weight sharing"
+    },
+    {
+      "item_id": "T06",
+      "paradigm": "word2vec",
+      "type": "real",
+      "candidate_assumption": "Word meaning requires symbolic or hand-crafted feature representations"
+    },
+    {
+      "item_id": "T07",
+      "paradigm": "batchnorm",
+      "type": "real",
+      "candidate_assumption": "Network training requires careful weight initialization and low learning rates"
+    },
+    {
+      "item_id": "T08",
+      "paradigm": "bert",
+      "type": "decoy",
+      "candidate_assumption": "language representations require supervised parse trees"
+    },
+    {
+      "item_id": "T09",
+      "paradigm": "vit",
+      "type": "real",
+      "candidate_assumption": "convolutional layers are necessary for vision"
+    },
+    {
+      "item_id": "T10",
+      "paradigm": "word2vec",
+      "type": "decoy",
+      "candidate_assumption": "word vectors require sentence-level labels"
+    },
+    {
+      "item_id": "T11",
+      "paradigm": "bert",
+      "type": "real",
+      "candidate_assumption": "Language model pre-training must be left-to-right (autoregressive)"
+    },
+    {
+      "item_id": "T12",
+      "paradigm": "dropout",
+      "type": "real",
+      "candidate_assumption": "All neurons should be active during training for optimal learning"
+    },
+    {
+      "item_id": "T13",
+      "paradigm": "gan",
+      "type": "real",
+      "candidate_assumption": "Generative modeling requires explicit density estimation or variational inference"
+    },
+    {
+      "item_id": "T14",
+      "paradigm": "transformer",
+      "type": "decoy",
+      "candidate_assumption": "attention requires convolutional feature maps"
+    },
+    {
+      "item_id": "T15",
+      "paradigm": "gan",
+      "type": "decoy",
+      "candidate_assumption": "generation requires paired supervised data"
+    },
+    {
+      "item_id": "T16",
+      "paradigm": "icl",
+      "type": "real",
+      "candidate_assumption": "fine-tuning is necessary for task adaptation"
+    },
+    {
+      "item_id": "T17",
+      "paradigm": "batchnorm",
+      "type": "decoy",
+      "candidate_assumption": "deep training requires second-order optimizers"
+    },
+    {
+      "item_id": "T18",
+      "paradigm": "vit",
+      "type": "decoy",
+      "candidate_assumption": "vision requires hand-crafted SIFT/HOG features"
+    },
+    {
+      "item_id": "T19",
+      "paradigm": "resnet",
+      "type": "real",
+      "candidate_assumption": "Deep networks must process information through sequential layers without shortcuts"
+    },
+    {
+      "item_id": "T20",
+      "paradigm": "transformer",
+      "type": "real",
+      "candidate_assumption": "recurrence is necessary for sequence modeling"
+    },
+    {
+      "item_id": "T21",
+      "paradigm": "diffusion",
+      "type": "decoy",
+      "candidate_assumption": "generation requires discrete latent codebooks"
+    },
+    {
+      "item_id": "T22",
+      "paradigm": "attention-true",
+      "type": "attention",
+      "candidate_assumption": "Labeled image data is useful for training supervised visual recognition models"
+    }
+  ],
+  "sha256": "9cf68e13627fd2630ce760d1d9ab76df48bb50699b132dd26ba8c205689adc20"
+}

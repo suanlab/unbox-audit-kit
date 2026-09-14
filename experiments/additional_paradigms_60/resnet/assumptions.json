@@ -1,0 +1,2102 @@
+[
+  {
+    "paper_id": "https://openalex.org/W2141125852",
+    "paper_title": "Multi-column deep neural networks for image classification",
+    "assumption": "Convolutional architectures are necessary for effective image classification",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2141125852",
+    "paper_title": "Multi-column deep neural networks for image classification",
+    "assumption": "Biological plausibility constraints are essential for achieving human-level visual performance",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2141125852",
+    "paper_title": "Multi-column deep neural networks for image classification",
+    "assumption": "Hierarchical feature learning through deep layer stacking is required for complex visual recognition",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2141125852",
+    "paper_title": "Multi-column deep neural networks for image classification",
+    "assumption": "Sparse connectivity patterns are necessary for scalable deep network architectures",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2141125852",
+    "paper_title": "Multi-column deep neural networks for image classification",
+    "assumption": "Multiple expert models with ensemble averaging is essential for optimal performance",
+    "confidence": 0.75,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1686810756",
+    "paper_title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+    "assumption": "Convolutional layers are necessary for effective visual feature learning",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1686810756",
+    "paper_title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+    "assumption": "Hierarchical feature extraction through stacked layers is required for complex visual recognition",
+    "confidence": 0.93,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1686810756",
+    "paper_title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+    "assumption": "Translation equivariance through convolution is essential for image understanding",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1686810756",
+    "paper_title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+    "assumption": "Local spatial connectivity is necessary for visual pattern detection",
+    "confidence": 0.89,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1686810756",
+    "paper_title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+    "assumption": "Supervised learning on labeled datasets is required for visual recognition systems",
+    "confidence": 0.87,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2062177968",
+    "paper_title": "Automatic detection of invasive ductal carcinoma in whole slide images with convolutional neural networks",
+    "assumption": "Convolutional architectures are necessary for effective visual pattern recognition in medical images",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2062177968",
+    "paper_title": "Automatic detection of invasive ductal carcinoma in whole slide images with convolutional neural networks",
+    "assumption": "Hierarchical feature representations are essential for capturing complex tissue morphology",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2062177968",
+    "paper_title": "Automatic detection of invasive ductal carcinoma in whole slide images with convolutional neural networks",
+    "assumption": "Large labeled datasets are required for deep learning models to achieve clinical-grade performance",
+    "confidence": 0.88,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2062177968",
+    "paper_title": "Automatic detection of invasive ductal carcinoma in whole slide images with convolutional neural networks",
+    "assumption": "Patch-based processing is necessary for handling whole slide image analysis",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2062177968",
+    "paper_title": "Automatic detection of invasive ductal carcinoma in whole slide images with convolutional neural networks",
+    "assumption": "Expert pathologist annotations represent the gold standard ground truth for evaluation",
+    "confidence": 0.92,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2066916495",
+    "paper_title": "Vehicle Detection in Satellite Images by Hybrid Deep Convolutional Neural Networks",
+    "assumption": "Convolutional architectures are essential for spatial feature learning in images",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2066916495",
+    "paper_title": "Vehicle Detection in Satellite Images by Hybrid Deep Convolutional Neural Networks",
+    "assumption": "Multi-scale feature extraction is necessary for robust object detection",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2066916495",
+    "paper_title": "Vehicle Detection in Satellite Images by Hybrid Deep Convolutional Neural Networks",
+    "assumption": "Deep networks are required to learn sufficiently rich feature representations",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2066916495",
+    "paper_title": "Vehicle Detection in Satellite Images by Hybrid Deep Convolutional Neural Networks",
+    "assumption": "Hierarchical feature extraction through layer progression is essential for understanding complex visual patterns",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2066916495",
+    "paper_title": "Vehicle Detection in Satellite Images by Hybrid Deep Convolutional Neural Networks",
+    "assumption": "Hand-crafted features are insufficient for complex visual recognition tasks",
+    "confidence": 0.83,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2122476475",
+    "paper_title": "C3D: Generic Features for Video Analysis.",
+    "assumption": "3D convolutions are necessary to capture temporal dynamics in video sequences",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2122476475",
+    "paper_title": "C3D: Generic Features for Video Analysis.",
+    "assumption": "Deep convolutional features are inherently more generic and transferable than hand-crafted features",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2122476475",
+    "paper_title": "C3D: Generic Features for Video Analysis.",
+    "assumption": "Spatial and temporal information must be jointly modeled for effective video understanding",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2122476475",
+    "paper_title": "C3D: Generic Features for Video Analysis.",
+    "assumption": "Supervised pre-training on large labeled datasets is required for learning generic video features",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2122476475",
+    "paper_title": "C3D: Generic Features for Video Analysis.",
+    "assumption": "Video analysis requires fundamentally different architectures than image analysis due to temporal dimension",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1982025193",
+    "paper_title": "Deep convolutional neural network based species recognition for wild animal monitoring",
+    "assumption": "Convolutional neural networks are necessary for effective visual feature extraction in image classification",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1982025193",
+    "paper_title": "Deep convolutional neural network based species recognition for wild animal monitoring",
+    "assumption": "Supervised learning with labeled datasets is essential for species recognition",
+    "confidence": 0.92,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1982025193",
+    "paper_title": "Deep convolutional neural network based species recognition for wild animal monitoring",
+    "assumption": "Motion-based segmentation is required to isolate relevant visual content in camera trap imagery",
+    "confidence": 0.88,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W1982025193",
+    "paper_title": "Deep convolutional neural network based species recognition for wild animal monitoring",
+    "assumption": "Deep learning approaches are inherently superior to traditional computer vision methods for complex visual recognition tasks",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1982025193",
+    "paper_title": "Deep convolutional neural network based species recognition for wild animal monitoring",
+    "assumption": "Automatic preprocessing and segmentation are necessary for real-world deployment of vision systems",
+    "confidence": 0.82,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2051538545",
+    "paper_title": "Image character recognition using deep convolutional neural network learned from different languages",
+    "assumption": "Convolutional architectures are necessary for effective visual feature extraction in character recognition",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2051538545",
+    "paper_title": "Image character recognition using deep convolutional neural network learned from different languages",
+    "assumption": "Hierarchical feature learning through deep networks is essential for character recognition",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2051538545",
+    "paper_title": "Image character recognition using deep convolutional neural network learned from different languages",
+    "assumption": "Supervised learning with labeled character examples is required for training recognition systems",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2051538545",
+    "paper_title": "Image character recognition using deep convolutional neural network learned from different languages",
+    "assumption": "Language-specific classification layers are necessary for multi-language character recognition",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2051538545",
+    "paper_title": "Image character recognition using deep convolutional neural network learned from different languages",
+    "assumption": "Cross-language transfer learning requires explicit architectural mechanisms for sharing representations",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2129326773",
+    "paper_title": "Encoding High Dimensional Local Features by Sparse Coding Based Fisher Vectors",
+    "assumption": "Generative modeling is necessary for effective feature representation learning",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2129326773",
+    "paper_title": "Encoding High Dimensional Local Features by Sparse Coding Based Fisher Vectors",
+    "assumption": "Local feature aggregation is essential for image-level understanding",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2129326773",
+    "paper_title": "Encoding High Dimensional Local Features by Sparse Coding Based Fisher Vectors",
+    "assumption": "Gradient-based encodings from generative models are required for optimal feature coding",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2129326773",
+    "paper_title": "Encoding High Dimensional Local Features by Sparse Coding Based Fisher Vectors",
+    "assumption": "Higher dimensional features require more complex modeling capacity than lower dimensional ones",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2129326773",
+    "paper_title": "Encoding High Dimensional Local Features by Sparse Coding Based Fisher Vectors",
+    "assumption": "Probabilistic mixture models are necessary for characterizing feature distributions",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2145287260",
+    "paper_title": "DeepFace: Closing the Gap to Human-Level Performance in Face Verification",
+    "assumption": "Face verification requires a sequential four-stage pipeline of detect, align, represent, and classify",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2145287260",
+    "paper_title": "DeepFace: Closing the Gap to Human-Level Performance in Face Verification",
+    "assumption": "Accurate face alignment is essential for high-quality face representation learning",
+    "confidence": 0.92,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2145287260",
+    "paper_title": "DeepFace: Closing the Gap to Human-Level Performance in Face Verification",
+    "assumption": "Geometric transformations and explicit 3D modeling are necessary for proper face alignment",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2145287260",
+    "paper_title": "DeepFace: Closing the Gap to Human-Level Performance in Face Verification",
+    "assumption": "Large-scale labeled identity datasets are required for learning discriminative face representations",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2145287260",
+    "paper_title": "DeepFace: Closing the Gap to Human-Level Performance in Face Verification",
+    "assumption": "Deep neural networks are necessary for learning effective face representations",
+    "confidence": 0.89,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2062118960",
+    "paper_title": "CNN Features Off-the-Shelf: An Astounding Baseline for Recognition",
+    "assumption": "Task-specific architectures are necessary for optimal performance across different visual recognition domains",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2062118960",
+    "paper_title": "CNN Features Off-the-Shelf: An Astounding Baseline for Recognition",
+    "assumption": "Training on the target domain is essential for achieving competitive performance on specialized visual tasks",
+    "confidence": 0.92,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2062118960",
+    "paper_title": "CNN Features Off-the-Shelf: An Astounding Baseline for Recognition",
+    "assumption": "Hand-crafted features tailored to specific visual tasks are superior to generic representations",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2062118960",
+    "paper_title": "CNN Features Off-the-Shelf: An Astounding Baseline for Recognition",
+    "assumption": "Complex classifier architectures are required to achieve state-of-the-art performance on visual recognition tasks",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2062118960",
+    "paper_title": "CNN Features Off-the-Shelf: An Astounding Baseline for Recognition",
+    "assumption": "Fine-tuning model weights is necessary for adapting pre-trained networks to new visual domains",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2168231600",
+    "paper_title": "Large Scale Distributed Deep Networks",
+    "assumption": "Larger models are necessary for dramatically improved performance in deep learning",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2168231600",
+    "paper_title": "Large Scale Distributed Deep Networks",
+    "assumption": "Gradient-based optimization is essential for training neural networks at scale",
+    "confidence": 0.92,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2168231600",
+    "paper_title": "Large Scale Distributed Deep Networks",
+    "assumption": "Distributed computing is required to train models with billions of parameters",
+    "confidence": 0.88,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2168231600",
+    "paper_title": "Large Scale Distributed Deep Networks",
+    "assumption": "Stochastic gradient descent is the fundamental optimization paradigm for deep learning",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2168231600",
+    "paper_title": "Large Scale Distributed Deep Networks",
+    "assumption": "Model parallelization is necessary for scaling neural network training beyond single machines",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2134670479",
+    "paper_title": "Learning Deep Features for Scene Recognition using Places Database",
+    "assumption": "Convolutional neural networks are necessary for learning high-level visual features",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2134670479",
+    "paper_title": "Learning Deep Features for Scene Recognition using Places Database",
+    "assumption": "Large-scale labeled datasets are essential for training effective deep visual recognition models",
+    "confidence": 0.92,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2134670479",
+    "paper_title": "Learning Deep Features for Scene Recognition using Places Database",
+    "assumption": "Task-specific datasets are required for optimal performance on specialized visual recognition tasks",
+    "confidence": 0.88,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2134670479",
+    "paper_title": "Learning Deep Features for Scene Recognition using Places Database",
+    "assumption": "Supervised learning with labeled examples is necessary for visual recognition tasks",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2134670479",
+    "paper_title": "Learning Deep Features for Scene Recognition using Places Database",
+    "assumption": "Deep hierarchical feature learning is essential for high-level visual understanding",
+    "confidence": 0.83,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1969600701",
+    "paper_title": "Learning Convolutional Nonlinear Features for K Nearest Neighbor Image Classification",
+    "assumption": "Convolutional architectures are necessary for effective visual feature learning",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1969600701",
+    "paper_title": "Learning Convolutional Nonlinear Features for K Nearest Neighbor Image Classification",
+    "assumption": "Hierarchical feature representations are essential for discriminative image understanding",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1969600701",
+    "paper_title": "Learning Convolutional Nonlinear Features for K Nearest Neighbor Image Classification",
+    "assumption": "End-to-end supervised learning is required for optimal feature representation learning",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1969600701",
+    "paper_title": "Learning Convolutional Nonlinear Features for K Nearest Neighbor Image Classification",
+    "assumption": "Low-dimensional feature representations are necessary for effective machine learning",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1969600701",
+    "paper_title": "Learning Convolutional Nonlinear Features for K Nearest Neighbor Image Classification",
+    "assumption": "Task-specific optimization is essential for achieving optimal performance on specialized problems",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2040036684",
+    "paper_title": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation",
+    "assumption": "Supervised learning is necessary for acquiring behaviorally relevant categorical representations",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2040036684",
+    "paper_title": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation",
+    "assumption": "Representational similarity analysis is the appropriate method for comparing neural and computational representations",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2040036684",
+    "paper_title": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation",
+    "assumption": "Categorical clustering in representational space is essential for effective object recognition",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2040036684",
+    "paper_title": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation",
+    "assumption": "Task performance correlation is necessary for validating neural representation models",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2040036684",
+    "paper_title": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation",
+    "assumption": "Feedforward hierarchical processing is sufficient for modeling ventral stream computations",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2167510172",
+    "paper_title": "Deep Neural Networks Segment Neuronal Membranes in Electron Microscopy Images",
+    "assumption": "Convolutional architectures are necessary for effective image feature extraction",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2167510172",
+    "paper_title": "Deep Neural Networks Segment Neuronal Membranes in Electron Microscopy Images",
+    "assumption": "Supervised learning with labeled ground truth is essential for biomedical image segmentation",
+    "confidence": 0.92,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2167510172",
+    "paper_title": "Deep Neural Networks Segment Neuronal Membranes in Electron Microscopy Images",
+    "assumption": "Pixel-level classification is the fundamental approach required for image segmentation",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2167510172",
+    "paper_title": "Deep Neural Networks Segment Neuronal Membranes in Electron Microscopy Images",
+    "assumption": "Local spatial context through windowing is necessary for accurate pixel classification",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2167510172",
+    "paper_title": "Deep Neural Networks Segment Neuronal Membranes in Electron Microscopy Images",
+    "assumption": "Hierarchical feature extraction through deep layers is required for complex image understanding",
+    "confidence": 0.87,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2155273149",
+    "paper_title": "Applying Convolutional Neural Networks concepts to hybrid NN-HMM model for speech recognition",
+    "assumption": "Hybrid NN-HMM architecture is necessary for effective speech recognition",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2155273149",
+    "paper_title": "Applying Convolutional Neural Networks concepts to hybrid NN-HMM model for speech recognition",
+    "assumption": "Frame-level acoustic modeling is essential for speech recognition systems",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2155273149",
+    "paper_title": "Applying Convolutional Neural Networks concepts to hybrid NN-HMM model for speech recognition",
+    "assumption": "Spectral features (frequency domain representations) are required for neural speech recognition",
+    "confidence": 0.88,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2155273149",
+    "paper_title": "Applying Convolutional Neural Networks concepts to hybrid NN-HMM model for speech recognition",
+    "assumption": "Translation invariance principles from computer vision are directly applicable to speech recognition",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2155273149",
+    "paper_title": "Applying Convolutional Neural Networks concepts to hybrid NN-HMM model for speech recognition",
+    "assumption": "Local filtering operations are necessary to capture relevant acoustic patterns",
+    "confidence": 0.82,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1442374986",
+    "paper_title": "Project Adam: building an efficient and scalable deep learning training system",
+    "assumption": "Model size scaling is essential for achieving state-of-the-art accuracy on complex tasks",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1442374986",
+    "paper_title": "Project Adam: building an efficient and scalable deep learning training system",
+    "assumption": "Distributed training is necessary for training large-scale deep neural networks within reasonable time constraints",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1442374986",
+    "paper_title": "Project Adam: building an efficient and scalable deep learning training system",
+    "assumption": "Gradient-based optimization with backpropagation is the fundamental requirement for training deep neural networks",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1442374986",
+    "paper_title": "Project Adam: building an efficient and scalable deep learning training system",
+    "assumption": "Supervised learning with labeled datasets is essential for achieving high accuracy on visual recognition tasks",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W1442374986",
+    "paper_title": "Project Adam: building an efficient and scalable deep learning training system",
+    "assumption": "Classification accuracy on benchmark datasets is the primary measure of model quality and progress",
+    "confidence": 0.8,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2076462394",
+    "paper_title": "Audio-visual speech recognition using deep learning",
+    "assumption": "Hidden Markov Models are essential for temporal sequence modeling in speech recognition",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2076462394",
+    "paper_title": "Audio-visual speech recognition using deep learning",
+    "assumption": "Deep neural networks are necessary for extracting robust features from raw sensory data",
+    "confidence": 0.92,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2076462394",
+    "paper_title": "Audio-visual speech recognition using deep learning",
+    "assumption": "Multi-modal integration requires independent training of modality-specific models followed by late fusion",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2076462394",
+    "paper_title": "Audio-visual speech recognition using deep learning",
+    "assumption": "Convolutional architectures are required for effective visual feature extraction from images",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2076462394",
+    "paper_title": "Audio-visual speech recognition using deep learning",
+    "assumption": "Denoising pretraining is necessary for learning noise-robust audio representations",
+    "confidence": 0.82,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2188183693",
+    "paper_title": "Exploring convolutional neural network structures and optimization techniques for speech recognition",
+    "assumption": "Hybrid DNN/HMM architectures are necessary for competitive speech recognition systems",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2188183693",
+    "paper_title": "Exploring convolutional neural network structures and optimization techniques for speech recognition",
+    "assumption": "Phone recognition serves as a valid proxy task for evaluating speech recognition architectures",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2188183693",
+    "paper_title": "Exploring convolutional neural network structures and optimization techniques for speech recognition",
+    "assumption": "Convolutional operations are essential for exploiting local structure in speech spectrograms",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2188183693",
+    "paper_title": "Exploring convolutional neural network structures and optimization techniques for speech recognition",
+    "assumption": "Supervised pretraining is necessary for training deep neural networks effectively",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2188183693",
+    "paper_title": "Exploring convolutional neural network structures and optimization techniques for speech recognition",
+    "assumption": "Manual hyperparameter tuning is required for optimal pooling layer configuration",
+    "confidence": 0.82,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2081835714",
+    "paper_title": "Combining modality specific deep neural networks for emotion recognition in video",
+    "assumption": "Modality-specific architectures are necessary for effective multimodal learning",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2081835714",
+    "paper_title": "Combining modality specific deep neural networks for emotion recognition in video",
+    "assumption": "Deep neural networks are essential for learning meaningful representations from raw sensory data",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2081835714",
+    "paper_title": "Combining modality specific deep neural networks for emotion recognition in video",
+    "assumption": "Convolutional neural networks are required for effective visual feature extraction",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2081835714",
+    "paper_title": "Combining modality specific deep neural networks for emotion recognition in video",
+    "assumption": "Supervised learning with labeled examples is necessary for emotion recognition",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2081835714",
+    "paper_title": "Combining modality specific deep neural networks for emotion recognition in video",
+    "assumption": "Frame-level processing followed by temporal aggregation is essential for video understanding",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W48572823",
+    "paper_title": "Flexible Image Recognition Software Toolbox (FIRST)",
+    "assumption": "Local receptive fields are essential for effective visual feature extraction",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W48572823",
+    "paper_title": "Flexible Image Recognition Software Toolbox (FIRST)",
+    "assumption": "Weight sharing is necessary for achieving generalization in image recognition",
+    "confidence": 0.92,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W48572823",
+    "paper_title": "Flexible Image Recognition Software Toolbox (FIRST)",
+    "assumption": "Convolutional architectures are required for shift invariance in visual tasks",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W48572823",
+    "paper_title": "Flexible Image Recognition Software Toolbox (FIRST)",
+    "assumption": "Gradient-based optimization is essential for training deep networks",
+    "confidence": 0.88,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W48572823",
+    "paper_title": "Flexible Image Recognition Software Toolbox (FIRST)",
+    "assumption": "Backpropagation is necessary for computing gradients in deep networks",
+    "confidence": 0.87,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1984514441",
+    "paper_title": "Improved Bird Species Recognition Using Pose Normalized Deep Convolutional Nets",
+    "assumption": "Convolutional neural networks are essential for effective visual feature extraction",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1984514441",
+    "paper_title": "Improved Bird Species Recognition Using Pose Normalized Deep Convolutional Nets",
+    "assumption": "Fine-tuning pre-trained models is necessary for achieving good performance on specialized visual tasks",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1984514441",
+    "paper_title": "Improved Bird Species Recognition Using Pose Normalized Deep Convolutional Nets",
+    "assumption": "Explicit pose estimation and normalization are required for fine-grained visual categorization",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1984514441",
+    "paper_title": "Improved Bird Species Recognition Using Pose Normalized Deep Convolutional Nets",
+    "assumption": "Local patch-based features are essential for capturing discriminative details in fine-grained recognition",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1984514441",
+    "paper_title": "Improved Bird Species Recognition Using Pose Normalized Deep Convolutional Nets",
+    "assumption": "Hierarchical feature representations from multiple CNN layers are necessary for optimal classification performance",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2145056192",
+    "paper_title": "Learning Image Embeddings using Convolutional Neural Networks for Improved Multi-Modal Semantics",
+    "assumption": "Convolutional architectures are necessary for effective visual feature extraction",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2145056192",
+    "paper_title": "Learning Image Embeddings using Convolutional Neural Networks for Improved Multi-Modal Semantics",
+    "assumption": "Large-scale labeled datasets are essential for learning transferable visual representations",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2145056192",
+    "paper_title": "Learning Image Embeddings using Convolutional Neural Networks for Improved Multi-Modal Semantics",
+    "assumption": "Multi-modal understanding requires explicit fusion of separate modality-specific representations",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2145056192",
+    "paper_title": "Learning Image Embeddings using Convolutional Neural Networks for Improved Multi-Modal Semantics",
+    "assumption": "Transfer learning from object recognition is necessary for visual semantic understanding",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2145056192",
+    "paper_title": "Learning Image Embeddings using Convolutional Neural Networks for Improved Multi-Modal Semantics",
+    "assumption": "Vector concatenation is the appropriate method for combining multi-modal features",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2544339223",
+    "paper_title": "SAR target recognition based on deep learning",
+    "assumption": "Convolutional architectures are essential for effective image feature learning",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2544339223",
+    "paper_title": "SAR target recognition based on deep learning",
+    "assumption": "Features learned from optical images are transferable to other imaging modalities through architectural adaptation",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2544339223",
+    "paper_title": "SAR target recognition based on deep learning",
+    "assumption": "Hierarchical feature extraction through convolution and pooling is necessary for image understanding",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2544339223",
+    "paper_title": "SAR target recognition based on deep learning",
+    "assumption": "Automatic feature learning is superior to hand-crafted features for image classification",
+    "confidence": 0.88,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2544339223",
+    "paper_title": "SAR target recognition based on deep learning",
+    "assumption": "Multi-class classification accuracy is the appropriate metric for evaluating target recognition systems",
+    "confidence": 0.8,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W1982635469",
+    "paper_title": "Food image recognition with deep convolutional features",
+    "assumption": "Convolutional architectures are necessary for effective visual feature learning",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1982635469",
+    "paper_title": "Food image recognition with deep convolutional features",
+    "assumption": "Deep hierarchical feature representations are essential for complex visual recognition tasks",
+    "confidence": 0.92,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1982635469",
+    "paper_title": "Food image recognition with deep convolutional features",
+    "assumption": "Combining multiple feature types is necessary for optimal recognition performance",
+    "confidence": 0.88,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1982635469",
+    "paper_title": "Food image recognition with deep convolutional features",
+    "assumption": "Hand-crafted features remain essential components of state-of-the-art vision systems",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W1982635469",
+    "paper_title": "Food image recognition with deep convolutional features",
+    "assumption": "Top-k accuracy metrics are necessary for proper evaluation of multi-class recognition systems",
+    "confidence": 0.82,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2165146474",
+    "paper_title": "Deep Fisher Networks for Large-Scale Image Classification",
+    "assumption": "Convolutional architectures are essential for effective visual feature learning in image classification",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2165146474",
+    "paper_title": "Deep Fisher Networks for Large-Scale Image Classification",
+    "assumption": "Discriminative training is necessary for achieving optimal image classification performance",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2165146474",
+    "paper_title": "Deep Fisher Networks for Large-Scale Image Classification",
+    "assumption": "Deeper architectures are required to achieve state-of-the-art performance on complex visual tasks",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2165146474",
+    "paper_title": "Deep Fisher Networks for Large-Scale Image Classification",
+    "assumption": "Hand-crafted representations and learned representations are fundamentally different paradigms that cannot be effectively unified",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2165146474",
+    "paper_title": "Deep Fisher Networks for Large-Scale Image Classification",
+    "assumption": "Large-scale datasets are essential for training effective deep visual recognition systems",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2133236236",
+    "paper_title": "SEARCHING FOR PULSARS USING IMAGE PATTERN RECOGNITION",
+    "assumption": "Human expert labeling is necessary for training accurate astronomical classification systems",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2133236236",
+    "paper_title": "SEARCHING FOR PULSARS USING IMAGE PATTERN RECOGNITION",
+    "assumption": "Visual pattern recognition through diagnostic plots is essential for pulsar identification",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2133236236",
+    "paper_title": "SEARCHING FOR PULSARS USING IMAGE PATTERN RECOGNITION",
+    "assumption": "Deep neural networks are required for complex astronomical pattern recognition tasks",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2133236236",
+    "paper_title": "SEARCHING FOR PULSARS USING IMAGE PATTERN RECOGNITION",
+    "assumption": "Supervised learning is necessary for distinguishing astronomical signals from noise and interference",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2133236236",
+    "paper_title": "SEARCHING FOR PULSARS USING IMAGE PATTERN RECOGNITION",
+    "assumption": "Cross-survey validation is essential for demonstrating astronomical AI system robustness",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2012296273",
+    "paper_title": "Deep Image Features in Music Information Retrieval",
+    "assumption": "Convolutional architectures are necessary for effective visual feature extraction",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2012296273",
+    "paper_title": "Deep Image Features in Music Information Retrieval",
+    "assumption": "Time-frequency representations must be converted to visual spectrograms for deep learning processing in audio tasks",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2012296273",
+    "paper_title": "Deep Image Features in Music Information Retrieval",
+    "assumption": "Pre-trained features from large-scale datasets are essential for achieving good performance on smaller domain-specific tasks",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2012296273",
+    "paper_title": "Deep Image Features in Music Information Retrieval",
+    "assumption": "Hand-crafted feature engineering is inferior to learned representations for classification tasks",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2012296273",
+    "paper_title": "Deep Image Features in Music Information Retrieval",
+    "assumption": "Cross-domain transfer learning requires architectural compatibility between source and target domains",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2149933564",
+    "paper_title": "How transferable are features in deep neural networks?",
+    "assumption": "Hierarchical feature abstraction is essential for deep learning, with lower layers learning general features and higher layers learning task-specific features",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2149933564",
+    "paper_title": "How transferable are features in deep neural networks?",
+    "assumption": "Fine-tuning pre-trained weights is necessary for effective transfer learning across tasks",
+    "confidence": 0.92,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2149933564",
+    "paper_title": "How transferable are features in deep neural networks?",
+    "assumption": "Convolutional architectures are required for effective visual feature learning and representation",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2149933564",
+    "paper_title": "How transferable are features in deep neural networks?",
+    "assumption": "Layer-by-layer feature specialization is fundamental to how deep networks learn meaningful representations",
+    "confidence": 0.88,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2149933564",
+    "paper_title": "How transferable are features in deep neural networks?",
+    "assumption": "Task similarity is essential for determining transfer learning effectiveness between domains",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2293634267",
+    "paper_title": "Long short-term memory recurrent neural network architectures for large scale acoustic modeling",
+    "assumption": "Recurrent connections are necessary for modeling sequential temporal data",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2293634267",
+    "paper_title": "Long short-term memory recurrent neural network architectures for large scale acoustic modeling",
+    "assumption": "Memory mechanisms are required for capturing long-range dependencies in sequences",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2293634267",
+    "paper_title": "Long short-term memory recurrent neural network architectures for large scale acoustic modeling",
+    "assumption": "Acoustic modeling requires learning temporal dynamics from sequential audio features",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2293634267",
+    "paper_title": "Long short-term memory recurrent neural network architectures for large scale acoustic modeling",
+    "assumption": "Deep architectures are necessary for complex pattern recognition tasks",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2293634267",
+    "paper_title": "Long short-term memory recurrent neural network architectures for large scale acoustic modeling",
+    "assumption": "Distributed training is essential for scaling neural networks to large datasets",
+    "confidence": 0.75,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2058821277",
+    "paper_title": "Aircraft Detection by Deep Convolutional Neural Networks",
+    "assumption": "Convolutional architectures are necessary for effective visual feature learning",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2058821277",
+    "paper_title": "Aircraft Detection by Deep Convolutional Neural Networks",
+    "assumption": "Deep networks (>6 layers) are required to extract stable and meaningful visual features",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2058821277",
+    "paper_title": "Aircraft Detection by Deep Convolutional Neural Networks",
+    "assumption": "Learned features are inherently superior to handcrafted features for object detection",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2058821277",
+    "paper_title": "Aircraft Detection by Deep Convolutional Neural Networks",
+    "assumption": "Large training datasets are essential for deep learning methods to achieve good performance",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2058821277",
+    "paper_title": "Aircraft Detection by Deep Convolutional Neural Networks",
+    "assumption": "False alarm rate is a necessary evaluation metric for object detection performance",
+    "confidence": 0.8,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2047643928",
+    "paper_title": "Describing Textures in the Wild",
+    "assumption": "Texture understanding requires specialized descriptors distinct from general object recognition methods",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2047643928",
+    "paper_title": "Describing Textures in the Wild",
+    "assumption": "Semantic attributes are necessary for meaningful texture description and recognition",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2047643928",
+    "paper_title": "Describing Textures in the Wild",
+    "assumption": "Human-interpretable vocabulary is essential for bridging low-level texture features and high-level understanding",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2047643928",
+    "paper_title": "Describing Textures in the Wild",
+    "assumption": "Fisher Vector-based representations are required for effective texture feature encoding",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2047643928",
+    "paper_title": "Describing Textures in the Wild",
+    "assumption": "Transfer learning effectiveness requires domain-specific adaptation of features",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1998808035",
+    "paper_title": "Deep Learning Face Representation from Predicting 10,000 Classes",
+    "assumption": "Supervised classification with large-scale labeled datasets is necessary for learning meaningful face representations",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1998808035",
+    "paper_title": "Deep Learning Face Representation from Predicting 10,000 Classes",
+    "assumption": "Convolutional architectures are essential for effective visual feature learning",
+    "confidence": 0.92,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1998808035",
+    "paper_title": "Deep Learning Face Representation from Predicting 10,000 Classes",
+    "assumption": "Deep hierarchical feature extraction is required for high-level semantic understanding",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1998808035",
+    "paper_title": "Deep Learning Face Representation from Predicting 10,000 Classes",
+    "assumption": "Multi-class identification training is necessary for learning generalizable identity features",
+    "confidence": 0.88,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1998808035",
+    "paper_title": "Deep Learning Face Representation from Predicting 10,000 Classes",
+    "assumption": "Verification accuracy on standardized benchmarks is the essential metric for face recognition system quality",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2062227835",
+    "paper_title": "Improving deep neural networks for LVCSR using rectified linear units and dropout",
+    "assumption": "Frame-level training with phoneme alignment is necessary for speech recognition",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2062227835",
+    "paper_title": "Improving deep neural networks for LVCSR using rectified linear units and dropout",
+    "assumption": "Hidden Markov Models are essential for modeling temporal dependencies in speech",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2062227835",
+    "paper_title": "Improving deep neural networks for LVCSR using rectified linear units and dropout",
+    "assumption": "Pre-training is required for effective deep neural network acoustic models",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2062227835",
+    "paper_title": "Improving deep neural networks for LVCSR using rectified linear units and dropout",
+    "assumption": "Discriminative performance requires separate acoustic and language modeling components",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2062227835",
+    "paper_title": "Improving deep neural networks for LVCSR using rectified linear units and dropout",
+    "assumption": "Large vocabulary speech recognition requires acoustic models trained on substantial amounts of transcribed speech data",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963911037",
+    "paper_title": "Network In Network",
+    "assumption": "Convolutional operations are necessary for effective visual feature extraction",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963911037",
+    "paper_title": "Network In Network",
+    "assumption": "Local receptive field processing is essential for image understanding",
+    "confidence": 0.92,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963911037",
+    "paper_title": "Network In Network",
+    "assumption": "Hierarchical feature learning through layer-wise abstraction is required for deep visual recognition",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963911037",
+    "paper_title": "Network In Network",
+    "assumption": "Translation equivariance through weight sharing is necessary for robust image classification",
+    "confidence": 0.88,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963911037",
+    "paper_title": "Network In Network",
+    "assumption": "Spatial locality bias is essential for effective visual representation learning",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2293824885",
+    "paper_title": "Supervised Hashing for Image Retrieval via Image Representation Learning",
+    "assumption": "Semantic similarity between images is necessary for effective hash function learning",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2293824885",
+    "paper_title": "Supervised Hashing for Image Retrieval via Image Representation Learning",
+    "assumption": "Hash codes must preserve neighborhood structure from the original feature space for effective retrieval",
+    "confidence": 0.92,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2293824885",
+    "paper_title": "Supervised Hashing for Image Retrieval via Image Representation Learning",
+    "assumption": "Supervised information is essential for learning high-quality hash functions in image retrieval",
+    "confidence": 0.88,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2293824885",
+    "paper_title": "Supervised Hashing for Image Retrieval via Image Representation Learning",
+    "assumption": "Deep convolutional networks are necessary for learning effective visual representations",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2293824885",
+    "paper_title": "Supervised Hashing for Image Retrieval via Image Representation Learning",
+    "assumption": "Binary hash codes are required for efficient large-scale image retrieval",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2135442311",
+    "paper_title": "Deep Metric Learning for Person Re-identification",
+    "assumption": "Learning similarity metrics is essential for person re-identification",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2135442311",
+    "paper_title": "Deep Metric Learning for Person Re-identification",
+    "assumption": "Paired comparison learning is necessary for metric learning tasks",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2135442311",
+    "paper_title": "Deep Metric Learning for Person Re-identification",
+    "assumption": "Convolutional architectures are required for effective visual feature extraction",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2135442311",
+    "paper_title": "Deep Metric Learning for Person Re-identification",
+    "assumption": "Symmetric network architectures are essential for learning similarity functions",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2135442311",
+    "paper_title": "Deep Metric Learning for Person Re-identification",
+    "assumption": "Deep learning requires explicit handling of outliers through robust loss functions",
+    "confidence": 0.82,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W870929296",
+    "paper_title": "Foundations and Advances in Deep Learning",
+    "assumption": "Depth is necessary for learning complex representations and achieving superior performance",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W870929296",
+    "paper_title": "Foundations and Advances in Deep Learning",
+    "assumption": "Unsupervised pre-training is essential for training deep networks effectively",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W870929296",
+    "paper_title": "Foundations and Advances in Deep Learning",
+    "assumption": "Layer-wise hierarchical feature learning is required for complex pattern recognition",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W870929296",
+    "paper_title": "Foundations and Advances in Deep Learning",
+    "assumption": "Gradient-based optimization is necessary for training neural networks",
+    "confidence": 0.92,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W870929296",
+    "paper_title": "Foundations and Advances in Deep Learning",
+    "assumption": "Probabilistic generative models require energy-based formulations for principled learning",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2005286252",
+    "paper_title": "Learning hierarchical representations for face verification with convolutional deep belief networks",
+    "assumption": "Hand-crafted feature descriptors are necessary for competitive face recognition performance",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2005286252",
+    "paper_title": "Learning hierarchical representations for face verification with convolutional deep belief networks",
+    "assumption": "Multiple complementary feature representations are required for robust face verification",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2005286252",
+    "paper_title": "Learning hierarchical representations for face verification with convolutional deep belief networks",
+    "assumption": "Convolutional architectures are essential for learning meaningful features from high-resolution images",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2005286252",
+    "paper_title": "Learning hierarchical representations for face verification with convolutional deep belief networks",
+    "assumption": "Spatial stationarity of features is necessary for scalable convolutional learning",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2005286252",
+    "paper_title": "Learning hierarchical representations for face verification with convolutional deep belief networks",
+    "assumption": "Unsupervised pre-training is required for learning effective deep hierarchical representations",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2009678853",
+    "paper_title": "RAPID",
+    "assumption": "Visual features are necessary for computational aesthetic quality assessment",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2009678853",
+    "paper_title": "RAPID",
+    "assumption": "Deep learning requires large-scale datasets to be effective for aesthetic rating",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2009678853",
+    "paper_title": "RAPID",
+    "assumption": "Convolutional neural networks are essential for learning visual features from images",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2009678853",
+    "paper_title": "RAPID",
+    "assumption": "Multiple input views are necessary to capture comprehensive aesthetic information",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2009678853",
+    "paper_title": "RAPID",
+    "assumption": "Feature learning and classification should be unified in end-to-end training",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2055911634",
+    "paper_title": "Speech Emotion Recognition Using CNN",
+    "assumption": "Hierarchical feature representations are necessary for effective pattern recognition in complex data",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2055911634",
+    "paper_title": "Speech Emotion Recognition Using CNN",
+    "assumption": "Convolutional architectures are essential for learning spatially-invariant features from structured input data",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2055911634",
+    "paper_title": "Speech Emotion Recognition Using CNN",
+    "assumption": "Unsupervised pre-training is required to learn meaningful representations when labeled data is limited",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2055911634",
+    "paper_title": "Speech Emotion Recognition Using CNN",
+    "assumption": "Reconstruction-based objectives are necessary for learning generalizable feature representations from unlabeled data",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2055911634",
+    "paper_title": "Speech Emotion Recognition Using CNN",
+    "assumption": "Multi-stage training procedures are essential for learning complex hierarchical representations",
+    "confidence": 0.75,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2163969215",
+    "paper_title": "Food Detection and Recognition Using Convolutional Neural Network",
+    "assumption": "Convolutional architectures are necessary for effective visual feature extraction",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2163969215",
+    "paper_title": "Food Detection and Recognition Using Convolutional Neural Network",
+    "assumption": "Supervised learning with labeled examples is essential for food recognition",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2163969215",
+    "paper_title": "Food Detection and Recognition Using Convolutional Neural Network",
+    "assumption": "Deep neural networks are required for handling complex visual recognition tasks",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2163969215",
+    "paper_title": "Food Detection and Recognition Using Convolutional Neural Network",
+    "assumption": "Classification accuracy is the appropriate metric for evaluating recognition performance",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2163969215",
+    "paper_title": "Food Detection and Recognition Using Convolutional Neural Network",
+    "assumption": "Feature learning through backpropagation is necessary for optimal visual recognition",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2214726385",
+    "paper_title": "Beyond Deep Learning: Scalable Methods and Models for Learning",
+    "assumption": "Supervised learning with labeled examples is essential for learning useful signal representations",
+    "confidence": 0.95,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2214726385",
+    "paper_title": "Beyond Deep Learning: Scalable Methods and Models for Learning",
+    "assumption": "Deep architectures are necessary to overcome fundamental limitations of shallow models",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2214726385",
+    "paper_title": "Beyond Deep Learning: Scalable Methods and Models for Learning",
+    "assumption": "Non-linear functions are required for effective mapping from signals to semantic information",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2214726385",
+    "paper_title": "Beyond Deep Learning: Scalable Methods and Models for Learning",
+    "assumption": "Optimization-based training is necessary for learning neural network parameters",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2214726385",
+    "paper_title": "Beyond Deep Learning: Scalable Methods and Models for Learning",
+    "assumption": "Classification performance is the primary measure of model quality for signal understanding",
+    "confidence": 0.8,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2133444763",
+    "paper_title": "Hybrid Deep Learning for Face Verification",
+    "assumption": "Convolutional architectures are necessary for effective visual feature extraction from images",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2133444763",
+    "paper_title": "Hybrid Deep Learning for Face Verification",
+    "assumption": "Deep hierarchical representations are essential for learning complex visual patterns like faces",
+    "confidence": 0.92,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2133444763",
+    "paper_title": "Hybrid Deep Learning for Face Verification",
+    "assumption": "Local feature extraction followed by global aggregation is required for robust face recognition",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2133444763",
+    "paper_title": "Hybrid Deep Learning for Face Verification",
+    "assumption": "Joint end-to-end training is necessary for optimal performance in multi-component deep networks",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2133444763",
+    "paper_title": "Hybrid Deep Learning for Face Verification",
+    "assumption": "Multiple complementary feature representations are essential for robust face verification under varying conditions",
+    "confidence": 0.83,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2103088716",
+    "paper_title": "Convolutional Neural Networks for Distant Speech Recognition",
+    "assumption": "Convolutional architectures are necessary for exploiting local acoustic patterns in speech spectrograms",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2103088716",
+    "paper_title": "Convolutional Neural Networks for Distant Speech Recognition",
+    "assumption": "Word error rate is the essential metric for evaluating speech recognition system quality",
+    "confidence": 0.95,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2103088716",
+    "paper_title": "Convolutional Neural Networks for Distant Speech Recognition",
+    "assumption": "Multiple distant microphones require explicit architectural design to handle cross-channel relationships",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2103088716",
+    "paper_title": "Convolutional Neural Networks for Distant Speech Recognition",
+    "assumption": "Discriminative training paradigms are necessary for competitive automatic speech recognition performance",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2103088716",
+    "paper_title": "Convolutional Neural Networks for Distant Speech Recognition",
+    "assumption": "Beamforming preprocessing is essential for effective multi-microphone speech recognition",
+    "confidence": 0.8,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2002700944",
+    "paper_title": "Event-driven contrastive divergence for spiking neuromorphic systems",
+    "assumption": "Synaptic plasticity rules like STDP are necessary for learning in spiking neural networks",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2002700944",
+    "paper_title": "Event-driven contrastive divergence for spiking neuromorphic systems",
+    "assumption": "Neural sampling through recurrent spiking dynamics is essential for probabilistic computation in neuromorphic systems",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2002700944",
+    "paper_title": "Event-driven contrastive divergence for spiking neuromorphic systems",
+    "assumption": "Integrate-and-fire neuron models are sufficient to capture essential computational properties of biological neurons",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2002700944",
+    "paper_title": "Event-driven contrastive divergence for spiking neuromorphic systems",
+    "assumption": "Event-driven asynchronous processing is required for efficient neuromorphic computation",
+    "confidence": 0.87,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2002700944",
+    "paper_title": "Event-driven contrastive divergence for spiking neuromorphic systems",
+    "assumption": "Contrastive divergence is the standard paradigm for training energy-based models like RBMs",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2330615146",
+    "paper_title": "Convolutional Neural Network for Edge Detection in SAR Grayscale Images",
+    "assumption": "Convolutional architectures are necessary for effective spatial feature learning in images",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2330615146",
+    "paper_title": "Convolutional Neural Network for Edge Detection in SAR Grayscale Images",
+    "assumption": "Local connectivity patterns are essential for exploiting spatial correlations in image data",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2330615146",
+    "paper_title": "Convolutional Neural Network for Edge Detection in SAR Grayscale Images",
+    "assumption": "Multi-level feature fusion is required for robust edge detection performance",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2330615146",
+    "paper_title": "Convolutional Neural Network for Edge Detection in SAR Grayscale Images",
+    "assumption": "Neural networks are inherently superior to classical methods for complex image analysis tasks",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2330615146",
+    "paper_title": "Convolutional Neural Network for Edge Detection in SAR Grayscale Images",
+    "assumption": "Momentum-based feature extraction is necessary for effective edge detection",
+    "confidence": 0.75,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2521577434",
+    "paper_title": "Scalable Front End Designs for Communication and Learning",
+    "assumption": "High-precision analog-to-digital conversion is necessary for optimal signal processing performance",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2521577434",
+    "paper_title": "Scalable Front End Designs for Communication and Learning",
+    "assumption": "Supervised learning with labeled data is essential for achieving high-quality machine vision performance",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2521577434",
+    "paper_title": "Scalable Front End Designs for Communication and Learning",
+    "assumption": "Flash ADC architectures are the standard and optimal approach for signal digitization in communication systems",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2521577434",
+    "paper_title": "Scalable Front End Designs for Communication and Learning",
+    "assumption": "Deep supervised networks are necessary for competitive computer vision results",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2521577434",
+    "paper_title": "Scalable Front End Designs for Communication and Learning",
+    "assumption": "End-to-end optimization is required for optimal system performance in signal processing",
+    "confidence": 0.75,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1994885532",
+    "paper_title": "A Research of Speech Emotion Recognition Based on Deep Belief Network and SVM",
+    "assumption": "Automatic feature extraction is superior to hand-crafted features for speech emotion recognition",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1994885532",
+    "paper_title": "A Research of Speech Emotion Recognition Based on Deep Belief Network and SVM",
+    "assumption": "Deep neural networks are necessary for effective feature representation learning in speech emotion tasks",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1994885532",
+    "paper_title": "A Research of Speech Emotion Recognition Based on Deep Belief Network and SVM",
+    "assumption": "Layer-wise pretraining is required for training deep networks effectively",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1994885532",
+    "paper_title": "A Research of Speech Emotion Recognition Based on Deep Belief Network and SVM",
+    "assumption": "Multiple consecutive frames are essential for capturing temporal emotion dynamics in speech",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W1994885532",
+    "paper_title": "A Research of Speech Emotion Recognition Based on Deep Belief Network and SVM",
+    "assumption": "Nonlinear classifiers are necessary for effective speech emotion classification",
+    "confidence": 0.75,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2087514981",
+    "paper_title": "Sparsity-Regularized HMAX for Visual Recognition",
+    "assumption": "Hierarchical feature processing is necessary for effective visual recognition",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2087514981",
+    "paper_title": "Sparsity-Regularized HMAX for Visual Recognition",
+    "assumption": "Biological plausibility is essential for robust computer vision models",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2087514981",
+    "paper_title": "Sparsity-Regularized HMAX for Visual Recognition",
+    "assumption": "Max pooling operations are required to achieve spatial invariance in visual recognition",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2087514981",
+    "paper_title": "Sparsity-Regularized HMAX for Visual Recognition",
+    "assumption": "Patch-based local feature learning is necessary before global structure understanding",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2087514981",
+    "paper_title": "Sparsity-Regularized HMAX for Visual Recognition",
+    "assumption": "Sparse activation patterns are essential for efficient neural representation",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2016084084",
+    "paper_title": "The Recognition Of Partially Occluded Objects with Support Vector Machines, Convolutional Neural Networks and Deep Belief Networks",
+    "assumption": "Generative models are fundamentally better suited for handling missing or incomplete information than discriminative models",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2016084084",
+    "paper_title": "The Recognition Of Partially Occluded Objects with Support Vector Machines, Convolutional Neural Networks and Deep Belief Networks",
+    "assumption": "Convolutional architectures are essential for effective visual feature learning and object recognition",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2016084084",
+    "paper_title": "The Recognition Of Partially Occluded Objects with Support Vector Machines, Convolutional Neural Networks and Deep Belief Networks",
+    "assumption": "Deep hierarchical representations are necessary for robust object recognition performance",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2016084084",
+    "paper_title": "The Recognition Of Partially Occluded Objects with Support Vector Machines, Convolutional Neural Networks and Deep Belief Networks",
+    "assumption": "Biological inspiration in neural network design leads to better machine learning performance",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2016084084",
+    "paper_title": "The Recognition Of Partially Occluded Objects with Support Vector Machines, Convolutional Neural Networks and Deep Belief Networks",
+    "assumption": "Layer-wise unsupervised pretraining is required for training deep neural networks effectively",
+    "confidence": 0.82,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W104184427",
+    "paper_title": "On the importance of initialization and momentum in deep learning",
+    "assumption": "Gradient-based optimization is necessary for training neural networks",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W104184427",
+    "paper_title": "On the importance of initialization and momentum in deep learning",
+    "assumption": "Random initialization is required for neural network weight initialization",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W104184427",
+    "paper_title": "On the importance of initialization and momentum in deep learning",
+    "assumption": "First-order optimization methods are fundamentally limited compared to second-order methods for complex optimization landscapes",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W104184427",
+    "paper_title": "On the importance of initialization and momentum in deep learning",
+    "assumption": "Recurrent architectures are necessary for modeling sequential data with long-term dependencies",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W104184427",
+    "paper_title": "On the importance of initialization and momentum in deep learning",
+    "assumption": "Training difficulty necessarily increases with network depth",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2014867186",
+    "paper_title": "Hand posture recognition based on bottom-up structured deep convolutional neural network with curriculum learning",
+    "assumption": "Convolutional neural networks are necessary for extracting spatial features from images",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2014867186",
+    "paper_title": "Hand posture recognition based on bottom-up structured deep convolutional neural network with curriculum learning",
+    "assumption": "End-to-end learning is required for optimal performance in vision tasks",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2014867186",
+    "paper_title": "Hand posture recognition based on bottom-up structured deep convolutional neural network with curriculum learning",
+    "assumption": "Deep architectures are essential for learning complex visual representations",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2014867186",
+    "paper_title": "Hand posture recognition based on bottom-up structured deep convolutional neural network with curriculum learning",
+    "assumption": "Supervised learning with labeled examples is necessary for recognition tasks",
+    "confidence": 0.88,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2014867186",
+    "paper_title": "Hand posture recognition based on bottom-up structured deep convolutional neural network with curriculum learning",
+    "assumption": "Translation invariance through convolution is required for robust image recognition",
+    "confidence": 0.92,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2118833474",
+    "paper_title": "Random Walks: Training Very Deep Nonlinear Feed-Forward Networks with Smart Initialization.",
+    "assumption": "Gradient-based optimization through backpropagation is necessary for training deep neural networks",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2118833474",
+    "paper_title": "Random Walks: Training Very Deep Nonlinear Feed-Forward Networks with Smart Initialization.",
+    "assumption": "Feed-forward architectures are fundamentally different from recurrent architectures in their training dynamics",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2118833474",
+    "paper_title": "Random Walks: Training Very Deep Nonlinear Feed-Forward Networks with Smart Initialization.",
+    "assumption": "The vanishing gradient problem is an inherent barrier to training very deep networks",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2118833474",
+    "paper_title": "Random Walks: Training Very Deep Nonlinear Feed-Forward Networks with Smart Initialization.",
+    "assumption": "Network depth is essential for learning complex representations and achieving good performance",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2118833474",
+    "paper_title": "Random Walks: Training Very Deep Nonlinear Feed-Forward Networks with Smart Initialization.",
+    "assumption": "Weight initialization strategy is critical for successful training of deep networks",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2544692362",
+    "paper_title": "Multiple sequence behavior recognition on humanoid robot using long short-term memory (LSTM)",
+    "assumption": "Recurrent architectures are necessary for learning sequential patterns in time-series data",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2544692362",
+    "paper_title": "Multiple sequence behavior recognition on humanoid robot using long short-term memory (LSTM)",
+    "assumption": "Memory mechanisms are essential for processing sequences longer than 10 time steps",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2544692362",
+    "paper_title": "Multiple sequence behavior recognition on humanoid robot using long short-term memory (LSTM)",
+    "assumption": "Joint trajectory data contains sufficient information for complete behavior recognition",
+    "confidence": 0.8,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2544692362",
+    "paper_title": "Multiple sequence behavior recognition on humanoid robot using long short-term memory (LSTM)",
+    "assumption": "Supervised classification is the correct paradigm for behavior recognition tasks",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2544692362",
+    "paper_title": "Multiple sequence behavior recognition on humanoid robot using long short-term memory (LSTM)",
+    "assumption": "Temporal dependencies in robotics data require explicit sequential modeling",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2048266589",
+    "paper_title": "DaDianNao: A Machine-Learning Supercomputer",
+    "assumption": "Convolutional and Deep Neural Networks are the essential architectures for sophisticated machine learning processing",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2048266589",
+    "paper_title": "DaDianNao: A Machine-Learning Supercomputer",
+    "assumption": "Memory bandwidth is the fundamental bottleneck limiting neural network accelerator performance",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2048266589",
+    "paper_title": "DaDianNao: A Machine-Learning Supercomputer",
+    "assumption": "Custom hardware acceleration is necessary for achieving optimal neural network performance",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2048266589",
+    "paper_title": "DaDianNao: A Machine-Learning Supercomputer",
+    "assumption": "On-chip memory storage is required to overcome the memory wall in neural network processing",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2048266589",
+    "paper_title": "DaDianNao: A Machine-Learning Supercomputer",
+    "assumption": "High-degree parallelism is essential for efficient neural network computation",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1976948919",
+    "paper_title": "Deep Convolutional Network Cascade for Facial Point Detection",
+    "assumption": "Convolutional architectures are necessary for effective visual feature extraction in facial analysis",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1976948919",
+    "paper_title": "Deep Convolutional Network Cascade for Facial Point Detection",
+    "assumption": "Multi-scale hierarchical processing is essential for precise spatial localization tasks",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1976948919",
+    "paper_title": "Deep Convolutional Network Cascade for Facial Point Detection",
+    "assumption": "Global context information is required for resolving local ambiguities in keypoint detection",
+    "confidence": 0.88,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1976948919",
+    "paper_title": "Deep Convolutional Network Cascade for Facial Point Detection",
+    "assumption": "Deep networks are necessary to learn sufficiently rich representations for robust facial point detection",
+    "confidence": 0.87,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1976948919",
+    "paper_title": "Deep Convolutional Network Cascade for Facial Point Detection",
+    "assumption": "Coarse-to-fine refinement is essential for achieving high-precision localization",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2074274428",
+    "paper_title": "Research on the Classification Ability of Deep Belief Networks on Small and Medium Datasets",
+    "assumption": "Deep networks require pre-training to overcome vanishing gradient problems",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2074274428",
+    "paper_title": "Research on the Classification Ability of Deep Belief Networks on Small and Medium Datasets",
+    "assumption": "Unsupervised pre-training followed by supervised fine-tuning is necessary for effective deep learning",
+    "confidence": 0.92,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2074274428",
+    "paper_title": "Research on the Classification Ability of Deep Belief Networks on Small and Medium Datasets",
+    "assumption": "Stacked architectures are required for building deep networks",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2074274428",
+    "paper_title": "Research on the Classification Ability of Deep Belief Networks on Small and Medium Datasets",
+    "assumption": "Layer-wise pre-training is essential for initializing deep network weights",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2074274428",
+    "paper_title": "Research on the Classification Ability of Deep Belief Networks on Small and Medium Datasets",
+    "assumption": "Generative models are necessary components for discriminative deep learning",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2036891359",
+    "paper_title": "The Müller-Lyer Illusion in a Computational Model of Biological Object Recognition",
+    "assumption": "Hierarchical feed-forward architectures are necessary for modeling biological visual processing",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2036891359",
+    "paper_title": "The Müller-Lyer Illusion in a Computational Model of Biological Object Recognition",
+    "assumption": "Supervised classification training is required to model perceptual judgment tasks",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2036891359",
+    "paper_title": "The Müller-Lyer Illusion in a Computational Model of Biological Object Recognition",
+    "assumption": "High classification accuracy is necessary to validate computational models of perception",
+    "confidence": 0.8,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2036891359",
+    "paper_title": "The Müller-Lyer Illusion in a Computational Model of Biological Object Recognition",
+    "assumption": "Isolating individual factors through controlled computational experiments is essential for understanding perceptual phenomena",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2036891359",
+    "paper_title": "The Müller-Lyer Illusion in a Computational Model of Biological Object Recognition",
+    "assumption": "Binary categorization tasks are sufficient for modeling continuous perceptual judgments",
+    "confidence": 0.75,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2165991108",
+    "paper_title": "Deep Architecture for Traffic Flow Prediction: Deep Belief Networks With Multitask Learning",
+    "assumption": "Deeper architectures are necessary for learning complex patterns in sequential data",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2165991108",
+    "paper_title": "Deep Architecture for Traffic Flow Prediction: Deep Belief Networks With Multitask Learning",
+    "assumption": "Unsupervised pre-training is essential for effective feature learning in deep networks",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2165991108",
+    "paper_title": "Deep Architecture for Traffic Flow Prediction: Deep Belief Networks With Multitask Learning",
+    "assumption": "Hand-engineered features are inherently inferior to learned representations for complex prediction tasks",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2165991108",
+    "paper_title": "Deep Architecture for Traffic Flow Prediction: Deep Belief Networks With Multitask Learning",
+    "assumption": "Layer-wise unsupervised pre-training is required for training deep networks effectively",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2165991108",
+    "paper_title": "Deep Architecture for Traffic Flow Prediction: Deep Belief Networks With Multitask Learning",
+    "assumption": "Joint learning of multiple related tasks is superior to learning tasks independently",
+    "confidence": 0.75,
+    "category": "training"
+  }
+]

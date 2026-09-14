@@ -1,0 +1,247 @@
+{
+  "ran_at": "2026-03-18T00:53:39.077839+00:00",
+  "baseline": "vanilla_llm",
+  "summary": {
+    "num_categories": 4,
+    "categories": [
+      "transformer",
+      "diffusion",
+      "icl",
+      "vit"
+    ],
+    "average_rank": 16.0,
+    "overall_recall_at_5": 0.25,
+    "overall_recall_at_10": 0.25,
+    "overall_recall_at_20": 0.25
+  },
+  "results": [
+    {
+      "baseline": "vanilla_llm",
+      "category": "transformer",
+      "ran_at": "2026-03-18T00:53:13.140760+00:00",
+      "inputs": {
+        "num_papers": 15,
+        "ground_truth_aliases": [
+          "recurrence is necessary for sequence modeling",
+          "recurrent structure is required for sequence modeling",
+          "sequence models require recurrence"
+        ]
+      },
+      "config": {
+        "model": "claude-sonnet-4-20250514",
+        "top_ks": [
+          5,
+          10,
+          20
+        ],
+        "max_papers": 15,
+        "assumption_limit": 20
+      },
+      "outputs": {
+        "num_candidates": 20,
+        "candidates": [
+          "Sequential processing requires recurrence",
+          "Attention mechanisms must operate over encoder hidden states",
+          "End-to-end learning is always superior to modular approaches",
+          "Text processing requires explicit tokenization into discrete units",
+          "Memory in neural networks must be implemented through gating mechanisms",
+          "Language understanding requires left-to-right sequential processing",
+          "Neural architectures must be differentiable throughout",
+          "Sequence-to-sequence tasks require separate encoder and decoder components",
+          "Attention weights must sum to one and represent probability distributions",
+          "RNN hidden states capture all necessary temporal dependencies",
+          "Translation quality requires word-level or subword-level representations",
+          "Neural language models must predict one token at a time",
+          "Multimodal fusion requires late integration of feature representations",
+          "Similarity learning requires symmetric distance metrics",
+          "Dropout must be applied uniformly across network components",
+          "Sequence alignment must be monotonic or nearly monotonic",
+          "Neural networks require fixed-dimensional input representations",
+          "Attention mechanisms must be content-based rather than position-based",
+          "Recurrent connections are necessary for temporal modeling",
+          "Gradient-based optimization is the only viable training method"
+        ]
+      },
+      "metrics": {
+        "rank": 21.0,
+        "recall_at_5": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "precision_at_10": 0.0,
+        "recall_at_20": 0.0,
+        "precision_at_20": 0.0
+      }
+    },
+    {
+      "baseline": "vanilla_llm",
+      "category": "diffusion",
+      "ran_at": "2026-03-18T00:53:21.041019+00:00",
+      "inputs": {
+        "num_papers": 15,
+        "ground_truth_aliases": [
+          "adversarial training is necessary for high-quality generation",
+          "high-quality generation requires adversarial training",
+          "gan-style adversarial objectives are required for strong image generation"
+        ]
+      },
+      "config": {
+        "model": "claude-sonnet-4-20250514",
+        "top_ks": [
+          5,
+          10,
+          20
+        ],
+        "max_papers": 15,
+        "assumption_limit": 20
+      },
+      "outputs": {
+        "num_candidates": 20,
+        "candidates": [
+          "Adversarial training is necessary for high-quality generation",
+          "Generative models require separate generator and discriminator architectures",
+          "High-resolution synthesis requires multi-scale progressive architectures",
+          "Mode collapse is an inherent problem that must be explicitly addressed",
+          "Disentangled representations require explicit architectural constraints",
+          "Sequential data generation requires recurrent neural networks",
+          "Synthetic data must closely mimic real data distributions to be useful",
+          "Privacy preservation requires explicit disentanglement mechanisms",
+          "Medical image synthesis requires domain-specific architectural modifications",
+          "Text-to-image synthesis requires hierarchical refinement processes",
+          "Cross-modal synthesis requires paired training data",
+          "Pose-invariant recognition requires pose normalization or frontalization",
+          "Edge information must be explicitly incorporated for structural coherence",
+          "Conditional generation requires conditioning at multiple network layers",
+          "Memory mechanisms require external storage modules",
+          "Quantum advantages require exponential classical complexity",
+          "Video synthesis requires explicit temporal consistency constraints",
+          "Multi-modal learning requires separate encoders for each modality",
+          "Latent space interpolation requires continuous probability distributions",
+          "Image quality improvements require adversarial loss functions"
+        ]
+      },
+      "metrics": {
+        "rank": 1.0,
+        "recall_at_5": 1.0,
+        "precision_at_5": 0.2,
+        "recall_at_10": 1.0,
+        "precision_at_10": 0.1,
+        "recall_at_20": 1.0,
+        "precision_at_20": 0.05
+      }
+    },
+    {
+      "baseline": "vanilla_llm",
+      "category": "icl",
+      "ran_at": "2026-03-18T00:53:30.691438+00:00",
+      "inputs": {
+        "num_papers": 15,
+        "ground_truth_aliases": [
+          "fine-tuning is necessary for task adaptation",
+          "task adaptation requires fine-tuning",
+          "downstream adaptation must update model weights"
+        ]
+      },
+      "config": {
+        "model": "claude-sonnet-4-20250514",
+        "top_ks": [
+          5,
+          10,
+          20
+        ],
+        "max_papers": 15,
+        "assumption_limit": 20
+      },
+      "outputs": {
+        "num_candidates": 20,
+        "candidates": [
+          "Domain-invariant features are necessary and sufficient for successful transfer learning",
+          "Source and target domains must share the same task structure and label space",
+          "Adversarial training is the optimal approach for learning transferable representations",
+          "Distribution alignment requires minimizing statistical distance metrics between domains",
+          "Deep networks trained on large datasets capture universally transferable knowledge",
+          "Feature extraction and domain adaptation should be performed in the same representation space",
+          "Marginal and conditional distributions contribute equally to domain adaptation success",
+          "Transfer learning requires explicit measurement and reduction of domain discrepancy",
+          "Labeled source data is always beneficial for target domain performance",
+          "Domain adaptation effectiveness can be measured solely by target domain accuracy",
+          "Multi-source domains should be treated as independent sources requiring separate alignment",
+          "Pre-training on natural images provides optimal initialization for all visual domains",
+          "Domain shift is primarily a distribution mismatch problem rather than a fundamental representation issue",
+          "Fine-tuning with small target datasets is sufficient to overcome domain gaps",
+          "Cross-domain transferability scales monotonically with source domain size",
+          "Feature hierarchies learned from one domain maintain their semantic meaning across domains",
+          "Domain adaptation requires preserving discriminative information from the source domain",
+          "Synthetic data can substitute for real data given sufficient domain adaptation techniques",
+          "Transfer learning benefits require architectural similarity between source and target tasks",
+          "Domain-specific batch normalization statistics capture the primary domain differences"
+        ]
+      },
+      "metrics": {
+        "rank": 21.0,
+        "recall_at_5": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "precision_at_10": 0.0,
+        "recall_at_20": 0.0,
+        "precision_at_20": 0.0
+      }
+    },
+    {
+      "baseline": "vanilla_llm",
+      "category": "vit",
+      "ran_at": "2026-03-18T00:53:39.077368+00:00",
+      "inputs": {
+        "num_papers": 15,
+        "ground_truth_aliases": [
+          "convolutional layers are necessary for vision",
+          "vision models require convolutional layers",
+          "image understanding needs convolutional inductive biases"
+        ]
+      },
+      "config": {
+        "model": "claude-sonnet-4-20250514",
+        "top_ks": [
+          5,
+          10,
+          20
+        ],
+        "max_papers": 15,
+        "assumption_limit": 20
+      },
+      "outputs": {
+        "num_candidates": 20,
+        "candidates": [
+          "Spatial locality is fundamental to visual feature learning",
+          "Hierarchical feature extraction requires depth-ordered processing",
+          "Skip connections must connect same-scale encoder-decoder features",
+          "Geometric transformations require fixed sampling grids",
+          "Multi-scale features must be processed through separate pathways",
+          "Deep supervision requires intermediate loss functions at multiple layers",
+          "Feature fusion happens optimally through concatenation or addition",
+          "Network architecture depth must be predetermined before training",
+          "Convolutional operations are inherently superior to other spatial aggregation methods",
+          "Global context requires large receptive fields through stacking convolutions",
+          "Residual connections must preserve spatial dimensions",
+          "Attention mechanisms require additional learnable parameters",
+          "Feature extraction and reasoning must happen in the same coordinate space",
+          "Bottleneck architectures always reduce representational capacity",
+          "Non-linearities are necessary at every network layer",
+          "Object detection requires region proposal mechanisms",
+          "Segmentation quality scales linearly with network depth",
+          "Data augmentation requires domain-specific transformations",
+          "Feature maps at different scales capture fundamentally different information types",
+          "Network compression requires architectural modifications rather than learning-based approaches"
+        ]
+      },
+      "metrics": {
+        "rank": 21.0,
+        "recall_at_5": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "precision_at_10": 0.0,
+        "recall_at_20": 0.0,
+        "precision_at_20": 0.0
+      }
+    }
+  ]
+}

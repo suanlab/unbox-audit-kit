@@ -1,0 +1,911 @@
+{
+  "paradigm": "transformer",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "num_papers": 15,
+  "num_raw_assumptions": 150,
+  "num_unique_assumptions": 150,
+  "num_parse_failures": 0,
+  "seed": 42,
+  "assumptions": [
+    {
+      "assumption": "Deep neural networks are necessary for large vocabulary conversational speech recognition.",
+      "confidence": 1.0,
+      "category": "architectural",
+      "source_paper": "Listen, attend and spell: A neural network for large vocabulary conversational speech recognition"
+    },
+    {
+      "assumption": "Recurrent Neural Networks (RNNs) or variants thereof are necessary for sequence-to-sequence tasks such as joint intent detection and slot filling.",
+      "confidence": 1.0,
+      "category": "architectural",
+      "source_paper": "Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling"
+    },
+    {
+      "assumption": "Attention mechanisms are essential for improving the performance of RNNs in sequence-to-sequence tasks.",
+      "confidence": 1.0,
+      "category": "architectural",
+      "source_paper": "Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling"
+    },
+    {
+      "assumption": "Training data is necessary for supervised learning tasks like joint intent detection and slot filling.",
+      "confidence": 1.0,
+      "category": "data",
+      "source_paper": "Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling"
+    },
+    {
+      "assumption": "Error metrics such as intent detection error rate and slot filling F1 score are essential for evaluating the performance of models in tasks like joint intent detection and slot filling.",
+      "confidence": 1.0,
+      "category": "evaluation",
+      "source_paper": "Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling"
+    },
+    {
+      "assumption": "Recurrent Neural Networks (RNNs) are necessary for modeling sequential data.",
+      "confidence": 1.0,
+      "category": "architectural",
+      "source_paper": "An Empirical Exploration of Recurrent Network Architectures"
+    },
+    {
+      "assumption": "Neural networks are necessary for learning the conditional probability of an output sequence with variable-sized, discrete tokens.",
+      "confidence": 1.0,
+      "category": "architectural",
+      "source_paper": "Pointer networks"
+    },
+    {
+      "assumption": "Recurrent neural networks (RNNs) are necessary for many recent developments in deep learning.",
+      "confidence": 1.0,
+      "category": "architectural",
+      "source_paper": "A theoretically grounded application of dropout in recurrent neural networks"
+    },
+    {
+      "assumption": "Overfitting is a major difficulty with RNNs.",
+      "confidence": 1.0,
+      "category": "training",
+      "source_paper": "A theoretically grounded application of dropout in recurrent neural networks"
+    },
+    {
+      "assumption": "Dropout is a common technique to mitigate overfitting in deep learning.",
+      "confidence": 1.0,
+      "category": "training",
+      "source_paper": "A theoretically grounded application of dropout in recurrent neural networks"
+    },
+    {
+      "assumption": "Recurrent Neural Networks (RNNs) are necessary for handling sequential data in machine reading tasks.",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Long Short-Term Memory-Networks for Machine Reading"
+    },
+    {
+      "assumption": "Recurrent Neural Networks (RNNs) or variants like LSTM are essential for encoding and decoding sequences in Neural Machine Translation.",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Attention-based Multimodal Neural Machine Translation"
+    },
+    {
+      "assumption": "Recurrent Neural Network (RNN) architecture is necessary for Neural Machine Translation (NMT)",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Montreal Neural Machine Translation Systems for WMT’15"
+    },
+    {
+      "assumption": "The use of gated architectures like LSTM, GRU, and Highway Networks is necessary for designing artificial neural networks with intentionally organized information flow in language modeling for speech recognition.",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "LSTM, GRU, Highway and a Bit of Attention: An Empirical Overview for Language Modeling in Speech Recognition"
+    },
+    {
+      "assumption": "A neural network architecture is necessary for machine translation.",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Knowledge-Based Semantic Embedding for Machine Translation"
+    },
+    {
+      "assumption": "Training data is necessary for machine translation.",
+      "confidence": 0.95,
+      "category": "data",
+      "source_paper": "Knowledge-Based Semantic Embedding for Machine Translation"
+    },
+    {
+      "assumption": "Recurrent Neural Networks (RNN) are necessary for sentiment classification in Natural Language Processing (NLP)",
+      "confidence": 0.95,
+      "category": "training",
+      "source_paper": "Sentiment classification using Comprehensive Attention Recurrent models"
+    },
+    {
+      "assumption": "Sentiment classification is a hot topic in the field of NLP and understanding",
+      "confidence": 0.95,
+      "category": "theoretical",
+      "source_paper": "Sentiment classification using Comprehensive Attention Recurrent models"
+    },
+    {
+      "assumption": "Recurrent Neural Networks, specifically LSTMs, are necessary for generating open-domain video descriptions.",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Sequence to Sequence -- Video to Text"
+    },
+    {
+      "assumption": "Recurrent Neural Networks (RNNs) or variants like Long Short-Term Memory (LSTM) are necessary for modeling sequential data in natural language processing.",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Siamese Recurrent Architectures for Learning Sentence Similarity"
+    },
+    {
+      "assumption": "Deep learning models, such as Recurrent Neural Networks (RNNs), are necessary for abstractive sentence summarization.",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks"
+    },
+    {
+      "assumption": "A character-level sequence-to-sequence learning model is necessary for natural language processing tasks.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Understanding Subtitles by Character-Level Sequence-to-Sequence Learning"
+    },
+    {
+      "assumption": "Recurrent Neural Networks (RNNs) are essential for sequence-to-sequence learning.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Understanding Subtitles by Character-Level Sequence-to-Sequence Learning"
+    },
+    {
+      "assumption": "End-to-end training is essential for improving the performance of speech recognition systems.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Listen, attend and spell: A neural network for large vocabulary conversational speech recognition"
+    },
+    {
+      "assumption": "Large amounts of data are necessary for training effective speech recognition systems.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Listen, attend and spell: A neural network for large vocabulary conversational speech recognition"
+    },
+    {
+      "assumption": "Attention mechanisms are essential for improving the performance of RNNs in machine reading tasks.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Long Short-Term Memory-Networks for Machine Reading"
+    },
+    {
+      "assumption": "Supervised learning is necessary for training machine reading models.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Long Short-Term Memory-Networks for Machine Reading"
+    },
+    {
+      "assumption": "Evaluation on multiple tasks (e.g., language modeling, sentiment analysis, natural language inference) is necessary for a comprehensive assessment of machine reading models.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "Long Short-Term Memory-Networks for Machine Reading"
+    },
+    {
+      "assumption": "The alignment between input and output sequences is crucial for tasks like slot filling.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling"
+    },
+    {
+      "assumption": "Iterative training and refinement of models is necessary to achieve state-of-the-art performance in tasks like joint intent detection and slot filling.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling"
+    },
+    {
+      "assumption": "Pre-trained models can be fine-tuned on specific tasks to improve performance.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling"
+    },
+    {
+      "assumption": "The use of encoder-decoder architectures is essential for tasks involving the transformation of one sequence into another.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling"
+    },
+    {
+      "assumption": "Attention mechanisms are necessary for improving the performance of Neural Machine Translation models.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Attention-based Multimodal Neural Machine Translation"
+    },
+    {
+      "assumption": "Attention mechanism is essential for improving the performance of NMT",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Montreal Neural Machine Translation Systems for WMT’15"
+    },
+    {
+      "assumption": "Deep structure in neural language models is essential for improving recognition accuracy in speech recognition.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "LSTM, GRU, Highway and a Bit of Attention: An Empirical Overview for Language Modeling in Speech Recognition"
+    },
+    {
+      "assumption": "Knowledge bases are essential for enhancing the semantic understanding in machine translation.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Knowledge-Based Semantic Embedding for Machine Translation"
+    },
+    {
+      "assumption": "Sequence-to-sequence framework is required for machine translation.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Knowledge-Based Semantic Embedding for Machine Translation"
+    },
+    {
+      "assumption": "Evaluation on benchmark datasets is essential for assessing the performance of machine translation models.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "Knowledge-Based Semantic Embedding for Machine Translation"
+    },
+    {
+      "assumption": "Bidirectional Recurrent Neural Networks (BRNN) are required to access past and future information in a sequence",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Sentiment classification using Comprehensive Attention Recurrent models"
+    },
+    {
+      "assumption": "Capturing comprehensive contextual information is essential for improving sentiment classification accuracy",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Sentiment classification using Comprehensive Attention Recurrent models"
+    },
+    {
+      "assumption": "Experimenting on sentiment-labeled datasets is essential for evaluating sentiment classification models",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "Sentiment classification using Comprehensive Attention Recurrent models"
+    },
+    {
+      "assumption": "The Long Short-Term Memory (LSTM) architecture is essential for training RNNs on long-term dependencies.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "An Empirical Exploration of Recurrent Network Architectures"
+    },
+    {
+      "assumption": "Optimizing RNN architectures through extensive experimentation is required for improving performance.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "An Empirical Exploration of Recurrent Network Architectures"
+    },
+    {
+      "assumption": "The ability to handle variable length input and output sequences is essential for video-to-text models.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Sequence to Sequence -- Video to Text"
+    },
+    {
+      "assumption": "Training on video-sentence pairs is essential for learning to associate video frames with generated descriptions.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Sequence to Sequence -- Video to Text"
+    },
+    {
+      "assumption": "Attention mechanisms are essential for handling variable-sized input and output sequences.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Pointer networks"
+    },
+    {
+      "assumption": "Training examples are required to learn approximate solutions to discrete problems.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Pointer networks"
+    },
+    {
+      "assumption": "Supervised learning is required for training sentence similarity models.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Siamese Recurrent Architectures for Learning Sentence Similarity"
+    },
+    {
+      "assumption": "Large pre-trained word-embedding vectors are essential for encoding the meaning of words in a sentence.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Siamese Recurrent Architectures for Learning Sentence Similarity"
+    },
+    {
+      "assumption": "Evaluation metrics like accuracy or F1-score are essential for assessing the performance of sentence similarity models.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "Siamese Recurrent Architectures for Learning Sentence Similarity"
+    },
+    {
+      "assumption": "Attention mechanisms are essential for focusing the model on relevant input words during the generation process.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks"
+    },
+    {
+      "assumption": "Large datasets are required for training deep learning models in an end-to-end fashion.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks"
+    },
+    {
+      "assumption": "Dropout fails when applied to recurrent layers.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "A theoretically grounded application of dropout in recurrent neural networks"
+    },
+    {
+      "assumption": "A Bayesian interpretation of deep learning techniques can provide insights into their use with RNN models.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "A theoretically grounded application of dropout in recurrent neural networks"
+    },
+    {
+      "assumption": "Variational inference can be used to extend the theoretical results of Bayesian modelling in deep learning.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "A theoretically grounded application of dropout in recurrent neural networks"
+    },
+    {
+      "assumption": "Evaluation on language modelling and sentiment analysis tasks is essential for assessing the performance of RNN models.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "A theoretically grounded application of dropout in recurrent neural networks"
+    },
+    {
+      "assumption": "Memory networks are required for adaptive memory usage during recurrence in machine reading tasks.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Long Short-Term Memory-Networks for Machine Reading"
+    },
+    {
+      "assumption": "Large-scale annotated datasets are essential for training and evaluating machine reading models.",
+      "confidence": 0.85,
+      "category": "data",
+      "source_paper": "Long Short-Term Memory-Networks for Machine Reading"
+    },
+    {
+      "assumption": "Parallel processing of data is required for efficient training of Neural Machine Translation models.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Attention-based Multimodal Neural Machine Translation"
+    },
+    {
+      "assumption": "Large vocabularies are necessary for NMT",
+      "confidence": 0.85,
+      "category": "data",
+      "source_paper": "Montreal Neural Machine Translation Systems for WMT’15"
+    },
+    {
+      "assumption": "The evaluation of language modeling performance for speech recognition requires the use of classical gated architectures such as highway network, lateral network, LSTM, and GRU.",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "LSTM, GRU, Highway and a Bit of Attention: An Empirical Overview for Language Modeling in Speech Recognition"
+    },
+    {
+      "assumption": "Recurrent neural networks are essential for generating target sentences in machine translation.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Knowledge-Based Semantic Embedding for Machine Translation"
+    },
+    {
+      "assumption": "Improving the internal meaning preservation is essential for better machine translation.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Knowledge-Based Semantic Embedding for Machine Translation"
+    },
+    {
+      "assumption": "Long Short-Term Memory (LSTM) and Gated Recurrent Unit (GRU) are essential RNN variants for enhancing the effectiveness of sentiment classification models",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Sentiment classification using Comprehensive Attention Recurrent models"
+    },
+    {
+      "assumption": "Comparing model performance with state-of-the-art approaches is essential for model validation",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "Sentiment classification using Comprehensive Attention Recurrent models"
+    },
+    {
+      "assumption": "Learning the temporal structure of the sequence of frames is essential for video-to-text models.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Sequence to Sequence -- Video to Text"
+    },
+    {
+      "assumption": "Vector space models are necessary for representing sentences and comparing their semantic similarity.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Siamese Recurrent Architectures for Learning Sentence Similarity"
+    },
+    {
+      "assumption": "The performance of a summarization model can be evaluated by comparing its output to a reference summary.",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks"
+    },
+    {
+      "assumption": "End-to-end training is essential for sequence-to-sequence learning models.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Understanding Subtitles by Character-Level Sequence-to-Sequence Learning"
+    },
+    {
+      "assumption": "Raw character data can be directly used as input for sequence-to-sequence learning models.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Understanding Subtitles by Character-Level Sequence-to-Sequence Learning"
+    },
+    {
+      "assumption": "Gated Recurrent Units (GRUs) are essential for sequence-to-sequence learning.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Understanding Subtitles by Character-Level Sequence-to-Sequence Learning"
+    },
+    {
+      "assumption": "Attention mechanisms are essential for sequence-to-sequence learning models.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Understanding Subtitles by Character-Level Sequence-to-Sequence Learning"
+    },
+    {
+      "assumption": "Large-scale datasets are essential for evaluating sequence-to-sequence learning models.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Understanding Subtitles by Character-Level Sequence-to-Sequence Learning"
+    },
+    {
+      "assumption": "Attention mechanisms are essential for improving the performance of sequence-to-sequence models in speech recognition.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Listen, attend and spell: A neural network for large vocabulary conversational speech recognition"
+    },
+    {
+      "assumption": "Language models are required for improving the performance of speech recognition systems.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Listen, attend and spell: A neural network for large vocabulary conversational speech recognition"
+    },
+    {
+      "assumption": "Beam search or similar decoding strategies are essential for generating transcriptions from speech recognition systems.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Listen, attend and spell: A neural network for large vocabulary conversational speech recognition"
+    },
+    {
+      "assumption": "Deep learning models are required for achieving state-of-the-art performance in machine reading tasks.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Long Short-Term Memory-Networks for Machine Reading"
+    },
+    {
+      "assumption": "Shallow reasoning with memory and attention can improve the performance of machine reading models.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Long Short-Term Memory-Networks for Machine Reading"
+    },
+    {
+      "assumption": "The use of large datasets is essential for achieving state-of-the-art performance in machine learning tasks.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling"
+    },
+    {
+      "assumption": "The use of multiple strategies for incorporating alignment information can improve the performance of encoder-decoder models.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling"
+    },
+    {
+      "assumption": "Multimodal data (in this case, text and visual features) is required for improving the performance of Neural Machine Translation models.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Attention-based Multimodal Neural Machine Translation"
+    },
+    {
+      "assumption": "Large parallel corpora are essential for training high-performing Neural Machine Translation models.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Attention-based Multimodal Neural Machine Translation"
+    },
+    {
+      "assumption": "Backpropagation through time (BPTT) is required for training RNN-based Neural Machine Translation models.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Attention-based Multimodal Neural Machine Translation"
+    },
+    {
+      "assumption": "Use of monolingual language models can enhance NMT performance",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Montreal Neural Machine Translation Systems for WMT’15"
+    },
+    {
+      "assumption": "Unknown word replacement is required for handling out-of-vocabulary words in NMT",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Montreal Neural Machine Translation Systems for WMT’15"
+    },
+    {
+      "assumption": "Training on multiple language pairs is essential for evaluating NMT",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Montreal Neural Machine Translation Systems for WMT’15"
+    },
+    {
+      "assumption": "The use of highway connections between layers or units in LSTM and GRU can provide a slight improvement in recognition accuracy.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "LSTM, GRU, Highway and a Bit of Attention: An Empirical Overview for Language Modeling in Speech Recognition"
+    },
+    {
+      "assumption": "Comparing with traditional SMT methods and existing encoder-decoder models is essential for evaluating the performance of a new machine translation method.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Knowledge-Based Semantic Embedding for Machine Translation"
+    },
+    {
+      "assumption": "The quality of machine translation can be improved by incorporating semantic embeddings.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Knowledge-Based Semantic Embedding for Machine Translation"
+    },
+    {
+      "assumption": "End-to-end training without human intervention is essential for model efficiency",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Sentiment classification using Comprehensive Attention Recurrent models"
+    },
+    {
+      "assumption": "Convolutional layers are necessary for capturing local information in sequences",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Sentiment classification using Comprehensive Attention Recurrent models"
+    },
+    {
+      "assumption": "Variable-length sentences are common in sentiment classification tasks",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Sentiment classification using Comprehensive Attention Recurrent models"
+    },
+    {
+      "assumption": "The significance of individual components in RNN architectures is essential for understanding their performance.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "An Empirical Exploration of Recurrent Network Architectures"
+    },
+    {
+      "assumption": "Comparing the performance of RNN architectures across various tasks is essential for evaluating their effectiveness.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "An Empirical Exploration of Recurrent Network Architectures"
+    },
+    {
+      "assumption": "Learning a language model is essential for generating natural and coherent sentences.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Sequence to Sequence -- Video to Text"
+    },
+    {
+      "assumption": "Evaluation on standard video datasets is essential for comparing the performance of video-to-text models.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Sequence to Sequence -- Video to Text"
+    },
+    {
+      "assumption": "Generalization beyond the maximum lengths trained on is essential for practical applications.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Pointer networks"
+    },
+    {
+      "assumption": "Neural networks can be used to solve combinatorial optimization problems.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Pointer networks"
+    },
+    {
+      "assumption": "Evaluation on challenging geometric problems is essential for demonstrating the effectiveness of a new neural architecture.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Pointer networks"
+    },
+    {
+      "assumption": "Complex semantic relationships can be learned by neural networks with sufficient capacity.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Siamese Recurrent Architectures for Learning Sentence Similarity"
+    },
+    {
+      "assumption": "Siamese architectures can be used to learn similarity between pairs of data points.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Siamese Recurrent Architectures for Learning Sentence Similarity"
+    },
+    {
+      "assumption": "The preservation of meaning is a key requirement for a successful sentence summarization.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks"
+    },
+    {
+      "assumption": "Deep learning models can learn features automatically without explicit feature engineering.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks"
+    },
+    {
+      "assumption": "Improving the state-of-the-art in language modelling is essential for advancing deep learning.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "A theoretically grounded application of dropout in recurrent neural networks"
+    },
+    {
+      "assumption": "LSTM and GRU models are common RNN architectures for language modelling tasks.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "A theoretically grounded application of dropout in recurrent neural networks"
+    },
+    {
+      "assumption": "The Penn Treebank is a benchmark dataset for evaluating language models.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "A theoretically grounded application of dropout in recurrent neural networks"
+    },
+    {
+      "assumption": "Integration with encoder-decoder architectures can enhance the capabilities of machine reading models.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "Long Short-Term Memory-Networks for Machine Reading"
+    },
+    {
+      "assumption": "The use of an appropriate loss function, such as cross-entropy, is essential for training Neural Machine Translation models.",
+      "confidence": 0.75,
+      "category": "training",
+      "source_paper": "Attention-based Multimodal Neural Machine Translation"
+    },
+    {
+      "assumption": "Human evaluation is necessary for understanding the behavior of NMT systems",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "Montreal Neural Machine Translation Systems for WMT’15"
+    },
+    {
+      "assumption": "The attention mechanism can be used for learning word triggers in language modeling for speech recognition.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "LSTM, GRU, Highway and a Bit of Attention: An Empirical Overview for Language Modeling in Speech Recognition"
+    },
+    {
+      "assumption": "Machine translation is a task that can be improved through continuous learning and development.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "Knowledge-Based Semantic Embedding for Machine Translation"
+    },
+    {
+      "assumption": "Using visual features is essential for video-to-text models.",
+      "confidence": 0.75,
+      "category": "data",
+      "source_paper": "Sequence to Sequence -- Video to Text"
+    },
+    {
+      "assumption": "Synonymic information can enhance the performance of sentence similarity models.",
+      "confidence": 0.75,
+      "category": "data",
+      "source_paper": "Siamese Recurrent Architectures for Learning Sentence Similarity"
+    },
+    {
+      "assumption": "Convolutional neural networks (CNNs) can be used for encoding input data in a way that provides effective conditioning for RNNs.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks"
+    },
+    {
+      "assumption": "Reducing the dimension of input feature space is essential for improving model performance.",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "Understanding Subtitles by Character-Level Sequence-to-Sequence Learning"
+    },
+    {
+      "assumption": "Adding an output gate to a GRU can improve its performance.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Understanding Subtitles by Character-Level Sequence-to-Sequence Learning"
+    },
+    {
+      "assumption": "Translation performance is a primary metric for evaluating sequence-to-sequence learning models.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Understanding Subtitles by Character-Level Sequence-to-Sequence Learning"
+    },
+    {
+      "assumption": "Character-level transcriptions are necessary for speech recognition tasks.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Listen, attend and spell: A neural network for large vocabulary conversational speech recognition"
+    },
+    {
+      "assumption": "Filter bank spectra are essential for processing speech signals in speech recognition systems.",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "Listen, attend and spell: A neural network for large vocabulary conversational speech recognition"
+    },
+    {
+      "assumption": "Recurrent neural networks are essential for processing sequential data in speech recognition systems.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Listen, attend and spell: A neural network for large vocabulary conversational speech recognition"
+    },
+    {
+      "assumption": "The performance of speech recognition systems can be improved by rescoring top N hypotheses with a language model.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Listen, attend and spell: A neural network for large vocabulary conversational speech recognition"
+    },
+    {
+      "assumption": "Machine reading tasks require processing text incrementally from left to right.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Long Short-Term Memory-Networks for Machine Reading"
+    },
+    {
+      "assumption": "Evaluation of Neural Machine Translation models is typically done using automatic metrics like BLEU and human evaluation.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Attention-based Multimodal Neural Machine Translation"
+    },
+    {
+      "assumption": "Pre-training models on large monomodal datasets (e.g., text-only corpora) is required for improving the performance of multimodal Neural Machine Translation models.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Attention-based Multimodal Neural Machine Translation"
+    },
+    {
+      "assumption": "The quality of Neural Machine Translation models can be improved by fine-tuning on the target task.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Attention-based Multimodal Neural Machine Translation"
+    },
+    {
+      "assumption": "Continuous learning and improvement of NMT models is required for achieving state-of-the-art results",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Montreal Neural Machine Translation Systems for WMT’15"
+    },
+    {
+      "assumption": "Incorporating recent developments in NMT is essential for staying competitive",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Montreal Neural Machine Translation Systems for WMT’15"
+    },
+    {
+      "assumption": "Interpolation with count models can enhance the performance of neural language models in speech recognition.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "LSTM, GRU, Highway and a Bit of Attention: An Empirical Overview for Language Modeling in Speech Recognition"
+    },
+    {
+      "assumption": "The Gated Recurrent Unit (GRU) is a significant RNN architecture that should be compared with the LSTM.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "An Empirical Exploration of Recurrent Network Architectures"
+    },
+    {
+      "assumption": "Adjusting the architecture of RNNs can lead to improved performance.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "An Empirical Exploration of Recurrent Network Architectures"
+    },
+    {
+      "assumption": "The use of pre-existing datasets for training is essential for video-to-text models.",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "Sequence to Sequence -- Video to Text"
+    },
+    {
+      "assumption": "Comparing the performance of a new model with existing approaches is necessary for understanding its strengths and limitations.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Pointer networks"
+    },
+    {
+      "assumption": "Improving over existing approaches on specific tasks encourages further exploration of neural learning for discrete problems.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Pointer networks"
+    },
+    {
+      "assumption": "Manhattan metric is essential for comparing high-dimensional vectors in the learned sentence representation space.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Siamese Recurrent Architectures for Learning Sentence Similarity"
+    },
+    {
+      "assumption": "Handcrafted features can be outperformed by neural network models in tasks requiring intricate understanding.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Siamese Recurrent Architectures for Learning Sentence Similarity"
+    },
+    {
+      "assumption": "The use of conditional RNNs allows for the generation of abstractive summaries, as opposed to extractive summaries.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks"
+    },
+    {
+      "assumption": "NMT systems should aim to achieve results comparable to the state of the art",
+      "confidence": 0.65,
+      "category": "theoretical",
+      "source_paper": "Montreal Neural Machine Translation Systems for WMT’15"
+    },
+    {
+      "assumption": "Large vocabulary is essential for speech recognition.",
+      "confidence": 0.65,
+      "category": "data",
+      "source_paper": "LSTM, GRU, Highway and a Bit of Attention: An Empirical Overview for Language Modeling in Speech Recognition"
+    },
+    {
+      "assumption": "The ability to generate captions for real-world videos is essential for video-to-text models.",
+      "confidence": 0.65,
+      "category": "data",
+      "source_paper": "Sequence to Sequence -- Video to Text"
+    },
+    {
+      "assumption": "The Gigaword corpus is a suitable dataset for evaluating abstractive sentence summarization models.",
+      "confidence": 0.65,
+      "category": "data",
+      "source_paper": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks"
+    },
+    {
+      "assumption": "The use of multiplicative gates is a standard means to design artificial neural networks.",
+      "confidence": 0.6,
+      "category": "architectural",
+      "source_paper": "LSTM, GRU, Highway and a Bit of Attention: An Empirical Overview for Language Modeling in Speech Recognition"
+    },
+    {
+      "assumption": "Modifying the LSTM's forget gate with a bias of 1 can enhance its performance.",
+      "confidence": 0.6,
+      "category": "architectural",
+      "source_paper": "An Empirical Exploration of Recurrent Network Architectures"
+    },
+    {
+      "assumption": "RNN architectures may not be optimal and there may exist better architectures.",
+      "confidence": 0.6,
+      "category": "architectural",
+      "source_paper": "An Empirical Exploration of Recurrent Network Architectures"
+    },
+    {
+      "assumption": "Theoretical analysis of RNN architectures is not always sufficient for understanding their performance.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "An Empirical Exploration of Recurrent Network Architectures"
+    },
+    {
+      "assumption": "State-of-the-art performance in image caption generation is a benchmark for video-to-text models.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Sequence to Sequence -- Video to Text"
+    },
+    {
+      "assumption": "Variable-sized input sequences are common in real-world problems.",
+      "confidence": 0.6,
+      "category": "data",
+      "source_paper": "Pointer networks"
+    },
+    {
+      "assumption": "Discrete problems can benefit from the use of neural networks.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Pointer networks"
+    },
+    {
+      "assumption": "Comparing performance with the state-of-the-art is an important aspect of research in abstractive sentence summarization.",
+      "confidence": 0.6,
+      "category": "evaluation",
+      "source_paper": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks"
+    },
+    {
+      "assumption": "The performance of neural language models can be improved by incorporating them into a hybrid system with count models.",
+      "confidence": 0.55,
+      "category": "training",
+      "source_paper": "LSTM, GRU, Highway and a Bit of Attention: An Empirical Overview for Language Modeling in Speech Recognition"
+    },
+    {
+      "assumption": "The use of gated recurrent units (GRU) is a common practice in language modeling for speech recognition.",
+      "confidence": 0.5,
+      "category": "architectural",
+      "source_paper": "LSTM, GRU, Highway and a Bit of Attention: An Empirical Overview for Language Modeling in Speech Recognition"
+    }
+  ]
+}

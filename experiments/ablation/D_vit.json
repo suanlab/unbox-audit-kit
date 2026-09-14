@@ -1,0 +1,16 @@
+{
+  "condition": "D",
+  "label": "Full (Unbox)",
+  "category": "vit",
+  "prompt_type": "field_wide",
+  "corpus_type": "curated_representative",
+  "num_papers": 15,
+  "num_unique_assumptions": 74,
+  "best_similarity": 0.7125,
+  "metrics": {
+    "soft_rank": 1.0,
+    "soft_recall_at_5": 1.0,
+    "soft_recall_at_10": 1.0,
+    "soft_recall_at_20": 1.0
+  }
+}

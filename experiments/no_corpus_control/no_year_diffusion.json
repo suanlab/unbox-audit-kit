@@ -1,0 +1,435 @@
+{
+  "condition": "no_year",
+  "paradigm": "diffusion",
+  "field_name": "generative modeling",
+  "ground_truth": "adversarial training is necessary for high-quality generation",
+  "num_calls": 15,
+  "num_raw_assumptions": 150,
+  "num_unique_assumptions": 65,
+  "assumptions": [
+    {
+      "assumption": "High-quality and diverse datasets are essential for training effective generative models",
+      "confidence": 0.95,
+      "category": "data",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Large-scale neural networks are necessary for achieving state-of-the-art performance in generative modeling",
+      "confidence": 0.9,
+      "category": "architectural",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Extensive computational resources are required for training generative models",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Adversarial training is essential for improving the quality of generative models",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Latent variable models are necessary for capturing complex data distributions",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Evaluation metrics like Inception Score and FID are required for assessing generative model performance",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Generative models must be capable of producing novel outputs that are indistinguishable from real data",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Regularization techniques are essential for preventing overfitting in generative models",
+      "confidence": 0.8,
+      "category": "training",
+      "call_idx": 0
+    },
+    {
+      "assumption": "The ability to interpolate between data points in the latent space is necessary for a robust generative model",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Generative models require a balance between diversity and fidelity in their outputs",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "call_idx": 0
+    },
+    {
+      "assumption": "A large and diverse dataset is essential for training effective generative models",
+      "confidence": 0.95,
+      "category": "data",
+      "call_idx": 1
+    },
+    {
+      "assumption": "High computational power is necessary for training state-of-the-art generative models",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 1
+    },
+    {
+      "assumption": "The use of neural networks is required for modern generative modeling",
+      "confidence": 0.9,
+      "category": "architectural",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Evaluation metrics like Inception Score or FID are essential for assessing generative model performance",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Generative models must be capable of capturing complex data distributions",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Adversarial training is necessary for improving the quality of generative models",
+      "confidence": 0.8,
+      "category": "training",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Latent space representation is essential for understanding and manipulating generative models",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Regularization techniques are required to prevent overfitting in generative models",
+      "confidence": 0.8,
+      "category": "training",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Generative models should be capable of producing novel and diverse outputs",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "call_idx": 1
+    },
+    {
+      "assumption": "The ability to scale models is necessary for improving generative model performance",
+      "confidence": 0.85,
+      "category": "architectural",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Large-scale datasets are essential for training effective generative models",
+      "confidence": 0.95,
+      "category": "data",
+      "call_idx": 2
+    },
+    {
+      "assumption": "Generative models must be capable of producing diverse outputs to be considered effective",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "call_idx": 2
+    },
+    {
+      "assumption": "Regularization techniques are necessary to prevent overfitting in generative models",
+      "confidence": 0.8,
+      "category": "training",
+      "call_idx": 2
+    },
+    {
+      "assumption": "Generative models require a balance between fidelity and diversity in their outputs",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "call_idx": 2
+    },
+    {
+      "assumption": "Transfer learning is essential for improving the efficiency of generative model training",
+      "confidence": 0.75,
+      "category": "training",
+      "call_idx": 2
+    },
+    {
+      "assumption": "Extensive computational resources are required for training complex generative models",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 3
+    },
+    {
+      "assumption": "Latent variable models are necessary for capturing complex data distributions in generative modeling",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "call_idx": 3
+    },
+    {
+      "assumption": "Evaluation metrics like Inception Score and FID are required for assessing the performance of generative models",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "call_idx": 3
+    },
+    {
+      "assumption": "Generative models must be capable of producing high-fidelity outputs to be considered successful",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "call_idx": 3
+    },
+    {
+      "assumption": "The ability to interpolate between data points is necessary for demonstrating the robustness of generative models",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "call_idx": 3
+    },
+    {
+      "assumption": "Generative models require a balance between diversity and quality of generated samples",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "call_idx": 3
+    },
+    {
+      "assumption": "Adversarial training is required for improving the realism of generated samples",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 4
+    },
+    {
+      "assumption": "Latent variable models are essential for capturing complex data distributions",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "call_idx": 4
+    },
+    {
+      "assumption": "Evaluation metrics like Inception Score and FID are necessary for assessing the quality of generative models",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "call_idx": 4
+    },
+    {
+      "assumption": "Generative models require a balance between diversity and fidelity in generated outputs",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "call_idx": 4
+    },
+    {
+      "assumption": "Training stability is essential for the successful development of generative models",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 4
+    },
+    {
+      "assumption": "The use of GPUs is necessary for efficiently training large generative models",
+      "confidence": 0.95,
+      "category": "architectural",
+      "call_idx": 4
+    },
+    {
+      "assumption": "Probabilistic frameworks are required for modeling uncertainty in generative models",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "call_idx": 4
+    },
+    {
+      "assumption": "Evaluation metrics like Inception Score or FID are required for assessing generative model performance",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "call_idx": 5
+    },
+    {
+      "assumption": "Regularization techniques are essential for stabilizing the training of generative models",
+      "confidence": 0.8,
+      "category": "training",
+      "call_idx": 5
+    },
+    {
+      "assumption": "Transfer learning is necessary for adapting generative models to new domains with limited data",
+      "confidence": 0.75,
+      "category": "training",
+      "call_idx": 5
+    },
+    {
+      "assumption": "Generative models must be capable of learning from unsupervised or semi-supervised data",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 6
+    },
+    {
+      "assumption": "The ability to generate novel and diverse outputs is essential for a successful generative model",
+      "confidence": 0.95,
+      "category": "theoretical",
+      "call_idx": 6
+    },
+    {
+      "assumption": "Probabilistic frameworks are necessary for modeling uncertainty in generative models",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "call_idx": 6
+    },
+    {
+      "assumption": "Scalability of models is required to handle large and complex datasets",
+      "confidence": 0.9,
+      "category": "architectural",
+      "call_idx": 6
+    },
+    {
+      "assumption": "Scalability is essential for generative models to handle large and complex datasets",
+      "confidence": 0.9,
+      "category": "architectural",
+      "call_idx": 7
+    },
+    {
+      "assumption": "Model interpretability is necessary for understanding and improving generative model outputs",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "call_idx": 7
+    },
+    {
+      "assumption": "Efficient optimization algorithms are required for training deep generative models",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 7
+    },
+    {
+      "assumption": "Large and diverse datasets are essential for training effective generative models",
+      "confidence": 0.95,
+      "category": "data",
+      "call_idx": 8
+    },
+    {
+      "assumption": "Evaluation metrics like Inception Score or FID are necessary for assessing generative model performance",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "call_idx": 8
+    },
+    {
+      "assumption": "Latent space manipulation is required for understanding and controlling generative models",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "call_idx": 8
+    },
+    {
+      "assumption": "Probabilistic frameworks are essential for the theoretical foundation of generative models",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "call_idx": 8
+    },
+    {
+      "assumption": "Scalability is required for generative models to be applicable to real-world problems",
+      "confidence": 0.7,
+      "category": "architectural",
+      "call_idx": 8
+    },
+    {
+      "assumption": "Training stability is essential for the successful development of generative adversarial networks",
+      "confidence": 0.87,
+      "category": "training",
+      "call_idx": 10
+    },
+    {
+      "assumption": "Transfer learning is necessary for improving generative model performance with limited data",
+      "confidence": 0.82,
+      "category": "training",
+      "call_idx": 10
+    },
+    {
+      "assumption": "Probabilistic modeling is required for understanding and improving generative model outputs",
+      "confidence": 0.83,
+      "category": "theoretical",
+      "call_idx": 10
+    },
+    {
+      "assumption": "Scalability of models is essential for handling high-dimensional data in generative modeling",
+      "confidence": 0.86,
+      "category": "architectural",
+      "call_idx": 10
+    },
+    {
+      "assumption": "Training stability is essential for the successful convergence of generative models",
+      "confidence": 0.87,
+      "category": "training",
+      "call_idx": 11
+    },
+    {
+      "assumption": "Probabilistic frameworks are essential for understanding and developing generative models",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "call_idx": 12
+    },
+    {
+      "assumption": "Adversarial training is required for improving the quality of generative models",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 12
+    },
+    {
+      "assumption": "Latent space representations are essential for the functionality of generative models",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "call_idx": 12
+    },
+    {
+      "assumption": "The ability to model complex distributions is essential for the success of generative models",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "call_idx": 12
+    },
+    {
+      "assumption": "Scalability is essential for generative models to handle high-dimensional data",
+      "confidence": 0.85,
+      "category": "architectural",
+      "call_idx": 13
+    },
+    {
+      "assumption": "Transfer learning is required to adapt generative models to new domains efficiently",
+      "confidence": 0.75,
+      "category": "training",
+      "call_idx": 13
+    },
+    {
+      "assumption": "Iterative refinement is required for improving the quality of generated outputs",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 14
+    }
+  ],
+  "metrics": {
+    "num_unique_assumptions": 65,
+    "best_similarity": 0.8169,
+    "best_matching_assumption": "Adversarial training is necessary for improving the quality of generative models",
+    "soft_rank": 4,
+    "soft_recall_at_5": 1.0,
+    "soft_recall_at_10": 1.0,
+    "soft_recall_at_20": 1.0,
+    "top_5_assumptions": [
+      {
+        "assumption": "Adversarial training is necessary for improving the quality of generative models",
+        "similarity": 0.8169
+      },
+      {
+        "assumption": "Adversarial training is essential for improving the quality of generative models",
+        "similarity": 0.8093
+      },
+      {
+        "assumption": "Adversarial training is required for improving the quality of generative models",
+        "similarity": 0.8073
+      },
+      {
+        "assumption": "Adversarial training is required for improving the realism of generated samples",
+        "similarity": 0.7242
+      },
+      {
+        "assumption": "Training stability is essential for the successful development of generative adversarial networks",
+        "similarity": 0.5842
+      }
+    ],
+    "paradigm": "diffusion",
+    "field_name": "generative modeling",
+    "num_raw_assumptions": 150
+  }
+}

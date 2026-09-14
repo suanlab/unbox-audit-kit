@@ -1,0 +1,83 @@
+{
+  "field": "Adaptive Topology Networks",
+  "planted_assumption": "Static topology must be defined before training begins",
+  "with_corpus": {
+    "conf_rank": 32.0,
+    "best_sim": 0.707,
+    "r_at_5": 0.0,
+    "r_at_10": 0.0,
+    "top_5": [
+      {
+        "rank": 32,
+        "assumption": "Pre-training architecture optimization is necessary for improving efficiency in adaptive topology networks.",
+        "best_similarity": 0.707,
+        "is_match": true
+      },
+      {
+        "rank": 38,
+        "assumption": "Pre-training architecture optimization is essential for improving the performance of adaptive topology networks.",
+        "best_similarity": 0.7063,
+        "is_match": true
+      },
+      {
+        "rank": 6,
+        "assumption": "Adaptive topology is essential for improving computational models' efficiency and adaptability.",
+        "best_similarity": 0.6424,
+        "is_match": false
+      },
+      {
+        "rank": 63,
+        "assumption": "Graph structures are necessary for modeling complex relationships in data.",
+        "best_similarity": 0.6406,
+        "is_match": false
+      },
+      {
+        "rank": 33,
+        "assumption": "Predefined graph structures are necessary as a starting point for adaptive topology networks.",
+        "best_similarity": 0.6323,
+        "is_match": false
+      }
+    ]
+  },
+  "no_corpus": {
+    "conf_rank": 7.0,
+    "best_sim": 0.7259,
+    "r_at_5": 0.0,
+    "r_at_10": 1.0,
+    "top_5": [
+      {
+        "rank": 38,
+        "assumption": "High-quality data is required for training adaptive topology networks.",
+        "best_similarity": 0.7259,
+        "is_match": true
+      },
+      {
+        "rank": 41,
+        "assumption": "High-quality data is required for training adaptive topology networks effectively.",
+        "best_similarity": 0.723,
+        "is_match": true
+      },
+      {
+        "rank": 47,
+        "assumption": "High-quality data is essential for training adaptive topology networks.",
+        "best_similarity": 0.7063,
+        "is_match": true
+      },
+      {
+        "rank": 7,
+        "assumption": "Machine learning algorithms are necessary for training adaptive topology networks.",
+        "best_similarity": 0.7043,
+        "is_match": true
+      },
+      {
+        "rank": 9,
+        "assumption": "Machine learning algorithms are required for training adaptive topology networks.",
+        "best_similarity": 0.7043,
+        "is_match": true
+      }
+    ]
+  },
+  "num_abstracts": 15,
+  "num_unique_assumptions_corpus": 74,
+  "num_unique_assumptions_nocorpus": 56
+}

@@ -1,0 +1,12 @@
+{
+  "condition": "wrong_corpus",
+  "key": "diffusion_x_transformer",
+  "seed": 1,
+  "num_unique": 149,
+  "conf_rank": null,
+  "best_sim": 0.4037,
+  "r_at_5": 0,
+  "r_at_10": 0,
+  "r_at_20": 0,
+  "elapsed_s": 83.9
+}

@@ -1,0 +1,72 @@
+{
+  "paradigm": "word2vec",
+  "display": "Word2Vec / Distributed Word Representations",
+  "year": 2013,
+  "ground_truth": "Word meaning requires symbolic or hand-crafted feature representations",
+  "ground_truth_aliases": [
+    "Word meaning requires symbolic or hand-crafted feature representations",
+    "word representations should be based on linguistic features",
+    "semantic similarity requires structured knowledge bases"
+  ],
+  "num_papers": 20,
+  "num_raw_assumptions": 100,
+  "num_unique_assumptions": 100,
+  "best_similarity": 0.6697,
+  "soft_rank": 37.0,
+  "soft_recall_at_5": 0.0,
+  "soft_recall_at_10": 0.0,
+  "soft_recall_at_20": 0.0,
+  "top_10_assumptions": [
+    {
+      "rank": 37,
+      "assumption": "External knowledge bases are required for computing semantic relatedness beyond surface-level text features",
+      "similarity": 0.6697
+    },
+    {
+      "rank": 65,
+      "assumption": "Semantic similarity is the primary phenomenon that meaning models must capture",
+      "similarity": 0.6501
+    },
+    {
+      "rank": 51,
+      "assumption": "External knowledge bases are essential for adequate semantic understanding",
+      "similarity": 0.6422
+    },
+    {
+      "rank": 21,
+      "assumption": "Semantic similarity is compositional and can be derived from word-level similarities combined with structural matching",
+      "similarity": 0.6395
+    },
+    {
+      "rank": 95,
+      "assumption": "Semantic similarity can be adequately measured through distributional statistics",
+      "similarity": 0.6087
+    },
+    {
+      "rank": 34,
+      "assumption": "External knowledge bases are necessary to overcome semantic limitations of raw text representations",
+      "similarity": 0.6071
+    },
+    {
+      "rank": 13,
+      "assumption": "Distributional similarity is necessary for semantic representation",
+      "similarity": 0.604
+    },
+    {
+      "rank": 20,
+      "assumption": "Word meaning can be adequately represented through distributional feature vectors",
+      "similarity": 0.5998
+    },
+    {
+      "rank": 5,
+      "assumption": "Semantic representation requires mapping to explicit symbolic knowledge structures",
+      "similarity": 0.5997
+    },
+    {
+      "rank": 75,
+      "assumption": "Wikipedia provides sufficient coverage of world knowledge for semantic relatedness tasks",
+      "similarity": 0.5868
+    }
+  ],
+  "ran_at": "2026-03-22T16:37:52.775846+00:00"
+}

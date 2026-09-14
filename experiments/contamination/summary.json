@@ -1,0 +1,145 @@
+{
+  "experiment": "contamination_analysis",
+  "n": 10,
+  "popularity_proxies": {
+    "transformer": {
+      "wiki_title": "Transformer_(deep_learning_architecture)",
+      "pageviews_2024": 625384,
+      "citations_approx": 100000,
+      "fame_tier": "extreme",
+      "first_paper_year": 2017
+    },
+    "diffusion": {
+      "wiki_title": "Diffusion_model",
+      "pageviews_2024": 276473,
+      "citations_approx": 15000,
+      "fame_tier": "very_high",
+      "first_paper_year": 2020
+    },
+    "icl": {
+      "wiki_title": "In-context_learning_(natural_language_processing)",
+      "pageviews_2024": 1431,
+      "citations_approx": 30000,
+      "fame_tier": "very_high",
+      "first_paper_year": 2020
+    },
+    "vit": {
+      "wiki_title": "Vision_transformer",
+      "pageviews_2024": 91558,
+      "citations_approx": 25000,
+      "fame_tier": "very_high",
+      "first_paper_year": 2020
+    },
+    "gan": {
+      "wiki_title": "Generative_adversarial_network",
+      "pageviews_2024": 396425,
+      "citations_approx": 60000,
+      "fame_tier": "extreme",
+      "first_paper_year": 2014
+    },
+    "batchnorm": {
+      "wiki_title": "Batch_normalization",
+      "pageviews_2024": 98525,
+      "citations_approx": 50000,
+      "fame_tier": "very_high",
+      "first_paper_year": 2015
+    },
+    "resnet": {
+      "wiki_title": "Residual_neural_network",
+      "pageviews_2024": 165701,
+      "citations_approx": 200000,
+      "fame_tier": "extreme",
+      "first_paper_year": 2015
+    },
+    "word2vec": {
+      "wiki_title": "Word2vec",
+      "pageviews_2024": 194165,
+      "citations_approx": 40000,
+      "fame_tier": "extreme",
+      "first_paper_year": 2013
+    },
+    "dropout": {
+      "wiki_title": "Dropout_(neural_networks)",
+      "pageviews_2024": 2735,
+      "citations_approx": 45000,
+      "fame_tier": "extreme",
+      "first_paper_year": 2014
+    },
+    "bert": {
+      "wiki_title": "BERT_(language_model)",
+      "pageviews_2024": 313209,
+      "citations_approx": 80000,
+      "fame_tier": "extreme",
+      "first_paper_year": 2018
+    }
+  },
+  "performance": {
+    "transformer": {
+      "conf_rank": 1,
+      "r_at_5": 1,
+      "r_at_10": 1,
+      "best_sim": 0.674
+    },
+    "diffusion": {
+      "conf_rank": 2,
+      "r_at_5": 1,
+      "r_at_10": 1,
+      "best_sim": 0.759
+    },
+    "icl": {
+      "conf_rank": 3,
+      "r_at_5": 1,
+      "r_at_10": 1,
+      "best_sim": 0.702
+    },
+    "vit": {
+      "conf_rank": 5,
+      "r_at_5": 1,
+      "r_at_10": 1,
+      "best_sim": 0.676
+    },
+    "gan": {
+      "conf_rank": 10,
+      "r_at_5": 0,
+      "r_at_10": 1,
+      "best_sim": 0.657
+    },
+    "batchnorm": {
+      "conf_rank": 7,
+      "r_at_5": 0,
+      "r_at_10": 1,
+      "best_sim": 0.727
+    },
+    "resnet": {
+      "conf_rank": null,
+      "r_at_5": 0,
+      "r_at_10": 0,
+      "best_sim": 0.597
+    },
+    "word2vec": {
+      "conf_rank": null,
+      "r_at_5": 0,
+      "r_at_10": 0,
+      "best_sim": 0.633
+    },
+    "dropout": {
+      "conf_rank": null,
+      "r_at_5": 0,
+      "r_at_10": 0,
+      "best_sim": 0.604
+    },
+    "bert": {
+      "conf_rank": null,
+      "r_at_5": 0,
+      "r_at_10": 0,
+      "best_sim": 0.544
+    }
+  },
+  "correlations": {
+    "spearman_citations_r10": -0.3212,
+    "spearman_wiki_views_r10": -0.0424,
+    "spearman_citations_best_sim": -0.6364,
+    "spearman_wiki_views_best_sim": -0.1758
+  },
+  "interpretation": "Higher popularity correlates with higher performance if Spearman \u03c1 > 0. Small N=10 means correlation stability is limited. A positive correlation would support the memorization hypothesis \u2014 benchmark success is partly a function of breakthrough fame."
+}

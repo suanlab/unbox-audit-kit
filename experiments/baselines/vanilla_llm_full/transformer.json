@@ -1,0 +1,67 @@
+{
+  "baseline": "vanilla_llm",
+  "category": "transformer",
+  "ran_at": "2026-03-18T04:20:27.241493+00:00",
+  "inputs": {
+    "num_papers": 60,
+    "ground_truth_aliases": [
+      "recurrence is necessary for sequence modeling",
+      "recurrent structure is required for sequence modeling",
+      "sequence models require recurrence"
+    ]
+  },
+  "config": {
+    "model": "claude-sonnet-4-20250514",
+    "top_ks": [
+      5,
+      10,
+      20
+    ],
+    "max_papers": 60,
+    "assumption_limit": 30
+  },
+  "outputs": {
+    "num_candidates": 30,
+    "candidates": [
+      "Sequential processing requires recurrence",
+      "Attention mechanisms need explicit alignment",
+      "End-to-end learning is always superior to modular approaches",
+      "Language understanding requires word-level tokenization",
+      "Temporal dependencies must be modeled through memory cells",
+      "Deep architectures automatically learn better representations",
+      "Encoder-decoder frameworks are necessary for sequence transduction",
+      "Gradient-based optimization can solve all learning problems",
+      "Fixed-size representations can capture variable-length content",
+      "Supervised learning requires labeled training data",
+      "Neural networks need explicit gating mechanisms for long sequences",
+      "Text generation must proceed left-to-right sequentially",
+      "Semantic understanding emerges from syntactic processing",
+      "Multi-modal inputs require separate processing streams",
+      "Compositional meaning follows hierarchical structure",
+      "Distributed representations preserve semantic relationships",
+      "Attention weights correspond to interpretable alignments",
+      "Beam search improves generation quality",
+      "Recurrent architectures are necessary for sequential data",
+      "Neural language models require large vocabularies",
+      "Transfer learning requires architectural similarity",
+      "Dropout prevents overfitting in recurrent networks",
+      "Bidirectional processing improves sequence understanding",
+      "Character-level models handle unknown words better",
+      "Deep networks require specialized initialization strategies",
+      "Sequence-to-sequence learning needs explicit copying mechanisms",
+      "Neural machine translation requires attention mechanisms",
+      "Feature extraction must precede classification",
+      "Temporal modeling requires stateful computation",
+      "Ensemble methods always improve performance"
+    ]
+  },
+  "metrics": {
+    "rank": 31.0,
+    "recall_at_5": 0.0,
+    "precision_at_5": 0.0,
+    "recall_at_10": 0.0,
+    "precision_at_10": 0.0,
+    "recall_at_20": 0.0,
+    "precision_at_20": 0.0
+  }
+}

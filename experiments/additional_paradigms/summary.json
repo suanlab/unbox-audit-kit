@@ -1,0 +1,454 @@
+{
+  "ran_at": "2026-03-22T16:47:09.095782+00:00",
+  "num_paradigms_attempted": 6,
+  "num_paradigms_successful": 6,
+  "paradigms": [
+    "resnet",
+    "gan",
+    "word2vec",
+    "dropout",
+    "batchnorm",
+    "bert"
+  ],
+  "aggregate_metrics": {
+    "avg_best_similarity": 0.6545,
+    "avg_soft_rank": 59.67,
+    "avg_soft_recall_at_5": 0.167,
+    "avg_soft_recall_at_10": 0.167,
+    "avg_soft_recall_at_20": 0.333
+  },
+  "results": [
+    {
+      "paradigm": "resnet",
+      "display": "ResNet / Skip Connections",
+      "year": 2015,
+      "ground_truth": "Deep networks must process information through sequential layers without shortcuts",
+      "ground_truth_aliases": [
+        "Deep networks must process information through sequential layers without shortcuts",
+        "deep networks require sequential layer-by-layer processing",
+        "adding more layers always increases training difficulty"
+      ],
+      "num_papers": 20,
+      "num_raw_assumptions": 100,
+      "num_unique_assumptions": 99,
+      "best_similarity": 0.6486,
+      "soft_rank": 100.0,
+      "soft_recall_at_5": 0.0,
+      "soft_recall_at_10": 0.0,
+      "soft_recall_at_20": 0.0,
+      "top_10_assumptions": [
+        {
+          "rank": 51,
+          "assumption": "Deep networks are required to achieve superior performance compared to traditional computer vision methods",
+          "similarity": 0.6486
+        },
+        {
+          "rank": 29,
+          "assumption": "Hierarchical feature learning through deep layers is necessary for complex visual pattern recognition",
+          "similarity": 0.578
+        },
+        {
+          "rank": 39,
+          "assumption": "Hierarchical feature abstraction through deep layers is necessary for complex visual recognition",
+          "similarity": 0.5735
+        },
+        {
+          "rank": 57,
+          "assumption": "Increased network depth is necessary for improved representation learning and classification accuracy",
+          "similarity": 0.5645
+        },
+        {
+          "rank": 27,
+          "assumption": "Deep hierarchical representations are required for complex visual recognition tasks",
+          "similarity": 0.5584
+        },
+        {
+          "rank": 35,
+          "assumption": "Deep hierarchical feature learning is required for complex visual understanding",
+          "similarity": 0.5482
+        },
+        {
+          "rank": 77,
+          "assumption": "Deep architectures are essential for learning meaningful representations from raw sensory data",
+          "similarity": 0.5392
+        },
+        {
+          "rank": 59,
+          "assumption": "Hierarchical feature learning requires multiple layers of increasing abstraction",
+          "similarity": 0.5333
+        },
+        {
+          "rank": 15,
+          "assumption": "Multiple modalities require separate specialized neural network architectures for effective processing",
+          "similarity": 0.5276
+        },
+        {
+          "rank": 20,
+          "assumption": "Convolutional architectures are necessary for effective visual feature learning in deep networks",
+          "similarity": 0.5236
+        }
+      ],
+      "ran_at": "2026-03-22T16:31:40.326783+00:00"
+    },
+    {
+      "paradigm": "gan",
+      "display": "GANs / Generative Adversarial Networks",
+      "year": 2014,
+      "ground_truth": "Generative modeling requires explicit density estimation or variational inference",
+      "ground_truth_aliases": [
+        "Generative modeling requires explicit density estimation or variational inference",
+        "generative models must define an explicit likelihood function",
+        "learning to generate data requires modeling the probability distribution explicitly"
+      ],
+      "num_papers": 20,
+      "num_raw_assumptions": 100,
+      "num_unique_assumptions": 100,
+      "best_similarity": 0.6824,
+      "soft_rank": 2.0,
+      "soft_recall_at_5": 1.0,
+      "soft_recall_at_10": 1.0,
+      "soft_recall_at_20": 1.0,
+      "top_10_assumptions": [
+        {
+          "rank": 2,
+          "assumption": "Probabilistic generative models require explicit estimation of both data-dependent and data-independent statistics for gradient computation",
+          "similarity": 0.6824
+        },
+        {
+          "rank": 89,
+          "assumption": "Generative modeling of input data distribution is necessary for good feature representations",
+          "similarity": 0.6353
+        },
+        {
+          "rank": 48,
+          "assumption": "Generative modeling is essential for learning meaningful data representations",
+          "similarity": 0.6199
+        },
+        {
+          "rank": 41,
+          "assumption": "Maximum likelihood estimation is the correct objective for learning generative models",
+          "similarity": 0.6097
+        },
+        {
+          "rank": 33,
+          "assumption": "Maximum likelihood training is the required paradigm for density estimation models",
+          "similarity": 0.6041
+        },
+        {
+          "rank": 96,
+          "assumption": "Probabilistic generative models are essential for capturing the structure of sensory data",
+          "similarity": 0.6038
+        },
+        {
+          "rank": 21,
+          "assumption": "Probabilistic generative modeling is necessary for effective multimodal representation learning",
+          "similarity": 0.592
+        },
+        {
+          "rank": 66,
+          "assumption": "Probabilistic modeling approaches are essential for capturing uncertainty in feature representations",
+          "similarity": 0.5827
+        },
+        {
+          "rank": 1,
+          "assumption": "Unnormalized log-likelihood functions are the fundamental way to characterize the representational capacity of energy-based models",
+          "similarity": 0.5676
+        },
+        {
+          "rank": 84,
+          "assumption": "Stochastic sampling procedures are required for inference in deep generative models",
+          "similarity": 0.5671
+        }
+      ],
+      "ran_at": "2026-03-22T16:34:39.976975+00:00"
+    },
+    {
+      "paradigm": "word2vec",
+      "display": "Word2Vec / Distributed Word Representations",
+      "year": 2013,
+      "ground_truth": "Word meaning requires symbolic or hand-crafted feature representations",
+      "ground_truth_aliases": [
+        "Word meaning requires symbolic or hand-crafted feature representations",
+        "word representations should be based on linguistic features",
+        "semantic similarity requires structured knowledge bases"
+      ],
+      "num_papers": 20,
+      "num_raw_assumptions": 100,
+      "num_unique_assumptions": 100,
+      "best_similarity": 0.6697,
+      "soft_rank": 37.0,
+      "soft_recall_at_5": 0.0,
+      "soft_recall_at_10": 0.0,
+      "soft_recall_at_20": 0.0,
+      "top_10_assumptions": [
+        {
+          "rank": 37,
+          "assumption": "External knowledge bases are required for computing semantic relatedness beyond surface-level text features",
+          "similarity": 0.6697
+        },
+        {
+          "rank": 65,
+          "assumption": "Semantic similarity is the primary phenomenon that meaning models must capture",
+          "similarity": 0.6501
+        },
+        {
+          "rank": 51,
+          "assumption": "External knowledge bases are essential for adequate semantic understanding",
+          "similarity": 0.6422
+        },
+        {
+          "rank": 21,
+          "assumption": "Semantic similarity is compositional and can be derived from word-level similarities combined with structural matching",
+          "similarity": 0.6395
+        },
+        {
+          "rank": 95,
+          "assumption": "Semantic similarity can be adequately measured through distributional statistics",
+          "similarity": 0.6087
+        },
+        {
+          "rank": 34,
+          "assumption": "External knowledge bases are necessary to overcome semantic limitations of raw text representations",
+          "similarity": 0.6071
+        },
+        {
+          "rank": 13,
+          "assumption": "Distributional similarity is necessary for semantic representation",
+          "similarity": 0.604
+        },
+        {
+          "rank": 20,
+          "assumption": "Word meaning can be adequately represented through distributional feature vectors",
+          "similarity": 0.5998
+        },
+        {
+          "rank": 5,
+          "assumption": "Semantic representation requires mapping to explicit symbolic knowledge structures",
+          "similarity": 0.5997
+        },
+        {
+          "rank": 75,
+          "assumption": "Wikipedia provides sufficient coverage of world knowledge for semantic relatedness tasks",
+          "similarity": 0.5868
+        }
+      ],
+      "ran_at": "2026-03-22T16:37:52.775846+00:00"
+    },
+    {
+      "paradigm": "dropout",
+      "display": "Dropout Regularization",
+      "year": 2014,
+      "ground_truth": "All neurons should be active during training for optimal learning",
+      "ground_truth_aliases": [
+        "All neurons should be active during training for optimal learning",
+        "training neural networks requires using all available parameters",
+        "randomly disabling neurons during training would harm learning"
+      ],
+      "num_papers": 20,
+      "num_raw_assumptions": 100,
+      "num_unique_assumptions": 100,
+      "best_similarity": 0.6155,
+      "soft_rank": 101.0,
+      "soft_recall_at_5": 0.0,
+      "soft_recall_at_10": 0.0,
+      "soft_recall_at_20": 0.0,
+      "top_10_assumptions": [
+        {
+          "rank": 73,
+          "assumption": "Manual hyperparameter selection is necessary for optimal neural network design",
+          "similarity": 0.6155
+        },
+        {
+          "rank": 63,
+          "assumption": "Global optimization of neural network parameters is necessary for achieving optimal classification performance",
+          "similarity": 0.609
+        },
+        {
+          "rank": 36,
+          "assumption": "The number of hidden neurons must be predetermined before training rather than learned during training",
+          "similarity": 0.5973
+        },
+        {
+          "rank": 49,
+          "assumption": "Neural networks require gradient-based optimization algorithms for effective weight training",
+          "similarity": 0.5222
+        },
+        {
+          "rank": 3,
+          "assumption": "Overfitting is an inevitable problem that requires explicit regularization techniques in deep neural networks",
+          "similarity": 0.5194
+        },
+        {
+          "rank": 69,
+          "assumption": "Neural network architecture design requires manual experimentation and comparison of multiple candidate structures",
+          "similarity": 0.5158
+        },
+        {
+          "rank": 70,
+          "assumption": "Input data preprocessing and encoding schemes are necessary for effective neural network training",
+          "similarity": 0.5075
+        },
+        {
+          "rank": 27,
+          "assumption": "Model capacity and generalization ability are fundamentally at odds in neural networks",
+          "similarity": 0.505
+        },
+        {
+          "rank": 18,
+          "assumption": "Regularization is necessary to prevent overfitting in neural networks",
+          "similarity": 0.5036
+        },
+        {
+          "rank": 55,
+          "assumption": "Sequential record-by-record processing is required for neural network learning",
+          "similarity": 0.4884
+        }
+      ],
+      "ran_at": "2026-03-22T16:40:56.341828+00:00"
+    },
+    {
+      "paradigm": "batchnorm",
+      "display": "Batch Normalization",
+      "year": 2015,
+      "ground_truth": "Network training requires careful weight initialization and low learning rates",
+      "ground_truth_aliases": [
+        "Network training requires careful weight initialization and low learning rates",
+        "training deep networks requires careful initialization schemes",
+        "high learning rates cause training instability"
+      ],
+      "num_papers": 20,
+      "num_raw_assumptions": 100,
+      "num_unique_assumptions": 97,
+      "best_similarity": 0.6176,
+      "soft_rank": 98.0,
+      "soft_recall_at_5": 0.0,
+      "soft_recall_at_10": 0.0,
+      "soft_recall_at_20": 0.0,
+      "top_10_assumptions": [
+        {
+          "rank": 76,
+          "assumption": "Random initialization is the standard starting point for neural network training",
+          "similarity": 0.6176
+        },
+        {
+          "rank": 85,
+          "assumption": "Precise weight updates are necessary for convergent learning in neural networks",
+          "similarity": 0.5985
+        },
+        {
+          "rank": 40,
+          "assumption": "Learning rate scheduling is essential for effective neural network training",
+          "similarity": 0.5602
+        },
+        {
+          "rank": 37,
+          "assumption": "Neural network controllers require extensive training data to achieve high performance in robotic control tasks",
+          "similarity": 0.5585
+        },
+        {
+          "rank": 25,
+          "assumption": "Backpropagation is required for training deep neural networks effectively",
+          "similarity": 0.5474
+        },
+        {
+          "rank": 18,
+          "assumption": "Nonlinear activation functions are necessary for deep networks to exhibit complex learning dynamics",
+          "similarity": 0.5459
+        },
+        {
+          "rank": 49,
+          "assumption": "Network depth inherently creates optimization difficulties that slow learning",
+          "similarity": 0.5431
+        },
+        {
+          "rank": 97,
+          "assumption": "Layer-wise greedy training is necessary for training deep networks on neuroimaging data",
+          "similarity": 0.5305
+        },
+        {
+          "rank": 20,
+          "assumption": "Gradient-based optimization is required for training neural networks effectively",
+          "similarity": 0.5281
+        },
+        {
+          "rank": 65,
+          "assumption": "Backpropagation-based learning is essential for training deep neural networks",
+          "similarity": 0.5132
+        }
+      ],
+      "ran_at": "2026-03-22T16:44:02.071374+00:00"
+    },
+    {
+      "paradigm": "bert",
+      "display": "BERT / Bidirectional Pre-training",
+      "year": 2018,
+      "ground_truth": "Language model pre-training must be left-to-right (autoregressive)",
+      "ground_truth_aliases": [
+        "Language model pre-training must be left-to-right (autoregressive)",
+        "language models should generate text left-to-right",
+        "autoregressive training is necessary for language model pre-training"
+      ],
+      "num_papers": 20,
+      "num_raw_assumptions": 100,
+      "num_unique_assumptions": 99,
+      "best_similarity": 0.6933,
+      "soft_rank": 20.0,
+      "soft_recall_at_5": 0.0,
+      "soft_recall_at_10": 0.0,
+      "soft_recall_at_20": 1.0,
+      "top_10_assumptions": [
+        {
+          "rank": 20,
+          "assumption": "Language modeling requires autoregressive next-token prediction as the fundamental training objective",
+          "similarity": 0.6933
+        },
+        {
+          "rank": 13,
+          "assumption": "Recurrence is necessary for effective language modeling",
+          "similarity": 0.6355
+        },
+        {
+          "rank": 7,
+          "assumption": "Recurrent neural networks are essential for effective language modeling",
+          "similarity": 0.6296
+        },
+        {
+          "rank": 16,
+          "assumption": "Recurrent architectures are necessary for effective language modeling",
+          "similarity": 0.616
+        },
+        {
+          "rank": 44,
+          "assumption": "Autoregressive word-by-word generation is required for natural language dialogue systems",
+          "similarity": 0.5938
+        },
+        {
+          "rank": 53,
+          "assumption": "Language model pretraining objectives are sufficient for learning useful representations for downstream sequence tasks",
+          "similarity": 0.5626
+        },
+        {
+          "rank": 43,
+          "assumption": "Sequential generation with recurrent architectures is necessary for neural machine translation",
+          "similarity": 0.5541
+        },
+        {
+          "rank": 88,
+          "assumption": "Transfer learning from larger corpora is essential for improving dialogue model performance",
+          "similarity": 0.5414
+        },
+        {
+          "rank": 34,
+          "assumption": "Word-level predictions are necessary for meaningful language modeling evaluation",
+          "similarity": 0.5406
+        },
+        {
+          "rank": 99,
+          "assumption": "LSTM architectures are necessary for sequential language modeling",
+          "similarity": 0.5339
+        }
+      ],
+      "ran_at": "2026-03-22T16:47:09.092924+00:00"
+    }
+  ]
+}

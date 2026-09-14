@@ -1,0 +1,702 @@
+[
+  {
+    "paper_id": "https://openalex.org/W2140229565",
+    "paper_title": "Multiobjective Neural Network Ensembles Based on Regularized Negative Correlation Learning",
+    "assumption": "Ensemble diversity is necessary for effective ensemble learning",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2140229565",
+    "paper_title": "Multiobjective Neural Network Ensembles Based on Regularized Negative Correlation Learning",
+    "assumption": "Mean-square-error is the appropriate loss function for regression problems",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2140229565",
+    "paper_title": "Multiobjective Neural Network Ensembles Based on Regularized Negative Correlation Learning",
+    "assumption": "Regularization is necessary to prevent overfitting in neural networks",
+    "confidence": 0.92,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2140229565",
+    "paper_title": "Multiobjective Neural Network Ensembles Based on Regularized Negative Correlation Learning",
+    "assumption": "Multiple objectives require evolutionary multiobjective optimization algorithms",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2140229565",
+    "paper_title": "Multiobjective Neural Network Ensembles Based on Regularized Negative Correlation Learning",
+    "assumption": "Correlation penalty terms are necessary to enforce ensemble diversity",
+    "confidence": 0.88,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2150152686",
+    "paper_title": "Neural-Network-Based Models for Short-Term Traffic Flow Forecasting Using a Hybrid Exponential Smoothing and Levenberg–Marquardt Algorithm",
+    "assumption": "Supervised learning with historical patterns is necessary for traffic flow prediction",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2150152686",
+    "paper_title": "Neural-Network-Based Models for Short-Term Traffic Flow Forecasting Using a Hybrid Exponential Smoothing and Levenberg–Marquardt Algorithm",
+    "assumption": "Data preprocessing and smoothing are essential for effective neural network training on time series data",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2150152686",
+    "paper_title": "Neural-Network-Based Models for Short-Term Traffic Flow Forecasting Using a Hybrid Exponential Smoothing and Levenberg–Marquardt Algorithm",
+    "assumption": "Neural networks require gradient-based optimization algorithms for effective weight training",
+    "confidence": 0.88,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2150152686",
+    "paper_title": "Neural-Network-Based Models for Short-Term Traffic Flow Forecasting Using a Hybrid Exponential Smoothing and Levenberg–Marquardt Algorithm",
+    "assumption": "Generalization capability is the primary measure of model quality in predictive modeling",
+    "confidence": 0.87,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2150152686",
+    "paper_title": "Neural-Network-Based Models for Short-Term Traffic Flow Forecasting Using a Hybrid Exponential Smoothing and Levenberg–Marquardt Algorithm",
+    "assumption": "Historical traffic flow data contains sufficient predictive information for future traffic states",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2183112036",
+    "paper_title": "Improving Neural Networks with Dropout",
+    "assumption": "Overfitting is an inevitable problem that requires explicit regularization techniques in deep neural networks",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2183112036",
+    "paper_title": "Improving Neural Networks with Dropout",
+    "assumption": "Model capacity and generalization ability are fundamentally at odds in neural networks",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2183112036",
+    "paper_title": "Improving Neural Networks with Dropout",
+    "assumption": "Ensemble methods are necessary to achieve optimal performance but are computationally prohibitive at test time",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2183112036",
+    "paper_title": "Improving Neural Networks with Dropout",
+    "assumption": "Co-adaptation between units is inherently harmful to neural network generalization",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2183112036",
+    "paper_title": "Improving Neural Networks with Dropout",
+    "assumption": "Training and test time procedures must be fundamentally different to achieve good generalization",
+    "confidence": 0.75,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2016291052",
+    "paper_title": "MAGNETIC RESONANCE BRAIN IMAGE CLASSIFICATION BY AN IMPROVED ARTIFICIAL BEE COLONY ALGORITHM",
+    "assumption": "Feature extraction is necessary prior to classification of medical images",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2016291052",
+    "paper_title": "MAGNETIC RESONANCE BRAIN IMAGE CLASSIFICATION BY AN IMPROVED ARTIFICIAL BEE COLONY ALGORITHM",
+    "assumption": "Dimensionality reduction is required after feature extraction to achieve effective classification",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2016291052",
+    "paper_title": "MAGNETIC RESONANCE BRAIN IMAGE CLASSIFICATION BY AN IMPROVED ARTIFICIAL BEE COLONY ALGORITHM",
+    "assumption": "Binary classification paradigms are sufficient for clinical decision support in medical imaging",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2016291052",
+    "paper_title": "MAGNETIC RESONANCE BRAIN IMAGE CLASSIFICATION BY AN IMPROVED ARTIFICIAL BEE COLONY ALGORITHM",
+    "assumption": "Cross-validation is essential for reliable performance estimation in medical image classification",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2016291052",
+    "paper_title": "MAGNETIC RESONANCE BRAIN IMAGE CLASSIFICATION BY AN IMPROVED ARTIFICIAL BEE COLONY ALGORITHM",
+    "assumption": "Global optimization of neural network parameters is necessary for achieving optimal classification performance",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2250417532",
+    "paper_title": "Simple Customization of Recursive Neural Networks for Semantic Relation Classification",
+    "assumption": "Syntactic tree structures are necessary for capturing semantic relationships between entities",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2250417532",
+    "paper_title": "Simple Customization of Recursive Neural Networks for Semantic Relation Classification",
+    "assumption": "Recursive processing along parse trees is required for compositional semantic understanding",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2250417532",
+    "paper_title": "Simple Customization of Recursive Neural Networks for Semantic Relation Classification",
+    "assumption": "Supervised learning with labeled relation examples is essential for semantic relation classification",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2250417532",
+    "paper_title": "Simple Customization of Recursive Neural Networks for Semantic Relation Classification",
+    "assumption": "Bottom-up compositional processing is necessary for sentence-level semantic representation",
+    "confidence": 0.75,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2250417532",
+    "paper_title": "Simple Customization of Recursive Neural Networks for Semantic Relation Classification",
+    "assumption": "Syntactic parsing is a prerequisite for semantic relation extraction",
+    "confidence": 0.7,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2046589863",
+    "paper_title": "Deep Architectures and Deep Learning in Chemoinformatics: The Prediction of Aqueous Solubility for Drug-Like Molecules",
+    "assumption": "Molecular graph structure is essential for accurate property prediction",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2046589863",
+    "paper_title": "Deep Architectures and Deep Learning in Chemoinformatics: The Prediction of Aqueous Solubility for Drug-Like Molecules",
+    "assumption": "Supervised learning with labeled property data is necessary for molecular property prediction",
+    "confidence": 0.92,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2046589863",
+    "paper_title": "Deep Architectures and Deep Learning in Chemoinformatics: The Prediction of Aqueous Solubility for Drug-Like Molecules",
+    "assumption": "Expert-crafted molecular descriptors are required for effective chemoinformatics modeling",
+    "confidence": 0.88,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2046589863",
+    "paper_title": "Deep Architectures and Deep Learning in Chemoinformatics: The Prediction of Aqueous Solubility for Drug-Like Molecules",
+    "assumption": "Tree-like or acyclic representations are necessary for recursive neural network processing",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2046589863",
+    "paper_title": "Deep Architectures and Deep Learning in Chemoinformatics: The Prediction of Aqueous Solubility for Drug-Like Molecules",
+    "assumption": "Benchmark dataset evaluation is essential for validating chemoinformatics methods",
+    "confidence": 0.83,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W1795688558",
+    "paper_title": "Global patterns in base flow index and recession based on streamflow observations from 3394 catchments",
+    "assumption": "Base flow can be meaningfully separated from total streamflow as a distinct hydrological component",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1795688558",
+    "paper_title": "Global patterns in base flow index and recession based on streamflow observations from 3394 catchments",
+    "assumption": "Climatic and physiographic characteristics are sufficient to predict hydrological behavior across diverse catchments",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1795688558",
+    "paper_title": "Global patterns in base flow index and recession based on streamflow observations from 3394 catchments",
+    "assumption": "Statistical relationships derived from gauged catchments can be reliably extrapolated to ungauged regions",
+    "confidence": 0.88,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1795688558",
+    "paper_title": "Global patterns in base flow index and recession based on streamflow observations from 3394 catchments",
+    "assumption": "Base flow recession follows exponential decay patterns that can be characterized by a single constant",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1795688558",
+    "paper_title": "Global patterns in base flow index and recession based on streamflow observations from 3394 catchments",
+    "assumption": "Catchment-scale averaging produces representative hydrological characteristics that mask important sub-catchment variability",
+    "confidence": 0.83,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2036242736",
+    "paper_title": "A deep convolutional neural network using heterogeneous pooling for trading acoustic invariance with phonetic confusion",
+    "assumption": "Hidden Markov Models are necessary for modeling temporal dependencies in continuous speech recognition",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2036242736",
+    "paper_title": "A deep convolutional neural network using heterogeneous pooling for trading acoustic invariance with phonetic confusion",
+    "assumption": "Convolutional architectures are essential for effective acoustic feature learning from spectrograms",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2036242736",
+    "paper_title": "A deep convolutional neural network using heterogeneous pooling for trading acoustic invariance with phonetic confusion",
+    "assumption": "Frequency-shift invariance is required for robust speech recognition across different speakers and conditions",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2036242736",
+    "paper_title": "A deep convolutional neural network using heterogeneous pooling for trading acoustic invariance with phonetic confusion",
+    "assumption": "Pooling operations are necessary to achieve translation invariance in neural networks",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2036242736",
+    "paper_title": "A deep convolutional neural network using heterogeneous pooling for trading acoustic invariance with phonetic confusion",
+    "assumption": "Deep hierarchical architectures are essential for learning complex acoustic-phonetic mappings",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2148714761",
+    "paper_title": "Railway passenger train delay prediction via neural network model",
+    "assumption": "Cross-validation with train/validation/test splits is essential for preventing overfitting in supervised learning",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2148714761",
+    "paper_title": "Railway passenger train delay prediction via neural network model",
+    "assumption": "Classification accuracy is the primary metric for evaluating prediction model quality",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2148714761",
+    "paper_title": "Railway passenger train delay prediction via neural network model",
+    "assumption": "Neural network architecture design requires manual experimentation and comparison of multiple candidate structures",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2148714761",
+    "paper_title": "Railway passenger train delay prediction via neural network model",
+    "assumption": "Input data preprocessing and encoding schemes are necessary for effective neural network training",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2148714761",
+    "paper_title": "Railway passenger train delay prediction via neural network model",
+    "assumption": "Model comparison requires evaluating multiple competing approaches on the same dataset",
+    "confidence": 0.8,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2116386744",
+    "paper_title": "PowerPlay: Training an Increasingly General Problem Solver by Continually Searching for the Simplest Still Unsolvable Problem",
+    "assumption": "Computational complexity provides the correct ordering principle for learning task difficulty and skill acquisition",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2116386744",
+    "paper_title": "PowerPlay: Training an Increasingly General Problem Solver by Continually Searching for the Simplest Still Unsolvable Problem",
+    "assumption": "General intelligence requires explicit task decomposition and modular skill representation",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2116386744",
+    "paper_title": "PowerPlay: Training an Increasingly General Problem Solver by Continually Searching for the Simplest Still Unsolvable Problem",
+    "assumption": "Provable correctness is necessary for validating learned problem-solving capabilities",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2116386744",
+    "paper_title": "PowerPlay: Training an Increasingly General Problem Solver by Continually Searching for the Simplest Still Unsolvable Problem",
+    "assumption": "Continual learning requires explicit mechanisms to prevent catastrophic forgetting of previous tasks",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2116386744",
+    "paper_title": "PowerPlay: Training an Increasingly General Problem Solver by Continually Searching for the Simplest Still Unsolvable Problem",
+    "assumption": "Greedy search strategies are sufficient for navigating complex task and architecture spaces",
+    "confidence": 0.75,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2137356002",
+    "paper_title": "Review on Methods to Fix Number of Hidden Neurons in Neural Networks",
+    "assumption": "Hidden layer architecture is essential for neural network expressiveness and performance",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2137356002",
+    "paper_title": "Review on Methods to Fix Number of Hidden Neurons in Neural Networks",
+    "assumption": "The number of hidden neurons must be predetermined before training rather than learned during training",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2137356002",
+    "paper_title": "Review on Methods to Fix Number of Hidden Neurons in Neural Networks",
+    "assumption": "Statistical error metrics are the primary and sufficient indicators of neural network performance quality",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2137356002",
+    "paper_title": "Review on Methods to Fix Number of Hidden Neurons in Neural Networks",
+    "assumption": "Overfitting and underfitting are primarily controlled through architectural choices rather than regularization techniques",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2137356002",
+    "paper_title": "Review on Methods to Fix Number of Hidden Neurons in Neural Networks",
+    "assumption": "Manual hyperparameter selection is necessary for optimal neural network design",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2131342762",
+    "paper_title": "Sequence-discriminative training of deep neural networks",
+    "assumption": "Cross-entropy training is necessary as the foundational step before sequence-discriminative training",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2131342762",
+    "paper_title": "Sequence-discriminative training of deep neural networks",
+    "assumption": "Frame-level supervision is essential for neural network speech recognition training",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2131342762",
+    "paper_title": "Sequence-discriminative training of deep neural networks",
+    "assumption": "Lattice-based search spaces are required for sequence-discriminative training",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2131342762",
+    "paper_title": "Sequence-discriminative training of deep neural networks",
+    "assumption": "Word error rate is the primary metric for evaluating speech recognition system quality",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2131342762",
+    "paper_title": "Sequence-discriminative training of deep neural networks",
+    "assumption": "Hidden Markov Model alignment is necessary for training neural acoustic models",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2127186958",
+    "paper_title": "Resting-State Functional Connectivity Emerges from Structurally and Dynamically Shaped Slow Linear Fluctuations",
+    "assumption": "Anatomical connectivity is necessary for understanding functional connectivity patterns",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2127186958",
+    "paper_title": "Resting-State Functional Connectivity Emerges from Structurally and Dynamically Shaped Slow Linear Fluctuations",
+    "assumption": "Resting-state functional connectivity reflects intrinsic neural dynamics rather than measurement artifacts",
+    "confidence": 0.92,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2127186958",
+    "paper_title": "Resting-State Functional Connectivity Emerges from Structurally and Dynamically Shaped Slow Linear Fluctuations",
+    "assumption": "Large-scale brain dynamics can be meaningfully modeled using spiking neural networks",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2127186958",
+    "paper_title": "Resting-State Functional Connectivity Emerges from Structurally and Dynamically Shaped Slow Linear Fluctuations",
+    "assumption": "Diffusion imaging data provides sufficient constraints for modeling structural connectivity",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2127186958",
+    "paper_title": "Resting-State Functional Connectivity Emerges from Structurally and Dynamically Shaped Slow Linear Fluctuations",
+    "assumption": "Mean field approximations are valid for capturing ensemble brain dynamics",
+    "confidence": 0.82,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2158585626",
+    "paper_title": "Using sensitivity analysis and visualization techniques to open black box data mining models",
+    "assumption": "Model interpretability requires post-hoc explanation methods rather than inherently interpretable architectures",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2158585626",
+    "paper_title": "Using sensitivity analysis and visualization techniques to open black box data mining models",
+    "assumption": "Black box models are fundamentally opaque and require external analysis techniques to understand their decision-making processes",
+    "confidence": 0.92,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2158585626",
+    "paper_title": "Using sensitivity analysis and visualization techniques to open black box data mining models",
+    "assumption": "Input feature importance can be reliably measured through sensitivity analysis of model outputs to input perturbations",
+    "confidence": 0.88,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2158585626",
+    "paper_title": "Using sensitivity analysis and visualization techniques to open black box data mining models",
+    "assumption": "Human-understandable explanations require visualization of model behavior rather than direct inspection of learned parameters",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2158585626",
+    "paper_title": "Using sensitivity analysis and visualization techniques to open black box data mining models",
+    "assumption": "Model explanations should focus on input-output relationships rather than internal representational structure",
+    "confidence": 0.83,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1989549063",
+    "paper_title": "KL-divergence regularized deep neural network adaptation for improved large vocabulary speech recognition",
+    "assumption": "Hidden Markov Models are essential for modeling the temporal dynamics of speech",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1989549063",
+    "paper_title": "KL-divergence regularized deep neural network adaptation for improved large vocabulary speech recognition",
+    "assumption": "Context-dependent phoneme modeling is necessary for large vocabulary speech recognition accuracy",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1989549063",
+    "paper_title": "KL-divergence regularized deep neural network adaptation for improved large vocabulary speech recognition",
+    "assumption": "Speaker adaptation is required to achieve optimal performance on individual speakers or domains",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1989549063",
+    "paper_title": "KL-divergence regularized deep neural network adaptation for improved large vocabulary speech recognition",
+    "assumption": "Senone-based acoustic modeling is the correct framework for representing speech acoustic units",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1989549063",
+    "paper_title": "KL-divergence regularized deep neural network adaptation for improved large vocabulary speech recognition",
+    "assumption": "Backpropagation with gradient-based optimization is necessary for training deep neural acoustic models",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2321278764",
+    "paper_title": "Behaviour Analysis of Multilayer Perceptronswith Multiple Hidden Neurons and Hidden Layers",
+    "assumption": "Multilayer perceptrons are necessary for complex pattern recognition and classification tasks",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2321278764",
+    "paper_title": "Behaviour Analysis of Multilayer Perceptronswith Multiple Hidden Neurons and Hidden Layers",
+    "assumption": "Hidden layers are essential for neural networks to learn non-linear mappings",
+    "confidence": 0.92,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2321278764",
+    "paper_title": "Behaviour Analysis of Multilayer Perceptronswith Multiple Hidden Neurons and Hidden Layers",
+    "assumption": "Sequential record-by-record processing is required for neural network learning",
+    "confidence": 0.88,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2321278764",
+    "paper_title": "Behaviour Analysis of Multilayer Perceptronswith Multiple Hidden Neurons and Hidden Layers",
+    "assumption": "Supervised learning with known target outputs is necessary for neural network training",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2321278764",
+    "paper_title": "Behaviour Analysis of Multilayer Perceptronswith Multiple Hidden Neurons and Hidden Layers",
+    "assumption": "Error minimization through prediction-target comparison is essential for learning",
+    "confidence": 0.89,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2094225088",
+    "paper_title": "Decorrelation of Neural-Network Activity by Inhibitory Feedback",
+    "assumption": "Reduced correlations are necessary for efficient neural information encoding",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2094225088",
+    "paper_title": "Decorrelation of Neural-Network Activity by Inhibitory Feedback",
+    "assumption": "Inhibitory circuits are essential for maintaining network stability and preventing runaway excitation",
+    "confidence": 0.92,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2094225088",
+    "paper_title": "Decorrelation of Neural-Network Activity by Inhibitory Feedback",
+    "assumption": "Linear approximations are sufficient for understanding correlation dynamics in spiking neural networks",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2094225088",
+    "paper_title": "Decorrelation of Neural-Network Activity by Inhibitory Feedback",
+    "assumption": "Pairwise correlation analysis is adequate for characterizing population-level neural dependencies",
+    "confidence": 0.88,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2094225088",
+    "paper_title": "Decorrelation of Neural-Network Activity by Inhibitory Feedback",
+    "assumption": "Recurrent connectivity is necessary for realistic modeling of cortical network dynamics",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2026717737",
+    "paper_title": "Estimation of solar radiation using a neural network based on radiative transfer",
+    "assumption": "Radiative transfer code provides the ground truth for solar radiation calculations",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2026717737",
+    "paper_title": "Estimation of solar radiation using a neural network based on radiative transfer",
+    "assumption": "Neural networks require supervised learning with labeled training data for physical modeling",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2026717737",
+    "paper_title": "Estimation of solar radiation using a neural network based on radiative transfer",
+    "assumption": "High-speed computation requires approximation of complex physical models",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2026717737",
+    "paper_title": "Estimation of solar radiation using a neural network based on radiative transfer",
+    "assumption": "In situ ground observations are necessary for validation of satellite-derived estimates",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2026717737",
+    "paper_title": "Estimation of solar radiation using a neural network based on radiative transfer",
+    "assumption": "Neural networks are suitable approximators for complex physical transfer functions",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1975017676",
+    "paper_title": "Classification of Camellia (Theaceae) Species Using Leaf Architecture Variations and Pattern Recognition Techniques",
+    "assumption": "Morphological features are sufficient to capture taxonomic relationships in biological classification",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1975017676",
+    "paper_title": "Classification of Camellia (Theaceae) Species Using Leaf Architecture Variations and Pattern Recognition Techniques",
+    "assumption": "Supervised learning requires pre-labeled taxonomic ground truth for species classification",
+    "confidence": 0.92,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1975017676",
+    "paper_title": "Classification of Camellia (Theaceae) Species Using Leaf Architecture Variations and Pattern Recognition Techniques",
+    "assumption": "Classification accuracy is the primary metric for evaluating taxonomic identification systems",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W1975017676",
+    "paper_title": "Classification of Camellia (Theaceae) Species Using Leaf Architecture Variations and Pattern Recognition Techniques",
+    "assumption": "Leaf morphological characters contain sufficient discriminative information for species-level identification",
+    "confidence": 0.88,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W1975017676",
+    "paper_title": "Classification of Camellia (Theaceae) Species Using Leaf Architecture Variations and Pattern Recognition Techniques",
+    "assumption": "Machine learning models can effectively capture the morphological variation patterns that define taxonomic boundaries",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2295343990",
+    "paper_title": "Deep Learning for Detecting Robotic Grasps",
+    "assumption": "RGB-D sensing is necessary for reliable robotic grasp detection",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2295343990",
+    "paper_title": "Deep Learning for Detecting Robotic Grasps",
+    "assumption": "Supervised learning with labeled grasp examples is essential for grasp detection",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2295343990",
+    "paper_title": "Deep Learning for Detecting Robotic Grasps",
+    "assumption": "Deep convolutional architectures are required for visual grasp detection",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2295343990",
+    "paper_title": "Deep Learning for Detecting Robotic Grasps",
+    "assumption": "Grasp detection requires evaluating multiple candidate grasp poses across the scene",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2295343990",
+    "paper_title": "Deep Learning for Detecting Robotic Grasps",
+    "assumption": "Geometric grasp constraints must be learned implicitly through data rather than encoded explicitly",
+    "confidence": 0.8,
+    "category": "theoretical"
+  }
+]

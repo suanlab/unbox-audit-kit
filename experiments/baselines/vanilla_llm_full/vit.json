@@ -1,0 +1,67 @@
+{
+  "baseline": "vanilla_llm",
+  "category": "vit",
+  "ran_at": "2026-03-18T04:21:00.126457+00:00",
+  "inputs": {
+    "num_papers": 60,
+    "ground_truth_aliases": [
+      "convolutional layers are necessary for vision",
+      "vision models require convolutional layers",
+      "image understanding needs convolutional inductive biases"
+    ]
+  },
+  "config": {
+    "model": "claude-sonnet-4-20250514",
+    "top_ks": [
+      5,
+      10,
+      20
+    ],
+    "max_papers": 60,
+    "assumption_limit": 30
+  },
+  "outputs": {
+    "num_candidates": 30,
+    "candidates": [
+      "Convolution operations on regular grids are optimal for all visual data",
+      "Spatial hierarchies must follow encoder-decoder architectures",
+      "Feature learning requires supervised training with large labeled datasets",
+      "Deep networks require residual connections to train effectively",
+      "Multi-scale features must be fused through skip connections",
+      "Attention mechanisms require learnable parameters",
+      "Spatial and channel information should be processed separately",
+      "Object detection requires two-stage region proposal frameworks",
+      "Segmentation quality improves monotonically with network depth",
+      "Transfer learning from ImageNet is universally beneficial",
+      "Data augmentation strategies are domain-agnostic",
+      "Loss functions should be differentiable everywhere",
+      "Network architectures should be fixed during training",
+      "Feature maps must maintain spatial correspondence across layers",
+      "Classification and localization require separate network heads",
+      "Temporal information requires recurrent architectures",
+      "3D data must be processed volumetrically",
+      "Ground truth annotations are always accurate and consistent",
+      "Model complexity correlates with performance",
+      "Batch normalization is necessary for training stability",
+      "Pooling operations are essential for translation invariance",
+      "Feature extraction and classification should be jointly trained",
+      "Dense connections improve gradient flow",
+      "Activation functions must be monotonic",
+      "Network width and depth trade-offs are fixed",
+      "Semantic segmentation requires pixel-level supervision",
+      "Multi-task learning improves individual task performance",
+      "Pre-processing pipelines should be hand-crafted",
+      "Model ensembles require diverse architectures",
+      "Inference speed requires architectural compression"
+    ]
+  },
+  "metrics": {
+    "rank": 31.0,
+    "recall_at_5": 0.0,
+    "precision_at_5": 0.0,
+    "recall_at_10": 0.0,
+    "precision_at_10": 0.0,
+    "recall_at_20": 0.0,
+    "precision_at_20": 0.0
+  }
+}

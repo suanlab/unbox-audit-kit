@@ -1,0 +1,914 @@
+{
+  "paradigm": "mixture_of_experts",
+  "name": "Mixture of Experts routing",
+  "num_papers": 15,
+  "num_raw": 150,
+  "num_unique": 150,
+  "ground_truth": "All parameters must be activated for every input",
+  "aliases": [
+    "all model parameters should be used for every input",
+    "dense computation is necessary for neural network inference"
+  ],
+  "assumptions": [
+    {
+      "assumption": "Convolutional neural networks are essential for feature extraction in object detection tasks.",
+      "confidence": 1.0,
+      "category": "architectural",
+      "source_paper": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks"
+    },
+    {
+      "assumption": "Region proposal mechanisms are necessary for effective object detection.",
+      "confidence": 1.0,
+      "category": "architectural",
+      "source_paper": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks"
+    },
+    {
+      "assumption": "Increasing network depth is essential for improving accuracy in image recognition tasks.",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Very Deep Convolutional Networks for Large-Scale Image Recognition"
+    },
+    {
+      "assumption": "Convolutional layers are necessary for effective feature extraction in image data.",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Very Deep Convolutional Networks for Large-Scale Image Recognition"
+    },
+    {
+      "assumption": "Large-scale, well-annotated datasets are necessary for training effective machine learning models.",
+      "confidence": 0.95,
+      "category": "data",
+      "source_paper": "Improving Tuberculosis Diagnostics Using Deep Learning and Mobile Health Technologies among Resource-Poor and Marginalized Communities"
+    },
+    {
+      "assumption": "Deep convolutional neural networks are essential for achieving high performance in image classification tasks.",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Transferring Deep Convolutional Neural Networks for the Scene Classification of High-Resolution Remote Sensing Imagery"
+    },
+    {
+      "assumption": "Generalization performance is essential for evaluating the effectiveness of machine learning models.",
+      "confidence": 0.95,
+      "category": "evaluation",
+      "source_paper": "Sparse Extreme Learning Machine for Classification"
+    },
+    {
+      "assumption": "Efficient training algorithms are required to handle large-scale machine learning problems.",
+      "confidence": 0.92,
+      "category": "training",
+      "source_paper": "Sparse Extreme Learning Machine for Classification"
+    },
+    {
+      "assumption": "3D Convolutional Neural Networks are essential for processing volumetric medical imaging data.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Efficient multi-scale 3D CNN with fully connected CRF for accurate brain lesion segmentation"
+    },
+    {
+      "assumption": "Combining memorization and generalization is essential for effective recommendation systems.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Wide &amp; Deep Learning for Recommender Systems"
+    },
+    {
+      "assumption": "Deep neural networks are necessary for generalizing to unseen feature combinations.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Wide &amp; Deep Learning for Recommender Systems"
+    },
+    {
+      "assumption": "Wide linear models are required for effective memorization of feature interactions.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Wide &amp; Deep Learning for Recommender Systems"
+    },
+    {
+      "assumption": "Neural network models are essential for improving the accuracy and efficiency of dependency parsing.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "A Fast and Accurate Dependency Parser using Neural Networks"
+    },
+    {
+      "assumption": "Improving unlabeled and labeled attachment scores is necessary for evaluating the performance of dependency parsers.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "A Fast and Accurate Dependency Parser using Neural Networks"
+    },
+    {
+      "assumption": "The use of neural networks is necessary to overcome the limitations of sparse indicator features.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "A Fast and Accurate Dependency Parser using Neural Networks"
+    },
+    {
+      "assumption": "End-to-end training is required for optimizing object detection models.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks"
+    },
+    {
+      "assumption": "Sharing convolutional features between networks is essential for computational efficiency.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks"
+    },
+    {
+      "assumption": "High-quality region proposals are necessary for accurate object detection.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks"
+    },
+    {
+      "assumption": "Biologically plausible mechanisms are essential for modeling neural networks that aim to replicate brain-like processes.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Unsupervised Learning in an Ensemble of Spiking Neural Networks Mediated by ITDP"
+    },
+    {
+      "assumption": "Spiking neural networks are necessary for capturing the temporal dynamics of biological neural systems.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Unsupervised Learning in an Ensemble of Spiking Neural Networks Mediated by ITDP"
+    },
+    {
+      "assumption": "Large-scale datasets are required for training deep convolutional networks effectively.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Very Deep Convolutional Networks for Large-Scale Image Recognition"
+    },
+    {
+      "assumption": "Deep learning models must be evaluated on benchmark datasets to validate their performance.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "Very Deep Convolutional Networks for Large-Scale Image Recognition"
+    },
+    {
+      "assumption": "The ImageNet dataset is essential for benchmarking image recognition models.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Very Deep Convolutional Networks for Large-Scale Image Recognition"
+    },
+    {
+      "assumption": "Deep neural networks are essential for automatically learning feature interactions in large-scale data.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Deep Crossing"
+    },
+    {
+      "assumption": "Deep learning models are essential for improving diagnostic accuracy in medical imaging.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Improving Tuberculosis Diagnostics Using Deep Learning and Mobile Health Technologies among Resource-Poor and Marginalized Communities"
+    },
+    {
+      "assumption": "Reducing diagnosis delay is essential for controlling infectious disease transmission.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Improving Tuberculosis Diagnostics Using Deep Learning and Mobile Health Technologies among Resource-Poor and Marginalized Communities"
+    },
+    {
+      "assumption": "Convolutional neural networks (CNNs) are necessary for image classification tasks in medical diagnostics.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Improving Tuberculosis Diagnostics Using Deep Learning and Mobile Health Technologies among Resource-Poor and Marginalized Communities"
+    },
+    {
+      "assumption": "Machine learning offers unique opportunities to address healthcare challenges in under-resourced settings.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Improving Tuberculosis Diagnostics Using Deep Learning and Mobile Health Technologies among Resource-Poor and Marginalized Communities"
+    },
+    {
+      "assumption": "Supervised learning is essential for achieving high performance in visual object recognition models.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation"
+    },
+    {
+      "assumption": "Understanding model decisions is essential for trust and verification in machine learning systems.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "On Pixel-Wise Explanations for Non-Linear Classifier Decisions by Layer-Wise Relevance Propagation"
+    },
+    {
+      "assumption": "Transfer learning is necessary for adapting pre-trained models to new domains with limited data.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Transferring Deep Convolutional Neural Networks for the Scene Classification of High-Resolution Remote Sensing Imagery"
+    },
+    {
+      "assumption": "Large-scale datasets are required for training effective deep learning models.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Transferring Deep Convolutional Neural Networks for the Scene Classification of High-Resolution Remote Sensing Imagery"
+    },
+    {
+      "assumption": "Deep learning models, such as convolutional neural networks, are essential for capturing complex patterns in genomic data.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Basset: learning the regulatory code of the accessible genome with deep convolutional neural networks"
+    },
+    {
+      "assumption": "Large-scale genomic datasets are necessary for training effective models to understand gene regulation.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Basset: learning the regulatory code of the accessible genome with deep convolutional neural networks"
+    },
+    {
+      "assumption": "Pre-trained word vectors are essential for improving the performance of sentence classification models.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Convolutional Neural Networks for Sentence Classification"
+    },
+    {
+      "assumption": "Random initialization of hidden layer nodes is necessary for extreme learning machines.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Sparse Extreme Learning Machine for Classification"
+    },
+    {
+      "assumption": "Reducing computational complexity is essential for handling large-scale applications in machine learning.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Sparse Extreme Learning Machine for Classification"
+    },
+    {
+      "assumption": "Single-hidden-layer feedforward neural networks are essential structures for extreme learning machines.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Sparse Extreme Learning Machine for Classification"
+    },
+    {
+      "assumption": "Deep learning architectures are necessary for automating feature extraction in human activity recognition.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Deep Convolutional and LSTM Recurrent Neural Networks for Multimodal Wearable Activity Recognition"
+    },
+    {
+      "assumption": "Modeling temporal dynamics is essential for successful human activity recognition.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Deep Convolutional and LSTM Recurrent Neural Networks for Multimodal Wearable Activity Recognition"
+    },
+    {
+      "assumption": "Recurrent neural networks are required for capturing temporal dependencies in time series data.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Deep Convolutional and LSTM Recurrent Neural Networks for Multimodal Wearable Activity Recognition"
+    },
+    {
+      "assumption": "Sparse representations are necessary for reducing storage space and testing time in machine learning models.",
+      "confidence": 0.88,
+      "category": "architectural",
+      "source_paper": "Sparse Extreme Learning Machine for Classification"
+    },
+    {
+      "assumption": "Comparative analysis with support vector machines is necessary for validating new classification methods.",
+      "confidence": 0.87,
+      "category": "evaluation",
+      "source_paper": "Sparse Extreme Learning Machine for Classification"
+    },
+    {
+      "assumption": "Analytical solutions to sub-problems are required for efficient training in sparse extreme learning machines.",
+      "confidence": 0.86,
+      "category": "theoretical",
+      "source_paper": "Sparse Extreme Learning Machine for Classification"
+    },
+    {
+      "assumption": "Multi-scale processing is necessary for capturing both local and global contextual information in medical images.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Efficient multi-scale 3D CNN with fully connected CRF for accurate brain lesion segmentation"
+    },
+    {
+      "assumption": "Deep neural networks are essential for achieving state-of-the-art performance in complex medical image analysis tasks.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Efficient multi-scale 3D CNN with fully connected CRF for accurate brain lesion segmentation"
+    },
+    {
+      "assumption": "Dense feature representations are necessary for efficient computation in parsing tasks.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "A Fast and Accurate Dependency Parser using Neural Networks"
+    },
+    {
+      "assumption": "Generalization of features is required to improve the robustness of parsing models.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "A Fast and Accurate Dependency Parser using Neural Networks"
+    },
+    {
+      "assumption": "Small convolutional filters (e.g., 3x3) are sufficient for capturing complex patterns in images.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Very Deep Convolutional Networks for Large-Scale Image Recognition"
+    },
+    {
+      "assumption": "Transfer learning is essential for applying models trained on one dataset to other datasets.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Very Deep Convolutional Networks for Large-Scale Image Recognition"
+    },
+    {
+      "assumption": "Generalization to other datasets is necessary to demonstrate the robustness of a model.",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "Very Deep Convolutional Networks for Large-Scale Image Recognition"
+    },
+    {
+      "assumption": "Embedding layers are necessary for handling sparse input features effectively.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Deep Crossing"
+    },
+    {
+      "assumption": "Mobile health technologies are required for delivering healthcare solutions in resource-poor and marginalized communities.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Improving Tuberculosis Diagnostics Using Deep Learning and Mobile Health Technologies among Resource-Poor and Marginalized Communities"
+    },
+    {
+      "assumption": "Automated screening systems are required to handle large volumes of medical data efficiently.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Improving Tuberculosis Diagnostics Using Deep Learning and Mobile Health Technologies among Resource-Poor and Marginalized Communities"
+    },
+    {
+      "assumption": "Evaluation of machine learning models must demonstrate effectiveness in real-world scenarios to be considered successful.",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "Improving Tuberculosis Diagnostics Using Deep Learning and Mobile Health Technologies among Resource-Poor and Marginalized Communities"
+    },
+    {
+      "assumption": "Deep convolutional neural networks are necessary for modeling complex visual representations.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation"
+    },
+    {
+      "assumption": "Large-scale labeled datasets are required for training effective supervised models.",
+      "confidence": 0.85,
+      "category": "data",
+      "source_paper": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation"
+    },
+    {
+      "assumption": "Pixel-wise analysis is necessary for interpreting image classification decisions.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "On Pixel-Wise Explanations for Non-Linear Classifier Decisions by Layer-Wise Relevance Propagation"
+    },
+    {
+      "assumption": "Hierarchical feature extraction is essential for capturing complex patterns in image data.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Transferring Deep Convolutional Neural Networks for the Scene Classification of High-Resolution Remote Sensing Imagery"
+    },
+    {
+      "assumption": "Pre-trained models on large datasets generalize well to different but related tasks.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Transferring Deep Convolutional Neural Networks for the Scene Classification of High-Resolution Remote Sensing Imagery"
+    },
+    {
+      "assumption": "Machine learning approaches are necessary for annotating and interpreting noncoding regions of the genome.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Basset: learning the regulatory code of the accessible genome with deep convolutional neural networks"
+    },
+    {
+      "assumption": "Integration of genomics data from multiple cell types is essential for comprehensive understanding of gene regulation.",
+      "confidence": 0.85,
+      "category": "data",
+      "source_paper": "Basset: learning the regulatory code of the accessible genome with deep convolutional neural networks"
+    },
+    {
+      "assumption": "Convolutional neural networks are necessary for capturing local features in text data.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Convolutional Neural Networks for Sentence Classification"
+    },
+    {
+      "assumption": "Matrix inversion is required for solving unified extreme learning machine solutions.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Sparse Extreme Learning Machine for Classification"
+    },
+    {
+      "assumption": "Unified frameworks are necessary for simplifying and unifying different learning methods.",
+      "confidence": 0.84,
+      "category": "theoretical",
+      "source_paper": "Sparse Extreme Learning Machine for Classification"
+    },
+    {
+      "assumption": "Handling class imbalance is required for accurate segmentation in medical imaging tasks.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Efficient multi-scale 3D CNN with fully connected CRF for accurate brain lesion segmentation"
+    },
+    {
+      "assumption": "Computational efficiency is required for the practical adoption of segmentation methods in clinical settings.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Efficient multi-scale 3D CNN with fully connected CRF for accurate brain lesion segmentation"
+    },
+    {
+      "assumption": "Low-dimensional dense embeddings are essential for handling sparse features in deep learning models.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Wide &amp; Deep Learning for Recommender Systems"
+    },
+    {
+      "assumption": "Joint training of different model architectures is necessary to leverage their complementary strengths.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Wide &amp; Deep Learning for Recommender Systems"
+    },
+    {
+      "assumption": "Transition-based parsing is required for achieving high-speed parsing performance.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "A Fast and Accurate Dependency Parser using Neural Networks"
+    },
+    {
+      "assumption": "High parsing speed is essential for practical applications of dependency parsers.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "A Fast and Accurate Dependency Parser using Neural Networks"
+    },
+    {
+      "assumption": "Large datasets like the Penn Treebank are essential for training and evaluating dependency parsers.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "A Fast and Accurate Dependency Parser using Neural Networks"
+    },
+    {
+      "assumption": "Object detection models must be evaluated on standard benchmarks like PASCAL VOC and MS COCO.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks"
+    },
+    {
+      "assumption": "Deep neural networks are required for achieving state-of-the-art performance in object detection.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks"
+    },
+    {
+      "assumption": "GPU acceleration is essential for real-time object detection.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks"
+    },
+    {
+      "assumption": "Unsupervised learning is essential for developing models that can generalize from limited labeled data.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Unsupervised Learning in an Ensemble of Spiking Neural Networks Mediated by ITDP"
+    },
+    {
+      "assumption": "Input timing dependent plasticity (ITDP) is required for effective gating mechanisms in spiking neural networks.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Unsupervised Learning in an Ensemble of Spiking Neural Networks Mediated by ITDP"
+    },
+    {
+      "assumption": "Ensemble learning is necessary for improving the performance of individual classifiers in neural network models.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Unsupervised Learning in an Ensemble of Spiking Neural Networks Mediated by ITDP"
+    },
+    {
+      "assumption": "State-of-the-art performance is necessary for a model to be considered successful in the field.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Very Deep Convolutional Networks for Large-Scale Image Recognition"
+    },
+    {
+      "assumption": "Public availability of models is required to facilitate further research and reproducibility.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Very Deep Convolutional Networks for Large-Scale Image Recognition"
+    },
+    {
+      "assumption": "Residual connections are required to improve the training of deep neural networks by mitigating the vanishing gradient problem.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Deep Crossing"
+    },
+    {
+      "assumption": "Improving algorithmic performance is essential for the deployment of machine learning systems in real-world settings.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Improving Tuberculosis Diagnostics Using Deep Learning and Mobile Health Technologies among Resource-Poor and Marginalized Communities"
+    },
+    {
+      "assumption": "Collaboration between technology and healthcare sectors is necessary for successful implementation of diagnostic tools.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Improving Tuberculosis Diagnostics Using Deep Learning and Mobile Health Technologies among Resource-Poor and Marginalized Communities"
+    },
+    {
+      "assumption": "Representational similarity to biological systems is necessary for validating computational models of vision.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation"
+    },
+    {
+      "assumption": "Categorical clustering in representational space is essential for explaining IT cortical representation.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation"
+    },
+    {
+      "assumption": "Visualization of model decisions is required for human interpretability.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "On Pixel-Wise Explanations for Non-Linear Classifier Decisions by Layer-Wise Relevance Propagation"
+    },
+    {
+      "assumption": "Non-linear classifiers are essential for capturing complex patterns in image data.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "On Pixel-Wise Explanations for Non-Linear Classifier Decisions by Layer-Wise Relevance Propagation"
+    },
+    {
+      "assumption": "High-resolution data is necessary for detailed scene classification in remote sensing.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Transferring Deep Convolutional Neural Networks for the Scene Classification of High-Resolution Remote Sensing Imagery"
+    },
+    {
+      "assumption": "Understanding chromatin accessibility is essential for interpreting the regulatory code of the genome.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Basset: learning the regulatory code of the accessible genome with deep convolutional neural networks"
+    },
+    {
+      "assumption": "Predictive accuracy is required to validate the effectiveness of models in genomics.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Basset: learning the regulatory code of the accessible genome with deep convolutional neural networks"
+    },
+    {
+      "assumption": "Comparative analysis of variant alleles is necessary to identify causal genetic variants.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Basset: learning the regulatory code of the accessible genome with deep convolutional neural networks"
+    },
+    {
+      "assumption": "The ability to annotate every mutation in the genome is required for a complete understanding of its functional impact.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Basset: learning the regulatory code of the accessible genome with deep convolutional neural networks"
+    },
+    {
+      "assumption": "Fine-tuning pre-trained models is required for achieving task-specific performance improvements.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Convolutional Neural Networks for Sentence Classification"
+    },
+    {
+      "assumption": "Multimodal sensor data is necessary for improving the performance of activity recognition systems.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Deep Convolutional and LSTM Recurrent Neural Networks for Multimodal Wearable Activity Recognition"
+    },
+    {
+      "assumption": "Sensor fusion is essential for leveraging multiple data sources in wearable activity recognition.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Deep Convolutional and LSTM Recurrent Neural Networks for Multimodal Wearable Activity Recognition"
+    },
+    {
+      "assumption": "End-to-end learning is required to eliminate the need for expert-designed features in activity recognition.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Deep Convolutional and LSTM Recurrent Neural Networks for Multimodal Wearable Activity Recognition"
+    },
+    {
+      "assumption": "Convolutional neural networks are necessary for spatial feature extraction from raw sensor data.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Deep Convolutional and LSTM Recurrent Neural Networks for Multimodal Wearable Activity Recognition"
+    },
+    {
+      "assumption": "Dense training schemes are essential for efficient processing of large 3D medical datasets.",
+      "confidence": 0.75,
+      "category": "training",
+      "source_paper": "Efficient multi-scale 3D CNN with fully connected CRF for accurate brain lesion segmentation"
+    },
+    {
+      "assumption": "Multi-channel MRI data is necessary for comprehensive analysis of brain lesions.",
+      "confidence": 0.75,
+      "category": "data",
+      "source_paper": "Efficient multi-scale 3D CNN with fully connected CRF for accurate brain lesion segmentation"
+    },
+    {
+      "assumption": "Greedy algorithms are required for fast parsing in transition-based models.",
+      "confidence": 0.75,
+      "category": "training",
+      "source_paper": "A Fast and Accurate Dependency Parser using Neural Networks"
+    },
+    {
+      "assumption": "Multi-GPU platforms are essential for training large-scale deep learning models efficiently.",
+      "confidence": 0.75,
+      "category": "training",
+      "source_paper": "Deep Crossing"
+    },
+    {
+      "assumption": "Linear combinations of features are necessary for enhancing model performance in distinguishing between object categories.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation"
+    },
+    {
+      "assumption": "Comparing representational dissimilarity matrices (RDMs) is required for assessing model alignment with biological data.",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation"
+    },
+    {
+      "assumption": "Layer-wise relevance propagation is necessary for understanding contributions of input features.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "On Pixel-Wise Explanations for Non-Linear Classifier Decisions by Layer-Wise Relevance Propagation"
+    },
+    {
+      "assumption": "Feature coding approaches are required for transforming dense features into global image features.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "Transferring Deep Convolutional Neural Networks for the Scene Classification of High-Resolution Remote Sensing Imagery"
+    },
+    {
+      "assumption": "Single sequencing assays are required to obtain cell-type specific chromatin accessibility data.",
+      "confidence": 0.75,
+      "category": "data",
+      "source_paper": "Basset: learning the regulatory code of the accessible genome with deep convolutional neural networks"
+    },
+    {
+      "assumption": "Benchmark datasets are essential for evaluating the performance of sentence classification models.",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "Convolutional Neural Networks for Sentence Classification"
+    },
+    {
+      "assumption": "Post-processing with Conditional Random Fields is necessary for reducing false positives in segmentation tasks.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Efficient multi-scale 3D CNN with fully connected CRF for accurate brain lesion segmentation"
+    },
+    {
+      "assumption": "Public benchmarks are required for evaluating and comparing the performance of medical image segmentation methods.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Efficient multi-scale 3D CNN with fully connected CRF for accurate brain lesion segmentation"
+    },
+    {
+      "assumption": "Feature transformations are required for improving model interpretability and effectiveness.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Wide &amp; Deep Learning for Recommender Systems"
+    },
+    {
+      "assumption": "Handling sparse and high-rank user-item interactions is essential for accurate recommendations.",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "Wide &amp; Deep Learning for Recommender Systems"
+    },
+    {
+      "assumption": "Online experiments are necessary for evaluating the real-world effectiveness of recommendation systems.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Wide &amp; Deep Learning for Recommender Systems"
+    },
+    {
+      "assumption": "Cross-linguistic evaluation (e.g., English and Chinese) is necessary for demonstrating the generality of parsing models.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "A Fast and Accurate Dependency Parser using Neural Networks"
+    },
+    {
+      "assumption": "Objectness scoring is necessary for distinguishing between object and non-object regions.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks"
+    },
+    {
+      "assumption": "Publicly available code is required for reproducibility and further research in the field.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks"
+    },
+    {
+      "assumption": "Expectation maximization is essential for performing Bayesian inference in spiking neural networks.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Unsupervised Learning in an Ensemble of Spiking Neural Networks Mediated by ITDP"
+    },
+    {
+      "assumption": "A mixture of experts organization is required for effective ensemble learning in neural networks.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Unsupervised Learning in an Ensemble of Spiking Neural Networks Mediated by ITDP"
+    },
+    {
+      "assumption": "Analytically tractable models are necessary for deriving insights into complex neural network architectures.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Unsupervised Learning in an Ensemble of Spiking Neural Networks Mediated by ITDP"
+    },
+    {
+      "assumption": "Feature engineering is necessary but can be minimized through the use of deep learning models that automatically learn feature interactions.",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "Deep Crossing"
+    },
+    {
+      "assumption": "Web-scale applications require models that can handle both dense and sparse features effectively.",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "Deep Crossing"
+    },
+    {
+      "assumption": "Behaviorally important categorical divisions must be emphasized in computational models to explain IT representation.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation"
+    },
+    {
+      "assumption": "Neuroscientific insights are necessary for guiding the development of computational vision models.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation"
+    },
+    {
+      "assumption": "High categorization performance is required for a model to be considered successful in explaining IT representation.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation"
+    },
+    {
+      "assumption": "Heatmaps are required for effectively communicating pixel contributions to human experts.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "On Pixel-Wise Explanations for Non-Linear Classifier Decisions by Layer-Wise Relevance Propagation"
+    },
+    {
+      "assumption": "Kernel-based classifiers are essential for certain types of image feature representations.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "On Pixel-Wise Explanations for Non-Linear Classifier Decisions by Layer-Wise Relevance Propagation"
+    },
+    {
+      "assumption": "Combining features from different models is essential for improving classification performance.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Transferring Deep Convolutional Neural Networks for the Scene Classification of High-Resolution Remote Sensing Imagery"
+    },
+    {
+      "assumption": "Simple classifiers can be effective when paired with powerful feature representations.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Transferring Deep Convolutional Neural Networks for the Scene Classification of High-Resolution Remote Sensing Imagery"
+    },
+    {
+      "assumption": "Evaluation on public datasets is necessary for validating the generalization of models.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Transferring Deep Convolutional Neural Networks for the Scene Classification of High-Resolution Remote Sensing Imagery"
+    },
+    {
+      "assumption": "The use of open-source software is essential for reproducibility and accessibility in computational genomics research.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Basset: learning the regulatory code of the accessible genome with deep convolutional neural networks"
+    },
+    {
+      "assumption": "Static word embeddings are necessary for providing a strong baseline in NLP tasks.",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "Convolutional Neural Networks for Sentence Classification"
+    },
+    {
+      "assumption": "Benchmark datasets are essential for evaluating and comparing the performance of activity recognition models.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Deep Convolutional and LSTM Recurrent Neural Networks for Multimodal Wearable Activity Recognition"
+    },
+    {
+      "assumption": "Performance improvements in activity recognition are required to be demonstrated through empirical evaluation on public datasets.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Deep Convolutional and LSTM Recurrent Neural Networks for Multimodal Wearable Activity Recognition"
+    },
+    {
+      "assumption": "Hyperparameter optimization is necessary for achieving optimal performance in deep learning models.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Deep Convolutional and LSTM Recurrent Neural Networks for Multimodal Wearable Activity Recognition"
+    },
+    {
+      "assumption": "Open-source code availability is essential for reproducibility and further research in the field.",
+      "confidence": 0.65,
+      "category": "theoretical",
+      "source_paper": "Efficient multi-scale 3D CNN with fully connected CRF for accurate brain lesion segmentation"
+    },
+    {
+      "assumption": "The ability to generalize from a subset of features is essential for building scalable models in production environments.",
+      "confidence": 0.65,
+      "category": "theoretical",
+      "source_paper": "Deep Crossing"
+    },
+    {
+      "assumption": "Bag of Words features are necessary for certain image classification tasks.",
+      "confidence": 0.65,
+      "category": "data",
+      "source_paper": "On Pixel-Wise Explanations for Non-Linear Classifier Decisions by Layer-Wise Relevance Propagation"
+    },
+    {
+      "assumption": "Pre-trained models are required for efficient evaluation on large datasets.",
+      "confidence": 0.65,
+      "category": "training",
+      "source_paper": "On Pixel-Wise Explanations for Non-Linear Classifier Decisions by Layer-Wise Relevance Propagation"
+    },
+    {
+      "assumption": "Model simplicity is required for generalization across multiple tasks.",
+      "confidence": 0.65,
+      "category": "theoretical",
+      "source_paper": "Convolutional Neural Networks for Sentence Classification"
+    },
+    {
+      "assumption": "Open-sourcing implementations is essential for advancing research and practical applications.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Wide &amp; Deep Learning for Recommender Systems"
+    },
+    {
+      "assumption": "Large-scale data is required for training effective recommendation models.",
+      "confidence": 0.6,
+      "category": "data",
+      "source_paper": "Wide &amp; Deep Learning for Recommender Systems"
+    },
+    {
+      "assumption": "Visual classification tasks are essential benchmarks for evaluating the performance of neural network models.",
+      "confidence": 0.6,
+      "category": "evaluation",
+      "source_paper": "Unsupervised Learning in an Ensemble of Spiking Neural Networks Mediated by ITDP"
+    },
+    {
+      "assumption": "Feature selection schemes are required for optimizing the input to neural network models.",
+      "confidence": 0.6,
+      "category": "data",
+      "source_paper": "Unsupervised Learning in an Ensemble of Spiking Neural Networks Mediated by ITDP"
+    },
+    {
+      "assumption": "Superior model performance is necessary for the adoption of new modeling paradigms in industry applications.",
+      "confidence": 0.6,
+      "category": "evaluation",
+      "source_paper": "Deep Crossing"
+    },
+    {
+      "assumption": "Automating feature combination is essential for reducing the investment in feature engineering and domain knowledge acquisition.",
+      "confidence": 0.6,
+      "category": "data",
+      "source_paper": "Deep Crossing"
+    },
+    {
+      "assumption": "Human experts are essential for validating and interpreting machine learning model outputs.",
+      "confidence": 0.6,
+      "category": "evaluation",
+      "source_paper": "On Pixel-Wise Explanations for Non-Linear Classifier Decisions by Layer-Wise Relevance Propagation"
+    },
+    {
+      "assumption": "Sentence-level classification tasks require models that can handle variable-length input.",
+      "confidence": 0.6,
+      "category": "architectural",
+      "source_paper": "Convolutional Neural Networks for Sentence Classification"
+    },
+    {
+      "assumption": "Deep learning models are required to improve existing products and speed up the development of new models.",
+      "confidence": 0.55,
+      "category": "theoretical",
+      "source_paper": "Deep Crossing"
+    },
+    {
+      "assumption": "Improving state-of-the-art results is essential for demonstrating the effectiveness of new models.",
+      "confidence": 0.55,
+      "category": "evaluation",
+      "source_paper": "Convolutional Neural Networks for Sentence Classification"
+    },
+    {
+      "assumption": "Combining static and task-specific vectors is necessary for maximizing model performance.",
+      "confidence": 0.5,
+      "category": "architectural",
+      "source_paper": "Convolutional Neural Networks for Sentence Classification"
+    },
+    {
+      "assumption": "Minimal hyperparameter tuning is required to demonstrate the robustness of a model.",
+      "confidence": 0.45,
+      "category": "training",
+      "source_paper": "Convolutional Neural Networks for Sentence Classification"
+    }
+  ]
+}

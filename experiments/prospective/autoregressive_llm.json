@@ -1,0 +1,103 @@
+{
+  "paradigm": "autoregressive_llm",
+  "description": "Autoregressive language modeling with next-token prediction",
+  "seed_assumptions": [
+    "Next-token prediction is the optimal training objective for language understanding",
+    "Autoregressive generation is necessary for coherent long-form text",
+    "Tokenization into discrete subword units is necessary for language modeling"
+  ],
+  "ran_at": "2026-03-18T09:45:23.498437+00:00",
+  "num_hypotheses": 9,
+  "hypotheses": [
+    {
+      "original_assumption": "Next-token prediction is the optimal training objective for language understanding",
+      "transformation": "negate",
+      "hypothesis": "Training on sentence-level or paragraph-level semantic reconstruction tasks produces better language understanding than next-token prediction",
+      "rationale": "Rather than predicting the next token, models could be trained to reconstruct higher-level semantic representations of entire sentences or paragraphs from corrupted versions. This would force models to develop deeper understanding of meaning rather than surface-level token patterns.",
+      "novelty": 7,
+      "feasibility": 8,
+      "transformational_potential": 8,
+      "composite": 7.67
+    },
+    {
+      "original_assumption": "Tokenization into discrete subword units is necessary for language modeling",
+      "transformation": "invert",
+      "hypothesis": "Semantic unit tokenization based on meaning rather than linguistic form produces superior language models",
+      "rationale": "Instead of tokenizing based on character patterns or frequency, models could operate on units of meaning (concepts, relations, semantic roles). This would require models to work directly with semantic representations, potentially leading to more robust reasoning and transfer across different linguistic expressions of the same ideas.",
+      "novelty": 9,
+      "feasibility": 4,
+      "transformational_potential": 10,
+      "composite": 7.67
+    },
+    {
+      "original_assumption": "Autoregressive generation is necessary for coherent long-form text",
+      "transformation": "invert",
+      "hypothesis": "Reverse autoregressive generation (right-to-left) or center-out generation produces more coherent text than left-to-right generation",
+      "rationale": "Different generation orders might better capture certain linguistic structures or narrative patterns. Center-out generation could allow models to establish key concepts first and then elaborate bidirectionally, potentially improving coherence around central themes.",
+      "novelty": 8,
+      "feasibility": 8,
+      "transformational_potential": 6,
+      "composite": 7.33
+    },
+    {
+      "original_assumption": "Autoregressive generation is necessary for coherent long-form text",
+      "transformation": "relax",
+      "hypothesis": "Hybrid generation combining autoregressive outline planning with non-autoregressive section filling produces superior long-form coherence",
+      "rationale": "Models could first generate high-level structural outlines autoregressively to maintain narrative flow, then fill in sections non-autoregressively while adhering to the planned structure. This combines the benefits of sequential planning with parallel detailed generation.",
+      "novelty": 7,
+      "feasibility": 7,
+      "transformational_potential": 7,
+      "composite": 7.0
+    },
+    {
+      "original_assumption": "Tokenization into discrete subword units is necessary for language modeling",
+      "transformation": "relax",
+      "hypothesis": "Hierarchical tokenization with multiple granularity levels (characters, morphemes, words, phrases) simultaneously improves language modeling over single-level tokenization",
+      "rationale": "Rather than choosing one tokenization level, models could process text at multiple granularities simultaneously, allowing them to capture both fine-grained character patterns and higher-level semantic chunks. This could improve handling of rare words, morphological variations, and compositional meaning.",
+      "novelty": 7,
+      "feasibility": 6,
+      "transformational_potential": 8,
+      "composite": 7.0
+    },
+    {
+      "original_assumption": "Next-token prediction is the optimal training objective for language understanding",
+      "transformation": "relax",
+      "hypothesis": "Multi-scale prediction objectives combining next-token, next-phrase, and next-concept prediction outperform pure next-token prediction",
+      "rationale": "By simultaneously training models to predict at multiple granularities (tokens, phrases, abstract concepts), we could capture both local linguistic patterns and global semantic structure. This hierarchical approach mirrors how humans process language at multiple levels simultaneously.",
+      "novelty": 6,
+      "feasibility": 7,
+      "transformational_potential": 7,
+      "composite": 6.67
+    },
+    {
+      "original_assumption": "Next-token prediction is the optimal training objective for language understanding",
+      "transformation": "invert",
+      "hypothesis": "Previous-token prediction or bidirectional reconstruction produces superior language models compared to next-token prediction",
+      "rationale": "Training models to predict preceding tokens or reconstruct masked spans forces different attention patterns and may better capture linguistic dependencies that flow backwards in text. This could lead to models with stronger compositional understanding and reasoning capabilities.",
+      "novelty": 5,
+      "feasibility": 9,
+      "transformational_potential": 6,
+      "composite": 6.67
+    },
+    {
+      "original_assumption": "Autoregressive generation is necessary for coherent long-form text",
+      "transformation": "negate",
+      "hypothesis": "Non-autoregressive generation with iterative refinement produces more coherent long-form text than autoregressive approaches",
+      "rationale": "By generating entire passages simultaneously and then refining them through multiple iterations, models could maintain better global coherence and avoid the compounding errors inherent in left-to-right generation. This approach mirrors human writing with drafts and revisions.",
+      "novelty": 6,
+      "feasibility": 6,
+      "transformational_potential": 8,
+      "composite": 6.67
+    },
+    {
+      "original_assumption": "Tokenization into discrete subword units is necessary for language modeling",
+      "transformation": "negate",
+      "hypothesis": "Continuous character-level or phoneme-level representations without discrete tokenization achieve superior language modeling performance",
+      "rationale": "By operating directly on continuous representations of characters or sounds, models could capture morphological variations and cross-lingual similarities more naturally without the artificial boundaries imposed by tokenization. This could lead to more robust multilingual and morphologically rich language understanding.",
+      "novelty": 6,
+      "feasibility": 5,
+      "transformational_potential": 9,
+      "composite": 6.67
+    }
+  ]
+}

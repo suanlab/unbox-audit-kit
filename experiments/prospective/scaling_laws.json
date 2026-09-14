@@ -1,0 +1,103 @@
+{
+  "paradigm": "scaling_laws",
+  "description": "Neural scaling laws and compute-optimal training",
+  "seed_assumptions": [
+    "Scaling model parameters and data jointly is the primary path to capability improvement",
+    "Power-law scaling relationships are fundamental rather than artifact of current architectures",
+    "Compute-optimal training requires balancing parameters and tokens according to fixed ratios"
+  ],
+  "ran_at": "2026-03-18T09:46:18.797003+00:00",
+  "num_hypotheses": 9,
+  "hypotheses": [
+    {
+      "original_assumption": "Power-law scaling relationships are fundamental rather than artifact of current architectures",
+      "transformation": "negate",
+      "hypothesis": "Power-law scaling is an artifact of transformer limitations, and alternative architectures exhibit exponential or logarithmic scaling relationships that could dramatically alter optimal compute allocation",
+      "rationale": "If true, this would invalidate current scaling law extrapolations and suggest that architectural innovation could yield orders-of-magnitude efficiency gains. It would fundamentally reshape how we think about the future of AI development and compute requirements.",
+      "novelty": 9,
+      "feasibility": 7,
+      "transformational_potential": 10,
+      "composite": 8.67
+    },
+    {
+      "original_assumption": "Scaling model parameters and data jointly is the primary path to capability improvement",
+      "transformation": "negate",
+      "hypothesis": "Capability improvements are primarily driven by architectural innovations and training dynamics rather than scale, with diminishing returns from joint parameter-data scaling appearing much earlier than currently believed",
+      "rationale": "This would fundamentally challenge the compute-intensive race and redirect focus toward efficiency innovations. It could explain why some smaller, well-designed models outperform larger ones on specific tasks despite scaling law predictions.",
+      "novelty": 8,
+      "feasibility": 7,
+      "transformational_potential": 9,
+      "composite": 8.0
+    },
+    {
+      "original_assumption": "Scaling model parameters and data jointly is the primary path to capability improvement",
+      "transformation": "invert",
+      "hypothesis": "Optimal capability improvement requires deliberate parameter-data imbalance, with periodic phases of extreme data scaling followed by parameter compression and distillation",
+      "rationale": "This cyclical approach could lead to more efficient knowledge encoding and better generalization. It challenges the assumption of smooth, balanced scaling and could unlock new training paradigms that achieve better performance per unit of compute.",
+      "novelty": 9,
+      "feasibility": 6,
+      "transformational_potential": 8,
+      "composite": 7.67
+    },
+    {
+      "original_assumption": "Compute-optimal training requires balancing parameters and tokens according to fixed ratios",
+      "transformation": "invert",
+      "hypothesis": "Compute-optimal training benefits from extreme imbalances between parameters and tokens, with massive overparameterization followed by aggressive pruning, or token-starved training followed by fine-tuning being more efficient than balanced approaches",
+      "rationale": "This could unlock training strategies that appear wasteful but actually lead to better final models per unit of total compute. It would challenge current efficiency assumptions and potentially enable new forms of transfer learning and model optimization.",
+      "novelty": 8,
+      "feasibility": 7,
+      "transformational_potential": 8,
+      "composite": 7.67
+    },
+    {
+      "original_assumption": "Scaling model parameters and data jointly is the primary path to capability improvement",
+      "transformation": "relax",
+      "hypothesis": "Joint scaling is effective only within specific capability domains, with different scaling relationships governing reasoning, creativity, and factual knowledge acquisition",
+      "rationale": "This could lead to specialized scaling strategies for different cognitive capabilities, optimizing resource allocation based on desired outcomes. It would enable more targeted and efficient model development for specific applications.",
+      "novelty": 7,
+      "feasibility": 8,
+      "transformational_potential": 7,
+      "composite": 7.33
+    },
+    {
+      "original_assumption": "Power-law scaling relationships are fundamental rather than artifact of current architectures",
+      "transformation": "relax",
+      "hypothesis": "Power-law relationships hold only within narrow scaling regimes, with phase transitions occurring at specific parameter/data thresholds that fundamentally change the scaling dynamics",
+      "rationale": "This could explain apparent inconsistencies in scaling law predictions and suggest that we're approaching or have passed critical transition points. Understanding these transitions could enable more accurate predictions of when scaling will hit fundamental limits.",
+      "novelty": 6,
+      "feasibility": 8,
+      "transformational_potential": 8,
+      "composite": 7.33
+    },
+    {
+      "original_assumption": "Power-law scaling relationships are fundamental rather than artifact of current architectures",
+      "transformation": "invert",
+      "hypothesis": "True intelligence scaling follows non-power-law relationships (exponential, sigmoid, or step functions), and current power-laws represent sub-optimal exploration of the capability space",
+      "rationale": "This would suggest that current scaling approaches are fundamentally misguided and that breakthrough capabilities might emerge suddenly rather than gradually. It could indicate that we need entirely different mathematical frameworks for predicting AI development.",
+      "novelty": 8,
+      "feasibility": 5,
+      "transformational_potential": 9,
+      "composite": 7.33
+    },
+    {
+      "original_assumption": "Compute-optimal training requires balancing parameters and tokens according to fixed ratios",
+      "transformation": "negate",
+      "hypothesis": "Compute-optimal training requires dynamic, adaptive ratios that change throughout training based on learning phase, capability emergence, and loss landscape characteristics",
+      "rationale": "This would enable more sophisticated training strategies that adapt resource allocation in real-time based on model learning dynamics. It could significantly improve training efficiency and final model performance without requiring additional compute.",
+      "novelty": 7,
+      "feasibility": 8,
+      "transformational_potential": 7,
+      "composite": 7.33
+    },
+    {
+      "original_assumption": "Compute-optimal training requires balancing parameters and tokens according to fixed ratios",
+      "transformation": "relax",
+      "hypothesis": "Fixed ratios are optimal only for specific model capabilities or tasks, with different parameter-token ratios being optimal for reasoning vs. knowledge vs. creative capabilities",
+      "rationale": "This could lead to capability-aware scaling strategies where the training compute allocation is adjusted based on the desired final model capabilities. It would enable more targeted model development and potentially more efficient use of training resources.",
+      "novelty": 6,
+      "feasibility": 9,
+      "transformational_potential": 6,
+      "composite": 7.0
+    }
+  ]
+}

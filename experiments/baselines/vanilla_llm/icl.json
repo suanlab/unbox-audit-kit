@@ -1,0 +1,57 @@
+{
+  "baseline": "vanilla_llm",
+  "category": "icl",
+  "ran_at": "2026-03-18T00:53:30.691438+00:00",
+  "inputs": {
+    "num_papers": 15,
+    "ground_truth_aliases": [
+      "fine-tuning is necessary for task adaptation",
+      "task adaptation requires fine-tuning",
+      "downstream adaptation must update model weights"
+    ]
+  },
+  "config": {
+    "model": "claude-sonnet-4-20250514",
+    "top_ks": [
+      5,
+      10,
+      20
+    ],
+    "max_papers": 15,
+    "assumption_limit": 20
+  },
+  "outputs": {
+    "num_candidates": 20,
+    "candidates": [
+      "Domain-invariant features are necessary and sufficient for successful transfer learning",
+      "Source and target domains must share the same task structure and label space",
+      "Adversarial training is the optimal approach for learning transferable representations",
+      "Distribution alignment requires minimizing statistical distance metrics between domains",
+      "Deep networks trained on large datasets capture universally transferable knowledge",
+      "Feature extraction and domain adaptation should be performed in the same representation space",
+      "Marginal and conditional distributions contribute equally to domain adaptation success",
+      "Transfer learning requires explicit measurement and reduction of domain discrepancy",
+      "Labeled source data is always beneficial for target domain performance",
+      "Domain adaptation effectiveness can be measured solely by target domain accuracy",
+      "Multi-source domains should be treated as independent sources requiring separate alignment",
+      "Pre-training on natural images provides optimal initialization for all visual domains",
+      "Domain shift is primarily a distribution mismatch problem rather than a fundamental representation issue",
+      "Fine-tuning with small target datasets is sufficient to overcome domain gaps",
+      "Cross-domain transferability scales monotonically with source domain size",
+      "Feature hierarchies learned from one domain maintain their semantic meaning across domains",
+      "Domain adaptation requires preserving discriminative information from the source domain",
+      "Synthetic data can substitute for real data given sufficient domain adaptation techniques",
+      "Transfer learning benefits require architectural similarity between source and target tasks",
+      "Domain-specific batch normalization statistics capture the primary domain differences"
+    ]
+  },
+  "metrics": {
+    "rank": 21.0,
+    "recall_at_5": 0.0,
+    "precision_at_5": 0.0,
+    "recall_at_10": 0.0,
+    "precision_at_10": 0.0,
+    "recall_at_20": 0.0,
+    "precision_at_20": 0.0
+  }
+}

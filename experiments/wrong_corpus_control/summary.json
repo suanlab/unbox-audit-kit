@@ -1,0 +1,205 @@
+{
+  "experiment": "wrong_corpus_control",
+  "model": "gpt-4o",
+  "embedding_model": "text-embedding-3-small",
+  "soft_threshold": 0.65,
+  "papers_per_pair": 15,
+  "description": "For each primary target paradigm, extract assumptions from a DIFFERENT field's corpus and evaluate against the right target aliases.",
+  "pairings": {
+    "transformer_x_diffusion": {
+      "target": "transformer",
+      "corpus": "diffusion"
+    },
+    "diffusion_x_transformer": {
+      "target": "diffusion",
+      "corpus": "transformer"
+    },
+    "icl_x_vit": {
+      "target": "icl",
+      "corpus": "vit"
+    },
+    "vit_x_icl": {
+      "target": "vit",
+      "corpus": "icl"
+    }
+  },
+  "results": [
+    {
+      "pair": "transformer_x_diffusion",
+      "target": "transformer",
+      "corpus": "diffusion",
+      "num_assumptions": 149,
+      "best_sim": 0.4453,
+      "conf_rank": null,
+      "r_at_5": 0,
+      "r_at_10": 0,
+      "top_5": [
+        {
+          "rank": 1,
+          "assumption": "A competitive process between networks is essential for learning representations in GANs.",
+          "confidence": 1.0
+        },
+        {
+          "rank": 2,
+          "assumption": "Backpropagation is necessary for training neural networks in GANs.",
+          "confidence": 1.0
+        },
+        {
+          "rank": 3,
+          "assumption": "The generator and discriminator networks are required components of GANs.",
+          "confidence": 1.0
+        },
+        {
+          "rank": 4,
+          "assumption": "Adversarial training is necessary for GANs to generate realistic data.",
+          "confidence": 1.0
+        },
+        {
+          "rank": 5,
+          "assumption": "Quantum algorithms are necessary for achieving computational advantages over classical algorithms in certain tasks.",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "pair": "diffusion_x_transformer",
+      "target": "diffusion",
+      "corpus": "transformer",
+      "num_assumptions": 149,
+      "best_sim": 0.4321,
+      "conf_rank": null,
+      "r_at_5": 0,
+      "r_at_10": 0,
+      "top_5": [
+        {
+          "rank": 1,
+          "assumption": "Encoder-decoder architectures are required for neural machine translation systems.",
+          "confidence": 0.95
+        },
+        {
+          "rank": 2,
+          "assumption": "Sequence-to-sequence frameworks are required for modern machine translation systems.",
+          "confidence": 0.95
+        },
+        {
+          "rank": 3,
+          "assumption": "Attention mechanisms are necessary for improving the focus of sequence-to-sequence models.",
+          "confidence": 0.95
+        },
+        {
+          "rank": 4,
+          "assumption": "Recurrent neural networks are essential for sequence modeling tasks.",
+          "confidence": 0.95
+        },
+        {
+          "rank": 5,
+          "assumption": "End-to-end learning is essential for effective sequence-to-sequence modeling.",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "pair": "icl_x_vit",
+      "target": "icl",
+      "corpus": "vit",
+      "num_assumptions": 150,
+      "best_sim": 0.4516,
+      "conf_rank": null,
+      "r_at_5": 0,
+      "r_at_10": 0,
+      "top_5": [
+        {
+          "rank": 1,
+          "assumption": "Deep learning architectures are necessary for effective image recognition.",
+          "confidence": 1.0
+        },
+        {
+          "rank": 2,
+          "assumption": "Convolutional neural networks are essential for image classification tasks.",
+          "confidence": 1.0
+        },
+        {
+          "rank": 3,
+          "assumption": "Deep neural networks are necessary for effective image segmentation.",
+          "confidence": 1.0
+        },
+        {
+          "rank": 4,
+          "assumption": "Convolutional Neural Networks (CNNs) are essential for saliency detection tasks.",
+          "confidence": 0.95
+        },
+        {
+          "rank": 5,
+          "assumption": "Convolutional Neural Networks (CNNs) are essential for salient object detection.",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "pair": "vit_x_icl",
+      "target": "vit",
+      "corpus": "icl",
+      "num_assumptions": 145,
+      "best_sim": 0.405,
+      "conf_rank": null,
+      "r_at_5": 0,
+      "r_at_10": 0,
+      "top_5": [
+        {
+          "rank": 1,
+          "assumption": "Pretraining is essential for effective natural language understanding.",
+          "confidence": 1.0
+        },
+        {
+          "rank": 2,
+          "assumption": "Pre-trained language models are essential for achieving state-of-the-art performance in natural language processing tasks.",
+          "confidence": 1.0
+        },
+        {
+          "rank": 3,
+          "assumption": "Fine-tuning pre-trained models is necessary for adapting them to specific downstream tasks.",
+          "confidence": 1.0
+        },
+        {
+          "rank": 4,
+          "assumption": "Pretraining on large corpora is essential for effective language model performance.",
+          "confidence": 1.0
+        },
+        {
+          "rank": 5,
+          "assumption": "Pretrained deep contextual representations are essential for advancing state-of-the-art performance in NLP tasks.",
+          "confidence": 0.95
+        }
+      ]
+    }
+  ],
+  "with_corpus_reference": {
+    "transformer": {
+      "best_sim": 0.674,
+      "conf_rank": 1,
+      "r_at_10": 1
+    },
+    "diffusion": {
+      "best_sim": 0.759,
+      "conf_rank": 2,
+      "r_at_10": 1
+    },
+    "icl": {
+      "best_sim": 0.702,
+      "conf_rank": 3,
+      "r_at_10": 1
+    },
+    "vit": {
+      "best_sim": 0.676,
+      "conf_rank": 5,
+      "r_at_10": 1
+    }
+  },
+  "aggregate": {
+    "avg_wrong_corpus_best_sim": 0.4335,
+    "avg_with_corpus_best_sim": 0.7027,
+    "wrong_corpus_r10": "0/4",
+    "with_corpus_r10": "4/4",
+    "delta_best_sim": 0.2692
+  }
+}

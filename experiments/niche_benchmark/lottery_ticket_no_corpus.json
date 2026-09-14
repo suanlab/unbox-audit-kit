@@ -1,0 +1,561 @@
+{
+  "paradigm": "lottery_ticket",
+  "field_name": "network pruning and neural network compression",
+  "num_calls": 15,
+  "num_raw": 150,
+  "num_unique": 92,
+  "assumptions": [
+    {
+      "assumption": "Maintaining model accuracy is necessary when compressing neural networks.",
+      "confidence": 0.98,
+      "category": "evaluation",
+      "call_idx": 7
+    },
+    {
+      "assumption": "Understanding the trade-off between model size and performance is necessary for effective network compression.",
+      "confidence": 0.96,
+      "category": "theoretical",
+      "call_idx": 11
+    },
+    {
+      "assumption": "Reducing model size is essential for deploying neural networks on resource-constrained devices.",
+      "confidence": 0.95,
+      "category": "architectural",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Fine-tuning is necessary after pruning to recover any lost accuracy.",
+      "confidence": 0.94,
+      "category": "training",
+      "call_idx": 7
+    },
+    {
+      "assumption": "Evaluation metrics must reflect both accuracy and efficiency for compressed models.",
+      "confidence": 0.94,
+      "category": "evaluation",
+      "call_idx": 11
+    },
+    {
+      "assumption": "Fine-tuning is essential after pruning to recover any lost accuracy.",
+      "confidence": 0.93,
+      "category": "training",
+      "call_idx": 3
+    },
+    {
+      "assumption": "A trade-off between model size and accuracy is required in network pruning.",
+      "confidence": 0.93,
+      "category": "theoretical",
+      "call_idx": 7
+    },
+    {
+      "assumption": "Access to large datasets is necessary for effective neural network training and compression.",
+      "confidence": 0.93,
+      "category": "data",
+      "call_idx": 11
+    },
+    {
+      "assumption": "Pruning is required to improve the efficiency of neural network inference.",
+      "confidence": 0.92,
+      "category": "theoretical",
+      "call_idx": 3
+    },
+    {
+      "assumption": "Pruning is required to improve the efficiency of neural networks without significant loss of performance.",
+      "confidence": 0.92,
+      "category": "theoretical",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Pruning redundant parameters is required for improving computational efficiency.",
+      "confidence": 0.92,
+      "category": "theoretical",
+      "call_idx": 5
+    },
+    {
+      "assumption": "Pruning redundant parameters is required for efficient neural network compression.",
+      "confidence": 0.92,
+      "category": "architectural",
+      "call_idx": 7
+    },
+    {
+      "assumption": "Pruning is required to improve the efficiency of neural networks without significantly compromising performance.",
+      "confidence": 0.92,
+      "category": "theoretical",
+      "call_idx": 9
+    },
+    {
+      "assumption": "Sparsity is essential for reducing the computational cost of neural networks.",
+      "confidence": 0.91,
+      "category": "theoretical",
+      "call_idx": 3
+    },
+    {
+      "assumption": "Understanding the trade-off between model size and accuracy is essential for effective network compression.",
+      "confidence": 0.91,
+      "category": "theoretical",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Understanding the trade-offs between different compression techniques is essential for optimal model deployment.",
+      "confidence": 0.91,
+      "category": "theoretical",
+      "call_idx": 7
+    },
+    {
+      "assumption": "Iterative pruning and retraining is essential for achieving high compression rates without significant loss of accuracy.",
+      "confidence": 0.91,
+      "category": "training",
+      "call_idx": 11
+    },
+    {
+      "assumption": "Maintaining model accuracy is necessary when applying pruning techniques.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Fine-tuning is essential after pruning to recover lost accuracy.",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Maintaining model accuracy is necessary when performing network pruning.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Sparse representations are essential for reducing the computational cost of neural networks.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Evaluation on benchmark datasets is essential for validating pruning techniques.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "call_idx": 5
+    },
+    {
+      "assumption": "Pruning is necessary for improving the efficiency of neural networks without significantly sacrificing accuracy.",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 6
+    },
+    {
+      "assumption": "Evaluation metrics like accuracy and inference time are necessary for assessing the performance of compressed models.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "call_idx": 6
+    },
+    {
+      "assumption": "Training with a large dataset is essential for achieving high performance in neural networks.",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 7
+    },
+    {
+      "assumption": "Benchmark datasets are essential for evaluating the effectiveness of pruning methods.",
+      "confidence": 0.9,
+      "category": "data",
+      "call_idx": 10
+    },
+    {
+      "assumption": "Quantitative metrics are required for assessing the performance of compressed models.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "call_idx": 10
+    },
+    {
+      "assumption": "Training with a compressed model is essential for achieving optimal performance post-compression.",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 11
+    },
+    {
+      "assumption": "Maintaining model accuracy is required when applying compression techniques to neural networks.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "call_idx": 13
+    },
+    {
+      "assumption": "Evaluating the trade-off between compression rate and accuracy is essential for practical applications.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "call_idx": 14
+    },
+    {
+      "assumption": "Benchmark datasets are required for evaluating the effectiveness of pruning methods.",
+      "confidence": 0.89,
+      "category": "evaluation",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Evaluation on benchmark datasets is required to validate the effectiveness of pruning techniques.",
+      "confidence": 0.89,
+      "category": "evaluation",
+      "call_idx": 3
+    },
+    {
+      "assumption": "A trade-off between compression rate and accuracy is required in network pruning.",
+      "confidence": 0.89,
+      "category": "theoretical",
+      "call_idx": 5
+    },
+    {
+      "assumption": "Benchmark datasets are required for evaluating the effectiveness of compression techniques.",
+      "confidence": 0.89,
+      "category": "evaluation",
+      "call_idx": 7
+    },
+    {
+      "assumption": "Quantization is necessary for further reducing model size and inference time.",
+      "confidence": 0.89,
+      "category": "architectural",
+      "call_idx": 8
+    },
+    {
+      "assumption": "Benchmark datasets are necessary for evaluating the performance of compression techniques.",
+      "confidence": 0.89,
+      "category": "evaluation",
+      "call_idx": 9
+    },
+    {
+      "assumption": "Model architecture plays a crucial role in the effectiveness of pruning strategies.",
+      "confidence": 0.89,
+      "category": "architectural",
+      "call_idx": 11
+    },
+    {
+      "assumption": "A trade-off between model size and performance is required in network compression.",
+      "confidence": 0.89,
+      "category": "theoretical",
+      "call_idx": 12
+    },
+    {
+      "assumption": "Understanding the underlying structure of neural networks is necessary for effective pruning strategies.",
+      "confidence": 0.89,
+      "category": "theoretical",
+      "call_idx": 14
+    },
+    {
+      "assumption": "Structured pruning is necessary for achieving hardware acceleration benefits.",
+      "confidence": 0.88,
+      "category": "architectural",
+      "call_idx": 3
+    },
+    {
+      "assumption": "Large datasets are necessary for training neural networks effectively before compression.",
+      "confidence": 0.88,
+      "category": "data",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Maintaining a balance between model size and accuracy is essential for practical applications of neural network compression.",
+      "confidence": 0.88,
+      "category": "architectural",
+      "call_idx": 6
+    },
+    {
+      "assumption": "Quantization is necessary for reducing the computational cost of neural networks.",
+      "confidence": 0.88,
+      "category": "architectural",
+      "call_idx": 7
+    },
+    {
+      "assumption": "Data diversity is necessary for evaluating the generalization of pruned models.",
+      "confidence": 0.88,
+      "category": "data",
+      "call_idx": 9
+    },
+    {
+      "assumption": "Theoretical understanding of model sparsity is required for developing effective pruning techniques.",
+      "confidence": 0.88,
+      "category": "theoretical",
+      "call_idx": 11
+    },
+    {
+      "assumption": "Understanding the trade-off between model size and performance is essential for effective network pruning.",
+      "confidence": 0.88,
+      "category": "theoretical",
+      "call_idx": 13
+    },
+    {
+      "assumption": "Training on diverse datasets is essential for ensuring the robustness of compressed models.",
+      "confidence": 0.88,
+      "category": "data",
+      "call_idx": 14
+    },
+    {
+      "assumption": "Data augmentation is required to preserve model performance after pruning.",
+      "confidence": 0.87,
+      "category": "data",
+      "call_idx": 3
+    },
+    {
+      "assumption": "Iterative pruning and retraining is required to achieve optimal compression results.",
+      "confidence": 0.87,
+      "category": "training",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Iterative pruning and retraining are required for achieving optimal compression results.",
+      "confidence": 0.87,
+      "category": "training",
+      "call_idx": 6
+    },
+    {
+      "assumption": "Structured pruning is essential for maintaining the hardware efficiency of compressed models.",
+      "confidence": 0.87,
+      "category": "architectural",
+      "call_idx": 7
+    },
+    {
+      "assumption": "Layer-wise pruning is required to effectively reduce the computational cost of neural networks.",
+      "confidence": 0.87,
+      "category": "architectural",
+      "call_idx": 9
+    },
+    {
+      "assumption": "Iterative pruning and retraining is necessary for achieving optimal compression results.",
+      "confidence": 0.87,
+      "category": "training",
+      "call_idx": 14
+    },
+    {
+      "assumption": "Layer-wise pruning is necessary for understanding the impact of pruning on different parts of the network.",
+      "confidence": 0.86,
+      "category": "theoretical",
+      "call_idx": 3
+    },
+    {
+      "assumption": "Quantization is necessary for further reducing the size of pruned neural networks.",
+      "confidence": 0.86,
+      "category": "architectural",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Quantization is required for further reducing model size after pruning.",
+      "confidence": 0.86,
+      "category": "architectural",
+      "call_idx": 5
+    },
+    {
+      "assumption": "Understanding the trade-offs between compression rate and model performance is essential for effective network pruning.",
+      "confidence": 0.86,
+      "category": "theoretical",
+      "call_idx": 6
+    },
+    {
+      "assumption": "Benchmark datasets are required for evaluating the effectiveness of pruning techniques.",
+      "confidence": 0.86,
+      "category": "evaluation",
+      "call_idx": 8
+    },
+    {
+      "assumption": "Structured pruning is required for hardware-friendly model compression.",
+      "confidence": 0.86,
+      "category": "architectural",
+      "call_idx": 9
+    },
+    {
+      "assumption": "Benchmark datasets are essential for evaluating the effectiveness of pruning techniques.",
+      "confidence": 0.86,
+      "category": "data",
+      "call_idx": 12
+    },
+    {
+      "assumption": "Benchmarking against standard datasets is essential for validating pruning methods.",
+      "confidence": 0.86,
+      "category": "evaluation",
+      "call_idx": 13
+    },
+    {
+      "assumption": "Benchmarking against standard datasets is required for validating the effectiveness of compression methods.",
+      "confidence": 0.86,
+      "category": "evaluation",
+      "call_idx": 14
+    },
+    {
+      "assumption": "Training a model to convergence before pruning is essential for effective compression.",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Evaluation on benchmark datasets is required to validate the effectiveness of pruning methods.",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Training a model to convergence is essential before applying pruning techniques.",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Training a model to convergence is essential before applying pruning methods.",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 2
+    },
+    {
+      "assumption": "Model sparsity is necessary for reducing computational complexity.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "call_idx": 2
+    },
+    {
+      "assumption": "Understanding the trade-off between compression rate and accuracy is essential for effective pruning.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "call_idx": 2
+    },
+    {
+      "assumption": "Evaluation on benchmark datasets is required to validate pruning methods.",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "call_idx": 4
+    },
+    {
+      "assumption": "Large datasets are essential for training pruned models to generalize well.",
+      "confidence": 0.85,
+      "category": "data",
+      "call_idx": 5
+    },
+    {
+      "assumption": "High-quality datasets are essential for evaluating the effectiveness of network pruning techniques.",
+      "confidence": 0.85,
+      "category": "data",
+      "call_idx": 6
+    },
+    {
+      "assumption": "Data diversity is required to ensure the pruned model generalizes well.",
+      "confidence": 0.85,
+      "category": "data",
+      "call_idx": 8
+    },
+    {
+      "assumption": "Pruning methods must be compatible with existing deep learning frameworks.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "call_idx": 10
+    },
+    {
+      "assumption": "Quantization is required for further reducing the memory footprint of compressed models.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "call_idx": 12
+    },
+    {
+      "assumption": "Quantization is required for further reducing the memory footprint of neural networks.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "call_idx": 14
+    },
+    {
+      "assumption": "Layer-wise pruning is necessary for maintaining network stability.",
+      "confidence": 0.84,
+      "category": "architectural",
+      "call_idx": 5
+    },
+    {
+      "assumption": "Benchmark datasets are necessary for standardizing the evaluation of pruning techniques.",
+      "confidence": 0.84,
+      "category": "data",
+      "call_idx": 6
+    },
+    {
+      "assumption": "Iterative pruning and retraining is essential for achieving optimal compression.",
+      "confidence": 0.84,
+      "category": "training",
+      "call_idx": 8
+    },
+    {
+      "assumption": "Layer-wise pruning is necessary for understanding the impact on different parts of the network.",
+      "confidence": 0.84,
+      "category": "architectural",
+      "call_idx": 12
+    },
+    {
+      "assumption": "Theoretical understanding of sparsity is necessary for developing effective pruning algorithms.",
+      "confidence": 0.84,
+      "category": "theoretical",
+      "call_idx": 13
+    },
+    {
+      "assumption": "Automated tools are essential for efficiently implementing network pruning techniques.",
+      "confidence": 0.84,
+      "category": "architectural",
+      "call_idx": 14
+    },
+    {
+      "assumption": "Quantitative analysis of model performance is required for validating the benefits of compression techniques.",
+      "confidence": 0.83,
+      "category": "evaluation",
+      "call_idx": 6
+    },
+    {
+      "assumption": "Layer-wise pruning is essential for understanding the impact on model performance.",
+      "confidence": 0.83,
+      "category": "theoretical",
+      "call_idx": 8
+    },
+    {
+      "assumption": "Iterative pruning and retraining cycles are essential for achieving optimal compression results.",
+      "confidence": 0.83,
+      "category": "training",
+      "call_idx": 12
+    },
+    {
+      "assumption": "Quantization is required for further reducing the memory footprint of pruned networks.",
+      "confidence": 0.83,
+      "category": "architectural",
+      "call_idx": 13
+    },
+    {
+      "assumption": "Layer-wise pruning is necessary for achieving fine-grained control over model compression.",
+      "confidence": 0.82,
+      "category": "architectural",
+      "call_idx": 13
+    },
+    {
+      "assumption": "Evaluation on standard benchmarks is required to validate pruning effectiveness.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "call_idx": 2
+    },
+    {
+      "assumption": "Structured pruning is necessary for hardware-friendly model compression.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "call_idx": 4
+    },
+    {
+      "assumption": "Understanding the trade-off between model size and accuracy is essential for effective pruning.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "call_idx": 4
+    },
+    {
+      "assumption": "Theoretical understanding of sparsity is required for developing effective pruning algorithms.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "call_idx": 6
+    },
+    {
+      "assumption": "Data diversity is required to ensure the robustness of pruned models.",
+      "confidence": 0.75,
+      "category": "data",
+      "call_idx": 2
+    },
+    {
+      "assumption": "Layer-wise pruning is necessary for balanced model compression.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "call_idx": 4
+    }
+  ]
+}

@@ -1,0 +1,527 @@
+[
+  {
+    "paper_id": "https://openalex.org/W2907630459",
+    "paper_title": "Looking for ELMo's friends: Sentence-Level Pretraining Beyond Language Modeling.",
+    "assumption": "Pretraining on language modeling tasks is essential for effective sentence encoding",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2907630459",
+    "paper_title": "Looking for ELMo's friends: Sentence-Level Pretraining Beyond Language Modeling.",
+    "assumption": "Transfer learning requires pretraining on large-scale datasets",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2907630459",
+    "paper_title": "Looking for ELMo's friends: Sentence-Level Pretraining Beyond Language Modeling.",
+    "assumption": "Fine-tuning is necessary for adapting pretrained models to specific downstream tasks",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2907630459",
+    "paper_title": "Looking for ELMo's friends: Sentence-Level Pretraining Beyond Language Modeling.",
+    "assumption": "Multitask learning is required to improve generalization across diverse tasks",
+    "confidence": 0.75,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2907630459",
+    "paper_title": "Looking for ELMo's friends: Sentence-Level Pretraining Beyond Language Modeling.",
+    "assumption": "Labeled data is essential for effective task-specific pretraining",
+    "confidence": 0.7,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2985797697",
+    "paper_title": "Understanding Commonsense Inference Aptitude of Deep Contextual Representations",
+    "assumption": "Pretrained deep contextual representations are essential for advancing state-of-the-art in NLP tasks",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2985797697",
+    "paper_title": "Understanding Commonsense Inference Aptitude of Deep Contextual Representations",
+    "assumption": "Fine-tuning is necessary for adapting pretrained models to specific downstream tasks",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2985797697",
+    "paper_title": "Understanding Commonsense Inference Aptitude of Deep Contextual Representations",
+    "assumption": "Augmenting pretraining data is required to improve model performance on specific tasks",
+    "confidence": 0.8,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2985797697",
+    "paper_title": "Understanding Commonsense Inference Aptitude of Deep Contextual Representations",
+    "assumption": "Explicit knowledge graphs are essential for enhancing commonsense reasoning in models",
+    "confidence": 0.75,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2985797697",
+    "paper_title": "Understanding Commonsense Inference Aptitude of Deep Contextual Representations",
+    "assumption": "Probing pretrained models is necessary to understand their representation capabilities",
+    "confidence": 0.7,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2972119829",
+    "paper_title": "Informing Unsupervised Pretraining with External Linguistic Knowledge",
+    "assumption": "Unsupervised pretraining is essential for effective downstream task performance",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2972119829",
+    "paper_title": "Informing Unsupervised Pretraining with External Linguistic Knowledge",
+    "assumption": "Distributional knowledge is necessary for language model performance",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2972119829",
+    "paper_title": "Informing Unsupervised Pretraining with External Linguistic Knowledge",
+    "assumption": "Masked language modeling is required for capturing contextual word representations",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2972119829",
+    "paper_title": "Informing Unsupervised Pretraining with External Linguistic Knowledge",
+    "assumption": "Next sentence prediction is essential for understanding sentence relationships",
+    "confidence": 0.7,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2972119829",
+    "paper_title": "Informing Unsupervised Pretraining with External Linguistic Knowledge",
+    "assumption": "External linguistic knowledge can enhance language model performance",
+    "confidence": 0.75,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2931223666",
+    "paper_title": "Unsupervised Domain Adaptation of Contextualized Embeddings: A Case Study in Early Modern English.",
+    "assumption": "Pretraining on large corpora of unlabeled text is essential for strong performance in NLP tasks",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2931223666",
+    "paper_title": "Unsupervised Domain Adaptation of Contextualized Embeddings: A Case Study in Early Modern English.",
+    "assumption": "Contextualized embeddings are necessary for capturing semantic nuances in language",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2931223666",
+    "paper_title": "Unsupervised Domain Adaptation of Contextualized Embeddings: A Case Study in Early Modern English.",
+    "assumption": "Domain adaptation is required when the target domain differs substantially from the pretraining corpus",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2931223666",
+    "paper_title": "Unsupervised Domain Adaptation of Contextualized Embeddings: A Case Study in Early Modern English.",
+    "assumption": "Masked language modeling is essential for adapting embeddings to new domains",
+    "confidence": 0.75,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2931223666",
+    "paper_title": "Unsupervised Domain Adaptation of Contextualized Embeddings: A Case Study in Early Modern English.",
+    "assumption": "Fine-tuning is necessary for adapting pretrained models to specific tasks or domains",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2991170427",
+    "paper_title": "Improving BERT-Based Text Classification With Auxiliary Sentence and Domain Knowledge",
+    "assumption": "Pre-trained language models are essential for achieving state-of-the-art performance in NLP tasks",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2991170427",
+    "paper_title": "Improving BERT-Based Text Classification With Auxiliary Sentence and Domain Knowledge",
+    "assumption": "Fine-tuning is necessary for adapting pre-trained models to specific downstream tasks",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2991170427",
+    "paper_title": "Improving BERT-Based Text Classification With Auxiliary Sentence and Domain Knowledge",
+    "assumption": "Domain-specific knowledge is required to further improve the performance of general pre-trained models",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2991170427",
+    "paper_title": "Improving BERT-Based Text Classification With Auxiliary Sentence and Domain Knowledge",
+    "assumption": "Transforming tasks into sentence-pair problems is essential for leveraging BERT's architecture effectively",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2991170427",
+    "paper_title": "Improving BERT-Based Text Classification With Auxiliary Sentence and Domain Knowledge",
+    "assumption": "Post-training on domain-specific data is necessary for enhancing model performance in domain-specific tasks",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2972381305",
+    "paper_title": "A Simple but Effective Method to Incorporate Multi-turn Context with BERT for Conversational Machine Comprehension",
+    "assumption": "Pretrained language models are essential for machine comprehension tasks",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2972381305",
+    "paper_title": "A Simple but Effective Method to Incorporate Multi-turn Context with BERT for Conversational Machine Comprehension",
+    "assumption": "Handling multi-turn dialogue requires specialized methods beyond single-turn models",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2972381305",
+    "paper_title": "A Simple but Effective Method to Incorporate Multi-turn Context with BERT for Conversational Machine Comprehension",
+    "assumption": "Encoding context is necessary for understanding conversational machine comprehension",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2972381305",
+    "paper_title": "A Simple but Effective Method to Incorporate Multi-turn Context with BERT for Conversational Machine Comprehension",
+    "assumption": "Performance on benchmark datasets is essential for validating conversational models",
+    "confidence": 0.8,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2972381305",
+    "paper_title": "A Simple but Effective Method to Incorporate Multi-turn Context with BERT for Conversational Machine Comprehension",
+    "assumption": "The length of input sequences is a critical constraint in model design for language tasks",
+    "confidence": 0.75,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2970771982",
+    "paper_title": "SciBERT: A Pretrained Language Model for Scientific Text",
+    "assumption": "Pretraining on large text corpora is necessary for effective language model performance",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2970771982",
+    "paper_title": "SciBERT: A Pretrained Language Model for Scientific Text",
+    "assumption": "Transformer architectures are essential for state-of-the-art language modeling",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2970771982",
+    "paper_title": "SciBERT: A Pretrained Language Model for Scientific Text",
+    "assumption": "Transfer learning is required for adapting language models to specific domains",
+    "confidence": 0.88,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2970771982",
+    "paper_title": "SciBERT: A Pretrained Language Model for Scientific Text",
+    "assumption": "Masked language modeling is essential for pretraining language models",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2970771982",
+    "paper_title": "SciBERT: A Pretrained Language Model for Scientific Text",
+    "assumption": "Large-scale datasets are necessary for training effective language models",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2970645034",
+    "paper_title": "PANLP at MEDIQA 2019: Pre-trained Language Models, Transfer Learning and Knowledge Distillation",
+    "assumption": "Pre-trained language models are essential for state-of-the-art performance in NLP tasks",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2970645034",
+    "paper_title": "PANLP at MEDIQA 2019: Pre-trained Language Models, Transfer Learning and Knowledge Distillation",
+    "assumption": "Transfer learning is necessary for improving model performance across related tasks",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2970645034",
+    "paper_title": "PANLP at MEDIQA 2019: Pre-trained Language Models, Transfer Learning and Knowledge Distillation",
+    "assumption": "Knowledge distillation is required for creating efficient models that retain performance",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2970645034",
+    "paper_title": "PANLP at MEDIQA 2019: Pre-trained Language Models, Transfer Learning and Knowledge Distillation",
+    "assumption": "Model ensembling is necessary for achieving top performance in competitive NLP tasks",
+    "confidence": 0.75,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2970645034",
+    "paper_title": "PANLP at MEDIQA 2019: Pre-trained Language Models, Transfer Learning and Knowledge Distillation",
+    "assumption": "Fine-tuning pre-trained models is essential for adapting them to specific tasks",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2986341143",
+    "paper_title": "Deep Bidirectional Transformers for Relation Extraction without Supervision",
+    "assumption": "Pre-trained language models are essential for relation extraction tasks",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2986341143",
+    "paper_title": "Deep Bidirectional Transformers for Relation Extraction without Supervision",
+    "assumption": "Fine-tuning is necessary for adapting pre-trained models to specific tasks",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2986341143",
+    "paper_title": "Deep Bidirectional Transformers for Relation Extraction without Supervision",
+    "assumption": "Syntactic parsing is required for extracting precise relations",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2986341143",
+    "paper_title": "Deep Bidirectional Transformers for Relation Extraction without Supervision",
+    "assumption": "Pre-trained word embeddings are necessary for effective relation extraction",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2986341143",
+    "paper_title": "Deep Bidirectional Transformers for Relation Extraction without Supervision",
+    "assumption": "Unsupervised methods can be effective for relation extraction in the absence of labeled data",
+    "confidence": 0.75,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2970684786",
+    "paper_title": "An Empirical Study on Pre-trained Embeddings and Language Models for Bot Detection",
+    "assumption": "Fine-tuning pre-trained language models is necessary for achieving state-of-the-art performance in NLP tasks.",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2970684786",
+    "paper_title": "An Empirical Study on Pre-trained Embeddings and Language Models for Bot Detection",
+    "assumption": "Pre-trained language models require large and well-formed text corpora for effective learning.",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2970684786",
+    "paper_title": "An Empirical Study on Pre-trained Embeddings and Language Models for Bot Detection",
+    "assumption": "Contextualized embeddings are essential for capturing semantic nuances in text data.",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2970684786",
+    "paper_title": "An Empirical Study on Pre-trained Embeddings and Language Models for Bot Detection",
+    "assumption": "Neural architectures like LSTM and CNN are foundational for processing sequential text data.",
+    "confidence": 0.75,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2970684786",
+    "paper_title": "An Empirical Study on Pre-trained Embeddings and Language Models for Bot Detection",
+    "assumption": "Evaluation on specific tasks like bot detection is necessary to understand model generalization capabilities.",
+    "confidence": 0.7,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2989292414",
+    "paper_title": "Jeff Da at COIN - Shared Task",
+    "assumption": "Contextual embeddings are necessary for understanding language semantics",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2989292414",
+    "paper_title": "Jeff Da at COIN - Shared Task",
+    "assumption": "Integrating external knowledge is essential for improving language model performance",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2989292414",
+    "paper_title": "Jeff Da at COIN - Shared Task",
+    "assumption": "Pretrained language models are required for state-of-the-art NLP performance",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2989292414",
+    "paper_title": "Jeff Da at COIN - Shared Task",
+    "assumption": "Graph embeddings are necessary for representing structured knowledge",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2989292414",
+    "paper_title": "Jeff Da at COIN - Shared Task",
+    "assumption": "Alignment of tokenization methods is essential for integrating different embeddings",
+    "confidence": 0.75,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2953991875",
+    "paper_title": "Team Howard Beale at SemEval-2019 Task 4: Hyperpartisan News Detection with BERT",
+    "assumption": "Pretrained language models are essential for natural language processing tasks",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2953991875",
+    "paper_title": "Team Howard Beale at SemEval-2019 Task 4: Hyperpartisan News Detection with BERT",
+    "assumption": "Fine-tuning is necessary for adapting pretrained models to specific tasks",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2953991875",
+    "paper_title": "Team Howard Beale at SemEval-2019 Task 4: Hyperpartisan News Detection with BERT",
+    "assumption": "Domain-specific pretraining is required for optimal performance on domain-specific tasks",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2953991875",
+    "paper_title": "Team Howard Beale at SemEval-2019 Task 4: Hyperpartisan News Detection with BERT",
+    "assumption": "Large-scale datasets are essential for training effective language models",
+    "confidence": 0.8,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2953991875",
+    "paper_title": "Team Howard Beale at SemEval-2019 Task 4: Hyperpartisan News Detection with BERT",
+    "assumption": "Transformer architectures are necessary for state-of-the-art performance in NLP",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2985056549",
+    "paper_title": "Exploiting BERT for End-to-End Aspect-based Sentiment Analysis",
+    "assumption": "Pretrained language models are essential for achieving state-of-the-art performance in NLP tasks.",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2985056549",
+    "paper_title": "Exploiting BERT for End-to-End Aspect-based Sentiment Analysis",
+    "assumption": "Contextualized embeddings are necessary for capturing nuanced language understanding.",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2985056549",
+    "paper_title": "Exploiting BERT for End-to-End Aspect-based Sentiment Analysis",
+    "assumption": "Transfer learning from large-scale pretrained models is required for effective task-specific adaptation.",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2985056549",
+    "paper_title": "Exploiting BERT for End-to-End Aspect-based Sentiment Analysis",
+    "assumption": "Fine-tuning pretrained models is essential for optimizing performance on specific tasks.",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2985056549",
+    "paper_title": "Exploiting BERT for End-to-End Aspect-based Sentiment Analysis",
+    "assumption": "A hold-out development dataset is necessary for reliable model selection and evaluation.",
+    "confidence": 0.75,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2555428947",
+    "paper_title": "Unsupervised Pretraining for Sequence to Sequence Learning",
+    "assumption": "Pretraining is essential for improving generalization in sequence to sequence models",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2555428947",
+    "paper_title": "Unsupervised Pretraining for Sequence to Sequence Learning",
+    "assumption": "Encoder-decoder architectures are necessary for sequence to sequence tasks",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2555428947",
+    "paper_title": "Unsupervised Pretraining for Sequence to Sequence Learning",
+    "assumption": "Fine-tuning pretrained models is required for task adaptation in sequence to sequence learning",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2555428947",
+    "paper_title": "Unsupervised Pretraining for Sequence to Sequence Learning",
+    "assumption": "Labeled data is essential for fine-tuning in sequence to sequence learning",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2555428947",
+    "paper_title": "Unsupervised Pretraining for Sequence to Sequence Learning",
+    "assumption": "BLEU score is a necessary metric for evaluating machine translation models",
+    "confidence": 0.8,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2949849869",
+    "paper_title": "Synthetic QA Corpora Generation with Roundtrip Consistency",
+    "assumption": "Pretraining on large corpora is essential for improving model performance on downstream tasks",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2949849869",
+    "paper_title": "Synthetic QA Corpora Generation with Roundtrip Consistency",
+    "assumption": "Synthetic data generation is necessary for augmenting training datasets when labeled data is scarce",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2949849869",
+    "paper_title": "Synthetic QA Corpora Generation with Roundtrip Consistency",
+    "assumption": "Sequence-to-sequence models are required for effective question generation",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2949849869",
+    "paper_title": "Synthetic QA Corpora Generation with Roundtrip Consistency",
+    "assumption": "Roundtrip consistency is essential for validating the quality of generated question-answer pairs",
+    "confidence": 0.75,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2949849869",
+    "paper_title": "Synthetic QA Corpora Generation with Roundtrip Consistency",
+    "assumption": "Fine-tuning pre-trained language models is necessary for adapting them to specific tasks",
+    "confidence": 0.9,
+    "category": "training"
+  }
+]

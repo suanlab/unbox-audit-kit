@@ -1,0 +1,56 @@
+{
+  "baseline": "random",
+  "category": "diffusion",
+  "ran_at": "2026-03-12T00:25:15.837094+00:00",
+  "inputs": {
+    "num_papers": 60,
+    "ground_truth_aliases": [
+      "adversarial training is necessary for high-quality generation",
+      "high-quality generation requires adversarial training",
+      "gan-style adversarial objectives are required for strong image generation"
+    ]
+  },
+  "config": {
+    "top_ks": [
+      5,
+      10,
+      20
+    ],
+    "candidate_limit": 20,
+    "seed": 7
+  },
+  "outputs": {
+    "num_candidates": 20,
+    "top_candidates": [
+      "When the kidney model was trained with CycleGAN augmentation techniques, the out-of-distribution (non-contrast) performance increased dramatically (from a Dice score of 0.09 to 0.66, p < 0.001).",
+      "All DVH points calculated on sCT differed less than \u00b12.5% from the corresponding points on CT.",
+      "As such, it limits its success when the length of the generated text samples is long (more than 20 words).",
+      "In the experiments, we evaluate ArtGAN on CIFAR-10 and STL-10 via ablation studies.",
+      "Third, DR-GAN can take one or multiple images as the input, and generate one unified representation along with an arbitrary number of synthetic images.",
+      "Classical GAN algorithms are then compared comprehensively in terms of the mechanism, visual results of generated samples, and Frechet Inception Distance.",
+      "Both models require the optimization of almost everywhere differentiable loss functions, which allows us to train them jointly.",
+      "Results show that generative adversarial networks can be used to reconstruct high-resolution three-dimensional images of porous media at different scales that are representative of the morphology of the images used to train the neural network.",
+      "Second, we propose a method to generate diverse results given the same input, allowing users to edit the object appearance interactively.",
+      "Instance-Guided Context Rendering for Cross-Domain Person Re-Identification.",
+      "First, the encoder-decoder structure of the generator enables DR-GAN to learn a representation that is both generative and discriminative, which can be used for face image synthesis and pose-invariant face recognition.",
+      "In this work, we propose Flow-navigated Warping Generative Adversarial Network (FW-GAN), a novel framework that learns to synthesize the video of virtual try-on based on a person image, the desired clothes image, and a series of target poses.",
+      "Experimental results demonstrate that our DM-GAN model performs favorably against the state-of-the-art approaches.",
+      "Unfortunately, GANs do not offer an ``inverse model,'' a mapping from data space back to latent space, making it difficult to infer a latent representation for a given data sample.",
+      "Secondly, by reformulating the search procedure as a constrained Bayesian optimization problem, we show that the effects of this pathology can be mitigated, yielding marked improvements in the validity of the generated molecules.",
+      "To this end, this paper proposes Disentangled Representation learning-Generative Adversarial Network (DR-GAN) with three distinct novelties.",
+      "Image Synthesis From Reconfigurable Layout and Style.",
+      "In this paper, we address the problem of synthesizing retinal color images by applying recent techniques based on adversarial learning.",
+      "HoloGAN instead learns a 3D representation of the world, and to render this representation in a realistic manner.",
+      "Human opinion studies demonstrate that our method significantly outperforms existing methods, advancing both the quality and the resolution of deep image synthesis and editing."
+    ]
+  },
+  "metrics": {
+    "rank": 21.0,
+    "recall_at_5": 0.0,
+    "precision_at_5": 0.0,
+    "recall_at_10": 0.0,
+    "precision_at_10": 0.0,
+    "recall_at_20": 0.0,
+    "precision_at_20": 0.0
+  }
+}

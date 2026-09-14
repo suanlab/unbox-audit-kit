@@ -1,0 +1,1802 @@
+{
+  "paradigm": "icl",
+  "num_papers": 15,
+  "num_raw_assumptions": 150,
+  "num_unique_assumptions": 147,
+  "ground_truth": "fine-tuning is necessary for task adaptation",
+  "assumptions": [
+    {
+      "assumption": "Large-scale unsupervised pretraining is necessary for achieving strong natural language understanding performance",
+      "confidence": 0.95,
+      "category": "training",
+      "source_paper": "Looking for ELMo's friends: Sentence-Level Pretraining Beyond Language Modeling."
+    },
+    {
+      "assumption": "Transfer learning from general language tasks to specific downstream tasks is essential for efficient NLP model development",
+      "confidence": 0.92,
+      "category": "training",
+      "source_paper": "Looking for ELMo's friends: Sentence-Level Pretraining Beyond Language Modeling."
+    },
+    {
+      "assumption": "Language modeling captures fundamental linguistic knowledge required for natural language understanding",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Looking for ELMo's friends: Sentence-Level Pretraining Beyond Language Modeling."
+    },
+    {
+      "assumption": "Sentence-level representations are necessary for effective natural language understanding systems",
+      "confidence": 0.88,
+      "category": "architectural",
+      "source_paper": "Looking for ELMo's friends: Sentence-Level Pretraining Beyond Language Modeling."
+    },
+    {
+      "assumption": "Performance on downstream tasks is the essential measure of pretraining effectiveness",
+      "confidence": 0.87,
+      "category": "evaluation",
+      "source_paper": "Looking for ELMo's friends: Sentence-Level Pretraining Beyond Language Modeling."
+    },
+    {
+      "assumption": "Contextual word representations are required for capturing semantic meaning in natural language",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Looking for ELMo's friends: Sentence-Level Pretraining Beyond Language Modeling."
+    },
+    {
+      "assumption": "Large amounts of unlabeled text data are necessary for learning generalizable language representations",
+      "confidence": 0.83,
+      "category": "data",
+      "source_paper": "Looking for ELMo's friends: Sentence-Level Pretraining Beyond Language Modeling."
+    },
+    {
+      "assumption": "Multi-task learning frameworks are essential for leveraging diverse linguistic knowledge",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Looking for ELMo's friends: Sentence-Level Pretraining Beyond Language Modeling."
+    },
+    {
+      "assumption": "Comparative evaluation across multiple pretraining objectives is necessary for identifying optimal training strategies",
+      "confidence": 0.78,
+      "category": "evaluation",
+      "source_paper": "Looking for ELMo's friends: Sentence-Level Pretraining Beyond Language Modeling."
+    },
+    {
+      "assumption": "Deep neural architectures are required for learning complex linguistic representations from pretraining tasks",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "Looking for ELMo's friends: Sentence-Level Pretraining Beyond Language Modeling."
+    },
+    {
+      "assumption": "Large-scale unsupervised pretraining on text corpora is necessary for acquiring commonsense knowledge representations",
+      "confidence": 0.95,
+      "category": "training",
+      "source_paper": "Understanding Commonsense Inference Aptitude of Deep Contextual Representations"
+    },
+    {
+      "assumption": "Transformer architectures with self-attention mechanisms are essential for learning contextual representations that capture commonsense reasoning",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Understanding Commonsense Inference Aptitude of Deep Contextual Representations"
+    },
+    {
+      "assumption": "Commonsense knowledge can be effectively encoded and retrieved through distributed vector representations in high-dimensional embedding spaces",
+      "confidence": 0.92,
+      "category": "theoretical",
+      "source_paper": "Understanding Commonsense Inference Aptitude of Deep Contextual Representations"
+    },
+    {
+      "assumption": "Fine-tuning pretrained models on downstream tasks is necessary for optimal performance in commonsense reasoning applications",
+      "confidence": 0.88,
+      "category": "training",
+      "source_paper": "Understanding Commonsense Inference Aptitude of Deep Contextual Representations"
+    },
+    {
+      "assumption": "Probing tasks with classification objectives are required to evaluate and understand the internal knowledge representations of neural models",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "Understanding Commonsense Inference Aptitude of Deep Contextual Representations"
+    },
+    {
+      "assumption": "Structured knowledge graphs contain essential explicit knowledge that is necessary to complement learned representations for commonsense reasoning",
+      "confidence": 0.83,
+      "category": "theoretical",
+      "source_paper": "Understanding Commonsense Inference Aptitude of Deep Contextual Representations"
+    },
+    {
+      "assumption": "Large-scale text corpora contain sufficient implicit commonsense knowledge that can be extracted through statistical learning",
+      "confidence": 0.87,
+      "category": "data",
+      "source_paper": "Understanding Commonsense Inference Aptitude of Deep Contextual Representations"
+    },
+    {
+      "assumption": "Gradient-based optimization methods are necessary for effectively training deep neural networks to learn commonsense representations",
+      "confidence": 0.82,
+      "category": "training",
+      "source_paper": "Understanding Commonsense Inference Aptitude of Deep Contextual Representations"
+    },
+    {
+      "assumption": "Benchmark datasets with human-annotated labels are required to measure commonsense reasoning capabilities",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Understanding Commonsense Inference Aptitude of Deep Contextual Representations"
+    },
+    {
+      "assumption": "Deep neural architectures with multiple layers are essential for learning hierarchical representations that capture commonsense knowledge",
+      "confidence": 0.78,
+      "category": "architectural",
+      "source_paper": "Understanding Commonsense Inference Aptitude of Deep Contextual Representations"
+    },
+    {
+      "assumption": "Large-scale unsupervised pretraining on text corpora is necessary for achieving strong performance on downstream NLP tasks",
+      "confidence": 0.95,
+      "category": "training",
+      "source_paper": "Informing Unsupervised Pretraining with External Linguistic Knowledge"
+    },
+    {
+      "assumption": "Multi-task learning frameworks are required for effectively incorporating diverse knowledge sources into language models",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Informing Unsupervised Pretraining with External Linguistic Knowledge"
+    },
+    {
+      "assumption": "Transfer learning from pretrained representations is essential for practical NLP applications",
+      "confidence": 0.95,
+      "category": "theoretical",
+      "source_paper": "Informing Unsupervised Pretraining with External Linguistic Knowledge"
+    },
+    {
+      "assumption": "Transformer-based architectures are necessary for state-of-the-art language understanding",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Informing Unsupervised Pretraining with External Linguistic Knowledge"
+    },
+    {
+      "assumption": "Self-supervised objectives like masked language modeling are required for learning meaningful linguistic representations",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Informing Unsupervised Pretraining with External Linguistic Knowledge"
+    },
+    {
+      "assumption": "External structured linguistic knowledge is necessary to complement distributional learning for optimal language understanding",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "Informing Unsupervised Pretraining with External Linguistic Knowledge"
+    },
+    {
+      "assumption": "Evaluation on multiple downstream tasks is required to validate the quality of pretrained representations",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "Informing Unsupervised Pretraining with External Linguistic Knowledge"
+    },
+    {
+      "assumption": "Large-scale unlabeled text corpora are essential for learning robust linguistic representations",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Informing Unsupervised Pretraining with External Linguistic Knowledge"
+    },
+    {
+      "assumption": "Joint optimization of multiple objectives is necessary for incorporating heterogeneous knowledge sources",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Informing Unsupervised Pretraining with External Linguistic Knowledge"
+    },
+    {
+      "assumption": "Contextual word representations are required for capturing complex linguistic phenomena",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Informing Unsupervised Pretraining with External Linguistic Knowledge"
+    },
+    {
+      "assumption": "Large-scale pretraining on unlabeled text is necessary for achieving strong performance across natural language processing tasks",
+      "confidence": 0.95,
+      "category": "training",
+      "source_paper": "Unsupervised Domain Adaptation of Contextualized Embeddings: A Case Study in Early Modern English."
+    },
+    {
+      "assumption": "Contextualized representations are essential for capturing semantic meaning in natural language understanding",
+      "confidence": 0.92,
+      "category": "architectural",
+      "source_paper": "Unsupervised Domain Adaptation of Contextualized Embeddings: A Case Study in Early Modern English."
+    },
+    {
+      "assumption": "Masked language modeling is required for learning meaningful contextual representations",
+      "confidence": 0.88,
+      "category": "training",
+      "source_paper": "Unsupervised Domain Adaptation of Contextualized Embeddings: A Case Study in Early Modern English."
+    },
+    {
+      "assumption": "Domain similarity between pretraining and target data is necessary for optimal model performance",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Unsupervised Domain Adaptation of Contextualized Embeddings: A Case Study in Early Modern English."
+    },
+    {
+      "assumption": "Fine-tuning is essential for adapting pretrained models to specific tasks or domains",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Unsupervised Domain Adaptation of Contextualized Embeddings: A Case Study in Early Modern English."
+    },
+    {
+      "assumption": "Sequence labeling evaluation is necessary for measuring model understanding of token-level linguistic phenomena",
+      "confidence": 0.82,
+      "category": "evaluation",
+      "source_paper": "Unsupervised Domain Adaptation of Contextualized Embeddings: A Case Study in Early Modern English."
+    },
+    {
+      "assumption": "Unsupervised adaptation methods are required when labeled target domain data is unavailable",
+      "confidence": 0.87,
+      "category": "training",
+      "source_paper": "Unsupervised Domain Adaptation of Contextualized Embeddings: A Case Study in Early Modern English."
+    },
+    {
+      "assumption": "Transfer learning from source to target domains is essential for leveraging limited labeled data",
+      "confidence": 0.89,
+      "category": "theoretical",
+      "source_paper": "Unsupervised Domain Adaptation of Contextualized Embeddings: A Case Study in Early Modern English."
+    },
+    {
+      "assumption": "Out-of-vocabulary word handling is necessary for robust natural language processing systems",
+      "confidence": 0.83,
+      "category": "data",
+      "source_paper": "Unsupervised Domain Adaptation of Contextualized Embeddings: A Case Study in Early Modern English."
+    },
+    {
+      "assumption": "Baseline comparison against established models is required for validating new adaptation approaches",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Unsupervised Domain Adaptation of Contextualized Embeddings: A Case Study in Early Modern English."
+    },
+    {
+      "assumption": "Pre-training on large-scale general corpora is necessary for achieving strong performance on downstream NLP tasks",
+      "confidence": 0.95,
+      "category": "training",
+      "source_paper": "Improving BERT-Based Text Classification With Auxiliary Sentence and Domain Knowledge"
+    },
+    {
+      "assumption": "Fine-tuning pre-trained language models is essential for adapting general knowledge to specific tasks",
+      "confidence": 0.92,
+      "category": "training",
+      "source_paper": "Improving BERT-Based Text Classification With Auxiliary Sentence and Domain Knowledge"
+    },
+    {
+      "assumption": "Transformer-based architectures are required for state-of-the-art natural language understanding",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Improving BERT-Based Text Classification With Auxiliary Sentence and Domain Knowledge"
+    },
+    {
+      "assumption": "Task-specific knowledge integration is necessary for optimal performance beyond general pre-training",
+      "confidence": 0.88,
+      "category": "theoretical",
+      "source_paper": "Improving BERT-Based Text Classification With Auxiliary Sentence and Domain Knowledge"
+    },
+    {
+      "assumption": "Supervised learning on labeled datasets is essential for text classification performance evaluation",
+      "confidence": 0.87,
+      "category": "evaluation",
+      "source_paper": "Improving BERT-Based Text Classification With Auxiliary Sentence and Domain Knowledge"
+    },
+    {
+      "assumption": "Domain adaptation through continued training is required when applying models across different domains",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Improving BERT-Based Text Classification With Auxiliary Sentence and Domain Knowledge"
+    },
+    {
+      "assumption": "Comparative evaluation against established baselines is necessary for validating model improvements",
+      "confidence": 0.83,
+      "category": "evaluation",
+      "source_paper": "Improving BERT-Based Text Classification With Auxiliary Sentence and Domain Knowledge"
+    },
+    {
+      "assumption": "Contextual representations are essential for capturing semantic meaning in text classification",
+      "confidence": 0.82,
+      "category": "theoretical",
+      "source_paper": "Improving BERT-Based Text Classification With Auxiliary Sentence and Domain Knowledge"
+    },
+    {
+      "assumption": "Hyperparameter optimization is required for achieving optimal fine-tuning performance",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Improving BERT-Based Text Classification With Auxiliary Sentence and Domain Knowledge"
+    },
+    {
+      "assumption": "Standard benchmark datasets are necessary for meaningful performance comparison across methods",
+      "confidence": 0.78,
+      "category": "evaluation",
+      "source_paper": "Improving BERT-Based Text Classification With Auxiliary Sentence and Domain Knowledge"
+    },
+    {
+      "assumption": "Transformer-based architectures are necessary for achieving state-of-the-art performance in natural language understanding tasks",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "A Simple but Effective Method to Incorporate Multi-turn Context with BERT for Conversational Machine Comprehension"
+    },
+    {
+      "assumption": "Large-scale pretraining on general text corpora is essential for effective language representation learning",
+      "confidence": 0.92,
+      "category": "training",
+      "source_paper": "A Simple but Effective Method to Incorporate Multi-turn Context with BERT for Conversational Machine Comprehension"
+    },
+    {
+      "assumption": "Token-level representations are necessary for encoding semantic meaning in text",
+      "confidence": 0.88,
+      "category": "theoretical",
+      "source_paper": "A Simple but Effective Method to Incorporate Multi-turn Context with BERT for Conversational Machine Comprehension"
+    },
+    {
+      "assumption": "Supervised fine-tuning on task-specific data is required for adapting pretrained models to downstream tasks",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "A Simple but Effective Method to Incorporate Multi-turn Context with BERT for Conversational Machine Comprehension"
+    },
+    {
+      "assumption": "F1 score is essential for evaluating machine reading comprehension performance",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "A Simple but Effective Method to Incorporate Multi-turn Context with BERT for Conversational Machine Comprehension"
+    },
+    {
+      "assumption": "Contextual understanding is necessary for effective question answering systems",
+      "confidence": 0.93,
+      "category": "theoretical",
+      "source_paper": "A Simple but Effective Method to Incorporate Multi-turn Context with BERT for Conversational Machine Comprehension"
+    },
+    {
+      "assumption": "Benchmark datasets with human annotations are required for measuring progress in conversational AI",
+      "confidence": 0.87,
+      "category": "evaluation",
+      "source_paper": "A Simple but Effective Method to Incorporate Multi-turn Context with BERT for Conversational Machine Comprehension"
+    },
+    {
+      "assumption": "Sequential processing of input tokens is necessary for language model architectures",
+      "confidence": 0.82,
+      "category": "architectural",
+      "source_paper": "A Simple but Effective Method to Incorporate Multi-turn Context with BERT for Conversational Machine Comprehension"
+    },
+    {
+      "assumption": "Gradient-based optimization is essential for training neural language models",
+      "confidence": 0.89,
+      "category": "training",
+      "source_paper": "A Simple but Effective Method to Incorporate Multi-turn Context with BERT for Conversational Machine Comprehension"
+    },
+    {
+      "assumption": "Span-based answer extraction is necessary for reading comprehension tasks",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "A Simple but Effective Method to Incorporate Multi-turn Context with BERT for Conversational Machine Comprehension"
+    },
+    {
+      "assumption": "The transformer architecture with self-attention mechanisms is essential for effective language model pretraining",
+      "confidence": 0.92,
+      "category": "architectural",
+      "source_paper": "SciBERT: A Pretrained Language Model for Scientific Text"
+    },
+    {
+      "assumption": "Domain-specific pretraining data is required for optimal performance on specialized domain tasks",
+      "confidence": 0.88,
+      "category": "data",
+      "source_paper": "SciBERT: A Pretrained Language Model for Scientific Text"
+    },
+    {
+      "assumption": "Transfer learning through fine-tuning pretrained models is necessary for efficient task-specific adaptation",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "SciBERT: A Pretrained Language Model for Scientific Text"
+    },
+    {
+      "assumption": "Masked language modeling objectives are essential for learning meaningful bidirectional text representations",
+      "confidence": 0.87,
+      "category": "training",
+      "source_paper": "SciBERT: A Pretrained Language Model for Scientific Text"
+    },
+    {
+      "assumption": "Subword tokenization is required for handling vocabulary diversity and out-of-vocabulary terms effectively",
+      "confidence": 0.85,
+      "category": "data",
+      "source_paper": "SciBERT: A Pretrained Language Model for Scientific Text"
+    },
+    {
+      "assumption": "Downstream task performance on standard benchmarks is necessary for validating language model quality",
+      "confidence": 0.83,
+      "category": "evaluation",
+      "source_paper": "SciBERT: A Pretrained Language Model for Scientific Text"
+    },
+    {
+      "assumption": "Deep neural networks with multiple layers are essential for capturing complex linguistic patterns and hierarchical representations",
+      "confidence": 0.86,
+      "category": "architectural",
+      "source_paper": "SciBERT: A Pretrained Language Model for Scientific Text"
+    },
+    {
+      "assumption": "Large amounts of unlabeled text data are required for effective language model pretraining",
+      "confidence": 0.89,
+      "category": "data",
+      "source_paper": "SciBERT: A Pretrained Language Model for Scientific Text"
+    },
+    {
+      "assumption": "Contextual word representations are necessary for capturing polysemy and semantic nuance in natural language",
+      "confidence": 0.84,
+      "category": "theoretical",
+      "source_paper": "SciBERT: A Pretrained Language Model for Scientific Text"
+    },
+    {
+      "assumption": "Large-scale unsupervised pre-training on general text corpora is necessary for achieving state-of-the-art performance in specialized NLP tasks",
+      "confidence": 0.95,
+      "category": "training",
+      "source_paper": "PANLP at MEDIQA 2019: Pre-trained Language Models, Transfer Learning and Knowledge Distillation"
+    },
+    {
+      "assumption": "Transformer architectures with bidirectional attention mechanisms are essential for effective language understanding",
+      "confidence": 0.92,
+      "category": "architectural",
+      "source_paper": "PANLP at MEDIQA 2019: Pre-trained Language Models, Transfer Learning and Knowledge Distillation"
+    },
+    {
+      "assumption": "Fine-tuning pre-trained models on task-specific data is required for optimal performance rather than training from scratch",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "PANLP at MEDIQA 2019: Pre-trained Language Models, Transfer Learning and Knowledge Distillation"
+    },
+    {
+      "assumption": "Model ensemble techniques are necessary to achieve maximum performance in competitive evaluation settings",
+      "confidence": 0.88,
+      "category": "evaluation",
+      "source_paper": "PANLP at MEDIQA 2019: Pre-trained Language Models, Transfer Learning and Knowledge Distillation"
+    },
+    {
+      "assumption": "Transfer learning between related NLP tasks is essential for leveraging cross-task knowledge",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "PANLP at MEDIQA 2019: Pre-trained Language Models, Transfer Learning and Knowledge Distillation"
+    },
+    {
+      "assumption": "Knowledge distillation is required to compress ensemble knowledge into deployable single models without significant performance loss",
+      "confidence": 0.82,
+      "category": "training",
+      "source_paper": "PANLP at MEDIQA 2019: Pre-trained Language Models, Transfer Learning and Knowledge Distillation"
+    },
+    {
+      "assumption": "Comparative evaluation against traditional deep learning baselines is necessary to validate the superiority of transformer-based approaches",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "PANLP at MEDIQA 2019: Pre-trained Language Models, Transfer Learning and Knowledge Distillation"
+    },
+    {
+      "assumption": "Multi-task learning frameworks are essential for leveraging shared representations across related NLP tasks",
+      "confidence": 0.78,
+      "category": "training",
+      "source_paper": "PANLP at MEDIQA 2019: Pre-trained Language Models, Transfer Learning and Knowledge Distillation"
+    },
+    {
+      "assumption": "Post-processing techniques like re-ranking are required to extract maximum performance from trained models",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "PANLP at MEDIQA 2019: Pre-trained Language Models, Transfer Learning and Knowledge Distillation"
+    },
+    {
+      "assumption": "Supervised learning paradigms with labeled task-specific datasets are necessary for achieving practical NLP system performance",
+      "confidence": 0.73,
+      "category": "data",
+      "source_paper": "PANLP at MEDIQA 2019: Pre-trained Language Models, Transfer Learning and Knowledge Distillation"
+    },
+    {
+      "assumption": "Large-scale pre-training on general text corpora is necessary for effective natural language understanding",
+      "confidence": 0.95,
+      "category": "training",
+      "source_paper": "Deep Bidirectional Transformers for Relation Extraction without Supervision"
+    },
+    {
+      "assumption": "Fine-tuning pre-trained models is essential for adapting to downstream tasks",
+      "confidence": 0.92,
+      "category": "training",
+      "source_paper": "Deep Bidirectional Transformers for Relation Extraction without Supervision"
+    },
+    {
+      "assumption": "Transformer architectures are necessary for state-of-the-art natural language processing performance",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Deep Bidirectional Transformers for Relation Extraction without Supervision"
+    },
+    {
+      "assumption": "Syntactic structure is essential for understanding semantic relationships in text",
+      "confidence": 0.88,
+      "category": "theoretical",
+      "source_paper": "Deep Bidirectional Transformers for Relation Extraction without Supervision"
+    },
+    {
+      "assumption": "Distributed word representations are required for capturing semantic similarity",
+      "confidence": 0.87,
+      "category": "theoretical",
+      "source_paper": "Deep Bidirectional Transformers for Relation Extraction without Supervision"
+    },
+    {
+      "assumption": "Comparison against established baselines is necessary for validating new methods",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "Deep Bidirectional Transformers for Relation Extraction without Supervision"
+    },
+    {
+      "assumption": "Bidirectional context modeling is essential for comprehensive text understanding",
+      "confidence": 0.83,
+      "category": "architectural",
+      "source_paper": "Deep Bidirectional Transformers for Relation Extraction without Supervision"
+    },
+    {
+      "assumption": "Noisy training data can be effectively used if the underlying model is sufficiently robust",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Deep Bidirectional Transformers for Relation Extraction without Supervision"
+    },
+    {
+      "assumption": "Domain-specific evaluation datasets are required for measuring task performance",
+      "confidence": 0.78,
+      "category": "evaluation",
+      "source_paper": "Deep Bidirectional Transformers for Relation Extraction without Supervision"
+    },
+    {
+      "assumption": "Iterative bootstrapping from high-precision seeds is necessary for unsupervised learning",
+      "confidence": 0.75,
+      "category": "training",
+      "source_paper": "Deep Bidirectional Transformers for Relation Extraction without Supervision"
+    },
+    {
+      "assumption": "Large-scale pre-training on general text corpora is necessary for achieving state-of-the-art performance on downstream NLP tasks",
+      "confidence": 0.95,
+      "category": "training",
+      "source_paper": "An Empirical Study on Pre-trained Embeddings and Language Models for Bot Detection"
+    },
+    {
+      "assumption": "Fine-tuning pre-trained models is essential for adapting general language understanding to specific tasks",
+      "confidence": 0.92,
+      "category": "training",
+      "source_paper": "An Empirical Study on Pre-trained Embeddings and Language Models for Bot Detection"
+    },
+    {
+      "assumption": "Neural architectures are required for effective text classification and language understanding tasks",
+      "confidence": 0.88,
+      "category": "architectural",
+      "source_paper": "An Empirical Study on Pre-trained Embeddings and Language Models for Bot Detection"
+    },
+    {
+      "assumption": "Distributed vector representations are necessary for capturing semantic relationships in text",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "An Empirical Study on Pre-trained Embeddings and Language Models for Bot Detection"
+    },
+    {
+      "assumption": "Contextual embeddings are essential for handling the variability and ambiguity in natural language",
+      "confidence": 0.87,
+      "category": "architectural",
+      "source_paper": "An Empirical Study on Pre-trained Embeddings and Language Models for Bot Detection"
+    },
+    {
+      "assumption": "Supervised learning with labeled datasets is required for training effective classification models",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "An Empirical Study on Pre-trained Embeddings and Language Models for Bot Detection"
+    },
+    {
+      "assumption": "Comparative evaluation against established baselines is necessary for validating model performance",
+      "confidence": 0.83,
+      "category": "evaluation",
+      "source_paper": "An Empirical Study on Pre-trained Embeddings and Language Models for Bot Detection"
+    },
+    {
+      "assumption": "Transfer learning from general language understanding to specific domains is essential for practical NLP applications",
+      "confidence": 0.86,
+      "category": "theoretical",
+      "source_paper": "An Empirical Study on Pre-trained Embeddings and Language Models for Bot Detection"
+    },
+    {
+      "assumption": "Gradient-based optimization is required for training neural language models effectively",
+      "confidence": 0.84,
+      "category": "training",
+      "source_paper": "An Empirical Study on Pre-trained Embeddings and Language Models for Bot Detection"
+    },
+    {
+      "assumption": "Tokenization and numerical encoding are necessary for processing text in neural networks",
+      "confidence": 0.89,
+      "category": "data",
+      "source_paper": "An Empirical Study on Pre-trained Embeddings and Language Models for Bot Detection"
+    },
+    {
+      "assumption": "Large-scale pre-trained language models are necessary for competitive performance on natural language understanding tasks",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "Jeff Da at COIN - Shared Task"
+    },
+    {
+      "assumption": "External knowledge bases are essential for tasks requiring commonsense reasoning beyond what language models capture",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Jeff Da at COIN - Shared Task"
+    },
+    {
+      "assumption": "Embedding representations are necessary for encoding both textual and structured knowledge information",
+      "confidence": 0.88,
+      "category": "architectural",
+      "source_paper": "Jeff Da at COIN - Shared Task"
+    },
+    {
+      "assumption": "Alignment between different tokenization schemes is required when combining heterogeneous knowledge sources",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Jeff Da at COIN - Shared Task"
+    },
+    {
+      "assumption": "Contextual integration of knowledge is essential rather than simple concatenation or lookup approaches",
+      "confidence": 0.83,
+      "category": "architectural",
+      "source_paper": "Jeff Da at COIN - Shared Task"
+    },
+    {
+      "assumption": "Competitive evaluation on shared task leaderboards is necessary for validating research contributions",
+      "confidence": 0.82,
+      "category": "evaluation",
+      "source_paper": "Jeff Da at COIN - Shared Task"
+    },
+    {
+      "assumption": "Graph-structured knowledge representations are required for capturing relational commonsense information",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Jeff Da at COIN - Shared Task"
+    },
+    {
+      "assumption": "Baseline comparison against standalone pre-trained models is essential for demonstrating knowledge integration benefits",
+      "confidence": 0.78,
+      "category": "evaluation",
+      "source_paper": "Jeff Da at COIN - Shared Task"
+    },
+    {
+      "assumption": "Computational efficiency optimizations are necessary for practical knowledge base integration systems",
+      "confidence": 0.75,
+      "category": "training",
+      "source_paper": "Jeff Da at COIN - Shared Task"
+    },
+    {
+      "assumption": "Question type analysis is required for understanding model performance patterns in reasoning tasks",
+      "confidence": 0.72,
+      "category": "evaluation",
+      "source_paper": "Jeff Da at COIN - Shared Task"
+    },
+    {
+      "assumption": "Large-scale unsupervised pretraining on general text corpora is necessary for achieving competitive performance on downstream NLP tasks",
+      "confidence": 0.95,
+      "category": "training",
+      "source_paper": "Team Howard Beale at SemEval-2019 Task 4: Hyperpartisan News Detection with BERT"
+    },
+    {
+      "assumption": "Transformer-based architectures are essential for state-of-the-art natural language understanding",
+      "confidence": 0.92,
+      "category": "architectural",
+      "source_paper": "Team Howard Beale at SemEval-2019 Task 4: Hyperpartisan News Detection with BERT"
+    },
+    {
+      "assumption": "Fine-tuning pretrained models is required for adapting general language representations to specific tasks",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Team Howard Beale at SemEval-2019 Task 4: Hyperpartisan News Detection with BERT"
+    },
+    {
+      "assumption": "Domain-specific pretraining is necessary for optimal performance when target domain differs from general pretraining data",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Team Howard Beale at SemEval-2019 Task 4: Hyperpartisan News Detection with BERT"
+    },
+    {
+      "assumption": "Supervised learning with labeled examples is essential for text classification tasks",
+      "confidence": 0.88,
+      "category": "theoretical",
+      "source_paper": "Team Howard Beale at SemEval-2019 Task 4: Hyperpartisan News Detection with BERT"
+    },
+    {
+      "assumption": "Accuracy on held-out test sets is necessary for valid performance assessment in classification tasks",
+      "confidence": 0.87,
+      "category": "evaluation",
+      "source_paper": "Team Howard Beale at SemEval-2019 Task 4: Hyperpartisan News Detection with BERT"
+    },
+    {
+      "assumption": "Competitive evaluation through shared tasks is required for establishing state-of-the-art performance claims",
+      "confidence": 0.82,
+      "category": "evaluation",
+      "source_paper": "Team Howard Beale at SemEval-2019 Task 4: Hyperpartisan News Detection with BERT"
+    },
+    {
+      "assumption": "Self-attention mechanisms are necessary for capturing long-range dependencies in text",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Team Howard Beale at SemEval-2019 Task 4: Hyperpartisan News Detection with BERT"
+    },
+    {
+      "assumption": "Tokenization into subword units is necessary for handling vocabulary coverage in neural language models",
+      "confidence": 0.78,
+      "category": "data",
+      "source_paper": "Team Howard Beale at SemEval-2019 Task 4: Hyperpartisan News Detection with BERT"
+    },
+    {
+      "assumption": "Contextualized word representations are essential for capturing semantic relationships in natural language understanding",
+      "confidence": 0.92,
+      "category": "architectural",
+      "source_paper": "Exploiting BERT for End-to-End Aspect-based Sentiment Analysis"
+    },
+    {
+      "assumption": "Transfer learning from pre-trained language models is required for effective few-shot or domain-specific performance",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Exploiting BERT for End-to-End Aspect-based Sentiment Analysis"
+    },
+    {
+      "assumption": "Hold-out validation datasets are necessary for reliable model selection and performance estimation",
+      "confidence": 0.88,
+      "category": "evaluation",
+      "source_paper": "Exploiting BERT for End-to-End Aspect-based Sentiment Analysis"
+    },
+    {
+      "assumption": "End-to-end learning is essential for optimal performance in multi-component NLP tasks",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Exploiting BERT for End-to-End Aspect-based Sentiment Analysis"
+    },
+    {
+      "assumption": "Transformer-based architectures are necessary for capturing long-range dependencies in text",
+      "confidence": 0.83,
+      "category": "architectural",
+      "source_paper": "Exploiting BERT for End-to-End Aspect-based Sentiment Analysis"
+    },
+    {
+      "assumption": "Fine-tuning pre-trained models is required for adapting general language understanding to specific tasks",
+      "confidence": 0.82,
+      "category": "training",
+      "source_paper": "Exploiting BERT for End-to-End Aspect-based Sentiment Analysis"
+    },
+    {
+      "assumption": "Standardized benchmarking protocols are essential for meaningful comparison of model performance",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Exploiting BERT for End-to-End Aspect-based Sentiment Analysis"
+    },
+    {
+      "assumption": "Neural network architectures are necessary for achieving competitive performance in modern NLP tasks",
+      "confidence": 0.78,
+      "category": "architectural",
+      "source_paper": "Exploiting BERT for End-to-End Aspect-based Sentiment Analysis"
+    },
+    {
+      "assumption": "Supervised learning paradigms are required for sentiment analysis and aspect extraction tasks",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "Exploiting BERT for End-to-End Aspect-based Sentiment Analysis"
+    },
+    {
+      "assumption": "Transfer learning from unsupervised pretraining is necessary for achieving optimal performance in sequence-to-sequence tasks",
+      "confidence": 0.95,
+      "category": "training",
+      "source_paper": "Unsupervised Pretraining for Sequence to Sequence Learning"
+    },
+    {
+      "assumption": "Large-scale unlabeled text data is essential for learning meaningful linguistic representations",
+      "confidence": 0.92,
+      "category": "data",
+      "source_paper": "Unsupervised Pretraining for Sequence to Sequence Learning"
+    },
+    {
+      "assumption": "Neural encoder-decoder architectures are required for effective sequence-to-sequence modeling",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Unsupervised Pretraining for Sequence to Sequence Learning"
+    },
+    {
+      "assumption": "Fine-tuning on task-specific labeled data is necessary after unsupervised pretraining",
+      "confidence": 0.88,
+      "category": "training",
+      "source_paper": "Unsupervised Pretraining for Sequence to Sequence Learning"
+    },
+    {
+      "assumption": "BLEU score is essential for evaluating machine translation quality",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "Unsupervised Pretraining for Sequence to Sequence Learning"
+    },
+    {
+      "assumption": "Language modeling objectives are necessary for learning transferable sequence representations",
+      "confidence": 0.83,
+      "category": "theoretical",
+      "source_paper": "Unsupervised Pretraining for Sequence to Sequence Learning"
+    },
+    {
+      "assumption": "Separate encoder and decoder components are required for sequence-to-sequence architectures",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Unsupervised Pretraining for Sequence to Sequence Learning"
+    },
+    {
+      "assumption": "Gradient-based optimization is essential for training neural sequence models",
+      "confidence": 0.78,
+      "category": "training",
+      "source_paper": "Unsupervised Pretraining for Sequence to Sequence Learning"
+    },
+    {
+      "assumption": "Human evaluation is necessary for validating automatic metrics in generation tasks",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "Unsupervised Pretraining for Sequence to Sequence Learning"
+    },
+    {
+      "assumption": "Statistical significance testing is required for establishing model performance improvements",
+      "confidence": 0.72,
+      "category": "evaluation",
+      "source_paper": "Unsupervised Pretraining for Sequence to Sequence Learning"
+    },
+    {
+      "assumption": "Large-scale pretraining on text corpora is necessary for achieving competitive performance in question answering",
+      "confidence": 0.95,
+      "category": "training",
+      "source_paper": "Synthetic QA Corpora Generation with Roundtrip Consistency"
+    },
+    {
+      "assumption": "Transformer-based architectures are essential for state-of-the-art natural language understanding tasks",
+      "confidence": 0.92,
+      "category": "architectural",
+      "source_paper": "Synthetic QA Corpora Generation with Roundtrip Consistency"
+    },
+    {
+      "assumption": "Token-level exact match and F1 scores are necessary metrics for evaluating question answering system quality",
+      "confidence": 0.88,
+      "category": "evaluation",
+      "source_paper": "Synthetic QA Corpora Generation with Roundtrip Consistency"
+    },
+    {
+      "assumption": "Fine-tuning pretrained language models is required for adapting to downstream QA tasks",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Synthetic QA Corpora Generation with Roundtrip Consistency"
+    },
+    {
+      "assumption": "Human performance represents the theoretical upper bound that systems should aspire to reach",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "Synthetic QA Corpora Generation with Roundtrip Consistency"
+    },
+    {
+      "assumption": "Supervised learning on question-answer pairs is necessary for training effective QA systems",
+      "confidence": 0.87,
+      "category": "training",
+      "source_paper": "Synthetic QA Corpora Generation with Roundtrip Consistency"
+    },
+    {
+      "assumption": "Sequence-to-sequence modeling is essential for natural language generation tasks like question generation",
+      "confidence": 0.83,
+      "category": "architectural",
+      "source_paper": "Synthetic QA Corpora Generation with Roundtrip Consistency"
+    },
+    {
+      "assumption": "Synthetic data augmentation is necessary to overcome limitations of available human-annotated datasets",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Synthetic QA Corpora Generation with Roundtrip Consistency"
+    },
+    {
+      "assumption": "Extractive answer spans from source text are the required format for reading comprehension tasks",
+      "confidence": 0.82,
+      "category": "theoretical",
+      "source_paper": "Synthetic QA Corpora Generation with Roundtrip Consistency"
+    },
+    {
+      "assumption": "Consistency between generation and extraction models is necessary for validating synthetic training data quality",
+      "confidence": 0.78,
+      "category": "data",
+      "source_paper": "Synthetic QA Corpora Generation with Roundtrip Consistency"
+    }
+  ],
+  "best_similarity": 0.8047,
+  "soft_rank": 35,
+  "soft_recall_at_5": 0.0,
+  "soft_recall_at_10": 0.0,
+  "soft_recall_at_20": 0.0,
+  "top_5_assumptions": [
+    {
+      "assumption": "Large-scale unsupervised pretraining is necessary for achieving strong natural language understanding performance",
+      "similarity": 0.2824
+    },
+    {
+      "assumption": "Transfer learning from general language tasks to specific downstream tasks is essential for efficient NLP model development",
+      "similarity": 0.3644
+    },
+    {
+      "assumption": "Language modeling captures fundamental linguistic knowledge required for natural language understanding",
+      "similarity": 0.2696
+    },
+    {
+      "assumption": "Sentence-level representations are necessary for effective natural language understanding systems",
+      "similarity": 0.2669
+    },
+    {
+      "assumption": "Performance on downstream tasks is the essential measure of pretraining effectiveness",
+      "similarity": 0.3961
+    }
+  ],
+  "all_details": [
+    {
+      "rank": 35,
+      "assumption": "Fine-tuning is essential for adapting pretrained models to specific tasks or domains",
+      "best_similarity": 0.8047,
+      "is_match": true
+    },
+    {
+      "rank": 81,
+      "assumption": "Fine-tuning pre-trained models is essential for adapting to downstream tasks",
+      "best_similarity": 0.7087,
+      "is_match": true
+    },
+    {
+      "rank": 91,
+      "assumption": "Fine-tuning pre-trained models is essential for adapting general language understanding to specific tasks",
+      "best_similarity": 0.6771,
+      "is_match": true
+    },
+    {
+      "rank": 124,
+      "assumption": "Fine-tuning pre-trained models is required for adapting general language understanding to specific tasks",
+      "best_similarity": 0.6753,
+      "is_match": true
+    },
+    {
+      "rank": 63,
+      "assumption": "Transfer learning through fine-tuning pretrained models is necessary for efficient task-specific adaptation",
+      "best_similarity": 0.6728,
+      "is_match": true
+    },
+    {
+      "rank": 72,
+      "assumption": "Fine-tuning pre-trained models on task-specific data is required for optimal performance rather than training from scratch",
+      "best_similarity": 0.6719,
+      "is_match": true
+    },
+    {
+      "rank": 112,
+      "assumption": "Fine-tuning pretrained models is required for adapting general language representations to specific tasks",
+      "best_similarity": 0.664,
+      "is_match": true
+    },
+    {
+      "rank": 131,
+      "assumption": "Fine-tuning on task-specific labeled data is necessary after unsupervised pretraining",
+      "best_similarity": 0.62,
+      "is_match": false
+    },
+    {
+      "rank": 54,
+      "assumption": "Supervised fine-tuning on task-specific data is required for adapting pretrained models to downstream tasks",
+      "best_similarity": 0.6168,
+      "is_match": false
+    },
+    {
+      "rank": 42,
+      "assumption": "Fine-tuning pre-trained language models is essential for adapting general knowledge to specific tasks",
+      "best_similarity": 0.6099,
+      "is_match": false
+    },
+    {
+      "rank": 141,
+      "assumption": "Fine-tuning pretrained language models is required for adapting to downstream QA tasks",
+      "best_similarity": 0.6038,
+      "is_match": false
+    },
+    {
+      "rank": 49,
+      "assumption": "Hyperparameter optimization is required for achieving optimal fine-tuning performance",
+      "best_similarity": 0.5991,
+      "is_match": false
+    },
+    {
+      "rank": 40,
+      "assumption": "Baseline comparison against established models is required for validating new adaptation approaches",
+      "best_similarity": 0.5966,
+      "is_match": false
+    },
+    {
+      "rank": 14,
+      "assumption": "Fine-tuning pretrained models on downstream tasks is necessary for optimal performance in commonsense reasoning applications",
+      "best_similarity": 0.5706,
+      "is_match": false
+    },
+    {
+      "rank": 46,
+      "assumption": "Domain adaptation through continued training is required when applying models across different domains",
+      "best_similarity": 0.5234,
+      "is_match": false
+    },
+    {
+      "rank": 44,
+      "assumption": "Task-specific knowledge integration is necessary for optimal performance beyond general pre-training",
+      "best_similarity": 0.4985,
+      "is_match": false
+    },
+    {
+      "rank": 37,
+      "assumption": "Unsupervised adaptation methods are required when labeled target domain data is unavailable",
+      "best_similarity": 0.4568,
+      "is_match": false
+    },
+    {
+      "rank": 66,
+      "assumption": "Downstream task performance on standard benchmarks is necessary for validating language model quality",
+      "best_similarity": 0.4536,
+      "is_match": false
+    },
+    {
+      "rank": 78,
+      "assumption": "Post-processing techniques like re-ranking are required to extract maximum performance from trained models",
+      "best_similarity": 0.4491,
+      "is_match": false
+    },
+    {
+      "rank": 88,
+      "assumption": "Domain-specific evaluation datasets are required for measuring task performance",
+      "best_similarity": 0.4251,
+      "is_match": false
+    },
+    {
+      "rank": 27,
+      "assumption": "Evaluation on multiple downstream tasks is required to validate the quality of pretrained representations",
+      "best_similarity": 0.4242,
+      "is_match": false
+    },
+    {
+      "rank": 47,
+      "assumption": "Comparative evaluation against established baselines is necessary for validating model improvements",
+      "best_similarity": 0.4226,
+      "is_match": false
+    },
+    {
+      "rank": 147,
+      "assumption": "Consistency between generation and extraction models is necessary for validating synthetic training data quality",
+      "best_similarity": 0.4194,
+      "is_match": false
+    },
+    {
+      "rank": 113,
+      "assumption": "Domain-specific pretraining is necessary for optimal performance when target domain differs from general pretraining data",
+      "best_similarity": 0.416,
+      "is_match": false
+    },
+    {
+      "rank": 135,
+      "assumption": "Gradient-based optimization is essential for training neural sequence models",
+      "best_similarity": 0.4115,
+      "is_match": false
+    },
+    {
+      "rank": 107,
+      "assumption": "Baseline comparison against standalone pre-trained models is essential for demonstrating knowledge integration benefits",
+      "best_similarity": 0.4114,
+      "is_match": false
+    },
+    {
+      "rank": 98,
+      "assumption": "Gradient-based optimization is required for training neural language models effectively",
+      "best_similarity": 0.4109,
+      "is_match": false
+    },
+    {
+      "rank": 87,
+      "assumption": "Noisy training data can be effectively used if the underlying model is sufficiently robust",
+      "best_similarity": 0.4044,
+      "is_match": false
+    },
+    {
+      "rank": 9,
+      "assumption": "Comparative evaluation across multiple pretraining objectives is necessary for identifying optimal training strategies",
+      "best_similarity": 0.404,
+      "is_match": false
+    },
+    {
+      "rank": 73,
+      "assumption": "Model ensemble techniques are necessary to achieve maximum performance in competitive evaluation settings",
+      "best_similarity": 0.4036,
+      "is_match": false
+    },
+    {
+      "rank": 96,
+      "assumption": "Comparative evaluation against established baselines is necessary for validating model performance",
+      "best_similarity": 0.4033,
+      "is_match": false
+    },
+    {
+      "rank": 5,
+      "assumption": "Performance on downstream tasks is the essential measure of pretraining effectiveness",
+      "best_similarity": 0.3961,
+      "is_match": false
+    },
+    {
+      "rank": 62,
+      "assumption": "Domain-specific pretraining data is required for optimal performance on specialized domain tasks",
+      "best_similarity": 0.3957,
+      "is_match": false
+    },
+    {
+      "rank": 75,
+      "assumption": "Knowledge distillation is required to compress ensemble knowledge into deployable single models without significant performance loss",
+      "best_similarity": 0.3956,
+      "is_match": false
+    },
+    {
+      "rank": 59,
+      "assumption": "Gradient-based optimization is essential for training neural language models",
+      "best_similarity": 0.394,
+      "is_match": false
+    },
+    {
+      "rank": 121,
+      "assumption": "Hold-out validation datasets are necessary for reliable model selection and performance estimation",
+      "best_similarity": 0.3908,
+      "is_match": false
+    },
+    {
+      "rank": 8,
+      "assumption": "Multi-task learning frameworks are essential for leveraging diverse linguistic knowledge",
+      "best_similarity": 0.3891,
+      "is_match": false
+    },
+    {
+      "rank": 115,
+      "assumption": "Accuracy on held-out test sets is necessary for valid performance assessment in classification tasks",
+      "best_similarity": 0.3869,
+      "is_match": false
+    },
+    {
+      "rank": 116,
+      "assumption": "Competitive evaluation through shared tasks is required for establishing state-of-the-art performance claims",
+      "best_similarity": 0.3856,
+      "is_match": false
+    },
+    {
+      "rank": 137,
+      "assumption": "Statistical significance testing is required for establishing model performance improvements",
+      "best_similarity": 0.3834,
+      "is_match": false
+    },
+    {
+      "rank": 89,
+      "assumption": "Iterative bootstrapping from high-precision seeds is necessary for unsupervised learning",
+      "best_similarity": 0.3812,
+      "is_match": false
+    },
+    {
+      "rank": 136,
+      "assumption": "Human evaluation is necessary for validating automatic metrics in generation tasks",
+      "best_similarity": 0.3767,
+      "is_match": false
+    },
+    {
+      "rank": 22,
+      "assumption": "Multi-task learning frameworks are required for effectively incorporating diverse knowledge sources into language models",
+      "best_similarity": 0.3696,
+      "is_match": false
+    },
+    {
+      "rank": 128,
+      "assumption": "Transfer learning from unsupervised pretraining is necessary for achieving optimal performance in sequence-to-sequence tasks",
+      "best_similarity": 0.3689,
+      "is_match": false
+    },
+    {
+      "rank": 74,
+      "assumption": "Transfer learning between related NLP tasks is essential for leveraging cross-task knowledge",
+      "best_similarity": 0.3686,
+      "is_match": false
+    },
+    {
+      "rank": 79,
+      "assumption": "Supervised learning paradigms with labeled task-specific datasets are necessary for achieving practical NLP system performance",
+      "best_similarity": 0.3665,
+      "is_match": false
+    },
+    {
+      "rank": 2,
+      "assumption": "Transfer learning from general language tasks to specific downstream tasks is essential for efficient NLP model development",
+      "best_similarity": 0.3644,
+      "is_match": false
+    },
+    {
+      "rank": 122,
+      "assumption": "End-to-end learning is essential for optimal performance in multi-component NLP tasks",
+      "best_similarity": 0.3625,
+      "is_match": false
+    },
+    {
+      "rank": 61,
+      "assumption": "The transformer architecture with self-attention mechanisms is essential for effective language model pretraining",
+      "best_similarity": 0.3623,
+      "is_match": false
+    },
+    {
+      "rank": 51,
+      "assumption": "Transformer-based architectures are necessary for achieving state-of-the-art performance in natural language understanding tasks",
+      "best_similarity": 0.3619,
+      "is_match": false
+    },
+    {
+      "rank": 34,
+      "assumption": "Domain similarity between pretraining and target data is necessary for optimal model performance",
+      "best_similarity": 0.3601,
+      "is_match": false
+    },
+    {
+      "rank": 120,
+      "assumption": "Transfer learning from pre-trained language models is required for effective few-shot or domain-specific performance",
+      "best_similarity": 0.3596,
+      "is_match": false
+    },
+    {
+      "rank": 85,
+      "assumption": "Comparison against established baselines is necessary for validating new methods",
+      "best_similarity": 0.3567,
+      "is_match": false
+    },
+    {
+      "rank": 18,
+      "assumption": "Gradient-based optimization methods are necessary for effectively training deep neural networks to learn commonsense representations",
+      "best_similarity": 0.356,
+      "is_match": false
+    },
+    {
+      "rank": 125,
+      "assumption": "Standardized benchmarking protocols are essential for meaningful comparison of model performance",
+      "best_similarity": 0.3511,
+      "is_match": false
+    },
+    {
+      "rank": 142,
+      "assumption": "Human performance represents the theoretical upper bound that systems should aspire to reach",
+      "best_similarity": 0.3501,
+      "is_match": false
+    },
+    {
+      "rank": 29,
+      "assumption": "Joint optimization of multiple objectives is necessary for incorporating heterogeneous knowledge sources",
+      "best_similarity": 0.3458,
+      "is_match": false
+    },
+    {
+      "rank": 117,
+      "assumption": "Self-attention mechanisms are necessary for capturing long-range dependencies in text",
+      "best_similarity": 0.3405,
+      "is_match": false
+    },
+    {
+      "rank": 77,
+      "assumption": "Multi-task learning frameworks are essential for leveraging shared representations across related NLP tasks",
+      "best_similarity": 0.338,
+      "is_match": false
+    },
+    {
+      "rank": 139,
+      "assumption": "Transformer-based architectures are essential for state-of-the-art natural language understanding tasks",
+      "best_similarity": 0.337,
+      "is_match": false
+    },
+    {
+      "rank": 23,
+      "assumption": "Transfer learning from pretrained representations is essential for practical NLP applications",
+      "best_similarity": 0.3367,
+      "is_match": false
+    },
+    {
+      "rank": 130,
+      "assumption": "Neural encoder-decoder architectures are required for effective sequence-to-sequence modeling",
+      "best_similarity": 0.3367,
+      "is_match": false
+    },
+    {
+      "rank": 24,
+      "assumption": "Transformer-based architectures are necessary for state-of-the-art language understanding",
+      "best_similarity": 0.3312,
+      "is_match": false
+    },
+    {
+      "rank": 71,
+      "assumption": "Transformer architectures with bidirectional attention mechanisms are essential for effective language understanding",
+      "best_similarity": 0.3304,
+      "is_match": false
+    },
+    {
+      "rank": 140,
+      "assumption": "Token-level exact match and F1 scores are necessary metrics for evaluating question answering system quality",
+      "best_similarity": 0.329,
+      "is_match": false
+    },
+    {
+      "rank": 68,
+      "assumption": "Large amounts of unlabeled text data are required for effective language model pretraining",
+      "best_similarity": 0.3279,
+      "is_match": false
+    },
+    {
+      "rank": 108,
+      "assumption": "Computational efficiency optimizations are necessary for practical knowledge base integration systems",
+      "best_similarity": 0.3274,
+      "is_match": false
+    },
+    {
+      "rank": 58,
+      "assumption": "Sequential processing of input tokens is necessary for language model architectures",
+      "best_similarity": 0.3254,
+      "is_match": false
+    },
+    {
+      "rank": 126,
+      "assumption": "Neural network architectures are necessary for achieving competitive performance in modern NLP tasks",
+      "best_similarity": 0.3254,
+      "is_match": false
+    },
+    {
+      "rank": 15,
+      "assumption": "Probing tasks with classification objectives are required to evaluate and understand the internal knowledge representations of neural models",
+      "best_similarity": 0.3251,
+      "is_match": false
+    },
+    {
+      "rank": 105,
+      "assumption": "Competitive evaluation on shared task leaderboards is necessary for validating research contributions",
+      "best_similarity": 0.3249,
+      "is_match": false
+    },
+    {
+      "rank": 123,
+      "assumption": "Transformer-based architectures are necessary for capturing long-range dependencies in text",
+      "best_similarity": 0.3197,
+      "is_match": false
+    },
+    {
+      "rank": 33,
+      "assumption": "Masked language modeling is required for learning meaningful contextual representations",
+      "best_similarity": 0.3184,
+      "is_match": false
+    },
+    {
+      "rank": 82,
+      "assumption": "Transformer architectures are necessary for state-of-the-art natural language processing performance",
+      "best_similarity": 0.3161,
+      "is_match": false
+    },
+    {
+      "rank": 43,
+      "assumption": "Transformer-based architectures are required for state-of-the-art natural language understanding",
+      "best_similarity": 0.3149,
+      "is_match": false
+    },
+    {
+      "rank": 41,
+      "assumption": "Pre-training on large-scale general corpora is necessary for achieving strong performance on downstream NLP tasks",
+      "best_similarity": 0.3133,
+      "is_match": false
+    },
+    {
+      "rank": 57,
+      "assumption": "Benchmark datasets with human annotations are required for measuring progress in conversational AI",
+      "best_similarity": 0.3128,
+      "is_match": false
+    },
+    {
+      "rank": 92,
+      "assumption": "Neural architectures are required for effective text classification and language understanding tasks",
+      "best_similarity": 0.3118,
+      "is_match": false
+    },
+    {
+      "rank": 109,
+      "assumption": "Question type analysis is required for understanding model performance patterns in reasoning tasks",
+      "best_similarity": 0.3118,
+      "is_match": false
+    },
+    {
+      "rank": 38,
+      "assumption": "Transfer learning from source to target domains is essential for leveraging limited labeled data",
+      "best_similarity": 0.3114,
+      "is_match": false
+    },
+    {
+      "rank": 12,
+      "assumption": "Transformer architectures with self-attention mechanisms are essential for learning contextual representations that capture commonsense reasoning",
+      "best_similarity": 0.3093,
+      "is_match": false
+    },
+    {
+      "rank": 50,
+      "assumption": "Standard benchmark datasets are necessary for meaningful performance comparison across methods",
+      "best_similarity": 0.3077,
+      "is_match": false
+    },
+    {
+      "rank": 97,
+      "assumption": "Transfer learning from general language understanding to specific domains is essential for practical NLP applications",
+      "best_similarity": 0.3072,
+      "is_match": false
+    },
+    {
+      "rank": 111,
+      "assumption": "Transformer-based architectures are essential for state-of-the-art natural language understanding",
+      "best_similarity": 0.3047,
+      "is_match": false
+    },
+    {
+      "rank": 133,
+      "assumption": "Language modeling objectives are necessary for learning transferable sequence representations",
+      "best_similarity": 0.3005,
+      "is_match": false
+    },
+    {
+      "rank": 100,
+      "assumption": "Large-scale pre-trained language models are necessary for competitive performance on natural language understanding tasks",
+      "best_similarity": 0.3002,
+      "is_match": false
+    },
+    {
+      "rank": 31,
+      "assumption": "Large-scale pretraining on unlabeled text is necessary for achieving strong performance across natural language processing tasks",
+      "best_similarity": 0.2976,
+      "is_match": false
+    },
+    {
+      "rank": 64,
+      "assumption": "Masked language modeling objectives are essential for learning meaningful bidirectional text representations",
+      "best_similarity": 0.2938,
+      "is_match": false
+    },
+    {
+      "rank": 127,
+      "assumption": "Supervised learning paradigms are required for sentiment analysis and aspect extraction tasks",
+      "best_similarity": 0.2938,
+      "is_match": false
+    },
+    {
+      "rank": 10,
+      "assumption": "Deep neural architectures are required for learning complex linguistic representations from pretraining tasks",
+      "best_similarity": 0.2906,
+      "is_match": false
+    },
+    {
+      "rank": 76,
+      "assumption": "Comparative evaluation against traditional deep learning baselines is necessary to validate the superiority of transformer-based approaches",
+      "best_similarity": 0.2887,
+      "is_match": false
+    },
+    {
+      "rank": 104,
+      "assumption": "Contextual integration of knowledge is essential rather than simple concatenation or lookup approaches",
+      "best_similarity": 0.2873,
+      "is_match": false
+    },
+    {
+      "rank": 25,
+      "assumption": "Self-supervised objectives like masked language modeling are required for learning meaningful linguistic representations",
+      "best_similarity": 0.2872,
+      "is_match": false
+    },
+    {
+      "rank": 90,
+      "assumption": "Large-scale pre-training on general text corpora is necessary for achieving state-of-the-art performance on downstream NLP tasks",
+      "best_similarity": 0.2836,
+      "is_match": false
+    },
+    {
+      "rank": 145,
+      "assumption": "Synthetic data augmentation is necessary to overcome limitations of available human-annotated datasets",
+      "best_similarity": 0.2831,
+      "is_match": false
+    },
+    {
+      "rank": 1,
+      "assumption": "Large-scale unsupervised pretraining is necessary for achieving strong natural language understanding performance",
+      "best_similarity": 0.2824,
+      "is_match": false
+    },
+    {
+      "rank": 70,
+      "assumption": "Large-scale unsupervised pre-training on general text corpora is necessary for achieving state-of-the-art performance in specialized NLP tasks",
+      "best_similarity": 0.2787,
+      "is_match": false
+    },
+    {
+      "rank": 56,
+      "assumption": "Contextual understanding is necessary for effective question answering systems",
+      "best_similarity": 0.2761,
+      "is_match": false
+    },
+    {
+      "rank": 86,
+      "assumption": "Bidirectional context modeling is essential for comprehensive text understanding",
+      "best_similarity": 0.2737,
+      "is_match": false
+    },
+    {
+      "rank": 67,
+      "assumption": "Deep neural networks with multiple layers are essential for capturing complex linguistic patterns and hierarchical representations",
+      "best_similarity": 0.2732,
+      "is_match": false
+    },
+    {
+      "rank": 94,
+      "assumption": "Contextual embeddings are essential for handling the variability and ambiguity in natural language",
+      "best_similarity": 0.2727,
+      "is_match": false
+    },
+    {
+      "rank": 95,
+      "assumption": "Supervised learning with labeled datasets is required for training effective classification models",
+      "best_similarity": 0.2715,
+      "is_match": false
+    },
+    {
+      "rank": 110,
+      "assumption": "Large-scale unsupervised pretraining on general text corpora is necessary for achieving competitive performance on downstream NLP tasks",
+      "best_similarity": 0.2714,
+      "is_match": false
+    },
+    {
+      "rank": 103,
+      "assumption": "Alignment between different tokenization schemes is required when combining heterogeneous knowledge sources",
+      "best_similarity": 0.2701,
+      "is_match": false
+    },
+    {
+      "rank": 3,
+      "assumption": "Language modeling captures fundamental linguistic knowledge required for natural language understanding",
+      "best_similarity": 0.2696,
+      "is_match": false
+    },
+    {
+      "rank": 26,
+      "assumption": "External structured linguistic knowledge is necessary to complement distributional learning for optimal language understanding",
+      "best_similarity": 0.268,
+      "is_match": false
+    },
+    {
+      "rank": 101,
+      "assumption": "External knowledge bases are essential for tasks requiring commonsense reasoning beyond what language models capture",
+      "best_similarity": 0.2679,
+      "is_match": false
+    },
+    {
+      "rank": 80,
+      "assumption": "Large-scale pre-training on general text corpora is necessary for effective natural language understanding",
+      "best_similarity": 0.2672,
+      "is_match": false
+    },
+    {
+      "rank": 4,
+      "assumption": "Sentence-level representations are necessary for effective natural language understanding systems",
+      "best_similarity": 0.2669,
+      "is_match": false
+    },
+    {
+      "rank": 21,
+      "assumption": "Large-scale unsupervised pretraining on text corpora is necessary for achieving strong performance on downstream NLP tasks",
+      "best_similarity": 0.2661,
+      "is_match": false
+    },
+    {
+      "rank": 138,
+      "assumption": "Large-scale pretraining on text corpora is necessary for achieving competitive performance in question answering",
+      "best_similarity": 0.266,
+      "is_match": false
+    },
+    {
+      "rank": 7,
+      "assumption": "Large amounts of unlabeled text data are necessary for learning generalizable language representations",
+      "best_similarity": 0.2659,
+      "is_match": false
+    },
+    {
+      "rank": 132,
+      "assumption": "BLEU score is essential for evaluating machine translation quality",
+      "best_similarity": 0.2653,
+      "is_match": false
+    },
+    {
+      "rank": 45,
+      "assumption": "Supervised learning on labeled datasets is essential for text classification performance evaluation",
+      "best_similarity": 0.2641,
+      "is_match": false
+    },
+    {
+      "rank": 20,
+      "assumption": "Deep neural architectures with multiple layers are essential for learning hierarchical representations that capture commonsense knowledge",
+      "best_similarity": 0.2637,
+      "is_match": false
+    },
+    {
+      "rank": 84,
+      "assumption": "Distributed word representations are required for capturing semantic similarity",
+      "best_similarity": 0.2623,
+      "is_match": false
+    },
+    {
+      "rank": 39,
+      "assumption": "Out-of-vocabulary word handling is necessary for robust natural language processing systems",
+      "best_similarity": 0.2619,
+      "is_match": false
+    },
+    {
+      "rank": 55,
+      "assumption": "F1 score is essential for evaluating machine reading comprehension performance",
+      "best_similarity": 0.2619,
+      "is_match": false
+    },
+    {
+      "rank": 36,
+      "assumption": "Sequence labeling evaluation is necessary for measuring model understanding of token-level linguistic phenomena",
+      "best_similarity": 0.2608,
+      "is_match": false
+    },
+    {
+      "rank": 93,
+      "assumption": "Distributed vector representations are necessary for capturing semantic relationships in text",
+      "best_similarity": 0.2518,
+      "is_match": false
+    },
+    {
+      "rank": 69,
+      "assumption": "Contextual word representations are necessary for capturing polysemy and semantic nuance in natural language",
+      "best_similarity": 0.2493,
+      "is_match": false
+    },
+    {
+      "rank": 118,
+      "assumption": "Tokenization into subword units is necessary for handling vocabulary coverage in neural language models",
+      "best_similarity": 0.2482,
+      "is_match": false
+    },
+    {
+      "rank": 60,
+      "assumption": "Span-based answer extraction is necessary for reading comprehension tasks",
+      "best_similarity": 0.246,
+      "is_match": false
+    },
+    {
+      "rank": 19,
+      "assumption": "Benchmark datasets with human-annotated labels are required to measure commonsense reasoning capabilities",
+      "best_similarity": 0.2448,
+      "is_match": false
+    },
+    {
+      "rank": 143,
+      "assumption": "Supervised learning on question-answer pairs is necessary for training effective QA systems",
+      "best_similarity": 0.2439,
+      "is_match": false
+    },
+    {
+      "rank": 32,
+      "assumption": "Contextualized representations are essential for capturing semantic meaning in natural language understanding",
+      "best_similarity": 0.239,
+      "is_match": false
+    },
+    {
+      "rank": 134,
+      "assumption": "Separate encoder and decoder components are required for sequence-to-sequence architectures",
+      "best_similarity": 0.2381,
+      "is_match": false
+    },
+    {
+      "rank": 114,
+      "assumption": "Supervised learning with labeled examples is essential for text classification tasks",
+      "best_similarity": 0.234,
+      "is_match": false
+    },
+    {
+      "rank": 13,
+      "assumption": "Commonsense knowledge can be effectively encoded and retrieved through distributed vector representations in high-dimensional embedding spaces",
+      "best_similarity": 0.2291,
+      "is_match": false
+    },
+    {
+      "rank": 52,
+      "assumption": "Large-scale pretraining on general text corpora is essential for effective language representation learning",
+      "best_similarity": 0.2286,
+      "is_match": false
+    },
+    {
+      "rank": 30,
+      "assumption": "Contextual word representations are required for capturing complex linguistic phenomena",
+      "best_similarity": 0.2281,
+      "is_match": false
+    },
+    {
+      "rank": 119,
+      "assumption": "Contextualized word representations are essential for capturing semantic relationships in natural language understanding",
+      "best_similarity": 0.2273,
+      "is_match": false
+    },
+    {
+      "rank": 144,
+      "assumption": "Sequence-to-sequence modeling is essential for natural language generation tasks like question generation",
+      "best_similarity": 0.2255,
+      "is_match": false
+    },
+    {
+      "rank": 102,
+      "assumption": "Embedding representations are necessary for encoding both textual and structured knowledge information",
+      "best_similarity": 0.2248,
+      "is_match": false
+    },
+    {
+      "rank": 65,
+      "assumption": "Subword tokenization is required for handling vocabulary diversity and out-of-vocabulary terms effectively",
+      "best_similarity": 0.2233,
+      "is_match": false
+    },
+    {
+      "rank": 99,
+      "assumption": "Tokenization and numerical encoding are necessary for processing text in neural networks",
+      "best_similarity": 0.2179,
+      "is_match": false
+    },
+    {
+      "rank": 17,
+      "assumption": "Large-scale text corpora contain sufficient implicit commonsense knowledge that can be extracted through statistical learning",
+      "best_similarity": 0.2172,
+      "is_match": false
+    },
+    {
+      "rank": 28,
+      "assumption": "Large-scale unlabeled text corpora are essential for learning robust linguistic representations",
+      "best_similarity": 0.2167,
+      "is_match": false
+    },
+    {
+      "rank": 11,
+      "assumption": "Large-scale unsupervised pretraining on text corpora is necessary for acquiring commonsense knowledge representations",
+      "best_similarity": 0.2122,
+      "is_match": false
+    },
+    {
+      "rank": 6,
+      "assumption": "Contextual word representations are required for capturing semantic meaning in natural language",
+      "best_similarity": 0.2117,
+      "is_match": false
+    },
+    {
+      "rank": 129,
+      "assumption": "Large-scale unlabeled text data is essential for learning meaningful linguistic representations",
+      "best_similarity": 0.2095,
+      "is_match": false
+    },
+    {
+      "rank": 53,
+      "assumption": "Token-level representations are necessary for encoding semantic meaning in text",
+      "best_similarity": 0.1991,
+      "is_match": false
+    },
+    {
+      "rank": 48,
+      "assumption": "Contextual representations are essential for capturing semantic meaning in text classification",
+      "best_similarity": 0.1986,
+      "is_match": false
+    },
+    {
+      "rank": 146,
+      "assumption": "Extractive answer spans from source text are the required format for reading comprehension tasks",
+      "best_similarity": 0.1938,
+      "is_match": false
+    },
+    {
+      "rank": 16,
+      "assumption": "Structured knowledge graphs contain essential explicit knowledge that is necessary to complement learned representations for commonsense reasoning",
+      "best_similarity": 0.1839,
+      "is_match": false
+    },
+    {
+      "rank": 106,
+      "assumption": "Graph-structured knowledge representations are required for capturing relational commonsense information",
+      "best_similarity": 0.1726,
+      "is_match": false
+    },
+    {
+      "rank": 83,
+      "assumption": "Syntactic structure is essential for understanding semantic relationships in text",
+      "best_similarity": 0.1337,
+      "is_match": false
+    }
+  ]
+}

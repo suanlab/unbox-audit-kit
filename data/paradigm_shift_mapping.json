@@ -1,0 +1,102 @@
+{
+  "transformer": {
+    "year": 2017,
+    "broken_assumption": "recurrence is necessary for sequence modeling",
+    "aliases": [
+      "recurrent structure is required for sequence modeling",
+      "sequence models require recurrence"
+    ],
+    "category": "Architectural",
+    "subcategory": "Model Structure"
+  },
+  "diffusion": {
+    "year": 2020,
+    "broken_assumption": "adversarial training is necessary for high-quality generation",
+    "aliases": [
+      "high-quality generation requires adversarial training",
+      "gan-style adversarial objectives are required for strong image generation"
+    ],
+    "category": "Training",
+    "subcategory": "Learning Procedure"
+  },
+  "icl": {
+    "year": 2020,
+    "broken_assumption": "fine-tuning is necessary for task adaptation",
+    "aliases": [
+      "task adaptation requires fine-tuning",
+      "downstream adaptation must update model weights"
+    ],
+    "category": "Data",
+    "subcategory": "Data Requirements"
+  },
+  "vit": {
+    "year": 2020,
+    "broken_assumption": "convolutional layers are necessary for vision",
+    "aliases": [
+      "vision models require convolutional layers",
+      "image understanding needs convolutional inductive biases"
+    ],
+    "category": "Architectural",
+    "subcategory": "Component Design"
+  },
+  "resnet": {
+    "year": 2015,
+    "broken_assumption": "Deep networks must process information through sequential layers without shortcuts",
+    "aliases": [
+      "deep networks require sequential layer-by-layer processing",
+      "adding more layers always increases training difficulty"
+    ],
+    "category": "Architectural",
+    "subcategory": "Model Structure"
+  },
+  "gan": {
+    "year": 2014,
+    "broken_assumption": "Generative modeling requires explicit density estimation or variational inference",
+    "aliases": [
+      "generative models must define an explicit likelihood function",
+      "learning to generate data requires modeling the probability distribution explicitly"
+    ],
+    "category": "Training",
+    "subcategory": "Learning Procedure"
+  },
+  "word2vec": {
+    "year": 2013,
+    "broken_assumption": "Word meaning requires symbolic or hand-crafted feature representations",
+    "aliases": [
+      "word representations should be based on linguistic features",
+      "semantic similarity requires structured knowledge bases"
+    ],
+    "category": "Data",
+    "subcategory": "Data Requirements"
+  },
+  "dropout": {
+    "year": 2014,
+    "broken_assumption": "All neurons should be active during training for optimal learning",
+    "aliases": [
+      "training neural networks requires using all available parameters",
+      "randomly disabling neurons during training would harm learning"
+    ],
+    "category": "Training",
+    "subcategory": "Learning Procedure"
+  },
+  "batchnorm": {
+    "year": 2015,
+    "broken_assumption": "Network training requires careful weight initialization and low learning rates",
+    "aliases": [
+      "training deep networks requires careful initialization schemes",
+      "high learning rates cause training instability"
+    ],
+    "category": "Training",
+    "subcategory": "Learning Procedure"
+  },
+  "bert": {
+    "year": 2018,
+    "broken_assumption": "Language model pre-training must be left-to-right (autoregressive)",
+    "aliases": [
+      "language models should generate text left-to-right",
+      "autoregressive training is necessary for language model pre-training"
+    ],
+    "category": "Training",
+    "subcategory": "Learning Procedure"
+  }
+}

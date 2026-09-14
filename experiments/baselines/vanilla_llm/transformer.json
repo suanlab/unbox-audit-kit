@@ -1,0 +1,57 @@
+{
+  "baseline": "vanilla_llm",
+  "category": "transformer",
+  "ran_at": "2026-03-18T00:53:13.140760+00:00",
+  "inputs": {
+    "num_papers": 15,
+    "ground_truth_aliases": [
+      "recurrence is necessary for sequence modeling",
+      "recurrent structure is required for sequence modeling",
+      "sequence models require recurrence"
+    ]
+  },
+  "config": {
+    "model": "claude-sonnet-4-20250514",
+    "top_ks": [
+      5,
+      10,
+      20
+    ],
+    "max_papers": 15,
+    "assumption_limit": 20
+  },
+  "outputs": {
+    "num_candidates": 20,
+    "candidates": [
+      "Sequential processing requires recurrence",
+      "Attention mechanisms must operate over encoder hidden states",
+      "End-to-end learning is always superior to modular approaches",
+      "Text processing requires explicit tokenization into discrete units",
+      "Memory in neural networks must be implemented through gating mechanisms",
+      "Language understanding requires left-to-right sequential processing",
+      "Neural architectures must be differentiable throughout",
+      "Sequence-to-sequence tasks require separate encoder and decoder components",
+      "Attention weights must sum to one and represent probability distributions",
+      "RNN hidden states capture all necessary temporal dependencies",
+      "Translation quality requires word-level or subword-level representations",
+      "Neural language models must predict one token at a time",
+      "Multimodal fusion requires late integration of feature representations",
+      "Similarity learning requires symmetric distance metrics",
+      "Dropout must be applied uniformly across network components",
+      "Sequence alignment must be monotonic or nearly monotonic",
+      "Neural networks require fixed-dimensional input representations",
+      "Attention mechanisms must be content-based rather than position-based",
+      "Recurrent connections are necessary for temporal modeling",
+      "Gradient-based optimization is the only viable training method"
+    ]
+  },
+  "metrics": {
+    "rank": 21.0,
+    "recall_at_5": 0.0,
+    "precision_at_5": 0.0,
+    "recall_at_10": 0.0,
+    "precision_at_10": 0.0,
+    "recall_at_20": 0.0,
+    "precision_at_20": 0.0
+  }
+}

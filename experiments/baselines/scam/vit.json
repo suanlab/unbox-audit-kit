@@ -1,0 +1,51 @@
+{
+  "baseline": "scam",
+  "category": "vit",
+  "ran_at": "2026-03-18T21:00:02.445802+00:00",
+  "config": {
+    "n_samples": 3,
+    "max_papers": 15,
+    "max_assumptions_per_sample": 5,
+    "threshold": 0.65,
+    "prompt": "field_wide"
+  },
+  "inputs": {
+    "num_papers": 15,
+    "ground_truth_aliases": [
+      "convolutional layers are necessary for vision",
+      "vision models require convolutional layers",
+      "image understanding needs convolutional inductive biases"
+    ]
+  },
+  "outputs": {
+    "num_unique_assumptions": 50,
+    "top_20": [
+      "residual connections are necessary for training deep networks effectively",
+      "convolutional architectures are essential for effective image recognition and scene understanding",
+      "deeper networks are necessary for better representational capacity and performance",
+      "model compression requires maintaining the original architecture s core design principles",
+      "residual connections are essential for training very deep networks effectively",
+      "large scale labeled datasets are necessary for training robust image classification models",
+      "multi scale feature representations are necessary for accurate object detection and segmentation",
+      "skip connections are necessary to preserve fine grained spatial information in deep networks",
+      "convolutional neural networks are necessary for effective visual feature learning in computer vision tasks",
+      "multi scale feature representations are essential for dense pixel level prediction tasks",
+      "deep supervision is required to effectively train very deep networks for dense prediction",
+      "convolutional neural networks are essential for effective visual feature extraction in computer vision tasks",
+      "multi scale feature representation is necessary for accurate object detection and segmentation",
+      "deep supervision is required to effectively train very deep neural networks",
+      "skip connections are necessary to preserve fine grained spatial information in dense prediction tasks",
+      "fully convolutional architectures are essential for dense pixel wise prediction tasks",
+      "convolutional operations are essential for effective visual feature learning",
+      "spatial locality and translation equivariance are fundamental requirements for visual processing",
+      "fixed geometric sampling patterns are necessary for stable neural network training",
+      "hierarchical feature extraction through deep networks is required for complex visual tasks"
+    ]
+  },
+  "metrics": {
+    "soft_rank": 2.0,
+    "soft_recall_at_5": 1.0,
+    "soft_recall_at_10": 1.0,
+    "soft_recall_at_20": 1.0
+  }
+}

@@ -1,0 +1,527 @@
+[
+  {
+    "paper_id": "https://openalex.org/W2943118732",
+    "paper_title": "Electrocardiogram generation with a bidirectional LSTM-CNN generative adversarial network",
+    "assumption": "Generative adversarial networks are necessary for high-quality synthetic data generation",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2943118732",
+    "paper_title": "Electrocardiogram generation with a bidirectional LSTM-CNN generative adversarial network",
+    "assumption": "Labeled clinical data is essential for training automated medical diagnosis models",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2943118732",
+    "paper_title": "Electrocardiogram generation with a bidirectional LSTM-CNN generative adversarial network",
+    "assumption": "Convolutional neural networks are required for effective feature extraction in time-series data",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2943118732",
+    "paper_title": "Electrocardiogram generation with a bidirectional LSTM-CNN generative adversarial network",
+    "assumption": "Bidirectional LSTM networks are necessary for capturing temporal dependencies in sequential data",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2943118732",
+    "paper_title": "Electrocardiogram generation with a bidirectional LSTM-CNN generative adversarial network",
+    "assumption": "Privacy concerns are a significant barrier to the use of patient data in model training",
+    "confidence": 0.7,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963142510",
+    "paper_title": "VEEGAN: Reducing Mode Collapse in GANs using Implicit Variational Learning",
+    "assumption": "Adversarial training is necessary for high-quality image generation",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963142510",
+    "paper_title": "VEEGAN: Reducing Mode Collapse in GANs using Implicit Variational Learning",
+    "assumption": "Generative models require a mechanism to handle mode collapse",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963142510",
+    "paper_title": "VEEGAN: Reducing Mode Collapse in GANs using Implicit Variational Learning",
+    "assumption": "A reconstructor network is essential for reversing the action of the generator",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963142510",
+    "paper_title": "VEEGAN: Reducing Mode Collapse in GANs using Implicit Variational Learning",
+    "assumption": "Theoretical guarantees are required for the consistency of generative models",
+    "confidence": 0.75,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963142510",
+    "paper_title": "VEEGAN: Reducing Mode Collapse in GANs using Implicit Variational Learning",
+    "assumption": "Standard normal distributions are essential for representation learning in generative models",
+    "confidence": 0.7,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2981036610",
+    "paper_title": "Combining Noise-to-Image and Image-to-Image GANs: Brain MR Image Augmentation for Tumor Detection",
+    "assumption": "Generative Adversarial Networks (GANs) are essential for augmenting small and fragmented medical imaging datasets.",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2981036610",
+    "paper_title": "Combining Noise-to-Image and Image-to-Image GANs: Brain MR Image Augmentation for Tumor Detection",
+    "assumption": "Convolutional Neural Networks (CNNs) require sufficient annotated training data for excellent computer-assisted diagnosis.",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2981036610",
+    "paper_title": "Combining Noise-to-Image and Image-to-Image GANs: Brain MR Image Augmentation for Tumor Detection",
+    "assumption": "High-resolution image generation requires multi-stage GAN architectures.",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2981036610",
+    "paper_title": "Combining Noise-to-Image and Image-to-Image GANs: Brain MR Image Augmentation for Tumor Detection",
+    "assumption": "Combining different types of GANs can enhance data augmentation effects.",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2981036610",
+    "paper_title": "Combining Noise-to-Image and Image-to-Image GANs: Brain MR Image Augmentation for Tumor Detection",
+    "assumption": "Pre-training on large datasets like ImageNet is necessary for improving CNN performance in specialized tasks.",
+    "confidence": 0.7,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963278610",
+    "paper_title": "VGAN-Based Image Representation Learning for Privacy-Preserving Facial Expression Recognition",
+    "assumption": "Adversarial training is essential for high-quality image generation",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963278610",
+    "paper_title": "VGAN-Based Image Representation Learning for Privacy-Preserving Facial Expression Recognition",
+    "assumption": "Disentangled representation learning is necessary for privacy-preserving data analysis",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963278610",
+    "paper_title": "VGAN-Based Image Representation Learning for Privacy-Preserving Facial Expression Recognition",
+    "assumption": "Generative models are required for synthetic data generation",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963278610",
+    "paper_title": "VGAN-Based Image Representation Learning for Privacy-Preserving Facial Expression Recognition",
+    "assumption": "Privacy preservation is essential for user-centric machine learning applications",
+    "confidence": 0.75,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963278610",
+    "paper_title": "VGAN-Based Image Representation Learning for Privacy-Preserving Facial Expression Recognition",
+    "assumption": "Public datasets are necessary for evaluating facial expression recognition models",
+    "confidence": 0.7,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2981950698",
+    "paper_title": "FW-GAN: Flow-Navigated Warping GAN for Video Virtual Try-On",
+    "assumption": "Adversarial training is essential for generating high-quality images and videos",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2981950698",
+    "paper_title": "FW-GAN: Flow-Navigated Warping GAN for Video Virtual Try-On",
+    "assumption": "Spatiotemporal consistency is necessary for video synthesis",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2981950698",
+    "paper_title": "FW-GAN: Flow-Navigated Warping GAN for Video Virtual Try-On",
+    "assumption": "Flow-based warping is required for maintaining coherence in video frames",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2981950698",
+    "paper_title": "FW-GAN: Flow-Navigated Warping GAN for Video Virtual Try-On",
+    "assumption": "Pose manipulation is essential for realistic video virtual try-on",
+    "confidence": 0.75,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2981950698",
+    "paper_title": "FW-GAN: Flow-Navigated Warping GAN for Video Virtual Try-On",
+    "assumption": "High-quality video synthesis requires a combination of image and video data",
+    "confidence": 0.7,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2888457764",
+    "paper_title": "Improved ArtGAN for Conditional Synthesis of Natural Image and Artwork",
+    "assumption": "Adversarial training is necessary for high-quality image generation",
+    "confidence": 1.0,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2888457764",
+    "paper_title": "Improved ArtGAN for Conditional Synthesis of Natural Image and Artwork",
+    "assumption": "A discriminator is essential for guiding the generator in GANs",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2888457764",
+    "paper_title": "Improved ArtGAN for Conditional Synthesis of Natural Image and Artwork",
+    "assumption": "Backpropagation is required for training neural networks",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2888457764",
+    "paper_title": "Improved ArtGAN for Conditional Synthesis of Natural Image and Artwork",
+    "assumption": "Labeled data is essential for conditional image synthesis",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2888457764",
+    "paper_title": "Improved ArtGAN for Conditional Synthesis of Natural Image and Artwork",
+    "assumption": "Inception score is a necessary metric for evaluating generative models",
+    "confidence": 0.8,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963800363",
+    "paper_title": "High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs",
+    "assumption": "Adversarial training is essential for high-quality image generation",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963800363",
+    "paper_title": "High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs",
+    "assumption": "Conditional inputs are necessary for controlled image synthesis",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963800363",
+    "paper_title": "High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs",
+    "assumption": "High-resolution image synthesis requires multi-scale architectures",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963800363",
+    "paper_title": "High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs",
+    "assumption": "Semantic label maps are essential for generating photo-realistic images",
+    "confidence": 0.75,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963800363",
+    "paper_title": "High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs",
+    "assumption": "Instance segmentation is required for object-level image manipulation",
+    "confidence": 0.7,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2765811365",
+    "paper_title": "Generative Adversarial Networks: An Overview",
+    "assumption": "Adversarial training is essential for high-quality generative modeling",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2765811365",
+    "paper_title": "Generative Adversarial Networks: An Overview",
+    "assumption": "A discriminator network is required to guide the generator in learning realistic data distributions",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2765811365",
+    "paper_title": "Generative Adversarial Networks: An Overview",
+    "assumption": "The generator and discriminator must be trained simultaneously in a competitive setting",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2765811365",
+    "paper_title": "Generative Adversarial Networks: An Overview",
+    "assumption": "The Nash equilibrium is a necessary theoretical framework for understanding GAN convergence",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2765811365",
+    "paper_title": "Generative Adversarial Networks: An Overview",
+    "assumption": "Unlabeled data is sufficient for training generative models using adversarial methods",
+    "confidence": 0.8,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2737047298",
+    "paper_title": "Disentangled Representation Learning GAN for Pose-Invariant Face Recognition",
+    "assumption": "Adversarial training is essential for high-quality image generation",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2737047298",
+    "paper_title": "Disentangled Representation Learning GAN for Pose-Invariant Face Recognition",
+    "assumption": "Disentangled representations are necessary for robust face recognition",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2737047298",
+    "paper_title": "Disentangled Representation Learning GAN for Pose-Invariant Face Recognition",
+    "assumption": "Generative models require encoder-decoder architectures for effective representation learning",
+    "confidence": 0.7,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2737047298",
+    "paper_title": "Disentangled Representation Learning GAN for Pose-Invariant Face Recognition",
+    "assumption": "Pose-invariant face recognition requires learning from non-frontal face images",
+    "confidence": 0.8,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2737047298",
+    "paper_title": "Disentangled Representation Learning GAN for Pose-Invariant Face Recognition",
+    "assumption": "Joint learning of multiple tasks is required for leveraging task interdependencies",
+    "confidence": 0.7,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2966792645",
+    "paper_title": "DM-GAN: Dynamic Memory Generative Adversarial Networks for Text-To-Image Synthesis",
+    "assumption": "Adversarial training is essential for high-quality image generation",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2966792645",
+    "paper_title": "DM-GAN: Dynamic Memory Generative Adversarial Networks for Text-To-Image Synthesis",
+    "assumption": "A two-stage process is necessary for text-to-image synthesis, involving initial image generation followed by refinement",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2966792645",
+    "paper_title": "DM-GAN: Dynamic Memory Generative Adversarial Networks for Text-To-Image Synthesis",
+    "assumption": "High-quality text-to-image synthesis requires effective utilization of text information throughout the generation process",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2966792645",
+    "paper_title": "DM-GAN: Dynamic Memory Generative Adversarial Networks for Text-To-Image Synthesis",
+    "assumption": "Initial image quality is critical for the success of subsequent refinement in text-to-image synthesis",
+    "confidence": 0.7,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2966792645",
+    "paper_title": "DM-GAN: Dynamic Memory Generative Adversarial Networks for Text-To-Image Synthesis",
+    "assumption": "Dynamic memory mechanisms are necessary for handling varying importance of text information in image synthesis",
+    "confidence": 0.7,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2761299546",
+    "paper_title": "End-to-End Adversarial Retinal Image Synthesis",
+    "assumption": "Adversarial training is necessary for high-quality image synthesis",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2761299546",
+    "paper_title": "End-to-End Adversarial Retinal Image Synthesis",
+    "assumption": "Large amounts of annotated data are essential for training effective medical image analysis models",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2761299546",
+    "paper_title": "End-to-End Adversarial Retinal Image Synthesis",
+    "assumption": "Differentiable loss functions are required for the joint optimization of generative models",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2761299546",
+    "paper_title": "End-to-End Adversarial Retinal Image Synthesis",
+    "assumption": "Generative models must learn a latent space with semantic structure for meaningful data manipulation",
+    "confidence": 0.75,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2761299546",
+    "paper_title": "End-to-End Adversarial Retinal Image Synthesis",
+    "assumption": "End-to-end training is essential for integrating multiple stages of image synthesis",
+    "confidence": 0.7,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963306805",
+    "paper_title": "Mode Seeking Generative Adversarial Networks for Diverse Image Synthesis",
+    "assumption": "Adversarial training is essential for high-quality image generation",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963306805",
+    "paper_title": "Mode Seeking Generative Adversarial Networks for Diverse Image Synthesis",
+    "assumption": "Mode collapse is a critical issue that must be addressed in generative adversarial networks",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963306805",
+    "paper_title": "Mode Seeking Generative Adversarial Networks for Diverse Image Synthesis",
+    "assumption": "Latent space exploration is necessary for generating diverse outputs",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963306805",
+    "paper_title": "Mode Seeking Generative Adversarial Networks for Diverse Image Synthesis",
+    "assumption": "Conditional information is required for guiding the generation process in conditional GANs",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963306805",
+    "paper_title": "Mode Seeking Generative Adversarial Networks for Diverse Image Synthesis",
+    "assumption": "Regularization techniques are necessary to improve model performance and stability",
+    "confidence": 0.75,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2931020703",
+    "paper_title": "Quantum Generative Adversarial Networks for learning and loading random distributions",
+    "assumption": "Quantum state preparation is essential for realizing quantum advantage",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2931020703",
+    "paper_title": "Quantum Generative Adversarial Networks for learning and loading random distributions",
+    "assumption": "Efficient data encoding into quantum states is necessary for practical quantum algorithms",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2931020703",
+    "paper_title": "Quantum Generative Adversarial Networks for learning and loading random distributions",
+    "assumption": "Hybrid quantum-classical algorithms are required for near-term quantum computing applications",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2931020703",
+    "paper_title": "Quantum Generative Adversarial Networks for learning and loading random distributions",
+    "assumption": "Variational quantum circuits are essential for implementing flexible quantum algorithms",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2931020703",
+    "paper_title": "Quantum Generative Adversarial Networks for learning and loading random distributions",
+    "assumption": "Quantum Generative Adversarial Networks are necessary for learning quantum representations of probability distributions",
+    "confidence": 0.75,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2914057844",
+    "paper_title": "Ea-GANs: Edge-Aware Generative Adversarial Networks for Cross-Modality MR Image Synthesis",
+    "assumption": "Adversarial training is essential for high-quality image synthesis",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2914057844",
+    "paper_title": "Ea-GANs: Edge-Aware Generative Adversarial Networks for Cross-Modality MR Image Synthesis",
+    "assumption": "Cross-modality image synthesis requires capturing complementary information from multiple modalities",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2914057844",
+    "paper_title": "Ea-GANs: Edge-Aware Generative Adversarial Networks for Cross-Modality MR Image Synthesis",
+    "assumption": "Incorporating textural details is necessary for realistic image synthesis",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2914057844",
+    "paper_title": "Ea-GANs: Edge-Aware Generative Adversarial Networks for Cross-Modality MR Image Synthesis",
+    "assumption": "Edge information is essential for preserving image content structure",
+    "confidence": 0.75,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2914057844",
+    "paper_title": "Ea-GANs: Edge-Aware Generative Adversarial Networks for Cross-Modality MR Image Synthesis",
+    "assumption": "Hierarchical feature extraction is required for capturing contextual information in images",
+    "confidence": 0.7,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2798553619",
+    "paper_title": "Joint Pose and Expression Modeling for Facial Expression Recognition",
+    "assumption": "Generative adversarial networks are necessary for high-quality image synthesis",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2798553619",
+    "paper_title": "Joint Pose and Expression Modeling for Facial Expression Recognition",
+    "assumption": "Disentangling identity from expression and pose is essential for robust facial expression recognition",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2798553619",
+    "paper_title": "Joint Pose and Expression Modeling for Facial Expression Recognition",
+    "assumption": "End-to-end deep learning models are required for effective facial expression recognition",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2798553619",
+    "paper_title": "Joint Pose and Expression Modeling for Facial Expression Recognition",
+    "assumption": "Data augmentation through synthetic image generation is necessary to improve model performance",
+    "confidence": 0.75,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2798553619",
+    "paper_title": "Joint Pose and Expression Modeling for Facial Expression Recognition",
+    "assumption": "Encoder-decoder structures are essential for learning generative and discriminative representations",
+    "confidence": 0.7,
+    "category": "architectural"
+  }
+]

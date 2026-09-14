@@ -1,0 +1,63 @@
+{
+  "experiment": "synthetic_benchmark",
+  "description": "Experiment B: Synthetic mini-literatures for fictional fields. Eliminates pretraining memorization entirely.",
+  "model": "gpt-4o",
+  "embedding_model": "text-embedding-3-small",
+  "soft_threshold": 0.65,
+  "ran_at": "2026-03-31T22:50:20.516262+00:00",
+  "scenarios": [
+    {
+      "field": "Chromatic Signal Processing",
+      "planted_assumption": "Frequency decomposition is necessary for chromatic signal analysis",
+      "with_corpus": {
+        "conf_rank": 1.0,
+        "best_sim": 0.9535,
+        "r_at_10": 1.0
+      },
+      "no_corpus": {
+        "conf_rank": 1.0,
+        "best_sim": 0.7417,
+        "r_at_10": 1.0
+      },
+      "num_abstracts": 15,
+      "num_unique_assumptions": 73
+    },
+    {
+      "field": "Neuromorphic Memory Architecture",
+      "planted_assumption": "Hierarchical addressing is necessary for neuromorphic memory retrieval",
+      "with_corpus": {
+        "conf_rank": 2.0,
+        "best_sim": 0.9581,
+        "r_at_10": 1.0
+      },
+      "no_corpus": {
+        "conf_rank": 27.0,
+        "best_sim": 0.6834,
+        "r_at_10": 0.0
+      },
+      "num_abstracts": 15,
+      "num_unique_assumptions": 71
+    },
+    {
+      "field": "Adaptive Topology Networks",
+      "planted_assumption": "Static topology must be defined before training begins",
+      "with_corpus": {
+        "conf_rank": 32.0,
+        "best_sim": 0.707,
+        "r_at_10": 0.0
+      },
+      "no_corpus": {
+        "conf_rank": 7.0,
+        "best_sim": 0.7259,
+        "r_at_10": 1.0
+      },
+      "num_abstracts": 15,
+      "num_unique_assumptions": 74
+    }
+  ],
+  "aggregate": {
+    "with_corpus_r10": "2/3",
+    "no_corpus_r10": "2/3"
+  },
+  "interpretation": "INCONCLUSIVE: Both conditions hit 2/3 at R@10. The model may be inferring assumptions from the field name structure."
+}

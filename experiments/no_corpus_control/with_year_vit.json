@@ -1,0 +1,405 @@
+{
+  "condition": "with_year",
+  "paradigm": "vit",
+  "field_name": "visual recognition and image classification (pre-2020)",
+  "ground_truth": "convolutional layers are necessary for vision",
+  "num_calls": 15,
+  "num_raw_assumptions": 150,
+  "num_unique_assumptions": 60,
+  "assumptions": [
+    {
+      "assumption": "Large labeled datasets are essential for training effective visual recognition models",
+      "confidence": 0.95,
+      "category": "data",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Deep neural networks are necessary for achieving state-of-the-art performance in image classification",
+      "confidence": 0.9,
+      "category": "architectural",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Supervised learning is required for training accurate image classification models",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Convolutional layers are essential for capturing spatial hierarchies in images",
+      "confidence": 0.9,
+      "category": "architectural",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Data augmentation is necessary for improving the generalization of image classification models",
+      "confidence": 0.8,
+      "category": "training",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Transfer learning is essential for leveraging pre-trained models on new image classification tasks",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 0
+    },
+    {
+      "assumption": "High computational resources are required for training deep learning models effectively",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Benchmark datasets like ImageNet are necessary for evaluating the performance of image classification models",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Feature extraction is essential for reducing the dimensionality of image data before classification",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Regularization techniques are required to prevent overfitting in deep learning models",
+      "confidence": 0.8,
+      "category": "training",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Large labeled datasets are essential for training effective image classification models",
+      "confidence": 0.95,
+      "category": "data",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Data augmentation is required to improve the generalization of image classification models",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Transfer learning is necessary for leveraging pre-trained models to improve performance on new tasks",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Backpropagation is essential for training deep neural networks",
+      "confidence": 0.95,
+      "category": "training",
+      "call_idx": 1
+    },
+    {
+      "assumption": "High computational resources are required for training large-scale image classification models",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Benchmark datasets like ImageNet are necessary for evaluating and comparing image classification models",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Regularization techniques are essential for preventing overfitting in deep learning models",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 1
+    },
+    {
+      "assumption": "End-to-end training is required for optimizing the performance of deep learning models",
+      "confidence": 0.8,
+      "category": "training",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Backpropagation is required for training deep learning models",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 2
+    },
+    {
+      "assumption": "End-to-end training is required for optimizing deep learning models for image classification",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 2
+    },
+    {
+      "assumption": "High computational power is required for training deep learning models effectively",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "call_idx": 3
+    },
+    {
+      "assumption": "Feature extraction is necessary for improving the performance of image classification models",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "call_idx": 3
+    },
+    {
+      "assumption": "End-to-end training is required for optimizing deep learning models for image classification tasks",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 4
+    },
+    {
+      "assumption": "Transfer learning is necessary for leveraging pre-trained models on large datasets for specific tasks",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 5
+    },
+    {
+      "assumption": "High computational resources are essential for training deep learning models effectively",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 5
+    },
+    {
+      "assumption": "Cross-entropy loss is required for training classification models",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "call_idx": 5
+    },
+    {
+      "assumption": "Benchmark datasets like ImageNet are necessary for evaluating and comparing model performance",
+      "confidence": 0.95,
+      "category": "evaluation",
+      "call_idx": 5
+    },
+    {
+      "assumption": "Regularization techniques such as dropout are essential for preventing overfitting in deep networks",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 5
+    },
+    {
+      "assumption": "End-to-end training is required for optimizing all layers of a deep network simultaneously",
+      "confidence": 0.8,
+      "category": "training",
+      "call_idx": 5
+    },
+    {
+      "assumption": "Transfer learning is necessary for improving model performance when labeled data is limited",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 6
+    },
+    {
+      "assumption": "Data augmentation is essential for enhancing the generalization of image classification models",
+      "confidence": 0.9,
+      "category": "data",
+      "call_idx": 6
+    },
+    {
+      "assumption": "Benchmark datasets like ImageNet are required for evaluating and comparing image classification models",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "call_idx": 6
+    },
+    {
+      "assumption": "High computational resources are necessary for training deep learning models effectively",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 6
+    },
+    {
+      "assumption": "Feature extraction is essential for improving the performance of image classification models",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "call_idx": 6
+    },
+    {
+      "assumption": "End-to-end training is essential for optimizing the performance of deep learning models",
+      "confidence": 0.8,
+      "category": "training",
+      "call_idx": 7
+    },
+    {
+      "assumption": "Cross-entropy loss is required for training classification models effectively",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "call_idx": 7
+    },
+    {
+      "assumption": "High computational resources are essential for training deep learning models efficiently",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 7
+    },
+    {
+      "assumption": "Feature extraction is required for reducing the dimensionality of image data before classification",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "call_idx": 7
+    },
+    {
+      "assumption": "Convolutional layers are essential for capturing spatial hierarchies in image data",
+      "confidence": 0.95,
+      "category": "architectural",
+      "call_idx": 8
+    },
+    {
+      "assumption": "Cross-entropy loss is necessary for training classification models",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "call_idx": 8
+    },
+    {
+      "assumption": "End-to-end training is necessary for optimizing all layers of a deep learning model simultaneously",
+      "confidence": 0.8,
+      "category": "training",
+      "call_idx": 8
+    },
+    {
+      "assumption": "Transfer learning is essential for leveraging pre-trained models to improve performance on new tasks",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 9
+    },
+    {
+      "assumption": "Feature extraction is necessary for reducing the dimensionality of image data before classification",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "call_idx": 9
+    },
+    {
+      "assumption": "Benchmark datasets like ImageNet are required for evaluating and comparing model performance",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "call_idx": 10
+    },
+    {
+      "assumption": "Large labeled datasets are essential for training effective image classification models.",
+      "confidence": 0.95,
+      "category": "data",
+      "call_idx": 11
+    },
+    {
+      "assumption": "Deep neural networks are necessary for achieving state-of-the-art performance in image classification.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "call_idx": 11
+    },
+    {
+      "assumption": "Convolutional layers are essential for capturing spatial hierarchies in images.",
+      "confidence": 0.95,
+      "category": "architectural",
+      "call_idx": 11
+    },
+    {
+      "assumption": "Backpropagation is required for training deep learning models effectively.",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 11
+    },
+    {
+      "assumption": "Data augmentation is necessary for improving the generalization of image classification models.",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 11
+    },
+    {
+      "assumption": "Transfer learning is essential for leveraging pre-trained models to improve performance on new tasks.",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 11
+    },
+    {
+      "assumption": "High computational resources are required for training deep learning models on large datasets.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "call_idx": 11
+    },
+    {
+      "assumption": "Benchmark datasets like ImageNet are necessary for evaluating and comparing image classification models.",
+      "confidence": 0.95,
+      "category": "evaluation",
+      "call_idx": 11
+    },
+    {
+      "assumption": "Regularization techniques are essential for preventing overfitting in deep learning models.",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 11
+    },
+    {
+      "assumption": "End-to-end training is required for optimizing all layers of a deep learning model simultaneously.",
+      "confidence": 0.8,
+      "category": "training",
+      "call_idx": 11
+    },
+    {
+      "assumption": "Deep neural networks are necessary for achieving state-of-the-art performance in visual recognition tasks",
+      "confidence": 0.9,
+      "category": "architectural",
+      "call_idx": 13
+    },
+    {
+      "assumption": "End-to-end training is necessary for optimizing the performance of deep learning models",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 13
+    },
+    {
+      "assumption": "Feature extraction is essential for reducing the dimensionality of image data",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "call_idx": 13
+    },
+    {
+      "assumption": "Model interpretability is required for understanding and trusting visual recognition systems",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "call_idx": 13
+    },
+    {
+      "assumption": "Benchmark datasets like ImageNet are essential for evaluating image classification models",
+      "confidence": 0.95,
+      "category": "evaluation",
+      "call_idx": 14
+    },
+    {
+      "assumption": "Model accuracy is required as the primary metric for evaluating image classification performance",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "call_idx": 14
+    }
+  ],
+  "metrics": {
+    "num_unique_assumptions": 60,
+    "best_similarity": 0.7316,
+    "best_matching_assumption": "Convolutional layers are essential for capturing spatial hierarchies in images",
+    "soft_rank": 4,
+    "soft_recall_at_5": 1.0,
+    "soft_recall_at_10": 1.0,
+    "soft_recall_at_20": 1.0,
+    "top_5_assumptions": [
+      {
+        "assumption": "Convolutional layers are essential for capturing spatial hierarchies in images",
+        "similarity": 0.7316
+      },
+      {
+        "assumption": "Convolutional layers are essential for capturing spatial hierarchies in image data",
+        "similarity": 0.7272
+      },
+      {
+        "assumption": "Convolutional layers are essential for capturing spatial hierarchies in images.",
+        "similarity": 0.7201
+      },
+      {
+        "assumption": "Deep neural networks are necessary for achieving state-of-the-art performance in visual recognition tasks",
+        "similarity": 0.5164
+      },
+      {
+        "assumption": "Supervised learning is required for training accurate image classification models",
+        "similarity": 0.4882
+      }
+    ],
+    "paradigm": "vit",
+    "field_name": "visual recognition and image classification (pre-2020)",
+    "num_raw_assumptions": 150
+  }
+}

@@ -1,0 +1,66 @@
+# Files/dirs excluded from the anonymized supplement release.
+# Use with: rsync -a --exclude-from=.releaseignore . release_pkg/
+
+# Secrets
+.env
+.env.local
+
+# Virtual env and caches
+.venv/
+__pycache__/
+*.pyc
+.ruff_cache/
+*.egg-info/
+
+# Internal audit/planning docs (not for reviewers)
+.internal/
+CLAUDE.md
+# Root-level internal audit / submission-prep files (gitignored, but
+# defense-in-depth for the supplement)
+AUDIT.md
+CHECK.md
+ARR_SUBMISSION_CHECK.md
+ARR_SUBMISSION_FORM.md
+
+# Human-annotation raw returns and recruitment material.
+# Rater filenames carry real names, and the recruitment templates carry the
+# author's name/affiliation -- both break anonymity and rater privacy.
+# Only the anonymised aggregate annotation/g1_results.json is released,
+# as stated in the paper's Rater Demographics appendix.
+*_complete.csv
+annotation/recruit_template.md
+annotation/expert_targets/reinvite_template.md
+annotation/Unbox-*.zip
+
+# LaTeX build artifacts
+paper/*.aux
+paper/*.log
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.out
+paper/*.synctex.gz
+paper/unbox_temp.log
+
+# Old drafts / korean version / fake style
+paper/drafts/
+
+# Failed experiment runs
+experiments/failed_runs/
+
+# Archived duplicates
+experiments/archive/
+
+# Stale legacy run carrying absolute internal paths (not paper-referenced)
+experiments/retrospective_full/
+
+# OS clutter
+.DS_Store
+Thumbs.db
+
+# OMC state
+.omc/
+
+# Internal planning/tracking (boulder.json, drafts/, plans/, notepads/).
+# Cited evidence artifacts were moved to top-level evidence/ and ship by
+# default; nothing under .sisyphus/ should leak into the supplement.
+.sisyphus/

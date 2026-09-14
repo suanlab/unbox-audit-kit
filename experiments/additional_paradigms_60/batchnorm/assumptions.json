@@ -1,0 +1,2102 @@
+[
+  {
+    "paper_id": "https://openalex.org/W2084894614",
+    "paper_title": "Mean-normalized stochastic gradient for large-scale deep learning",
+    "assumption": "Stochastic gradient descent is the fundamental paradigm for optimizing deep neural networks",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2084894614",
+    "paper_title": "Mean-normalized stochastic gradient for large-scale deep learning",
+    "assumption": "First-order optimization methods are the practical standard for large-scale deep learning",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2084894614",
+    "paper_title": "Mean-normalized stochastic gradient for large-scale deep learning",
+    "assumption": "Convergence analysis in convex settings provides meaningful insights for non-convex deep learning optimization",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2084894614",
+    "paper_title": "Mean-normalized stochastic gradient for large-scale deep learning",
+    "assumption": "Faster convergence in training iterations translates to better practical optimization performance",
+    "confidence": 0.88,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2084894614",
+    "paper_title": "Mean-normalized stochastic gradient for large-scale deep learning",
+    "assumption": "Recognition error rate is the primary metric for evaluating model quality improvements",
+    "confidence": 0.82,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963504252",
+    "paper_title": "Exact solutions to the nonlinear dynamics of learning in deep linear neural networks",
+    "assumption": "Gradient-based optimization is necessary for training deep neural networks",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963504252",
+    "paper_title": "Exact solutions to the nonlinear dynamics of learning in deep linear neural networks",
+    "assumption": "Network depth fundamentally determines learning dynamics and computational capacity",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963504252",
+    "paper_title": "Exact solutions to the nonlinear dynamics of learning in deep linear neural networks",
+    "assumption": "Weight initialization strategies are essential for successful deep network training",
+    "confidence": 0.88,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963504252",
+    "paper_title": "Exact solutions to the nonlinear dynamics of learning in deep linear neural networks",
+    "assumption": "Learning dynamics can be understood through the lens of loss landscape optimization",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963504252",
+    "paper_title": "Exact solutions to the nonlinear dynamics of learning in deep linear neural networks",
+    "assumption": "Unsupervised pretraining is necessary for finding good initial conditions in deep networks",
+    "confidence": 0.82,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2293634267",
+    "paper_title": "Long short-term memory recurrent neural network architectures for large scale acoustic modeling",
+    "assumption": "Recurrent architectures are necessary for modeling temporal sequences effectively",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2293634267",
+    "paper_title": "Long short-term memory recurrent neural network architectures for large scale acoustic modeling",
+    "assumption": "Memory mechanisms are essential for capturing long-range dependencies in sequential data",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2293634267",
+    "paper_title": "Long short-term memory recurrent neural network architectures for large scale acoustic modeling",
+    "assumption": "Acoustic modeling requires temporal sequence modeling capabilities",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2293634267",
+    "paper_title": "Long short-term memory recurrent neural network architectures for large scale acoustic modeling",
+    "assumption": "Distributed training is necessary for scaling neural networks to large datasets",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2293634267",
+    "paper_title": "Long short-term memory recurrent neural network architectures for large scale acoustic modeling",
+    "assumption": "Gradient-based optimization is essential for training neural networks",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2168231600",
+    "paper_title": "Large Scale Distributed Deep Networks",
+    "assumption": "Larger model capacity is necessary for achieving better performance",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2168231600",
+    "paper_title": "Large Scale Distributed Deep Networks",
+    "assumption": "Gradient-based optimization is essential for training neural networks at scale",
+    "confidence": 0.98,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2168231600",
+    "paper_title": "Large Scale Distributed Deep Networks",
+    "assumption": "Stochastic gradient descent is the fundamental paradigm required for large-scale neural network training",
+    "confidence": 0.92,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2168231600",
+    "paper_title": "Large Scale Distributed Deep Networks",
+    "assumption": "Distributed computing is necessary to train models beyond single-machine memory and compute constraints",
+    "confidence": 0.88,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2168231600",
+    "paper_title": "Large Scale Distributed Deep Networks",
+    "assumption": "Parameter synchronization across nodes is required for distributed neural network training",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1990471071",
+    "paper_title": "Improving training time of deep neural networkwith asynchronous averaged stochastic gradient descent",
+    "assumption": "Stochastic gradient descent is the fundamental paradigm required for training deep neural networks",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1990471071",
+    "paper_title": "Improving training time of deep neural networkwith asynchronous averaged stochastic gradient descent",
+    "assumption": "Multiple passes through the training dataset are necessary for effective deep neural network learning",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1990471071",
+    "paper_title": "Improving training time of deep neural networkwith asynchronous averaged stochastic gradient descent",
+    "assumption": "Mini-batch processing is essential for stable gradient-based optimization in deep learning",
+    "confidence": 0.88,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1990471071",
+    "paper_title": "Improving training time of deep neural networkwith asynchronous averaged stochastic gradient descent",
+    "assumption": "Serial parameter updates are required for proper convergence in neural network training",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1990471071",
+    "paper_title": "Improving training time of deep neural networkwith asynchronous averaged stochastic gradient descent",
+    "assumption": "Deep neural network architectures are necessary for achieving superior performance over traditional machine learning models",
+    "confidence": 0.82,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2134973740",
+    "paper_title": "On the training aspects of Deep Neural Network (DNN) for parametric TTS synthesis",
+    "assumption": "Direct mapping from text features to acoustic parameters is necessary for parametric TTS synthesis",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2134973740",
+    "paper_title": "On the training aspects of Deep Neural Network (DNN) for parametric TTS synthesis",
+    "assumption": "Acoustic feature representations (LSP, F0, V/U) are essential for speech synthesis quality",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2134973740",
+    "paper_title": "On the training aspects of Deep Neural Network (DNN) for parametric TTS synthesis",
+    "assumption": "Sequential alignment between text and speech is required for TTS training",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2134973740",
+    "paper_title": "On the training aspects of Deep Neural Network (DNN) for parametric TTS synthesis",
+    "assumption": "Layer-wise pre-training is necessary for effective deep network initialization in speech synthesis",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2134973740",
+    "paper_title": "On the training aspects of Deep Neural Network (DNN) for parametric TTS synthesis",
+    "assumption": "Supervised learning with paired text-speech data is essential for TTS model training",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2000200144",
+    "paper_title": "An empirical study of learning rates in deep neural networks for speech recognition",
+    "assumption": "Gradient-based optimization is necessary for training deep neural networks",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2000200144",
+    "paper_title": "An empirical study of learning rates in deep neural networks for speech recognition",
+    "assumption": "Minibatch stochastic gradient descent is essential for scalable deep learning",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2000200144",
+    "paper_title": "An empirical study of learning rates in deep neural networks for speech recognition",
+    "assumption": "Learning rate scheduling is required for effective neural network training",
+    "confidence": 0.88,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2000200144",
+    "paper_title": "An empirical study of learning rates in deep neural networks for speech recognition",
+    "assumption": "Frame-level accuracy is a valid proxy for speech recognition quality",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2000200144",
+    "paper_title": "An empirical study of learning rates in deep neural networks for speech recognition",
+    "assumption": "Word error rate is the definitive metric for speech recognition performance",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2048865854",
+    "paper_title": "Expected energy-based restricted Boltzmann machine for classification",
+    "assumption": "Energy-based models require iterative sampling or approximation methods for inference and learning",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2048865854",
+    "paper_title": "Expected energy-based restricted Boltzmann machine for classification",
+    "assumption": "RBMs are primarily suitable as unsupervised feature extractors rather than end-to-end discriminative models",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2048865854",
+    "paper_title": "Expected energy-based restricted Boltzmann machine for classification",
+    "assumption": "Deep architectures require layer-by-layer pretraining for effective learning",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2048865854",
+    "paper_title": "Expected energy-based restricted Boltzmann machine for classification",
+    "assumption": "Binary hidden units are necessary for RBM computational tractability",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2048865854",
+    "paper_title": "Expected energy-based restricted Boltzmann machine for classification",
+    "assumption": "Free energy computation is the canonical way to extract outputs from RBMs",
+    "confidence": 0.75,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2118833474",
+    "paper_title": "Random Walks: Training Very Deep Nonlinear Feed-Forward Networks with Smart Initialization.",
+    "assumption": "Gradient-based optimization is necessary for training deep neural networks",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2118833474",
+    "paper_title": "Random Walks: Training Very Deep Nonlinear Feed-Forward Networks with Smart Initialization.",
+    "assumption": "The vanishing/exploding gradient problem is an inherent architectural limitation that must be solved",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2118833474",
+    "paper_title": "Random Walks: Training Very Deep Nonlinear Feed-Forward Networks with Smart Initialization.",
+    "assumption": "Network depth is essential for learning complex representations",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2118833474",
+    "paper_title": "Random Walks: Training Very Deep Nonlinear Feed-Forward Networks with Smart Initialization.",
+    "assumption": "Feed-forward architectures require different training strategies than recurrent architectures",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2118833474",
+    "paper_title": "Random Walks: Training Very Deep Nonlinear Feed-Forward Networks with Smart Initialization.",
+    "assumption": "Random initialization is necessary for breaking symmetry in neural network training",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2131342762",
+    "paper_title": "Sequence-discriminative training of deep neural networks",
+    "assumption": "Frame-level cross-entropy training is the foundational requirement for neural acoustic modeling",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2131342762",
+    "paper_title": "Sequence-discriminative training of deep neural networks",
+    "assumption": "Word error rate is the definitive metric for evaluating speech recognition system quality",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2131342762",
+    "paper_title": "Sequence-discriminative training of deep neural networks",
+    "assumption": "Sequence-level training requires word lattices as the fundamental representation of competing hypotheses",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2131342762",
+    "paper_title": "Sequence-discriminative training of deep neural networks",
+    "assumption": "Phone-level alignments are necessary for training acoustic models in speech recognition",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2131342762",
+    "paper_title": "Sequence-discriminative training of deep neural networks",
+    "assumption": "Gradient-based optimization is essential for training sequence-discriminative criteria in neural networks",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2136836265",
+    "paper_title": "Adaptive dropout for training deep neural networks",
+    "assumption": "Regularization is essential for preventing overfitting in deep neural networks",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2136836265",
+    "paper_title": "Adaptive dropout for training deep neural networks",
+    "assumption": "Stochastic gradient descent is necessary for training deep neural networks effectively",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2136836265",
+    "paper_title": "Adaptive dropout for training deep neural networks",
+    "assumption": "Back-propagation is required for computing gradients in multi-layer neural networks",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2136836265",
+    "paper_title": "Adaptive dropout for training deep neural networks",
+    "assumption": "Classification error rate is the primary metric for evaluating neural network performance",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2136836265",
+    "paper_title": "Adaptive dropout for training deep neural networks",
+    "assumption": "Feature learning methods are necessary for achieving good performance on complex datasets",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2161934507",
+    "paper_title": "A Comparison of BA, GA, PSO, BP and LM for Training Feed forward Neural Networks in e-Learning Context",
+    "assumption": "Gradient-based optimization is the standard approach for neural network training",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2161934507",
+    "paper_title": "A Comparison of BA, GA, PSO, BP and LM for Training Feed forward Neural Networks in e-Learning Context",
+    "assumption": "Feed-forward architectures are the primary neural network structure for supervised learning tasks",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2161934507",
+    "paper_title": "A Comparison of BA, GA, PSO, BP and LM for Training Feed forward Neural Networks in e-Learning Context",
+    "assumption": "Training time and solution quality are the essential metrics for evaluating optimization algorithms",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2161934507",
+    "paper_title": "A Comparison of BA, GA, PSO, BP and LM for Training Feed forward Neural Networks in e-Learning Context",
+    "assumption": "Population-based metaheuristics are viable alternatives to gradient-based methods for neural network training",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2161934507",
+    "paper_title": "A Comparison of BA, GA, PSO, BP and LM for Training Feed forward Neural Networks in e-Learning Context",
+    "assumption": "Standard benchmark datasets are necessary for meaningful algorithm comparisons",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2964309400",
+    "paper_title": "Revisiting Natural Gradient for Deep Networks",
+    "assumption": "Matrix inversion or approximation is necessary for implementing second-order optimization methods",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2964309400",
+    "paper_title": "Revisiting Natural Gradient for Deep Networks",
+    "assumption": "First-order gradient information is insufficient for optimal neural network training",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2964309400",
+    "paper_title": "Revisiting Natural Gradient for Deep Networks",
+    "assumption": "The Fisher Information Matrix provides the correct geometric structure for parameter space optimization",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2964309400",
+    "paper_title": "Revisiting Natural Gradient for Deep Networks",
+    "assumption": "Stochastic gradient descent serves as the primary baseline for evaluating optimization algorithms",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2964309400",
+    "paper_title": "Revisiting Natural Gradient for Deep Networks",
+    "assumption": "Second-order curvature information is essential for efficient optimization in high-dimensional parameter spaces",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W619799124",
+    "paper_title": "Distributed learning of multilingual DNN feature extractors using GPUs",
+    "assumption": "Stochastic gradient descent requires sequential processing for effective neural network training",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W619799124",
+    "paper_title": "Distributed learning of multilingual DNN feature extractors using GPUs",
+    "assumption": "Deep neural networks are necessary for effective multilingual acoustic feature extraction",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W619799124",
+    "paper_title": "Distributed learning of multilingual DNN feature extractors using GPUs",
+    "assumption": "Model synchronization is essential for distributed neural network training convergence",
+    "confidence": 0.88,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W619799124",
+    "paper_title": "Distributed learning of multilingual DNN feature extractors using GPUs",
+    "assumption": "Word error rate is the appropriate metric for evaluating acoustic modeling performance",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W619799124",
+    "paper_title": "Distributed learning of multilingual DNN feature extractors using GPUs",
+    "assumption": "Larger multilingual training datasets necessarily improve cross-language acoustic modeling",
+    "confidence": 0.82,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2040036684",
+    "paper_title": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation",
+    "assumption": "Supervised learning with labeled data is necessary for learning behaviorally relevant categorical representations",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2040036684",
+    "paper_title": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation",
+    "assumption": "Representational similarity measured through dissimilarity matrices is the appropriate framework for comparing neural and computational representations",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2040036684",
+    "paper_title": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation",
+    "assumption": "Higher task performance correlates with better neural alignment in computational models",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2040036684",
+    "paper_title": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation",
+    "assumption": "Categorical clustering is a fundamental organizing principle of cortical object representations",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2040036684",
+    "paper_title": "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation",
+    "assumption": "Unsupervised learning is insufficient for capturing behaviorally relevant visual representations",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2293824885",
+    "paper_title": "Supervised Hashing for Image Retrieval via Image Representation Learning",
+    "assumption": "Semantic similarity between images can be effectively captured through binary hash codes",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2293824885",
+    "paper_title": "Supervised Hashing for Image Retrieval via Image Representation Learning",
+    "assumption": "Hamming distance in binary hash space is a meaningful proxy for semantic similarity in image space",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2293824885",
+    "paper_title": "Supervised Hashing for Image Retrieval via Image Representation Learning",
+    "assumption": "Supervised learning requires explicit pairwise similarity/dissimilarity labels to improve hash function quality",
+    "confidence": 0.88,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2293824885",
+    "paper_title": "Supervised Hashing for Image Retrieval via Image Representation Learning",
+    "assumption": "Deep convolutional networks are essential for learning effective visual representations",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2293824885",
+    "paper_title": "Supervised Hashing for Image Retrieval via Image Representation Learning",
+    "assumption": "Hash code length represents a fundamental trade-off between storage efficiency and retrieval accuracy",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2166206801",
+    "paper_title": "Deep Neural Networks Rival the Representation of Primate IT Cortex for Core Visual Object Recognition",
+    "assumption": "Representational similarity is necessary for validating computational models of biological systems",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2166206801",
+    "paper_title": "Deep Neural Networks Rival the Representation of Primate IT Cortex for Core Visual Object Recognition",
+    "assumption": "Higher classification accuracy indicates better visual representations",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2166206801",
+    "paper_title": "Deep Neural Networks Rival the Representation of Primate IT Cortex for Core Visual Object Recognition",
+    "assumption": "IT cortex representations are the gold standard for core visual object recognition",
+    "confidence": 0.92,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2166206801",
+    "paper_title": "Deep Neural Networks Rival the Representation of Primate IT Cortex for Core Visual Object Recognition",
+    "assumption": "Decoding performance from neural representations is essential for measuring representational quality",
+    "confidence": 0.88,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2166206801",
+    "paper_title": "Deep Neural Networks Rival the Representation of Primate IT Cortex for Core Visual Object Recognition",
+    "assumption": "Deep hierarchical architectures are required for modeling primate visual processing",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1686810756",
+    "paper_title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+    "assumption": "Convolutional architectures are essential for visual feature learning in images",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1686810756",
+    "paper_title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+    "assumption": "Translation equivariance through weight sharing is necessary for robust image recognition",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1686810756",
+    "paper_title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+    "assumption": "Hierarchical feature extraction from local to global is required for understanding visual scenes",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1686810756",
+    "paper_title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+    "assumption": "Spatial locality bias through convolution is essential for effective visual representation learning",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1686810756",
+    "paper_title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+    "assumption": "ImageNet performance is the definitive benchmark for evaluating visual representation quality",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2046558738",
+    "paper_title": "Resting-state networks link invasive and noninvasive brain stimulation across diverse psychiatric and neurological diseases",
+    "assumption": "Resting-state functional connectivity reflects meaningful therapeutic targets for brain stimulation",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2046558738",
+    "paper_title": "Resting-state networks link invasive and noninvasive brain stimulation across diverse psychiatric and neurological diseases",
+    "assumption": "Brain networks identified through fMRI correlations represent functionally relevant neural circuits",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2046558738",
+    "paper_title": "Resting-state networks link invasive and noninvasive brain stimulation across diverse psychiatric and neurological diseases",
+    "assumption": "Neuropsychiatric diseases are fundamentally network-level disorders rather than localized pathologies",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2046558738",
+    "paper_title": "Resting-state networks link invasive and noninvasive brain stimulation across diverse psychiatric and neurological diseases",
+    "assumption": "Therapeutic efficacy of brain stimulation depends on targeting specific anatomical locations",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2046558738",
+    "paper_title": "Resting-state networks link invasive and noninvasive brain stimulation across diverse psychiatric and neurological diseases",
+    "assumption": "BOLD signal correlations during rest reflect intrinsic brain network organization",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W1972498024",
+    "paper_title": "Deep learning for neuroimaging: a validation study",
+    "assumption": "Deep learning models require extensive parameter optimization to be effective in new domains",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1972498024",
+    "paper_title": "Deep learning for neuroimaging: a validation study",
+    "assumption": "Representation learning is essential for discovering meaningful patterns in neuroimaging data",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1972498024",
+    "paper_title": "Deep learning for neuroimaging: a validation study",
+    "assumption": "Deep belief networks and restricted Boltzmann machines are necessary architectures for unsupervised learning in neuroimaging",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1972498024",
+    "paper_title": "Deep learning for neuroimaging: a validation study",
+    "assumption": "High-dimensional neuroimaging data requires specialized visualization methods for interpretability",
+    "confidence": 0.8,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W1972498024",
+    "paper_title": "Deep learning for neuroimaging: a validation study",
+    "assumption": "Deep learning flexibility is essential for capturing complex brain imaging patterns",
+    "confidence": 0.75,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2076462394",
+    "paper_title": "Audio-visual speech recognition using deep learning",
+    "assumption": "Hidden Markov Models are necessary for modeling sequential temporal dependencies in speech recognition",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2076462394",
+    "paper_title": "Audio-visual speech recognition using deep learning",
+    "assumption": "Deep neural networks are required to extract robust features that generalize across diverse conditions",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2076462394",
+    "paper_title": "Audio-visual speech recognition using deep learning",
+    "assumption": "Multi-modal fusion requires separate feature extraction pipelines for each modality",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2076462394",
+    "paper_title": "Audio-visual speech recognition using deep learning",
+    "assumption": "Convolutional neural networks are essential for extracting spatial visual features from image data",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2076462394",
+    "paper_title": "Audio-visual speech recognition using deep learning",
+    "assumption": "Denoising requires paired clean-corrupted training data to learn noise removal mappings",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2099621636",
+    "paper_title": "Vocal Tract Length Perturbation (VTLP) improves speech recognition",
+    "assumption": "Spectral features are necessary for neural network-based speech recognition",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2099621636",
+    "paper_title": "Vocal Tract Length Perturbation (VTLP) improves speech recognition",
+    "assumption": "Speaker normalization techniques are essential for robust speech recognition",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2099621636",
+    "paper_title": "Vocal Tract Length Perturbation (VTLP) improves speech recognition",
+    "assumption": "Phone Error Rate is the appropriate evaluation metric for speech recognition systems",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2099621636",
+    "paper_title": "Vocal Tract Length Perturbation (VTLP) improves speech recognition",
+    "assumption": "Frequency domain warping is required to handle vocal tract length variations",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2099621636",
+    "paper_title": "Vocal Tract Length Perturbation (VTLP) improves speech recognition",
+    "assumption": "Deep neural networks require substantial amounts of training data to achieve good performance",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2214726385",
+    "paper_title": "Beyond Deep Learning: Scalable Methods and Models for Learning",
+    "assumption": "Non-linear functions are necessary for learning complex mappings from signals to meaningful information",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2214726385",
+    "paper_title": "Beyond Deep Learning: Scalable Methods and Models for Learning",
+    "assumption": "Labeled examples are essential for learning useful signal-to-information mappings",
+    "confidence": 0.92,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2214726385",
+    "paper_title": "Beyond Deep Learning: Scalable Methods and Models for Learning",
+    "assumption": "Deep architectures are necessary to overcome fundamental limitations of shallow models",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2214726385",
+    "paper_title": "Beyond Deep Learning: Scalable Methods and Models for Learning",
+    "assumption": "Optimization techniques are required to be both fast and robust for effective neural network training",
+    "confidence": 0.88,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2214726385",
+    "paper_title": "Beyond Deep Learning: Scalable Methods and Models for Learning",
+    "assumption": "State-of-the-art performance is the primary metric for validating machine learning approaches",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2251811146",
+    "paper_title": "Deep Learning for Chinese Word Segmentation and POS Tagging",
+    "assumption": "Character-level representations are essential for Chinese text processing",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2251811146",
+    "paper_title": "Deep Learning for Chinese Word Segmentation and POS Tagging",
+    "assumption": "Supervised learning requires labeled training data for NLP tasks",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2251811146",
+    "paper_title": "Deep Learning for Chinese Word Segmentation and POS Tagging",
+    "assumption": "Task-specific feature engineering is necessary for competitive NLP performance",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2251811146",
+    "paper_title": "Deep Learning for Chinese Word Segmentation and POS Tagging",
+    "assumption": "Word segmentation must precede part-of-speech tagging in Chinese text processing",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2251811146",
+    "paper_title": "Deep Learning for Chinese Word Segmentation and POS Tagging",
+    "assumption": "Maximum-likelihood estimation is the standard training paradigm for neural networks",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2120219476",
+    "paper_title": "Chemical Reaction Optimization: a tutorial",
+    "assumption": "Natural processes provide valid blueprints for designing optimization algorithms",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2120219476",
+    "paper_title": "Chemical Reaction Optimization: a tutorial",
+    "assumption": "Energy minimization principles from physics are applicable to abstract optimization problems",
+    "confidence": 0.92,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2120219476",
+    "paper_title": "Chemical Reaction Optimization: a tutorial",
+    "assumption": "Metaheuristic approaches are necessary for solving complex optimization problems effectively",
+    "confidence": 0.88,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2120219476",
+    "paper_title": "Chemical Reaction Optimization: a tutorial",
+    "assumption": "Population-based search mechanisms are required for robust optimization performance",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2120219476",
+    "paper_title": "Chemical Reaction Optimization: a tutorial",
+    "assumption": "Stochastic processes are essential for escaping local optima in optimization",
+    "confidence": 0.83,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2157558673",
+    "paper_title": "Learning to Align from Scratch",
+    "assumption": "Hand-crafted feature representations are necessary for effective unsupervised alignment of complex real-world images",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2157558673",
+    "paper_title": "Learning to Align from Scratch",
+    "assumption": "Alignment must precede recognition as separate sequential stages in the processing pipeline",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2157558673",
+    "paper_title": "Learning to Align from Scratch",
+    "assumption": "Smooth optimization landscapes are essential for successful joint alignment algorithms",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2157558673",
+    "paper_title": "Learning to Align from Scratch",
+    "assumption": "Face verification accuracy is the definitive metric for evaluating alignment quality",
+    "confidence": 0.8,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2157558673",
+    "paper_title": "Learning to Align from Scratch",
+    "assumption": "Convolutional architectures are required for learning meaningful visual features from images",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2064036620",
+    "paper_title": "Energy Beamforming With One-Bit Feedback",
+    "assumption": "Channel state information at the transmitter is essential for effective beamforming gain",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2064036620",
+    "paper_title": "Energy Beamforming With One-Bit Feedback",
+    "assumption": "Energy receivers have inherent hardware limitations that prevent implementation of conventional communication protocols",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2064036620",
+    "paper_title": "Energy Beamforming With One-Bit Feedback",
+    "assumption": "MIMO techniques are necessary to achieve significant transmission efficiency and range improvements in wireless energy transfer",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2064036620",
+    "paper_title": "Energy Beamforming With One-Bit Feedback",
+    "assumption": "Channel learning requires iterative feedback and adaptation over multiple training intervals",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2064036620",
+    "paper_title": "Energy Beamforming With One-Bit Feedback",
+    "assumption": "Energy harvesting efficiency is the primary metric for evaluating wireless energy transfer system performance",
+    "confidence": 0.8,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2002700944",
+    "paper_title": "Event-driven contrastive divergence for spiking neuromorphic systems",
+    "assumption": "Discrete-time batch processing is necessary for effective machine learning algorithms",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2002700944",
+    "paper_title": "Event-driven contrastive divergence for spiking neuromorphic systems",
+    "assumption": "Exact arithmetic precision is required for neural network weight updates and computations",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2002700944",
+    "paper_title": "Event-driven contrastive divergence for spiking neuromorphic systems",
+    "assumption": "Synchronous weight updates are essential for stable learning in neural networks",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2002700944",
+    "paper_title": "Event-driven contrastive divergence for spiking neuromorphic systems",
+    "assumption": "Rate-based neural coding is the primary paradigm for information representation in artificial neural networks",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2002700944",
+    "paper_title": "Event-driven contrastive divergence for spiking neuromorphic systems",
+    "assumption": "Backpropagation or similar global error signals are necessary for training deep networks",
+    "confidence": 0.75,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2140574335",
+    "paper_title": "RNADE: The real-valued neural autoregressive density-estimator",
+    "assumption": "Autoregressive factorization is necessary for tractable density estimation in high-dimensional spaces",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2140574335",
+    "paper_title": "RNADE: The real-valued neural autoregressive density-estimator",
+    "assumption": "Tractable likelihood computation is essential for principled density model evaluation and training",
+    "confidence": 0.92,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2140574335",
+    "paper_title": "RNADE: The real-valued neural autoregressive density-estimator",
+    "assumption": "Sequential conditional modeling requires a fixed ordering of variables for autoregressive decomposition",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2140574335",
+    "paper_title": "RNADE: The real-valued neural autoregressive density-estimator",
+    "assumption": "Mixture models are necessary for capturing complex one-dimensional conditional distributions",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2140574335",
+    "paper_title": "RNADE: The real-valued neural autoregressive density-estimator",
+    "assumption": "Parameter sharing across conditionals is required for efficient autoregressive density modeling",
+    "confidence": 0.83,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2295431040",
+    "paper_title": "Combining the benefits of function approximation and trajectory optimization",
+    "assumption": "Trajectory optimization is required for high-fidelity control solutions in robotics",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2295431040",
+    "paper_title": "Combining the benefits of function approximation and trajectory optimization",
+    "assumption": "Neural networks require extensive training data to achieve good control performance",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2295431040",
+    "paper_title": "Combining the benefits of function approximation and trajectory optimization",
+    "assumption": "Online trajectory optimization is inherently too computationally expensive for real-time control",
+    "confidence": 0.88,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2295431040",
+    "paper_title": "Combining the benefits of function approximation and trajectory optimization",
+    "assumption": "Teacher-student learning paradigms are necessary for transferring complex control knowledge to neural networks",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2295431040",
+    "paper_title": "Combining the benefits of function approximation and trajectory optimization",
+    "assumption": "Feedback gains are essential components of control policies that must be learned",
+    "confidence": 0.83,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2009272428",
+    "paper_title": "Voice Conversion Using RNN Pre-Trained by Recurrent Temporal Restricted Boltzmann Machines",
+    "assumption": "Recurrent architectures are necessary for modeling temporal dependencies in sequential acoustic data",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2009272428",
+    "paper_title": "Voice Conversion Using RNN Pre-Trained by Recurrent Temporal Restricted Boltzmann Machines",
+    "assumption": "Speaker identity and linguistic content can be effectively disentangled through separate model training",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2009272428",
+    "paper_title": "Voice Conversion Using RNN Pre-Trained by Recurrent Temporal Restricted Boltzmann Machines",
+    "assumption": "Deep hierarchical representations are essential for capturing high-order acoustic abstractions",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2009272428",
+    "paper_title": "Voice Conversion Using RNN Pre-Trained by Recurrent Temporal Restricted Boltzmann Machines",
+    "assumption": "Unsupervised pre-training is necessary for learning meaningful acoustic feature representations",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2009272428",
+    "paper_title": "Voice Conversion Using RNN Pre-Trained by Recurrent Temporal Restricted Boltzmann Machines",
+    "assumption": "Speaker-dependent training data is required for effective voice conversion",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2148862211",
+    "paper_title": "Training energy-based models for time-series imputation",
+    "assumption": "Energy-based models require specialized training procedures like contrastive divergence to learn proper probability distributions",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2148862211",
+    "paper_title": "Training energy-based models for time-series imputation",
+    "assumption": "Missing data imputation is fundamentally a probabilistic modeling problem that requires learning data distributions",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2148862211",
+    "paper_title": "Training energy-based models for time-series imputation",
+    "assumption": "Time-series modeling requires recurrent or convolutional architectures to capture temporal dependencies",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2148862211",
+    "paper_title": "Training energy-based models for time-series imputation",
+    "assumption": "Iterative inference procedures like gradient descent are necessary for energy-based model prediction",
+    "confidence": 0.88,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2148862211",
+    "paper_title": "Training energy-based models for time-series imputation",
+    "assumption": "High-dimensional time-series imputation requires complex model architectures to capture intricate patterns",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1634601183",
+    "paper_title": "Deep Learning via Stacked Sparse Autoencoders for Automated Voxel-Wise Brain Parcellation Based on Functional Connectivity",
+    "assumption": "Unsupervised feature learning requires layer-wise hierarchical architectures",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1634601183",
+    "paper_title": "Deep Learning via Stacked Sparse Autoencoders for Automated Voxel-Wise Brain Parcellation Based on Functional Connectivity",
+    "assumption": "Sparsity constraints are essential for learning meaningful representations in unsupervised settings",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1634601183",
+    "paper_title": "Deep Learning via Stacked Sparse Autoencoders for Automated Voxel-Wise Brain Parcellation Based on Functional Connectivity",
+    "assumption": "Deep architectures are necessary for extracting high-level features from complex data",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1634601183",
+    "paper_title": "Deep Learning via Stacked Sparse Autoencoders for Automated Voxel-Wise Brain Parcellation Based on Functional Connectivity",
+    "assumption": "Reconstruction-based learning is required for unsupervised feature discovery",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1634601183",
+    "paper_title": "Deep Learning via Stacked Sparse Autoencoders for Automated Voxel-Wise Brain Parcellation Based on Functional Connectivity",
+    "assumption": "Functional connectivity patterns require voxel-wise spatial analysis for meaningful parcellation",
+    "confidence": 0.75,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2047776774",
+    "paper_title": "Active Semi-Supervised Learning Method with Hybrid Deep Belief Networks",
+    "assumption": "Deep feature learning requires unsupervised pre-training for effective initialization",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2047776774",
+    "paper_title": "Active Semi-Supervised Learning Method with Hybrid Deep Belief Networks",
+    "assumption": "Semi-supervised learning requires explicit architectural mechanisms to leverage unlabeled data",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2047776774",
+    "paper_title": "Active Semi-Supervised Learning Method with Hybrid Deep Belief Networks",
+    "assumption": "Layer-wise unsupervised pre-training is essential for training deep networks effectively",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2047776774",
+    "paper_title": "Active Semi-Supervised Learning Method with Hybrid Deep Belief Networks",
+    "assumption": "Active learning requires uncertainty-based sample selection to be effective",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2047776774",
+    "paper_title": "Active Semi-Supervised Learning Method with Hybrid Deep Belief Networks",
+    "assumption": "Restricted Boltzmann machines are necessary for unsupervised feature learning in deep architectures",
+    "confidence": 0.75,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2005022581",
+    "paper_title": "Self-awareness, self-regulation, and self-transcendence (S-ART): a framework for understanding the neurobiological mechanisms of mindfulness",
+    "assumption": "Psychological phenomena require localization to specific brain networks and neural mechanisms for scientific validity",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2005022581",
+    "paper_title": "Self-awareness, self-regulation, and self-transcendence (S-ART): a framework for understanding the neurobiological mechanisms of mindfulness",
+    "assumption": "Complex mental states can be decomposed into discrete, measurable neuropsychological processes",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2005022581",
+    "paper_title": "Self-awareness, self-regulation, and self-transcendence (S-ART): a framework for understanding the neurobiological mechanisms of mindfulness",
+    "assumption": "Systematic behavioral interventions must produce measurable changes in brain structure or function to be considered mechanistically valid",
+    "confidence": 0.88,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2005022581",
+    "paper_title": "Self-awareness, self-regulation, and self-transcendence (S-ART): a framework for understanding the neurobiological mechanisms of mindfulness",
+    "assumption": "Mental health and psychological well-being can be understood through the lens of cognitive biases and distortions that require correction",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2005022581",
+    "paper_title": "Self-awareness, self-regulation, and self-transcendence (S-ART): a framework for understanding the neurobiological mechanisms of mindfulness",
+    "assumption": "Contemplative practices require empirical validation through controlled studies to be scientifically credible",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2144761854",
+    "paper_title": "Performance Analysis of Neural Networks Training using Real Coded Genetic Algorithm",
+    "assumption": "Gradient-based optimization is the primary paradigm for neural network training",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2144761854",
+    "paper_title": "Performance Analysis of Neural Networks Training using Real Coded Genetic Algorithm",
+    "assumption": "Global convergence is essential for optimal neural network performance",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2144761854",
+    "paper_title": "Performance Analysis of Neural Networks Training using Real Coded Genetic Algorithm",
+    "assumption": "Multilayer perceptrons are the standard architecture for pattern classification and regression",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2144761854",
+    "paper_title": "Performance Analysis of Neural Networks Training using Real Coded Genetic Algorithm",
+    "assumption": "Manual hyperparameter tuning through trial and error is an acceptable optimization approach",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2144761854",
+    "paper_title": "Performance Analysis of Neural Networks Training using Real Coded Genetic Algorithm",
+    "assumption": "Training convergence speed is a primary metric for evaluating optimization algorithms",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2250879510",
+    "paper_title": "Learning Sentiment-Specific Word Embedding for Twitter Sentiment Classification",
+    "assumption": "Word embeddings are essential for effective text classification",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2250879510",
+    "paper_title": "Learning Sentiment-Specific Word Embedding for Twitter Sentiment Classification",
+    "assumption": "Supervised learning requires labeled training data to learn meaningful representations",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2250879510",
+    "paper_title": "Learning Sentiment-Specific Word Embedding for Twitter Sentiment Classification",
+    "assumption": "Neural networks are necessary for learning high-quality word representations",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2250879510",
+    "paper_title": "Learning Sentiment-Specific Word Embedding for Twitter Sentiment Classification",
+    "assumption": "Syntactic context is the primary signal for learning word representations",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2250879510",
+    "paper_title": "Learning Sentiment-Specific Word Embedding for Twitter Sentiment Classification",
+    "assumption": "Hand-crafted features represent the gold standard for sentiment classification performance",
+    "confidence": 0.8,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2400101145",
+    "paper_title": "Subspace models for bottleneck features",
+    "assumption": "Diagonal covariance Gaussian mixture models are the standard baseline for acoustic modeling in speech recognition",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2400101145",
+    "paper_title": "Subspace models for bottleneck features",
+    "assumption": "Deep neural networks require large amounts of training data to be effective",
+    "confidence": 0.92,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2400101145",
+    "paper_title": "Subspace models for bottleneck features",
+    "assumption": "Bottleneck features inherently possess high inter-dimensional correlation that must be explicitly modeled",
+    "confidence": 0.88,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2400101145",
+    "paper_title": "Subspace models for bottleneck features",
+    "assumption": "Full covariance matrices are necessary to properly model correlated features but are computationally prohibitive for small datasets",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2400101145",
+    "paper_title": "Subspace models for bottleneck features",
+    "assumption": "Gaussian mixture models are the appropriate probabilistic framework for modeling acoustic features in speech recognition",
+    "confidence": 0.93,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2137028279",
+    "paper_title": "Deep content-based music recommendation",
+    "assumption": "Collaborative filtering requires sufficient usage data to be effective",
+    "confidence": 0.95,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2137028279",
+    "paper_title": "Deep content-based music recommendation",
+    "assumption": "Deep convolutional neural networks are superior to traditional feature engineering for audio analysis",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2137028279",
+    "paper_title": "Deep content-based music recommendation",
+    "assumption": "Latent factor models are the appropriate mathematical framework for capturing user preferences",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2137028279",
+    "paper_title": "Deep content-based music recommendation",
+    "assumption": "Audio signals contain sufficient information to predict musical preference patterns",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2137028279",
+    "paper_title": "Deep content-based music recommendation",
+    "assumption": "Cold start problems require content-based approaches as solutions",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2137356002",
+    "paper_title": "Review on Methods to Fix Number of Hidden Neurons in Neural Networks",
+    "assumption": "Hidden layer architecture is necessary for neural networks to solve complex problems",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2137356002",
+    "paper_title": "Review on Methods to Fix Number of Hidden Neurons in Neural Networks",
+    "assumption": "A single optimal number of hidden neurons exists for each problem",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2137356002",
+    "paper_title": "Review on Methods to Fix Number of Hidden Neurons in Neural Networks",
+    "assumption": "Statistical error metrics are sufficient to determine optimal network architecture",
+    "confidence": 0.8,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2137356002",
+    "paper_title": "Review on Methods to Fix Number of Hidden Neurons in Neural Networks",
+    "assumption": "Network architecture must be fixed before training begins",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2137356002",
+    "paper_title": "Review on Methods to Fix Number of Hidden Neurons in Neural Networks",
+    "assumption": "Overfitting and underfitting are primarily caused by incorrect hidden layer sizing",
+    "confidence": 0.75,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2074694452",
+    "paper_title": "Ad click prediction",
+    "assumption": "Supervised learning with labeled click data is necessary for CTR prediction",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2074694452",
+    "paper_title": "Ad click prediction",
+    "assumption": "Online learning algorithms are required for real-time advertising systems",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2074694452",
+    "paper_title": "Ad click prediction",
+    "assumption": "Click-through rate is the essential metric for measuring ad effectiveness",
+    "confidence": 0.88,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2074694452",
+    "paper_title": "Ad click prediction",
+    "assumption": "Sparsity in feature representations is necessary for large-scale ad prediction",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2074694452",
+    "paper_title": "Ad click prediction",
+    "assumption": "Historical click behavior data is required to predict future clicks",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2123585936",
+    "paper_title": "A tutorial survey of architectures, algorithms, and applications for deep learning",
+    "assumption": "Hierarchical feature representations are necessary for effective pattern recognition",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2123585936",
+    "paper_title": "A tutorial survey of architectures, algorithms, and applications for deep learning",
+    "assumption": "Multiple stages of non-linear processing are required for learning complex patterns",
+    "confidence": 0.92,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2123585936",
+    "paper_title": "A tutorial survey of architectures, algorithms, and applications for deep learning",
+    "assumption": "Higher-level concepts must be built from lower-level feature representations",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2123585936",
+    "paper_title": "A tutorial survey of architectures, algorithms, and applications for deep learning",
+    "assumption": "Deep architectures are essential for representation learning",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2123585936",
+    "paper_title": "A tutorial survey of architectures, algorithms, and applications for deep learning",
+    "assumption": "Feature learning and pattern classification require separate architectural considerations",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2147390495",
+    "paper_title": "Differential pattern of functional brain plasticity after compassion and empathy training",
+    "assumption": "Specific brain regions are necessary for distinct psychological functions",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2147390495",
+    "paper_title": "Differential pattern of functional brain plasticity after compassion and empathy training",
+    "assumption": "Neural plasticity is required for training-induced psychological changes",
+    "confidence": 0.92,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2147390495",
+    "paper_title": "Differential pattern of functional brain plasticity after compassion and empathy training",
+    "assumption": "fMRI BOLD signal is essential for measuring neural activity underlying psychological processes",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2147390495",
+    "paper_title": "Differential pattern of functional brain plasticity after compassion and empathy training",
+    "assumption": "Self-report measures are necessary for assessing internal emotional states",
+    "confidence": 0.88,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2147390495",
+    "paper_title": "Differential pattern of functional brain plasticity after compassion and empathy training",
+    "assumption": "Controlled experimental manipulation is required to establish causal relationships between training and brain changes",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2145642245",
+    "paper_title": "Functional Neural Plasticity and Associated Changes in Positive Affect After Compassion Training",
+    "assumption": "Specific brain regions are necessary for generating distinct emotional states",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2145642245",
+    "paper_title": "Functional Neural Plasticity and Associated Changes in Positive Affect After Compassion Training",
+    "assumption": "Neural plasticity requires intensive training interventions to produce measurable changes",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2145642245",
+    "paper_title": "Functional Neural Plasticity and Associated Changes in Positive Affect After Compassion Training",
+    "assumption": "Empathic responses are necessarily coupled with negative affective experiences",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2145642245",
+    "paper_title": "Functional Neural Plasticity and Associated Changes in Positive Affect After Compassion Training",
+    "assumption": "fMRI activation patterns are reliable indicators of underlying psychological processes",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2145642245",
+    "paper_title": "Functional Neural Plasticity and Associated Changes in Positive Affect After Compassion Training",
+    "assumption": "Controlled experimental paradigms are necessary to isolate specific neural mechanisms",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2033206800",
+    "paper_title": "Machine learning of molecular electronic properties in chemical compound space",
+    "assumption": "Ab initio quantum chemical calculations are the gold standard for molecular electronic properties",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2033206800",
+    "paper_title": "Machine learning of molecular electronic properties in chemical compound space",
+    "assumption": "Nuclear charges and Cartesian coordinates are sufficient molecular representations for electronic property prediction",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2033206800",
+    "paper_title": "Machine learning of molecular electronic properties in chemical compound space",
+    "assumption": "Multi-task learning requires deep neural networks to capture inter-property correlations",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2033206800",
+    "paper_title": "Machine learning of molecular electronic properties in chemical compound space",
+    "assumption": "Electronic properties are deterministic functions of molecular structure",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2033206800",
+    "paper_title": "Machine learning of molecular electronic properties in chemical compound space",
+    "assumption": "Supervised learning on ab initio data is necessary for accurate property prediction",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2127377767",
+    "paper_title": "Mindfulness meditation training alters cortical representations of interoceptive attention",
+    "assumption": "fMRI BOLD signal changes reliably reflect underlying neural activity and plasticity",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2127377767",
+    "paper_title": "Mindfulness meditation training alters cortical representations of interoceptive attention",
+    "assumption": "Functional brain changes require structural localization to specific anatomical regions",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2127377767",
+    "paper_title": "Mindfulness meditation training alters cortical representations of interoceptive attention",
+    "assumption": "Cognitive training effects manifest as measurable changes in task-specific brain activation patterns",
+    "confidence": 0.88,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2127377767",
+    "paper_title": "Mindfulness meditation training alters cortical representations of interoceptive attention",
+    "assumption": "Controlled experimental designs with waitlisted controls are necessary to establish causal training effects",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2127377767",
+    "paper_title": "Mindfulness meditation training alters cortical representations of interoceptive attention",
+    "assumption": "Interoceptive processing requires specialized neural circuits distinct from exteroceptive processing",
+    "confidence": 0.82,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2165611870",
+    "paper_title": "EEG-Based Emotion Recognition Using Deep Learning Network with Principal Component Based Covariate Shift Adaptation",
+    "assumption": "Deep hierarchical feature learning is necessary for effective EEG-based emotion recognition",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2165611870",
+    "paper_title": "EEG-Based Emotion Recognition Using Deep Learning Network with Principal Component Based Covariate Shift Adaptation",
+    "assumption": "Covariate shift adaptation is essential for handling non-stationary EEG signals in emotion classification",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2165611870",
+    "paper_title": "EEG-Based Emotion Recognition Using Deep Learning Network with Principal Component Based Covariate Shift Adaptation",
+    "assumption": "Power spectral density features are required as fundamental representations for EEG emotion analysis",
+    "confidence": 0.8,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2165611870",
+    "paper_title": "EEG-Based Emotion Recognition Using Deep Learning Network with Principal Component Based Covariate Shift Adaptation",
+    "assumption": "Multi-channel EEG recordings are necessary for capturing comprehensive emotional states",
+    "confidence": 0.8,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2165611870",
+    "paper_title": "EEG-Based Emotion Recognition Using Deep Learning Network with Principal Component Based Covariate Shift Adaptation",
+    "assumption": "Dimensionality reduction is essential for preventing overfitting in EEG-based learning",
+    "confidence": 0.75,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2033134445",
+    "paper_title": "Broadband Cortical Desynchronization Underlies the Human Psychedelic State",
+    "assumption": "Cortical oscillatory synchronization is necessary for maintaining normal conscious states",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2033134445",
+    "paper_title": "Broadband Cortical Desynchronization Underlies the Human Psychedelic State",
+    "assumption": "Default-mode network activity is essential for self-referential consciousness and ego maintenance",
+    "confidence": 0.92,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2033134445",
+    "paper_title": "Broadband Cortical Desynchronization Underlies the Human Psychedelic State",
+    "assumption": "Spontaneous oscillatory power reflects meaningful cortical network activity rather than noise",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2033134445",
+    "paper_title": "Broadband Cortical Desynchronization Underlies the Human Psychedelic State",
+    "assumption": "5-HT2A receptor activation is the primary mechanism required for classic psychedelic effects",
+    "confidence": 0.88,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2033134445",
+    "paper_title": "Broadband Cortical Desynchronization Underlies the Human Psychedelic State",
+    "assumption": "Higher-order association cortices are necessary for complex conscious experiences",
+    "confidence": 0.87,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2144015117",
+    "paper_title": "Deep learning of the tissue-regulated splicing code",
+    "assumption": "Deep architectures are necessary for capturing complex regulatory patterns in genomic sequences",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2144015117",
+    "paper_title": "Deep learning of the tissue-regulated splicing code",
+    "assumption": "Supervised learning with labeled splicing outcomes is essential for learning splicing codes",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2144015117",
+    "paper_title": "Deep learning of the tissue-regulated splicing code",
+    "assumption": "Predictive performance metrics are the primary measure of biological understanding",
+    "confidence": 0.8,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2144015117",
+    "paper_title": "Deep learning of the tissue-regulated splicing code",
+    "assumption": "Sequence-based features contain sufficient information to predict tissue-specific splicing patterns",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2144015117",
+    "paper_title": "Deep learning of the tissue-regulated splicing code",
+    "assumption": "Hyperparameter optimization is required for deep learning success in genomics",
+    "confidence": 0.75,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2171830166",
+    "paper_title": "Machine learning methods in chemoinformatics",
+    "assumption": "Molecular structure determines biological activity and can be learned from data",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2171830166",
+    "paper_title": "Machine learning methods in chemoinformatics",
+    "assumption": "Supervised learning is necessary for accurate chemical property prediction",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2171830166",
+    "paper_title": "Machine learning methods in chemoinformatics",
+    "assumption": "Chemical knowledge can be effectively encoded as numerical descriptors or features",
+    "confidence": 0.88,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2171830166",
+    "paper_title": "Machine learning methods in chemoinformatics",
+    "assumption": "Training and test set separation is essential for valid model evaluation in chemical modeling",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2171830166",
+    "paper_title": "Machine learning methods in chemoinformatics",
+    "assumption": "Machine learning methods developed for general domains are applicable to chemical problems",
+    "confidence": 0.82,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2109450100",
+    "paper_title": "Real-Time Self-Regulation of Emotion Networks in Patients with Depression",
+    "assumption": "Conscious self-regulation of brain activity is necessary for effective neurofeedback-based interventions",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2109450100",
+    "paper_title": "Real-Time Self-Regulation of Emotion Networks in Patients with Depression",
+    "assumption": "Real-time neural feedback is essential for brain-based therapeutic interventions",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2109450100",
+    "paper_title": "Real-Time Self-Regulation of Emotion Networks in Patients with Depression",
+    "assumption": "Upregulation of positive emotion networks is necessary for treating depression",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2109450100",
+    "paper_title": "Real-Time Self-Regulation of Emotion Networks in Patients with Depression",
+    "assumption": "BOLD signal changes reflect meaningful neural activity changes for therapeutic purposes",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2109450100",
+    "paper_title": "Real-Time Self-Regulation of Emotion Networks in Patients with Depression",
+    "assumption": "Clinical symptom scales are essential measures of therapeutic efficacy in depression research",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2008008156",
+    "paper_title": "Real-time classification and sensor fusion with a spiking deep belief network",
+    "assumption": "Deep architectures with layer-wise pre-training are necessary for effective feature learning in neural networks",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2008008156",
+    "paper_title": "Real-time classification and sensor fusion with a spiking deep belief network",
+    "assumption": "Generative models are required for interpretable and robust classification systems",
+    "confidence": 0.75,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2008008156",
+    "paper_title": "Real-time classification and sensor fusion with a spiking deep belief network",
+    "assumption": "Parallel update of neural network units is essential for achieving biological plausibility",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2008008156",
+    "paper_title": "Real-time classification and sensor fusion with a spiking deep belief network",
+    "assumption": "Feedback connections are necessary for implementing deep belief networks effectively",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2008008156",
+    "paper_title": "Real-time classification and sensor fusion with a spiking deep belief network",
+    "assumption": "Event-driven processing is required for real-time neural computation in hardware",
+    "confidence": 0.7,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2143559571",
+    "paper_title": "Toward Supervised Anomaly Detection",
+    "assumption": "Anomaly detection is fundamentally an unsupervised learning problem due to the unknown nature of anomalous distributions",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2143559571",
+    "paper_title": "Toward Supervised Anomaly Detection",
+    "assumption": "Supervised classification approaches are inherently unsuitable for detecting unknown or novel anomalies",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2143559571",
+    "paper_title": "Toward Supervised Anomaly Detection",
+    "assumption": "Labeled anomaly data is scarce and expensive to obtain in real-world scenarios",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2143559571",
+    "paper_title": "Toward Supervised Anomaly Detection",
+    "assumption": "Detection accuracy is the primary and most important metric for evaluating anomaly detection systems",
+    "confidence": 0.8,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2143559571",
+    "paper_title": "Toward Supervised Anomaly Detection",
+    "assumption": "Active learning strategies are necessary to efficiently utilize limited labeling resources in anomaly detection",
+    "confidence": 0.75,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2146291834",
+    "paper_title": "Detecting Falls with Wearable Sensors Using Machine Learning Techniques",
+    "assumption": "Machine learning classifiers are necessary for achieving high accuracy in complex sensor-based detection tasks",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2146291834",
+    "paper_title": "Detecting Falls with Wearable Sensors Using Machine Learning Techniques",
+    "assumption": "Multiple sensor modalities are required for robust human motion recognition",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2146291834",
+    "paper_title": "Detecting Falls with Wearable Sensors Using Machine Learning Techniques",
+    "assumption": "Supervised learning with labeled training data is essential for activity recognition systems",
+    "confidence": 0.92,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2146291834",
+    "paper_title": "Detecting Falls with Wearable Sensors Using Machine Learning Techniques",
+    "assumption": "Feature extraction from raw sensor data is necessary for effective classification",
+    "confidence": 0.88,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2146291834",
+    "paper_title": "Detecting Falls with Wearable Sensors Using Machine Learning Techniques",
+    "assumption": "Temporal windowing of sensor data is required for activity classification",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W1549767159",
+    "paper_title": "Democracy's fourth wave?: digital media and the Arab Spring",
+    "assumption": "Causal relationships in social phenomena can be empirically identified and measured through systematic analysis",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1549767159",
+    "paper_title": "Democracy's fourth wave?: digital media and the Arab Spring",
+    "assumption": "Digital media effects on political outcomes can be isolated and evaluated as distinct causal factors",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1549767159",
+    "paper_title": "Democracy's fourth wave?: digital media and the Arab Spring",
+    "assumption": "Regime change and social movement success are measurable dependent variables that can be explained through identifiable independent variables",
+    "confidence": 0.88,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W1549767159",
+    "paper_title": "Democracy's fourth wave?: digital media and the Arab Spring",
+    "assumption": "Complex social phenomena can be understood through 'causal recipes' that combine multiple sufficient and necessary conditions",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1549767159",
+    "paper_title": "Democracy's fourth wave?: digital media and the Arab Spring",
+    "assumption": "Historical precedent and wave-based models are valid frameworks for understanding democratic transitions",
+    "confidence": 0.82,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2131725398",
+    "paper_title": "Hyperspectral Image Classification Based on Structured Sparse Logistic Regression and Three-Dimensional Wavelet Texture Features",
+    "assumption": "Spectral-spatial feature integration is essential for optimal hyperspectral image classification performance",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2131725398",
+    "paper_title": "Hyperspectral Image Classification Based on Structured Sparse Logistic Regression and Three-Dimensional Wavelet Texture Features",
+    "assumption": "Sparse regularization is necessary to handle high-dimensional hyperspectral data effectively",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2131725398",
+    "paper_title": "Hyperspectral Image Classification Based on Structured Sparse Logistic Regression and Three-Dimensional Wavelet Texture Features",
+    "assumption": "The curse of dimensionality fundamentally limits classification performance in high-dimensional spectral spaces",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2131725398",
+    "paper_title": "Hyperspectral Image Classification Based on Structured Sparse Logistic Regression and Three-Dimensional Wavelet Texture Features",
+    "assumption": "Multi-scale decomposition is required to capture meaningful spatial-spectral structures in hyperspectral data",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2131725398",
+    "paper_title": "Hyperspectral Image Classification Based on Structured Sparse Logistic Regression and Three-Dimensional Wavelet Texture Features",
+    "assumption": "Limited training samples relative to feature dimensionality necessitates regularized learning approaches",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W1984419556",
+    "paper_title": "Energy-theft detection issues for advanced metering infrastructure in smart grid",
+    "assumption": "Centralized data collection is necessary for effective energy theft detection",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1984419556",
+    "paper_title": "Energy-theft detection issues for advanced metering infrastructure in smart grid",
+    "assumption": "Historical consumption patterns are essential for identifying anomalous energy usage",
+    "confidence": 0.95,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W1984419556",
+    "paper_title": "Energy-theft detection issues for advanced metering infrastructure in smart grid",
+    "assumption": "Supervised learning approaches require labeled theft examples for effective detection",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1984419556",
+    "paper_title": "Energy-theft detection issues for advanced metering infrastructure in smart grid",
+    "assumption": "Statistical deviation from normal patterns is sufficient to indicate energy theft",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1984419556",
+    "paper_title": "Energy-theft detection issues for advanced metering infrastructure in smart grid",
+    "assumption": "Real-time or near real-time monitoring is required for effective theft prevention",
+    "confidence": 0.75,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2084408745",
+    "paper_title": "An Iterative Approach for the Optimization of Pavement Maintenance Management at the Network Level",
+    "assumption": "Optimal resource allocation requires mathematical optimization techniques",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2084408745",
+    "paper_title": "An Iterative Approach for the Optimization of Pavement Maintenance Management at the Network Level",
+    "assumption": "Network-level optimization is fundamentally different from and superior to project-level optimization",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2084408745",
+    "paper_title": "An Iterative Approach for the Optimization of Pavement Maintenance Management at the Network Level",
+    "assumption": "Budget constraints are the primary limiting factor in pavement maintenance decisions",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2084408745",
+    "paper_title": "An Iterative Approach for the Optimization of Pavement Maintenance Management at the Network Level",
+    "assumption": "Pavement condition can be adequately quantified through discrete condition indices",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2084408745",
+    "paper_title": "An Iterative Approach for the Optimization of Pavement Maintenance Management at the Network Level",
+    "assumption": "Future pavement deterioration follows predictable mathematical models",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2149989625",
+    "paper_title": "The neural basis of human tool use",
+    "assumption": "Neural specialization is necessary for complex cognitive abilities",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2149989625",
+    "paper_title": "The neural basis of human tool use",
+    "assumption": "Localized brain regions are required for specific cognitive functions",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2149989625",
+    "paper_title": "The neural basis of human tool use",
+    "assumption": "Human-unique behaviors require human-specific neural architectures",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2149989625",
+    "paper_title": "The neural basis of human tool use",
+    "assumption": "Evolutionary pressures are necessary to drive neural circuit specialization",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2149989625",
+    "paper_title": "The neural basis of human tool use",
+    "assumption": "Cross-species comparisons are essential for understanding human neural uniqueness",
+    "confidence": 0.8,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2060986680",
+    "paper_title": "A Novel Hybrid Bat Algorithm with Harmony Search for Global Numerical Optimization",
+    "assumption": "Population-based search is necessary for effective global optimization",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2060986680",
+    "paper_title": "A Novel Hybrid Bat Algorithm with Harmony Search for Global Numerical Optimization",
+    "assumption": "Standard benchmark functions are sufficient to validate optimization algorithm performance",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2060986680",
+    "paper_title": "A Novel Hybrid Bat Algorithm with Harmony Search for Global Numerical Optimization",
+    "assumption": "Metaheuristic algorithms require balance between exploration and exploitation for effective optimization",
+    "confidence": 0.92,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2060986680",
+    "paper_title": "A Novel Hybrid Bat Algorithm with Harmony Search for Global Numerical Optimization",
+    "assumption": "Bio-inspired metaphors are essential for designing effective optimization algorithms",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2060986680",
+    "paper_title": "A Novel Hybrid Bat Algorithm with Harmony Search for Global Numerical Optimization",
+    "assumption": "Hybridization of multiple metaheuristics is necessary to overcome individual algorithm limitations",
+    "confidence": 0.88,
+    "category": "architectural"
+  }
+]

@@ -1,0 +1,2102 @@
+[
+  {
+    "paper_id": "https://openalex.org/W113586804",
+    "paper_title": "The Distributional Hypothesis",
+    "assumption": "Distributional similarity is necessary for capturing semantic meaning",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W113586804",
+    "paper_title": "The Distributional Hypothesis",
+    "assumption": "Large-scale text corpora are required for reliable meaning acquisition",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W113586804",
+    "paper_title": "The Distributional Hypothesis",
+    "assumption": "Statistical co-occurrence patterns are essential for encoding semantic relationships",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W113586804",
+    "paper_title": "The Distributional Hypothesis",
+    "assumption": "Vector space representations are necessary for computational meaning modeling",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W113586804",
+    "paper_title": "The Distributional Hypothesis",
+    "assumption": "Context windows are required for capturing word meaning relationships",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1597195725",
+    "paper_title": "Vector Space Models of Word Meaning and Phrase Meaning: A Survey",
+    "assumption": "Distributional similarity is necessary for capturing semantic meaning",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1597195725",
+    "paper_title": "Vector Space Models of Word Meaning and Phrase Meaning: A Survey",
+    "assumption": "High-dimensional vector spaces are required for adequate semantic representation",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1597195725",
+    "paper_title": "Vector Space Models of Word Meaning and Phrase Meaning: A Survey",
+    "assumption": "Context co-occurrence statistics are essential for learning word meaning",
+    "confidence": 0.93,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W1597195725",
+    "paper_title": "Vector Space Models of Word Meaning and Phrase Meaning: A Survey",
+    "assumption": "Compositional combination of word vectors is necessary for phrase meaning",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1597195725",
+    "paper_title": "Vector Space Models of Word Meaning and Phrase Meaning: A Survey",
+    "assumption": "Geometric proximity in vector space is required to represent semantic similarity",
+    "confidence": 0.88,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1999311832",
+    "paper_title": "Flexibility in embodied lexical‐semantic representations",
+    "assumption": "Conceptual representation requires grounding in sensorimotor systems",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1999311832",
+    "paper_title": "Flexibility in embodied lexical‐semantic representations",
+    "assumption": "Neural localization is necessary for understanding cognitive function",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1999311832",
+    "paper_title": "Flexibility in embodied lexical‐semantic representations",
+    "assumption": "Language comprehension requires activation of modality-specific brain regions",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1999311832",
+    "paper_title": "Flexibility in embodied lexical‐semantic representations",
+    "assumption": "Behavioral and neuroimaging convergence is essential for validating cognitive theories",
+    "confidence": 0.8,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W1999311832",
+    "paper_title": "Flexibility in embodied lexical‐semantic representations",
+    "assumption": "Context manipulation is necessary for testing representational flexibility",
+    "confidence": 0.75,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2072323436",
+    "paper_title": "Principal Semantic Components of Language and the Measurement of Meaning",
+    "assumption": "Semantic meaning can be faithfully represented in continuous metric spaces",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2072323436",
+    "paper_title": "Principal Semantic Components of Language and the Measurement of Meaning",
+    "assumption": "Word-level representations are sufficient for capturing semantic relationships",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2072323436",
+    "paper_title": "Principal Semantic Components of Language and the Measurement of Meaning",
+    "assumption": "Dimensionality reduction preserves the most important semantic information",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2072323436",
+    "paper_title": "Principal Semantic Components of Language and the Measurement of Meaning",
+    "assumption": "Dictionary-based semantic relationships provide ground truth for meaning",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2072323436",
+    "paper_title": "Principal Semantic Components of Language and the Measurement of Meaning",
+    "assumption": "Semantic spaces should reflect both synonymy and antonymy relationships",
+    "confidence": 0.83,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2164019165",
+    "paper_title": "Improving Word Representations via Global Context and Multiple Word Prototypes",
+    "assumption": "Single embeddings per word type are sufficient to capture word meaning",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2164019165",
+    "paper_title": "Improving Word Representations via Global Context and Multiple Word Prototypes",
+    "assumption": "Local context windows are sufficient for learning semantic representations",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2164019165",
+    "paper_title": "Improving Word Representations via Global Context and Multiple Word Prototypes",
+    "assumption": "Unsupervised learning from raw text is necessary for general word representations",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2164019165",
+    "paper_title": "Improving Word Representations via Global Context and Multiple Word Prototypes",
+    "assumption": "Static word embeddings are the appropriate unit of semantic representation",
+    "confidence": 0.75,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2164019165",
+    "paper_title": "Improving Word Representations via Global Context and Multiple Word Prototypes",
+    "assumption": "Neural networks are required for learning high-quality distributed word representations",
+    "confidence": 0.7,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W193898724",
+    "paper_title": "Distributional semantics in linguistic and cognitive research",
+    "assumption": "Word co-occurrence statistics are sufficient to capture semantic meaning",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W193898724",
+    "paper_title": "Distributional semantics in linguistic and cognitive research",
+    "assumption": "Large text corpora provide adequate approximations of human linguistic experience",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W193898724",
+    "paper_title": "Distributional semantics in linguistic and cognitive research",
+    "assumption": "Semantic similarity can be measured through distributional similarity in vector spaces",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W193898724",
+    "paper_title": "Distributional semantics in linguistic and cognitive research",
+    "assumption": "Statistical patterns in text reflect cognitive semantic representations",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W193898724",
+    "paper_title": "Distributional semantics in linguistic and cognitive research",
+    "assumption": "Context windows or syntactic dependencies are sufficient to define meaningful linguistic context",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2131253837",
+    "paper_title": "Directional distributional similarity for lexical inference",
+    "assumption": "Distributional similarity is the primary foundation for capturing semantic relationships between words",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2131253837",
+    "paper_title": "Directional distributional similarity for lexical inference",
+    "assumption": "Vector space representations are necessary for modeling word semantics computationally",
+    "confidence": 0.92,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2131253837",
+    "paper_title": "Directional distributional similarity for lexical inference",
+    "assumption": "Semantic similarity can be effectively quantified through statistical measures applied to distributional representations",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2131253837",
+    "paper_title": "Directional distributional similarity for lexical inference",
+    "assumption": "Co-occurrence statistics from large corpora are sufficient to capture meaningful semantic relationships",
+    "confidence": 0.88,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2131253837",
+    "paper_title": "Directional distributional similarity for lexical inference",
+    "assumption": "Contextual distribution patterns are reliable indicators of word meaning and semantic relationships",
+    "confidence": 0.87,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2086039194",
+    "paper_title": "Improved statistical machine translation using monolingually-derived paraphrases",
+    "assumption": "Parallel bilingual corpora are essential for statistical machine translation quality",
+    "confidence": 0.95,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2086039194",
+    "paper_title": "Improved statistical machine translation using monolingually-derived paraphrases",
+    "assumption": "Statistical models with phrase-based alignment are necessary for machine translation",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2086039194",
+    "paper_title": "Improved statistical machine translation using monolingually-derived paraphrases",
+    "assumption": "Translation quality is fundamentally limited by out-of-vocabulary words in the source language",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2086039194",
+    "paper_title": "Improved statistical machine translation using monolingually-derived paraphrases",
+    "assumption": "Cross-lingual semantic equivalence requires explicit alignment between language pairs",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2086039194",
+    "paper_title": "Improved statistical machine translation using monolingually-derived paraphrases",
+    "assumption": "Low-resource language translation requires data augmentation through paraphrasing or pivoting",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2133149049",
+    "paper_title": "Bilingual Word Recognition in a Sentence Context",
+    "assumption": "Lexical access fundamentally involves competition between activated word representations",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2133149049",
+    "paper_title": "Bilingual Word Recognition in a Sentence Context",
+    "assumption": "Language processing occurs through discrete, temporally ordered stages that can be empirically isolated",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2133149049",
+    "paper_title": "Bilingual Word Recognition in a Sentence Context",
+    "assumption": "Eye movement patterns directly reflect underlying cognitive processing mechanisms during reading",
+    "confidence": 0.88,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2133149049",
+    "paper_title": "Bilingual Word Recognition in a Sentence Context",
+    "assumption": "Bilingual language processing can be understood through the same architectural principles as monolingual processing",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2133149049",
+    "paper_title": "Bilingual Word Recognition in a Sentence Context",
+    "assumption": "Word recognition processes are fundamentally bottom-up, driven by visual input activation",
+    "confidence": 0.82,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2164359605",
+    "paper_title": "Bootstrapping Distributional Feature Vector Quality",
+    "assumption": "Feature weighting is essential for high-quality distributional word representations",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2164359605",
+    "paper_title": "Bootstrapping Distributional Feature Vector Quality",
+    "assumption": "Distributional similarity requires co-occurrence statistics to capture semantic relationships",
+    "confidence": 0.92,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2164359605",
+    "paper_title": "Bootstrapping Distributional Feature Vector Quality",
+    "assumption": "Human gold-standard annotations are necessary for evaluating semantic similarity quality",
+    "confidence": 0.88,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2164359605",
+    "paper_title": "Bootstrapping Distributional Feature Vector Quality",
+    "assumption": "Similar words must share common distributional features to be semantically related",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2164359605",
+    "paper_title": "Bootstrapping Distributional Feature Vector Quality",
+    "assumption": "Feature vectors are required to represent word meanings computationally",
+    "confidence": 0.83,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2153147280",
+    "paper_title": "Parsing Models for Identifying Multiword Expressions",
+    "assumption": "Syntactic parsing requires context-free or mildly context-sensitive grammatical formalisms",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2153147280",
+    "paper_title": "Parsing Models for Identifying Multiword Expressions",
+    "assumption": "Joint modeling of interdependent linguistic phenomena is superior to pipeline approaches",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2153147280",
+    "paper_title": "Parsing Models for Identifying Multiword Expressions",
+    "assumption": "Structured prediction with explicit grammatical constraints is necessary for syntactic analysis",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2153147280",
+    "paper_title": "Parsing Models for Identifying Multiword Expressions",
+    "assumption": "Lexical sparsity is a fundamental obstacle that requires explicit mitigation strategies",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2153147280",
+    "paper_title": "Parsing Models for Identifying Multiword Expressions",
+    "assumption": "Morphologically rich languages require special handling beyond standard lexical representations",
+    "confidence": 0.8,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2467015505",
+    "paper_title": "What lexical sets tell us about conceptual categories",
+    "assumption": "Ontological taxonomies are necessary for representing semantic knowledge computationally",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2467015505",
+    "paper_title": "What lexical sets tell us about conceptual categories",
+    "assumption": "Selectional constraints are essential for word sense disambiguation",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2467015505",
+    "paper_title": "What lexical sets tell us about conceptual categories",
+    "assumption": "Semantic types must be hierarchically organized to be computationally useful",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2467015505",
+    "paper_title": "What lexical sets tell us about conceptual categories",
+    "assumption": "Lexical items can be reliably mapped to discrete conceptual categories",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2467015505",
+    "paper_title": "What lexical sets tell us about conceptual categories",
+    "assumption": "Corpus data is necessary for empirically validating semantic theories",
+    "confidence": 0.8,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2114523070",
+    "paper_title": "A supervised learning approach to automatic synonym identification based on distributional features",
+    "assumption": "Distributional similarity is the primary foundation for computational semantic relatedness",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2114523070",
+    "paper_title": "A supervised learning approach to automatic synonym identification based on distributional features",
+    "assumption": "Hand-tuned similarity measures are necessary for effective distributional semantic systems",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2114523070",
+    "paper_title": "A supervised learning approach to automatic synonym identification based on distributional features",
+    "assumption": "Context-based distributional features are essential for capturing semantic relationships between words",
+    "confidence": 0.92,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2114523070",
+    "paper_title": "A supervised learning approach to automatic synonym identification based on distributional features",
+    "assumption": "Supervised learning requires explicit feature engineering for semantic tasks",
+    "confidence": 0.88,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2114523070",
+    "paper_title": "A supervised learning approach to automatic synonym identification based on distributional features",
+    "assumption": "Pattern-based linguistic features are necessary complements to distributional features",
+    "confidence": 0.75,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2042385167",
+    "paper_title": "Supervised Synonym Acquisition Using Distributional Features and Syntactic Patterns",
+    "assumption": "Distributional similarity is essential for capturing semantic relatedness between words",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2042385167",
+    "paper_title": "Supervised Synonym Acquisition Using Distributional Features and Syntactic Patterns",
+    "assumption": "Semantic similarity requires analysis of shared contextual environments",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2042385167",
+    "paper_title": "Supervised Synonym Acquisition Using Distributional Features and Syntactic Patterns",
+    "assumption": "Manual parameter tuning is necessary for effective distributional similarity methods",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2042385167",
+    "paper_title": "Supervised Synonym Acquisition Using Distributional Features and Syntactic Patterns",
+    "assumption": "Supervised learning requires explicit feature engineering for semantic tasks",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2042385167",
+    "paper_title": "Supervised Synonym Acquisition Using Distributional Features and Syntactic Patterns",
+    "assumption": "Syntactic patterns provide complementary information to distributional features for semantic tasks",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2577334687",
+    "paper_title": "Construction in Semantic Memory: Generating Perceptual Representations With Global Lexical Similarity",
+    "assumption": "Distributional similarity in language reflects semantic similarity",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2577334687",
+    "paper_title": "Construction in Semantic Memory: Generating Perceptual Representations With Global Lexical Similarity",
+    "assumption": "Semantic representations require integration of multiple modalities for completeness",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2577334687",
+    "paper_title": "Construction in Semantic Memory: Generating Perceptual Representations With Global Lexical Similarity",
+    "assumption": "Co-occurrence statistics are sufficient to capture lexical semantic structure",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2577334687",
+    "paper_title": "Construction in Semantic Memory: Generating Perceptual Representations With Global Lexical Similarity",
+    "assumption": "Perceptual grounding is necessary for meaningful semantic representation",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2577334687",
+    "paper_title": "Construction in Semantic Memory: Generating Perceptual Representations With Global Lexical Similarity",
+    "assumption": "Global statistical patterns can compensate for missing local experience",
+    "confidence": 0.75,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2045929671",
+    "paper_title": "Semantic text similarity using corpus-based word similarity and string similarity",
+    "assumption": "Distributional similarity in corpora is necessary for capturing semantic word relationships",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2045929671",
+    "paper_title": "Semantic text similarity using corpus-based word similarity and string similarity",
+    "assumption": "Surface-level string similarity is essential for complementing semantic similarity measures",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2045929671",
+    "paper_title": "Semantic text similarity using corpus-based word similarity and string similarity",
+    "assumption": "Word-level similarity composition is required for sentence-level semantic similarity",
+    "confidence": 0.92,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2045929671",
+    "paper_title": "Semantic text similarity using corpus-based word similarity and string similarity",
+    "assumption": "Large text corpora are necessary for learning reliable semantic word representations",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2045929671",
+    "paper_title": "Semantic text similarity using corpus-based word similarity and string similarity",
+    "assumption": "Sequential word order information is essential for accurate text similarity computation",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2429432121",
+    "paper_title": "Language- and domain-independent text mining",
+    "assumption": "Language-specific resources and tools are necessary for effective NLP performance",
+    "confidence": 0.95,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2429432121",
+    "paper_title": "Language- and domain-independent text mining",
+    "assumption": "Statistical learning from large corpora is essential for modern NLP systems",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2429432121",
+    "paper_title": "Language- and domain-independent text mining",
+    "assumption": "Linguistic preprocessing is required for meaningful text analysis",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2429432121",
+    "paper_title": "Language- and domain-independent text mining",
+    "assumption": "Language-specific syntactic and morphological knowledge is necessary for accurate text processing",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2429432121",
+    "paper_title": "Language- and domain-independent text mining",
+    "assumption": "Feature engineering is essential for effective text mining and information extraction",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2099938389",
+    "paper_title": "Wikipedia-based Semantic Interpretation for Natural Language Processing",
+    "assumption": "Adequate semantic representation requires access to vast amounts of world knowledge",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2099938389",
+    "paper_title": "Wikipedia-based Semantic Interpretation for Natural Language Processing",
+    "assumption": "High-dimensional vector spaces are necessary for capturing semantic relationships",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2099938389",
+    "paper_title": "Wikipedia-based Semantic Interpretation for Natural Language Processing",
+    "assumption": "External knowledge bases are essential for moving beyond purely statistical approaches to semantics",
+    "confidence": 0.88,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2099938389",
+    "paper_title": "Wikipedia-based Semantic Interpretation for Natural Language Processing",
+    "assumption": "Semantic relatedness computation is a fundamental evaluation paradigm for semantic representation quality",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2099938389",
+    "paper_title": "Wikipedia-based Semantic Interpretation for Natural Language Processing",
+    "assumption": "Text categorization performance is an essential benchmark for semantic representation methods",
+    "confidence": 0.82,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2062862495",
+    "paper_title": "Is it time to leave behind the Revised Hierarchical Model of bilingual language processing after fifteen years of service?",
+    "assumption": "Separate lexicons are necessary for representing different languages in bilingual processing",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2062862495",
+    "paper_title": "Is it time to leave behind the Revised Hierarchical Model of bilingual language processing after fifteen years of service?",
+    "assumption": "Language selective access is essential for efficient bilingual word recognition",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2062862495",
+    "paper_title": "Is it time to leave behind the Revised Hierarchical Model of bilingual language processing after fifteen years of service?",
+    "assumption": "Hierarchical organization is required for modeling cross-language connections in bilingual processing",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2062862495",
+    "paper_title": "Is it time to leave behind the Revised Hierarchical Model of bilingual language processing after fifteen years of service?",
+    "assumption": "L2 connections to conceptual representations are necessarily weaker than L1 connections",
+    "confidence": 0.88,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2062862495",
+    "paper_title": "Is it time to leave behind the Revised Hierarchical Model of bilingual language processing after fifteen years of service?",
+    "assumption": "Translation equivalents require direct lexical connections for bilingual processing",
+    "confidence": 0.82,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2766061806",
+    "paper_title": "Learning Semantic Features For Visual Recognition",
+    "assumption": "Appearance-based clustering is necessary for creating meaningful visual feature representations",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2766061806",
+    "paper_title": "Learning Semantic Features For Visual Recognition",
+    "assumption": "Mid-level feature extraction through patch quantization is essential for visual recognition",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2766061806",
+    "paper_title": "Learning Semantic Features For Visual Recognition",
+    "assumption": "Discriminative power and compactness are the fundamental criteria for evaluating visual vocabularies",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2766061806",
+    "paper_title": "Learning Semantic Features For Visual Recognition",
+    "assumption": "Cross-validation on vocabulary size is necessary for optimal BoVW performance",
+    "confidence": 0.75,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2766061806",
+    "paper_title": "Learning Semantic Features For Visual Recognition",
+    "assumption": "Local geometric structure preservation is essential for semantic feature learning",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2029323337",
+    "paper_title": "Effects of TMS on Different Stages of Motor and Non-Motor Verb Processing in the Primary Motor Cortex",
+    "assumption": "Transcranial magnetic stimulation can selectively probe the functional role of specific brain regions during cognitive processing",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2029323337",
+    "paper_title": "Effects of TMS on Different Stages of Motor and Non-Motor Verb Processing in the Primary Motor Cortex",
+    "assumption": "Motor-evoked potentials provide a valid and direct measure of primary motor cortex activation during language tasks",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2029323337",
+    "paper_title": "Effects of TMS on Different Stages of Motor and Non-Motor Verb Processing in the Primary Motor Cortex",
+    "assumption": "Word processing occurs in distinct, temporally separable stages that can be isolated experimentally",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2029323337",
+    "paper_title": "Effects of TMS on Different Stages of Motor and Non-Motor Verb Processing in the Primary Motor Cortex",
+    "assumption": "Somatotopic organization in motor cortex is preserved during language processing tasks",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2029323337",
+    "paper_title": "Effects of TMS on Different Stages of Motor and Non-Motor Verb Processing in the Primary Motor Cortex",
+    "assumption": "Reaction time and accuracy measures are sufficient indicators of cognitive processing interference",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2155889433",
+    "paper_title": "A Probabilistic Computational Model of Cross‐Situational Word Learning",
+    "assumption": "Word meaning acquisition requires explicit symbolic representations of semantic elements",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2155889433",
+    "paper_title": "A Probabilistic Computational Model of Cross‐Situational Word Learning",
+    "assumption": "Language learning can be modeled as statistical association between discrete linguistic and semantic units",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2155889433",
+    "paper_title": "A Probabilistic Computational Model of Cross‐Situational Word Learning",
+    "assumption": "Incremental learning mechanisms are necessary for modeling realistic language acquisition",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2155889433",
+    "paper_title": "A Probabilistic Computational Model of Cross‐Situational Word Learning",
+    "assumption": "Child-directed speech paired with meaning representations constitutes sufficient training data for word learning models",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2155889433",
+    "paper_title": "A Probabilistic Computational Model of Cross‐Situational Word Learning",
+    "assumption": "Probabilistic learning frameworks are essential for capturing the uncertainty inherent in word-meaning mappings",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2108937378",
+    "paper_title": "Building semantic kernels for text classification using wikipedia",
+    "assumption": "Vector space representations are necessary for effective text classification",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2108937378",
+    "paper_title": "Building semantic kernels for text classification using wikipedia",
+    "assumption": "Sparse high-dimensional representations are inherently problematic for document classification",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2108937378",
+    "paper_title": "Building semantic kernels for text classification using wikipedia",
+    "assumption": "External knowledge sources are required to capture semantic relationships that cannot be learned from training data alone",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2108937378",
+    "paper_title": "Building semantic kernels for text classification using wikipedia",
+    "assumption": "Classification accuracy is the primary metric for evaluating text classification system quality",
+    "confidence": 0.88,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2108937378",
+    "paper_title": "Building semantic kernels for text classification using wikipedia",
+    "assumption": "Semantic similarity must be explicitly encoded through feature engineering or external knowledge integration",
+    "confidence": 0.87,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2135586525",
+    "paper_title": "A Common Neural Substrate for Language Production and Verbal Working Memory",
+    "assumption": "Cognitive functions can be cleanly decomposed into independent, modular subsystems",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2135586525",
+    "paper_title": "A Common Neural Substrate for Language Production and Verbal Working Memory",
+    "assumption": "Spatial localization of brain activity corresponds to functional specialization of cognitive processes",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2135586525",
+    "paper_title": "A Common Neural Substrate for Language Production and Verbal Working Memory",
+    "assumption": "Causal inference about cognitive function requires experimental disruption of neural activity",
+    "confidence": 0.88,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2135586525",
+    "paper_title": "A Common Neural Substrate for Language Production and Verbal Working Memory",
+    "assumption": "Working memory systems operate through dedicated maintenance mechanisms distinct from processing systems",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2135586525",
+    "paper_title": "A Common Neural Substrate for Language Production and Verbal Working Memory",
+    "assumption": "Language production occurs through sequential, hierarchically organized processing stages",
+    "confidence": 0.82,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2082624943",
+    "paper_title": "Flexibility in Embodied Language Understanding",
+    "assumption": "Language understanding requires dedicated neural mechanisms that can be localized to specific brain regions",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2082624943",
+    "paper_title": "Flexibility in Embodied Language Understanding",
+    "assumption": "Semantic representations are necessary components of language comprehension that can be studied independently",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2082624943",
+    "paper_title": "Flexibility in Embodied Language Understanding",
+    "assumption": "Cortical activation patterns during language tasks reflect the underlying cognitive processes of language understanding",
+    "confidence": 0.88,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2082624943",
+    "paper_title": "Flexibility in Embodied Language Understanding",
+    "assumption": "Language comprehension can be meaningfully studied by examining neural responses to isolated words or sentences",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2082624943",
+    "paper_title": "Flexibility in Embodied Language Understanding",
+    "assumption": "Functional brain imaging data provides valid evidence for theories about language processing mechanisms",
+    "confidence": 0.82,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W1970476061",
+    "paper_title": "More data trumps smarter algorithms: Comparing pointwise mutual information with latent semantic analysis",
+    "assumption": "Human semantic similarity judgments are the gold standard for evaluating computational semantic models",
+    "confidence": 0.95,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W1970476061",
+    "paper_title": "More data trumps smarter algorithms: Comparing pointwise mutual information with latent semantic analysis",
+    "assumption": "Statistical co-occurrence patterns in text are sufficient to capture semantic relationships",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1970476061",
+    "paper_title": "More data trumps smarter algorithms: Comparing pointwise mutual information with latent semantic analysis",
+    "assumption": "Distributional similarity reflects semantic similarity",
+    "confidence": 0.92,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1970476061",
+    "paper_title": "More data trumps smarter algorithms: Comparing pointwise mutual information with latent semantic analysis",
+    "assumption": "Text corpora contain the necessary statistical redundancies to learn semantic representations",
+    "confidence": 0.88,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W1970476061",
+    "paper_title": "More data trumps smarter algorithms: Comparing pointwise mutual information with latent semantic analysis",
+    "assumption": "Cognitive plausibility requires correlation with human behavioral data",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2097857422",
+    "paper_title": "An Abundance of Riches: Cross-Task Comparisons of Semantic Richness Effects in Visual Word Recognition",
+    "assumption": "Semantic information is necessarily accessed during visual word recognition",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2097857422",
+    "paper_title": "An Abundance of Riches: Cross-Task Comparisons of Semantic Richness Effects in Visual Word Recognition",
+    "assumption": "Response time measures are essential for capturing lexical processing dynamics",
+    "confidence": 0.92,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2097857422",
+    "paper_title": "An Abundance of Riches: Cross-Task Comparisons of Semantic Richness Effects in Visual Word Recognition",
+    "assumption": "Statistical control of correlated lexical variables is required for isolating semantic effects",
+    "confidence": 0.88,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2097857422",
+    "paper_title": "An Abundance of Riches: Cross-Task Comparisons of Semantic Richness Effects in Visual Word Recognition",
+    "assumption": "Multiple task paradigms are necessary to establish generalizable lexical processing principles",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2097857422",
+    "paper_title": "An Abundance of Riches: Cross-Task Comparisons of Semantic Richness Effects in Visual Word Recognition",
+    "assumption": "Semantic richness can be adequately quantified through discrete psycholinguistic measures",
+    "confidence": 0.82,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1992914835",
+    "paper_title": "WikiWalk",
+    "assumption": "Graph-based random walks are necessary for capturing semantic relationships in knowledge bases",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1992914835",
+    "paper_title": "WikiWalk",
+    "assumption": "Wikipedia's link structure is essential for representing real-world semantic relationships",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W1992914835",
+    "paper_title": "WikiWalk",
+    "assumption": "Semantic relatedness requires integration of broad real-world knowledge beyond local text features",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1992914835",
+    "paper_title": "WikiWalk",
+    "assumption": "Text similarity evaluation requires comparison against human-annotated gold standard datasets",
+    "confidence": 0.88,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W1992914835",
+    "paper_title": "WikiWalk",
+    "assumption": "Distributional representations over concept spaces are necessary for semantic similarity computation",
+    "confidence": 0.82,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2156124259",
+    "paper_title": "Text Relatedness Based on a Word Thesaurus",
+    "assumption": "Lexical and semantic relatedness are necessary components for measuring text similarity",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2156124259",
+    "paper_title": "Text Relatedness Based on a Word Thesaurus",
+    "assumption": "Word-level semantic relationships are essential building blocks for text-level semantic understanding",
+    "confidence": 0.92,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2156124259",
+    "paper_title": "Text Relatedness Based on a Word Thesaurus",
+    "assumption": "Human-curated linguistic resources like thesauri provide reliable semantic knowledge",
+    "confidence": 0.88,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2156124259",
+    "paper_title": "Text Relatedness Based on a Word Thesaurus",
+    "assumption": "Semantic relatedness can be quantified through numerical measures and compared across different texts",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2156124259",
+    "paper_title": "Text Relatedness Based on a Word Thesaurus",
+    "assumption": "Compositional approaches are required to derive text-level semantics from word-level semantics",
+    "confidence": 0.87,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2147638277",
+    "paper_title": "Did It Happen? The Pragmatic Complexity of Veridicality Assessment",
+    "assumption": "Veridicality can be captured through lexical semantic properties alone",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2147638277",
+    "paper_title": "Did It Happen? The Pragmatic Complexity of Veridicality Assessment",
+    "assumption": "Semantic categories are sufficient for modeling linguistic phenomena without pragmatic considerations",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2147638277",
+    "paper_title": "Did It Happen? The Pragmatic Complexity of Veridicality Assessment",
+    "assumption": "Linguistic judgments should be modeled as categorical rather than distributional",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2147638277",
+    "paper_title": "Did It Happen? The Pragmatic Complexity of Veridicality Assessment",
+    "assumption": "Event extraction systems can operate effectively without explicit veridicality assessment",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2147638277",
+    "paper_title": "Did It Happen? The Pragmatic Complexity of Veridicality Assessment",
+    "assumption": "Lexical features are the primary signal for understanding factuality in text",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W1996908104",
+    "paper_title": "Statistical Metaphor Processing",
+    "assumption": "Metaphor processing requires explicit identification and literal paraphrasing as separate sequential steps",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1996908104",
+    "paper_title": "Statistical Metaphor Processing",
+    "assumption": "Distributional similarity in vector spaces captures semantic relatedness necessary for metaphor understanding",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1996908104",
+    "paper_title": "Statistical Metaphor Processing",
+    "assumption": "Selectional preference violations are essential indicators of metaphorical language use",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1996908104",
+    "paper_title": "Statistical Metaphor Processing",
+    "assumption": "Syntactic parsing is necessary for accurate metaphor detection and interpretation",
+    "confidence": 0.75,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1996908104",
+    "paper_title": "Statistical Metaphor Processing",
+    "assumption": "Hand-coded linguistic knowledge is required for high-quality metaphor processing",
+    "confidence": 0.7,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W1992305141",
+    "paper_title": "Lexical typology through similarity semantics: Toward a semantic map of motion verbs",
+    "assumption": "Parallel translations preserve core semantic distinctions across languages",
+    "confidence": 0.95,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W1992305141",
+    "paper_title": "Lexical typology through similarity semantics: Toward a semantic map of motion verbs",
+    "assumption": "Cross-linguistic semantic universals can be discovered through comparative lexical analysis",
+    "confidence": 0.92,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1992305141",
+    "paper_title": "Lexical typology through similarity semantics: Toward a semantic map of motion verbs",
+    "assumption": "Semantic similarity can be objectively measured and compared across unrelated languages",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1992305141",
+    "paper_title": "Lexical typology through similarity semantics: Toward a semantic map of motion verbs",
+    "assumption": "Biblical texts provide representative samples of basic vocabulary across diverse languages",
+    "confidence": 0.88,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W1992305141",
+    "paper_title": "Lexical typology through similarity semantics: Toward a semantic map of motion verbs",
+    "assumption": "Lexical patterns reflect deeper cognitive-semantic structures shared across humanity",
+    "confidence": 0.87,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W60571609",
+    "paper_title": "Measuring Distributional Similarity in Context",
+    "assumption": "Vector representations are necessary for operationalizing semantic similarity computation",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W60571609",
+    "paper_title": "Measuring Distributional Similarity in Context",
+    "assumption": "Word sense disambiguation requires explicit modeling of multiple discrete senses",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W60571609",
+    "paper_title": "Measuring Distributional Similarity in Context",
+    "assumption": "Contextual meaning can be modeled as modulation of context-independent base representations",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W60571609",
+    "paper_title": "Measuring Distributional Similarity in Context",
+    "assumption": "Probabilistic distributions are essential for representing semantic ambiguity and uncertainty",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W60571609",
+    "paper_title": "Measuring Distributional Similarity in Context",
+    "assumption": "Lexical substitution tasks are valid proxies for measuring contextual semantic understanding",
+    "confidence": 0.75,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2042972234",
+    "paper_title": "Convolution kernels on constituent, dependency and sequential structures for relation extraction",
+    "assumption": "Syntactic structure is essential for capturing linguistic relationships in text",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2042972234",
+    "paper_title": "Convolution kernels on constituent, dependency and sequential structures for relation extraction",
+    "assumption": "Support Vector Machines with kernel methods are necessary for effectively leveraging structured linguistic representations",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2042972234",
+    "paper_title": "Convolution kernels on constituent, dependency and sequential structures for relation extraction",
+    "assumption": "Hand-crafted syntactic features are required for high-quality relation extraction",
+    "confidence": 0.88,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2042972234",
+    "paper_title": "Convolution kernels on constituent, dependency and sequential structures for relation extraction",
+    "assumption": "Parse trees provide the optimal structural representation for linguistic tasks",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2042972234",
+    "paper_title": "Convolution kernels on constituent, dependency and sequential structures for relation extraction",
+    "assumption": "Kernel methods are essential for incorporating non-linear structural similarities in NLP",
+    "confidence": 0.83,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1967012975",
+    "paper_title": "A Machine Learning Approach for Opinion Holder Extraction in Arabic Language",
+    "assumption": "Supervised machine learning with labeled training data is essential for opinion holder extraction",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1967012975",
+    "paper_title": "A Machine Learning Approach for Opinion Holder Extraction in Arabic Language",
+    "assumption": "Sequential labeling formulations are necessary for entity extraction tasks in text",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1967012975",
+    "paper_title": "A Machine Learning Approach for Opinion Holder Extraction in Arabic Language",
+    "assumption": "Deep syntactic parsing is required for understanding clause structures in opinion mining",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1967012975",
+    "paper_title": "A Machine Learning Approach for Opinion Holder Extraction in Arabic Language",
+    "assumption": "Hand-crafted feature engineering is essential for NLP tasks without robust parsers",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1967012975",
+    "paper_title": "A Machine Learning Approach for Opinion Holder Extraction in Arabic Language",
+    "assumption": "Cross-validation on held-out test sets is the standard paradigm for evaluating extraction performance",
+    "confidence": 0.8,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2071877188",
+    "paper_title": "Deep semantic analysis of text",
+    "assumption": "Compositional semantic structure is necessary for deep text understanding",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2071877188",
+    "paper_title": "Deep semantic analysis of text",
+    "assumption": "Logical forms are essential for representing precise semantic meaning",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2071877188",
+    "paper_title": "Deep semantic analysis of text",
+    "assumption": "Symbolic parsing is required for extracting structured semantic representations",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2071877188",
+    "paper_title": "Deep semantic analysis of text",
+    "assumption": "Rule-based grammatical frameworks are necessary for semantic analysis",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2071877188",
+    "paper_title": "Deep semantic analysis of text",
+    "assumption": "Lexical knowledge bases are essential for semantic interpretation",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W1593502373",
+    "paper_title": "Named Entity Recognition Using Support Vector Machine: A Language Independent Approach",
+    "assumption": "Supervised learning with labeled training data is necessary for effective named entity recognition",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1593502373",
+    "paper_title": "Named Entity Recognition Using Support Vector Machine: A Language Independent Approach",
+    "assumption": "Named entities must be classified into predefined categorical classes rather than discovered automatically",
+    "confidence": 0.92,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1593502373",
+    "paper_title": "Named Entity Recognition Using Support Vector Machine: A Language Independent Approach",
+    "assumption": "Word-level token classification is the fundamental approach for named entity recognition",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1593502373",
+    "paper_title": "Named Entity Recognition Using Support Vector Machine: A Language Independent Approach",
+    "assumption": "Local contextual features are essential for accurate named entity classification",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1593502373",
+    "paper_title": "Named Entity Recognition Using Support Vector Machine: A Language Independent Approach",
+    "assumption": "Manual feature engineering is required to capture linguistic patterns for NER",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2017292107",
+    "paper_title": "Computing Lexical Contrast",
+    "assumption": "Semantic relationships can be reliably extracted from distributional corpus statistics",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2017292107",
+    "paper_title": "Computing Lexical Contrast",
+    "assumption": "Thesaurus structures reflect meaningful semantic organization that can be computationally exploited",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2017292107",
+    "paper_title": "Computing Lexical Contrast",
+    "assumption": "Human judgments of semantic relationships represent ground truth for lexical semantic tasks",
+    "confidence": 0.88,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2017292107",
+    "paper_title": "Computing Lexical Contrast",
+    "assumption": "Lexical semantic relationships are compositional and can be inferred through transitivity",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2017292107",
+    "paper_title": "Computing Lexical Contrast",
+    "assumption": "Crowdsourcing provides sufficient quality annotations for complex semantic judgment tasks",
+    "confidence": 0.82,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W1980318031",
+    "paper_title": "Random walks for text semantic similarity",
+    "assumption": "Compositional semantic understanding requires aggregation of word-level semantic information",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1980318031",
+    "paper_title": "Random walks for text semantic similarity",
+    "assumption": "Lexical semantic resources like WordNet provide the foundational building blocks for text similarity",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W1980318031",
+    "paper_title": "Random walks for text semantic similarity",
+    "assumption": "Semantic similarity can be quantified through distributional comparison methods",
+    "confidence": 0.88,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1980318031",
+    "paper_title": "Random walks for text semantic similarity",
+    "assumption": "Graph-based representations are necessary for capturing semantic relationships in text",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1980318031",
+    "paper_title": "Random walks for text semantic similarity",
+    "assumption": "Vector space models are the standard baseline for semantic similarity tasks",
+    "confidence": 0.82,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2251970440",
+    "paper_title": "Grounded Models of Semantic Representation",
+    "assumption": "Corpus-based distributional statistics are sufficient to approximate linguistic meaning",
+    "confidence": 0.95,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2251970440",
+    "paper_title": "Grounded Models of Semantic Representation",
+    "assumption": "Feature norms collected from human subjects are valid proxies for perceptual experience",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2251970440",
+    "paper_title": "Grounded Models of Semantic Representation",
+    "assumption": "Human behavioral data serves as the gold standard for evaluating semantic representation quality",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2251970440",
+    "paper_title": "Grounded Models of Semantic Representation",
+    "assumption": "Semantic representation can be decomposed into discrete linguistic and perceptual modalities",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2251970440",
+    "paper_title": "Grounded Models of Semantic Representation",
+    "assumption": "Word-level representations are the fundamental units for studying semantic meaning",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1535555350",
+    "paper_title": "Explicit versus latent concept models for cross-language information retrieval",
+    "assumption": "Semantic representation is necessary for effective cross-language information retrieval",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1535555350",
+    "paper_title": "Explicit versus latent concept models for cross-language information retrieval",
+    "assumption": "Bag-of-words models are fundamentally inadequate for capturing semantic similarity",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1535555350",
+    "paper_title": "Explicit versus latent concept models for cross-language information retrieval",
+    "assumption": "Concept-based intermediary representations are required to bridge different languages",
+    "confidence": 0.92,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1535555350",
+    "paper_title": "Explicit versus latent concept models for cross-language information retrieval",
+    "assumption": "Cross-language retrieval performance is an appropriate testbed for evaluating semantic models",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W1535555350",
+    "paper_title": "Explicit versus latent concept models for cross-language information retrieval",
+    "assumption": "Semantic concepts can be adequately represented through either explicit resources or latent dimensionality reduction",
+    "confidence": 0.88,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2159746348",
+    "paper_title": "Semi-supervised semantic role labeling using the latent words language model",
+    "assumption": "Manual annotation by human experts is necessary for creating high-quality semantic role training data",
+    "confidence": 0.95,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2159746348",
+    "paper_title": "Semi-supervised semantic role labeling using the latent words language model",
+    "assumption": "Large labeled datasets are essential for achieving competitive semantic role labeling performance",
+    "confidence": 0.92,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2159746348",
+    "paper_title": "Semi-supervised semantic role labeling using the latent words language model",
+    "assumption": "Word-level representations are the fundamental units required for semantic role understanding",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2159746348",
+    "paper_title": "Semi-supervised semantic role labeling using the latent words language model",
+    "assumption": "Supervised learning paradigms are necessary for semantic understanding tasks",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2159746348",
+    "paper_title": "Semi-supervised semantic role labeling using the latent words language model",
+    "assumption": "Language models must explicitly model word similarities to capture semantic relationships",
+    "confidence": 0.82,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1996476189",
+    "paper_title": "Learning a concept‐based document similarity measure",
+    "assumption": "Lexical overlap is a necessary foundation for document similarity measurement",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1996476189",
+    "paper_title": "Learning a concept‐based document similarity measure",
+    "assumption": "Human judgments represent the gold standard for document similarity evaluation",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W1996476189",
+    "paper_title": "Learning a concept‐based document similarity measure",
+    "assumption": "Supervised learning from human annotations is required for high-quality similarity measures",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1996476189",
+    "paper_title": "Learning a concept‐based document similarity measure",
+    "assumption": "Document similarity requires explicit combination of multiple similarity dimensions",
+    "confidence": 0.75,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1996476189",
+    "paper_title": "Learning a concept‐based document similarity measure",
+    "assumption": "Surface-level features are insufficient for capturing semantic document relationships",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2096819730",
+    "paper_title": "Measuring Word Meaning in Context",
+    "assumption": "Dictionary senses are the fundamental units for representing word meaning",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2096819730",
+    "paper_title": "Measuring Word Meaning in Context",
+    "assumption": "Word meaning disambiguation requires explicit sense inventories or taxonomies",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2096819730",
+    "paper_title": "Measuring Word Meaning in Context",
+    "assumption": "Human annotation is the gold standard for evaluating semantic representations",
+    "confidence": 0.88,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2096819730",
+    "paper_title": "Measuring Word Meaning in Context",
+    "assumption": "Word senses exist as discrete, identifiable linguistic units",
+    "confidence": 0.92,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2096819730",
+    "paper_title": "Measuring Word Meaning in Context",
+    "assumption": "Inter-annotator agreement is necessary to validate semantic annotation schemes",
+    "confidence": 0.8,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2156954687",
+    "paper_title": "Learning Structured Embeddings of Knowledge Bases",
+    "assumption": "Symbolic representations are inherently incompatible with continuous machine learning methods",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2156954687",
+    "paper_title": "Learning Structured Embeddings of Knowledge Bases",
+    "assumption": "Continuous vector representations are necessary for effective machine learning on structured knowledge",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2156954687",
+    "paper_title": "Learning Structured Embeddings of Knowledge Bases",
+    "assumption": "Neural network architectures are required to bridge symbolic and continuous representations",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2156954687",
+    "paper_title": "Learning Structured Embeddings of Knowledge Bases",
+    "assumption": "Knowledge base heterogeneity is a fundamental barrier that requires embedding solutions",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2156954687",
+    "paper_title": "Learning Structured Embeddings of Knowledge Bases",
+    "assumption": "Structured knowledge preservation is essential during the embedding process",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2117561440",
+    "paper_title": "Domain adaptation with latent semantic association for named entity recognition",
+    "assumption": "Supervised learning with labeled training data is necessary for named entity recognition",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2117561440",
+    "paper_title": "Domain adaptation with latent semantic association for named entity recognition",
+    "assumption": "Domain-specific labeled data is required for effective cross-domain adaptation",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2117561440",
+    "paper_title": "Domain adaptation with latent semantic association for named entity recognition",
+    "assumption": "Surface-form lexical features are essential for entity recognition systems",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2117561440",
+    "paper_title": "Domain adaptation with latent semantic association for named entity recognition",
+    "assumption": "Statistical classification approaches are necessary for sequence labeling tasks",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2117561440",
+    "paper_title": "Domain adaptation with latent semantic association for named entity recognition",
+    "assumption": "Domain shift is primarily caused by lexical variation rather than structural differences",
+    "confidence": 0.75,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2125226531",
+    "paper_title": "Semantic similarity of distractors in multiple-choice tests",
+    "assumption": "WordNet-based semantic similarity measures are necessary for capturing meaningful lexical relationships",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2125226531",
+    "paper_title": "Semantic similarity of distractors in multiple-choice tests",
+    "assumption": "Multiple similarity measures combined outperform individual measures for semantic tasks",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2125226531",
+    "paper_title": "Semantic similarity of distractors in multiple-choice tests",
+    "assumption": "Distributional similarity is essential for capturing word meaning from usage patterns",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2125226531",
+    "paper_title": "Semantic similarity of distractors in multiple-choice tests",
+    "assumption": "Collocation patterns are required indicators of semantic relationships",
+    "confidence": 0.75,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2125226531",
+    "paper_title": "Semantic similarity of distractors in multiple-choice tests",
+    "assumption": "Statistical significance testing is necessary for validating NLP method comparisons",
+    "confidence": 0.7,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2102259148",
+    "paper_title": "The Hidden Markov Topic Model: A Probabilistic Model of Semantic Representation",
+    "assumption": "Distributional statistics of language are sufficient to capture semantic meaning",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2102259148",
+    "paper_title": "The Hidden Markov Topic Model: A Probabilistic Model of Semantic Representation",
+    "assumption": "Bayesian probabilistic modeling is the appropriate framework for learning semantic representations",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2102259148",
+    "paper_title": "The Hidden Markov Topic Model: A Probabilistic Model of Semantic Representation",
+    "assumption": "Sequential information is essential for accurate semantic modeling of language",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2102259148",
+    "paper_title": "The Hidden Markov Topic Model: A Probabilistic Model of Semantic Representation",
+    "assumption": "Topic models provide a valid foundation for semantic representation learning",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2102259148",
+    "paper_title": "The Hidden Markov Topic Model: A Probabilistic Model of Semantic Representation",
+    "assumption": "Markov assumptions are necessary for tractable sequential modeling in NLP",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2132410742",
+    "paper_title": "A relational model of semantic similarity between words using automatically extracted lexical pattern clusters from the web",
+    "assumption": "Human similarity judgments provide the ground truth for evaluating computational semantic similarity measures",
+    "confidence": 0.95,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2132410742",
+    "paper_title": "A relational model of semantic similarity between words using automatically extracted lexical pattern clusters from the web",
+    "assumption": "Semantic similarity can be accurately quantified as a single scalar value between word pairs",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2132410742",
+    "paper_title": "A relational model of semantic similarity between words using automatically extracted lexical pattern clusters from the web",
+    "assumption": "Pearson correlation coefficient is the appropriate metric for validating semantic similarity measures against human judgments",
+    "confidence": 0.88,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2132410742",
+    "paper_title": "A relational model of semantic similarity between words using automatically extracted lexical pattern clusters from the web",
+    "assumption": "Web-scale text corpora contain sufficient distributional evidence to capture semantic relationships between words",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2132410742",
+    "paper_title": "A relational model of semantic similarity between words using automatically extracted lexical pattern clusters from the web",
+    "assumption": "Lexical patterns observable in text reflect meaningful semantic relations between words",
+    "confidence": 0.82,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2082599510",
+    "paper_title": "Combining word sense and usage for modeling frame semantics",
+    "assumption": "Symbolic knowledge bases are essential for comprehensive semantic representation",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2082599510",
+    "paper_title": "Combining word sense and usage for modeling frame semantics",
+    "assumption": "Cross-lingual semantic resources require manual construction or rule-based extension methods",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2082599510",
+    "paper_title": "Combining word sense and usage for modeling frame semantics",
+    "assumption": "Word sense disambiguation is necessary for frame semantic modeling",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2082599510",
+    "paper_title": "Combining word sense and usage for modeling frame semantics",
+    "assumption": "Distributional and symbolic approaches must be combined for adequate semantic coverage",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2082599510",
+    "paper_title": "Combining word sense and usage for modeling frame semantics",
+    "assumption": "Lexical semantic resources require explicit frame-to-lexical-unit mappings",
+    "confidence": 0.75,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2107598941",
+    "paper_title": "Distant supervision for relation extraction without labeled data",
+    "assumption": "Supervised learning on hand-labeled corpora is necessary for high-quality relation extraction",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2107598941",
+    "paper_title": "Distant supervision for relation extraction without labeled data",
+    "assumption": "Manual annotation is required to create training data for relation extraction systems",
+    "confidence": 0.92,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2107598941",
+    "paper_title": "Distant supervision for relation extraction without labeled data",
+    "assumption": "Textual surface features are sufficient to capture relational semantics between entities",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2107598941",
+    "paper_title": "Distant supervision for relation extraction without labeled data",
+    "assumption": "Probabilistic classification is the appropriate framework for relation extraction",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2107598941",
+    "paper_title": "Distant supervision for relation extraction without labeled data",
+    "assumption": "Syntactic parse information is essential for disambiguating complex relational expressions",
+    "confidence": 0.83,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1662133657",
+    "paper_title": "From Frequency to Meaning: Vector Space Models of Semantics",
+    "assumption": "Distributional similarity is essential for capturing semantic meaning",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1662133657",
+    "paper_title": "From Frequency to Meaning: Vector Space Models of Semantics",
+    "assumption": "Vector representations are necessary for computational semantic processing",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1662133657",
+    "paper_title": "From Frequency to Meaning: Vector Space Models of Semantics",
+    "assumption": "Matrix factorization techniques are required for discovering latent semantic structures",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1662133657",
+    "paper_title": "From Frequency to Meaning: Vector Space Models of Semantics",
+    "assumption": "Co-occurrence statistics are essential for learning word meanings",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W1662133657",
+    "paper_title": "From Frequency to Meaning: Vector Space Models of Semantics",
+    "assumption": "High-dimensional vector spaces are necessary for representing semantic complexity",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1980038761",
+    "paper_title": "Bag-of-visual-words and spatial extensions for land-use classification",
+    "assumption": "Local feature extraction and quantization is necessary for robust image representation",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1980038761",
+    "paper_title": "Bag-of-visual-words and spatial extensions for land-use classification",
+    "assumption": "Histogram-based representations are essential for translating visual features into classification-compatible formats",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1980038761",
+    "paper_title": "Bag-of-visual-words and spatial extensions for land-use classification",
+    "assumption": "Text document classification paradigms are directly applicable to visual content analysis",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1980038761",
+    "paper_title": "Bag-of-visual-words and spatial extensions for land-use classification",
+    "assumption": "Kernel methods are necessary for effective similarity computation in high-dimensional feature spaces",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1980038761",
+    "paper_title": "Bag-of-visual-words and spatial extensions for land-use classification",
+    "assumption": "Supervised learning with labeled examples is required for semantic classification tasks",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2024668171",
+    "paper_title": "Using web-search results to measure word-group similarity",
+    "assumption": "Human judgment provides the gold standard ground truth for semantic similarity evaluation",
+    "confidence": 0.95,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2024668171",
+    "paper_title": "Using web-search results to measure word-group similarity",
+    "assumption": "Distributional similarity is necessary for capturing semantic relatedness between words",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2024668171",
+    "paper_title": "Using web-search results to measure word-group similarity",
+    "assumption": "Web corpus frequency counts are sufficient indicators of semantic relationships",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2024668171",
+    "paper_title": "Using web-search results to measure word-group similarity",
+    "assumption": "Correlation with human judgments is the primary validation method for similarity measures",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2024668171",
+    "paper_title": "Using web-search results to measure word-group similarity",
+    "assumption": "Pairwise similarity computation is the fundamental building block for measuring semantic relatedness",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1970381522",
+    "paper_title": "Cheap and fast---but is it good?",
+    "assumption": "Expert linguistic annotation is necessary for creating high-quality training data",
+    "confidence": 0.95,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W1970381522",
+    "paper_title": "Cheap and fast---but is it good?",
+    "assumption": "Supervised learning requires labeled training data to achieve good performance",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1970381522",
+    "paper_title": "Cheap and fast---but is it good?",
+    "assumption": "Agreement with expert annotations is the primary measure of annotation quality",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W1970381522",
+    "paper_title": "Cheap and fast---but is it good?",
+    "assumption": "Higher annotation quality necessarily leads to better downstream model performance",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1970381522",
+    "paper_title": "Cheap and fast---but is it good?",
+    "assumption": "Multiple human annotators are required to establish reliable ground truth labels",
+    "confidence": 0.8,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2428904845",
+    "paper_title": "Conditional co-occurrence probability acts like frequency in predicting fixation durations",
+    "assumption": "Fixation durations directly reflect cognitive processing difficulty during reading",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2428904845",
+    "paper_title": "Conditional co-occurrence probability acts like frequency in predicting fixation durations",
+    "assumption": "Word-level predictors are sufficient for modeling reading behavior",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2428904845",
+    "paper_title": "Conditional co-occurrence probability acts like frequency in predicting fixation durations",
+    "assumption": "Statistical corpus measures can capture semantic relationships relevant to human language processing",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2428904845",
+    "paper_title": "Conditional co-occurrence probability acts like frequency in predicting fixation durations",
+    "assumption": "Linear regression models are appropriate for capturing eye movement patterns",
+    "confidence": 0.8,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2428904845",
+    "paper_title": "Conditional co-occurrence probability acts like frequency in predicting fixation durations",
+    "assumption": "Model fit improvement is the primary criterion for evaluating predictor utility",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2122402213",
+    "paper_title": "An overview of MetaMap: historical perspective and recent advances",
+    "assumption": "Expert-curated terminologies are essential for accurate biomedical text processing",
+    "confidence": 0.95,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2122402213",
+    "paper_title": "An overview of MetaMap: historical perspective and recent advances",
+    "assumption": "Domain-specific lexical resources are necessary for biomedical concept identification",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2122402213",
+    "paper_title": "An overview of MetaMap: historical perspective and recent advances",
+    "assumption": "Rule-based approaches are required for reliable biomedical named entity recognition",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2122402213",
+    "paper_title": "An overview of MetaMap: historical perspective and recent advances",
+    "assumption": "Explicit negation detection is essential for accurate biomedical information extraction",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2122402213",
+    "paper_title": "An overview of MetaMap: historical perspective and recent advances",
+    "assumption": "Word sense disambiguation is necessary for precise biomedical concept mapping",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2578330248",
+    "paper_title": "In Defense of Spatial Models of Lexical Semantics",
+    "assumption": "Vector representations in high-dimensional spaces are necessary for capturing semantic relationships between words",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2578330248",
+    "paper_title": "In Defense of Spatial Models of Lexical Semantics",
+    "assumption": "Statistical co-occurrence patterns in text corpora are essential for learning meaningful word representations",
+    "confidence": 0.92,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2578330248",
+    "paper_title": "In Defense of Spatial Models of Lexical Semantics",
+    "assumption": "Human behavioral data provides the gold standard for validating semantic models",
+    "confidence": 0.88,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2578330248",
+    "paper_title": "In Defense of Spatial Models of Lexical Semantics",
+    "assumption": "Semantic similarity can be meaningfully represented through spatial proximity in vector spaces",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2578330248",
+    "paper_title": "In Defense of Spatial Models of Lexical Semantics",
+    "assumption": "Free association tasks are necessary benchmarks for testing semantic model validity",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2125574651",
+    "paper_title": "Scene Classification Using a Hybrid Generative/Discriminative Approach",
+    "assumption": "Bag-of-words representation is necessary for extracting meaningful visual patterns from images",
+    "confidence": 0.95,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2125574651",
+    "paper_title": "Scene Classification Using a Hybrid Generative/Discriminative Approach",
+    "assumption": "Feature quantization into discrete vocabularies is required for computer vision tasks",
+    "confidence": 0.92,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2125574651",
+    "paper_title": "Scene Classification Using a Hybrid Generative/Discriminative Approach",
+    "assumption": "Local feature descriptors are essential for robust visual representation",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2125574651",
+    "paper_title": "Scene Classification Using a Hybrid Generative/Discriminative Approach",
+    "assumption": "Dimensionality reduction is necessary to handle high-dimensional visual feature spaces effectively",
+    "confidence": 0.88,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2125574651",
+    "paper_title": "Scene Classification Using a Hybrid Generative/Discriminative Approach",
+    "assumption": "Generative models require separate discriminative classifiers for final predictions",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2128870637",
+    "paper_title": "Distributional Memory: A General Framework for Corpus-Based Semantics",
+    "assumption": "Distributional similarity is necessary for semantic representation",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2128870637",
+    "paper_title": "Distributional Memory: A General Framework for Corpus-Based Semantics",
+    "assumption": "Large-scale corpus data is essential for capturing semantic knowledge",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2128870637",
+    "paper_title": "Distributional Memory: A General Framework for Corpus-Based Semantics",
+    "assumption": "Co-occurrence statistics are sufficient to encode semantic relationships",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2128870637",
+    "paper_title": "Distributional Memory: A General Framework for Corpus-Based Semantics",
+    "assumption": "Task-specific architectures are required for optimal performance across different semantic problems",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2128870637",
+    "paper_title": "Distributional Memory: A General Framework for Corpus-Based Semantics",
+    "assumption": "Vector space representations are necessary for computational semantics",
+    "confidence": 0.85,
+    "category": "architectural"
+  }
+]

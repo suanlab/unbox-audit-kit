@@ -1,0 +1,22 @@
+{
+  "generated_at": 1773854987,
+  "target_per_category": 60,
+  "max_per_query": 220,
+  "categories": {
+    "icl": {
+      "config": {
+        "start_year": 2017,
+        "end_year": 2019,
+        "target_year": 2020
+      },
+      "output": "data/icl/papers.jsonl",
+      "stats": {
+        "paper_count": 60,
+        "min_year": 2017,
+        "max_year": 2019,
+        "abstract_ratio": 1.0,
+        "leakage_count": 0
+      }
+    }
+  }
+}

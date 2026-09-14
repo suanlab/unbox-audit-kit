@@ -1,0 +1,2102 @@
+[
+  {
+    "paper_id": "https://openalex.org/W2493916176",
+    "paper_title": "Enriching Word Vectors with Subword Information",
+    "assumption": "Distributional similarity is necessary for capturing semantic meaning in word representations",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2493916176",
+    "paper_title": "Enriching Word Vectors with Subword Information",
+    "assumption": "Dense vector representations are required for effective word embeddings",
+    "confidence": 0.92,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2493916176",
+    "paper_title": "Enriching Word Vectors with Subword Information",
+    "assumption": "Large unlabeled corpora are essential for learning high-quality word representations",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2493916176",
+    "paper_title": "Enriching Word Vectors with Subword Information",
+    "assumption": "Additive composition is necessary for combining subword representations into word vectors",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2493916176",
+    "paper_title": "Enriching Word Vectors with Subword Information",
+    "assumption": "Context window-based training is required for learning meaningful word embeddings",
+    "confidence": 0.88,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1902237438",
+    "paper_title": "Effective Approaches to Attention-based Neural Machine Translation",
+    "assumption": "Recurrent architectures are necessary for sequential text processing in neural machine translation",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1902237438",
+    "paper_title": "Effective Approaches to Attention-based Neural Machine Translation",
+    "assumption": "Attention mechanisms must operate over encoder hidden states to enable source-target alignment",
+    "confidence": 0.92,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1902237438",
+    "paper_title": "Effective Approaches to Attention-based Neural Machine Translation",
+    "assumption": "Neural translation models require explicit mechanisms to handle variable-length input sequences",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1902237438",
+    "paper_title": "Effective Approaches to Attention-based Neural Machine Translation",
+    "assumption": "BLEU score is the definitive metric for evaluating machine translation quality",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W1902237438",
+    "paper_title": "Effective Approaches to Attention-based Neural Machine Translation",
+    "assumption": "Encoder-decoder architectures are essential for sequence-to-sequence translation tasks",
+    "confidence": 0.93,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2580035316",
+    "paper_title": "ImageJ2: ImageJ for the next generation of scientific image data",
+    "assumption": "Open-source software is essential for reproducible scientific image analysis",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2580035316",
+    "paper_title": "ImageJ2: ImageJ for the next generation of scientific image data",
+    "assumption": "General-purpose platforms are necessary for diverse scientific imaging applications",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2580035316",
+    "paper_title": "ImageJ2: ImageJ for the next generation of scientific image data",
+    "assumption": "Plugin-based architectures are required for extensible image analysis software",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2580035316",
+    "paper_title": "ImageJ2: ImageJ for the next generation of scientific image data",
+    "assumption": "Interactive GUI-based tools are essential for scientific image analysis workflows",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2580035316",
+    "paper_title": "ImageJ2: ImageJ for the next generation of scientific image data",
+    "assumption": "Cross-platform compatibility is necessary for scientific software adoption",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2277195237",
+    "paper_title": "Visual Genome: Connecting Language and Vision Using Crowdsourced Dense Image Annotations",
+    "assumption": "Dense semantic annotations are necessary for enabling visual reasoning capabilities",
+    "confidence": 0.95,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2277195237",
+    "paper_title": "Visual Genome: Connecting Language and Vision Using Crowdsourced Dense Image Annotations",
+    "assumption": "Cognitive visual tasks require explicit modeling of object relationships and interactions",
+    "confidence": 0.92,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2277195237",
+    "paper_title": "Visual Genome: Connecting Language and Vision Using Crowdsourced Dense Image Annotations",
+    "assumption": "Crowdsourced human annotation is essential for capturing complex visual semantics",
+    "confidence": 0.88,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2277195237",
+    "paper_title": "Visual Genome: Connecting Language and Vision Using Crowdsourced Dense Image Annotations",
+    "assumption": "Structured knowledge representation through canonicalization to semantic ontologies is necessary for generalizable understanding",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2277195237",
+    "paper_title": "Visual Genome: Connecting Language and Vision Using Crowdsourced Dense Image Annotations",
+    "assumption": "Visual cognition fundamentally requires compositional understanding of scene elements",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2470673105",
+    "paper_title": "Hierarchical Attention Networks for Document Classification",
+    "assumption": "Recurrent neural networks are necessary for sequential text processing",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2470673105",
+    "paper_title": "Hierarchical Attention Networks for Document Classification",
+    "assumption": "Hierarchical structure in neural networks is required to capture document-level semantics",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2470673105",
+    "paper_title": "Hierarchical Attention Networks for Document Classification",
+    "assumption": "Attention mechanisms are essential for handling variable-length sequences effectively",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2470673105",
+    "paper_title": "Hierarchical Attention Networks for Document Classification",
+    "assumption": "Word-level representations must be aggregated through sentence-level representations for document understanding",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2470673105",
+    "paper_title": "Hierarchical Attention Networks for Document Classification",
+    "assumption": "Supervised learning with labeled training data is necessary for document classification",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2101971030",
+    "paper_title": "<scp>piecewiseSEM</scp>: Piecewise structural equation modelling in<scp>r</scp> for ecology, evolution, and systematics",
+    "assumption": "Complex multivariate relationships in natural systems require path analysis frameworks to be properly understood",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2101971030",
+    "paper_title": "<scp>piecewiseSEM</scp>: Piecewise structural equation modelling in<scp>r</scp> for ecology, evolution, and systematics",
+    "assumption": "Covariance-based methods are the standard foundation for evaluating structural equation models",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2101971030",
+    "paper_title": "<scp>piecewiseSEM</scp>: Piecewise structural equation modelling in<scp>r</scp> for ecology, evolution, and systematics",
+    "assumption": "Statistical significance testing is necessary for validating path relationships in structural models",
+    "confidence": 0.8,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2101971030",
+    "paper_title": "<scp>piecewiseSEM</scp>: Piecewise structural equation modelling in<scp>r</scp> for ecology, evolution, and systematics",
+    "assumption": "Linear modeling frameworks are sufficient for capturing most ecological and evolutionary relationships",
+    "confidence": 0.75,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2101971030",
+    "paper_title": "<scp>piecewiseSEM</scp>: Piecewise structural equation modelling in<scp>r</scp> for ecology, evolution, and systematics",
+    "assumption": "Confirmatory analysis is more scientifically rigorous than exploratory analysis for testing ecological hypotheses",
+    "confidence": 0.8,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2296283641",
+    "paper_title": "Neural Architectures for Named Entity Recognition",
+    "assumption": "Sequential neural architectures are necessary for processing natural language text",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2296283641",
+    "paper_title": "Neural Architectures for Named Entity Recognition",
+    "assumption": "Character-level representations require compositional learning through neural networks",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2296283641",
+    "paper_title": "Neural Architectures for Named Entity Recognition",
+    "assumption": "Recurrent connections are essential for capturing long-range dependencies in text",
+    "confidence": 0.92,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2296283641",
+    "paper_title": "Neural Architectures for Named Entity Recognition",
+    "assumption": "BIO tagging schemes are necessary for structured sequence labeling tasks",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2296283641",
+    "paper_title": "Neural Architectures for Named Entity Recognition",
+    "assumption": "Conditional Random Fields are required for optimal sequence labeling decisions",
+    "confidence": 0.83,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1966716734",
+    "paper_title": "The Precision-Recall Plot Is More Informative than the ROC Plot When Evaluating Binary Classifiers on Imbalanced Datasets",
+    "assumption": "ROC curves are the standard and most appropriate visualization for binary classifier performance evaluation",
+    "confidence": 0.95,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W1966716734",
+    "paper_title": "The Precision-Recall Plot Is More Informative than the ROC Plot When Evaluating Binary Classifiers on Imbalanced Datasets",
+    "assumption": "Sensitivity and specificity are the fundamental metrics that should drive binary classification evaluation",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W1966716734",
+    "paper_title": "The Precision-Recall Plot Is More Informative than the ROC Plot When Evaluating Binary Classifiers on Imbalanced Datasets",
+    "assumption": "Visual interpretability of performance plots directly correlates with their analytical validity",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W1966716734",
+    "paper_title": "The Precision-Recall Plot Is More Informative than the ROC Plot When Evaluating Binary Classifiers on Imbalanced Datasets",
+    "assumption": "A single performance visualization method can be universally applied across different dataset characteristics",
+    "confidence": 0.88,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W1966716734",
+    "paper_title": "The Precision-Recall Plot Is More Informative than the ROC Plot When Evaluating Binary Classifiers on Imbalanced Datasets",
+    "assumption": "Classification performance metrics should remain consistent regardless of class distribution",
+    "confidence": 0.82,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2606974598",
+    "paper_title": "Get To The Point: Summarization with Pointer-Generator Networks",
+    "assumption": "Sequence-to-sequence architectures with attention are essential for abstractive text generation tasks",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2606974598",
+    "paper_title": "Get To The Point: Summarization with Pointer-Generator Networks",
+    "assumption": "Autoregressive token-by-token generation is necessary for producing coherent text summaries",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2606974598",
+    "paper_title": "Get To The Point: Summarization with Pointer-Generator Networks",
+    "assumption": "ROUGE metrics are essential and sufficient for evaluating summary quality",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2606974598",
+    "paper_title": "Get To The Point: Summarization with Pointer-Generator Networks",
+    "assumption": "Teacher forcing during training is required for effective sequence-to-sequence learning",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2606974598",
+    "paper_title": "Get To The Point: Summarization with Pointer-Generator Networks",
+    "assumption": "Recurrent architectures are necessary for modeling sequential dependencies in text",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1971772643",
+    "paper_title": "A critique of the cross-lagged panel model.",
+    "assumption": "Cross-lagged correlations in panel data can reveal causal relationships between variables over time",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1971772643",
+    "paper_title": "A critique of the cross-lagged panel model.",
+    "assumption": "Autoregressive modeling is necessary to control for temporal stability when studying causal influences",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1971772643",
+    "paper_title": "A critique of the cross-lagged panel model.",
+    "assumption": "Within-person processes and between-person differences can be adequately modeled using the same parametric framework",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1971772643",
+    "paper_title": "A critique of the cross-lagged panel model.",
+    "assumption": "Temporal precedence combined with statistical control is sufficient evidence for causal inference in observational data",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1971772643",
+    "paper_title": "A critique of the cross-lagged panel model.",
+    "assumption": "Lagged regression coefficients directly represent causal effects between constructs over time",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2893425640",
+    "paper_title": "Semantics derived automatically from language corpora contain human-like biases",
+    "assumption": "Statistical co-occurrence patterns in text are sufficient to capture semantic meaning and relationships",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2893425640",
+    "paper_title": "Semantics derived automatically from language corpora contain human-like biases",
+    "assumption": "Human biases are necessarily encoded in the statistical structure of natural language corpora",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2893425640",
+    "paper_title": "Semantics derived automatically from language corpora contain human-like biases",
+    "assumption": "Implicit Association Test measurements provide valid ground truth for quantifying human cognitive biases",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2893425640",
+    "paper_title": "Semantics derived automatically from language corpora contain human-like biases",
+    "assumption": "Large-scale web text corpora are representative samples of human language and cultural knowledge",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2893425640",
+    "paper_title": "Semantics derived automatically from language corpora contain human-like biases",
+    "assumption": "Distributional similarity in vector space corresponds to semantic similarity in human cognition",
+    "confidence": 0.88,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2962902328",
+    "paper_title": "End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF",
+    "assumption": "Sequential dependencies are essential for accurate sequence labeling",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2962902328",
+    "paper_title": "End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF",
+    "assumption": "Structured prediction with global label dependencies is necessary for optimal sequence labeling",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2962902328",
+    "paper_title": "End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF",
+    "assumption": "Both word-level and character-level representations are required for robust sequence labeling",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2962902328",
+    "paper_title": "End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF",
+    "assumption": "Bidirectional context is essential for accurate sequence labeling",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2962902328",
+    "paper_title": "End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF",
+    "assumption": "End-to-end learning is superior to pipeline approaches with hand-crafted features",
+    "confidence": 0.82,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2118023920",
+    "paper_title": "Deep learning applications and challenges in big data analytics",
+    "assumption": "Hierarchical feature extraction is necessary for learning complex patterns in data",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2118023920",
+    "paper_title": "Deep learning applications and challenges in big data analytics",
+    "assumption": "Deep neural networks are required for effective big data analytics",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2118023920",
+    "paper_title": "Deep learning applications and challenges in big data analytics",
+    "assumption": "Unsupervised learning capability is essential for handling unlabeled big data",
+    "confidence": 0.88,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2118023920",
+    "paper_title": "Deep learning applications and challenges in big data analytics",
+    "assumption": "Massive data volumes are necessary for extracting meaningful patterns and abstractions",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2118023920",
+    "paper_title": "Deep learning applications and challenges in big data analytics",
+    "assumption": "Layer-by-layer abstraction learning is required for complex data representation",
+    "confidence": 0.83,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2765659056",
+    "paper_title": "Translanguaging as a Practical Theory of Language",
+    "assumption": "Named languages are discrete, bounded systems that can be clearly distinguished from one another",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2765659056",
+    "paper_title": "Translanguaging as a Practical Theory of Language",
+    "assumption": "Language and cognition operate as separate, modular systems in the mind",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2765659056",
+    "paper_title": "Translanguaging as a Practical Theory of Language",
+    "assumption": "Sociocultural and cognitive approaches to language study are fundamentally distinct paradigms",
+    "confidence": 0.88,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2765659056",
+    "paper_title": "Translanguaging as a Practical Theory of Language",
+    "assumption": "Language varieties constitute hierarchically organized systems with clear boundaries",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2765659056",
+    "paper_title": "Translanguaging as a Practical Theory of Language",
+    "assumption": "Language can be studied separately from other semiotic systems",
+    "confidence": 0.82,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2148539882",
+    "paper_title": "Parton distributions for the LHC run II",
+    "assumption": "Perturbative QCD factorization is essential for separating hard scattering processes from parton distributions",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2148539882",
+    "paper_title": "Parton distributions for the LHC run II",
+    "assumption": "Global fits combining diverse experimental datasets are necessary for reliable PDF determination",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2148539882",
+    "paper_title": "Parton distributions for the LHC run II",
+    "assumption": "Higher-order perturbative calculations (NLO, NNLO) are required for precision PDF phenomenology",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2148539882",
+    "paper_title": "Parton distributions for the LHC run II",
+    "assumption": "Experimental uncertainties can be treated as statistical quantities with well-defined probability distributions",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2148539882",
+    "paper_title": "Parton distributions for the LHC run II",
+    "assumption": "Deep-inelastic scattering data is essential for constraining PDFs across the full kinematic range",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2265846598",
+    "paper_title": "Recurrent Convolutional Neural Networks for Text Classification",
+    "assumption": "Recurrent structures are necessary for capturing sequential dependencies in text",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2265846598",
+    "paper_title": "Recurrent Convolutional Neural Networks for Text Classification",
+    "assumption": "Convolutional operations are essential for extracting local patterns from text sequences",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2265846598",
+    "paper_title": "Recurrent Convolutional Neural Networks for Text Classification",
+    "assumption": "Learned representations are superior to hand-crafted features for text understanding",
+    "confidence": 0.88,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2265846598",
+    "paper_title": "Recurrent Convolutional Neural Networks for Text Classification",
+    "assumption": "Pooling mechanisms are required to aggregate variable-length sequences into fixed representations",
+    "confidence": 0.87,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2265846598",
+    "paper_title": "Recurrent Convolutional Neural Networks for Text Classification",
+    "assumption": "Word-level representations are the fundamental building blocks for text classification",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2964268978",
+    "paper_title": "SeqGAN: Sequence Generative Adversarial Nets with Policy Gradient",
+    "assumption": "Adversarial training is necessary for high-quality generative modeling",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2964268978",
+    "paper_title": "SeqGAN: Sequence Generative Adversarial Nets with Policy Gradient",
+    "assumption": "Gradient-based optimization is essential for training neural generative models",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2964268978",
+    "paper_title": "SeqGAN: Sequence Generative Adversarial Nets with Policy Gradient",
+    "assumption": "Discriminative feedback is required to guide generative model training",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2964268978",
+    "paper_title": "SeqGAN: Sequence Generative Adversarial Nets with Policy Gradient",
+    "assumption": "Complete sequence evaluation is necessary for assessing generation quality",
+    "confidence": 0.8,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2964268978",
+    "paper_title": "SeqGAN: Sequence Generative Adversarial Nets with Policy Gradient",
+    "assumption": "Differentiability is required for effective neural network training",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963206148",
+    "paper_title": "A Diversity-Promoting Objective Function for Neural Conversation Models",
+    "assumption": "Maximum likelihood estimation is the natural and necessary objective for training sequence generation models",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963206148",
+    "paper_title": "A Diversity-Promoting Objective Function for Neural Conversation Models",
+    "assumption": "Autoregressive generation is essential for producing coherent sequential text",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963206148",
+    "paper_title": "A Diversity-Promoting Objective Function for Neural Conversation Models",
+    "assumption": "Encoder-decoder architectures are necessary for dialogue and conversation modeling",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963206148",
+    "paper_title": "A Diversity-Promoting Objective Function for Neural Conversation Models",
+    "assumption": "Neural networks require large amounts of paired conversational data to learn dialogue patterns",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963206148",
+    "paper_title": "A Diversity-Promoting Objective Function for Neural Conversation Models",
+    "assumption": "Token-level cross-entropy loss is the appropriate training signal for text generation",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W4211170237",
+    "paper_title": "… and the Cross-Section of Expected Returns",
+    "assumption": "Statistical significance through hypothesis testing is necessary for establishing the validity of financial relationships",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W4211170237",
+    "paper_title": "… and the Cross-Section of Expected Returns",
+    "assumption": "Cross-sectional variation in stock returns can be explained by identifiable systematic factors",
+    "confidence": 0.92,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W4211170237",
+    "paper_title": "… and the Cross-Section of Expected Returns",
+    "assumption": "Historical asset pricing data contains sufficient information to identify fundamental return-generating processes",
+    "confidence": 0.88,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W4211170237",
+    "paper_title": "… and the Cross-Section of Expected Returns",
+    "assumption": "Factor models are the appropriate framework for understanding expected return differences across assets",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W4211170237",
+    "paper_title": "… and the Cross-Section of Expected Returns",
+    "assumption": "T-statistics and related frequentist measures are essential for evaluating factor significance",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W1864161604",
+    "paper_title": "Sparse and Compositionally Robust Inference of Microbial Ecological Networks",
+    "assumption": "Pairwise association measures are sufficient for inferring ecological interaction networks",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1864161604",
+    "paper_title": "Sparse and Compositionally Robust Inference of Microbial Ecological Networks",
+    "assumption": "Static network models can capture the essential structure of dynamic microbial ecosystems",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1864161604",
+    "paper_title": "Sparse and Compositionally Robust Inference of Microbial Ecological Networks",
+    "assumption": "Cross-sectional abundance data contains sufficient signal to infer causal ecological relationships",
+    "confidence": 0.8,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W1864161604",
+    "paper_title": "Sparse and Compositionally Robust Inference of Microbial Ecological Networks",
+    "assumption": "Gaussian graphical models are appropriate for modeling transformed microbial abundance data",
+    "confidence": 0.75,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1864161604",
+    "paper_title": "Sparse and Compositionally Robust Inference of Microbial Ecological Networks",
+    "assumption": "Microbial ecological networks have inherently sparse connectivity structures",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2515189678",
+    "paper_title": "Understanding and misunderstanding randomized controlled trials",
+    "assumption": "Randomization is necessary for establishing causal relationships in empirical research",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2515189678",
+    "paper_title": "Understanding and misunderstanding randomized controlled trials",
+    "assumption": "Unbiased estimation is essential for valid statistical inference",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2515189678",
+    "paper_title": "Understanding and misunderstanding randomized controlled trials",
+    "assumption": "Statistical significance testing is required to distinguish real effects from chance",
+    "confidence": 0.88,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2515189678",
+    "paper_title": "Understanding and misunderstanding randomized controlled trials",
+    "assumption": "Experimental control is necessary for isolating treatment effects",
+    "confidence": 0.87,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2515189678",
+    "paper_title": "Understanding and misunderstanding randomized controlled trials",
+    "assumption": "Representative sampling is essential for generalizable research findings",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2508429489",
+    "paper_title": "Long-Term Recurrent Convolutional Networks for Visual Recognition and Description",
+    "assumption": "Sequential processing requires recurrent connections to model temporal dependencies",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2508429489",
+    "paper_title": "Long-Term Recurrent Convolutional Networks for Visual Recognition and Description",
+    "assumption": "Visual feature learning requires convolutional architectures with spatial inductive biases",
+    "confidence": 0.92,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2508429489",
+    "paper_title": "Long-Term Recurrent Convolutional Networks for Visual Recognition and Description",
+    "assumption": "Learning long-term temporal dependencies requires specialized recurrent mechanisms",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2508429489",
+    "paper_title": "Long-Term Recurrent Convolutional Networks for Visual Recognition and Description",
+    "assumption": "Variable-length sequence-to-sequence mapping requires recurrent architectures",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2508429489",
+    "paper_title": "Long-Term Recurrent Convolutional Networks for Visual Recognition and Description",
+    "assumption": "End-to-end differentiable training is necessary for learning complex temporal-spatial representations",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2548357532",
+    "paper_title": "ClassyFire: automated chemical classification with a comprehensive, computable taxonomy",
+    "assumption": "Hierarchical taxonomies are necessary for meaningful chemical classification",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2548357532",
+    "paper_title": "ClassyFire: automated chemical classification with a comprehensive, computable taxonomy",
+    "assumption": "Molecular structure is sufficient to determine chemical class membership",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2548357532",
+    "paper_title": "ClassyFire: automated chemical classification with a comprehensive, computable taxonomy",
+    "assumption": "Automated classification systems require comprehensive training on expert-curated taxonomies",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2548357532",
+    "paper_title": "ClassyFire: automated chemical classification with a comprehensive, computable taxonomy",
+    "assumption": "Chemical similarity translates to functional or biological similarity",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2548357532",
+    "paper_title": "ClassyFire: automated chemical classification with a comprehensive, computable taxonomy",
+    "assumption": "Standardized chemical representations are essential for systematic classification",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2527189750",
+    "paper_title": "Quantum-chemical insights from deep tensor neural networks",
+    "assumption": "Quantum-mechanical calculations are necessary for understanding molecular properties and chemical behavior",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2527189750",
+    "paper_title": "Quantum-chemical insights from deep tensor neural networks",
+    "assumption": "Molecular representation learning requires incorporating physical symmetries and invariances",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2527189750",
+    "paper_title": "Quantum-chemical insights from deep tensor neural networks",
+    "assumption": "Accurate quantum chemistry requires expensive ab initio calculations that limit system size",
+    "confidence": 0.88,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2527189750",
+    "paper_title": "Quantum-chemical insights from deep tensor neural networks",
+    "assumption": "Chemical accuracy requires predictions within 1 kcal/mol for meaningful quantum chemical insights",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2527189750",
+    "paper_title": "Quantum-chemical insights from deep tensor neural networks",
+    "assumption": "Size-extensivity is essential for reliable quantum-chemical predictions across different molecular sizes",
+    "confidence": 0.83,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2964165364",
+    "paper_title": "Incorporating Copying Mechanism in Sequence-to-Sequence Learning",
+    "assumption": "Sequential processing requires recurrent neural networks for maintaining temporal dependencies",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2964165364",
+    "paper_title": "Incorporating Copying Mechanism in Sequence-to-Sequence Learning",
+    "assumption": "Encoder-decoder architecture is necessary for sequence-to-sequence transformation tasks",
+    "confidence": 0.92,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2964165364",
+    "paper_title": "Incorporating Copying Mechanism in Sequence-to-Sequence Learning",
+    "assumption": "Word generation must be performed through learned vocabulary distributions over fixed vocabularies",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2964165364",
+    "paper_title": "Incorporating Copying Mechanism in Sequence-to-Sequence Learning",
+    "assumption": "Attention mechanisms are sufficient for handling input-output alignment in sequence tasks",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2964165364",
+    "paper_title": "Incorporating Copying Mechanism in Sequence-to-Sequence Learning",
+    "assumption": "Out-of-vocabulary words require special handling mechanisms separate from standard generation",
+    "confidence": 0.83,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2610148085",
+    "paper_title": "Molecular de-novo design through deep reinforcement learning",
+    "assumption": "Sequential representations are necessary for molecular generation",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2610148085",
+    "paper_title": "Molecular de-novo design through deep reinforcement learning",
+    "assumption": "Reinforcement learning is required for goal-directed molecular optimization",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2610148085",
+    "paper_title": "Molecular de-novo design through deep reinforcement learning",
+    "assumption": "Deep learning models are essential for effective molecular design",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2610148085",
+    "paper_title": "Molecular de-novo design through deep reinforcement learning",
+    "assumption": "Likelihood-based training is necessary for generative molecular models",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2610148085",
+    "paper_title": "Molecular de-novo design through deep reinforcement learning",
+    "assumption": "Prediction models are required surrogates for experimental validation in molecular design",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2551658670",
+    "paper_title": "Applications of structural equation modeling (SEM) in ecological studies: an updated review",
+    "assumption": "Causal relationships in ecological systems can be meaningfully represented through directed path models with linear relationships",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2551658670",
+    "paper_title": "Applications of structural equation modeling (SEM) in ecological studies: an updated review",
+    "assumption": "Complex ecological phenomena can be decomposed into measurable observed variables and unmeasurable latent constructs",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2551658670",
+    "paper_title": "Applications of structural equation modeling (SEM) in ecological studies: an updated review",
+    "assumption": "Statistical model fit indices are necessary and sufficient indicators of ecological model validity",
+    "confidence": 0.8,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2551658670",
+    "paper_title": "Applications of structural equation modeling (SEM) in ecological studies: an updated review",
+    "assumption": "Larger sample sizes are required for reliable estimation of complex ecological relationships",
+    "confidence": 0.75,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2551658670",
+    "paper_title": "Applications of structural equation modeling (SEM) in ecological studies: an updated review",
+    "assumption": "Maximum likelihood estimation is the appropriate default method for fitting ecological structural models",
+    "confidence": 0.7,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2740168486",
+    "paper_title": "A Survey on Hate Speech Detection using Natural Language Processing",
+    "assumption": "Supervised learning with labeled datasets is essential for hate speech classification",
+    "confidence": 0.95,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2740168486",
+    "paper_title": "A Survey on Hate Speech Detection using Natural Language Processing",
+    "assumption": "Text-based features are sufficient for detecting hate speech intent and meaning",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2740168486",
+    "paper_title": "A Survey on Hate Speech Detection using Natural Language Processing",
+    "assumption": "Binary or multi-class classification paradigms are necessary for hate speech detection tasks",
+    "confidence": 0.88,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2740168486",
+    "paper_title": "A Survey on Hate Speech Detection using Natural Language Processing",
+    "assumption": "Automated detection systems are required to handle the scale of social media content",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2740168486",
+    "paper_title": "A Survey on Hate Speech Detection using Natural Language Processing",
+    "assumption": "Lexical and syntactic features are essential components for NLP-based hate speech recognition",
+    "confidence": 0.82,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1615991656",
+    "paper_title": "Improving Distributional Similarity with Lessons Learned from Word Embeddings",
+    "assumption": "Dense vector representations are necessary for capturing semantic relationships between words",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1615991656",
+    "paper_title": "Improving Distributional Similarity with Lessons Learned from Word Embeddings",
+    "assumption": "Distributional similarity requires co-occurrence statistics as the fundamental signal",
+    "confidence": 0.92,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1615991656",
+    "paper_title": "Improving Distributional Similarity with Lessons Learned from Word Embeddings",
+    "assumption": "Word similarity and analogy tasks are essential benchmarks for evaluating distributional representations",
+    "confidence": 0.88,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W1615991656",
+    "paper_title": "Improving Distributional Similarity with Lessons Learned from Word Embeddings",
+    "assumption": "Neural architectures are inherently superior to traditional count-based methods for learning word representations",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1615991656",
+    "paper_title": "Improving Distributional Similarity with Lessons Learned from Word Embeddings",
+    "assumption": "Hyperparameter optimization is secondary to algorithmic innovation in representation learning",
+    "confidence": 0.82,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2210543184",
+    "paper_title": "The Netflix Recommender System",
+    "assumption": "Collaborative filtering based on historical user behavior is necessary for effective recommendation systems",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2210543184",
+    "paper_title": "The Netflix Recommender System",
+    "assumption": "A/B testing with online user engagement is essential for validating recommendation algorithm improvements",
+    "confidence": 0.92,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2210543184",
+    "paper_title": "The Netflix Recommender System",
+    "assumption": "Historical user interaction data is required to build accurate recommendation models",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2210543184",
+    "paper_title": "The Netflix Recommender System",
+    "assumption": "Engagement metrics and retention are the primary measures of recommendation system success",
+    "confidence": 0.88,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2210543184",
+    "paper_title": "The Netflix Recommender System",
+    "assumption": "Content-based filtering alone is insufficient for high-quality recommendations",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2953212265",
+    "paper_title": "In-Datacenter Performance Analysis of a Tensor Processing Unit",
+    "assumption": "Matrix multiplication is the fundamental computational primitive required for neural network acceleration",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2953212265",
+    "paper_title": "In-Datacenter Performance Analysis of a Tensor Processing Unit",
+    "assumption": "Domain-specific hardware is necessary for major improvements in cost-energy-performance beyond general-purpose processors",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2953212265",
+    "paper_title": "In-Datacenter Performance Analysis of a Tensor Processing Unit",
+    "assumption": "Inference and training workloads require fundamentally different hardware optimization approaches",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2953212265",
+    "paper_title": "In-Datacenter Performance Analysis of a Tensor Processing Unit",
+    "assumption": "Large on-chip memory is essential for neural network accelerator performance",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2953212265",
+    "paper_title": "In-Datacenter Performance Analysis of a Tensor Processing Unit",
+    "assumption": "Throughput and energy efficiency are the primary metrics required for evaluating neural network accelerators",
+    "confidence": 0.8,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963969878",
+    "paper_title": "Adversarial Examples for Evaluating Reading Comprehension Systems",
+    "assumption": "Standard accuracy metrics are sufficient indicators of reading comprehension system performance and understanding",
+    "confidence": 0.95,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963969878",
+    "paper_title": "Adversarial Examples for Evaluating Reading Comprehension Systems",
+    "assumption": "Adversarial evaluation is necessary to reveal true system capabilities beyond standard benchmarks",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963969878",
+    "paper_title": "Adversarial Examples for Evaluating Reading Comprehension Systems",
+    "assumption": "Reading comprehension requires genuine language understanding rather than pattern matching",
+    "confidence": 0.88,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963969878",
+    "paper_title": "Adversarial Examples for Evaluating Reading Comprehension Systems",
+    "assumption": "System robustness to input perturbations is essential for measuring true comprehension ability",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963969878",
+    "paper_title": "Adversarial Examples for Evaluating Reading Comprehension Systems",
+    "assumption": "High performance on standard datasets correlates with actual language understanding capabilities",
+    "confidence": 0.83,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2964167098",
+    "paper_title": "End-to-End Relation Extraction using LSTMs on Sequences and Tree Structures",
+    "assumption": "Recurrent architectures are necessary for capturing sequential dependencies in text",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2964167098",
+    "paper_title": "End-to-End Relation Extraction using LSTMs on Sequences and Tree Structures",
+    "assumption": "Syntactic structure is essential for accurate relation extraction",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2964167098",
+    "paper_title": "End-to-End Relation Extraction using LSTMs on Sequences and Tree Structures",
+    "assumption": "Joint modeling of entities and relations is superior to pipeline approaches",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2964167098",
+    "paper_title": "End-to-End Relation Extraction using LSTMs on Sequences and Tree Structures",
+    "assumption": "Bidirectional processing is required for complete contextual understanding",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2964167098",
+    "paper_title": "End-to-End Relation Extraction using LSTMs on Sequences and Tree Structures",
+    "assumption": "Tree-structured representations are necessary for encoding syntactic information",
+    "confidence": 0.82,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2472770001",
+    "paper_title": "Hearing Impairment and Cognitive Energy: The Framework for Understanding Effortful Listening (FUEL)",
+    "assumption": "Cognitive resources are fundamentally limited and must be allocated among competing mental tasks",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2472770001",
+    "paper_title": "Hearing Impairment and Cognitive Energy: The Framework for Understanding Effortful Listening (FUEL)",
+    "assumption": "Hearing impairment primarily creates cognitive load that must be compensated through increased mental effort",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2472770001",
+    "paper_title": "Hearing Impairment and Cognitive Energy: The Framework for Understanding Effortful Listening (FUEL)",
+    "assumption": "Listening effort can be meaningfully quantified and measured as a discrete psychological construct",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2472770001",
+    "paper_title": "Hearing Impairment and Cognitive Energy: The Framework for Understanding Effortful Listening (FUEL)",
+    "assumption": "Capacity-based models of attention are necessary frameworks for understanding auditory processing difficulties",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2472770001",
+    "paper_title": "Hearing Impairment and Cognitive Energy: The Framework for Understanding Effortful Listening (FUEL)",
+    "assumption": "Effortful listening represents a compensatory mechanism that can be deliberately controlled by the listener",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1957358593",
+    "paper_title": "A Survey on Wireless Security: Technical Challenges, Recent Advances, and Future Trends",
+    "assumption": "Layered security approaches are necessary for comprehensive wireless network protection",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1957358593",
+    "paper_title": "A Survey on Wireless Security: Technical Challenges, Recent Advances, and Future Trends",
+    "assumption": "Cryptographic mechanisms are essential for achieving wireless communication confidentiality",
+    "confidence": 0.92,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1957358593",
+    "paper_title": "A Survey on Wireless Security: Technical Challenges, Recent Advances, and Future Trends",
+    "assumption": "Physical layer security requires separate treatment from higher-layer security mechanisms",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W1957358593",
+    "paper_title": "A Survey on Wireless Security: Technical Challenges, Recent Advances, and Future Trends",
+    "assumption": "Authentication protocols are necessary for establishing trusted wireless communications",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1957358593",
+    "paper_title": "A Survey on Wireless Security: Technical Challenges, Recent Advances, and Future Trends",
+    "assumption": "Active countermeasures are required for effective jamming attack mitigation",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2251135946",
+    "paper_title": "Distant Supervision for Relation Extraction via Piecewise Convolutional Neural Networks",
+    "assumption": "Distant supervision is a necessary approach for obtaining large-scale labeled data for relation extraction",
+    "confidence": 0.95,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2251135946",
+    "paper_title": "Distant Supervision for Relation Extraction via Piecewise Convolutional Neural Networks",
+    "assumption": "Manual feature engineering is essential for effective relation extraction models",
+    "confidence": 0.92,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2251135946",
+    "paper_title": "Distant Supervision for Relation Extraction via Piecewise Convolutional Neural Networks",
+    "assumption": "Knowledge base alignment to text can serve as reliable ground truth labels for training",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2251135946",
+    "paper_title": "Distant Supervision for Relation Extraction via Piecewise Convolutional Neural Networks",
+    "assumption": "Statistical models require explicit feature representations to process textual data",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2251135946",
+    "paper_title": "Distant Supervision for Relation Extraction via Piecewise Convolutional Neural Networks",
+    "assumption": "Heuristic alignment methods are the standard approach for creating training data from knowledge bases",
+    "confidence": 0.87,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W1854884267",
+    "paper_title": "SimLex-999: Evaluating Semantic Models With (Genuine) Similarity Estimation",
+    "assumption": "Distributional statistics are necessary for learning semantic representations",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1854884267",
+    "paper_title": "SimLex-999: Evaluating Semantic Models With (Genuine) Similarity Estimation",
+    "assumption": "Human similarity judgments are the gold standard for evaluating semantic models",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W1854884267",
+    "paper_title": "SimLex-999: Evaluating Semantic Models With (Genuine) Similarity Estimation",
+    "assumption": "Semantic similarity and associative relatedness are fundamentally different phenomena that require distinct evaluation",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W1854884267",
+    "paper_title": "SimLex-999: Evaluating Semantic Models With (Genuine) Similarity Estimation",
+    "assumption": "Word-pair correlation benchmarks are essential for validating semantic representation quality",
+    "confidence": 0.88,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W1854884267",
+    "paper_title": "SimLex-999: Evaluating Semantic Models With (Genuine) Similarity Estimation",
+    "assumption": "Inter-annotator agreement provides a meaningful upper bound for model performance",
+    "confidence": 0.82,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2300469216",
+    "paper_title": "Knowledge graph refinement: A survey of approaches and evaluation methods",
+    "assumption": "Knowledge graphs require explicit symbolic representation with nodes and edges to capture structured knowledge",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2300469216",
+    "paper_title": "Knowledge graph refinement: A survey of approaches and evaluation methods",
+    "assumption": "Knowledge graph quality is fundamentally measurable through completeness and correctness metrics",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2300469216",
+    "paper_title": "Knowledge graph refinement: A survey of approaches and evaluation methods",
+    "assumption": "Refinement is essential for knowledge graphs to achieve acceptable quality for downstream applications",
+    "confidence": 0.88,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2300469216",
+    "paper_title": "Knowledge graph refinement: A survey of approaches and evaluation methods",
+    "assumption": "Large-scale knowledge graphs can be effectively constructed through automated extraction from unstructured text",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2300469216",
+    "paper_title": "Knowledge graph refinement: A survey of approaches and evaluation methods",
+    "assumption": "Triple-based representation (subject-predicate-object) is necessary for encoding factual knowledge",
+    "confidence": 0.83,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2109349396",
+    "paper_title": "OpenMx 2.0: Extended Structural Equation and Statistical Modeling",
+    "assumption": "Maximum likelihood estimation is necessary for reliable structural equation model parameter estimation",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2109349396",
+    "paper_title": "OpenMx 2.0: Extended Structural Equation and Statistical Modeling",
+    "assumption": "Large sample sizes are required for stable structural equation modeling results",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2109349396",
+    "paper_title": "OpenMx 2.0: Extended Structural Equation and Statistical Modeling",
+    "assumption": "Model fit indices are essential for evaluating structural equation model adequacy",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2109349396",
+    "paper_title": "OpenMx 2.0: Extended Structural Equation and Statistical Modeling",
+    "assumption": "Multivariate normality assumptions are necessary for valid statistical inference in structural modeling",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2109349396",
+    "paper_title": "OpenMx 2.0: Extended Structural Equation and Statistical Modeling",
+    "assumption": "Latent variables require multiple observed indicators for proper identification",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2176287621",
+    "paper_title": "Deep Neural Networks: A New Framework for Modeling Biological Vision and Brain Information Processing",
+    "assumption": "Feedforward architectures are sufficient for modeling core visual recognition processes",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2176287621",
+    "paper_title": "Deep Neural Networks: A New Framework for Modeling Biological Vision and Brain Information Processing",
+    "assumption": "Convolutional inductive biases are essential for effective visual feature learning",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2176287621",
+    "paper_title": "Deep Neural Networks: A New Framework for Modeling Biological Vision and Brain Information Processing",
+    "assumption": "Hierarchical processing is necessary for complex visual understanding",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2176287621",
+    "paper_title": "Deep Neural Networks: A New Framework for Modeling Biological Vision and Brain Information Processing",
+    "assumption": "Human-level performance is the gold standard for evaluating visual recognition systems",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2176287621",
+    "paper_title": "Deep Neural Networks: A New Framework for Modeling Biological Vision and Brain Information Processing",
+    "assumption": "Supervised learning on labeled datasets is required for achieving high-level visual recognition",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W64932977",
+    "paper_title": "Three Approaches to Case Study Methods in Education: Yin, Merriam, and Stake",
+    "assumption": "Methodological consensus is necessary for the legitimacy and evolution of research approaches",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W64932977",
+    "paper_title": "Three Approaches to Case Study Methods in Education: Yin, Merriam, and Stake",
+    "assumption": "Research methodologies can be systematically categorized and compared through examination of their foundational texts",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W64932977",
+    "paper_title": "Three Approaches to Case Study Methods in Education: Yin, Merriam, and Stake",
+    "assumption": "Individual methodologists' perspectives can be treated as representative of distinct methodological schools",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W64932977",
+    "paper_title": "Three Approaches to Case Study Methods in Education: Yin, Merriam, and Stake",
+    "assumption": "Educational research requires field-specific methodological guidance distinct from other social sciences",
+    "confidence": 0.8,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W64932977",
+    "paper_title": "Three Approaches to Case Study Methods in Education: Yin, Merriam, and Stake",
+    "assumption": "Qualitative research methodologies exist as discrete, comparable approaches rather than fluid practices",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2515462165",
+    "paper_title": "Neural Relation Extraction with Selective Attention over Instances",
+    "assumption": "Distant supervision is necessary for large-scale relation extraction due to the scarcity of manually labeled data",
+    "confidence": 0.95,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2515462165",
+    "paper_title": "Neural Relation Extraction with Selective Attention over Instances",
+    "assumption": "Neural architectures are essential for capturing semantic relationships in text",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2515462165",
+    "paper_title": "Neural Relation Extraction with Selective Attention over Instances",
+    "assumption": "Convolutional neural networks are required for effective sentence-level semantic embedding",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2515462165",
+    "paper_title": "Neural Relation Extraction with Selective Attention over Instances",
+    "assumption": "Attention mechanisms are necessary for handling noisy supervision signals",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2515462165",
+    "paper_title": "Neural Relation Extraction with Selective Attention over Instances",
+    "assumption": "Instance-level aggregation is essential for multi-instance learning in relation extraction",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2285468881",
+    "paper_title": "MetFrag relaunched: incorporating strategies beyond in silico fragmentation",
+    "assumption": "In silico fragmentation is essential for computational mass spectrometry identification",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2285468881",
+    "paper_title": "MetFrag relaunched: incorporating strategies beyond in silico fragmentation",
+    "assumption": "Database searching is necessary for small molecule identification from mass spectra",
+    "confidence": 0.92,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2285468881",
+    "paper_title": "MetFrag relaunched: incorporating strategies beyond in silico fragmentation",
+    "assumption": "Mass spectral matching requires fragmentation pattern comparison",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2285468881",
+    "paper_title": "MetFrag relaunched: incorporating strategies beyond in silico fragmentation",
+    "assumption": "Candidate scoring systems are essential for ranking molecular structure proposals",
+    "confidence": 0.88,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2285468881",
+    "paper_title": "MetFrag relaunched: incorporating strategies beyond in silico fragmentation",
+    "assumption": "High-throughput metabolomics requires automated identification workflows",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2267186426",
+    "paper_title": "Long Short-Term Memory-Networks for Machine Reading",
+    "assumption": "Recurrent architectures are essential for processing sequential text data effectively",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2267186426",
+    "paper_title": "Long Short-Term Memory-Networks for Machine Reading",
+    "assumption": "Left-to-right incremental processing is necessary for natural language understanding",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2267186426",
+    "paper_title": "Long Short-Term Memory-Networks for Machine Reading",
+    "assumption": "Memory mechanisms are required for capturing long-range dependencies in text",
+    "confidence": 0.92,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2267186426",
+    "paper_title": "Long Short-Term Memory-Networks for Machine Reading",
+    "assumption": "Attention mechanisms are necessary for handling structured relationships in sequences",
+    "confidence": 0.88,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2267186426",
+    "paper_title": "Long Short-Term Memory-Networks for Machine Reading",
+    "assumption": "Token-level processing is the fundamental unit for text understanding",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2597866042",
+    "paper_title": "Deep Learning for Household Load Forecasting—A Novel Pooling Deep RNN",
+    "assumption": "Recurrent neural networks are essential for sequential time series forecasting",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2597866042",
+    "paper_title": "Deep Learning for Household Load Forecasting—A Novel Pooling Deep RNN",
+    "assumption": "Overfitting is an inevitable consequence of adding depth to neural networks on limited datasets",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2597866042",
+    "paper_title": "Deep Learning for Household Load Forecasting—A Novel Pooling Deep RNN",
+    "assumption": "RMSE is the appropriate metric for evaluating load forecasting performance",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2597866042",
+    "paper_title": "Deep Learning for Household Load Forecasting—A Novel Pooling Deep RNN",
+    "assumption": "Historical load patterns contain sufficient information for future load prediction",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2597866042",
+    "paper_title": "Deep Learning for Household Load Forecasting—A Novel Pooling Deep RNN",
+    "assumption": "Deep learning requires large amounts of training data to achieve superior performance",
+    "confidence": 0.88,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2734777338",
+    "paper_title": "A deep learning framework for financial time series using stacked autoencoders and long-short term memory",
+    "assumption": "Recurrent architectures are essential for modeling temporal dependencies in sequential data",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2734777338",
+    "paper_title": "A deep learning framework for financial time series using stacked autoencoders and long-short term memory",
+    "assumption": "Feature engineering and preprocessing are necessary for effective deep learning on financial time series",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2734777338",
+    "paper_title": "A deep learning framework for financial time series using stacked autoencoders and long-short term memory",
+    "assumption": "Hierarchical feature learning through deep architectures is required for capturing complex patterns in financial data",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2734777338",
+    "paper_title": "A deep learning framework for financial time series using stacked autoencoders and long-short term memory",
+    "assumption": "Noise removal is essential for accurate financial time series prediction",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2734777338",
+    "paper_title": "A deep learning framework for financial time series using stacked autoencoders and long-short term memory",
+    "assumption": "Historical price patterns contain predictive information for future price movements",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963167310",
+    "paper_title": "Deep Reinforcement Learning for Dialogue Generation",
+    "assumption": "Policy gradient methods are necessary for optimizing long-term sequential rewards in dialogue",
+    "confidence": 0.9,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963167310",
+    "paper_title": "Deep Reinforcement Learning for Dialogue Generation",
+    "assumption": "Multi-turn dialogue simulation is essential for evaluating conversational quality",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963167310",
+    "paper_title": "Deep Reinforcement Learning for Dialogue Generation",
+    "assumption": "Neural sequence-to-sequence architectures are required for modern dialogue generation",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963167310",
+    "paper_title": "Deep Reinforcement Learning for Dialogue Generation",
+    "assumption": "Human evaluation is necessary to validate conversational agent performance",
+    "confidence": 0.8,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963167310",
+    "paper_title": "Deep Reinforcement Learning for Dialogue Generation",
+    "assumption": "Reward functions must be decomposable into interpretable conversational properties",
+    "confidence": 0.75,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2951559648",
+    "paper_title": "Character-Aware Neural Language Models",
+    "assumption": "Word-level predictions are necessary for language modeling evaluation and practical utility",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2951559648",
+    "paper_title": "Character-Aware Neural Language Models",
+    "assumption": "Recurrent architectures are essential for capturing sequential dependencies in language modeling",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2951559648",
+    "paper_title": "Character-Aware Neural Language Models",
+    "assumption": "Parameter count reduction while maintaining performance indicates model superiority",
+    "confidence": 0.85,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2951559648",
+    "paper_title": "Character-Aware Neural Language Models",
+    "assumption": "Convolutional operations are required for effective character-level feature extraction",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2951559648",
+    "paper_title": "Character-Aware Neural Language Models",
+    "assumption": "Hierarchical composition from characters to words is necessary for character-based language models",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963168371",
+    "paper_title": "Aspect Level Sentiment Classification with Deep Memory Network",
+    "assumption": "Attention mechanisms are necessary for capturing word importance in sentiment classification",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963168371",
+    "paper_title": "Aspect Level Sentiment Classification with Deep Memory Network",
+    "assumption": "Sequential processing through recurrent architectures is essential for text understanding",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963168371",
+    "paper_title": "Aspect Level Sentiment Classification with Deep Memory Network",
+    "assumption": "External memory components are required for complex reasoning over text",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963168371",
+    "paper_title": "Aspect Level Sentiment Classification with Deep Memory Network",
+    "assumption": "Multiple computational layers are necessary for learning hierarchical text representations",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2963168371",
+    "paper_title": "Aspect Level Sentiment Classification with Deep Memory Network",
+    "assumption": "Explicit modeling of context word importance is essential for aspect-level sentiment analysis",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2757541972",
+    "paper_title": "Recurrent Attention Network on Memory for Aspect Sentiment Analysis",
+    "assumption": "Attention mechanisms are necessary for handling long-distance dependencies in sentiment analysis",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2757541972",
+    "paper_title": "Recurrent Attention Network on Memory for Aspect Sentiment Analysis",
+    "assumption": "Recurrent neural networks are essential for capturing sequential dependencies in text",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2757541972",
+    "paper_title": "Recurrent Attention Network on Memory for Aspect Sentiment Analysis",
+    "assumption": "Memory mechanisms are required for maintaining context across multiple opinion targets",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2757541972",
+    "paper_title": "Recurrent Attention Network on Memory for Aspect Sentiment Analysis",
+    "assumption": "Multiple attention mechanisms are necessary to capture diverse sentiment features",
+    "confidence": 0.75,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2757541972",
+    "paper_title": "Recurrent Attention Network on Memory for Aspect Sentiment Analysis",
+    "assumption": "Non-linear combination of features is essential for expressive power in sentiment models",
+    "confidence": 0.7,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2915536738",
+    "paper_title": "The BioGRID interaction database: 2017 update",
+    "assumption": "Manual curation by experts is essential for reliable biological interaction data quality",
+    "confidence": 0.95,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2915536738",
+    "paper_title": "The BioGRID interaction database: 2017 update",
+    "assumption": "Literature-based evidence is the primary authoritative source for establishing biological interactions",
+    "confidence": 0.92,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2915536738",
+    "paper_title": "The BioGRID interaction database: 2017 update",
+    "assumption": "Standardized formats and schemas are necessary for meaningful biological data integration",
+    "confidence": 0.88,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2915536738",
+    "paper_title": "The BioGRID interaction database: 2017 update",
+    "assumption": "Model organism data is generalizable and relevant for understanding human biology",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2915536738",
+    "paper_title": "The BioGRID interaction database: 2017 update",
+    "assumption": "Network-based representations are the appropriate paradigm for modeling biological interactions",
+    "confidence": 0.83,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2189911347",
+    "paper_title": "DeepTox: Toxicity Prediction using Deep Learning",
+    "assumption": "Chemical descriptors are necessary for computational toxicity prediction",
+    "confidence": 0.95,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2189911347",
+    "paper_title": "DeepTox: Toxicity Prediction using Deep Learning",
+    "assumption": "Hierarchical feature representations are essential for effective chemical property prediction",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2189911347",
+    "paper_title": "DeepTox: Toxicity Prediction using Deep Learning",
+    "assumption": "Ensemble methods are required to achieve optimal predictive performance in toxicity modeling",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2189911347",
+    "paper_title": "DeepTox: Toxicity Prediction using Deep Learning",
+    "assumption": "Chemical normalization is necessary for reliable computational toxicity analysis",
+    "confidence": 0.9,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2189911347",
+    "paper_title": "DeepTox: Toxicity Prediction using Deep Learning",
+    "assumption": "Multi-task learning architectures are superior for related biological endpoint prediction",
+    "confidence": 0.75,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2606964149",
+    "paper_title": "RACE: Large-scale ReAding Comprehension Dataset From Examinations",
+    "assumption": "Human-level performance represents the theoretical ceiling for machine reading comprehension systems",
+    "confidence": 0.95,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2606964149",
+    "paper_title": "RACE: Large-scale ReAding Comprehension Dataset From Examinations",
+    "assumption": "Multiple-choice question answering is a valid proxy for measuring true reading comprehension ability",
+    "confidence": 0.9,
+    "category": "evaluation"
+  },
+  {
+    "paper_id": "https://openalex.org/W2606964149",
+    "paper_title": "RACE: Large-scale ReAding Comprehension Dataset From Examinations",
+    "assumption": "Reasoning capability can be measured through the proportion of questions requiring multi-step inference",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2606964149",
+    "paper_title": "RACE: Large-scale ReAding Comprehension Dataset From Examinations",
+    "assumption": "Standardized exam questions designed by human experts provide ground truth for comprehension evaluation",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2606964149",
+    "paper_title": "RACE: Large-scale ReAding Comprehension Dataset From Examinations",
+    "assumption": "Reading comprehension requires separate understanding and reasoning capabilities that can be jointly evaluated",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2952138241",
+    "paper_title": "SummaRuNNer: A Recurrent Neural Network Based Sequence Model for Extractive Summarization of Documents",
+    "assumption": "Sequential processing of sentences requires recurrent architectures to capture document-level dependencies",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2952138241",
+    "paper_title": "SummaRuNNer: A Recurrent Neural Network Based Sequence Model for Extractive Summarization of Documents",
+    "assumption": "Extractive summarization requires explicit sentence-level selection decisions rather than generation from scratch",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2952138241",
+    "paper_title": "SummaRuNNer: A Recurrent Neural Network Based Sequence Model for Extractive Summarization of Documents",
+    "assumption": "Document understanding requires processing sentences in sequential order to maintain coherence",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2952138241",
+    "paper_title": "SummaRuNNer: A Recurrent Neural Network Based Sequence Model for Extractive Summarization of Documents",
+    "assumption": "Effective summarization models must explicitly model salience, novelty, and information content as separate components",
+    "confidence": 0.8,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2952138241",
+    "paper_title": "SummaRuNNer: A Recurrent Neural Network Based Sequence Model for Extractive Summarization of Documents",
+    "assumption": "Training extractive models requires either sentence-level labels or complex alignment between abstractive references and source sentences",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2518582440",
+    "paper_title": "Using recurrent neural network models for early detection of heart failure onset",
+    "assumption": "Recurrent architectures are necessary for effective temporal sequence modeling in medical prediction tasks",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2518582440",
+    "paper_title": "Using recurrent neural network models for early detection of heart failure onset",
+    "assumption": "Temporal dependencies are essential for accurate medical event prediction from longitudinal data",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2518582440",
+    "paper_title": "Using recurrent neural network models for early detection of heart failure onset",
+    "assumption": "Deep learning models are required to capture complex patterns in clinical data for disease prediction",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2518582440",
+    "paper_title": "Using recurrent neural network models for early detection of heart failure onset",
+    "assumption": "Longitudinal patient data contains sufficient signal for early disease detection within short observation windows",
+    "confidence": 0.75,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2518582440",
+    "paper_title": "Using recurrent neural network models for early detection of heart failure onset",
+    "assumption": "Sequential processing of temporal medical data requires memory mechanisms to maintain historical context",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2765216222",
+    "paper_title": "Brain network dynamics are hierarchically organized in time",
+    "assumption": "Large-scale brain organization can be meaningfully decomposed into discrete network states",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2765216222",
+    "paper_title": "Brain network dynamics are hierarchically organized in time",
+    "assumption": "Resting-state fMRI reflects intrinsic brain network organization rather than measurement artifacts",
+    "confidence": 0.9,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2765216222",
+    "paper_title": "Brain network dynamics are hierarchically organized in time",
+    "assumption": "Graph-theoretic representations are necessary for capturing brain network interactions",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2765216222",
+    "paper_title": "Brain network dynamics are hierarchically organized in time",
+    "assumption": "Temporal sequences of brain states contain meaningful organizational information",
+    "confidence": 0.88,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2765216222",
+    "paper_title": "Brain network dynamics are hierarchically organized in time",
+    "assumption": "Hierarchical organization is a fundamental principle of brain network dynamics",
+    "confidence": 0.82,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2508865106",
+    "paper_title": "Siamese Recurrent Architectures for Learning Sentence Similarity",
+    "assumption": "Sequential processing with recurrence is necessary for understanding variable-length text sequences",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2508865106",
+    "paper_title": "Siamese Recurrent Architectures for Learning Sentence Similarity",
+    "assumption": "Fixed-size vector representations are essential for capturing sentence-level semantic meaning",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2508865106",
+    "paper_title": "Siamese Recurrent Architectures for Learning Sentence Similarity",
+    "assumption": "Word-level embeddings are the fundamental building blocks required for sentence understanding",
+    "confidence": 0.88,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2508865106",
+    "paper_title": "Siamese Recurrent Architectures for Learning Sentence Similarity",
+    "assumption": "Siamese architectures with shared weights are necessary for learning meaningful similarity comparisons",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2508865106",
+    "paper_title": "Siamese Recurrent Architectures for Learning Sentence Similarity",
+    "assumption": "Supervised learning with labeled pairs is required for training semantic similarity models",
+    "confidence": 0.82,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2467173223",
+    "paper_title": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks",
+    "assumption": "Recurrent architectures are essential for sequential text generation tasks",
+    "confidence": 0.95,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2467173223",
+    "paper_title": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks",
+    "assumption": "Attention mechanisms are necessary for handling variable-length input-output alignments in sequence-to-sequence tasks",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2467173223",
+    "paper_title": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks",
+    "assumption": "Encoder-decoder architectures are required for sequence-to-sequence transformation tasks",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2467173223",
+    "paper_title": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks",
+    "assumption": "End-to-end differentiable training is necessary for optimal neural text generation performance",
+    "confidence": 0.85,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2467173223",
+    "paper_title": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks",
+    "assumption": "Learned distributed representations are superior to hand-crafted features for text understanding tasks",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2211192759",
+    "paper_title": "ABCNN: Attention-Based Convolutional Neural Network for Modeling Sentence Pairs",
+    "assumption": "Convolutional architectures are necessary for effective sentence representation learning",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2211192759",
+    "paper_title": "ABCNN: Attention-Based Convolutional Neural Network for Modeling Sentence Pairs",
+    "assumption": "Attention mechanisms require underlying feature representations to operate on",
+    "confidence": 0.85,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2211192759",
+    "paper_title": "ABCNN: Attention-Based Convolutional Neural Network for Modeling Sentence Pairs",
+    "assumption": "Neural networks are essential for competitive performance in sentence pair modeling tasks",
+    "confidence": 0.9,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2211192759",
+    "paper_title": "ABCNN: Attention-Based Convolutional Neural Network for Modeling Sentence Pairs",
+    "assumption": "Task-specific fine-tuning is required for optimal performance across different NLP applications",
+    "confidence": 0.8,
+    "category": "training"
+  },
+  {
+    "paper_id": "https://openalex.org/W2211192759",
+    "paper_title": "ABCNN: Attention-Based Convolutional Neural Network for Modeling Sentence Pairs",
+    "assumption": "Supervised learning with labeled sentence pairs is necessary for sentence pair modeling",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2600702321",
+    "paper_title": "Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling",
+    "assumption": "Syntactic structure is essential for understanding semantic roles",
+    "confidence": 0.95,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2600702321",
+    "paper_title": "Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling",
+    "assumption": "Dependency trees are the canonical representation of syntactic structure",
+    "confidence": 0.85,
+    "category": "data"
+  },
+  {
+    "paper_id": "https://openalex.org/W2600702321",
+    "paper_title": "Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling",
+    "assumption": "Sequential neural architectures are necessary for sentence encoding",
+    "confidence": 0.8,
+    "category": "architectural"
+  },
+  {
+    "paper_id": "https://openalex.org/W2600702321",
+    "paper_title": "Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling",
+    "assumption": "Explicit syntactic parsing is required before semantic analysis",
+    "confidence": 0.85,
+    "category": "theoretical"
+  },
+  {
+    "paper_id": "https://openalex.org/W2600702321",
+    "paper_title": "Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling",
+    "assumption": "Word-level representations are the fundamental units for sentence understanding",
+    "confidence": 0.9,
+    "category": "architectural"
+  }
+]

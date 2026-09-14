@@ -1,0 +1,914 @@
+{
+  "paradigm": "neural_ode",
+  "name": "Neural ODE",
+  "num_papers": 15,
+  "num_raw": 150,
+  "num_unique": 150,
+  "ground_truth": "Neural networks require discrete layers",
+  "aliases": [
+    "neural networks must have a fixed number of discrete layers",
+    "depth must be a discrete integer in neural networks"
+  ],
+  "assumptions": [
+    {
+      "assumption": "Convolutional neural networks are essential for feature extraction in object detection tasks.",
+      "confidence": 1.0,
+      "category": "architectural",
+      "source_paper": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks"
+    },
+    {
+      "assumption": "Nonlinear dynamics is essential for understanding complex systems.",
+      "confidence": 1.0,
+      "category": "theoretical",
+      "source_paper": "A Tribute to J. C. Sprott"
+    },
+    {
+      "assumption": "Lyapunov functions are essential for analyzing the stability of dynamical systems.",
+      "confidence": 1.0,
+      "category": "theoretical",
+      "source_paper": "Generalized Lyapunov-Razumikhin method for retarded differential inclusions: Applications to discontinuous neural networks"
+    },
+    {
+      "assumption": "Stability analysis is essential for understanding the behavior of stochastic systems.",
+      "confidence": 1.0,
+      "category": "theoretical",
+      "source_paper": "Exponential Stability for Neutral Stochastic Markov Systems With Time-Varying Delay and Its Applications"
+    },
+    {
+      "assumption": "Recurrent neural networks are necessary for modeling sequential data.",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "A theoretically grounded application of dropout in recurrent neural networks"
+    },
+    {
+      "assumption": "Deep architectures are necessary for capturing complex patterns in data.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Stable architectures for deep neural networks"
+    },
+    {
+      "assumption": "Numerical stability is essential for the successful training of deep neural networks.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Stable architectures for deep neural networks"
+    },
+    {
+      "assumption": "Gradient-based optimization is required for training deep neural networks.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Stable architectures for deep neural networks"
+    },
+    {
+      "assumption": "Addressing the exploding and vanishing gradient problem is necessary for training very deep networks.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Stable architectures for deep neural networks"
+    },
+    {
+      "assumption": "Depth is essential for improving the performance of neural networks over shallow models.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Transport Analysis of Infinitely Deep Neural Network"
+    },
+    {
+      "assumption": "Differential geometry is essential for understanding the transformations in neural networks.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Principles of Riemannian Geometry in Neural Networks"
+    },
+    {
+      "assumption": "The data manifold structure is necessary for modeling data transformations in neural networks.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Principles of Riemannian Geometry in Neural Networks"
+    },
+    {
+      "assumption": "Neuromorphic architectures are essential for achieving high-performance information processing beyond electronic capabilities.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Neuromorphic photonic networks using silicon photonic weight banks"
+    },
+    {
+      "assumption": "End-to-end training is necessary for optimizing object detection models effectively.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks"
+    },
+    {
+      "assumption": "Region proposal mechanisms are required for accurate object detection.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks"
+    },
+    {
+      "assumption": "Decomposing quaternion-valued systems into real-valued systems is necessary for managing noncommutativity in quaternion multiplication.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Existence and Global Exponential Stability of Pseudo Almost Periodic Solutions for Neutral Type Quaternion-Valued Neural Networks with Delays in the Leakage Term on Time Scales"
+    },
+    {
+      "assumption": "Phase reduction is essential for simplifying the analysis of neural oscillator models with strongly attracting limit cycles.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Phase-Amplitude Descriptions of Neural Oscillator Models"
+    },
+    {
+      "assumption": "Identifying new dynamical systems is necessary for advancing the field of chaos theory.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "A Tribute to J. C. Sprott"
+    },
+    {
+      "assumption": "Delay differential equations are necessary for modeling systems with delayed interactions.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Reduction of interaction delays in networks"
+    },
+    {
+      "assumption": "Structured architectures are necessary for capturing complex cognitive functions.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Toward an Integration of Deep Learning and Neuroscience"
+    },
+    {
+      "assumption": "Optimization of cost functions is essential for learning in neural systems.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "Toward an Integration of Deep Learning and Neuroscience"
+    },
+    {
+      "assumption": "Adaptive dynamic programming is essential for solving control problems in nonlinear multiagent systems.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Distributed Optimal Consensus Control for Nonlinear Multiagent System With Unknown Dynamic"
+    },
+    {
+      "assumption": "The Hamilton-Jacobi-Bellman equation is essential for formulating optimal control problems.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Distributed Optimal Consensus Control for Nonlinear Multiagent System With Unknown Dynamic"
+    },
+    {
+      "assumption": "The Filippov framework is necessary for handling differential equations with discontinuous right-hand sides.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Generalized Lyapunov-Razumikhin method for retarded differential inclusions: Applications to discontinuous neural networks"
+    },
+    {
+      "assumption": "Differential inclusions are required for modeling systems with discontinuities.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Generalized Lyapunov-Razumikhin method for retarded differential inclusions: Applications to discontinuous neural networks"
+    },
+    {
+      "assumption": "Neural networks are essential for approximating complex value functions in adaptive optimal control problems.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Adaptive Optimal Control of Highly Dissipative Nonlinear Spatially Distributed Processes With Neuro-Dynamic Programming"
+    },
+    {
+      "assumption": "Solving the Hamilton-Jacobi-Bellman equation is necessary for optimal control of nonlinear systems.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Adaptive Optimal Control of Highly Dissipative Nonlinear Spatially Distributed Processes With Neuro-Dynamic Programming"
+    },
+    {
+      "assumption": "Neuro-dynamic programming is essential for solving control problems where analytical solutions are infeasible.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Adaptive Optimal Control of Highly Dissipative Nonlinear Spatially Distributed Processes With Neuro-Dynamic Programming"
+    },
+    {
+      "assumption": "The stability of the closed-loop system is required for the effectiveness of adaptive control policies.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Adaptive Optimal Control of Highly Dissipative Nonlinear Spatially Distributed Processes With Neuro-Dynamic Programming"
+    },
+    {
+      "assumption": "Time-varying delays must be accounted for in the modeling of stochastic systems.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Exponential Stability for Neutral Stochastic Markov Systems With Time-Varying Delay and Its Applications"
+    },
+    {
+      "assumption": "Markov processes are necessary for modeling systems with probabilistic state transitions.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Exponential Stability for Neutral Stochastic Markov Systems With Time-Varying Delay and Its Applications"
+    },
+    {
+      "assumption": "Dropout is essential for preventing overfitting in neural networks.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "A theoretically grounded application of dropout in recurrent neural networks"
+    },
+    {
+      "assumption": "LSTM and GRU are necessary architectures for effectively implementing recurrent neural networks.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "A theoretically grounded application of dropout in recurrent neural networks"
+    },
+    {
+      "assumption": "Understanding the role of intermediate layers is necessary for interpreting deep neural networks.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Transport Analysis of Infinitely Deep Neural Network"
+    },
+    {
+      "assumption": "Riemannian geometry is required for formalizing neural network theory.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Principles of Riemannian Geometry in Neural Networks"
+    },
+    {
+      "assumption": "Silicon photonics is necessary for integrating processing functions in neuromorphic systems.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Neuromorphic photonic networks using silicon photonic weight banks"
+    },
+    {
+      "assumption": "The use of time scales is essential for unifying discrete-time and continuous-time neural networks.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Existence and Global Exponential Stability of Pseudo Almost Periodic Solutions for Neutral Type Quaternion-Valued Neural Networks with Delays in the Leakage Term on Time Scales"
+    },
+    {
+      "assumption": "A strongly attracting limit cycle is necessary for the validity of traditional phase reduction techniques.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Phase-Amplitude Descriptions of Neural Oscillator Models"
+    },
+    {
+      "assumption": "Control and synchronization of chaos are required for practical applications of chaotic systems.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "A Tribute to J. C. Sprott"
+    },
+    {
+      "assumption": "Discrete delays are essential for accurately representing signal propagation in network models.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Reduction of interaction delays in networks"
+    },
+    {
+      "assumption": "Neural networks are necessary for approximating solutions in complex dynamic systems.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Distributed Optimal Consensus Control for Nonlinear Multiagent System With Unknown Dynamic"
+    },
+    {
+      "assumption": "Distributed control is essential for managing multiagent systems.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Distributed Optimal Consensus Control for Nonlinear Multiagent System With Unknown Dynamic"
+    },
+    {
+      "assumption": "Adaptive control methods are essential for handling uncertainties in nonlinear system dynamics.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Adaptive Optimal Control of Highly Dissipative Nonlinear Spatially Distributed Processes With Neuro-Dynamic Programming"
+    },
+    {
+      "assumption": "Online learning is necessary for updating control policies in real-time for dynamic systems.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Adaptive Optimal Control of Highly Dissipative Nonlinear Spatially Distributed Processes With Neuro-Dynamic Programming"
+    },
+    {
+      "assumption": "Bayesian inference is required for providing a theoretical foundation to certain deep learning techniques.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "A theoretically grounded application of dropout in recurrent neural networks"
+    },
+    {
+      "assumption": "The integration of Bayesian methods with deep learning is essential for advancing theoretical understanding.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "A theoretically grounded application of dropout in recurrent neural networks"
+    },
+    {
+      "assumption": "Theoretical understanding of neural networks as dynamical systems is essential for developing stable architectures.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Stable architectures for deep neural networks"
+    },
+    {
+      "assumption": "Well-posedness is required for the formulation of learning problems in deep networks.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Stable architectures for deep neural networks"
+    },
+    {
+      "assumption": "New architectural designs are necessary to overcome limitations of existing deep learning models.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Stable architectures for deep neural networks"
+    },
+    {
+      "assumption": "Evaluation against state-of-the-art models is essential for validating new neural network architectures.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Stable architectures for deep neural networks"
+    },
+    {
+      "assumption": "A dynamical system framework is required for modeling the nested feature maps in deep neural networks.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Transport Analysis of Infinitely Deep Neural Network"
+    },
+    {
+      "assumption": "The continuum limit is essential for analyzing the behavior of infinitely deep neural networks.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Transport Analysis of Infinitely Deep Neural Network"
+    },
+    {
+      "assumption": "Feedforward neural networks can be interpreted as dynamical systems.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Principles of Riemannian Geometry in Neural Networks"
+    },
+    {
+      "assumption": "Residual networks are necessary for approximating differential equations.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Principles of Riemannian Geometry in Neural Networks"
+    },
+    {
+      "assumption": "Backpropagation is essential for learning transformations on data manifolds.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Principles of Riemannian Geometry in Neural Networks"
+    },
+    {
+      "assumption": "Mathematical isomorphism between physical circuits and neural network models is required for effective simulation and analysis.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Neuromorphic photonic networks using silicon photonic weight banks"
+    },
+    {
+      "assumption": "Sharing convolutional features between networks is essential for computational efficiency.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks"
+    },
+    {
+      "assumption": "Large-scale datasets are necessary for training robust object detection models.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks"
+    },
+    {
+      "assumption": "High-quality region proposals are required for achieving state-of-the-art detection accuracy.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks"
+    },
+    {
+      "assumption": "Object detection models must be evaluated on standard benchmarks like PASCAL VOC and MS COCO.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks"
+    },
+    {
+      "assumption": "Exponential stability analysis is required for understanding the long-term behavior of neural networks.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Existence and Global Exponential Stability of Pseudo Almost Periodic Solutions for Neutral Type Quaternion-Valued Neural Networks with Delays in the Leakage Term on Time Scales"
+    },
+    {
+      "assumption": "Weak perturbations are required for the standard phase reduction framework to be applicable.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Phase-Amplitude Descriptions of Neural Oscillator Models"
+    },
+    {
+      "assumption": "The use of ordinary differential equations is essential for modeling the dynamics of neural oscillators.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Phase-Amplitude Descriptions of Neural Oscillator Models"
+    },
+    {
+      "assumption": "Time-series analysis is essential for extracting dynamical properties of systems.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "A Tribute to J. C. Sprott"
+    },
+    {
+      "assumption": "Componentwise transformations are required for simplifying complex network models without losing information.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Reduction of interaction delays in networks"
+    },
+    {
+      "assumption": "Diverse cost functions are required to model different brain regions and developmental stages.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Toward an Integration of Deep Learning and Neuroscience"
+    },
+    {
+      "assumption": "Pre-structured architectures are necessary to match computational problems posed by behavior.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Toward an Integration of Deep Learning and Neuroscience"
+    },
+    {
+      "assumption": "Credit assignment through multiple layers is essential for effective learning in neural networks.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Toward an Integration of Deep Learning and Neuroscience"
+    },
+    {
+      "assumption": "Specialized systems in the brain are required for efficient optimization of specific problem classes.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Toward an Integration of Deep Learning and Neuroscience"
+    },
+    {
+      "assumption": "Policy iteration is required for achieving convergence in adaptive dynamic programming.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Distributed Optimal Consensus Control for Nonlinear Multiagent System With Unknown Dynamic"
+    },
+    {
+      "assumption": "Convergence of the value function sequence is required for validating the effectiveness of control algorithms.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Distributed Optimal Consensus Control for Nonlinear Multiagent System With Unknown Dynamic"
+    },
+    {
+      "assumption": "Unknown dynamics in systems require adaptive methods for effective control.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Distributed Optimal Consensus Control for Nonlinear Multiagent System With Unknown Dynamic"
+    },
+    {
+      "assumption": "Stability analysis is essential for understanding the behavior of neural networks with time delays.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Generalized Lyapunov-Razumikhin method for retarded differential inclusions: Applications to discontinuous neural networks"
+    },
+    {
+      "assumption": "Non-smooth analysis is necessary for dealing with non-smooth Lyapunov functions.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Generalized Lyapunov-Razumikhin method for retarded differential inclusions: Applications to discontinuous neural networks"
+    },
+    {
+      "assumption": "Karhunen-Lo\u00e8ve decomposition is required for reducing the dimensionality of spatially distributed processes.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Adaptive Optimal Control of Highly Dissipative Nonlinear Spatially Distributed Processes With Neuro-Dynamic Programming"
+    },
+    {
+      "assumption": "Empirical eigenfunctions are necessary for capturing the dominant dynamics of highly dissipative systems.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Adaptive Optimal Control of Highly Dissipative Nonlinear Spatially Distributed Processes With Neuro-Dynamic Programming"
+    },
+    {
+      "assumption": "Singular perturbation techniques are required for simplifying complex PDE systems into manageable ODE subsystems.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Adaptive Optimal Control of Highly Dissipative Nonlinear Spatially Distributed Processes With Neuro-Dynamic Programming"
+    },
+    {
+      "assumption": "Empirical validation through simulation is necessary for demonstrating the effectiveness of control methods.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Adaptive Optimal Control of Highly Dissipative Nonlinear Spatially Distributed Processes With Neuro-Dynamic Programming"
+    },
+    {
+      "assumption": "Neutral systems require specialized stability criteria due to their inherent complexity.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Exponential Stability for Neutral Stochastic Markov Systems With Time-Varying Delay and Its Applications"
+    },
+    {
+      "assumption": "Functional differential equations are essential tools for analyzing systems with delays.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Exponential Stability for Neutral Stochastic Markov Systems With Time-Varying Delay and Its Applications"
+    },
+    {
+      "assumption": "Variational inference is necessary for approximating Bayesian inference in complex models.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "A theoretically grounded application of dropout in recurrent neural networks"
+    },
+    {
+      "assumption": "Language modeling tasks are essential benchmarks for evaluating the performance of recurrent neural networks.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "A theoretically grounded application of dropout in recurrent neural networks"
+    },
+    {
+      "assumption": "Transport maps are necessary for understanding the transformation of data through deep neural networks.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "Transport Analysis of Infinitely Deep Neural Network"
+    },
+    {
+      "assumption": "Lie group actions are necessary for understanding transformations in neural networks.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "Principles of Riemannian Geometry in Neural Networks"
+    },
+    {
+      "assumption": "Metric tensors are required for understanding the geometry of data manifolds.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "Principles of Riemannian Geometry in Neural Networks"
+    },
+    {
+      "assumption": "Recurrent neural network configurations are essential for complex information processing tasks.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "Neuromorphic photonic networks using silicon photonic weight banks"
+    },
+    {
+      "assumption": "Fixed point theorems are necessary for proving the existence of solutions in complex dynamical systems.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "Existence and Global Exponential Stability of Pseudo Almost Periodic Solutions for Neutral Type Quaternion-Valued Neural Networks with Delays in the Leakage Term on Time Scales"
+    },
+    {
+      "assumption": "Analyzing periodic orbits is necessary for understanding the behavior of neural oscillators.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "Phase-Amplitude Descriptions of Neural Oscillator Models"
+    },
+    {
+      "assumption": "Studying bifurcations and basins of attraction is necessary for understanding the behavior of dynamical systems.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "A Tribute to J. C. Sprott"
+    },
+    {
+      "assumption": "Dynamic invariants are necessary for understanding the equivalence of different network configurations.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "Reduction of interaction delays in networks"
+    },
+    {
+      "assumption": "Data sampling from the system is necessary for online iterative schemes in adaptive control.",
+      "confidence": 0.75,
+      "category": "data",
+      "source_paper": "Distributed Optimal Consensus Control for Nonlinear Multiagent System With Unknown Dynamic"
+    },
+    {
+      "assumption": "Gradient information is necessary for updating neural network weights in control algorithms.",
+      "confidence": 0.75,
+      "category": "training",
+      "source_paper": "Distributed Optimal Consensus Control for Nonlinear Multiagent System With Unknown Dynamic"
+    },
+    {
+      "assumption": "Sentiment analysis is a required task for assessing the applicability of RNN models in natural language processing.",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "A theoretically grounded application of dropout in recurrent neural networks"
+    },
+    {
+      "assumption": "Improving test perplexity is required for demonstrating advancements in language modeling.",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "A theoretically grounded application of dropout in recurrent neural networks"
+    },
+    {
+      "assumption": "Forward propagation techniques are necessary for the stability of deep learning models.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Stable architectures for deep neural networks"
+    },
+    {
+      "assumption": "Numerical experiments are required to demonstrate the competitiveness of new network architectures.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Stable architectures for deep neural networks"
+    },
+    {
+      "assumption": "The Wasserstein geometry is required for analyzing flows in deep neural networks.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Transport Analysis of Infinitely Deep Neural Network"
+    },
+    {
+      "assumption": "The composition of autoencoders is essential for understanding the equivalence between stacked and deep autoencoders.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Transport Analysis of Infinitely Deep Neural Network"
+    },
+    {
+      "assumption": "Formal abstract mathematical frameworks are essential for advancing neural network theory.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Principles of Riemannian Geometry in Neural Networks"
+    },
+    {
+      "assumption": "Toy experiments are necessary for validating theoretical insights in neural networks.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Principles of Riemannian Geometry in Neural Networks"
+    },
+    {
+      "assumption": "Microring weight banks are necessary for configuring connections in silicon photonic neural networks.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Neuromorphic photonic networks using silicon photonic weight banks"
+    },
+    {
+      "assumption": "Power consumption analysis is required for evaluating the feasibility of neuromorphic photonic systems.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Neuromorphic photonic networks using silicon photonic weight banks"
+    },
+    {
+      "assumption": "GPU acceleration is essential for real-time object detection performance.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks"
+    },
+    {
+      "assumption": "Objectness scoring is necessary for distinguishing between object and non-object regions.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks"
+    },
+    {
+      "assumption": "Integration of region proposal and detection networks is required for improved performance.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks"
+    },
+    {
+      "assumption": "The theory of calculus on time scales is essential for analyzing dynamic equations that unify discrete and continuous models.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Existence and Global Exponential Stability of Pseudo Almost Periodic Solutions for Neutral Type Quaternion-Valued Neural Networks with Delays in the Leakage Term on Time Scales"
+    },
+    {
+      "assumption": "Phase-amplitude descriptions are required for capturing the full dynamics of neural oscillators when the strong-attraction assumption does not hold.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Phase-Amplitude Descriptions of Neural Oscillator Models"
+    },
+    {
+      "assumption": "Understanding the response of neural oscillators to external stimuli is essential for developing accurate models.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Phase-Amplitude Descriptions of Neural Oscillator Models"
+    },
+    {
+      "assumption": "Mathematical modeling is required for simulating real-world chaotic systems.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "A Tribute to J. C. Sprott"
+    },
+    {
+      "assumption": "The topology of the underlying graph is essential for interpreting the dynamics of network models.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Reduction of interaction delays in networks"
+    },
+    {
+      "assumption": "Complex and varied training procedures are necessary for effective learning across different layers and time.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Toward an Integration of Deep Learning and Neuroscience"
+    },
+    {
+      "assumption": "Data-efficient learning is essential for neural systems to be precisely targeted to the needs of the organism.",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "Toward an Integration of Deep Learning and Neuroscience"
+    },
+    {
+      "assumption": "Interacting cost functions are necessary for a heterogeneously optimized system.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Toward an Integration of Deep Learning and Neuroscience"
+    },
+    {
+      "assumption": "Neural networks require a balance between structured architectures and optimization techniques to model brain functions.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Toward an Integration of Deep Learning and Neuroscience"
+    },
+    {
+      "assumption": "Numerical examples are required for demonstrating the effectiveness of proposed control schemes.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Distributed Optimal Consensus Control for Nonlinear Multiagent System With Unknown Dynamic"
+    },
+    {
+      "assumption": "Time delays must be considered in the modeling of neural networks to accurately capture their dynamics.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Generalized Lyapunov-Razumikhin method for retarded differential inclusions: Applications to discontinuous neural networks"
+    },
+    {
+      "assumption": "Generalized methods are required to extend classical stability results to broader classes of systems.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Generalized Lyapunov-Razumikhin method for retarded differential inclusions: Applications to discontinuous neural networks"
+    },
+    {
+      "assumption": "Initial conditions are essential for determining the solution trajectories of differential equations.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Generalized Lyapunov-Razumikhin method for retarded differential inclusions: Applications to discontinuous neural networks"
+    },
+    {
+      "assumption": "M-matrix conditions are necessary for establishing delay-independent stability criteria.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Exponential Stability for Neutral Stochastic Markov Systems With Time-Varying Delay and Its Applications"
+    },
+    {
+      "assumption": "Algebraic inequalities are required for formulating delay-dependent stability criteria.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Exponential Stability for Neutral Stochastic Markov Systems With Time-Varying Delay and Its Applications"
+    },
+    {
+      "assumption": "The Penn Treebank is an essential dataset for evaluating language models.",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "A theoretically grounded application of dropout in recurrent neural networks"
+    },
+    {
+      "assumption": "The reduction of Shannon entropy is necessary for the effectiveness of deep Gaussian denoising autoencoders.",
+      "confidence": 0.65,
+      "category": "theoretical",
+      "source_paper": "Transport Analysis of Infinitely Deep Neural Network"
+    },
+    {
+      "assumption": "Coordinate-free treatment is required to avoid redundant parametrization in deep neural networks.",
+      "confidence": 0.65,
+      "category": "theoretical",
+      "source_paper": "Transport Analysis of Infinitely Deep Neural Network"
+    },
+    {
+      "assumption": "Compatibility with silicon photonic platforms is essential for the practical implementation of modulator-class neurons.",
+      "confidence": 0.65,
+      "category": "architectural",
+      "source_paper": "Neuromorphic photonic networks using silicon photonic weight banks"
+    },
+    {
+      "assumption": "Pseudo almost periodic solutions are required for capturing the complex oscillatory behavior in neural networks.",
+      "confidence": 0.65,
+      "category": "theoretical",
+      "source_paper": "Existence and Global Exponential Stability of Pseudo Almost Periodic Solutions for Neutral Type Quaternion-Valued Neural Networks with Delays in the Leakage Term on Time Scales"
+    },
+    {
+      "assumption": "The presence of dynamical shear can lead to chaotic responses in neural oscillator models.",
+      "confidence": 0.65,
+      "category": "theoretical",
+      "source_paper": "Phase-Amplitude Descriptions of Neural Oscillator Models"
+    },
+    {
+      "assumption": "Generalizing phase descriptions is necessary for analyzing neural oscillators that do not conform to traditional assumptions.",
+      "confidence": 0.65,
+      "category": "theoretical",
+      "source_paper": "Phase-Amplitude Descriptions of Neural Oscillator Models"
+    },
+    {
+      "assumption": "Fractal geometry is essential for visualizing and understanding chaotic systems.",
+      "confidence": 0.65,
+      "category": "theoretical",
+      "source_paper": "A Tribute to J. C. Sprott"
+    },
+    {
+      "assumption": "Networks with identical sums of delay times along fundamental semicycles are required to be dynamically equivalent.",
+      "confidence": 0.65,
+      "category": "theoretical",
+      "source_paper": "Reduction of interaction delays in networks"
+    },
+    {
+      "assumption": "The flow representation is necessary for the integral representation of deep neural networks.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Transport Analysis of Infinitely Deep Neural Network"
+    },
+    {
+      "assumption": "Ultrafast information processing is necessary for advancing radio, control, and scientific computing applications.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Neuromorphic photonic networks using silicon photonic weight banks"
+    },
+    {
+      "assumption": "Dynamical bifurcation analysis is required for understanding the behavior of neuromorphic photonic systems.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Neuromorphic photonic networks using silicon photonic weight banks"
+    },
+    {
+      "assumption": "Inequality techniques are necessary for deriving sufficient conditions in stability analysis.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Existence and Global Exponential Stability of Pseudo Almost Periodic Solutions for Neutral Type Quaternion-Valued Neural Networks with Delays in the Leakage Term on Time Scales"
+    },
+    {
+      "assumption": "The development of theories for weakly connected neural networks is essential for understanding complex neural dynamics.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Phase-Amplitude Descriptions of Neural Oscillator Models"
+    },
+    {
+      "assumption": "Complex variable systems are necessary for exploring advanced properties of chaos.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "A Tribute to J. C. Sprott"
+    },
+    {
+      "assumption": "Normal forms are necessary for simplifying and analyzing complex systems with multiple delays.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Reduction of interaction delays in networks"
+    },
+    {
+      "assumption": "The Razumikhin technique is necessary for analyzing stability in systems with time delays.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Generalized Lyapunov-Razumikhin method for retarded differential inclusions: Applications to discontinuous neural networks"
+    },
+    {
+      "assumption": "Mathematical examples are essential for demonstrating the effectiveness of theoretical methods.",
+      "confidence": 0.6,
+      "category": "evaluation",
+      "source_paper": "Generalized Lyapunov-Razumikhin method for retarded differential inclusions: Applications to discontinuous neural networks"
+    },
+    {
+      "assumption": "Numerical examples are essential for validating theoretical results in system stability studies.",
+      "confidence": 0.6,
+      "category": "evaluation",
+      "source_paper": "Exponential Stability for Neutral Stochastic Markov Systems With Time-Varying Delay and Its Applications"
+    },
+    {
+      "assumption": "Exponential stability is a necessary condition for the practical applicability of stochastic systems.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Exponential Stability for Neutral Stochastic Markov Systems With Time-Varying Delay and Its Applications"
+    },
+    {
+      "assumption": "Simulation of neural networks is essential for predicting performance improvements over conventional benchmarks.",
+      "confidence": 0.55,
+      "category": "evaluation",
+      "source_paper": "Neuromorphic photonic networks using silicon photonic weight banks"
+    },
+    {
+      "assumption": "Quaternion-valued neural networks are essential for modeling systems with multi-dimensional state variables.",
+      "confidence": 0.55,
+      "category": "architectural",
+      "source_paper": "Existence and Global Exponential Stability of Pseudo Almost Periodic Solutions for Neutral Type Quaternion-Valued Neural Networks with Delays in the Leakage Term on Time Scales"
+    },
+    {
+      "assumption": "Partial differential equations are required for modeling spatiotemporal chaotic systems.",
+      "confidence": 0.55,
+      "category": "theoretical",
+      "source_paper": "A Tribute to J. C. Sprott"
+    },
+    {
+      "assumption": "Model simplification is essential for making complex systems more tractable and understandable.",
+      "confidence": 0.55,
+      "category": "theoretical",
+      "source_paper": "Reduction of interaction delays in networks"
+    },
+    {
+      "assumption": "Global stability is required for ensuring the robustness of neural network models.",
+      "confidence": 0.5,
+      "category": "theoretical",
+      "source_paper": "Existence and Global Exponential Stability of Pseudo Almost Periodic Solutions for Neutral Type Quaternion-Valued Neural Networks with Delays in the Leakage Term on Time Scales"
+    },
+    {
+      "assumption": "Artificial neural networks are essential for simulating and understanding complex chaotic behaviors.",
+      "confidence": 0.5,
+      "category": "architectural",
+      "source_paper": "A Tribute to J. C. Sprott"
+    },
+    {
+      "assumption": "Finite signal propagation speed is required to be considered in realistic network models.",
+      "confidence": 0.5,
+      "category": "theoretical",
+      "source_paper": "Reduction of interaction delays in networks"
+    },
+    {
+      "assumption": "The differentiability or continuity of delay functions is not required for certain stability analyses.",
+      "confidence": 0.5,
+      "category": "theoretical",
+      "source_paper": "Exponential Stability for Neutral Stochastic Markov Systems With Time-Varying Delay and Its Applications"
+    },
+    {
+      "assumption": "Numerical examples are necessary for illustrating the feasibility of theoretical results.",
+      "confidence": 0.45,
+      "category": "evaluation",
+      "source_paper": "Existence and Global Exponential Stability of Pseudo Almost Periodic Solutions for Neutral Type Quaternion-Valued Neural Networks with Delays in the Leakage Term on Time Scales"
+    },
+    {
+      "assumption": "Understanding delay interactions is necessary for accurately modeling coupled natural systems.",
+      "confidence": 0.45,
+      "category": "theoretical",
+      "source_paper": "Reduction of interaction delays in networks"
+    }
+  ]
+}

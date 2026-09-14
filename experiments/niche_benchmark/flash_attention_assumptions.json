@@ -1,0 +1,908 @@
+{
+  "paradigm": "flash_attention",
+  "name": "FlashAttention",
+  "num_papers": 15,
+  "num_raw": 150,
+  "num_unique": 149,
+  "ground_truth": "Attention computation must materialize the full attention matrix",
+  "aliases": [
+    "the full N\u00d7N attention matrix must be computed explicitly",
+    "attention requires quadratic memory"
+  ],
+  "assumptions": [
+    {
+      "assumption": "Attention mechanisms are essential for capturing dependencies in sequence data.",
+      "confidence": 1.0,
+      "category": "architectural",
+      "source_paper": "Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention"
+    },
+    {
+      "assumption": "Reducing computational complexity is necessary for handling long sequences efficiently.",
+      "confidence": 1.0,
+      "category": "theoretical",
+      "source_paper": "Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention"
+    },
+    {
+      "assumption": "Self-attention is essential for capturing dependencies between tokens in sequence data.",
+      "confidence": 1.0,
+      "category": "architectural",
+      "source_paper": "Nystr\u00f6mformer: A Nystr\u00f6m-based Algorithm for Approximating Self-Attention"
+    },
+    {
+      "assumption": "Transformers are necessary for state-of-the-art performance in sequence modeling tasks.",
+      "confidence": 1.0,
+      "category": "architectural",
+      "source_paper": "FMMformer: Efficient and Flexible Transformer via Decomposed Near-field and Far-field Attention"
+    },
+    {
+      "assumption": "Capturing long-range dependencies is essential for accurate long sequence time-series forecasting.",
+      "confidence": 0.95,
+      "category": "theoretical",
+      "source_paper": "Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting"
+    },
+    {
+      "assumption": "Word Error Rate (WER) is the standard metric for evaluating speech recognition systems.",
+      "confidence": 0.95,
+      "category": "evaluation",
+      "source_paper": "Emformer: Efficient Memory Transformer Based Acoustic Model for Low Latency Streaming Speech Recognition"
+    },
+    {
+      "assumption": "Attention mechanisms are essential for capturing dependencies in language understanding tasks.",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "DiSAN: Directional Self-Attention Network for RNN/CNN-Free Language Understanding"
+    },
+    {
+      "assumption": "Neural networks are necessary for effective language representation and understanding.",
+      "confidence": 0.95,
+      "category": "architectural",
+      "source_paper": "DiSAN: Directional Self-Attention Network for RNN/CNN-Free Language Understanding"
+    },
+    {
+      "assumption": "Computational approaches are necessary to complement experimental methods in drug discovery due to time and cost constraints.",
+      "confidence": 0.95,
+      "category": "theoretical",
+      "source_paper": "Predicting Drug\u2013Target Interactions with Deep-Embedding Learning of Graphs and Sequences"
+    },
+    {
+      "assumption": "Reducing time complexity is necessary for the practical application of models to long sequence time-series forecasting.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting"
+    },
+    {
+      "assumption": "Efficient memory usage is required for handling long sequence time-series data.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting"
+    },
+    {
+      "assumption": "Transformers are required for state-of-the-art performance in sequence modeling tasks.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention"
+    },
+    {
+      "assumption": "Autoregressive models are essential for sequential data prediction.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention"
+    },
+    {
+      "assumption": "Reducing the computational complexity of self-attention is necessary for handling longer sequences.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Nystr\u00f6mformer: A Nystr\u00f6m-based Algorithm for Approximating Self-Attention"
+    },
+    {
+      "assumption": "Scalability is required for models to be applicable to tasks involving long sequences.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Nystr\u00f6mformer: A Nystr\u00f6m-based Algorithm for Approximating Self-Attention"
+    },
+    {
+      "assumption": "Self-attention mechanisms are essential for modern NLP architectures.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "FTRANS"
+    },
+    {
+      "assumption": "Pre-trained language representations are essential for achieving state-of-the-art performance in NLP tasks.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "FTRANS"
+    },
+    {
+      "assumption": "Efficient handling of long sequences is essential for advancing Transformer models.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Long Range Arena : A Benchmark for Efficient Transformers"
+    },
+    {
+      "assumption": "Benchmarking is necessary for evaluating and comparing model performance.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "Long Range Arena : A Benchmark for Efficient Transformers"
+    },
+    {
+      "assumption": "Attention mechanisms are essential for handling long sequences efficiently in time-series data.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Attend and Diagnose: Clinical Time Series Analysis Using Attention Models"
+    },
+    {
+      "assumption": "Deep learning models are necessary for achieving state-of-the-art performance in clinical prediction tasks.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Attend and Diagnose: Clinical Time Series Analysis Using Attention Models"
+    },
+    {
+      "assumption": "Handling temporal order is essential for modeling time-series data.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Attend and Diagnose: Clinical Time Series Analysis Using Attention Models"
+    },
+    {
+      "assumption": "Transformers are essential for capturing complex interactions in multimodal data.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Multimodal Phased Transformer for Sentiment Analysis"
+    },
+    {
+      "assumption": "Transformer architectures are essential for state-of-the-art performance in speech recognition.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Emformer: Efficient Memory Transformer Based Acoustic Model for Low Latency Streaming Speech Recognition"
+    },
+    {
+      "assumption": "Low latency is necessary for practical streaming speech recognition applications.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Emformer: Efficient Memory Transformer Based Acoustic Model for Low Latency Streaming Speech Recognition"
+    },
+    {
+      "assumption": "Benchmark datasets like LibriSpeech are necessary for evaluating and comparing speech recognition models.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Emformer: Efficient Memory Transformer Based Acoustic Model for Low Latency Streaming Speech Recognition"
+    },
+    {
+      "assumption": "Comparative analysis with baseline models is necessary to demonstrate improvements in new architectures.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "Emformer: Efficient Memory Transformer Based Acoustic Model for Low Latency Streaming Speech Recognition"
+    },
+    {
+      "assumption": "Self-attention mechanisms are essential for capturing long-range dependencies in end-to-end speech recognition models.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "SAN-M: Memory Equipped Self-Attention for End-to-End Speech Recognition"
+    },
+    {
+      "assumption": "End-to-end models are necessary for integrating acoustic, pronunciation, and language models into a single framework.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "SAN-M: Memory Equipped Self-Attention for End-to-End Speech Recognition"
+    },
+    {
+      "assumption": "Temporal order preservation is essential for accurate human activity recognition.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Dilated causal convolution with multi-head self attention for sensor human activity recognition"
+    },
+    {
+      "assumption": "Handling sequential data effectively is required for human activity recognition.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Dilated causal convolution with multi-head self attention for sensor human activity recognition"
+    },
+    {
+      "assumption": "Maintaining the order of time steps is necessary for robust sensor data analysis.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "Dilated causal convolution with multi-head self attention for sensor human activity recognition"
+    },
+    {
+      "assumption": "Deep learning models are necessary for semantic segmentation of very fine resolution urban scene images.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Transformer Meets Convolution: A Bilateral Awareness Network for Semantic Segmentation of Very Fine Resolution Urban Scene Images"
+    },
+    {
+      "assumption": "Model architectures that allow for parallel computation are required for efficient training.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "DiSAN: Directional Self-Attention Network for RNN/CNN-Free Language Understanding"
+    },
+    {
+      "assumption": "Sentence embeddings are essential for performing NLP tasks such as classification and inference.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "source_paper": "DiSAN: Directional Self-Attention Network for RNN/CNN-Free Language Understanding"
+    },
+    {
+      "assumption": "Deep learning models are essential for predicting drug-target interactions.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Predicting Drug\u2013Target Interactions with Deep-Embedding Learning of Graphs and Sequences"
+    },
+    {
+      "assumption": "Graph neural networks are necessary for capturing structural information in molecular data.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Predicting Drug\u2013Target Interactions with Deep-Embedding Learning of Graphs and Sequences"
+    },
+    {
+      "assumption": "Large and diverse datasets are required for training robust drug-target interaction models.",
+      "confidence": 0.9,
+      "category": "data",
+      "source_paper": "Predicting Drug\u2013Target Interactions with Deep-Embedding Learning of Graphs and Sequences"
+    },
+    {
+      "assumption": "Reducing computational complexity is necessary for scaling transformer models to longer sequences.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "FMMformer: Efficient and Flexible Transformer via Decomposed Near-field and Far-field Attention"
+    },
+    {
+      "assumption": "Linear complexity in computational time and memory is essential for handling long sequences efficiently.",
+      "confidence": 0.9,
+      "category": "training",
+      "source_paper": "FMMformer: Efficient and Flexible Transformer via Decomposed Near-field and Far-field Attention"
+    },
+    {
+      "assumption": "Benchmarking on standard datasets is necessary for validating model performance.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "FMMformer: Efficient and Flexible Transformer via Decomposed Near-field and Far-field Attention"
+    },
+    {
+      "assumption": "Comparative analysis with standard transformers is necessary to highlight improvements in new models.",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "source_paper": "FMMformer: Efficient and Flexible Transformer via Decomposed Near-field and Far-field Attention"
+    },
+    {
+      "assumption": "Multihead attention mechanisms are essential for capturing long-range dependencies in image data.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "source_paper": "Vision Transformers for Remote Sensing Image Classification"
+    },
+    {
+      "assumption": "Transformer models are a suitable foundation for improving prediction capacity in time-series forecasting.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting"
+    },
+    {
+      "assumption": "Handling extreme long input sequences is necessary for effective long sequence time-series forecasting.",
+      "confidence": 0.85,
+      "category": "data",
+      "source_paper": "Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting"
+    },
+    {
+      "assumption": "Model compression is necessary for deploying large-scale language models on resource-constrained devices.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "FTRANS"
+    },
+    {
+      "assumption": "Performance improvements are essential for the adoption of deep learning models in real-world applications.",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "FTRANS"
+    },
+    {
+      "assumption": "Reducing computational complexity is required for scaling Transformer models.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Long Range Arena : A Benchmark for Efficient Transformers"
+    },
+    {
+      "assumption": "A diverse set of tasks and datasets is essential for comprehensive model evaluation.",
+      "confidence": 0.85,
+      "category": "data",
+      "source_paper": "Long Range Arena : A Benchmark for Efficient Transformers"
+    },
+    {
+      "assumption": "Reducing model complexity is necessary for deploying models on low-resource devices.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Multimodal Phased Transformer for Sentiment Analysis"
+    },
+    {
+      "assumption": "Efficient memory management is required to handle long-range dependencies in transformer models.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Emformer: Efficient Memory Transformer Based Acoustic Model for Low Latency Streaming Speech Recognition"
+    },
+    {
+      "assumption": "Reducing computation complexity is essential for deploying models in real-time applications.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Emformer: Efficient Memory Transformer Based Acoustic Model for Low Latency Streaming Speech Recognition"
+    },
+    {
+      "assumption": "Streaming models must balance between latency and accuracy for optimal performance.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "source_paper": "Emformer: Efficient Memory Transformer Based Acoustic Model for Low Latency Streaming Speech Recognition"
+    },
+    {
+      "assumption": "Attention-based methods are required for superior performance in end-to-end speech recognition.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "SAN-M: Memory Equipped Self-Attention for End-to-End Speech Recognition"
+    },
+    {
+      "assumption": "Parallelization is necessary for efficient training of neural networks.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Dilated causal convolution with multi-head self attention for sensor human activity recognition"
+    },
+    {
+      "assumption": "Self-attention mechanisms are necessary for capturing dependencies in sequential data.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Dilated causal convolution with multi-head self attention for sensor human activity recognition"
+    },
+    {
+      "assumption": "Efficient computation is required for practical deployment of human activity recognition systems.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Dilated causal convolution with multi-head self attention for sensor human activity recognition"
+    },
+    {
+      "assumption": "Capturing long-range dependencies is essential for effective semantic segmentation in remote sensing images.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Transformer Meets Convolution: A Bilateral Awareness Network for Semantic Segmentation of Very Fine Resolution Urban Scene Images"
+    },
+    {
+      "assumption": "Fine-grained detail extraction is required for accurate semantic segmentation of high-resolution images.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Transformer Meets Convolution: A Bilateral Awareness Network for Semantic Segmentation of Very Fine Resolution Urban Scene Images"
+    },
+    {
+      "assumption": "Temporal order encoding is necessary for capturing sequence information in language tasks.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "DiSAN: Directional Self-Attention Network for RNN/CNN-Free Language Understanding"
+    },
+    {
+      "assumption": "Benchmark datasets like SNLI and SST are required for evaluating the performance of language models.",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "DiSAN: Directional Self-Attention Network for RNN/CNN-Free Language Understanding"
+    },
+    {
+      "assumption": "Improving test accuracy on standard datasets is essential for demonstrating state-of-the-art performance.",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "DiSAN: Directional Self-Attention Network for RNN/CNN-Free Language Understanding"
+    },
+    {
+      "assumption": "Pretrained models like BERT are essential for extracting meaningful features from biological sequences.",
+      "confidence": 0.85,
+      "category": "training",
+      "source_paper": "Predicting Drug\u2013Target Interactions with Deep-Embedding Learning of Graphs and Sequences"
+    },
+    {
+      "assumption": "High performance metrics such as AUC and recall are essential for evaluating the effectiveness of drug-target interaction models.",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "source_paper": "Predicting Drug\u2013Target Interactions with Deep-Embedding Learning of Graphs and Sequences"
+    },
+    {
+      "assumption": "Transformers are necessary for achieving state-of-the-art performance in image classification tasks.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "source_paper": "Vision Transformers for Remote Sensing Image Classification"
+    },
+    {
+      "assumption": "A generative style decoder is essential for improving inference speed in long sequence predictions.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting"
+    },
+    {
+      "assumption": "Self-attention mechanisms are required for capturing dependencies in sequence data.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting"
+    },
+    {
+      "assumption": "High prediction capacity is necessary for models to effectively forecast long sequence time-series.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting"
+    },
+    {
+      "assumption": "Kernel methods are necessary for efficient computation in high-dimensional spaces.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention"
+    },
+    {
+      "assumption": "Iterative implementations are required for efficient processing of sequential data.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention"
+    },
+    {
+      "assumption": "Maintaining model performance while reducing complexity is essential for practical applications.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention"
+    },
+    {
+      "assumption": "Approximation methods are necessary for making self-attention computationally feasible for long sequences.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "Nystr\u00f6mformer: A Nystr\u00f6m-based Algorithm for Approximating Self-Attention"
+    },
+    {
+      "assumption": "Benchmarking on standard datasets like GLUE is essential for evaluating model performance.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Nystr\u00f6mformer: A Nystr\u00f6m-based Algorithm for Approximating Self-Attention"
+    },
+    {
+      "assumption": "Comparative performance evaluation against existing methods is required to demonstrate the effectiveness of new models.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Nystr\u00f6mformer: A Nystr\u00f6m-based Algorithm for Approximating Self-Attention"
+    },
+    {
+      "assumption": "High parallelism is required for efficient acceleration of deep learning algorithms.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "FTRANS"
+    },
+    {
+      "assumption": "Algorithm-level optimizations are required to reduce model size without significant accuracy degradation.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "FTRANS"
+    },
+    {
+      "assumption": "Efficient hardware design is necessary for the deployment of large-scale models on specialized hardware.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "FTRANS"
+    },
+    {
+      "assumption": "Reducing computational and storage requirements is essential for the scalability of NLP models.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "FTRANS"
+    },
+    {
+      "assumption": "Maintaining model quality is necessary when optimizing for efficiency.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Long Range Arena : A Benchmark for Efficient Transformers"
+    },
+    {
+      "assumption": "Long-context scenarios are required to test the limits of Transformer models.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Long Range Arena : A Benchmark for Efficient Transformers"
+    },
+    {
+      "assumption": "Electronic health records are required data sources for clinical time-series analysis.",
+      "confidence": 0.8,
+      "category": "data",
+      "source_paper": "Attend and Diagnose: Clinical Time Series Analysis Using Attention Models"
+    },
+    {
+      "assumption": "Multi-task learning is necessary for improving model performance across multiple diagnosis tasks.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Attend and Diagnose: Clinical Time Series Analysis Using Attention Models"
+    },
+    {
+      "assumption": "Benchmark datasets like MIMIC-III are essential for evaluating clinical prediction models.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Attend and Diagnose: Clinical Time Series Analysis Using Attention Models"
+    },
+    {
+      "assumption": "Sparse attention mechanisms are required to manage the computational cost of self-attention in Transformers.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Multimodal Phased Transformer for Sentiment Analysis"
+    },
+    {
+      "assumption": "Parameter sharing is essential for reducing model size without significantly impacting performance.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Multimodal Phased Transformer for Sentiment Analysis"
+    },
+    {
+      "assumption": "Parallelized processing is essential for reducing training time in large models.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Emformer: Efficient Memory Transformer Based Acoustic Model for Low Latency Streaming Speech Recognition"
+    },
+    {
+      "assumption": "Augmented memory mechanisms are required to improve the efficiency of transformer models.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Emformer: Efficient Memory Transformer Based Acoustic Model for Low Latency Streaming Speech Recognition"
+    },
+    {
+      "assumption": "Lower computational complexity is essential for the practical application of speech recognition models.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "source_paper": "SAN-M: Memory Equipped Self-Attention for End-to-End Speech Recognition"
+    },
+    {
+      "assumption": "Empirical evaluation on benchmark datasets is necessary for validating the performance of speech recognition models.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "SAN-M: Memory Equipped Self-Attention for End-to-End Speech Recognition"
+    },
+    {
+      "assumption": "Convolutional neural networks are essential for processing temporal sequences in parallel.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Dilated causal convolution with multi-head self attention for sensor human activity recognition"
+    },
+    {
+      "assumption": "Benchmark datasets are required for evaluating human activity recognition models.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Dilated causal convolution with multi-head self attention for sensor human activity recognition"
+    },
+    {
+      "assumption": "State-of-the-art performance is necessary for validating new model architectures.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "Dilated causal convolution with multi-head self attention for sensor human activity recognition"
+    },
+    {
+      "assumption": "Transformer architectures are necessary for capturing global context in image segmentation tasks.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Transformer Meets Convolution: A Bilateral Awareness Network for Semantic Segmentation of Very Fine Resolution Urban Scene Images"
+    },
+    {
+      "assumption": "Convolutional operations are essential for capturing local texture information in image data.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Transformer Meets Convolution: A Bilateral Awareness Network for Semantic Segmentation of Very Fine Resolution Urban Scene Images"
+    },
+    {
+      "assumption": "Feature-wise attention is necessary for capturing multi-dimensional dependencies in language data.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "DiSAN: Directional Self-Attention Network for RNN/CNN-Free Language Understanding"
+    },
+    {
+      "assumption": "Outperforming existing models on benchmark datasets is required to validate the effectiveness of new architectures.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "DiSAN: Directional Self-Attention Network for RNN/CNN-Free Language Understanding"
+    },
+    {
+      "assumption": "Attention mechanisms are required for effectively modeling complex relationships in biological data.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Predicting Drug\u2013Target Interactions with Deep-Embedding Learning of Graphs and Sequences"
+    },
+    {
+      "assumption": "End-to-end learning is necessary for integrating multiple data types in drug-target interaction prediction.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Predicting Drug\u2013Target Interactions with Deep-Embedding Learning of Graphs and Sequences"
+    },
+    {
+      "assumption": "Integrating sequence and graph data is essential for comprehensive drug-target interaction prediction.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Predicting Drug\u2013Target Interactions with Deep-Embedding Learning of Graphs and Sequences"
+    },
+    {
+      "assumption": "Decomposing attention into components is required for efficient computation in large-scale models.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "FMMformer: Efficient and Flexible Transformer via Decomposed Near-field and Far-field Attention"
+    },
+    {
+      "assumption": "Improving model accuracy is essential for demonstrating the effectiveness of new architectures.",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "source_paper": "FMMformer: Efficient and Flexible Transformer via Decomposed Near-field and Far-field Attention"
+    },
+    {
+      "assumption": "Efficient memory usage is required for training large models on available hardware.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "FMMformer: Efficient and Flexible Transformer via Decomposed Near-field and Far-field Attention"
+    },
+    {
+      "assumption": "Data augmentation is required to enhance model performance and generalization in image classification.",
+      "confidence": 0.8,
+      "category": "training",
+      "source_paper": "Vision Transformers for Remote Sensing Image Classification"
+    },
+    {
+      "assumption": "Positional embeddings are essential for maintaining spatial information in transformer models.",
+      "confidence": 0.8,
+      "category": "architectural",
+      "source_paper": "Vision Transformers for Remote Sensing Image Classification"
+    },
+    {
+      "assumption": "Efficient handling of large-scale datasets is essential for validating long sequence time-series forecasting models.",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting"
+    },
+    {
+      "assumption": "Improving model efficiency is required to make long sequence time-series forecasting feasible in real-world applications.",
+      "confidence": 0.75,
+      "category": "training",
+      "source_paper": "Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting"
+    },
+    {
+      "assumption": "Energy efficiency is necessary for the practical deployment of deep learning models.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "FTRANS"
+    },
+    {
+      "assumption": "Comparative analysis across models is essential for understanding advancements in the field.",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "Long Range Arena : A Benchmark for Efficient Transformers"
+    },
+    {
+      "assumption": "Unified benchmarks are necessary for consistent evaluation across different models.",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "Long Range Arena : A Benchmark for Efficient Transformers"
+    },
+    {
+      "assumption": "Multimodal learning is necessary for tasks that involve multiple types of data inputs.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "Multimodal Phased Transformer for Sentiment Analysis"
+    },
+    {
+      "assumption": "Efficient handling of long sequences is required for effective Transformer performance.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "Multimodal Phased Transformer for Sentiment Analysis"
+    },
+    {
+      "assumption": "Encoder-decoder architectures are essential for effective sequence-to-sequence modeling in speech recognition.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "SAN-M: Memory Equipped Self-Attention for End-to-End Speech Recognition"
+    },
+    {
+      "assumption": "Dilated convolutions are essential for expanding the receptive field without losing resolution.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "Dilated causal convolution with multi-head self attention for sensor human activity recognition"
+    },
+    {
+      "assumption": "Large-scale datasets are required for training effective semantic segmentation models.",
+      "confidence": 0.75,
+      "category": "data",
+      "source_paper": "Transformer Meets Convolution: A Bilateral Awareness Network for Semantic Segmentation of Very Fine Resolution Urban Scene Images"
+    },
+    {
+      "assumption": "Memory-efficient attention mechanisms are necessary for handling high-resolution images in deep learning models.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "Transformer Meets Convolution: A Bilateral Awareness Network for Semantic Segmentation of Very Fine Resolution Urban Scene Images"
+    },
+    {
+      "assumption": "RNNs and CNNs are traditional but not necessary for all NLP tasks, as alternative architectures can achieve similar or better results.",
+      "confidence": 0.75,
+      "category": "architectural",
+      "source_paper": "DiSAN: Directional Self-Attention Network for RNN/CNN-Free Language Understanding"
+    },
+    {
+      "assumption": "Biological insights can be derived from model interpretability techniques like attention weight visualization.",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "source_paper": "Predicting Drug\u2013Target Interactions with Deep-Embedding Learning of Graphs and Sequences"
+    },
+    {
+      "assumption": "High classification accuracy is necessary for validating the effectiveness of image classification models.",
+      "confidence": 0.75,
+      "category": "evaluation",
+      "source_paper": "Vision Transformers for Remote Sensing Image Classification"
+    },
+    {
+      "assumption": "Matrix operations are fundamental for implementing neural network architectures.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention"
+    },
+    {
+      "assumption": "Comparative evaluation against baseline models is necessary for validating new approaches.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention"
+    },
+    {
+      "assumption": "Maintaining or improving performance on standard sequence lengths is necessary when proposing new models.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Nystr\u00f6mformer: A Nystr\u00f6m-based Algorithm for Approximating Self-Attention"
+    },
+    {
+      "assumption": "The ability to handle thousands of tokens is essential for models targeting long sequence tasks.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Nystr\u00f6mformer: A Nystr\u00f6m-based Algorithm for Approximating Self-Attention"
+    },
+    {
+      "assumption": "Open-sourcing code is necessary for reproducibility and further research in the community.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Nystr\u00f6mformer: A Nystr\u00f6m-based Algorithm for Approximating Self-Attention"
+    },
+    {
+      "assumption": "Efficient self-attention methods are required for practical applications involving large-scale data.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Nystr\u00f6mformer: A Nystr\u00f6m-based Algorithm for Approximating Self-Attention"
+    },
+    {
+      "assumption": "FPGA is a viable platform for accelerating deep learning models due to its high parallelism and low latency.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "FTRANS"
+    },
+    {
+      "assumption": "Model efficiency is required to handle real-world applications with long sequences.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Long Range Arena : A Benchmark for Efficient Transformers"
+    },
+    {
+      "assumption": "Innovations in self-attention mechanisms are essential for improving Transformer efficiency.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Long Range Arena : A Benchmark for Efficient Transformers"
+    },
+    {
+      "assumption": "Positional encoding is required for incorporating temporal information in attention-based models.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Attend and Diagnose: Clinical Time Series Analysis Using Attention Models"
+    },
+    {
+      "assumption": "Dense interpolation strategies are necessary for effectively modeling time-series data with attention mechanisms.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Attend and Diagnose: Clinical Time Series Analysis Using Attention Models"
+    },
+    {
+      "assumption": "State-of-the-art performance is required to validate the effectiveness of new model architectures.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Attend and Diagnose: Clinical Time Series Analysis Using Attention Models"
+    },
+    {
+      "assumption": "Parallelized computing is essential for efficient processing of long sequences in neural networks.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Attend and Diagnose: Clinical Time Series Analysis Using Attention Models"
+    },
+    {
+      "assumption": "Cross-modal interactions are essential for improving performance in multimodal tasks.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "Multimodal Phased Transformer for Sentiment Analysis"
+    },
+    {
+      "assumption": "Evaluation on multiple datasets is necessary to demonstrate model robustness and generalizability.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Multimodal Phased Transformer for Sentiment Analysis"
+    },
+    {
+      "assumption": "Maintaining task performance while reducing computational resources is essential for practical model deployment.",
+      "confidence": 0.7,
+      "category": "training",
+      "source_paper": "Multimodal Phased Transformer for Sentiment Analysis"
+    },
+    {
+      "assumption": "The integration of memory mechanisms is required to enhance the capability of self-attention models.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "SAN-M: Memory Equipped Self-Attention for End-to-End Speech Recognition"
+    },
+    {
+      "assumption": "Theoretical comparisons are necessary to demonstrate the complementarity of different model components.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "SAN-M: Memory Equipped Self-Attention for End-to-End Speech Recognition"
+    },
+    {
+      "assumption": "Achieving state-of-the-art performance is essential for the acceptance of new methods in the speech recognition community.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "SAN-M: Memory Equipped Self-Attention for End-to-End Speech Recognition"
+    },
+    {
+      "assumption": "Feature aggregation is essential for combining different types of information in multi-path network architectures.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Transformer Meets Convolution: A Bilateral Awareness Network for Semantic Segmentation of Very Fine Resolution Urban Scene Images"
+    },
+    {
+      "assumption": "Benchmark datasets are required for evaluating the performance of semantic segmentation models.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Transformer Meets Convolution: A Bilateral Awareness Network for Semantic Segmentation of Very Fine Resolution Urban Scene Images"
+    },
+    {
+      "assumption": "High mIoU scores are necessary for demonstrating the effectiveness of semantic segmentation models.",
+      "confidence": 0.7,
+      "category": "evaluation",
+      "source_paper": "Transformer Meets Convolution: A Bilateral Awareness Network for Semantic Segmentation of Very Fine Resolution Urban Scene Images"
+    },
+    {
+      "assumption": "Matrix decomposition techniques are required for optimizing attention mechanisms in transformers.",
+      "confidence": 0.7,
+      "category": "theoretical",
+      "source_paper": "FMMformer: Efficient and Flexible Transformer via Decomposed Near-field and Far-field Attention"
+    },
+    {
+      "assumption": "Remote sensing image datasets are required for training and evaluating models in this subfield.",
+      "confidence": 0.7,
+      "category": "data",
+      "source_paper": "Vision Transformers for Remote Sensing Image Classification"
+    },
+    {
+      "assumption": "Model compression techniques are necessary for reducing computational costs while maintaining performance.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Vision Transformers for Remote Sensing Image Classification"
+    },
+    {
+      "assumption": "Patch-based image processing is essential for adapting transformer models to image data.",
+      "confidence": 0.7,
+      "category": "architectural",
+      "source_paper": "Vision Transformers for Remote Sensing Image Classification"
+    },
+    {
+      "assumption": "Factorized Co-Attention is required for efficient parameter sharing in multimodal Transformers.",
+      "confidence": 0.65,
+      "category": "architectural",
+      "source_paper": "Multimodal Phased Transformer for Sentiment Analysis"
+    },
+    {
+      "assumption": "End-to-end speech recognition models must be evaluated on both public benchmarks and large-scale industrial tasks to demonstrate their robustness.",
+      "confidence": 0.65,
+      "category": "evaluation",
+      "source_paper": "SAN-M: Memory Equipped Self-Attention for End-to-End Speech Recognition"
+    },
+    {
+      "assumption": "Comparative evaluation against state-of-the-art methods is required to demonstrate model advancements.",
+      "confidence": 0.65,
+      "category": "evaluation",
+      "source_paper": "Vision Transformers for Remote Sensing Image Classification"
+    },
+    {
+      "assumption": "Sequence representation of image data is necessary for processing by transformer models.",
+      "confidence": 0.65,
+      "category": "architectural",
+      "source_paper": "Vision Transformers for Remote Sensing Image Classification"
+    },
+    {
+      "assumption": "The relationship between different neural network architectures is essential for advancing model design.",
+      "confidence": 0.6,
+      "category": "theoretical",
+      "source_paper": "Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention"
+    }
+  ]
+}

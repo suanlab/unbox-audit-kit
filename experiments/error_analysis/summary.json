@@ -1,0 +1,250 @@
+{
+  "failures": {
+    "resnet": {
+      "target": "Deep networks must process information through sequential layers without shortcuts",
+      "aliases": [
+        "Deep networks must process information through sequential layers without shortcuts",
+        "deep networks require sequential layer-by-layer processing",
+        "adding more layers always increases training difficulty"
+      ],
+      "num_extracted": 150,
+      "top_5": [
+        {
+          "rank": 1,
+          "assumption": "Convolutional neural networks (CNNs) are essential for extracting powerful features for visual recognition tasks.",
+          "confidence": 1.0
+        },
+        {
+          "rank": 2,
+          "assumption": "Large labeled datasets are essential for training effective deep learning models.",
+          "confidence": 1.0
+        },
+        {
+          "rank": 3,
+          "assumption": "Convolutional Neural Networks (CNNs) are necessary for learning high-level features in image recognition tasks.",
+          "confidence": 1.0
+        },
+        {
+          "rank": 4,
+          "assumption": "Increasing network depth is essential for improving model accuracy in image recognition tasks.",
+          "confidence": 0.95
+        },
+        {
+          "rank": 5,
+          "assumption": "Convolutional layers are necessary for effective feature extraction in image data.",
+          "confidence": 0.95
+        }
+      ]
+    },
+    "word2vec": {
+      "target": "Word meaning requires symbolic or hand-crafted feature representations",
+      "aliases": [
+        "Word meaning requires symbolic or hand-crafted feature representations",
+        "word representations should be based on linguistic features",
+        "semantic similarity requires structured knowledge bases"
+      ],
+      "num_extracted": 150,
+      "top_5": [
+        {
+          "rank": 1,
+          "assumption": "Distributional similarity is necessary for estimating meaning similarity.",
+          "confidence": 1.0
+        },
+        {
+          "rank": 2,
+          "assumption": "Word embeddings are essential for capturing semantic information in NLP tasks.",
+          "confidence": 1.0
+        },
+        {
+          "rank": 3,
+          "assumption": "Words that occur in similar contexts are required to have similar meanings.",
+          "confidence": 0.95
+        },
+        {
+          "rank": 4,
+          "assumption": "Vector space representations are essential for capturing word meaning in distributional semantics.",
+          "confidence": 0.95
+        },
+        {
+          "rank": 5,
+          "assumption": "The distributional hypothesis is necessary for predicting semantic similarity between words.",
+          "confidence": 0.95
+        }
+      ]
+    },
+    "dropout": {
+      "target": "All neurons should be active during training for optimal learning",
+      "aliases": [
+        "All neurons should be active during training for optimal learning",
+        "training neural networks requires using all available parameters",
+        "randomly disabling neurons during training would harm learning"
+      ],
+      "num_extracted": 150,
+      "top_5": [
+        {
+          "rank": 1,
+          "assumption": "Deep neural networks are essential for modern speech recognition systems.",
+          "confidence": 0.95
+        },
+        {
+          "rank": 2,
+          "assumption": "Regularization is essential for preventing overfitting in neural networks.",
+          "confidence": 0.95
+        },
+        {
+          "rank": 3,
+          "assumption": "Speaker adaptation is necessary for improving speech recognition accuracy.",
+          "confidence": 0.9
+        },
+        {
+          "rank": 4,
+          "assumption": "Ensemble methods are essential for improving the generalization performance of neural networks.",
+          "confidence": 0.9
+        },
+        {
+          "rank": 5,
+          "assumption": "Regularization is necessary to prevent overfitting in neural network models.",
+          "confidence": 0.9
+        }
+      ]
+    },
+    "bert": {
+      "target": "Language model pre-training must be left-to-right (autoregressive)",
+      "aliases": [
+        "Language model pre-training must be left-to-right (autoregressive)",
+        "language models should generate text left-to-right",
+        "autoregressive training is necessary for language model pre-training"
+      ],
+      "num_extracted": 150,
+      "top_5": [
+        {
+          "rank": 1,
+          "assumption": "Parton distribution functions (PDFs) are essential for predicting outcomes in high-energy particle collisions.",
+          "confidence": 1.0
+        },
+        {
+          "rank": 2,
+          "assumption": "Language is a dynamic and fluid system that transcends traditional boundaries between named languages.",
+          "confidence": 0.95
+        },
+        {
+          "rank": 3,
+          "assumption": "Continuous word representations are essential for natural language processing tasks.",
+          "confidence": 0.9
+        },
+        {
+          "rank": 4,
+          "assumption": "Large unlabeled corpora are necessary for training effective word representations.",
+          "confidence": 0.9
+        },
+        {
+          "rank": 5,
+          "assumption": "Attention mechanisms are essential for improving neural machine translation performance.",
+          "confidence": 0.9
+        }
+      ]
+    }
+  },
+  "successes_summary": {},
+  "keyword_analysis": {
+    "resnet": {
+      "keywords": [
+        "shortcut",
+        "skip",
+        "sequential",
+        "vanishing",
+        "gradient flow"
+      ],
+      "count_in_top10": 0,
+      "count_in_all": 0,
+      "total_assumptions": 150
+    },
+    "word2vec": {
+      "keywords": [
+        "symbolic",
+        "hand-crafted",
+        "feature",
+        "linguistic",
+        "knowledge base"
+      ],
+      "count_in_top10": 0,
+      "count_in_all": 25,
+      "total_assumptions": 150
+    },
+    "dropout": {
+      "keywords": [
+        "active",
+        "training",
+        "all neurons",
+        "random",
+        "regularization"
+      ],
+      "count_in_top10": 2,
+      "count_in_all": 35,
+      "total_assumptions": 150
+    },
+    "bert": {
+      "keywords": [
+        "left-to-right",
+        "autoregressive",
+        "unidirectional",
+        "causal"
+      ],
+      "count_in_top10": 0,
+      "count_in_all": 3,
+      "total_assumptions": 150
+    }
+  },
+  "linguistic_comparison": {
+    "failures": {
+      "resnet": {
+        "avg_assumption_length": 11.8,
+        "avg_confidence_top10": 0.965
+      },
+      "word2vec": {
+        "avg_assumption_length": 11.3,
+        "avg_confidence_top10": 0.94
+      },
+      "dropout": {
+        "avg_assumption_length": 10.7,
+        "avg_confidence_top10": 0.91
+      },
+      "bert": {
+        "avg_assumption_length": 11.5,
+        "avg_confidence_top10": 0.915
+      }
+    },
+    "successes": {
+      "transformer": {
+        "avg_assumption_length": 9.9,
+        "avg_confidence_top10": 0.92
+      },
+      "diffusion": {
+        "avg_assumption_length": 12.4,
+        "avg_confidence_top10": 0.945
+      },
+      "icl": {
+        "avg_assumption_length": 12.0,
+        "avg_confidence_top10": 0.965
+      },
+      "vit": {
+        "avg_assumption_length": 10.0,
+        "avg_confidence_top10": 0.96
+      },
+      "gan": {
+        "avg_assumption_length": 10.4,
+        "avg_confidence_top10": 0.91
+      },
+      "batchnorm": {
+        "avg_assumption_length": 10.7,
+        "avg_confidence_top10": 0.965
+      }
+    }
+  },
+  "summary": {
+    "total_failures": 4,
+    "failures_with_relevant_keywords_in_top10": 1,
+    "relevant_keywords_found_total": 2,
+    "interpretation": "If relevant keywords appear in top-10 but target is still missed, failure is a ranking/phrasing problem. If keywords are absent, failure is an extraction-coverage problem."
+  }
+}

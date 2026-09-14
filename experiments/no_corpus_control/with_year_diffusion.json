@@ -1,0 +1,411 @@
+{
+  "condition": "with_year",
+  "paradigm": "diffusion",
+  "field_name": "generative modeling and image synthesis (pre-2020)",
+  "ground_truth": "adversarial training is necessary for high-quality generation",
+  "num_calls": 15,
+  "num_raw_assumptions": 150,
+  "num_unique_assumptions": 61,
+  "assumptions": [
+    {
+      "assumption": "High-quality training data is essential for generating realistic images",
+      "confidence": 0.95,
+      "category": "data",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Large-scale neural networks are necessary for effective generative modeling",
+      "confidence": 0.9,
+      "category": "architectural",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Adversarial training is required for improving the quality of generated images",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Latent space representation is essential for controlling image synthesis",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Evaluation metrics like Inception Score and FID are necessary for assessing image quality",
+      "confidence": 0.9,
+      "category": "evaluation",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Generative models require a balance between generator and discriminator for stable training",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Convolutional neural networks are essential for processing image data",
+      "confidence": 0.95,
+      "category": "architectural",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Data augmentation is necessary for improving model generalization",
+      "confidence": 0.85,
+      "category": "data",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Unsupervised learning is required for discovering underlying data distributions",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "call_idx": 0
+    },
+    {
+      "assumption": "High computational resources are essential for training generative models effectively",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 0
+    },
+    {
+      "assumption": "Convolutional layers are essential for capturing spatial hierarchies in images",
+      "confidence": 0.9,
+      "category": "architectural",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Probabilistic modeling is required for capturing the variability in image data",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Iterative refinement is essential for enhancing the resolution of generated images",
+      "confidence": 0.8,
+      "category": "training",
+      "call_idx": 1
+    },
+    {
+      "assumption": "Large-scale neural networks are necessary for capturing complex image distributions",
+      "confidence": 0.9,
+      "category": "architectural",
+      "call_idx": 2
+    },
+    {
+      "assumption": "Latent space representation is essential for controlling image generation",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "call_idx": 2
+    },
+    {
+      "assumption": "Training stability is required for successful generative model convergence",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 2
+    },
+    {
+      "assumption": "Probabilistic modeling is essential for capturing the variability in image data",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "call_idx": 2
+    },
+    {
+      "assumption": "Computational efficiency is required for scaling generative models to high-resolution images",
+      "confidence": 0.85,
+      "category": "architectural",
+      "call_idx": 2
+    },
+    {
+      "assumption": "Evaluation metrics like Inception Score are necessary for assessing image quality",
+      "confidence": 0.8,
+      "category": "evaluation",
+      "call_idx": 3
+    },
+    {
+      "assumption": "Generative models require extensive computational resources for training",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 3
+    },
+    {
+      "assumption": "Diversity in training data is essential for generating varied image outputs",
+      "confidence": 0.85,
+      "category": "data",
+      "call_idx": 3
+    },
+    {
+      "assumption": "Convolutional neural networks are necessary for processing image data",
+      "confidence": 0.9,
+      "category": "architectural",
+      "call_idx": 3
+    },
+    {
+      "assumption": "Regularization techniques are required to prevent overfitting in generative models",
+      "confidence": 0.8,
+      "category": "training",
+      "call_idx": 3
+    },
+    {
+      "assumption": "Theoretical understanding of generative processes is essential for model improvement",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "call_idx": 3
+    },
+    {
+      "assumption": "Unsupervised learning is required for discovering underlying data structures",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "call_idx": 4
+    },
+    {
+      "assumption": "High computational resources are essential for training deep generative models",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 4
+    },
+    {
+      "assumption": "Backpropagation is required for training generative models",
+      "confidence": 0.95,
+      "category": "training",
+      "call_idx": 5
+    },
+    {
+      "assumption": "Generative models require a balance between generator and discriminator for stability",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "call_idx": 5
+    },
+    {
+      "assumption": "Stochastic gradient descent is essential for optimizing generative models",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 5
+    },
+    {
+      "assumption": "Data augmentation is necessary for improving model robustness",
+      "confidence": 0.85,
+      "category": "data",
+      "call_idx": 6
+    },
+    {
+      "assumption": "The use of stochastic gradient descent is essential for optimizing generative models",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 6
+    },
+    {
+      "assumption": "A well-defined loss function is required for training generative models effectively",
+      "confidence": 0.95,
+      "category": "theoretical",
+      "call_idx": 6
+    },
+    {
+      "assumption": "End-to-end training is required for optimizing generative models",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 7
+    },
+    {
+      "assumption": "Generative models must be capable of learning from unsupervised data",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "call_idx": 7
+    },
+    {
+      "assumption": "Computational efficiency is essential for scaling generative models",
+      "confidence": 0.8,
+      "category": "architectural",
+      "call_idx": 7
+    },
+    {
+      "assumption": "Diversity in generated samples is necessary for a successful generative model",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "call_idx": 7
+    },
+    {
+      "assumption": "Regularization techniques are required to prevent mode collapse in generative models",
+      "confidence": 0.8,
+      "category": "training",
+      "call_idx": 7
+    },
+    {
+      "assumption": "Generative Adversarial Networks (GANs) are essential for state-of-the-art image synthesis",
+      "confidence": 0.9,
+      "category": "architectural",
+      "call_idx": 8
+    },
+    {
+      "assumption": "Diverse datasets are necessary for generating varied and unbiased images",
+      "confidence": 0.8,
+      "category": "data",
+      "call_idx": 8
+    },
+    {
+      "assumption": "Regularization techniques are required to prevent mode collapse in GANs",
+      "confidence": 0.8,
+      "category": "training",
+      "call_idx": 8
+    },
+    {
+      "assumption": "Theoretical understanding of loss functions is essential for improving generative models",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "call_idx": 8
+    },
+    {
+      "assumption": "Computational resources are essential for training large generative models",
+      "confidence": 0.9,
+      "category": "architectural",
+      "call_idx": 9
+    },
+    {
+      "assumption": "Theoretical understanding of GANs is essential for advancing generative modeling",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "call_idx": 9
+    },
+    {
+      "assumption": "Regularization techniques are essential for preventing overfitting in generative models",
+      "confidence": 0.85,
+      "category": "training",
+      "call_idx": 10
+    },
+    {
+      "assumption": "Regularization techniques are essential for preventing mode collapse in GANs",
+      "confidence": 0.8,
+      "category": "training",
+      "call_idx": 11
+    },
+    {
+      "assumption": "Theoretical understanding of loss functions is required for improving generative models",
+      "confidence": 0.75,
+      "category": "theoretical",
+      "call_idx": 11
+    },
+    {
+      "assumption": "High-quality and diverse datasets are essential for training effective generative models.",
+      "confidence": 0.9,
+      "category": "data",
+      "call_idx": 12
+    },
+    {
+      "assumption": "Large-scale neural networks are necessary for generating high-fidelity images.",
+      "confidence": 0.85,
+      "category": "architectural",
+      "call_idx": 12
+    },
+    {
+      "assumption": "Adversarial training is required for improving the realism of generated images.",
+      "confidence": 0.9,
+      "category": "training",
+      "call_idx": 12
+    },
+    {
+      "assumption": "Latent space manipulation is essential for controlling the attributes of generated images.",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "call_idx": 12
+    },
+    {
+      "assumption": "Quantitative metrics like Inception Score and FID are necessary for evaluating the quality of generative models.",
+      "confidence": 0.85,
+      "category": "evaluation",
+      "call_idx": 12
+    },
+    {
+      "assumption": "End-to-end training is required for optimizing generative models effectively.",
+      "confidence": 0.8,
+      "category": "training",
+      "call_idx": 12
+    },
+    {
+      "assumption": "The use of convolutional layers is essential for capturing spatial hierarchies in image data.",
+      "confidence": 0.9,
+      "category": "architectural",
+      "call_idx": 12
+    },
+    {
+      "assumption": "Generative models must learn a meaningful latent representation to produce diverse outputs.",
+      "confidence": 0.85,
+      "category": "theoretical",
+      "call_idx": 12
+    },
+    {
+      "assumption": "Regularization techniques are necessary to prevent overfitting in generative models.",
+      "confidence": 0.8,
+      "category": "training",
+      "call_idx": 12
+    },
+    {
+      "assumption": "The ability to generate novel and unseen images is essential for the success of generative models.",
+      "confidence": 0.9,
+      "category": "theoretical",
+      "call_idx": 12
+    },
+    {
+      "assumption": "Convolutional layers are essential for capturing spatial hierarchies in image data",
+      "confidence": 0.9,
+      "category": "architectural",
+      "call_idx": 13
+    },
+    {
+      "assumption": "Data augmentation is necessary for improving model generalization in image synthesis",
+      "confidence": 0.85,
+      "category": "data",
+      "call_idx": 13
+    },
+    {
+      "assumption": "Unsupervised learning is required for discovering underlying data distributions in generative modeling",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "call_idx": 13
+    },
+    {
+      "assumption": "Probabilistic modeling is required for understanding and generating image distributions",
+      "confidence": 0.8,
+      "category": "theoretical",
+      "call_idx": 14
+    },
+    {
+      "assumption": "Iterative refinement is essential for improving the fidelity of generated images",
+      "confidence": 0.8,
+      "category": "training",
+      "call_idx": 14
+    }
+  ],
+  "metrics": {
+    "num_unique_assumptions": 61,
+    "best_similarity": 0.7626,
+    "best_matching_assumption": "Adversarial training is required for improving the quality of generated images",
+    "soft_rank": 3,
+    "soft_recall_at_5": 1.0,
+    "soft_recall_at_10": 1.0,
+    "soft_recall_at_20": 1.0,
+    "top_5_assumptions": [
+      {
+        "assumption": "Adversarial training is required for improving the quality of generated images",
+        "similarity": 0.7626
+      },
+      {
+        "assumption": "Adversarial training is required for improving the realism of generated images.",
+        "similarity": 0.6978
+      },
+      {
+        "assumption": "Generative Adversarial Networks (GANs) are essential for state-of-the-art image synthesis",
+        "similarity": 0.6059
+      },
+      {
+        "assumption": "Generative models require a balance between generator and discriminator for stable training",
+        "similarity": 0.5559
+      },
+      {
+        "assumption": "Data augmentation is necessary for improving model generalization in image synthesis",
+        "similarity": 0.5371
+      }
+    ],
+    "paradigm": "diffusion",
+    "field_name": "generative modeling and image synthesis (pre-2020)",
+    "num_raw_assumptions": 150
+  }
+}
