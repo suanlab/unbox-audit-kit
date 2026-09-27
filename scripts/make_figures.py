@@ -20,7 +20,7 @@ import numpy as np
 # Vector PDF output -- ensure no rasterized text
 matplotlib.rcParams["pdf.fonttype"] = 42  # TrueType
 matplotlib.rcParams["ps.fonttype"] = 42
-matplotlib.rcParams["pdf.use14corefonts"] = True
+matplotlib.rcParams["pdf.use14corefonts"] = False  # base-14 fonts are not embedded; ACL Anthology requires embedding
 matplotlib.rcParams["font.family"] = "serif"
 matplotlib.rcParams["font.size"] = 9
 matplotlib.rcParams["axes.spines.top"] = False

@@ -50,3 +50,9 @@ hf_cache/
 # OS
 .DS_Store
 Thumbs.db
+
+# Internal working docs and submission forms: never publish.
+.internal/
+ARR_SUBMISSION_FORM.md
+unbox_supplement_anonymized/
+unbox_supplement_anonymized.zip
