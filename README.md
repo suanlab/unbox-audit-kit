@@ -2,7 +2,7 @@
 
 > Accepted to **AACL-IJCNLP 2026** (main conference).
 > Artifacts for *Memorization or Extraction? Auditing LLM-Based Recovery of
-> Scientific Assumptions* — Suan Lee, Semyung University.
+> Scientific Assumptions* — Suan Lee and JaeSeong Kim, Semyung University.
 
 We audit whether retrospective assumption-recovery benchmarks measure corpus-grounded extraction or pretraining memorization, and release the audit kit (five factorable controls, ~$15 of API credits) as a reusable benchmark-validity probe.
 
@@ -34,7 +34,7 @@ artifacts (a consistency check, not recomputation — see
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.lock.txt   # use the pinned lockfile
 make reproduce-tables
-# Expected: 73/73 passed
+# Expected: 91/91 passed
 ```
 
 The optional open-source 5-LLM sweep (Llama/Qwen/Mistral) has its own pinned,
@@ -131,7 +131,7 @@ src/
 
 scripts/
 ├── canonical_evaluator.py     # SSoT for headline numbers
-├── reproduce_paper_tables.py  # 73 offline checks
+├── reproduce_paper_tables.py  # 91 offline checks
 ├── run_gpt4o_clean_all10.py   # Main 10-case extraction
 ├── run_no_corpus_control.py   # Memorization control
 ├── run_synthetic_benchmark.py
@@ -181,7 +181,7 @@ data/
 ```bibtex
 @inproceedings{lee2026unbox,
   title     = {Memorization or Extraction? Auditing {LLM}-Based Recovery of Scientific Assumptions},
-  author    = {Lee, Suan},
+  author    = {Lee, Suan and Kim, JaeSeong},
   booktitle = {Proceedings of AACL-IJCNLP 2026},
   year      = {2026}
 }
@@ -193,9 +193,9 @@ MIT for code. Corpus metadata is sourced from OpenAlex (CC0). LLM extractions ar
 
 ## Limitations (read the paper first)
 
-- Author-defined targets (not independently annotated)
-- N = 10 breakthroughs (Fisher p = 0.07 on primary comparison; underpowered)
-- Metric-validation κ = 0.97 is between **two rule-based deterministic programs**, not human raters
+- Author-defined targets. Each is the belief its originating paper is framed against (paper App. B), but no expert panel has validated them; the pre-registered expert study was not completed (App. C).
+- N = 10 breakthroughs, 4 pre-registered (Fisher p = 0.07 on the primary comparison; underpowered)
+- The matcher is validated against 10 human raters (human-vs-rule kappa = 0.70); the earlier kappa = 0.97 was between two rule-based programs, not humans
 - Cross-LLM table includes only 7-8B open-source comparators; larger open models (70B+) remain future work
-- No repeated-run variance (single-seed API extractions)
+- Multi-seed variance covers the 4 primary shifts only (3 seeds); all other extractions are single runs
 - Prospective pilot is LLM-judge only; human expert evaluation remains future work

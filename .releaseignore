@@ -64,3 +64,6 @@ Thumbs.db
 # Cited evidence artifacts were moved to top-level evidence/ and ship by
 # default; nothing under .sisyphus/ should leak into the supplement.
 .sisyphus/
+
+# Camera-ready form answers (personal info)
+CAMERA-READY.md

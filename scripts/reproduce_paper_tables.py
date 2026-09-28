@@ -245,6 +245,8 @@ def main():
     cross_embedding_robustness()
     mia_minkpct_check()
     multiseed_variance()
+    text_numbers()
+    report()
 
 
 def cross_embedding_robustness():
@@ -307,6 +309,55 @@ def multiseed_variance():
     check("with_corpus per-seed R@10",
           [4, 4, 3], ag.get("with_corpus_primary_r10_per_seed"))
 
+
+
+def text_numbers():
+    """Numbers stated in running text that no table covers (added in the camera-ready audit)."""
+    print("\n=== Running-text numbers (camera-ready audit) ===")
+    import random
+    import statistics as st
+    ev = PROJECT_ROOT / "evidence"
+    ex = PROJECT_ROOT / "experiments"
+    # Prompt ablation (Sec. 5.2, 5.5, Conclusion): +0.213, per-category range, Cohen's d
+    abl = json.load(open(ex / "ablation" / "summary.json"))["conditions"]
+    cats = ["transformer", "diffusion", "vit"]
+    diffs = [abl["B"]["categories"][c]["best_similarity"] - abl["A"]["categories"][c]["best_similarity"] for c in cats]
+    check("ablation B-A mean difference", 0.213, round(st.mean(diffs), 3))
+    check("ablation per-category range: min", 0.166, round(min(diffs), 3))
+    check("ablation per-category range: max", 0.276, round(max(diffs), 3))
+    check("ablation Cohen's d (paired)", 3.80, round(st.mean(diffs) / st.stdev(diffs), 2), tol=0.01)
+    # No-corpus vs with-corpus average best similarity (Table 5, Sec. 5.3)
+    nc = json.load(open(ex / "no_corpus_control" / "summary.json"))["comparison"]
+    check("with-corpus avg best-sim (4 primary)", 0.729, round(st.mean(r["corpus_based"]["best_similarity"] for r in nc), 3))
+    check("no-corpus avg best-sim (4 primary)", 0.755, round(st.mean(r["no_corpus_no_year"]["best_similarity"] for r in nc), 3))
+    # Wrong-corpus 12 pairings: best-sim range and mean (Sec. 5.3, Table 6)
+    w12 = [r["best_sim"] for r in json.load(open(ex / "wrong_corpus_12" / "summary.json"))["results"]]
+    check("wrong-corpus-12 best-sim min", 0.37, round(min(w12), 2))
+    check("wrong-corpus-12 best-sim max", 0.46, round(max(w12), 2))
+    check("wrong-corpus-12 best-sim mean", 0.41, round(st.mean(w12), 2))
+    # Human validation per condition (Sec. 5.4, Table 9): matches out of 24
+    pc = json.load(open(PROJECT_ROOT / "annotation" / "g1_results.json"))["per_condition_match_rate"]
+    check("human matches: GPT-4o with corpus", 8, pc["gpt4o_corpus"]["match"])
+    check("human matches: GPT-4o no corpus", 4, pc["no_corpus"]["match"])
+    check("human matches: Claude with corpus", 2, pc["claude_corpus"]["match"])
+    # Method: Claude 60-paper run deduplication
+    aq = json.load(open(ev / "diversity_analysis.json"))["assumption_quality"]
+    uniq = [aq[c]["num_unique_assumptions"] for c in ["transformer", "diffusion", "icl", "vit"]]
+    check("distinct assumptions per paradigm: min", 56, min(uniq))
+    check("distinct assumptions per paradigm: max", 66, max(uniq))
+    check("average redundancy", 0.79, round(aq["average"]["avg_redundancy_rate"], 2))
+    # Prospective pilot composite and its bootstrap CI over the 12 hypotheses (App. J)
+    evals = json.load(open(ex / "prospective" / "expert_audit.json"))["evaluations"]
+    comp = [st.mean(e["avg_scores"].values()) for e in evals]
+    rng = random.Random(42)
+    boots = sorted(st.mean(rng.choices(comp, k=len(comp))) for _ in range(10000))
+    check("prospective composite mean", 6.2, round(st.mean(comp), 1))
+    check("prospective composite CI low", 5.8, round(boots[250], 1))
+    check("prospective composite CI high", 6.6, round(boots[9750], 1))
+
+
+def report():
+    """Print the summary and exit non-zero on any mismatch. Must run last."""
     print("\n" + "=" * 60)
     print(f"Results: {PASS} passed, {FAIL} failed")
     print("=" * 60)

@@ -19,10 +19,17 @@
 \definecolor{codebg}{RGB}{248,248,248}
 \lstset{
   backgroundcolor=\color{codebg},
-  basicstyle=\ttfamily\small,
+  basicstyle=\ttfamily\footnotesize,
+  columns=fullflexible,
+  keepspaces=true,
+  literate={—}{\textemdash}1,
   frame=single,
   breaklines=true
 }
+% Unbreakable listing: a prompt box never splits across columns or pages.
+\lstnewenvironment{promptbox}[1][]
+  {\endgraf\noindent\minipage{\columnwidth}\lstset{basicstyle=\ttfamily\scriptsize,#1}}
+  {\endminipage\endgraf\medskip}
 
 % Filesystem path in monospace that allows line breaks at / and _
 \usepackage{url}
@@ -85,9 +92,10 @@
 
 \title{Memorization or Extraction? Auditing LLM-Based Recovery of Scientific Assumptions}
 
-\author{Suan Lee \\
-  Semyung University \\
-  \texttt{suanlee@semyung.ac.kr}}
+\author{Suan Lee \quad JaeSeong Kim \\
+  School of Computer Science, Semyung University \\
+  Jecheon, Republic of Korea \\
+  \texttt{\{suanlee, kjsqp1010\}@semyung.ac.kr}}
 
 \begin{document}
 
@@ -140,7 +148,7 @@ The extraction protocol has a single validated component: a field-wide paradigma
 \paragraph{Field-wide assumption extraction.}
 For each paper in the pre-shift corpus, a language model extracts up to 10 paradigmatic assumptions. The critical design choice is \emph{field-wide paradigmatic framing}: the prompt instructs the model to identify beliefs shared across the entire subfield that the paper takes for granted --- not the paper's own design choices. The prompt (Appendix~\ref{app:prompt}): (1) distinguishes field-wide paradigmatic assumptions from paper-specific details; (2) enforces ``[X] is necessary/required/essential for [Y]'' format; (3) categorizes into five types (architectural, training, data, theoretical, evaluation); and (4) contains \emph{no few-shot examples} in the main results, reducing prompt-leakage concerns (a variant with examples is tested in ablation, \S\ref{sec:leakage}).
 
-Each assumption includes a text description, confidence score (0--1), and category label. For Claude extraction across 60 papers, this yields $\sim$600 raw assumptions that cluster semantically into $\sim$60 reoccurring themes (which the paper previously described, imprecisely, as ``$\sim$90\% redundancy''). We emphasize that this is \emph{semantic} clustering: exact-string deduplication on the raw assumption text leaves nearly every extraction intact (e.g., GPT-4o on 15 papers returns 147--150 unique strings out of $\sim$150). The assumption-convergence claim therefore holds only after semantic normalization, and we report both statistics explicitly in Appendix~\ref{app:manifest}.
+Each assumption includes a text description, confidence score (0--1), and category label. In an earlier Claude run over the 60-paper corpora (at most 5 assumptions per paper, i.e.\ at most 300 per paradigm), only 56--66 distinct assumptions per paradigm remain after the pipeline's semantic deduplication (redundancy ${\approx}0.79$; \fpath{evidence/diversity_analysis.json}). We emphasize that this is \emph{semantic} clustering: exact-string deduplication on the raw assumption text leaves nearly every extraction intact (e.g., GPT-4o on 15 papers returns 147--150 unique strings out of $\sim$150). The assumption-convergence claim therefore holds only after semantic normalization.
 
 \paragraph{Ranking.}
 Assumptions are ranked by extraction confidence. A multi-agent debate system (Advocate/Critic/Judge) was implemented for optional filtering in prospective evaluation (Appendix~\ref{app:prospective}).
@@ -297,7 +305,7 @@ B & Field-wide & \checkmark\ (.80) & \checkmark\ (.82) & \checkmark\ (.76) & \te
 \end{tabular}}
 \end{table}
 
-Field-wide framing achieves 3/3 vs 0/3, with +0.21 average similarity improvement (95\% CI: [0.17, 0.28]). The corpus files are identical between conditions, so the +0.21 reflects prompt framing alone on these $N=3$ categories; this is a post-hoc comparison (not the pre-registered ablation set, which targeted TRIZ operators) and we do not claim it generalizes beyond the tested categories.
+Field-wide framing achieves 3/3 vs 0/3, with +0.21 average similarity improvement (per-category differences +0.17 to +0.28; with $N{=}3$ we report the range rather than a confidence interval). The corpus files are identical between conditions, so the +0.21 reflects prompt framing alone on these $N=3$ categories; this is a post-hoc comparison (not the pre-registered ablation set, which targeted TRIZ operators) and we do not claim it generalizes beyond the tested categories.
 
 \paragraph{SCAM baseline.}
 SCAM (5-sample majority vote, same prompt, no TRIZ) achieves identical recall to Unbox (0.75 each on 4 primary shifts with Claude). This confirms extraction protocol design is the validated component.
@@ -387,12 +395,9 @@ For the 4 failures (ResNet, Word2Vec, Dropout, BERT): ResNet's target concept (s
 \paragraph{Confidence calibration.}
 Across 6 successful paradigms, the confidence gap between top-1 (avg 0.992) and the hit rank (avg 0.967) is only 0.025 --- confidence cannot discriminate targets from distractors.
 
-\paragraph{Cross-LLM extension (open-source).}
-To probe whether the GPT-4o vs Claude gap (\S\ref{app:crossmodel}) reflects model-specific format compliance or a more general closed-vs-open divide, we extend the comparison to three open-source 7--8B models (Llama-3.1-8B-Instruct, Qwen-2.5-7B-Instruct, Mistral-7B-Instruct-v0.3) run locally via vLLM under \emph{identical} prompt, 15-paper subsets, $\text{temperature}{=}0$, and $\text{seed}{=}42$ (\texttt{scripts/run\_oss\_llm\_extraction.py}; canonical evaluation via the same OpenAI text-embedding-3-small / 0.65-threshold pipeline). Table~\ref{tab:cross_llm} reports the canonical numbers. The five-model spread (GPT-4o 4/4 down to Mistral 0/4) further fragments the closed-vs-open framing: Claude (closed) and Llama-3.1-8B (open) both land at 1/4, Qwen-2.5-7B (open) at 2/4 is the strongest open-source comparator, and Mistral-7B (open) at 0/4 is the weakest. The gap is therefore not strictly closed-vs-open. We hypothesise that model-specific format compliance with the matcher's ``X is necessary for Y'' template plays a major role, but raw capability, instruction-tuning quality, and contamination level all fit the data; this experiment alone cannot isolate format compliance from these alternatives. We address this directly with a format-relaxed matcher ablation in Appendix~\ref{app:crossmodel}.
-
 \begin{table*}[t]
 \centering
-\caption{Cross-LLM recall on the 4 primary shifts (canonical pipeline: text-embedding-3-small, threshold 0.65, confidence-ordered ranks). All models --- closed-API and local vLLM --- decode at temperature $0$; open models additionally fix seed $42$ (closed APIs expose no seed control). \emph{Post-hoc, exploratory.}}
+\caption{Cross-LLM recall on the 4 primary shifts (canonical pipeline: text-embedding-3-small, threshold 0.65, confidence-ordered ranks). All models --- closed-API and local vLLM --- decode at temperature $0$; GPT-4o and the open models also fix seed $42$ (Claude's API exposes no seed). \emph{Post-hoc, exploratory.}}
 \label{tab:cross_llm}
 \footnotesize
 \begin{tabular}{lcccccc}
@@ -409,9 +414,13 @@ Mistral-7B-Instruct-v0.3 (open)       & \texttimes & \texttimes & \texttimes & \
 {\footnotesize $^{\dag}$Llama-3.1-8B weights accessed via the NousResearch un-gated mirror of \texttt{meta-llama/Llama-3.1-8B-Instruct} (identical weights).}
 \end{table*}
 
+\paragraph{Cross-LLM extension (open-source).}
+To probe whether the GPT-4o vs Claude gap (\S\ref{app:crossmodel}) reflects model-specific format compliance or a more general closed-vs-open divide, we extend the comparison to three open-source 7--8B models (Llama-3.1-8B-Instruct, Qwen-2.5-7B-Instruct, Mistral-7B-Instruct-v0.3) run locally via vLLM under \emph{identical} prompt, 15-paper subsets, $\text{temperature}{=}0$, and $\text{seed}{=}42$ (\texttt{scripts/run\_oss\_llm\_extraction.py}; canonical evaluation via the same OpenAI text-embedding-3-small / 0.65-threshold pipeline). Table~\ref{tab:cross_llm} reports the canonical numbers. The five-model spread (GPT-4o 4/4 down to Mistral 0/4) further fragments the closed-vs-open framing: Claude (closed) and Llama-3.1-8B (open) both land at 1/4, Qwen-2.5-7B (open) at 2/4 is the strongest open-source comparator, and Mistral-7B (open) at 0/4 is the weakest. The gap is therefore not strictly closed-vs-open. We hypothesise that model-specific format compliance with the matcher's ``X is necessary for Y'' template plays a major role, but raw capability, instruction-tuning quality, and contamination level all fit the data; this experiment alone cannot isolate format compliance from these alternatives. We address this directly with a format-relaxed matcher ablation in Appendix~\ref{app:crossmodel}.
+
+
 %% >>> HUMAN_VALIDATION_BLOCK (auto-managed: scripts/render_human_validation.py) >>>
 \paragraph{Human validation of rule-based matching.}
-We validate the embedding-similarity matcher against 10 independent, ML-literate raters blind to condition and rank, on the pre-registered 72-pair instrument ($+8$ blind attention checks; \texttt{scripts/sample\_annotation\_pairs.py}, seed 42). Raters score 1--5; the \emph{pre-registered} binary match is score $\geq 4$. The study is internally reliable: Krippendorff's $\alpha = 0.634$ (interval; \citealp{krippendorff2018content}), mean pairwise Cohen's $\kappa = 0.555$ (binary; \citealp{cohen1960coefficient}), and 0.99 attention-check pass (79/80). Applying the \emph{same} rule-based matcher (\textsc{text-embedding-3-small}, cosine $\geq 0.65$) to the identical 72 pairs, human-majority vs.\ rule-based agreement is Cohen's $\kappa = 0.702$ (substantial; 0.92 raw agreement). The matcher is \emph{not} more lenient than humans --- it accepts slightly fewer pairs (rule 0.14 vs.\ human 0.19 match rate) --- so the human study \emph{substantiates} the matcher and replaces the earlier program-vs-program $\kappa = 0.97$ with a genuine human $\kappa = 0.702$. Per-condition, however, the matcher and humans disagree on direction: the matcher rates no-corpus pairs marginally above with-corpus (rule 0.21 vs 0.17, consistent with the memorization confound), while humans rate with-corpus pairs \emph{twice} as high as no-corpus (humans 0.33 vs 0.17). Aggregate agreement remains substantial ($\kappa{=}0.70$), but the human pair-level signal --- taken on its own --- supports corpus benefit at this sample even though the matcher does not; we report both rather than collapse them. The honest caveat is at the \emph{aggregate} level: both humans and the matcher mark only $\sim$0.19 of sampled top-ranked extractions as pairwise matches, whereas headline Recall@K counts a paradigm recovered if \emph{any} of the top-$K$ clears threshold. The headline is thus a generous \emph{recovery} criterion, not pairwise precision; the relative confound structure (the paper's contribution) is unaffected. See Table~\ref{tab:human_val}.
+We validate the embedding-similarity matcher against 10 independent, ML-literate raters blind to condition and rank, on the pre-registered 72-pair instrument ($+8$ blind attention checks; \texttt{scripts/sample\_annotation\_pairs.py}, seed 42). Raters score 1--5; the \emph{pre-registered} binary match is score $\geq 4$. The study is internally reliable: Krippendorff's $\alpha = 0.634$ (interval; \citealp{krippendorff2018content}), mean pairwise Cohen's $\kappa = 0.555$ (binary; \citealp{cohen1960coefficient}), and 0.99 attention-check pass (79/80). Applying the \emph{same} rule-based matcher (\textsc{text-embedding-3-small}, cosine $\geq 0.65$) to the identical 72 pairs, human-majority vs.\ rule-based agreement is Cohen's $\kappa = 0.702$ (substantial; 0.92 raw agreement). The matcher is \emph{not} more lenient than humans --- it accepts slightly fewer pairs (rule 0.14 vs.\ human 0.19 match rate) --- so the human study \emph{substantiates} the matcher and replaces the earlier program-vs-program $\kappa = 0.97$ with a genuine human $\kappa = 0.702$. Per-condition, however, the matcher and humans disagree on direction: for GPT-4o the matcher rates no-corpus pairs marginally above with-corpus pairs (rule 0.21 vs 0.17, consistent with the memorization confound), while humans rate the with-corpus pairs \emph{twice} as high (0.33 vs 0.17, i.e.\ 8 vs.\ 4 of 24 pairs). Claude's with-corpus pairs are rated lowest by both (human 0.08, rule 0.04), so the human signal is model-specific. Aggregate agreement remains substantial ($\kappa{=}0.70$), but the human pair-level signal --- taken on its own --- supports corpus benefit at this sample even though the matcher does not; we report both rather than collapse them. The honest caveat is at the \emph{aggregate} level: both humans and the matcher mark only $\sim$0.19 of sampled top-ranked extractions as pairwise matches, whereas headline Recall@K counts a paradigm recovered if \emph{any} of the top-$K$ clears threshold. The headline is thus a generous \emph{recovery} criterion, not pairwise precision; the relative confound structure (the paper's contribution) is unaffected. See Table~\ref{tab:human_val}.
 
 \begin{table}[t]
 \centering
@@ -430,9 +439,9 @@ Attention-check pass rate (score $\leq 2$)            & 0.99 \\
 Human vs.\ rule Cohen's $\kappa$ (binary, 72 pairs) & 0.702 \\
 Human vs.\ rule raw agreement                        & 0.92 \\
 Rule match rate / human match rate                   & 0.14 / 0.19 \\
-Human match rate --- with-corpus                      & 0.33 (8/24) \\
-Human match rate --- no-corpus                        & 0.17 (4/24) \\
-Human match rate --- Claude                           & 0.08 (2/24) \\
+Human match rate --- GPT-4o, with corpus               & 0.33 (8/24) \\
+Human match rate --- GPT-4o, no corpus                 & 0.17 (4/24) \\
+Human match rate --- Claude, with corpus               & 0.08 (2/24) \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -445,7 +454,7 @@ Human match rate --- Claude                           & 0.08 (2/24) \\
 GPT-4o 4/4 vs Vanilla LLM 1/4 on primary shifts: one-sided $p = 0.07$, not significant at $\alpha = 0.05$. The small $N$ inherently limits power.
 
 \paragraph{Bootstrap / Wilson CIs.}
-GPT-4o R@10 $=6/10$ has Wilson 95\% CI $[0.31, 0.83]$; R@5 $=4/10$ has Wilson 95\% CI $[0.17, 0.69]$; avg best similarity (all 10 paradigms) $=0.657$, bootstrap 95\% CI $[0.619, 0.695]$; ablation B--A difference $+0.217$ CI $[0.170, 0.280]$. The headline is therefore a point estimate; formal hypothesis testing is reserved for the wrong-corpus $4/4{\rightarrow}0/12$ collapse (Bernoulli all-zero against an expected $0.4$--$0.8$).
+GPT-4o R@10 $=6/10$ has Wilson 95\% CI $[0.31, 0.83]$; R@5 $=4/10$ has Wilson 95\% CI $[0.17, 0.69]$; avg best similarity (all 10 paradigms) $=0.657$, bootstrap 95\% CI $[0.619, 0.695]$; ablation B--A difference $+0.213$ (per-category range $[0.166, 0.276]$; no interval is meaningful at $N{=}3$). The headline is therefore a point estimate; formal hypothesis testing is reserved for the wrong-corpus $4/4{\rightarrow}0/12$ collapse (Bernoulli all-zero against an expected $0.4$--$0.8$).
 
 \paragraph{Effect size.}
 Prompt framing yields Cohen's $d \approx 3.80$ on three categories --- large but unstable given $N = 3$.
@@ -461,7 +470,7 @@ The five controls used in this paper --- (i) a no-corpus baseline, (ii) at least
 %% ============================================================
 \section{Discussion}\label{sec:discussion}
 
-The central tension in our findings is between a genuine prompt-framing effect and pervasive memorization confounds. Field-wide framing produces a consistent +0.21 similarity improvement, and GPT-4o matches 6/10 targets. Yet the no-corpus control (4/4 on primary shifts) shows that for well-known breakthroughs, the model can surface assumptions from pretraining alone. Two controls resolve the tension in the other direction: the wrong-corpus ablation (4/4 with no corpus or an aligned corpus, but 0/4 under a misaligned corpus; Table~\ref{tab:wrongcorpus}) and synthetic Scenario~2 (rank 2 with corpus vs rank 27 without) together show corpus content \emph{can} causally enter extraction --- the model can read the corpus, though it does not reliably help (the wrong-corpus result is single-run on 4 pairings, and only 1 of 3 synthetic scenarios is a clean causal case; another shows corpus harm).
+The central tension in our findings is between a genuine prompt-framing effect and pervasive memorization confounds. Field-wide framing produces a consistent +0.21 similarity improvement, and GPT-4o matches 6/10 targets. Yet the no-corpus control (4/4 on primary shifts) shows that for well-known breakthroughs, the model can surface assumptions from pretraining alone. Two controls resolve the tension in the other direction: the wrong-corpus ablation (4/4 with no corpus or an aligned corpus, but 0/12 under a misaligned corpus; Table~\ref{tab:wrongcorpus}) and synthetic Scenario~2 (rank 2 with corpus vs rank 27 without) together show corpus content \emph{can} causally enter extraction --- the model can read the corpus, though it does not reliably help (the wrong-corpus result is a single run over 12 pairings, and only 1 of 3 synthetic scenarios is a clean causal case; another shows corpus harm).
 
 \paragraph{Memorization confound.}
 The 10 primary breakthroughs tested are among the most famous in AI. We cannot fully disentangle corpus-based extraction from pretraining retrieval. The niche control (1/8 with-corpus, 2/7 no-corpus) shows that on less-memorized cases the corpus sometimes helps (Neural ODE) and sometimes hurts (LoRA, Lottery Ticket where OpenAlex retrieves noisy papers), so corpus value is not established as a general property of the protocol. Our memorization evidence is behavioral by design, which is what lets it apply to API-only models; stronger probes such as counterfactual memorization or span-level canaries need control over pretraining data and are left to future work.
@@ -470,7 +479,7 @@ The 10 primary breakthroughs tested are among the most famous in AI. We cannot f
 The ``X is necessary for Y'' format couples prompt, output, and metric, creating circular evaluation. GPT-4o's stronger format compliance (vs Claude's more diverse outputs) likely explains its ranking advantage rather than deeper paradigm understanding.
 
 \paragraph{Human validation substantiates the matcher.}
-A 10-rater study ($\alpha = 0.634$, attention-check 99\%; \S\ref{sec:diagnostics}) gives human-vs-rule $\kappa = 0.70$ (92\% raw); the matcher is \emph{not} more permissive than humans (rule 0.14 vs human 0.19). Per-condition the two diverge: humans rate with-corpus twice as high as no-corpus, the matcher does not (Table~\ref{tab:human_val}), qualifying rather than overturning the memorization story. The aggregate ${\sim}0.15$--$0.19$ pairwise match rate bounds the headline: Recall@K is a recovery criterion, not pairwise precision.
+A 10-rater study ($\alpha = 0.634$, attention-check 99\%; \S\ref{sec:diagnostics}) gives human-vs-rule $\kappa = 0.70$ (92\% raw); the matcher is \emph{not} more permissive than humans (rule 0.14 vs human 0.19). Per-condition the two diverge: humans rate GPT-4o's with-corpus pairs twice as high as its no-corpus pairs (8 vs.\ 4 of 24), the matcher does not (Table~\ref{tab:human_val}), qualifying rather than overturning the memorization story. The aggregate $0.14$--$0.19$ pairwise match rate bounds the headline: Recall@K is a recovery criterion, not pairwise precision.
 
 \paragraph{Model sensitivity.}
 On identical prompts and corpora, GPT-4o achieves 4/4 and Claude 1/4. Claude's individual extractions reach higher raw similarity (0.774 vs 0.729, Table~\ref{tab:crossmodel_app}) but at much worse confidence ranks; under the canonical top-$K$ pipeline the order flips (GPT-4o 0.703 vs Claude 0.658, Table~\ref{tab:cross_llm}). The metric thus rewards format compliance over extraction quality.
@@ -483,7 +492,7 @@ The pre-registered core is deliberately small (4 shifts): the primary comparison
 %% ============================================================
 \section{Conclusion}
 
-We audited LLM-based recovery of paradigmatic assumptions on 10 historical AI breakthroughs (frozen 4-case protocol + 6 post-hoc cases). Three findings: \textbf{(1)} field-wide prompt framing raises target similarity by $+0.21$ (CI $[0.17, 0.28]$) on $N{=}3$ with identical corpora, and GPT-4o matches 6/10 in the extended setting; \textbf{(2)} memorization dominates (no-corpus 4/4 on primary), but corpus content \emph{can} be causally read (wrong-corpus collapses to 0/12 across all $4{\times}3$ cross-pairings; synthetic Scenario 2 rank 2 vs 27) --- the causal evidence is narrow (1 of 3 synthetic scenarios; one shows corpus harm); \textbf{(3)} design choices are confounded --- the ``X is necessary for Y'' format couples prompt/output/metric, model selection dramatically affects ranking, and success is limited to explicitly stated assumptions. We release the audit kit --- wrong-corpus pairings, human-validation instrument, canonical evaluator, multi-seed driver, Min-K\% probe --- for other LLM scientific-text-mining benchmarks to apply to their own metrics. Empirical cross-domain validation is future work (App.~\ref{app:crossdomain}); manifest and reproduction notes are in Appendices~\ref{app:manifest}, \ref{app:repro}.
+We audited LLM-based recovery of paradigmatic assumptions on 10 historical AI breakthroughs (frozen 4-case protocol + 6 post-hoc cases). Three findings: \textbf{(1)} field-wide prompt framing raises target similarity by $+0.21$ (per-category range $[0.17, 0.28]$) on $N{=}3$ with identical corpora, and GPT-4o matches 6/10 in the extended setting; \textbf{(2)} memorization dominates (no-corpus 4/4 on primary), but corpus content \emph{can} be causally read (wrong-corpus collapses to 0/12 across all $4{\times}3$ cross-pairings; synthetic Scenario 2 rank 2 vs 27) --- the causal evidence is narrow (1 of 3 synthetic scenarios; one shows corpus harm); \textbf{(3)} design choices are confounded --- the ``X is necessary for Y'' format couples prompt/output/metric, model selection dramatically affects ranking, and success is limited to explicitly stated assumptions. We release the audit kit --- wrong-corpus pairings, human-validation instrument, canonical evaluator, multi-seed driver, Min-K\% probe --- for other LLM scientific-text-mining benchmarks to apply to their own metrics. Empirical cross-domain validation is future work (App.~\ref{app:crossdomain}); manifest and reproduction notes are in Appendices~\ref{app:manifest}, \ref{app:repro}.
 
 %% ============================================================
 %% BROADER IMPACT
@@ -516,11 +525,41 @@ matcher-validation instrument.
 %% ============================================================
 %% APPENDIX
 %% ============================================================
+% Appendices start on a fresh page after the references (\clearpage also
+% flushes any pending floats, so none from the main paper spill into them).
+\clearpage
 \appendix
+% Unbreakable prompt boxes can leave a column short; do not stretch the
+% remaining text to fill it (keeps each heading next to its paragraph).
+\raggedbottom
 
 \section{Artifact Manifest (How to Read this Supplement)}\label{app:manifest}
 
-The released repository is organized around a single source of truth for every number in the paper. All headline results come from \texttt{experiments/canonical\_evaluation.json}, produced by the confidence-order evaluator \texttt{scripts/canonical\_evaluator.py}. An offline \emph{consistency-check} script \texttt{scripts/reproduce\_paper\_tables.py} re-reads the frozen artifacts and asserts every headline number against them without API calls (73/73 checks); it verifies the paper matches the stored artifacts but does \emph{not} regenerate them --- recomputation requires the OpenAI embedding API and is single-run. Table~\ref{tab:manifest} maps each paper table/claim to its source file, generating script, and canonical result. A \emph{quarantined} stale artifact, \fpath{experiments/gpt4o_clean_prompt/summary_STALE_similarity_reranked.json}, is retained in the supplement for audit only and is explicitly not used for any paper number.
+The released repository is organized around a single source of truth for every number in the paper. All headline results come from \texttt{experiments/canonical\_evaluation.json}, produced by the confidence-order evaluator \texttt{scripts/canonical\_evaluator.py}. An offline \emph{consistency-check} script \texttt{scripts/reproduce\_paper\_tables.py} re-reads the frozen artifacts and asserts every headline number against them without API calls (91/91 checks); it verifies the paper matches the stored artifacts but does \emph{not} regenerate them --- recomputation requires the OpenAI embedding API and is single-run. Table~\ref{tab:manifest} maps each paper table/claim to its source file, generating script, and canonical result. A \emph{quarantined} stale artifact, \fpath{experiments/gpt4o_clean_prompt/summary_STALE_similarity_reranked.json}, is retained in the supplement for audit only and is explicitly not used for any paper number.
+
+\begin{table*}[t]
+\centering
+\caption{Target provenance. Each author-defined target against the originating paper's own framing.}
+\label{tab:targetprov}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}l>{\raggedright\arraybackslash}p{5.0cm}>{\raggedright\arraybackslash}p{7.4cm}@{}}
+\toprule
+Breakthrough & Author-defined target & Originating paper's own framing \\
+\midrule
+Transformer~\citeyearpar{vaswani2017attention} & Recurrence is necessary for sequence modeling & Proposes an architecture ``dispensing with recurrence and convolutions entirely'' \\
+ViT~\citeyearpar{dosovitskiy2021image} & Convolutional layers are necessary for vision & States directly that ``this reliance on CNNs is not necessary'' \\
+Diffusion~\citeyearpar{ho2020denoising} & Adversarial training is necessary for high-quality generation & Obtains high-fidelity samples with a likelihood-based denoising objective, no adversarial game \\
+ICL / GPT-3~\citeyearpar{brown2020language} & Fine-tuning is necessary for task adaptation & Demonstrates task adaptation in-context, without gradient updates or fine-tuning \\
+ResNet~\citeyearpar{he2016deep} & Deep networks must process information through sequential layers without shortcuts & Introduces identity shortcut connections to fix the degradation of plainly stacked deep networks \\
+GAN~\citeyearpar{goodfellow2014generative} & Generative modeling requires explicit density estimation or variational inference & Adversarial objective sidesteps explicit likelihoods, Markov chains, and approximate inference \\
+Word2Vec~\citeyearpar{mikolov2013distributed} & Word meaning requires symbolic or hand-crafted feature representations & Learns distributed word representations directly from raw text \\
+Dropout~\citeyearpar{srivastava2014dropout} & All neurons should be active during training for optimal learning & Randomly drops units during training, approximating an ensemble without training many nets \\
+BatchNorm~\citeyearpar{ioffe2015batch} & Network training requires careful weight initialization and low learning rates & Normalization ``allows us to use much higher learning rates and be less careful about initialization'' \\
+BERT~\citeyearpar{devlin2019bert} & Language model pre-training must be left-to-right (autoregressive) & Argues the unidirectional constraint is limiting; masked LM enables deep bidirectional pre-training \\
+\bottomrule
+\end{tabular}
+\end{table*}
 
 \begin{table*}[t]
 \centering
@@ -528,8 +567,8 @@ The released repository is organized around a single source of truth for every n
 \label{tab:manifest}
 \footnotesize
 \setlength{\tabcolsep}{4pt}
-\renewcommand{\arraystretch}{1.15}
-\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.26\textwidth}>{\raggedright\arraybackslash}p{0.42\textwidth}>{\raggedright\arraybackslash}p{0.28\textwidth}@{}}
+\renewcommand{\arraystretch}{1.0}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}p{0.39\textwidth}>{\raggedright\arraybackslash}p{0.32\textwidth}@{}}
 \toprule
 Paper artifact & Source file & Generating script \\
 \midrule
@@ -558,7 +597,7 @@ Prospective pilot (LLM-judge) & \fpath{experiments/prospective/summary.json} & \
 
 \paragraph{Stale and failed artifacts.} \fpath{experiments/gpt4o_clean_prompt/summary_STALE_similarity_reranked.json} contains an earlier run that re-sorted by cosine similarity instead of confidence order; retained in the supplement only for audit trail, not used for paper claims. Quota-failed runs are moved to \fpath{experiments/failed_runs/} and are similarly not used for any paper number.
 
-\paragraph{Compute and cost.} Extraction and evaluation total approximately \$$15$--\$$30$ USD in API credits across all experiments (Anthropic + OpenAI). No GPU compute is required. Typical wall-clock per paradigm: 3--10 minutes.
+\paragraph{Compute and cost.} Extraction and evaluation total approximately \$$15$--\$$30$ USD in API credits across all experiments (Anthropic + OpenAI). The core pipeline needs no GPU; only the optional open-model sweep (\S\ref{sec:diagnostics}) ran locally, on a single GPU. Typical wall-clock per paradigm: 3--10 minutes.
 
 \section{Target Provenance: What Each Breakthrough Is Framed Against}\label{app:targetprov}
 
@@ -570,30 +609,6 @@ originating paper's abstract; unquoted entries paraphrase its stated motivation.
 establish that the targets are \emph{complete} or maximally representative of field consensus ---
 that is what the pre-registered expert study (App.~\ref{app:targetvalidity}) is designed to measure --- but it does establish
 that they are not arbitrary author choices.
-
-\begin{table*}[t]
-\centering
-\caption{Target provenance. Each author-defined target against the originating paper's own framing.}
-\label{tab:targetprov}
-\footnotesize
-\setlength{\tabcolsep}{4pt}
-\begin{tabular}{@{}l>{\raggedright\arraybackslash}p{5.0cm}>{\raggedright\arraybackslash}p{7.4cm}@{}}
-\toprule
-Breakthrough & Author-defined target & Originating paper's own framing \\
-\midrule
-Transformer~\citeyearpar{vaswani2017attention} & Recurrence is necessary for sequence modeling & Proposes an architecture ``dispensing with recurrence and convolutions entirely'' \\
-ViT~\citeyearpar{dosovitskiy2021image} & Convolutional layers are necessary for vision & States directly that ``this reliance on CNNs is not necessary'' \\
-Diffusion~\citeyearpar{ho2020denoising} & Adversarial training is necessary for high-quality generation & Obtains high-fidelity samples with a likelihood-based denoising objective, no adversarial game \\
-ICL / GPT-3~\citeyearpar{brown2020language} & Fine-tuning is necessary for task adaptation & Demonstrates task adaptation in-context, without gradient updates or fine-tuning \\
-ResNet~\citeyearpar{he2016deep} & Deep networks must process information through sequential layers without shortcuts & Introduces identity shortcut connections to fix the degradation of plainly stacked deep networks \\
-GAN~\citeyearpar{goodfellow2014generative} & Generative modeling requires explicit density estimation or variational inference & Adversarial objective sidesteps explicit likelihoods, Markov chains, and approximate inference \\
-Word2Vec~\citeyearpar{mikolov2013distributed} & Word meaning requires symbolic or hand-crafted feature representations & Learns distributed word representations directly from raw text \\
-Dropout~\citeyearpar{srivastava2014dropout} & All neurons should be active during training for optimal learning & Randomly drops units during training, approximating an ensemble without training many nets \\
-BatchNorm~\citeyearpar{ioffe2015batch} & Network training requires careful weight initialization and low learning rates & Normalization ``allows us to use much higher learning rates and be less careful about initialization'' \\
-BERT~\citeyearpar{devlin2019bert} & Language model pre-training must be left-to-right (autoregressive) & Argues the unidirectional constraint is limiting; masked LM enables deep bidirectional pre-training \\
-\bottomrule
-\end{tabular}
-\end{table*}
 
 \section{Expert Target-Validation Study (Pre-Registered)}\label{app:targetvalidity}
 
@@ -641,49 +656,77 @@ instrument, and the analysis script (\fpath{scripts/compute_target_validity.py})
 the study can be repeated --- or run against a different benchmark's targets --- without
 re-implementation.
 
+\section{Paper-Specific Prompt (Ablation)}\label{app:paper_prompt}
+
+The paper-specific prompt used in the prompt ablation (\S\ref{sec:ablation}), reproduced verbatim from \fpath{src/extraction_prompts.py}.
+
+\begin{promptbox}
+You are an expert at identifying implicit assumptions in academic papers.
+
+Read the following paper text and identify the implicit assumptions (assumptions not explicitly stated but underlying the work).
+
+Focus on these categories:
+- Architectural assumptions: Design choices, model structure assumptions
+- Training assumptions: Data distribution, optimization assumptions
+- Data assumptions: Dataset characteristics, preprocessing assumptions
+- Theoretical assumptions: Mathematical foundations, theoretical constraints
+- Evaluation assumptions: Benchmark selection, metric assumptions
+
+For each assumption:
+1. State it clearly and concisely
+2. Provide a confidence score (0.0-1.0) based on how strongly the text implies this assumption
+3. Categorize it into one of the above categories
+
+Return ONLY valid JSON with no additional text. Limit to top 10 assumptions.
+
+Format:
+{
+  "assumptions": [
+    {
+      "assumption": "string describing the assumption",
+      "confidence": 0.0-1.0,
+      "category": "architectural|training|data|theoretical|evaluation"
+    }
+  ]
+}
+
+Paper text:
+{paper_text}
+\end{promptbox}
+
+The critical difference: the paper-specific prompt asks for assumptions \emph{of this paper}, while the field-wide prompt (App.~\ref{app:prompt}) asks for assumptions \emph{of the entire subfield}.
+
 \section{Clean Extraction Prompt (Main Results)}\label{app:prompt}
 
-The prompt used for the main GPT-4o results (Table~\ref{tab:results}). No few-shot examples are included.
+The prompt used for the main GPT-4o results (Table~\ref{tab:results}), reproduced verbatim from \fpath{scripts/run_gpt4o_clean_all10.py}; it contains no few-shot examples. Each corpus paper is sent separately (title, year, venue, and abstract as \texttt{\{paper\_text\}}; temperature 0, seed 42). The \texttt{confidence} field alone orders the ranked list, and the ``[X] is necessary for [Y]'' pattern is also what the matcher compares against (\S\ref{sec:discussion}).
 
-\begin{lstlisting}
-You are an expert at identifying the foundational, field-wide assumptions
-that academic papers inherit from their broader research community.
+\begin{promptbox}
+You are an expert at identifying the foundational, field-wide assumptions that academic papers inherit from their broader research community.
 
-Your task is NOT to find this specific paper's design choices. Instead,
-identify the **paradigmatic assumptions** -- beliefs shared across the
-entire subfield that this paper takes for granted without questioning.
-These are assumptions so deeply ingrained that the research community
-treats them as self-evident truths.
+Your task is NOT to find this specific paper's design choices. Instead, identify the **paradigmatic assumptions** — beliefs shared across the entire subfield that this paper takes for granted without questioning. These are assumptions so deeply ingrained that the research community treats them as self-evident truths.
 
 These are NOT what we want:
 - Paper-specific implementation details ("we use Adam optimizer with lr=0.001")
 - Narrow technical choices ("batch size of 32 is sufficient")
 - Obvious truisms ("more data helps")
 
-For each assumption, phrase it as a general declarative statement about
-what the field believes is NECESSARY, REQUIRED, or ESSENTIAL.
-Use the pattern: "[X] is necessary/required/essential for [Y]".
+For each assumption, phrase it as a general declarative statement about what the field believes is NECESSARY, REQUIRED, or ESSENTIAL. Use the pattern: "[X] is necessary/required/essential for [Y]".
 
-Categories: architectural, training, data, theoretical, evaluation
+Categories:
+- architectural: Structural requirements
+- training: Learning procedure requirements
+- data: Data requirements
+- theoretical: Theoretical constraints
+- evaluation: Evaluation paradigm assumptions
 
-Return ONLY valid JSON. Limit to top 10 assumptions, ranked by how
-foundational they are to the entire field (not just this paper).
-\end{lstlisting}
+Return ONLY valid JSON. Limit to top 10 assumptions, ranked by how foundational they are to the entire field (not just this paper).
 
-\section{Paper-Specific Prompt (Ablation)}\label{app:paper_prompt}
+Format:
+{"assumptions": [{"assumption": "string", "confidence": 0.0-1.0, "category": "architectural|training|data|theoretical|evaluation"}]}
 
-\begin{lstlisting}
-You are an expert at identifying implicit assumptions in academic papers.
-Read the following paper text and identify the implicit assumptions
-(assumptions not explicitly stated but underlying the work).
-For each assumption:
-1. State it clearly and concisely
-2. Provide a confidence score (0.0-1.0)
-3. Categorize it (architectural/training/data/theoretical/evaluation)
-Return ONLY valid JSON. Limit to top 10 assumptions.
-\end{lstlisting}
-
-The critical difference: the paper-specific prompt asks for assumptions \emph{of this paper}, while the field-wide prompt asks for assumptions \emph{of the entire subfield}.
+Paper text:
+{paper_text}
+\end{promptbox}
 
 \section{Per-Category Analysis Details}\label{app:percategory}
 
@@ -744,7 +787,7 @@ Vanilla LLM & 0.1250 & $1.0\times$ \\
 
 At F1-optimal threshold (0.50): both achieve R@10 = 1.00, but Unbox at higher similarity (avg 0.79 vs 0.60). At conservative threshold (0.65): Unbox = 0.75, Vanilla = 0.25.
 
-\paragraph{Rule-based structured-matching simulation (not human raters).} Two automated labelers (strict and moderate keyword-pattern programs, \texttt{scripts/run\_rulebased\_match\_simulation.py}) on 80 pairs yield inter-labeler $\kappa = 0.97$ (98.75\% agreement). This is a structured metric-validation simulation, \emph{not} independent human annotation; we report it only to probe threshold stability under a second deterministic labeler:
+\paragraph{Rule-based structured-matching simulation (not human raters).} Two automated labelers (strict and moderate keyword-pattern programs, \fpath{scripts/run_rulebased_match_simulation.py}) on 80 pairs yield inter-labeler $\kappa = 0.97$ (98.75\% agreement). This is a structured metric-validation simulation, \emph{not} independent human annotation; we report it only to probe threshold stability under a second deterministic labeler:
 
 \begin{table}[h]
 \centering
@@ -827,7 +870,7 @@ To test how much of the 5-LLM gap is ranking artifact vs raw extraction recall, 
 
 \begin{table}[h]
 \centering
-\caption{Format-relaxed matcher ablation. ``Any rank'' = any extraction in top-20-by-confidence clears the 0.65 threshold (regardless of rank). The spread is essentially preserved: Claude gains 1 match (1$\to$2), but GPT-4o stays at 4, Llama at 2, Qwen at 3, Mistral at 0 --- the gap is not primarily a ranking artifact.}
+\caption{Format-relaxed matcher ablation. ``Any rank'' = any extraction in top-20-by-confidence clears the 0.65 threshold (regardless of rank). The spread is essentially preserved: relative to R@10, Claude gains 1 match (1$\to$2), while GPT-4o stays at 4, Llama at 2, Qwen at 3, Mistral at 0 --- the gap is not primarily a ranking artifact.}
 \label{tab:format_relaxed}
 \footnotesize
 \setlength{\tabcolsep}{4pt}
@@ -866,7 +909,7 @@ Feasibility & 5.9 & 0.34 \\
 Impact & 7.0 & 0.37 \\
 Clarity & 6.5 & 0.47 \\
 \midrule
-\textbf{Composite (mean of per-dim avgs)} & \textbf{6.2} (95\% CI: [5.7, 7.0]) & --- \\
+\textbf{Composite (mean of per-dim avgs)} & \textbf{6.2} (95\% bootstrap CI over 12 hypotheses: [5.8, 6.6]) & --- \\
 \bottomrule
 \end{tabular}}
 \end{table}
@@ -919,7 +962,7 @@ all-MiniLM-L6-v2                  & 0.65 & 4/4 & 7/10 \\
 
 Two observations:
 (i) \textsc{text-embedding-3-large} produces a tighter cosine distribution; at the baseline threshold of 0.65 its primary R@10 drops to $2/4$, but at the F1-calibrated threshold $0.50$ it recovers to $4/4$ and additionally promotes 2 of the previously failing paradigms (all R@10 $= 8/10$).
-(ii) \texttt{all-MiniLM-L6-v2} matches the baseline threshold $0.65$ directly and lands at $4/4 / 7/10$ --- the result is therefore not specific to OpenAI embeddings. The qualitative conclusions of \S\ref{sec:main}--\S\ref{sec:diagnostics} (primary $4/4$, no-corpus $4/4$, wrong-corpus $0/4$) are therefore embedder-robust once the threshold is calibrated for each embedder; the embedder-specific 0.65 choice in the main pipeline controls only the absolute all-paradigm count between 6 and 8. Detailed numbers in \fpath{experiments/cross_embedding/summary.json}.
+(ii) \texttt{all-MiniLM-L6-v2} matches the baseline threshold $0.65$ directly and lands at $4/4 / 7/10$ --- the result is therefore not specific to OpenAI embeddings. The headline with-corpus result (primary $4/4$) is therefore embedder-robust once the threshold is calibrated for each embedder; the no-corpus and wrong-corpus controls were not re-scored with the other embedders; the embedder-specific 0.65 choice in the main pipeline controls only the absolute all-paradigm count between 6 and 8. Detailed numbers in \fpath{experiments/cross_embedding/summary.json}.
 
 \begin{figure}[h]
 \centering
@@ -1016,20 +1059,17 @@ BERT      & Corpus contamination (OpenAlex retrieved physics paper) & Corpus key
 
 \section{Per-Paradigm Rank Heatmap}\label{app:heatmap}
 
-\begin{figure}[!t]
+\begin{figure}[!htb]
 \centering
 \includegraphics[width=\columnwidth]{figs/fig_rank_heatmap.pdf}
 \caption{Confidence rank of the (best-matching) target assumption per paradigm and LLM. Lower = better; ``—'' = no extraction cleared the 0.65 similarity threshold. The matrix makes the per-paradigm spread (6/10 paradigms recovered by GPT-4o, only 1 by Mistral) and the cross-model confound (Diffusion is the only paradigm matched by all five models) directly visible.}
 \label{fig:rank_heatmap}
 \end{figure}
-
-\pagebreak[4]
 \section{Pre-Registered Protocol Snapshot}\label{app:prereg}
 
 The 4-primary-shift protocol was frozen with a SHA-256 hash in \fpath{evidence/protocol_freeze.json} before any extraction was run. The hashed contents (verbatim, anonymised) are:
 
-\begin{samepage}
-\begin{lstlisting}[basicstyle=\ttfamily\scriptsize,frame=single]
+\begin{promptbox}[basicstyle=\ttfamily\scriptsize,frame=single]
 protocol_id      = "unbox-4primary-v1"
 paradigms        = ["transformer","diffusion","icl","vit"]
 year_guards      = {transformer:<=2016, diffusion:<=2019,
@@ -1043,8 +1083,7 @@ extraction_model = "Claude Sonnet 4" (initial), "GPT-4o" (canonical)
 prompt_variant   = "field-wide paradigmatic" (clean, no few-shot)
 papers_per_paradigm = 15 (canonical) / 60 (extended)
 seed             = 42 ; temperature = 0
-\end{lstlisting}
-\end{samepage}
+\end{promptbox}
 
 Everything outside this snapshot --- the 6-case extension, retrieval baselines, contamination diagnostics, calibration, error analysis, synthetic/niche controls, cross-LLM sweep, cross-embedding probe, MIA cross-check, multi-seed variance, wrong-corpus pairings (4 and 12), and the audit-kit recommendations --- is \emph{post-hoc}. We label every such result transparently as a stress test or extension in its respective section.
 
@@ -1060,7 +1099,7 @@ Everything outside this snapshot --- the 6-case extension, retrieval baselines, 
 
 \section{Reproduction Walkthrough}\label{app:repro}
 
-The single command \texttt{make reproduce-tables} runs \fpath{scripts/reproduce_paper_tables.py}, which performs 73 offline assertions against the frozen JSON artefacts (no API calls). Categories and counts:
+The single command \texttt{make reproduce-tables} runs \fpath{scripts/reproduce_paper_tables.py}, which performs 91 offline assertions against the frozen JSON artefacts (no API calls). Categories and counts:
 
 \begin{itemize}[leftmargin=*,nosep]
 \item \emph{Table~\ref{tab:results}} main 10-case (32 assertions: 10 paradigms $\times$ 3 metrics + 2 aggregate)
@@ -1077,6 +1116,7 @@ The single command \texttt{make reproduce-tables} runs \fpath{scripts/reproduce_
 \item \emph{Cross-embedding primary R@10 4/4 at calibrated threshold} (4)
 \item \emph{Min-K\% real-synth gap negative + 95\% CI strict-negative per model} (6)
 \item \emph{Multi-seed variance per-seed R@10} (3)
+\item \emph{Running-text numbers: ablation effect and per-category range, no-/with-corpus similarity, wrong-corpus similarity range, human matches per condition, deduplication counts, prospective composite and CI} (18)
 \end{itemize}
 
 The full breakdown is in \fpath{scripts/reproduce_paper_tables.py}; each \texttt{check()} call corresponds to one assertion. If any number in the paper is wrong relative to the stored artefact the script prints which value is expected vs.\ what was found and exits non-zero. A new contributor can therefore verify the paper's full numerical content in seconds against the supplement.

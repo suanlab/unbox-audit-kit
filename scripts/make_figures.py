@@ -181,9 +181,11 @@ def fig_multiseed():
     LABELS = {"transformer": "Trans.", "diffusion": "Diff.", "icl": "ICL", "vit": "ViT"}
     SEEDS = ["1", "2", "42"]
     g1 = d["g1"]
-    g2 = d.get("g2", {})
+    # g2 is nested one level deeper: {"wrong_corpus": {"transformer_x_diffusion": {seed: ...}}}.
+    # Iterating g2 itself yielded the key "wrong_corpus", so no wrong-corpus point was ever drawn.
+    g2 = d.get("g2", {}).get("wrong_corpus", {})
 
-    fig, ax = plt.subplots(figsize=(5.5, 2.9))
+    fig, ax = plt.subplots(figsize=(5.5, 2.0))
     cond_meta = [
         ("with_corpus", 0, "#1f77b4", "with-corpus"),
         ("no_corpus", 1, "#2ca02c", "no-corpus"),
@@ -229,10 +231,11 @@ def fig_multiseed():
     ax.set_xticks(list(x_positions.values()))
     ax.set_xticklabels([LABELS[p] for p in PRIMARY])
     ax.set_ylabel("best cosine similarity")
-    ax.set_title("Multi-seed variance (3 seeds per cell): with-corpus 4/4/3,\n"
-                 "no-corpus 4/4/4, wrong-corpus 0/0/0 across seeds",
-                 fontsize=9)
-    ax.legend(loc="lower left", fontsize=7, frameon=False)
+    # No title: the caption already states the per-condition seed counts.
+    # One-row legend in the empty band between wrong-corpus (<0.42) and the threshold (0.65),
+    # so it covers no data point.
+    ax.legend(loc="center", bbox_to_anchor=(0.5, 0.38), ncol=4, fontsize=7, frameon=False,
+              handletextpad=0.3, columnspacing=1.2)
     ax.set_ylim(0.30, 0.90)
     save(fig, "fig_multiseed.pdf")
 
