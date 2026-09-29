@@ -114,7 +114,7 @@ LLMs are increasingly used to mine scientific literature: extracting latent clai
 
 We study the confound in a concrete instantiation: \emph{retrospective assumption recovery}, where an LLM is asked to identify, from pre-breakthrough literature, the foundational assumption that the breakthrough later violated. Three landmark AI advances each violated a previously-uncontested assumption: Transformers~\cite{vaswani2017attention} broke the assumption that sequential processing requires recurrence; diffusion models~\cite{ho2020denoising} broke the assumption that generation requires adversarial training; ViT~\cite{dosovitskiy2021image} broke the assumption that vision requires convolutions. If these assumptions were so central to their fields, can they be identified retrospectively from pre-shift literature? And if so, does a successful identification reflect corpus extraction, or pretraining recall?
 
-This paper investigates these questions through a controlled benchmark. We find that a simple prompt framing change --- asking for ``field-wide paradigmatic assumptions'' rather than paper-specific claims --- substantially improves assumption recovery (\S\ref{sec:ablation}). But we also find that a no-corpus control achieves comparable results (\S\ref{sec:memorization}), revealing that standard retrospective benchmarks on famous breakthroughs are deceptively easy to solve via memorization. Both findings are important: the prompt framing effect is real and measurable, but its practical value requires evaluation on cases where pretraining knowledge is insufficient.
+This paper investigates these questions through a controlled benchmark. We find that a simple prompt framing change --- asking for ``field-wide paradigmatic assumptions'' rather than paper-specific claims --- substantially improves assumption recovery (\S\ref{sec:ablation}). But a no-corpus control achieves comparable results (\S\ref{sec:memorization}), revealing that standard retrospective benchmarks on famous breakthroughs are deceptively easy to solve via memorization. The prompt framing effect is real, but its practical value requires evaluation on cases where pretraining knowledge is insufficient.
 
 \paragraph{Contributions.}
 \begin{enumerate}[leftmargin=*,nosep]
@@ -658,8 +658,11 @@ re-implementation.
 
 \section{Paper-Specific Prompt (Ablation)}\label{app:paper_prompt}
 
-The paper-specific prompt used in the prompt ablation (\S\ref{sec:ablation}), reproduced verbatim from \fpath{src/extraction_prompts.py}.
+The paper-specific prompt used in the prompt ablation (\S\ref{sec:ablation}) is reproduced verbatim from \fpath{src/extraction_prompts.py} in Table~\ref{tab:prompt_paper}.
 
+\begin{table}[!tb]
+\caption{Paper-specific prompt used in the prompt ablation (App.~\ref{app:paper_prompt}), verbatim.}
+\label{tab:prompt_paper}
 \begin{promptbox}
 You are an expert at identifying implicit assumptions in academic papers.
 
@@ -693,13 +696,19 @@ Format:
 Paper text:
 {paper_text}
 \end{promptbox}
+\end{table}
+
+
 
 The critical difference: the paper-specific prompt asks for assumptions \emph{of this paper}, while the field-wide prompt (App.~\ref{app:prompt}) asks for assumptions \emph{of the entire subfield}.
 
 \section{Clean Extraction Prompt (Main Results)}\label{app:prompt}
 
-The prompt used for the main GPT-4o results (Table~\ref{tab:results}), reproduced verbatim from \fpath{scripts/run_gpt4o_clean_all10.py}; it contains no few-shot examples. Each corpus paper is sent separately (title, year, venue, and abstract as \texttt{\{paper\_text\}}; temperature 0, seed 42). The \texttt{confidence} field alone orders the ranked list, and the ``[X] is necessary for [Y]'' pattern is also what the matcher compares against (\S\ref{sec:discussion}).
+The prompt used for the main GPT-4o results (Table~\ref{tab:results}) is shown in Table~\ref{tab:prompt_clean}, reproduced verbatim from \fpath{scripts/run_gpt4o_clean_all10.py}; it contains no few-shot examples. Each corpus paper is sent separately (title, year, venue, and abstract as \texttt{\{paper\_text\}}; temperature 0, seed 42). The \texttt{confidence} field alone orders the ranked list, and the ``[X] is necessary for [Y]'' pattern is also what the matcher compares against (\S\ref{sec:discussion}).
 
+\begin{table}[!tb]
+\caption{Clean extraction prompt used for the main GPT-4o results (App.~\ref{app:prompt}), verbatim.}
+\label{tab:prompt_clean}
 \begin{promptbox}
 You are an expert at identifying the foundational, field-wide assumptions that academic papers inherit from their broader research community.
 
@@ -727,6 +736,9 @@ Format:
 Paper text:
 {paper_text}
 \end{promptbox}
+\end{table}
+
+
 
 \section{Per-Category Analysis Details}\label{app:percategory}
 
@@ -1059,9 +1071,11 @@ BERT      & Corpus contamination (OpenAlex retrieved physics paper) & Corpus key
 
 \section{Per-Paradigm Rank Heatmap}\label{app:heatmap}
 
+Figure~\ref{fig:rank_heatmap} shows, for every paradigm and model, the confidence rank at which the target was first matched.
+
 \begin{figure}[!htb]
 \centering
-\includegraphics[width=\columnwidth]{figs/fig_rank_heatmap.pdf}
+\includegraphics[width=0.9\columnwidth]{figs/fig_rank_heatmap.pdf}
 \caption{Confidence rank of the (best-matching) target assumption per paradigm and LLM. Lower = better; ``—'' = no extraction cleared the 0.65 similarity threshold. The matrix makes the per-paradigm spread (6/10 paradigms recovered by GPT-4o, only 1 by Mistral) and the cross-model confound (Diffusion is the only paradigm matched by all five models) directly visible.}
 \label{fig:rank_heatmap}
 \end{figure}
